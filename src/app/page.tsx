@@ -1,15 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 import { OriginMap } from "@/components/OriginMap";
 import { TraceABatch } from "@/components/TraceABatch";
 import { Reveal } from "@/components/Reveal";
 import { CountUp } from "@/components/CountUp";
-
-const NAV_LINKS = ["Sourcing", "Verification", "Origins", "Catalog"];
+import { SiteNav } from "@/components/SiteNav";
+import { SiteFooter } from "@/components/SiteFooter";
 
 const PRODUCTS = [
-  { name: "MATCHA", origin: "UJI · JAPAN", bg: "bg-matcha", tint: "text-matcha-tint", label: "CEREMONIAL · PREMIUM · CULINARY", img: "/products/matcha.jpg", overlay: "bg-matcha/35" },
-  { name: "UBE", origin: "LUZON · PHILIPPINES", bg: "bg-ube", tint: "text-ube-tint", label: "PURPLE YAM", img: "/products/ube.jpg", overlay: "bg-ube/35" },
-  { name: "LION'S MANE", origin: "FUJIAN · CHINA", bg: "bg-lionsmane", tint: "text-lionsmane-tint", label: "FUNCTIONAL MUSHROOM", img: "/products/lionsmane.jpg", overlay: "bg-lionsmane/58" },
+  { name: "MATCHA", href: "/catalog/matcha", origin: "UJI · JAPAN", bg: "bg-matcha", tint: "text-matcha-tint", label: "CEREMONIAL · PREMIUM · CULINARY", img: "/products/matcha.jpg", overlay: "bg-matcha/35" },
+  { name: "UBE", href: "/catalog/ube", origin: "LUZON · PHILIPPINES", bg: "bg-ube", tint: "text-ube-tint", label: "PURPLE YAM", img: "/products/ube.jpg", overlay: "bg-ube/35" },
+  { name: "LION'S MANE", href: "/catalog/lions-mane", origin: "FUJIAN · CHINA", bg: "bg-lionsmane", tint: "text-lionsmane-tint", label: "FUNCTIONAL MUSHROOM", img: "/products/lionsmane.jpg", overlay: "bg-lionsmane/58" },
 ];
 
 const PILLARS = [
@@ -46,22 +47,7 @@ const CERTS = ["JAS", "EU ORGANIC", "USDA ORGANIC", "HACCP", "FSSC 22000", "KOSH
 export default function Home() {
   return (
     <>
-      {/* NAV */}
-      <header className="sticky top-0 z-50 border-b border-stone/15 bg-oat/85 backdrop-blur">
-        <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <Image src="/logos/sfp-wordmark.svg" alt="Superfoods Partners" width={150} height={28} priority />
-          <div className="hidden items-center gap-8 md:flex">
-            {NAV_LINKS.map((l) => (
-              <a key={l} href="#" className="text-sm text-stone transition-colors hover:text-green">
-                {l}
-              </a>
-            ))}
-          </div>
-          <a href="#contact" className="rounded-lg bg-green px-4 py-2 text-sm font-medium text-oat transition-opacity hover:opacity-90">
-            Request volume
-          </a>
-        </nav>
-      </header>
+      <SiteNav />
 
       <main className="flex-1">
         {/* HERO */}
@@ -77,9 +63,9 @@ export default function Home() {
               Every origin in the world, routed through one trusted hub in Hong Kong. Verified, documented, traceable.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <a href="#contact" className="rounded-lg bg-green px-5 py-3 text-sm font-medium text-oat transition-opacity hover:opacity-90">
+              <Link href="/contact" className="rounded-lg bg-green px-5 py-3 text-sm font-medium text-oat transition-opacity hover:opacity-90">
                 Request a volume quote
-              </a>
+              </Link>
               <a href="#trace" className="rounded-lg border border-green/25 px-5 py-3 text-sm font-medium text-green transition-colors hover:bg-green/5">
                 Trace a batch →
               </a>
@@ -91,7 +77,7 @@ export default function Home() {
         </section>
 
         {/* CATALOG GRID */}
-        <section id="catalog" className="mx-auto max-w-6xl px-6 pb-24">
+        <section className="mx-auto max-w-6xl px-6 pb-24">
           <Reveal className="mb-8">
             <div className="mb-4 flex items-center gap-3">
               <span className="mono text-[11px] text-amber">(01)</span>
@@ -100,15 +86,15 @@ export default function Home() {
             </div>
             <div className="flex items-end justify-between">
               <h2 className="text-3xl font-medium text-green">Five origins, one standard.</h2>
-              <a href="#" className="mono text-[11px] uppercase tracking-widest text-stone/60 transition-colors hover:text-green">
+              <Link href="/catalog" className="mono text-[11px] uppercase tracking-widest text-stone/60 transition-colors hover:text-green">
                 View all →
-              </a>
+              </Link>
             </div>
           </Reveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {PRODUCTS.map((p, i) => (
               <Reveal key={p.name} delay={i * 0.08}>
-                <a href="#" className={`group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl ${p.bg} p-6 transition-transform duration-300 hover:-translate-y-1.5`}>
+                <Link href={p.href} className={`group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl ${p.bg} p-6 transition-transform duration-300 hover:-translate-y-1.5`}>
                   <div
                     className="absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-[1800ms] ease-out group-hover:opacity-100"
                     style={{ backgroundImage: `url(${p.img})` }}
@@ -122,11 +108,11 @@ export default function Home() {
                       <span className="translate-x-0 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">→</span>
                     </span>
                   </span>
-                </a>
+                </Link>
               </Reveal>
             ))}
             <Reveal delay={0.24}>
-              <a href="#" className="group flex aspect-[4/5] flex-col justify-between rounded-xl border border-amber/40 bg-forest p-6 transition-transform duration-300 hover:-translate-y-1.5">
+              <Link href="/origins" className="group flex aspect-[4/5] flex-col justify-between rounded-xl border border-amber/40 bg-forest p-6 transition-transform duration-300 hover:-translate-y-1.5">
                 <span className="mono text-[10px] uppercase tracking-wide text-amber">Superfoods</span>
                 <span>
                   <span className="block text-3xl font-medium leading-tight text-oat">50+</span>
@@ -135,7 +121,7 @@ export default function Home() {
                     <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
                   </span>
                 </span>
-              </a>
+              </Link>
             </Reveal>
           </div>
         </section>
@@ -265,6 +251,9 @@ export default function Home() {
               <p className="mt-4 max-w-xl leading-relaxed text-oat/75">
                 And there are people behind it: a team you can call, in your timezone, who actually pick up. Part of the Pure Matcha Partners family.
               </p>
+              <Link href="/about" className="mono mt-6 inline-flex items-center gap-1 text-[11px] uppercase tracking-wide text-amber transition-opacity hover:opacity-80">
+                Our story <span>→</span>
+              </Link>
             </Reveal>
           </div>
         </section>
@@ -323,16 +312,16 @@ export default function Home() {
         </section>
 
         {/* CTA */}
-        <section id="contact" className="bg-oat">
+        <section className="bg-oat">
           <div className="mx-auto max-w-6xl px-6 py-28 text-center">
             <Reveal>
               <h2 className="text-4xl font-medium tracking-tight text-green md:text-5xl">Move volume you can trust.</h2>
               <p className="mx-auto mt-5 max-w-lg text-stone">
                 Tell us what you need and at what scale. We&apos;ll source, verify and document it — and route it through Hong Kong to you.
               </p>
-              <a href="#" className="mt-9 inline-block rounded-lg bg-green px-6 py-3.5 text-sm font-medium text-oat transition-opacity hover:opacity-90">
+              <Link href="/contact" className="mt-9 inline-block rounded-lg bg-green px-6 py-3.5 text-sm font-medium text-oat transition-opacity hover:opacity-90">
                 Request a volume quote
-              </a>
+              </Link>
               <p className="mono mt-5 text-[11px] uppercase tracking-wide text-stone/50">
                 Send your spec — lab report &amp; quote within 48 hours
               </p>
@@ -341,27 +330,7 @@ export default function Home() {
         </section>
       </main>
 
-      {/* FOOTER */}
-      <footer className="bg-forest text-oat/80">
-        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 md:flex-row md:items-start md:justify-between">
-          <div className="flex items-center gap-4">
-            <Image src="/logos/sfp-roundel-reversed.svg" alt="" width={52} height={52} />
-            <div>
-              <p className="font-medium text-oat">Superfoods Partners</p>
-              <p className="mono text-[11px] uppercase">Sourced at scale. Trusted at origin.</p>
-            </div>
-          </div>
-          <div className="mono text-[11px] uppercase leading-relaxed">
-            <p>Hong Kong hub</p>
-            <p className="text-amber">22.32°N 114.17°E</p>
-          </div>
-        </div>
-        <div className="border-t border-oat/10">
-          <p className="mx-auto max-w-6xl px-6 py-5 text-[11px] text-oat/50">
-            © 2026 Superfoods Partners — A Pure Matcha Partners company.
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
     </>
   );
 }
