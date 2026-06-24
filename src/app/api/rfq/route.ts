@@ -25,7 +25,7 @@ export async function POST(req: Request) {
   }
 
   const to = process.env.RFQ_TO_EMAIL || "leonard@purematchapartners.com";
-  const from = process.env.RFQ_FROM_EMAIL || "Superfoods Partners <onboarding@resend.dev>";
+  const from = process.env.RFQ_FROM_EMAIL || "Superfoods Partners <sourcing@superfoodspartners.com>";
 
   const row = (k: string, v?: string) =>
     v ? `<tr><td style="padding:4px 12px 4px 0;color:#5A5E53;font-size:13px">${k}</td><td style="padding:4px 0;color:#1E3D2A;font-size:13px"><strong>${v}</strong></td></tr>` : "";
