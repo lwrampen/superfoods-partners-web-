@@ -15,7 +15,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://superfoodspartners.com"),
+  metadataBase: new URL("https://www.superfoodspartners.com"),
   title: {
     default: "Superfoods Partners — Sourced at scale. Trusted at origin.",
     template: "%s | Superfoods Partners",
