@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
 
-const BASE = "https://superfoods-partners-web.vercel.app";
+const BASE = "https://superfoodspartners.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = ["", "/catalog", "/origins", "/verification", "/about", "/contact"].map((path) => ({

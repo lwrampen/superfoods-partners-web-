@@ -35,7 +35,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
     name: `${p.name} — bulk / wholesale`,
     description: p.description,
     category: p.category,
-    image: p.img ? `https://superfoods-partners-web.vercel.app${p.img}` : undefined,
+    image: p.img ? `https://superfoodspartners.com${p.img}` : undefined,
     brand: { "@type": "Organization", name: "Superfoods Partners" },
     offers: {
       "@type": "Offer",
