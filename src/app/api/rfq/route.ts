@@ -24,7 +24,7 @@ export async function POST(req: Request) {
     return Response.json({ ok: false, error: "unconfigured" }, { status: 503 });
   }
 
-  const to = process.env.RFQ_TO_EMAIL || "leonard@bouwportaal.nl";
+  const to = process.env.RFQ_TO_EMAIL || "leonard@purematchapartners.com";
   const from = process.env.RFQ_FROM_EMAIL || "Superfoods Partners <onboarding@resend.dev>";
 
   const row = (k: string, v?: string) =>

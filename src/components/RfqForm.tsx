@@ -94,7 +94,7 @@ export function RfqForm() {
       {status === "error" && (
         <p className="mt-4 text-sm text-hibiscus">
           Something went wrong sending your request. Please email us directly at{" "}
-          <a href="mailto:leonard@bouwportaal.nl" className="underline">leonard@bouwportaal.nl</a>.
+          <a href="mailto:leonard@purematchapartners.com" className="underline">leonard@purematchapartners.com</a>.
         </p>
       )}
     </form>
