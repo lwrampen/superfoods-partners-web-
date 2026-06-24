@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oat: #f0ece2;
+  --color-sand: #e7e2d6;
+  --color-green: #1e3d2a;
+  --color-forest: #14271b;
+  --color-stone: #5a5e53;
+  --color-amber: #e0a23e;
+
+  --color-matcha: #1b5e3f;
+  --color-matcha-tint: #a7e3c4;
+  --color-ube: #7e3fb0;
+  --color-ube-tint: #dcc2f0;
+  --color-lionsmane: #c58a2a;
+  --color-lionsmane-tint: #f4dea8;
+  --color-hojicha: #6b3a1e;
+  --color-hojicha-tint: #e4c3a6;
+  --color-hibiscus: #b0324e;
+  --color-hibiscus-tint: #f2b8c6;
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background-color: var(--color-oat);
+  color: var(--color-stone);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background-color: var(--color-green);
+  color: var(--color-oat);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-green);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
