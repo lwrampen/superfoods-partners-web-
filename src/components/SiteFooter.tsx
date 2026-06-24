@@ -17,7 +17,7 @@ export function SiteFooter() {
             <span className="mono text-[10px] uppercase tracking-wide text-oat/40">Catalogue</span>
             <Link href="/catalog" className="hover:text-oat">Matcha</Link>
             <Link href="/catalog" className="hover:text-oat">Superfoods</Link>
-            <Link href="/catalog" className="hover:text-oat">Catalogue</Link>
+            <Link href="/origins" className="hover:text-oat">Origins</Link>
           </div>
           <div className="mono text-[11px] uppercase leading-relaxed">
             <p className="text-oat/40">Hong Kong hub</p>

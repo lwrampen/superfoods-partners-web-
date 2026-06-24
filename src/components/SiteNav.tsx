@@ -1,8 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// Only routes that exist today — expanded as Origins/Verification/About ship.
-const LINKS = [{ label: "Catalog", href: "/catalog" }];
+const LINKS = [
+  { label: "Catalog", href: "/catalog" },
+  { label: "Origins", href: "/origins" },
+  { label: "Verification", href: "/verification" },
+  { label: "About", href: "/about" },
+];
 
 export function SiteNav() {
   return (

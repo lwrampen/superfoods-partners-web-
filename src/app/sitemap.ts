@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
-import { PRODUCTS } from "@/data/catalog";
+import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
 
 const BASE = "https://superfoods-partners-web.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/catalog", "/contact"].map((path) => ({
+  const staticRoutes = ["", "/catalog", "/origins", "/verification", "/about", "/contact"].map((path) => ({
     url: `${BASE}${path}`,
     changeFrequency: "weekly" as const,
     priority: path === "" ? 1 : 0.8,
@@ -16,5 +16,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...productRoutes];
+  const originRoutes = ORIGIN_LIST.map((o) => ({
+    url: `${BASE}/origins/${o.slug}`,
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...productRoutes, ...originRoutes];
 }

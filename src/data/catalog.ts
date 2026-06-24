@@ -129,3 +129,9 @@ export function productSku(p: Product, opts?: { grade?: string; origin?: Origin;
   const form = opts?.form === "Organic" ? "O" : "C";
   return `SFP-${p.code}-${grade}-1KG-${origin}-${form}`;
 }
+
+export const ORIGIN_LIST = Object.values(ORIGINS);
+
+export function productsForOrigin(slug: string): Product[] {
+  return PRODUCTS.filter((p) => p.originSlugs.includes(slug));
+}
