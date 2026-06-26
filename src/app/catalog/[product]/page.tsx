@@ -29,6 +29,10 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
   const origins = p.originSlugs.map((s) => ORIGINS[s]);
   const primary = origins[0];
 
+  // B2B wholesale is quote-based (RFQ) with no public pricing. A Product `offers`
+  // block without a `price` triggers Google's critical "price must be specified"
+  // error and blocks the rich result, so we omit `offers` entirely rather than
+  // fabricate a price. The remaining Product fields stay valid and eligible.
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -37,12 +41,6 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
     category: p.category,
     image: p.img ? `https://www.superfoodspartners.com${p.img}` : undefined,
     brand: { "@type": "Organization", name: "Superfoods Partners" },
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      priceCurrency: "USD",
-      seller: { "@type": "Organization", name: "Superfoods Partners" },
-    },
   };
 
   return (
