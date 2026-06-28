@@ -29,18 +29,19 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
   const origins = p.originSlugs.map((s) => ORIGINS[s]);
   const primary = origins[0];
 
-  // B2B wholesale is quote-based (RFQ) with no public pricing. A Product `offers`
-  // block without a `price` triggers Google's critical "price must be specified"
-  // error and blocks the rich result, so we omit `offers` entirely rather than
-  // fabricate a price. The remaining Product fields stay valid and eligible.
+  // B2B wholesale is quote-based (RFQ): no public price and no reviews, so a
+  // Product snippet can never satisfy Google's offers/review/aggregateRating
+  // requirement. Instead of emitting Product markup that will always be flagged,
+  // we ship an accurate BreadcrumbList (eligible, no merchant requirements) and
+  // rely on site-wide Organization schema for brand context.
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    name: `${p.name} — bulk / wholesale`,
-    description: p.description,
-    category: p.category,
-    image: p.img ? `https://www.superfoodspartners.com${p.img}` : undefined,
-    brand: { "@type": "Organization", name: "Superfoods Partners" },
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.superfoodspartners.com/" },
+      { "@type": "ListItem", position: 2, name: "Catalogue", item: "https://www.superfoodspartners.com/catalog" },
+      { "@type": "ListItem", position: 3, name: p.name, item: `https://www.superfoodspartners.com/catalog/${p.slug}` },
+    ],
   };
 
   return (
