@@ -103,7 +103,9 @@ export function TradeGlobe() {
     const el = wrapRef.current;
     const ro = new ResizeObserver(() => {
       const w = el.clientWidth;
-      const h = w >= 768 ? 560 : w >= 480 ? 460 : 360;
+      // Keep height < width so the globe (which scales to canvas height) always
+      // fits horizontally and never clips off the sides on narrow screens.
+      const h = Math.min(560, Math.round(w * 0.9));
       setSize({ w, h });
     });
     ro.observe(el);
