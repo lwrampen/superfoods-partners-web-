@@ -111,9 +111,51 @@ export const PRODUCTS: Product[] = [
     forms: ["Conventional"],
     certs: ["HACCP"],
   },
+  {
+    slug: "jasmine-tea-powder",
+    name: "JASMINE",
+    category: "Specialty Teas",
+    code: "JA",
+    accent: "#5E8C6A",
+    tint: "#CDE8D4",
+    tagline: "Jasmine-scented green tea, finely milled.",
+    description:
+      "Green tea powder layered with real jasmine blossom — floral aroma, smooth finish. For lattes, RTD, bakery and blends. Sourced at volume in Fujian, screened and documented per batch.",
+    originSlugs: ["fujian-cn"],
+    forms: ["Organic", "Conventional"],
+    certs: ["EU Organic", "HACCP"],
+  },
+  {
+    slug: "oolong-tea-powder",
+    name: "OOLONG",
+    category: "Specialty Teas",
+    code: "OO",
+    accent: "#B5722E",
+    tint: "#EBC79A",
+    tagline: "Semi-oxidised tea, roasted and finely milled.",
+    description:
+      "Whole-leaf oolong milled to a fine powder — toasty, floral and complex. Semi-oxidised in Fujian's classic oolong country. For specialty lattes, RTD and dessert applications.",
+    originSlugs: ["fujian-cn"],
+    forms: ["Organic", "Conventional"],
+    certs: ["EU Organic", "HACCP"],
+  },
+  {
+    slug: "earl-grey-tea-powder",
+    name: "EARL GREY",
+    category: "Specialty Teas",
+    code: "EG",
+    accent: "#3E5A78",
+    tint: "#BFD2E6",
+    tagline: "Black tea with natural bergamot, finely milled.",
+    description:
+      "Black tea powder infused with natural bergamot — bold, citrus-bright and aromatic. A distinctive base for lattes, bakery and beverage innovation. Sourced and documented per batch.",
+    originSlugs: ["fujian-cn"],
+    forms: ["Conventional"],
+    certs: ["HACCP"],
+  },
 ];
 
-export const CATEGORIES = ["Matcha", "Hojicha", "Superfoods"];
+export const CATEGORIES = ["Matcha", "Hojicha", "Specialty Teas", "Superfoods"];
 
 export function getProduct(slug: string): Product | undefined {
   return PRODUCTS.find((p) => p.slug === slug);
