@@ -2,19 +2,74 @@
 
 import { motion, AnimatePresence } from "motion/react";
 import { useEffect, useState } from "react";
+import { ORIGIN_LIST, productsForOrigin, type Origin } from "@/data/catalog";
 
-const ORIGINS = [
-  { x: 42, y: 48, c: "#1B5E3F", label: "MATCHA · UJI, JP" },
-  { x: 64, y: 156, c: "#7E3FB0", label: "UBE · LUZON, PH" },
-  { x: 282, y: 58, c: "#C58A2A", label: "LION'S MANE · FUJIAN, CN" },
-  { x: 270, y: 158, c: "#B0324E", label: "HIBISCUS · ASWAN, EG" },
-];
-const HUB = { x: 162, y: 104 };
+const HUB = { x: 160, y: 105 };
+
+// Representative colour per country (keyed by SKU country code).
+const COUNTRY_COLOR: Record<string, string> = {
+  JP: "#1B5E3F", // matcha green
+  CN: "#C58A2A", // gold
+  PH: "#7E3FB0", // ube purple
+  EG: "#B0324E", // hibiscus red
+};
+const FALLBACK_COLOR = "#5E8C6A";
+
+// Build the sourcing nodes from the catalogue — one node per country, with the
+// products actually sourced there. Positions are placed on an even ellipse
+// around the hub (stylised, not a literal geo-projection), so adding an origin
+// or country in catalog.ts automatically updates this map. One source of truth.
+type Node = { country: string; cc: string; x: number; y: number; c: string; label: string };
+
+function buildNodes(): Node[] {
+  const order: string[] = [];
+  const groups = new Map<string, Origin[]>();
+  for (const o of ORIGIN_LIST) {
+    if (!groups.has(o.country)) {
+      groups.set(o.country, []);
+      order.push(o.country);
+    }
+    groups.get(o.country)!.push(o);
+  }
+
+  const n = order.length;
+  const rx = 120;
+  const ry = 76;
+
+  return order.map((country, k) => {
+    const origins = groups.get(country)!;
+    const cc = origins[0].countryCode;
+
+    // Unique products sourced from this country, in catalogue order.
+    const prodNames: string[] = [];
+    for (const o of origins) {
+      for (const p of productsForOrigin(o.slug)) {
+        if (!prodNames.includes(p.name)) prodNames.push(p.name);
+      }
+    }
+    const head = prodNames.slice(0, 2).join(", ");
+    const more = prodNames.length > 2 ? ` +${prodNames.length - 2}` : "";
+    const label = `${head}${more} · ${country.toUpperCase()}`;
+
+    // Even ellipse around the hub, starting bottom-right for a balanced spread.
+    const a = ((45 + (k * 360) / n) * Math.PI) / 180;
+    return {
+      country,
+      cc,
+      x: Math.round(HUB.x + rx * Math.cos(a)),
+      y: Math.round(HUB.y + ry * Math.sin(a)),
+      c: COUNTRY_COLOR[cc] ?? FALLBACK_COLOR,
+      label,
+    };
+  });
+}
+
+const NODES = buildNodes();
 
 export function OriginMap() {
   const [i, setI] = useState(0);
   useEffect(() => {
-    const id = setInterval(() => setI((p) => (p + 1) % ORIGINS.length), 2600);
+    const id = setInterval(() => setI((p) => (p + 1) % NODES.length), 2600);
     return () => clearInterval(id);
   }, []);
 
@@ -39,27 +94,33 @@ export function OriginMap() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: "-100%", opacity: 0 }}
             transition={{ duration: 0.4, ease: "easeOut" }}
-            className="mono text-sm uppercase text-green"
+            className="mono truncate text-sm uppercase text-green"
           >
-            {ORIGINS[i].label}
+            {NODES[i].label}
           </motion.p>
         </AnimatePresence>
       </div>
 
       <svg viewBox="0 0 320 210" className="mt-5 w-full rounded-lg bg-forest">
-        {ORIGINS.map((o, idx) => (
-          <g key={idx}>
+        {NODES.map((o, idx) => (
+          <g key={o.country}>
             <line
               x1={o.x}
               y1={o.y}
               x2={HUB.x}
               y2={HUB.y}
               stroke={o.c}
-              strokeOpacity={0.3}
+              strokeOpacity={idx === i ? 0.6 : 0.3}
               strokeWidth={1}
               strokeDasharray="3 4"
             />
-            <circle cx={o.x} cy={o.y} r={3.5} fill={o.c} />
+            <circle cx={o.x} cy={o.y} r={idx === i ? 5 : 3.5} fill={o.c} />
+            {idx === i && (
+              <circle cx={o.x} cy={o.y} r={3.5} fill="none" stroke={o.c} strokeWidth={0.6}>
+                <animate attributeName="r" values="4;11" dur="1.6s" repeatCount="indefinite" />
+                <animate attributeName="opacity" values="0.7;0" dur="1.6s" repeatCount="indefinite" />
+              </circle>
+            )}
             <motion.circle
               r={2.6}
               fill={o.c}
