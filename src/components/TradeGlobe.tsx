@@ -215,10 +215,10 @@ export function TradeGlobe() {
   }
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[1.5fr_1fr] lg:items-stretch">
+    <div className="grid gap-6 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] lg:items-stretch">
       <div
         ref={wrapRef}
-        className="relative w-full overflow-hidden rounded-2xl bg-forest"
+        className="relative w-full min-w-0 overflow-hidden rounded-2xl bg-forest"
         onPointerEnter={() => setPointerOver(true)}
         onPointerLeave={() => {
           setPointerOver(false);
@@ -274,7 +274,7 @@ export function TradeGlobe() {
         )}
       </div>
 
-      <div className="flex flex-col rounded-2xl border border-oat/10 bg-forest/40 p-4" style={{ maxHeight: size.h ? size.h : undefined }}>
+      <div className="flex min-w-0 flex-col rounded-2xl border border-oat/10 bg-forest/40 p-4" style={{ maxHeight: size.h ? size.h : undefined }}>
         <div className="flex items-center justify-between px-1 pb-2">
           <span className="mono text-[11px] uppercase tracking-widest text-oat/60">Locations</span>
           {selected && (
