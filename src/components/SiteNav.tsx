@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { MobileMenu } from "@/components/MobileMenu";
 
 const LINKS = [
   { label: "Catalog", href: "/catalog" },
@@ -22,9 +23,12 @@ export function SiteNav() {
             </Link>
           ))}
         </div>
-        <Link href="/contact" className="rounded-lg bg-green px-4 py-2 text-sm font-medium text-oat transition-opacity hover:opacity-90">
-          Request volume
-        </Link>
+        <div className="flex items-center gap-2">
+          <Link href="/contact" className="hidden rounded-lg bg-green px-4 py-2 text-sm font-medium text-oat transition-opacity hover:opacity-90 md:inline-block">
+            Request volume
+          </Link>
+          <MobileMenu links={LINKS} />
+        </div>
       </nav>
     </header>
   );
