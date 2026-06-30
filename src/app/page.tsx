@@ -6,12 +6,7 @@ import { Reveal } from "@/components/Reveal";
 import { CountUp } from "@/components/CountUp";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
-
-const PRODUCTS = [
-  { name: "MATCHA", href: "/catalog/matcha", origin: "UJI · JAPAN", bg: "bg-matcha", tint: "text-matcha-tint", label: "CEREMONIAL · PREMIUM · CULINARY", img: "/products/matcha.jpg", overlay: "bg-matcha/35" },
-  { name: "UBE", href: "/catalog/ube", origin: "LUZON · PHILIPPINES", bg: "bg-ube", tint: "text-ube-tint", label: "PURPLE YAM", img: "/products/ube.jpg", overlay: "bg-ube/35" },
-  { name: "LION'S MANE", href: "/catalog/lions-mane", origin: "FUJIAN · CHINA", bg: "bg-lionsmane", tint: "text-lionsmane-tint", label: "FUNCTIONAL MUSHROOM", img: "/products/lionsmane.jpg", overlay: "bg-lionsmane/58" },
-];
+import { PRODUCTS, ORIGINS, ORIGIN_LIST } from "@/data/catalog";
 
 const PILLARS = [
   { n: "01", t: "Source", d: "Direct relationships at origin, worldwide." },
@@ -85,44 +80,42 @@ export default function Home() {
               <span className="mono text-[11px] uppercase tracking-widest text-stone/60">Catalogue</span>
             </div>
             <div className="flex items-end justify-between">
-              <h2 className="text-3xl font-medium text-green">Five origins, one standard.</h2>
+              <h2 className="text-3xl font-medium text-green">{ORIGIN_LIST.length} origins, one standard.</h2>
               <Link href="/catalog" className="mono text-[11px] uppercase tracking-widest text-stone/60 transition-colors hover:text-green">
                 View all →
               </Link>
             </div>
           </Reveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {PRODUCTS.map((p, i) => (
-              <Reveal key={p.name} delay={i * 0.08}>
-                <Link href={p.href} className={`group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl ${p.bg} p-6 transition-transform duration-300 hover:-translate-y-1.5`}>
-                  <div
-                    className="absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-[1800ms] ease-out group-hover:opacity-100"
-                    style={{ backgroundImage: `url(${p.img})` }}
-                  />
-                  <div className={`absolute inset-0 ${p.overlay}`} />
-                  <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{p.label}</span>
-                  <span className="relative">
-                    <span className={`block text-3xl font-medium leading-tight ${p.tint}`}>{p.name}</span>
-                    <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/80">
-                      {p.origin}
-                      <span className="translate-x-0 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">→</span>
+            {PRODUCTS.map((p, i) => {
+              const o = ORIGINS[p.originSlugs[0]];
+              const label = p.grades ? p.grades.join(" · ") : p.category;
+              return (
+                <Reveal key={p.slug} delay={i * 0.06}>
+                  <Link
+                    href={`/catalog/${p.slug}`}
+                    className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
+                    style={{ backgroundColor: p.accent }}
+                  >
+                    {p.img && (
+                      <div
+                        className="absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-[1800ms] ease-out group-hover:opacity-100"
+                        style={{ backgroundImage: `url(${p.img})` }}
+                      />
+                    )}
+                    <div className="absolute inset-0" style={{ backgroundColor: p.accent, opacity: 0.5 }} />
+                    <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{label}</span>
+                    <span className="relative">
+                      <span className="block text-3xl font-medium leading-tight" style={{ color: p.tint }}>{p.name}</span>
+                      <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/80">
+                        {o.name === o.country ? o.name : `${o.name} · ${o.country}`}
+                        <span className="translate-x-0 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">→</span>
+                      </span>
                     </span>
-                  </span>
-                </Link>
-              </Reveal>
-            ))}
-            <Reveal delay={0.24}>
-              <Link href="/origins" className="group flex aspect-[4/5] flex-col justify-between rounded-xl border border-amber/40 bg-forest p-6 transition-transform duration-300 hover:-translate-y-1.5">
-                <span className="mono text-[10px] uppercase tracking-wide text-amber">Superfoods</span>
-                <span>
-                  <span className="block text-3xl font-medium leading-tight text-oat">50+</span>
-                  <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-amber">
-                    Discover origins
-                    <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
-                  </span>
-                </span>
-              </Link>
-            </Reveal>
+                  </Link>
+                </Reveal>
+              );
+            })}
           </div>
         </section>
 
