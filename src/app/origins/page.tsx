@@ -6,15 +6,18 @@ import { Reveal } from "@/components/Reveal";
 import { TradeGlobe } from "@/components/TradeGlobe";
 import { ORIGIN_LIST, productsForOrigin } from "@/data/catalog";
 
+const ORIGIN_COUNT = ORIGIN_LIST.length;
+const COUNTRY_LIST = [...new Set(ORIGIN_LIST.map((o) => o.country))];
+const COUNTRY_COUNT = COUNTRY_LIST.length;
+
 export const metadata: Metadata = {
-  title: "Origins — 50+ verified sources across 8 countries",
-  description:
-    "From Uji to Luzon, every Superfoods Partners origin is mapped, lab-tested and routed through one trusted hub in Hong Kong. Explore our sourcing network.",
+  title: `Origins — ${ORIGIN_COUNT} verified sources across ${COUNTRY_COUNT} countries`,
+  description: `Across ${COUNTRY_LIST.join(", ")}, every Superfoods Partners origin is mapped, lab-tested and routed through one trusted hub in Hong Kong. Explore our sourcing network.`,
 };
 
 const STATS = [
-  { v: "50+", l: "ORIGINS" },
-  { v: "8", l: "COUNTRIES" },
+  { v: String(ORIGIN_COUNT), l: "ORIGINS" },
+  { v: String(COUNTRY_COUNT), l: "COUNTRIES" },
   { v: "100%", l: "BATCH-TESTED" },
   { v: "1", l: "HUB · HONG KONG", amber: true },
 ];
@@ -35,7 +38,7 @@ export default function OriginsPage() {
               Every origin in the world, routed through one hub.
             </h1>
             <p className="mt-5 max-w-xl text-lg text-stone">
-              We hold direct relationships at source across 8 countries. Each batch is tested and documented before it ships — origin to Hong Kong to your facility.
+              We hold direct relationships at source across {COUNTRY_COUNT} countries. Each batch is tested and documented before it ships — origin to Hong Kong to your facility.
             </p>
           </Reveal>
         </section>

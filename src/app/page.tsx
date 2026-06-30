@@ -23,8 +23,8 @@ const STEPS = [
 ];
 
 const STATS = [
-  { value: 50, suffix: "+", l: "ORIGINS" },
-  { value: 8, suffix: "", l: "COUNTRIES" },
+  { value: ORIGIN_LIST.length, suffix: "", l: "ORIGINS" },
+  { value: new Set(ORIGIN_LIST.map((o) => o.country)).size, suffix: "", l: "COUNTRIES" },
   { value: 100, suffix: "%", l: "BATCH-TESTED" },
   { value: 1, suffix: "", l: "HUB · HONG KONG", amber: true },
 ];
