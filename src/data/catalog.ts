@@ -181,3 +181,36 @@ export const ORIGIN_LIST = Object.values(ORIGINS);
 export function productsForOrigin(slug: string): Product[] {
   return PRODUCTS.filter((p) => p.originSlugs.includes(slug));
 }
+
+// Place × product notes for the Origin Passport on each PDP.
+// Keyed by product slug → origin slug. (Profile varies by grade & origin, so these
+// describe the PLACE in relation to the product — not a fixed taste score.)
+export const ORIGIN_NOTES: Record<string, Record<string, string>> = {
+  matcha: {
+    "uji-jp": "Japan's ceremonial heartland near Kyoto — shaded gardens cultivated since the 12th century. Deep umami, vivid jade.",
+    "kagoshima-jp": "Volcanic, mineral-rich soil near Sakurajima. Earlier harvests, bold and lively character.",
+    "fujian-cn": "High-altitude Chinese gardens. Clean, vegetal profile — consistent and scalable at volume.",
+  },
+  hojicha: {
+    "uji-jp": "Uji leaf, charcoal-roasted in small batches. Warm, toasty, naturally low in caffeine.",
+    "kagoshima-jp": "Southern Japanese leaf, deep-roasted for a rich, nutty cup.",
+  },
+  ube: {
+    "luzon-ph": "Philippine highland yam. Naturally vivid purple, sweet and earthy — colour and flavour in one.",
+  },
+  "lions-mane": {
+    "fujian-cn": "Fruiting-body cultivation on hardwood substrate. Screened for actives and contaminants, documented per batch.",
+  },
+  hibiscus: {
+    "aswan-eg": "Upper-Nile sun along the Aswan basin. Deep-ruby calyces with bright, tart acidity.",
+  },
+  "jasmine-tea-powder": {
+    "fujian-cn": "Fujian's coastal hills — the classic jasmine-scenting region. Layered with fresh blossom; floral and smooth.",
+  },
+  "oolong-tea-powder": {
+    "fujian-cn": "Wuyi & Anxi oolong country. Semi-oxidised by hand for a toasty, floral complexity.",
+  },
+  "earl-grey-tea-powder": {
+    "fujian-cn": "A bodied Chinese black-tea base — the bold canvas for natural bergamot.",
+  },
+};
