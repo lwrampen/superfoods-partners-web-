@@ -50,14 +50,20 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
       <main className="flex-1">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-        {/* Themed hero band */}
-        <section style={{ backgroundColor: p.accent }}>
-          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+        {/* Immersive macro hero — the powder texture you can almost feel */}
+        <section className="relative isolate overflow-hidden" style={{ backgroundColor: p.accent }}>
+          {p.img && (
+            <>
+              <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${p.img})` }} aria-hidden />
+              <div className="absolute inset-0" style={{ background: `linear-gradient(to top, ${p.accent}, ${p.accent}cc 45%, ${p.accent}66)` }} aria-hidden />
+            </>
+          )}
+          <div className="relative mx-auto max-w-6xl px-6 py-20 md:py-32">
             <Link href="/catalog" className="mono text-[11px] uppercase tracking-wide text-white/60 transition-colors hover:text-white">
               ← Catalogue
             </Link>
             <p className="mono mt-6 text-[11px] uppercase tracking-widest text-white/70">{p.category}</p>
-            <h1 className="mt-3 text-5xl font-medium leading-tight md:text-6xl" style={{ color: p.tint }}>
+            <h1 className="mt-3 text-6xl font-medium leading-[0.95] md:text-7xl" style={{ color: p.tint }}>
               {p.name}
             </h1>
             <p className="mt-5 max-w-xl text-lg text-white/85">{p.tagline}</p>

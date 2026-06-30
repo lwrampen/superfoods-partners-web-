@@ -104,6 +104,7 @@ export const PRODUCTS: Product[] = [
     code: "HB",
     accent: "#B0324E",
     tint: "#F2B8C6",
+    img: "/products/hibiscus.jpg",
     tagline: "Tart, ruby-red botanical for teas and beverages.",
     description:
       "Deep-red hibiscus for infusions, RTD and blends. Sourced at volume, screened and documented.",
@@ -118,6 +119,7 @@ export const PRODUCTS: Product[] = [
     code: "JA",
     accent: "#5E8C6A",
     tint: "#CDE8D4",
+    img: "/products/jasmine-tea-powder.jpg",
     tagline: "Jasmine-scented green tea, finely milled.",
     description:
       "Green tea powder layered with real jasmine blossom — floral aroma, smooth finish. For lattes, RTD, bakery and blends. Sourced at volume in Fujian, screened and documented per batch.",
@@ -132,6 +134,7 @@ export const PRODUCTS: Product[] = [
     code: "OO",
     accent: "#B5722E",
     tint: "#EBC79A",
+    img: "/products/oolong-tea-powder.jpg",
     tagline: "Semi-oxidised tea, roasted and finely milled.",
     description:
       "Whole-leaf oolong milled to a fine powder — toasty, floral and complex. Semi-oxidised in Fujian's classic oolong country. For specialty lattes, RTD and dessert applications.",
@@ -146,6 +149,7 @@ export const PRODUCTS: Product[] = [
     code: "EG",
     accent: "#3E5A78",
     tint: "#BFD2E6",
+    img: "/products/earl-grey-tea-powder.jpg",
     tagline: "Black tea with natural bergamot, finely milled.",
     description:
       "Black tea powder infused with natural bergamot — bold, citrus-bright and aromatic. A distinctive base for lattes, bakery and beverage innovation. Sourced and documented per batch.",
