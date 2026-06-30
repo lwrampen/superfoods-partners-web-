@@ -189,6 +189,16 @@ export function productSku(p: Product, opts?: { grade?: string; origin?: Origin;
 
 export const ORIGIN_LIST = Object.values(ORIGINS);
 
+// Parse a "34.88°N 135.80°E" coords string into numeric lat/lng (for maps/globe).
+export function parseLatLng(coords: string): { lat: number; lng: number } {
+  const m = coords.match(/([\d.]+)°([NS])\s+([\d.]+)°([EW])/);
+  if (!m) return { lat: 0, lng: 0 };
+  return {
+    lat: parseFloat(m[1]) * (m[2] === "S" ? -1 : 1),
+    lng: parseFloat(m[3]) * (m[4] === "W" ? -1 : 1),
+  };
+}
+
 export function productsForOrigin(slug: string): Product[] {
   return PRODUCTS.filter((p) => p.originSlugs.includes(slug));
 }

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
+import { TradeGlobe } from "@/components/TradeGlobe";
 import { ORIGIN_LIST, productsForOrigin } from "@/data/catalog";
 
 export const metadata: Metadata = {
@@ -37,6 +38,41 @@ export default function OriginsPage() {
               We hold direct relationships at source across 8 countries. Each batch is tested and documented before it ships — origin to Hong Kong to your facility.
             </p>
           </Reveal>
+        </section>
+
+        <section className="bg-forest">
+          <div className="mx-auto max-w-6xl px-6 py-14 md:py-20">
+            <div className="mb-6 flex items-center gap-3">
+              <span className="mono text-[11px] text-amber">(02)</span>
+              <span className="h-px w-8 bg-oat/25" />
+              <span className="mono text-[11px] uppercase tracking-widest text-oat/55">Global trade map</span>
+            </div>
+            <h2 className="max-w-2xl text-3xl font-medium leading-tight text-oat md:text-4xl">
+              Where we source — and where we sell.
+            </h2>
+            <p className="mt-4 max-w-xl text-oat/70">
+              Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve — all routed through one hub in Hong Kong.
+            </p>
+
+            <div className="mt-9">
+              <TradeGlobe />
+            </div>
+
+            <div className="mono mt-6 flex flex-wrap gap-x-7 gap-y-3 text-[11px] uppercase tracking-wide text-oat/65">
+              <span className="flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#7FD9A6" }} />
+                Sourcing · {ORIGIN_LIST.length} origins
+              </span>
+              <span className="flex items-center gap-2">
+                <span className="h-2.5 w-3 rounded-sm" style={{ backgroundColor: "#E0A23E" }} />
+                Markets · US · EU (via Pure Matcha Partners) · Middle East
+              </span>
+              <span className="flex items-center gap-2">
+                <span className="h-3 w-3 rounded-full border-2" style={{ borderColor: "#E0A23E" }} />
+                Hub · Hong Kong
+              </span>
+            </div>
+          </div>
         </section>
 
         <section className="bg-green text-oat">
