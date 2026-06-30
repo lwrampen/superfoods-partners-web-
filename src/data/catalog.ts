@@ -28,11 +28,22 @@ export type Product = {
 };
 
 export const ORIGINS: Record<string, Origin> = {
+  // Japan
   "uji-jp": { slug: "uji-jp", name: "Uji", country: "Japan", countryCode: "JP", coords: "34.88°N 135.80°E" },
+  "shizuoka-jp": { slug: "shizuoka-jp", name: "Shizuoka", country: "Japan", countryCode: "JP", coords: "34.98°N 138.38°E" },
   "kagoshima-jp": { slug: "kagoshima-jp", name: "Kagoshima", country: "Japan", countryCode: "JP", coords: "31.56°N 130.56°E" },
+  "nara-jp": { slug: "nara-jp", name: "Nara", country: "Japan", countryCode: "JP", coords: "34.69°N 135.80°E" },
+  "gifu-jp": { slug: "gifu-jp", name: "Gifu", country: "Japan", countryCode: "JP", coords: "35.42°N 136.76°E" },
+  "ibaraki-jp": { slug: "ibaraki-jp", name: "Ibaraki", country: "Japan", countryCode: "JP", coords: "36.37°N 140.47°E" },
+  "kyoto-jp": { slug: "kyoto-jp", name: "Kyoto", country: "Japan", countryCode: "JP", coords: "35.01°N 135.77°E" },
+  // China
+  "east-china-cn": { slug: "east-china-cn", name: "East China", country: "China", countryCode: "CN", coords: "30.27°N 120.15°E" },
+  "south-china-cn": { slug: "south-china-cn", name: "South China", country: "China", countryCode: "CN", coords: "23.13°N 113.26°E" },
   "fujian-cn": { slug: "fujian-cn", name: "Fujian", country: "China", countryCode: "CN", coords: "26.07°N 119.30°E" },
-  "luzon-ph": { slug: "luzon-ph", name: "Luzon", country: "Philippines", countryCode: "PH", coords: "16.04°N 120.93°E" },
-  "aswan-eg": { slug: "aswan-eg", name: "Aswan", country: "Egypt", countryCode: "EG", coords: "24.09°N 32.90°E" },
+  "china-cn": { slug: "china-cn", name: "China", country: "China", countryCode: "CN", coords: "35.86°N 104.20°E" },
+  // Other
+  "philippines-ph": { slug: "philippines-ph", name: "Philippines", country: "Philippines", countryCode: "PH", coords: "12.88°N 121.77°E" },
+  "egypt-eg": { slug: "egypt-eg", name: "Egypt", country: "Egypt", countryCode: "EG", coords: "26.82°N 30.80°E" },
 };
 
 export const PRODUCTS: Product[] = [
@@ -48,7 +59,7 @@ export const PRODUCTS: Product[] = [
     description:
       "Vibrant, single-origin matcha in ceremonial, premium and culinary grades. Shade-grown and stone-milled, lab-tested every batch, available from sample to full container.",
     grades: ["Ceremonial", "Premium", "Culinary"],
-    originSlugs: ["uji-jp", "kagoshima-jp", "fujian-cn"],
+    originSlugs: ["uji-jp", "shizuoka-jp", "kagoshima-jp", "nara-jp", "gifu-jp", "ibaraki-jp", "east-china-cn", "south-china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["JAS", "EU Organic", "USDA Organic"],
   },
@@ -63,7 +74,7 @@ export const PRODUCTS: Product[] = [
     tagline: "Roasted green tea — low caffeine, deep aroma.",
     description:
       "Charcoal-roasted Japanese green tea with a warm, toasty profile. A natural fit for lattes, bakery and RTD applications.",
-    originSlugs: ["uji-jp", "kagoshima-jp"],
+    originSlugs: ["kyoto-jp", "uji-jp", "nara-jp", "shizuoka-jp", "kagoshima-jp", "east-china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["JAS", "EU Organic"],
   },
@@ -78,7 +89,7 @@ export const PRODUCTS: Product[] = [
     tagline: "Purple yam powder — colour and flavour from the Philippines.",
     description:
       "Naturally vivid purple yam powder for beverages, bakery and confectionery. Clean colour, consistent particle size, scalable supply.",
-    originSlugs: ["luzon-ph"],
+    originSlugs: ["philippines-ph", "china-cn"],
     forms: ["Conventional"],
     certs: ["HACCP", "FSSC 22000"],
   },
@@ -93,7 +104,7 @@ export const PRODUCTS: Product[] = [
     tagline: "Functional mushroom for nutraceutical formulation.",
     description:
       "Fruiting-body lion's mane for supplement and functional-food brands. Tested for actives and contaminants, documented per batch.",
-    originSlugs: ["fujian-cn"],
+    originSlugs: ["china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["USDA Organic", "Kosher"],
   },
@@ -108,7 +119,7 @@ export const PRODUCTS: Product[] = [
     tagline: "Tart, ruby-red botanical for teas and beverages.",
     description:
       "Deep-red hibiscus for infusions, RTD and blends. Sourced at volume, screened and documented.",
-    originSlugs: ["aswan-eg"],
+    originSlugs: ["east-china-cn", "egypt-eg"],
     forms: ["Conventional"],
     certs: ["HACCP"],
   },
@@ -122,8 +133,8 @@ export const PRODUCTS: Product[] = [
     img: "/products/jasmine-tea-powder.webp",
     tagline: "Jasmine-scented green tea, finely milled.",
     description:
-      "Green tea powder layered with real jasmine blossom — floral aroma, smooth finish. For lattes, RTD, bakery and blends. Sourced at volume in Fujian, screened and documented per batch.",
-    originSlugs: ["fujian-cn"],
+      "Green tea powder layered with real jasmine blossom — floral aroma, smooth finish. For lattes, RTD, bakery and blends. Sourced at volume, screened and documented per batch.",
+    originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["EU Organic", "HACCP"],
   },
@@ -137,8 +148,8 @@ export const PRODUCTS: Product[] = [
     img: "/products/oolong-tea-powder.webp",
     tagline: "Semi-oxidised tea, roasted and finely milled.",
     description:
-      "Whole-leaf oolong milled to a fine powder — toasty, floral and complex. Semi-oxidised in Fujian's classic oolong country. For specialty lattes, RTD and dessert applications.",
-    originSlugs: ["fujian-cn"],
+      "Whole-leaf oolong milled to a fine powder — toasty, floral and complex. Semi-oxidised in China's classic oolong country. For specialty lattes, RTD and dessert applications.",
+    originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["EU Organic", "HACCP"],
   },
@@ -153,7 +164,7 @@ export const PRODUCTS: Product[] = [
     tagline: "Black tea with natural bergamot, finely milled.",
     description:
       "Black tea powder infused with natural bergamot — bold, citrus-bright and aromatic. A distinctive base for lattes, bakery and beverage innovation. Sourced and documented per batch.",
-    originSlugs: ["fujian-cn"],
+    originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Conventional"],
     certs: ["HACCP"],
   },
@@ -182,27 +193,41 @@ export function productsForOrigin(slug: string): Product[] {
   return PRODUCTS.filter((p) => p.originSlugs.includes(slug));
 }
 
-// Place × product notes for the Origin Passport on each PDP.
-// Keyed by product slug → origin slug. (Profile varies by grade & origin, so these
-// describe the PLACE in relation to the product — not a fixed taste score.)
+// Short, product-neutral descriptor per origin — fallback for the Origin Passport.
+export const ORIGIN_BLURB: Record<string, string> = {
+  "uji-jp": "Near Kyoto — Japan's historic tea heartland; shaded gardens, deep umami.",
+  "shizuoka-jp": "Japan's largest tea region; dependable quality at scale.",
+  "kagoshima-jp": "Volcanic southern Japan; mineral-rich soil, early harvests.",
+  "nara-jp": "Yamato tea country near Nara; gentle, balanced leaf.",
+  "gifu-jp": "Central-Japan mountain gardens; clean, brisk character.",
+  "ibaraki-jp": "Eastern Japan; robust, full-bodied leaf.",
+  "kyoto-jp": "Kyoto prefecture — the cultural home of Japanese tea.",
+  "east-china-cn": "Eastern China's tea belt; broad, consistent supply at volume.",
+  "south-china-cn": "Southern China; warm climate, aromatic leaf.",
+  "fujian-cn": "Fujian — China's classic green, oolong & jasmine region.",
+  "china-cn": "Sourced across China; screened and documented per batch.",
+  "philippines-ph": "Philippine highlands; vivid, naturally sweet crops.",
+  "egypt-eg": "Sun-grown along the Nile; deep colour, bright acidity.",
+};
+
+// Richer place × product notes (override the blurb where we have specifics).
+// Keyed by product slug → origin slug. Profile varies by grade & origin, so these
+// describe the PLACE in relation to the product — not a fixed taste score.
 export const ORIGIN_NOTES: Record<string, Record<string, string>> = {
   matcha: {
     "uji-jp": "Japan's ceremonial heartland near Kyoto — shaded gardens cultivated since the 12th century. Deep umami, vivid jade.",
     "kagoshima-jp": "Volcanic, mineral-rich soil near Sakurajima. Earlier harvests, bold and lively character.",
-    "fujian-cn": "High-altitude Chinese gardens. Clean, vegetal profile — consistent and scalable at volume.",
+    "shizuoka-jp": "Japan's largest tea prefecture — dependable, well-rounded matcha at volume.",
   },
   hojicha: {
     "uji-jp": "Uji leaf, charcoal-roasted in small batches. Warm, toasty, naturally low in caffeine.",
-    "kagoshima-jp": "Southern Japanese leaf, deep-roasted for a rich, nutty cup.",
+    "kyoto-jp": "Kyoto-grown leaf, slow-roasted for a deep, comforting aroma.",
   },
   ube: {
-    "luzon-ph": "Philippine highland yam. Naturally vivid purple, sweet and earthy — colour and flavour in one.",
-  },
-  "lions-mane": {
-    "fujian-cn": "Fruiting-body cultivation on hardwood substrate. Screened for actives and contaminants, documented per batch.",
+    "philippines-ph": "Philippine highland yam. Naturally vivid purple, sweet and earthy — colour and flavour in one.",
   },
   hibiscus: {
-    "aswan-eg": "Upper-Nile sun along the Aswan basin. Deep-ruby calyces with bright, tart acidity.",
+    "egypt-eg": "Upper-Nile sun along the Aswan basin. Deep-ruby calyces with bright, tart acidity.",
   },
   "jasmine-tea-powder": {
     "fujian-cn": "Fujian's coastal hills — the classic jasmine-scenting region. Layered with fresh blossom; floral and smooth.",
@@ -214,3 +239,8 @@ export const ORIGIN_NOTES: Record<string, Record<string, string>> = {
     "fujian-cn": "A bodied Chinese black-tea base — the bold canvas for natural bergamot.",
   },
 };
+
+// Resolve the best note for a product × origin (specific note → origin blurb → empty).
+export function originNote(productSlug: string, originSlug: string): string {
+  return ORIGIN_NOTES[productSlug]?.[originSlug] ?? ORIGIN_BLURB[originSlug] ?? "";
+}

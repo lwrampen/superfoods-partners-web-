@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { VariantSelector } from "@/components/VariantSelector";
 import { ProductHero } from "@/components/ProductHero";
 import { OriginPassport } from "@/components/OriginPassport";
-import { PRODUCTS, ORIGINS, getProduct, ORIGIN_NOTES } from "@/data/catalog";
+import { PRODUCTS, ORIGINS, getProduct, originNote } from "@/data/catalog";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ product: p.slug }));
@@ -29,6 +29,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
   if (!p) notFound();
 
   const origins = p.originSlugs.map((s) => ORIGINS[s]);
+  const passportNotes = Object.fromEntries(origins.map((o) => [o.slug, originNote(p.slug, o.slug)]));
 
   // B2B wholesale is quote-based (RFQ): no public price and no reviews, so a
   // Product snippet can never satisfy Google's offers/review/aggregateRating
@@ -96,7 +97,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
           </div>
         </section>
 
-        <OriginPassport origins={origins} notes={ORIGIN_NOTES[p.slug]} accent={p.accent} />
+        <OriginPassport origins={origins} notes={passportNotes} accent={p.accent} />
       </main>
       <SiteFooter />
     </>
