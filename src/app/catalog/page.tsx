@@ -8,7 +8,7 @@ import { CATEGORIES, PRODUCTS, ORIGINS } from "@/data/catalog";
 export const metadata: Metadata = {
   title: "Catalogue — bulk matcha & superfoods, verified at origin",
   description:
-    "Browse Superfoods Partners' B2B catalogue: matcha (ceremonial, premium, culinary), hojicha, ube, lion's mane and 50+ origins — all lab-tested and documented.",
+    "Browse Superfoods Partners' B2B catalogue: matcha (ceremonial, premium, culinary), hojicha, jasmine, oolong & earl grey tea powders, ube, lion's mane and hibiscus — lab-tested and documented.",
 };
 
 function ProductTile({ slug }: { slug: string }) {
@@ -87,7 +87,7 @@ export default function CatalogPage() {
             <Reveal>
               <h2 className="text-3xl font-medium text-green">Don&apos;t see your origin?</h2>
               <p className="mx-auto mt-4 max-w-lg text-stone">
-                We source 50+ origins across 8 countries. Tell us what you need and we&apos;ll find, verify and document it.
+                Our catalogue spans 13 origins across 4 countries — and our sourcing network reaches further. Tell us what you need and we&apos;ll find, verify and document it.
               </p>
               <Link href="/contact" className="mt-8 inline-block rounded-lg bg-green px-6 py-3.5 text-sm font-medium text-oat transition-opacity hover:opacity-90">
                 Request a volume quote
