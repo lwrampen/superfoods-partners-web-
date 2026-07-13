@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { VariantSelector } from "@/components/VariantSelector";
 import { ProductHero } from "@/components/ProductHero";
 import { OriginPassport } from "@/components/OriginPassport";
-import { PRODUCTS, ORIGINS, getProduct, originNote } from "@/data/catalog";
+import { PRODUCTS, ORIGINS, getProduct, originNote, productFaqs } from "@/data/catalog";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ product: p.slug }));
@@ -30,13 +30,14 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
 
   const origins = p.originSlugs.map((s) => ORIGINS[s]);
   const passportNotes = Object.fromEntries(origins.map((o) => [o.slug, originNote(p.slug, o.slug)]));
+  const faqs = productFaqs(p.slug);
 
   // B2B wholesale is quote-based (RFQ): no public price and no reviews, so a
   // Product snippet can never satisfy Google's offers/review/aggregateRating
   // requirement. Instead of emitting Product markup that will always be flagged,
   // we ship an accurate BreadcrumbList (eligible, no merchant requirements) and
   // rely on site-wide Organization schema for brand context.
-  const jsonLd = {
+  const breadcrumb = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -45,6 +46,18 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
       { "@type": "ListItem", position: 3, name: p.name, item: `https://www.superfoodspartners.com/catalog/${p.slug}` },
     ],
   };
+  // FAQPage: accurate Q&A drawn from the product's own data — eligible (no offers/review
+  // requirement) and citable in AI/GEO answers.
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+  const jsonLd = [breadcrumb, faqLd];
 
   return (
     <>
@@ -98,6 +111,25 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
         </section>
 
         <OriginPassport origins={origins} notes={passportNotes} accent={p.accent} />
+
+        {/* Buyer-intent FAQ — content depth for B2B long-tail + citable Q&A for AI/GEO */}
+        {faqs.length > 0 && (
+          <section className="border-t border-stone/10 bg-sand">
+            <div className="mx-auto max-w-3xl px-6 py-16 md:py-20">
+              <h2 className="text-2xl font-medium text-green md:text-3xl">
+                Sourcing {p.name.toLowerCase()} — common questions
+              </h2>
+              <dl className="mt-8 divide-y divide-stone/15">
+                {faqs.map((f) => (
+                  <div key={f.q} className="py-5">
+                    <dt className="font-medium text-green">{f.q}</dt>
+                    <dd className="mt-2 leading-relaxed text-stone">{f.a}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </section>
+        )}
       </main>
       <SiteFooter />
     </>

@@ -254,3 +254,48 @@ export const ORIGIN_NOTES: Record<string, Record<string, string>> = {
 export function originNote(productSlug: string, originSlug: string): string {
   return ORIGIN_NOTES[productSlug]?.[originSlug] ?? ORIGIN_BLURB[originSlug] ?? "";
 }
+
+// Buyer-intent FAQ per product, generated from real catalogue data.
+// Feeds both an on-page FAQ (content depth for B2B long-tail) and FAQPage JSON-LD
+// (citable Q&A for AI/GEO answers). Answers stay accurate to the product's own certs,
+// origins and forms — no invented prices or claims.
+export function productFaqs(slug: string): { q: string; a: string }[] {
+  const p = getProduct(slug);
+  if (!p) return [];
+  const name = p.name.toLowerCase();
+  const countries = [...new Set(p.originSlugs.map((s) => ORIGINS[s]?.country).filter(Boolean))].join(" and ");
+  const faqs: { q: string; a: string }[] = [
+    {
+      q: `What is the minimum order quantity for bulk ${name}?`,
+      a: `Bulk ${name} is available from 25 kg up to full-container volume. Sample quantities can be arranged first so you can qualify the material before committing to a wholesale order.`,
+    },
+    {
+      q: `Which certifications does your ${name} carry?`,
+      a: `Our ${name} is available with ${p.certs.join(", ")}. Every batch ships with a full COA and a Verification Record™ documenting pesticide-residue, heavy-metal, microbiology and radiation testing.`,
+    },
+    {
+      q: `Where do you source ${name}?`,
+      a: `We source ${name} from ${countries || "vetted origins"}, routed and quality-checked through our Hong Kong hub, with traceability to the origin batch on every shipment.`,
+    },
+    {
+      q: `Can you supply ${name} for private label or as a formulation ingredient?`,
+      a: `Yes. We supply ${name} to beverage manufacturers, supplement and nutraceutical brands, private-label and co-packers, and distributors — either as a bulk ingredient or under your own label.`,
+    },
+    {
+      q: `How fast can you ship ${name}, and on what Incoterms?`,
+      a: `Typical lead time is 2–4 weeks, shipped FOB, CIF or DDP via Hong Kong. A lab report and quote usually follow within 48 hours of your request.`,
+    },
+  ];
+  if (p.grades?.length) {
+    faqs.push({
+      q: `Which grades of ${name} do you offer?`,
+      a: `${p.name} is available in ${p.grades.join(", ").toLowerCase()} grades, in ${p.forms.join(" and ").toLowerCase()} forms — matched to your application and budget.`,
+    });
+  } else if (p.forms.includes("Organic")) {
+    faqs.push({
+      q: `Is your ${name} available organic?`,
+      a: `Yes — ${name} is available in both organic and conventional forms, documented per batch.`,
+    });
+  }
+  return faqs;
+}
