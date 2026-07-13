@@ -31,6 +31,9 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
   const origins = p.originSlugs.map((s) => ORIGINS[s]);
   const passportNotes = Object.fromEntries(origins.map((o) => [o.slug, originNote(p.slug, o.slug)]));
   const faqs = productFaqs(p.slug);
+  // Interne links: crawl-paden naar origin- en andere product-pagina's (helpt indexatie).
+  const sameCat = PRODUCTS.filter((x) => x.category === p.category && x.slug !== p.slug);
+  const related = (sameCat.length ? sameCat : PRODUCTS.filter((x) => x.slug !== p.slug)).slice(0, 4);
 
   // B2B wholesale is quote-based (RFQ): no public price and no reviews, so a
   // Product snippet can never satisfy Google's offers/review/aggregateRating
@@ -111,6 +114,39 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
         </section>
 
         <OriginPassport origins={origins} notes={passportNotes} accent={p.accent} />
+
+        {/* Interne links — crawl-paden naar origin- & gerelateerde productpagina's (indexatie) */}
+        <section className="mx-auto max-w-6xl px-6 py-12">
+          <div className="grid gap-10 md:grid-cols-2">
+            <div>
+              <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">Origins for {p.name.toLowerCase()}</h2>
+              <ul className="mt-4 flex flex-wrap gap-2">
+                {origins.map((o) => (
+                  <li key={o.slug}>
+                    <Link href={`/origins/${o.slug}`} className="mono inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-[11px] uppercase text-stone transition-colors hover:border-green hover:text-green">
+                      {o.name}, {o.country}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {related.length > 0 && (
+              <div>
+                <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">More from the catalogue</h2>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {related.map((r) => (
+                    <li key={r.slug}>
+                      <Link href={`/catalog/${r.slug}`} className="mono inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-[11px] uppercase text-stone transition-colors hover:border-green hover:text-green">
+                        {r.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <Link href="/catalog" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">View full catalogue →</Link>
+              </div>
+            )}
+          </div>
+        </section>
 
         {/* Buyer-intent FAQ — content depth for B2B long-tail + citable Q&A for AI/GEO */}
         {faqs.length > 0 && (
