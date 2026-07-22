@@ -8,18 +8,21 @@
   --color-stone: #5a5e53;
   --color-amber: #e0a23e;
 
+  /* Product palette — tints synced to Brandbook v2.0 (tokens.json) */
   --color-matcha: #1b5e3f;
-  --color-matcha-tint: #a7e3c4;
+  --color-matcha-tint: #8fd3a8;
   --color-ube: #7e3fb0;
-  --color-ube-tint: #dcc2f0;
+  --color-ube-tint: #d9b8ee;
   --color-lionsmane: #c58a2a;
-  --color-lionsmane-tint: #f4dea8;
+  --color-lionsmane-tint: #f4dcac;
   --color-hojicha: #6b3a1e;
-  --color-hojicha-tint: #e4c3a6;
+  --color-hojicha-tint: #d9b199;
   --color-hibiscus: #b0324e;
-  --color-hibiscus-tint: #f2b8c6;
+  --color-hibiscus-tint: #eeaeba;
 
-  --font-sans: var(--font-inter);
+  /* Type — v2: Newsreader (serif) headlines, Hanken Grotesk body/UI, Plex Mono labels */
+  --font-sans: var(--font-hanken);
+  --font-serif: var(--font-newsreader);
   --font-mono: var(--font-plex-mono);
 }
 
@@ -34,6 +37,18 @@ body {
   font-family: var(--font-mono);
   letter-spacing: 0.08em;
   font-variant-numeric: tabular-nums;
+}
+
+/* Serif display — the brand voice. Use on headlines & pull-quotes. */
+.display {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+.display-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
 }
 
 html {
