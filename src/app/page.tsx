@@ -119,13 +119,18 @@ export default function Home() {
                     className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
                     style={{ backgroundColor: p.accent }}
                   >
+                    {/* Macro texture sits underneath; the solid matte accent covers it
+                        at rest (matte block) and fades on hover to reveal the powder. */}
                     {p.img && (
                       <div
-                        className="absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-[1200ms] ease-out group-hover:opacity-100"
+                        className="absolute inset-0 bg-cover bg-center"
                         style={{ backgroundImage: `url(${p.img})` }}
                       />
                     )}
-                    <div className="absolute inset-0" style={{ backgroundColor: p.accent, opacity: 0.5 }} />
+                    <div
+                      className="absolute inset-0 transition-opacity duration-700 ease-out group-hover:opacity-0"
+                      style={{ backgroundColor: p.accent }}
+                    />
                     <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{label}</span>
                     <span className="relative">
                       <span className="display block text-3xl leading-tight" style={{ color: p.tint }}>{p.name}</span>
