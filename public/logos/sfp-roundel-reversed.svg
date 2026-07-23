@@ -1,12 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Superfoods Partners roundel reversed">
-  <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap');</style>
-  <defs>
-    <path id="sfpArcR" d="M 37.6 91.9 A 39 39 0 0 0 82.4 91.9" fill="none"/>
-  </defs>
-  <circle cx="60" cy="60" r="46" fill="none" stroke="#F0ECE2" stroke-width="2"/>
-  <circle cx="60" cy="14" r="4.5" fill="#E0A23E"/>
-  <text x="60" y="74" text-anchor="middle" fill="#F0ECE2" font-family="Inter, sans-serif" font-weight="600" font-size="42" letter-spacing="1">SFP</text>
-  <text fill="#F0ECE2" font-family="'IBM Plex Mono', monospace" font-size="7" letter-spacing="4">
-    <textPath href="#sfpArcR" startOffset="50%" text-anchor="middle">ORIGIN</textPath>
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Superfoods Partners — Origin roundel (reversed)">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&family=IBM+Plex+Mono:wght@400;500&display=swap');</style>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#F0ECE2" stroke-width="3"/>
+  <circle cx="165" cy="35" r="6" fill="#E0A23E"/>
+  <text x="100" y="118" text-anchor="middle" font-family="'Hanken Grotesk',sans-serif" font-weight="700" font-size="60" fill="#F0ECE2">SFP</text>
+  <path id="arcR" d="M 44,132 A 62,62 0 0 0 156,132" fill="none"/>
+  <text font-family="'IBM Plex Mono',monospace" font-size="15" letter-spacing="5" fill="#F0ECE2"><textPath href="#arcR" startOffset="50%" text-anchor="middle">ORIGIN</textPath></text>
 </svg>
