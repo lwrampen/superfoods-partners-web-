@@ -14,7 +14,7 @@ export function SiteNav() {
     <header className="sticky top-0 z-50 border-b border-stone/15 bg-oat/85 backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" aria-label="Superfoods Partners — home">
-          <Image src="/logos/sfp-wordmark.svg" alt="Superfoods Partners" width={150} height={28} priority />
+          <Image src="/logos/sfp-wordmark.svg" alt="Superfoods Partners" width={130} height={40} priority />
         </Link>
         <div className="hidden items-center gap-8 md:flex">
           {LINKS.map((l) => (
