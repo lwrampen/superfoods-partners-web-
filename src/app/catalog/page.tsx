@@ -23,15 +23,15 @@ function ProductTile({ slug }: { slug: string }) {
       {p.img && (
         <>
           <div
-            className="absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-[1800ms] ease-out group-hover:opacity-100"
+            className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url(${p.img})` }}
           />
-          <div className="absolute inset-0" style={{ backgroundColor: p.accent, opacity: 0.5 }} />
+          <div className="absolute inset-0 transition-opacity duration-700 ease-out group-hover:opacity-0" style={{ backgroundColor: p.accent }} />
         </>
       )}
       <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{p.category}</span>
       <span className="relative">
-        <span className="block text-3xl font-medium leading-tight" style={{ color: p.tint }}>{p.name}</span>
+        <span className="block display text-3xl leading-tight" style={{ color: p.tint }}>{p.name}</span>
         <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/80">
           {origin.name.toUpperCase()} · {origin.country.toUpperCase()}
           <span className="opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">→</span>
@@ -53,7 +53,7 @@ export default function CatalogPage() {
               <span className="h-px w-8 bg-stone/30" />
               <span className="mono text-[11px] uppercase tracking-widest text-stone/60">Catalogue</span>
             </div>
-            <h1 className="mt-5 max-w-2xl text-4xl font-medium leading-tight text-green md:text-5xl">
+            <h1 className="mt-5 max-w-2xl display text-4xl leading-tight text-green md:text-5xl">
               Bulk matcha & superfoods, verified at origin.
             </h1>
             <p className="mt-5 max-w-xl text-lg text-stone">
@@ -68,7 +68,7 @@ export default function CatalogPage() {
           return (
             <section key={cat} className="mx-auto max-w-6xl px-6 pb-16">
               <Reveal className="mb-6 flex items-center gap-3">
-                <h2 className="text-xl font-medium text-green">{cat}</h2>
+                <h2 className="display text-xl text-green">{cat}</h2>
                 <span className="mono text-[11px] uppercase text-stone/40">{items.length} {items.length === 1 ? "line" : "lines"}</span>
               </Reveal>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -85,7 +85,7 @@ export default function CatalogPage() {
         <section className="bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-20 text-center">
             <Reveal>
-              <h2 className="text-3xl font-medium text-green">Don&apos;t see your origin?</h2>
+              <h2 className="display text-3xl text-green">Don&apos;t see your origin?</h2>
               <p className="mx-auto mt-4 max-w-lg text-stone">
                 Our catalogue spans 13 origins across 4 countries — and our sourcing network reaches further. Tell us what you need and we&apos;ll find, verify and document it.
               </p>

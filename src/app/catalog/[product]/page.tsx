@@ -152,7 +152,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
         {faqs.length > 0 && (
           <section className="border-t border-stone/10 bg-sand">
             <div className="mx-auto max-w-3xl px-6 py-16 md:py-20">
-              <h2 className="text-2xl font-medium text-green md:text-3xl">
+              <h2 className="display text-2xl text-green md:text-3xl">
                 Sourcing {p.name.toLowerCase()} — common questions
               </h2>
               <dl className="mt-8 divide-y divide-stone/15">

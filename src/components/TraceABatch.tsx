@@ -86,7 +86,7 @@ export function TraceABatch() {
               Verification Record™
             </span>
           </div>
-          <p className="mt-4 text-2xl font-medium" style={{ color: p.accent }}>
+          <p className="mt-4 display text-2xl" style={{ color: p.accent }}>
             {p.name}
           </p>
           <p className="mono mt-1 text-xs uppercase text-stone/70">

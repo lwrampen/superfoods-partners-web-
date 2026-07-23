@@ -35,7 +35,7 @@ export function RfqForm() {
     return (
       <div className="rounded-xl border border-stone/15 bg-white p-10 text-center">
         <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green text-xl text-oat">✓</span>
-        <h2 className="mt-5 text-2xl font-medium text-green">We&apos;ve got it.</h2>
+        <h2 className="mt-5 display text-2xl text-green">We&apos;ve got it.</h2>
         <p className="mx-auto mt-3 max-w-sm text-stone">
           Thanks — we&apos;ll come back with a lab report and a quote, usually within 48 hours. Check your inbox.
         </p>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
+import { OriginPhoto } from "@/components/OriginPhoto";
 
 export const metadata: Metadata = {
   title: "Verification — how every batch is tested & documented",
@@ -55,12 +56,27 @@ export default function VerificationPage() {
         <section className="mx-auto max-w-6xl px-6 pt-16 pb-12 md:pt-24">
           <Reveal>
             <p className="mono text-xs uppercase tracking-widest text-amber">Origin Intelligence™</p>
-            <h1 className="mt-5 max-w-2xl text-4xl font-medium leading-tight text-green md:text-5xl">
-              Trust isn&apos;t a promise. It&apos;s a paper trail.
+            <h1 className="display mt-5 max-w-2xl text-4xl leading-tight text-green md:text-5xl">
+              Warmth you can audit.
             </h1>
             <p className="mt-5 max-w-xl text-lg text-stone">
-              Every batch we ship is tested, documented and traceable — so your QA team, your auditors and your customers all get the same answer.
+              The human story earns attention; the paperwork earns the contract. Every batch we ship is
+              tested, documented and traceable — so your QA team, your auditors and your customers all
+              get the same answer.
             </p>
+          </Reveal>
+        </section>
+
+        {/* Photo band — quality at source */}
+        <section className="mx-auto max-w-6xl px-6 pb-6">
+          <Reveal>
+            <OriginPhoto
+              src="/photos/grading.jpg"
+              alt="Grading tea by hand at origin"
+              caption="QUALITY AT SOURCE — CUPPED &amp; GRADED BY HAND"
+              className="aspect-[21/9] w-full"
+              sizes="(min-width: 1152px) 1088px, 100vw"
+            />
           </Reveal>
         </section>
 
@@ -70,7 +86,7 @@ export default function VerificationPage() {
             {STEPS.map((s, i) => (
               <Reveal key={s.n} delay={i * 0.08}>
                 <p className="mono text-xs text-amber">{s.n}</p>
-                <h3 className="mt-3 text-xl font-medium">{s.t}</h3>
+                <h3 className="display mt-3 text-xl">{s.t}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-oat/70">{s.d}</p>
               </Reveal>
             ))}
@@ -80,7 +96,7 @@ export default function VerificationPage() {
         {/* Test panel + record */}
         <section className="mx-auto grid max-w-6xl items-start gap-12 px-6 py-20 md:grid-cols-2">
           <Reveal>
-            <h2 className="text-3xl font-medium text-green">What we test, every batch.</h2>
+            <h2 className="display text-3xl text-green">What we test, every batch.</h2>
             <ul className="mt-6 space-y-3">
               {PANEL.map((p) => (
                 <li key={p} className="flex items-start gap-3 text-stone">
@@ -94,7 +110,9 @@ export default function VerificationPage() {
             <div className="rounded-xl border border-stone/15 bg-white p-6">
               <p className="mono text-[10px] uppercase tracking-wide text-stone/50">Verification Record™</p>
               <p className="mt-3 leading-relaxed text-stone">
-                A single document that travels with each batch: origin and coordinates, batch and COA references, the full test panel, certifications, and the route through Hong Kong. One source of truth — for you, your auditors and your customers.
+                A single document that travels with each batch: origin and coordinates, batch and COA
+                references, the full test panel, certifications, and the route through Hong Kong. One
+                source of truth — for you, your auditors and your customers.
               </p>
               <p className="mono mt-5 flex items-center gap-2 text-[11px] uppercase text-stone/70">
                 <span className="h-2.5 w-2.5 rounded-full bg-amber" /> Routed via Hong Kong · 22.32°N 114.17°E
@@ -107,7 +125,7 @@ export default function VerificationPage() {
         <section className="bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-16">
             <Reveal>
-              <h2 className="text-2xl font-medium text-green">Certified, tested, documented.</h2>
+              <h2 className="display text-2xl text-green">Certified, tested, documented.</h2>
               <div className="mt-6 flex flex-wrap gap-3">
                 {CERTS.map((c) => (
                   <span key={c} className="mono rounded-lg border border-green/25 px-4 py-2 text-xs uppercase text-green">{c}</span>
@@ -120,7 +138,7 @@ export default function VerificationPage() {
         {/* FAQ */}
         <section className="mx-auto max-w-3xl px-6 py-20">
           <Reveal>
-            <h2 className="text-3xl font-medium text-green">Common questions</h2>
+            <h2 className="display text-3xl text-green">Common questions</h2>
           </Reveal>
           <div className="mt-8 divide-y divide-stone/15">
             {FAQ.map((f, i) => (
