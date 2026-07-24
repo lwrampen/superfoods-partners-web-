@@ -5,7 +5,7 @@ import { CountUp } from "@/components/CountUp";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
-import { PRODUCTS, ORIGINS, ORIGIN_LIST } from "@/data/catalog";
+import { ORIGIN_LIST } from "@/data/catalog";
 
 // People & Planet — the source is a relationship, not a transaction
 const PEOPLE = [
@@ -43,6 +43,14 @@ const STATS = [
 ];
 
 const CERTS = ["JAS", "EU ORGANIC", "USDA ORGANIC", "HACCP", "FSSC 22000", "KOSHER"];
+
+const RANGE = [
+  { slug: "matcha", name: "MATCHA", note: "Shade-grown green tea", img: "/products/matcha.jpg" },
+  { slug: "hojicha", name: "HOJICHA", note: "Roasted green tea", img: "/products/hojicha.webp" },
+  { slug: "ube", name: "UBE", note: "Purple yam · Philippines", img: "/products/ube.jpg" },
+  { slug: "lions-mane", name: "LION'S MANE", note: "Functional mushroom · Fujian", img: "/products/lionsmane.jpg" },
+  { slug: "hibiscus", name: "HIBISCUS", note: "Ruby botanical · Egypt", img: "/products/hibiscus.webp" },
+];
 
 function Marker({ n, label, color = "text-stone/60" }: { n: string; label: string; color?: string }) {
   return (
@@ -97,52 +105,36 @@ export default function Home() {
           </Reveal>
         </section>
 
-        {/* CATALOGUE */}
+        {/* THE RANGE — more than matcha */}
         <section className="mx-auto max-w-6xl px-6 pb-24">
           <Reveal className="mb-8">
-            <Marker n="(01)" label="Catalogue" />
-            <div className="flex items-end justify-between">
-              <h2 className="display text-4xl text-green">{ORIGIN_LIST.length} origins, one standard.</h2>
-              <Link href="/catalog" className="mono text-[11px] uppercase tracking-widest text-stone/60 transition-colors hover:text-green">
+            <Marker n="(01)" label="The range" />
+            <div className="flex items-end justify-between gap-6">
+              <h2 className="display max-w-xl text-4xl leading-tight text-green md:text-5xl">More than matcha.</h2>
+              <Link href="/catalog" className="mono flex-none text-[11px] uppercase tracking-widest text-stone/60 transition-colors hover:text-green">
                 View all →
               </Link>
             </div>
+            <p className="mt-4 max-w-xl text-stone">
+              Matcha is where we started. Today we source the world&apos;s finest superfoods — each its
+              own owned colour, verified at origin and moved at the scale manufacturers need.
+            </p>
           </Reveal>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {PRODUCTS.map((p, i) => {
-              const o = ORIGINS[p.originSlugs[0]];
-              const label = p.grades ? p.grades.join(" · ") : p.category;
-              return (
-                <Reveal key={p.slug} delay={i * 0.06}>
-                  <Link
-                    href={`/catalog/${p.slug}`}
-                    className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
-                    style={{ backgroundColor: p.accent }}
-                  >
-                    {/* Macro texture sits underneath; the solid matte accent covers it
-                        at rest (matte block) and fades on hover to reveal the powder. */}
-                    {p.img && (
-                      <div
-                        className="absolute inset-0 bg-cover bg-center"
-                        style={{ backgroundImage: `url(${p.img})` }}
-                      />
-                    )}
-                    <div
-                      className="absolute inset-0 transition-opacity duration-700 ease-out group-hover:opacity-0"
-                      style={{ backgroundColor: p.accent }}
-                    />
-                    <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{label}</span>
-                    <span className="relative">
-                      <span className="display block text-3xl leading-tight" style={{ color: p.tint }}>{p.name}</span>
-                      <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/80">
-                        {o.name === o.country ? o.name : `${o.name} · ${o.country}`}
-                        <span className="translate-x-0 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">→</span>
-                      </span>
-                    </span>
-                  </Link>
-                </Reveal>
-              );
-            })}
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+            {RANGE.map((r, i) => (
+              <Reveal key={r.slug} delay={i * 0.06}>
+                <Link href={`/catalog/${r.slug}`} className="group block">
+                  <OriginPhoto
+                    src={r.img}
+                    alt={`${r.name} powder`}
+                    caption={r.name}
+                    className="aspect-[4/5] w-full transition-transform duration-300 group-hover:-translate-y-1.5"
+                    sizes="(min-width: 1024px) 200px, 45vw"
+                  />
+                  <p className="mono mt-2 text-[11px] uppercase tracking-wide text-stone/55">{r.note}</p>
+                </Link>
+              </Reveal>
+            ))}
           </div>
         </section>
 
