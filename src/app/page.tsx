@@ -90,11 +90,72 @@ export default function Home() {
               src="/photos/hero-shade-nets.jpg"
               alt="A grower among the shade-grown tea gardens at harvest"
               caption="ORIGIN — SHADE-GROWN GARDENS AT HARVEST"
+              stamp="DIRECT FROM ORIGIN"
               priority
               sizes="(min-width: 768px) 45vw, 100vw"
               className="aspect-[4/5] w-full shadow-[0_30px_80px_-40px_rgba(20,39,27,0.55)]"
             />
           </Reveal>
+        </section>
+
+        {/* NO MIDDLEMAN — direct from source */}
+        <section className="bg-sand">
+          <div className="mx-auto max-w-6xl px-6 py-20 md:py-24">
+            <Reveal className="max-w-xl">
+              <p className="mono text-xs uppercase tracking-widest text-amber">Direct from origin</p>
+              <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">No middleman.</h2>
+              <p className="mt-4 text-stone">
+                We buy where it grows and route it through one hub — so you always know whose hands
+                touched your batch. No brokers, no layers, no guessing.
+              </p>
+            </Reveal>
+            <div className="mt-10 flex flex-col gap-6">
+              <Reveal>
+                <p className="mono text-[11px] uppercase tracking-wide text-stone/40">The usual way</p>
+                <div className="mono mt-2 flex flex-wrap items-center gap-x-2 gap-y-2 text-[13px] text-stone/40">
+                  <span className="rounded-lg border border-stone/20 px-3 py-1.5 line-through">Farm</span>
+                  <span>→</span><span className="rounded-lg border border-stone/20 px-3 py-1.5 line-through">Broker</span>
+                  <span>→</span><span className="rounded-lg border border-stone/20 px-3 py-1.5 line-through">Trader</span>
+                  <span>→</span><span className="rounded-lg border border-stone/20 px-3 py-1.5 line-through">Importer</span>
+                  <span>→</span><span className="rounded-lg border border-stone/20 px-3 py-1.5">You</span>
+                </div>
+              </Reveal>
+              <Reveal delay={0.08}>
+                <p className="mono text-[11px] uppercase tracking-wide text-amber">Our way</p>
+                <div className="mono mt-2 flex flex-wrap items-center gap-x-3 gap-y-2 text-[15px]">
+                  <span className="rounded-lg bg-green px-4 py-2 text-oat">Farm</span>
+                  <span className="text-stone/40">→</span>
+                  <span className="rounded-lg border-2 border-amber px-4 py-2 text-green">Hong Kong hub</span>
+                  <span className="text-stone/40">→</span>
+                  <span className="rounded-lg bg-green px-4 py-2 text-oat">You</span>
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </section>
+
+        {/* NAMED GROWER — the relationship */}
+        <section className="bg-oat">
+          <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-20 md:grid-cols-[0.8fr_1fr] md:py-24">
+            <Reveal y={28}>
+              <OriginPhoto
+                src="/photos/grower-picker.jpg"
+                alt="A grower in the shade-grown gardens"
+                caption="TRUSTED AT ORIGIN — WE KNOW THE PEOPLE"
+                className="aspect-[4/5] w-full"
+                sizes="(min-width: 768px) 40vw, 100vw"
+              />
+            </Reveal>
+            <Reveal delay={0.1}>
+              <blockquote className="display-italic text-3xl leading-snug text-green md:text-4xl">
+                &ldquo;We buy direct from growers we know by name, in regions we return to season after
+                season — and we&apos;ve shaken their hands.&rdquo;
+              </blockquote>
+              <p className="mono mt-6 text-[11px] uppercase tracking-wide text-stone/55">
+                Direct relationships · every origin
+              </p>
+            </Reveal>
+          </div>
         </section>
 
         {/* CATALOGUE */}
