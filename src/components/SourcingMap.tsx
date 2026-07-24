@@ -15,8 +15,6 @@ function ringToPath(ring: number[][]): string {
     return `${i === 0 ? "M" : "L"}${x.toFixed(1)},${y.toFixed(1)}`;
   }).join("") + "Z";
 }
-// topojson feature() may return a Feature or a FeatureCollection; normalise to
-// a flat list of polygons (each polygon is an array of rings), then to paths.
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const parsed = feature(land as any, (land as any).objects.land) as any;
 const geoms: any[] = parsed.type === "FeatureCollection" ? parsed.features.map((f: any) => f.geometry) : [parsed.geometry];
@@ -26,17 +24,13 @@ function polygons(geom: any): number[][][][] {
   if (geom.type === "MultiPolygon") return geom.coordinates;
   return [];
 }
-const LAND_PATH = geoms
-  .flatMap(polygons)
-  .flatMap((poly) => poly.map(ringToPath))
-  .join("");
+const LAND_PATH = geoms.flatMap(polygons).flatMap((poly) => poly.map(ringToPath)).join("");
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
-/* ---- HK hub + origins from the catalogue coords ---- */
+/* ---- HK hub + sourcing nodes from the catalogue coords ---- */
 const HUB = project(114.17, 22.32); // Hong Kong
 
 function parseCoord(s: string): [number, number] {
-  // "34.88°N 135.80°E"
   const m = s.match(/([\d.]+)°([NS])\s+([\d.]+)°([EW])/);
   if (!m) return [0, 0];
   const lat = parseFloat(m[1]) * (m[2] === "S" ? -1 : 1);
@@ -48,18 +42,31 @@ const COUNTRY_COLOR: Record<string, string> = {
   JP: "#1B5E3F", CN: "#C58A2A", PH: "#7E3FB0", EG: "#B0324E",
 };
 
-const NODES = ORIGIN_LIST.map((o) => {
-  const [x, y] = parseCoord(o.coords);
-  return { slug: o.slug, name: o.name, country: o.country, cc: o.countryCode, x, y, c: COUNTRY_COLOR[o.countryCode] ?? "#5E8C6A" };
-});
+type Node = { key: string; label: string; x: number; y: number; c: string };
 
-// One mono label per country cluster (at the northern-most node of that country).
-const LABELS = Object.values(
-  NODES.reduce<Record<string, { cc: string; country: string; x: number; y: number }>>((acc, n) => {
-    if (!acc[n.cc] || n.y < acc[n.cc].y) acc[n.cc] = { cc: n.cc, country: n.country, x: n.x, y: n.y };
-    return acc;
-  }, {})
-).filter((l) => Math.hypot(l.x - HUB[0], l.y - HUB[1]) > 16);
+// One node per country (centroid of its origins) — one clean flow line per country.
+const COUNTRY_NODES: Node[] = (() => {
+  const g = new Map<string, { country: string; cc: string; pts: [number, number][] }>();
+  for (const o of ORIGIN_LIST) {
+    const p = parseCoord(o.coords);
+    if (!g.has(o.country)) g.set(o.country, { country: o.country, cc: o.countryCode, pts: [] });
+    g.get(o.country)!.pts.push(p);
+  }
+  return [...g.values()].map((v) => ({
+    key: v.cc,
+    label: v.country,
+    x: v.pts.reduce((s, p) => s + p[0], 0) / v.pts.length,
+    y: v.pts.reduce((s, p) => s + p[1], 0) / v.pts.length,
+    c: COUNTRY_COLOR[v.cc] ?? "#5E8C6A",
+  }));
+})();
+
+function originNode(slug: string): Node | undefined {
+  const o = ORIGIN_LIST.find((x) => x.slug === slug);
+  if (!o) return undefined;
+  const [x, y] = parseCoord(o.coords);
+  return { key: o.slug, label: `${o.name}, ${o.country}`, x, y, c: COUNTRY_COLOR[o.countryCode] ?? "#5E8C6A" };
+}
 
 function arc(x: number, y: number): string {
   const mx = (x + HUB[0]) / 2;
@@ -69,15 +76,15 @@ function arc(x: number, y: number): string {
 }
 
 /**
- * SourcingMap — hand-drawn flat world map of where we source, with calm flows
- * converging on the Hong Kong hub. Pass `originSlug` to focus a single origin
- * (per-product / per-origin variant).
+ * SourcingMap — hand-drawn flat world map of where we source: one calm flow
+ * line per country converging on the Hong Kong hub. Pass `originSlug` to focus
+ * a single origin (per-product / per-origin variant).
  */
 export function SourcingMap({ originSlug }: { originSlug?: string }) {
   const reduce = useReducedMotion();
-  const focus = originSlug ? NODES.find((n) => n.slug === originSlug) : undefined;
-  const nodes = focus ? [focus] : NODES;
-  // viewBox: eastern hemisphere framed on the sourcing region (Europe/Africa → Japan)
+  const focus = originSlug ? originNode(originSlug) : undefined;
+  const nodes: Node[] = focus ? [focus] : COUNTRY_NODES;
+  const labels = focus ? [] : COUNTRY_NODES.filter((l) => Math.hypot(l.x - HUB[0], l.y - HUB[1]) > 16);
   const viewBox = "155 30 202 88";
 
   return (
@@ -91,39 +98,39 @@ export function SourcingMap({ originSlug }: { originSlug?: string }) {
 
       {/* hand-drawn land */}
       <g filter="url(#sketch)">
-        <path d={LAND_PATH} fill="#E7E2D6" stroke="#b9b2a1" strokeWidth={0.35} strokeLinejoin="round" />
+        <path d={LAND_PATH} fill="#E7E2D6" stroke="#b9b2a1" strokeWidth={0.3} strokeLinejoin="round" />
       </g>
 
-      {/* flows + origins */}
+      {/* one flow line per country + origin dot */}
       {nodes.map((n, i) => (
-        <g key={n.slug}>
-          <path d={arc(n.x, n.y)} fill="none" stroke={n.c} strokeOpacity={0.5} strokeWidth={0.5} strokeDasharray="1.4 1.8" />
-          <circle cx={n.x} cy={n.y} r={1.6} fill={n.c} />
+        <g key={n.key}>
+          <path d={arc(n.x, n.y)} fill="none" stroke={n.c} strokeOpacity={0.4} strokeWidth={0.35} strokeDasharray="1.2 2.4" strokeLinecap="round" />
+          <circle cx={n.x} cy={n.y} r={1.5} fill={n.c} />
           {!reduce && (
-            <circle r={1.1} fill={n.c}>
-              <animateMotion dur="3.2s" begin={`${i * 0.45}s`} repeatCount="indefinite" path={arc(n.x, n.y)} keyPoints="0;1" keyTimes="0;1" calcMode="linear" />
-              <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin={`${i * 0.45}s`} repeatCount="indefinite" />
+            <circle r={0.95} fill={n.c}>
+              <animateMotion dur="6s" begin={`${i * 1.1}s`} repeatCount="indefinite" path={arc(n.x, n.y)} calcMode="linear" />
+              <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="6s" begin={`${i * 1.1}s`} repeatCount="indefinite" />
             </circle>
           )}
         </g>
       ))}
 
       {/* country labels */}
-      {(focus ? [] : LABELS).map((l) => (
-        <text key={l.cc} x={l.x} y={l.y - 3} textAnchor="middle"
+      {labels.map((l) => (
+        <text key={l.key} x={l.x} y={l.y - 3} textAnchor="middle"
           style={{ fontFamily: "var(--font-mono), monospace", fontSize: 3, letterSpacing: 0.3, textTransform: "uppercase", fill: "#5A5E53" }}>
-          {l.country}
+          {l.label}
         </text>
       ))}
 
       {/* Hong Kong hub */}
       {!reduce && (
         <circle cx={HUB[0]} cy={HUB[1]} r={2.4} fill="none" stroke="#E0A23E" strokeWidth={0.5}>
-          <animate attributeName="r" values="2.4;7" dur="2.4s" repeatCount="indefinite" />
-          <animate attributeName="opacity" values="0.7;0" dur="2.4s" repeatCount="indefinite" />
+          <animate attributeName="r" values="2.4;7" dur="3.6s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.6;0" dur="3.6s" repeatCount="indefinite" />
         </circle>
       )}
-      <circle cx={HUB[0]} cy={HUB[1]} r={2.4} fill="#E0A23E" />
+      <circle cx={HUB[0]} cy={HUB[1]} r={2.2} fill="#E0A23E" />
       <text x={HUB[0]} y={HUB[1] + 7.5} textAnchor="middle"
         style={{ fontFamily: "var(--font-mono), monospace", fontSize: 3.2, letterSpacing: 0.4, fill: "#14271B" }}>
         HONG KONG HUB
