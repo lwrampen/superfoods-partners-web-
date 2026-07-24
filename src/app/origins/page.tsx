@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
+import { OriginPhoto } from "@/components/OriginPhoto";
 import { TradeGlobe } from "@/components/TradeGlobe";
 import { ORIGIN_LIST, productsForOrigin } from "@/data/catalog";
 
@@ -27,19 +28,31 @@ export default function OriginsPage() {
     <>
       <SiteNav />
       <main className="flex-1">
-        <section className="mx-auto max-w-6xl px-6 pt-16 pb-12 md:pt-24">
+        {/* HERO */}
+        <section className="mx-auto grid max-w-6xl items-center gap-12 px-6 pt-16 pb-16 md:grid-cols-[1.05fr_0.95fr] md:pt-24 md:pb-20">
           <Reveal>
             <div className="flex items-center gap-3">
               <span className="mono text-[11px] text-amber">(01)</span>
               <span className="h-px w-8 bg-stone/30" />
               <span className="mono text-[11px] uppercase tracking-widest text-stone/60">Origins</span>
             </div>
-            <h1 className="mt-5 max-w-2xl text-4xl font-medium leading-tight text-green md:text-5xl">
+            <h1 className="display mt-5 max-w-2xl text-5xl leading-[1.04] text-green md:text-6xl">
               Every origin in the world, routed through one hub.
             </h1>
             <p className="mt-5 max-w-xl text-lg text-stone">
-              We hold direct relationships at source across {COUNTRY_COUNT} countries. Each batch is tested and documented before it ships — origin to Hong Kong to your facility.
+              We hold direct relationships at source across {COUNTRY_COUNT} countries. Each batch is
+              tested and documented before it ships — origin to Hong Kong to your facility.
             </p>
+          </Reveal>
+          <Reveal delay={0.12} y={28}>
+            <OriginPhoto
+              src="/photos/field-sky.jpg"
+              alt="Tea terraces under a working sky"
+              caption="ORIGIN — TEA COUNTRY AT SEASON"
+              priority
+              sizes="(min-width: 768px) 45vw, 100vw"
+              className="aspect-[4/3] w-full shadow-[0_30px_80px_-40px_rgba(20,39,27,0.55)]"
+            />
           </Reveal>
         </section>
 
@@ -50,11 +63,12 @@ export default function OriginsPage() {
               <span className="h-px w-8 bg-oat/25" />
               <span className="mono text-[11px] uppercase tracking-widest text-oat/55">Global trade map</span>
             </div>
-            <h2 className="max-w-2xl text-3xl font-medium leading-tight text-oat md:text-4xl">
+            <h2 className="display max-w-2xl text-3xl leading-tight text-oat md:text-4xl">
               Where we source — and where we sell.
             </h2>
             <p className="mt-4 max-w-xl text-oat/70">
-              Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve — all routed through one hub in Hong Kong.
+              Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source;
+              amber marks the markets we serve — all routed through one hub in Hong Kong.
             </p>
 
             <div className="mt-9">
@@ -82,7 +96,7 @@ export default function OriginsPage() {
           <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-6 py-16 lg:grid-cols-4">
             {STATS.map((s) => (
               <div key={s.l}>
-                <p className={`text-5xl font-medium ${s.amber ? "text-amber" : "text-oat"}`}>{s.v}</p>
+                <p className={`display text-5xl ${s.amber ? "text-amber" : "text-oat"}`}>{s.v}</p>
                 <p className="mono mt-3 text-[11px] uppercase tracking-wide text-oat/60">{s.l}</p>
               </div>
             ))}
@@ -91,7 +105,7 @@ export default function OriginsPage() {
 
         <section className="mx-auto max-w-6xl px-6 py-16">
           <Reveal className="mb-8">
-            <h2 className="text-xl font-medium text-green">Featured origins</h2>
+            <h2 className="display text-3xl text-green">Featured origins</h2>
           </Reveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {ORIGIN_LIST.map((o, i) => {
@@ -107,7 +121,7 @@ export default function OriginsPage() {
                       <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: accent }} />
                       <span className="mono text-[10px] uppercase tracking-wide text-stone/50">{o.country}</span>
                     </span>
-                    <p className="mt-3 text-2xl font-medium text-green">{o.name}</p>
+                    <p className="display mt-3 text-2xl text-green">{o.name}</p>
                     <p className="mono mt-1 text-[11px] uppercase text-stone/50">{o.coords}</p>
                     <p className="mt-4 text-sm text-stone">
                       {products.map((p) => p.name).join(" · ") || "Multiple lines"}
@@ -126,9 +140,10 @@ export default function OriginsPage() {
         <section className="bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-20 text-center">
             <Reveal>
-              <h2 className="text-3xl font-medium text-green">Need an origin we haven&apos;t listed?</h2>
+              <h2 className="display text-3xl text-green md:text-4xl">Need an origin we haven&apos;t listed?</h2>
               <p className="mx-auto mt-4 max-w-lg text-stone">
-                Our network runs deeper than this page. Tell us the product and origin you need — we&apos;ll find, verify and document it.
+                Our network runs deeper than this page. Tell us the product and origin you need —
+                we&apos;ll find, verify and document it.
               </p>
               <Link href="/contact" className="mt-8 inline-block rounded-lg bg-green px-6 py-3.5 text-sm font-medium text-oat transition-opacity hover:opacity-90">
                 Request a volume quote

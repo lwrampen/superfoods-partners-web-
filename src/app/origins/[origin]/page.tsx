@@ -37,7 +37,7 @@ export default async function OriginPage({ params }: { params: Promise<{ origin:
               ← Origins
             </Link>
             <p className="mono mt-6 text-[11px] uppercase tracking-widest text-amber">{o.country}</p>
-            <h1 className="mt-3 text-5xl font-medium leading-tight text-oat md:text-6xl">{o.name}</h1>
+            <h1 className="mt-3 display text-5xl leading-tight text-oat md:text-6xl">{o.name}</h1>
             <p className="mono mt-4 text-sm uppercase tracking-wide text-oat/60">{o.coords} — routed via Hong Kong</p>
           </div>
         </section>
@@ -50,7 +50,7 @@ export default async function OriginPage({ params }: { params: Promise<{ origin:
           </Reveal>
 
           <Reveal className="mb-6 mt-14">
-            <h2 className="text-xl font-medium text-green">Sourced from {o.name}</h2>
+            <h2 className="display text-xl text-green">Sourced from {o.name}</h2>
           </Reveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {products.map((p, i) => (
@@ -62,12 +62,12 @@ export default async function OriginPage({ params }: { params: Promise<{ origin:
                 >
                   {p.img && (
                     <>
-                      <div className="absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-[1800ms] ease-out group-hover:opacity-100" style={{ backgroundImage: `url(${p.img})` }} />
-                      <div className="absolute inset-0" style={{ backgroundColor: p.accent, opacity: 0.5 }} />
+                      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${p.img})` }} />
+                      <div className="absolute inset-0 transition-opacity duration-700 ease-out group-hover:opacity-0" style={{ backgroundColor: p.accent }} />
                     </>
                   )}
                   <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{p.category}</span>
-                  <span className="relative text-2xl font-medium" style={{ color: p.tint }}>{p.name}</span>
+                  <span className="relative display text-2xl" style={{ color: p.tint }}>{p.name}</span>
                 </Link>
               </Reveal>
             ))}

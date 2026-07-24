@@ -54,7 +54,7 @@ export function ProductHero({
         </Link>
         <p className="mono mt-6 text-[11px] uppercase tracking-widest text-white/70">{category}</p>
         <motion.h1
-          className="mt-3 text-6xl font-medium leading-[0.95] md:text-7xl"
+          className="mt-3 display text-6xl leading-[0.95] md:text-7xl"
           style={{ color: tint }}
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}

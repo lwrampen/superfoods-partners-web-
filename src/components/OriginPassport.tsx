@@ -25,7 +25,7 @@ export function OriginPassport({
           <span className="text-amber">✦</span>
           <span className="mono text-[11px] uppercase tracking-widest text-stone/60">Origin passport</span>
         </div>
-        <h2 className="mt-4 max-w-2xl text-3xl font-medium text-green md:text-4xl">
+        <h2 className="mt-4 max-w-2xl display text-3xl text-green md:text-4xl">
           Where it comes from — and why it tastes that way.
         </h2>
         <motion.div
@@ -49,7 +49,7 @@ export function OriginPassport({
                 <circle cx="35" cy="22" r="3" fill="#E0A23E" />
               </svg>
               <span className="mono text-[9px] uppercase tracking-widest text-stone/45">Origin · {o.countryCode}</span>
-              <div className="mt-5 text-2xl font-medium text-green">{o.name}</div>
+              <div className="mt-5 display text-2xl text-green">{o.name}</div>
               <div className="mono text-[11px] uppercase tracking-wide text-stone/55">{o.country}</div>
               <div className="mono mt-2 text-[12px] tabular-nums text-stone/70">{o.coords}</div>
               {notes?.[o.slug] && (
