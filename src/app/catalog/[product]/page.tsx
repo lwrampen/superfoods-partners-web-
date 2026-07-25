@@ -6,7 +6,8 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { VariantSelector } from "@/components/VariantSelector";
 import { ProductHero } from "@/components/ProductHero";
 import { OriginPassport } from "@/components/OriginPassport";
-import { PRODUCTS, ORIGINS, getProduct, originNote, productFaqs } from "@/data/catalog";
+import { SourcingMap } from "@/components/SourcingMap";
+import { PRODUCTS, ORIGINS, getProduct, originNote, productFaqs, originLabel } from "@/data/catalog";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ product: p.slug }));
@@ -110,6 +111,39 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
               <span className="h-2.5 w-2.5 rounded-full bg-amber" />
               Every batch ships with a Verification Record™ · routed via Hong Kong
             </p>
+          </div>
+        </section>
+
+        {/* Where this comes from — hand-drawn map: origin countries → Hong Kong hub */}
+        <section className="border-t border-stone/10 bg-sand">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+            <div className="grid items-center gap-8 md:grid-cols-[1fr_1.1fr]">
+              <div className="max-w-md">
+                <p className="mono text-[11px] uppercase tracking-widest" style={{ color: p.accent }}>
+                  Where it comes from
+                </p>
+                <h2 className="mt-3 display text-2xl leading-tight text-green md:text-3xl">
+                  {p.name.charAt(0) + p.name.slice(1).toLowerCase()}, sourced at origin.
+                </h2>
+                <p className="mt-4 leading-relaxed text-stone">
+                  {origins.length > 1
+                    ? `We source ${p.name.toLowerCase()} directly from ${origins.length} regions, then consolidate and document every batch through our Hong Kong hub before it reaches you.`
+                    : `We source ${p.name.toLowerCase()} directly in ${origins[0].country}, then consolidate and document every batch through our Hong Kong hub before it reaches you.`}
+                </p>
+                <ul className="mono mt-6 flex flex-wrap gap-2">
+                  {origins.map((o) => (
+                    <li key={o.slug}>
+                      <Link href={`/origins/${o.slug}`} className="inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-[11px] uppercase text-stone transition-colors hover:border-green hover:text-green">
+                        {originLabel(o)}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="rounded-2xl border border-stone/12 bg-oat/70 p-3 md:p-5">
+                <SourcingMap productSlug={p.slug} />
+              </div>
+            </div>
           </div>
         </section>
 

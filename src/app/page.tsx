@@ -5,6 +5,7 @@ import { CountUp } from "@/components/CountUp";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
+import { SourcingMap } from "@/components/SourcingMap";
 import { PRODUCTS, ORIGINS, ORIGIN_LIST } from "@/data/catalog";
 
 // People & Planet — the source is a relationship, not a transaction
@@ -180,6 +181,23 @@ export default function Home() {
                 className="h-full min-h-[420px] w-full"
                 sizes="(min-width: 768px) 36vw, 100vw"
               />
+            </Reveal>
+          </div>
+        </section>
+
+        {/* WHERE WE SOURCE — hand-drawn sourcing map */}
+        <section className="bg-sand">
+          <div className="mx-auto max-w-6xl px-6 py-20 md:py-24">
+            <Reveal className="mb-10 max-w-xl">
+              <p className="mono text-xs uppercase tracking-widest text-amber">Where we source</p>
+              <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">Every origin, one hub.</h2>
+              <p className="mt-4 text-stone">
+                We buy at the source — across Asia and beyond — then route every batch through our hub
+                in Hong Kong. Follow the flows.
+              </p>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <SourcingMap />
             </Reveal>
           </div>
         </section>
