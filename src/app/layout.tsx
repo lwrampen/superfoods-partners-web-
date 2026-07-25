@@ -51,6 +51,42 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+// Site-wide entity graph: gives Google a stable Organization + WebSite entity
+// to attach the brand to (referenced implicitly by the per-page Breadcrumb/FAQ nodes).
+const ORG_ID = "https://www.superfoodspartners.com/#organization";
+const siteJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": ORG_ID,
+      name: "Superfoods Partners",
+      url: "https://www.superfoodspartners.com/",
+      logo: "https://www.superfoodspartners.com/logos/sfp-roundel-primary.png",
+      description:
+        "Hong Kong–based B2B superfood sourcing. Every origin verified, documented and traceable, routed through one trusted hub in Hong Kong.",
+      areaServed: "Worldwide",
+      knowsAbout: [
+        "matcha",
+        "hojicha",
+        "ube",
+        "lion's mane",
+        "hibiscus",
+        "superfood sourcing",
+        "B2B ingredient supply",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.superfoodspartners.com/#website",
+      url: "https://www.superfoodspartners.com/",
+      name: "Superfoods Partners",
+      inLanguage: "en",
+      publisher: { "@id": ORG_ID },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
@@ -60,6 +96,10 @@ export default function RootLayout({
       className={`${newsreader.variable} ${hanken.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-oat text-stone">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
+        />
         {children}
         <GoogleAnalytics gaId="G-CDZRWMKR9N" />
       </body>

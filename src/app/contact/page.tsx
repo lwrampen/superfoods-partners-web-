@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Request a volume quote",
   description:
     "Tell us what you need — product, grade, volume and market. We'll source, verify and document it, and reply with a lab report and quote within 48 hours.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

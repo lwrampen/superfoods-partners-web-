@@ -14,6 +14,7 @@ const COUNTRY_COUNT = COUNTRY_LIST.length;
 export const metadata: Metadata = {
   title: `Origins — ${ORIGIN_COUNT} verified sources across ${COUNTRY_COUNT} countries`,
   description: `Across ${COUNTRY_LIST.join(", ")}, every Superfoods Partners origin is mapped, lab-tested and routed through one trusted hub in Hong Kong. Explore our sourcing network.`,
+  alternates: { canonical: "/origins" },
 };
 
 const STATS = [

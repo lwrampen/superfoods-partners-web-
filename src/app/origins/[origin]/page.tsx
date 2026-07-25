@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ origin: s
   return {
     title: `Bulk ${products || "superfoods"} from ${o.name}, ${o.country}`,
     description: `Wholesale ${products || "superfoods"} sourced at origin in ${o.name}, ${o.country} (${o.coords}). Lab-tested, documented and routed through Hong Kong. MOQ from 25 kg.`,
+    alternates: { canonical: `/origins/${o.slug}` },
   };
 }
 

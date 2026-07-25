@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { TraceABatch } from "@/components/TraceABatch";
 import { Reveal } from "@/components/Reveal";
@@ -7,6 +8,10 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { SourcingMap } from "@/components/SourcingMap";
 import { PRODUCTS, ORIGINS, ORIGIN_LIST } from "@/data/catalog";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 // People & Planet — the source is a relationship, not a transaction
 const PEOPLE = [

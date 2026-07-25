@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ product: 
   return {
     title: `Bulk ${p.name} — ${origin.name}, ${origin.country} | wholesale supplier`,
     description: `${p.tagline} ${p.description}`,
+    alternates: { canonical: `/catalog/${p.slug}` },
   };
 }
 
