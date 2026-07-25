@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
-import { ORIGIN_LIST, getOrigin, productsForOrigin } from "@/data/catalog";
+import { SourcingMap } from "@/components/SourcingMap";
+import { ORIGIN_LIST, getOrigin, productsForOrigin, originLabel } from "@/data/catalog";
 
 export function generateStaticParams() {
   return ORIGIN_LIST.map((o) => ({ origin: o.slug }));
@@ -45,8 +46,31 @@ export default async function OriginPage({ params }: { params: Promise<{ origin:
         <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <Reveal className="max-w-2xl">
             <p className="text-lg leading-relaxed text-stone">
-              Direct sourcing in {o.name}, {o.country}. Every batch from this origin is lab-tested for pesticide residue, heavy metals, microbiology and radiation, then documented with a Verification Record™ before it leaves the hub.
+              Direct sourcing in {originLabel(o)}. Every batch from this origin is lab-tested for pesticide residue, heavy metals, microbiology and radiation, then documented with a Verification Record™ before it leaves the hub.
             </p>
+          </Reveal>
+
+          {/* The route — hand-drawn map: this origin → Hong Kong hub */}
+          <Reveal className="mt-14">
+            <div className="overflow-hidden rounded-2xl border border-stone/12 bg-sand">
+              <div className="grid items-center gap-6 p-7 md:grid-cols-[1.1fr_1fr] md:p-10">
+                <div className="max-w-md">
+                  <p className="mono text-[11px] uppercase tracking-widest text-stone/50">The route</p>
+                  <h2 className="mt-3 display text-2xl leading-tight text-green md:text-3xl">
+                    From {o.name} to your dock.
+                  </h2>
+                  <p className="mt-4 leading-relaxed text-stone">
+                    We buy where it grows, then consolidate through our Hong Kong hub and ship it documented to you. One pair of hands from farm to freight — no anonymous middlemen in between.
+                  </p>
+                  <p className="mono mt-5 text-[11px] uppercase tracking-wide text-stone/50">
+                    {o.coords} → Hong Kong → you
+                  </p>
+                </div>
+                <div className="rounded-xl bg-oat/70 p-3 md:p-4">
+                  <SourcingMap originSlug={o.slug} />
+                </div>
+              </div>
+            </div>
           </Reveal>
 
           <Reveal className="mb-6 mt-14">

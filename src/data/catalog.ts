@@ -180,6 +180,12 @@ export function getOrigin(slug: string): Origin | undefined {
   return ORIGINS[slug];
 }
 
+// Display label for an origin. When the region name equals the country
+// (e.g. "Philippines", "China"), show it once instead of "Philippines, Philippines".
+export function originLabel(o: Origin): string {
+  return o.name === o.country ? o.name : `${o.name}, ${o.country}`;
+}
+
 export function productSku(p: Product, opts?: { grade?: string; origin?: Origin; form?: Form }): string {
   const grade = opts?.grade ? opts.grade.slice(0, 2).toUpperCase() : "STD";
   const origin = opts?.origin?.countryCode ?? "XX";
