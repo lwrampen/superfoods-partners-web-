@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "About — the trusted superfood sourcing partner",
   description:
     "Superfoods Partners is the Hong Kong–based sourcing arm of the Pure Matcha Partners family. We don't aim to be the largest supplier — we aim to be the most trusted.",
+  alternates: { canonical: "/about" },
 };
 
 const CORE_MODEL = [

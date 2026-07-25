@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Catalogue — bulk matcha & superfoods, verified at origin",
   description:
     "Browse Superfoods Partners' B2B catalogue: matcha (ceremonial, premium, culinary), hojicha, jasmine, oolong & earl grey tea powders, ube, lion's mane and hibiscus — lab-tested and documented.",
+  alternates: { canonical: "/catalog" },
 };
 
 function ProductTile({ slug }: { slug: string }) {

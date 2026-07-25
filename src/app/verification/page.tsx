@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Verification — how every batch is tested & documented",
   description:
     "Origin Intelligence™: how Superfoods Partners tests, documents and traces every batch. Lab panels, the Verification Record™, certifications and answers to common sourcing questions.",
+  alternates: { canonical: "/verification" },
 };
 
 const STEPS = [
