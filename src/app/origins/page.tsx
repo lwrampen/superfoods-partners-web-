@@ -56,17 +56,17 @@ export default function OriginsPage() {
           </Reveal>
         </section>
 
-        <section className="bg-forest">
+        <section className="bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-14 md:py-20">
             <div className="mb-6 flex items-center gap-3">
               <span className="mono text-[11px] text-amber">(02)</span>
-              <span className="h-px w-8 bg-oat/25" />
-              <span className="mono text-[11px] uppercase tracking-widest text-oat/55">Global trade map</span>
+              <span className="h-px w-8 bg-stone/25" />
+              <span className="mono text-[11px] uppercase tracking-widest text-stone/60">Global trade map</span>
             </div>
-            <h2 className="display max-w-2xl text-3xl leading-tight text-oat md:text-4xl">
+            <h2 className="display max-w-2xl text-3xl leading-tight text-green md:text-4xl">
               Where we source — and where we sell.
             </h2>
-            <p className="mt-4 max-w-xl text-oat/70">
+            <p className="mt-4 max-w-xl text-stone">
               Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source;
               amber marks the markets we serve — all routed through one hub in Hong Kong.
             </p>
@@ -75,17 +75,17 @@ export default function OriginsPage() {
               <TradeGlobe />
             </div>
 
-            <div className="mono mt-6 flex flex-wrap gap-x-7 gap-y-3 text-[11px] uppercase tracking-wide text-oat/65">
+            <div className="mono mt-6 flex flex-wrap gap-x-7 gap-y-3 text-[11px] uppercase tracking-wide text-stone/65">
               <span className="flex items-center gap-2">
-                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#7FD9A6" }} />
+                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#1b5e3f" }} />
                 Sourcing · {ORIGIN_LIST.length} origins
               </span>
               <span className="flex items-center gap-2">
-                <span className="h-2.5 w-3 rounded-sm" style={{ backgroundColor: "#E0A23E" }} />
+                <span className="h-2.5 w-3 rounded-sm" style={{ backgroundColor: "#c58a2a" }} />
                 Markets · US · EU (via Pure Matcha Partners) · Middle East
               </span>
               <span className="flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full border-2" style={{ borderColor: "#E0A23E" }} />
+                <span className="h-3 w-3 rounded-full border-2" style={{ borderColor: "#c58a2a" }} />
                 Hub · Hong Kong
               </span>
             </div>

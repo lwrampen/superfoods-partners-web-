@@ -17,15 +17,18 @@ type Loc = {
 
 type PointDatum = Loc & { color: string; r: number; label: string };
 
-const OAT = "rgba(237,231,217,0.32)";
-const AMBER = "#E0A23E";
-const GREEN_DOT = "#7FD9A6";
+// Warm "paper globe" palette — ink-green land dots on a cream sphere.
+const LAND = "rgba(30,61,42,0.42)"; // ink-green landmass dots
+const MARKET_HEX = "rgba(224,162,62,0.85)"; // amber-lit market countries
+const PAPER = "#e7e2d6"; // sphere (sand)
+const AMBER = "#c58a2a"; // markets + hub (slightly deeper than UI amber for cream)
+const GREEN_DOT = "#1b5e3f"; // sourcing pins
 
 function card(title: string, sub: string, body: string, accent: string) {
-  return `<div style="font-family:ui-monospace,monospace;background:#10301f;border:1px solid ${accent};border-radius:10px;padding:10px 12px;max-width:240px;color:#EDE7D9;box-shadow:0 8px 24px rgba(0,0,0,.35)">
+  return `<div style="font-family:ui-monospace,monospace;background:#f0ece2;border:1px solid ${accent};border-radius:10px;padding:10px 12px;max-width:240px;color:#1e3d2a;box-shadow:0 12px 30px rgba(20,39,27,.18)">
     <div style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:${accent}">${sub}</div>
-    <div style="font-size:15px;font-weight:500;margin-top:3px">${title}</div>
-    <div style="font-size:11px;line-height:1.5;color:rgba(237,231,217,.75);margin-top:5px">${body}</div>
+    <div style="font-size:15px;font-weight:600;margin-top:3px">${title}</div>
+    <div style="font-size:11px;line-height:1.5;color:rgba(90,94,83,.9);margin-top:5px">${body}</div>
   </div>`;
 }
 
@@ -67,6 +70,39 @@ const HUB_LOC: Loc = {
 const LOC_BY_ID: Record<string, Loc> = Object.fromEntries(
   [...SOURCING, ...SELLING, HUB_LOC].map((l) => [l.id, l]),
 );
+
+// Paint the sphere as warm matte "paper". Returns true once the material exists.
+/* eslint-disable @typescript-eslint/no-explicit-any */
+function paintMaterial(m: any): boolean {
+  if (!m || !m.color) return false;
+  m.color.set(PAPER);
+  if (m.emissive) {
+    m.emissive.set("#d8d0bd");
+    m.emissiveIntensity = 0.22;
+  }
+  if ("shininess" in m) m.shininess = 0;
+  m.needsUpdate = true;
+  return true;
+}
+function applyPaperMaterial(g: any): boolean {
+  if (!g) return false;
+  if (typeof g.globeMaterial === "function" && paintMaterial(g.globeMaterial())) return true;
+  // react-globe.gl 2.38 doesn't expose globeMaterial() on the ref, so reach into
+  // the scene and paint the globe surface — the SphereGeometry with a
+  // MeshPhongMaterial (the atmosphere is a ShaderMaterial; points are cylinders).
+  if (typeof g.scene === "function") {
+    let done = false;
+    g.scene()?.traverse((o: any) => {
+      const m = o.material;
+      if (o.isMesh && /Sphere/.test(o.geometry?.type ?? "") && m?.type === "MeshPhongMaterial") {
+        if (paintMaterial(m)) done = true;
+      }
+    });
+    return done;
+  }
+  return false;
+}
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 export function TradeGlobe() {
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -140,8 +176,8 @@ export function TradeGlobe() {
       startLng: l.lng,
       endLat: HUB.lat,
       endLng: HUB.lng,
-      color: ["rgba(111,212,154,0.05)", "rgba(111,212,154,0.85)"],
-      time: 3000,
+      color: ["rgba(27,94,63,0.04)", "rgba(27,94,63,0.75)"],
+      time: 3600,
       label: `${l.name} → Hong Kong`,
     }));
     const outbound = SELLING.map((l) => ({
@@ -149,8 +185,8 @@ export function TradeGlobe() {
       startLng: HUB.lng,
       endLat: l.lat,
       endLng: l.lng,
-      color: ["rgba(224,162,62,0.9)", "rgba(240,200,135,0.25)"],
-      time: 2200,
+      color: ["rgba(197,138,42,0.8)", "rgba(197,138,42,0.15)"],
+      time: 2800,
       label: `Hong Kong → ${l.name}`,
     }));
     return [...inbound, ...outbound];
@@ -158,6 +194,17 @@ export function TradeGlobe() {
 
   const rings = useMemo(() => [{ lat: HUB.lat, lng: HUB.lng }], []);
   const ready = GlobeComp && features.length > 0 && size.w > 0;
+
+  // onGlobeReady can fire before the WebGL material exists (esp. on slow GPUs),
+  // so keep trying briefly until the paper material actually takes.
+  useEffect(() => {
+    if (!ready) return;
+    let tries = 0;
+    const id = setInterval(() => {
+      if (applyPaperMaterial(globeEl.current) || ++tries > 50) clearInterval(id);
+    }, 120);
+    return () => clearInterval(id);
+  }, [ready]);
 
   function focusOn(l: Loc) {
     const g = globeEl.current;
@@ -180,11 +227,7 @@ export function TradeGlobe() {
     c.minDistance = 180;
     c.maxDistance = 520;
     g.pointOfView({ lat: 20, lng: 104, altitude: 2.4 }, 0);
-    const m = g.globeMaterial();
-    m.color.set("#0E2C1E");
-    m.emissive.set("#07160F");
-    m.emissiveIntensity = 0.12;
-    m.shininess = 2;
+    applyPaperMaterial(g);
   }
 
   function row(l: Loc, accent: string) {
@@ -198,17 +241,17 @@ export function TradeGlobe() {
         onMouseLeave={() => setHovered((h) => (h === l.id ? null : h))}
         className="group flex w-full items-start gap-3 rounded-lg border px-3 py-2.5 text-left transition-colors"
         style={{
-          borderColor: isSel ? accent : "rgba(237,231,217,0.12)",
-          backgroundColor: isSel ? "rgba(237,231,217,0.06)" : "transparent",
+          borderColor: isSel ? accent : "rgba(90,94,83,0.16)",
+          backgroundColor: isSel ? "rgba(231,226,214,0.7)" : "transparent",
         }}
       >
         <span className="mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: accent }} />
         <span className="min-w-0">
           <span className="flex items-baseline gap-2">
-            <span className="text-sm font-medium text-oat">{l.name}</span>
-            <span className="mono text-[10px] uppercase tracking-wide text-oat/45">{l.sub}</span>
+            <span className="display text-base text-green">{l.name}</span>
+            <span className="mono text-[10px] uppercase tracking-wide text-stone/50">{l.sub}</span>
           </span>
-          <span className="mono mt-0.5 block truncate text-[11px] text-oat/55">{l.detail}</span>
+          <span className="mono mt-0.5 block truncate text-[11px] text-stone/70">{l.detail}</span>
         </span>
       </button>
     );
@@ -218,7 +261,7 @@ export function TradeGlobe() {
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] lg:items-stretch">
       <div
         ref={wrapRef}
-        className="relative w-full min-w-0 overflow-hidden rounded-2xl bg-forest"
+        className="relative w-full min-w-0 overflow-hidden rounded-2xl border border-stone/12 bg-oat"
         onPointerEnter={() => setPointerOver(true)}
         onPointerLeave={() => {
           setPointerOver(false);
@@ -227,7 +270,7 @@ export function TradeGlobe() {
       >
         {!ready && (
           <div className="flex items-center justify-center" style={{ height: size.h || 460 }}>
-            <span className="mono text-[11px] uppercase tracking-widest text-oat/50">Loading trade map…</span>
+            <span className="mono text-[11px] uppercase tracking-widest text-stone/50">Loading trade map…</span>
           </div>
         )}
         {ready && (
@@ -238,15 +281,15 @@ export function TradeGlobe() {
             onGlobeReady={handleReady}
             onGlobeClick={() => setSelected(null)}
             backgroundColor="rgba(0,0,0,0)"
-            atmosphereColor="#3B6D4F"
-            atmosphereAltitude={0.18}
+            atmosphereColor="#d9cba8"
+            atmosphereAltitude={0.1}
             hexPolygonsData={features}
             hexPolygonResolution={3}
             hexPolygonMargin={0.3}
             hexPolygonUseDots={true}
             hexPolygonAltitude={0.006}
             hexPolygonColor={(d: any) =>
-              MARKET_COUNTRIES.has(d.properties?.name) ? "rgba(224,162,62,0.92)" : OAT
+              MARKET_COUNTRIES.has(d.properties?.name) ? MARKET_HEX : LAND
             }
             pointsData={points}
             pointColor={(d: any) => d.color}
@@ -266,7 +309,7 @@ export function TradeGlobe() {
             arcAltitudeAutoScale={0.5}
             arcLabel={(d: any) => d.label}
             ringsData={rings}
-            ringColor={() => (t: number) => `rgba(224,162,62,${1 - t})`}
+            ringColor={() => (t: number) => `rgba(197,138,42,${1 - t})`}
             ringMaxRadius={4}
             ringPropagationSpeed={2}
             ringRepeatPeriod={1100}
@@ -274,9 +317,9 @@ export function TradeGlobe() {
         )}
       </div>
 
-      <div className="flex min-w-0 flex-col rounded-2xl border border-oat/10 bg-forest/40 p-4" style={{ maxHeight: size.h ? size.h : undefined }}>
+      <div className="flex min-w-0 flex-col rounded-2xl border border-stone/12 bg-sand/50 p-4" style={{ maxHeight: size.h ? size.h : undefined }}>
         <div className="flex items-center justify-between px-1 pb-2">
-          <span className="mono text-[11px] uppercase tracking-widest text-oat/60">Locations</span>
+          <span className="mono text-[11px] uppercase tracking-widest text-stone/60">Locations</span>
           {selected && (
             <button
               type="button"
@@ -289,14 +332,14 @@ export function TradeGlobe() {
         </div>
         <div className="-mr-1 space-y-3 overflow-y-auto pr-1">
           <div>
-            <p className="mono mb-2 flex items-center gap-2 px-1 text-[10px] uppercase tracking-widest text-oat/45">
+            <p className="mono mb-2 flex items-center gap-2 px-1 text-[10px] uppercase tracking-widest text-stone/55">
               <span className="h-2 w-2 rounded-full" style={{ backgroundColor: GREEN_DOT }} />
               Sourcing · {SOURCING.length}
             </p>
             <div className="space-y-1.5">{SOURCING.map((l) => row(l, GREEN_DOT))}</div>
           </div>
           <div>
-            <p className="mono mb-2 flex items-center gap-2 px-1 text-[10px] uppercase tracking-widest text-oat/45">
+            <p className="mono mb-2 flex items-center gap-2 px-1 text-[10px] uppercase tracking-widest text-stone/55">
               <span className="h-2 w-2 rounded-full" style={{ backgroundColor: AMBER }} />
               Markets · {SELLING.length}
             </p>
