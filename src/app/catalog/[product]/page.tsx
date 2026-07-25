@@ -72,12 +72,21 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
 
         <ProductHero name={p.name} category={p.category} tagline={p.tagline} accent={p.accent} tint={p.tint} img={p.img} />
 
-        {/* Detail + variant selector */}
-        <section className="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-2 md:py-20">
-          <div>
-            <p className="leading-relaxed text-stone">{p.description}</p>
+        {/* Intro — readable lead paragraph (content depth + keywords) */}
+        <section className="mx-auto max-w-3xl px-6 pt-14 md:pt-20">
+          <p className="mono text-[11px] uppercase tracking-widest" style={{ color: p.accent }}>
+            Bulk {p.name.toLowerCase()} supplier
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-stone md:text-xl">
+            {p.intro ?? p.description}
+          </p>
+        </section>
 
-            <div className="mono mt-8 grid grid-cols-2 gap-y-4 border-t border-stone/15 pt-6 text-sm">
+        {/* Trade terms + variant selector */}
+        <section className="mx-auto grid max-w-6xl gap-12 px-6 py-14 md:grid-cols-2 md:py-16">
+          <div>
+            <h2 className="display text-xl text-green">Trade terms</h2>
+            <div className="mono mt-5 grid grid-cols-2 gap-y-4 border-t border-stone/15 pt-6 text-sm">
               <span className="text-stone/50 uppercase text-[11px]">MOQ</span>
               <span className="text-green">25 kg → full container</span>
               <span className="text-stone/50 uppercase text-[11px]">Lead time</span>
@@ -114,6 +123,50 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
             </p>
           </div>
         </section>
+
+        {/* Applications + specifications — content depth & buyer long-tail */}
+        {(p.applications?.length || p.specs?.length) && (
+          <section className="border-t border-stone/10">
+            <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-2 md:py-20">
+              {p.applications?.length ? (
+                <div>
+                  <h2 className="display text-2xl text-green">Applications</h2>
+                  <p className="mt-3 leading-relaxed text-stone">
+                    Where buyers put {p.name.toLowerCase()} to work — across beverage, bakery and
+                    functional formats.
+                  </p>
+                  <ul className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2">
+                    {p.applications.map((a) => (
+                      <li
+                        key={a}
+                        className="flex items-center gap-2.5 rounded-lg border border-stone/12 bg-sand/50 px-3.5 py-2.5 text-sm text-stone"
+                      >
+                        <span className="h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: p.accent }} />
+                        {a}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : (
+                <div />
+              )}
+
+              {p.specs?.length ? (
+                <div>
+                  <h2 className="display text-2xl text-green">Specifications</h2>
+                  <dl className="mono mt-6 divide-y divide-stone/12 border-t border-stone/12 text-sm">
+                    {p.specs.map((s) => (
+                      <div key={s.label} className="flex items-baseline justify-between gap-6 py-3.5">
+                        <dt className="text-[11px] uppercase tracking-wide text-stone/50">{s.label}</dt>
+                        <dd className="text-right text-green">{s.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              ) : null}
+            </div>
+          </section>
+        )}
 
         {/* Where this comes from — hand-drawn map: origin countries → Hong Kong hub */}
         <section className="border-t border-stone/10 bg-sand">
@@ -159,7 +212,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
                 {origins.map((o) => (
                   <li key={o.slug}>
                     <Link href={`/origins/${o.slug}`} className="mono inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-[11px] uppercase text-stone transition-colors hover:border-green hover:text-green">
-                      {o.name}, {o.country}
+                      {originLabel(o)}
                     </Link>
                   </li>
                 ))}

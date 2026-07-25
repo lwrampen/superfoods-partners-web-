@@ -21,6 +21,9 @@ export type Product = {
   img?: string; // macro texture
   tagline: string;
   description: string;
+  intro?: string; // richer, keyword-aware opening paragraph for the PDP
+  applications?: string[]; // buyer use-cases (content depth + long-tail)
+  specs?: { label: string; value: string }[]; // at-a-glance product facts
   grades?: string[]; // matcha has grades; others may not
   originSlugs: string[];
   forms: Form[];
@@ -89,6 +92,24 @@ export const PRODUCTS: Product[] = [
     tagline: "Purple yam powder — colour and flavour from the Philippines.",
     description:
       "Naturally vivid purple yam powder for beverages, bakery and confectionery. Clean colour, consistent particle size, scalable supply.",
+    intro:
+      "Ube is the vivid purple yam that has moved from Filipino kitchens onto menus worldwide. Our ube powder is milled from mature purple yam (Dioscorea alata) for a clean, naturally violet colour and a soft, vanilla-like sweetness — no artificial dye. We source it directly in the Philippines, with a secondary China lane for scale, and screen and document every batch before it ships through our Hong Kong hub.",
+    applications: [
+      "Lattes & RTD beverages",
+      "Bakery & viennoiserie",
+      "Ice cream & gelato",
+      "Confectionery & fillings",
+      "Cheesecake & desserts",
+      "Pancakes & waffles",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine violet powder" },
+      { label: "Source", value: "Purple yam (Dioscorea alata)" },
+      { label: "Origin", value: "Philippines · China" },
+      { label: "Caffeine", value: "Caffeine-free" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
     originSlugs: ["philippines-ph", "china-cn"],
     forms: ["Conventional"],
     certs: ["HACCP", "FSSC 22000"],
@@ -104,6 +125,24 @@ export const PRODUCTS: Product[] = [
     tagline: "Functional mushroom for nutraceutical formulation.",
     description:
       "Fruiting-body lion's mane for supplement and functional-food brands. Tested for actives and contaminants, documented per batch.",
+    intro:
+      "Lion's mane (Hericium erinaceus) is the functional mushroom nutraceutical brands ask for by name. We supply fruiting-body powder — not mycelium-on-grain — so formulators start from a clean, documented material, tested for actives and contaminants. Sourced in China, screened batch by batch and routed through our Hong Kong hub, in organic and conventional grades.",
+    applications: [
+      "Capsules & tablets",
+      "Functional coffee & lattes",
+      "Nootropic blends",
+      "Powders & stick packs",
+      "Gummies",
+      "Functional foods",
+    ],
+    specs: [
+      { label: "Appearance", value: "Off-white to tan powder" },
+      { label: "Source", value: "Fruiting body (Hericium erinaceus)" },
+      { label: "Origin", value: "China" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Extract", value: "Powder or extract ratios on request" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
     originSlugs: ["china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["USDA Organic", "Kosher"],
@@ -119,6 +158,24 @@ export const PRODUCTS: Product[] = [
     tagline: "Tart, ruby-red botanical for teas and beverages.",
     description:
       "Deep-red hibiscus for infusions, RTD and blends. Sourced at volume, screened and documented.",
+    intro:
+      "Hibiscus (Hibiscus sabdariffa) brings a deep ruby colour and a bright, cranberry-like tartness that carries through beverages and bakery alike. We source sun-grown calyces — principally from Egypt, with an East-China lane for volume — and mill them to a consistent powder, screened and documented per batch before routing through Hong Kong.",
+    applications: [
+      "Teas & infusions",
+      "RTD & functional drinks",
+      "Natural red colour",
+      "Bakery & confectionery",
+      "Syrups & cordials",
+      "Yoghurt & desserts",
+    ],
+    specs: [
+      { label: "Appearance", value: "Deep red powder" },
+      { label: "Source", value: "Hibiscus sabdariffa calyx" },
+      { label: "Origin", value: "Egypt · East China" },
+      { label: "Caffeine", value: "Caffeine-free" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
     originSlugs: ["east-china-cn", "egypt-eg"],
     forms: ["Conventional"],
     certs: ["HACCP"],
@@ -224,6 +281,15 @@ export const ORIGIN_BLURB: Record<string, string> = {
   "china-cn": "Sourced across China; screened and documented per batch.",
   "philippines-ph": "Philippine highlands; vivid, naturally sweet crops.",
   "egypt-eg": "Sun-grown along the Nile; deep colour, bright acidity.",
+};
+
+// Longer, unique origin narratives — used as the intro on origin pages that
+// otherwise read too thin to index (and richer context for the rest over time).
+export const ORIGIN_INTRO: Record<string, string> = {
+  "china-cn":
+    "Beyond tea, China is one of the world's largest and most capable growers of functional and specialty crops — from lion's mane and other mushrooms to ube and botanical powders. We work across screened Chinese supply for these lines, testing every batch for pesticide residue, heavy metals and microbiology and documenting it with a Verification Record™ before it leaves our Hong Kong hub. It is the lane we reach for when a programme needs real scale without losing traceability.",
+  "egypt-eg":
+    "Egypt's Nile-fed fields are the classic home of hibiscus (Hibiscus sabdariffa). Long hours of sun give the calyces their deep ruby colour and bright, clean acidity. We source sun-grown Egyptian hibiscus, mill it to a consistent powder and test every batch for contaminants before documenting it and routing it through Hong Kong — so the colour and tartness you sample are the colour and tartness you receive at volume.",
 };
 
 // Richer place × product notes (override the blurb where we have specifics).

@@ -5,7 +5,7 @@ import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { SourcingMap } from "@/components/SourcingMap";
-import { ORIGIN_LIST, getOrigin, productsForOrigin, originLabel } from "@/data/catalog";
+import { ORIGIN_LIST, getOrigin, productsForOrigin, originLabel, ORIGIN_INTRO } from "@/data/catalog";
 
 export function generateStaticParams() {
   return ORIGIN_LIST.map((o) => ({ origin: o.slug }));
@@ -46,7 +46,10 @@ export default async function OriginPage({ params }: { params: Promise<{ origin:
 
         <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <Reveal className="max-w-2xl">
-            <p className="text-lg leading-relaxed text-stone">
+            {ORIGIN_INTRO[o.slug] && (
+              <p className="text-lg leading-relaxed text-stone md:text-xl">{ORIGIN_INTRO[o.slug]}</p>
+            )}
+            <p className={`leading-relaxed text-stone ${ORIGIN_INTRO[o.slug] ? "mt-5" : "text-lg"}`}>
               Direct sourcing in {originLabel(o)}. Every batch from this origin is lab-tested for pesticide residue, heavy metals, microbiology and radiation, then documented with a Verification Record™ before it leaves the hub.
             </p>
           </Reveal>
