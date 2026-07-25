@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useState } from "react";
 
 const PRODUCTS = [
@@ -13,6 +13,7 @@ const NODES = ["ORIGIN", "LAB VERIFIED", "HONG KONG HUB", "YOUR FACILITY"];
 
 export function TraceABatch() {
   const [sel, setSel] = useState(0);
+  const reduce = useReducedMotion();
   const p = PRODUCTS[sel];
   const panel: [string, string][] = [
     ["Pesticide residue", "Pass"],
@@ -43,14 +44,24 @@ export function TraceABatch() {
         </div>
 
         <div className="relative mt-10 h-56 pl-8">
-          <div className="absolute left-[7px] top-1 bottom-1 w-px bg-stone/20" />
-          <motion.div
-            key={`${p.id}-dot`}
-            className="absolute left-[2px] h-3 w-3 rounded-full"
-            style={{ backgroundColor: p.accent }}
-            animate={{ top: ["0%", "100%"] }}
-            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-          />
+          {/* rail — centred on x=12px so it runs through every node circle */}
+          <div className="absolute left-[12px] top-1 bottom-1 w-px -translate-x-1/2 bg-stone/20" />
+          {/* travelling signal — linear, fades in/out at the ends so the loop has no hard jump */}
+          {!reduce && (
+            <motion.div
+              key={`${p.id}-dot`}
+              aria-hidden
+              className="absolute left-[12px] h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full"
+              style={{ backgroundColor: p.accent, boxShadow: `0 0 9px ${p.accent}` }}
+              animate={{ top: [6, 216], opacity: [0, 1, 1, 0] }}
+              transition={{
+                duration: 3.2,
+                repeat: Infinity,
+                ease: "linear",
+                times: [0, 0.12, 0.82, 1],
+              }}
+            />
+          )}
           <div className="flex h-full flex-col justify-between">
             {NODES.map((n, idx) => (
               <div key={n} className="relative flex items-center">
