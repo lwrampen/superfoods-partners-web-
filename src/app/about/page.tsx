@@ -6,7 +6,7 @@ import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { TeamSection } from "@/components/TeamSection";
 import { Certifications } from "@/components/Certifications";
-import { TEAM, CERTIFICATIONS } from "@/data/trust";
+import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
 
 export const metadata: Metadata = {
   title: "About — the trusted superfood sourcing partner",
@@ -130,8 +130,8 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Certifications + independent testing */}
-        <Certifications certs={CERTIFICATIONS} />
+        {/* Certifications + independent labs */}
+        <Certifications certs={CERTIFICATIONS} partners={PARTNERS} />
 
         <section className="bg-oat">
           <div className="mx-auto max-w-6xl px-6 py-28 text-center">

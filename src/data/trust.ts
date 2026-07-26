@@ -29,13 +29,18 @@ export const TEAM: TeamMember[] = [
   { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
 ];
 
-// Certifications SFP works to — names come from the product data; drop official
-// logo files in /public/certs and set `logo` to show the real marks.
+// Certifications — official marks supplied by SFP.
 export const CERTIFICATIONS: Cert[] = [
-  { name: "JAS" },
-  { name: "EU Organic" },
-  { name: "USDA Organic" },
-  { name: "HACCP" },
-  { name: "FSSC 22000" },
-  { name: "Kosher" },
+  { name: "JAS Organic", logo: "/certs/jas.png" },
+  { name: "EU Organic", logo: "/certs/eu-organic.webp" },
+  { name: "USDA Organic", logo: "/certs/usda-organic.png" },
+  { name: "Rainforest Alliance", logo: "/certs/rainforest-alliance.png" },
+  { name: "HACCP", logo: "/certs/haccp.webp" },
+  { name: "FSSC 22000", logo: "/certs/fssc-22000.webp" },
+];
+
+// Independent labs / bodies we work with (shown as a separate, lighter strip).
+export const PARTNERS: Cert[] = [
+  { name: "Eurofins", logo: "/certs/eurofins.png" },
+  { name: "Mérieux NutriSciences", logo: "/certs/merieux.png" },
 ];
