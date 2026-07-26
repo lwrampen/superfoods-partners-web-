@@ -4,6 +4,9 @@ import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
+import { TeamSection } from "@/components/TeamSection";
+import { Certifications } from "@/components/Certifications";
+import { TEAM, CERTIFICATIONS } from "@/data/trust";
 
 export const metadata: Metadata = {
   title: "About — the trusted superfood sourcing partner",
@@ -123,6 +126,12 @@ export default function AboutPage() {
             </Reveal>
           </div>
         </section>
+
+        {/* The team — real faces behind the sourcing */}
+        <TeamSection members={TEAM} />
+
+        {/* Certifications + independent testing */}
+        <Certifications certs={CERTIFICATIONS} />
 
         <section className="bg-oat">
           <div className="mx-auto max-w-6xl px-6 py-28 text-center">
