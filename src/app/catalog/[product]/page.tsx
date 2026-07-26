@@ -81,7 +81,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
             to life while staying compact (no full-width photo band). */}
         <section className="mx-auto max-w-6xl px-6 pt-12 md:pt-16">
           <div className="grid items-center gap-10 md:grid-cols-[1.05fr_0.95fr]">
-            <Reveal>
+            <div>
               <p className="mono text-[11px] uppercase tracking-widest" style={{ color: p.accent }}>
                 Bulk {p.name.toLowerCase()} supplier
               </p>
@@ -100,9 +100,9 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
                   Lab report &amp; quote within 48 h
                 </span>
               </div>
-            </Reveal>
+            </div>
             {lead && (
-              <Reveal delay={0.1}>
+              <div>
                 <figure>
                   <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-sand md:aspect-[5/6]">
                     <Image
@@ -118,7 +118,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
                     <figcaption className="mono mt-2.5 text-[11px] leading-relaxed text-stone/60">{lead.caption}</figcaption>
                   )}
                 </figure>
-              </Reveal>
+              </div>
             )}
           </div>
         </section>

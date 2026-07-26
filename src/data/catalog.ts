@@ -64,6 +64,24 @@ export const PRODUCTS: Product[] = [
     description:
       "Vibrant, single-origin matcha in ceremonial, premium and culinary grades. Shade-grown and stone-milled, lab-tested every batch, available from sample to full container.",
     grades: ["Ceremonial", "Premium", "Culinary"],
+    intro:
+      "Matcha is stone-ground green tea, shaded for weeks before harvest to build its deep umami and vivid colour. We supply single-origin matcha from Japan and China across ceremonial, premium and culinary grades — shade-grown, stone-milled and lab-tested every batch, available from sample to full container through our Hong Kong hub.",
+    applications: [
+      "Lattes & matcha bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Supplements & capsules",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine green powder" },
+      { label: "Source", value: "Shade-grown green tea (Camellia sinensis)" },
+      { label: "Grades", value: "Ceremonial · Premium · Culinary" },
+      { label: "Origin", value: "Japan · China" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
     gallery: [
       { src: "/photos/hero-shade-nets.jpg", alt: "Shade nets over a matcha tea garden before harvest", caption: "Shade-grown gardens — the weeks under nets that build matcha's umami and colour" },
       { src: "/photos/grower-portrait.jpg", alt: "Tea grower at origin", caption: "Growers we buy from directly — one pair of hands from farm to freight" },
@@ -84,6 +102,24 @@ export const PRODUCTS: Product[] = [
     tagline: "Roasted green tea — low caffeine, deep aroma.",
     description:
       "Charcoal-roasted Japanese green tea with a warm, toasty profile. A natural fit for lattes, bakery and RTD applications.",
+    intro:
+      "Hojicha is Japanese green tea roasted over charcoal, which mellows the caffeine and brings out a warm, toasty aroma. We supply hojicha powder milled for even colour and flavour — a natural fit for lattes, bakery and RTD — sourced across Japan and East China and documented per batch through our Hong Kong hub.",
+    applications: [
+      "Lattes & hojicha bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Chocolate & confectionery",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Warm-brown powder" },
+      { label: "Source", value: "Roasted green tea (Camellia sinensis)" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Origin", value: "Japan · East China" },
+      { label: "Caffeine", value: "Naturally low" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
     gallery: [
       { src: "/photos/terraces.jpg", alt: "Japanese tea terraces", caption: "Grown across Japan's tea country, then charcoal-roasted for its toasty profile" },
       { src: "/photos/grower-picker.jpg", alt: "Hand-picking tea leaf at origin", caption: "Selective picking at origin" },
@@ -216,6 +252,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Jasmine-scented green tea, finely milled.",
     description:
       "Green tea powder layered with real jasmine blossom — floral aroma, smooth finish. For lattes, RTD, bakery and blends. Sourced at volume, screened and documented per batch.",
+    intro:
+      "Jasmine tea powder is green tea layered with real jasmine blossom, then finely milled for a floral aroma and a clean, smooth finish. We source it in East China and Fujian — China's classic jasmine region — and screen and document every batch before it ships through our Hong Kong hub.",
+    applications: [
+      "Lattes & tea bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Cocktails & mocktails",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine green powder" },
+      { label: "Source", value: "Jasmine-scented green tea" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Origin", value: "East China · Fujian" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/field-sky.jpg", alt: "Tea gardens at origin", caption: "Sourced in East China and Fujian — China's classic jasmine country" },
+      { src: "/photos/grading.jpg", alt: "Tea quality control", caption: "Screened and documented per batch via Hong Kong" },
+      { src: "/products/jasmine-tea-powder.webp", alt: "Jasmine green tea powder", caption: "Green tea layered with real jasmine blossom, finely milled" },
+    ],
     originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["EU Organic", "HACCP"],
@@ -231,6 +290,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Semi-oxidised tea, roasted and finely milled.",
     description:
       "Whole-leaf oolong milled to a fine powder — toasty, floral and complex. Semi-oxidised in China's classic oolong country. For specialty lattes, RTD and dessert applications.",
+    intro:
+      "Oolong is semi-oxidised tea — sitting between green and black — with a toasty, floral complexity. We mill whole-leaf oolong from China's classic oolong country to a fine powder for specialty lattes, RTD and dessert work, screened and documented per batch through our Hong Kong hub.",
+    applications: [
+      "Specialty lattes",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Cocktails & mocktails",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Amber-brown powder" },
+      { label: "Source", value: "Semi-oxidised whole-leaf tea" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Origin", value: "East China · Fujian" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/gardens-wide.jpg", alt: "Tea country at origin", caption: "Semi-oxidised in China's classic oolong region" },
+      { src: "/photos/harvest-transport.jpg", alt: "Harvest transport", caption: "Consolidated and documented via Hong Kong" },
+      { src: "/products/oolong-tea-powder.webp", alt: "Oolong tea powder", caption: "Whole-leaf oolong, finely milled" },
+    ],
     originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["EU Organic", "HACCP"],
@@ -246,6 +328,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Black tea with natural bergamot, finely milled.",
     description:
       "Black tea powder infused with natural bergamot — bold, citrus-bright and aromatic. A distinctive base for lattes, bakery and beverage innovation. Sourced and documented per batch.",
+    intro:
+      "Earl grey is black tea infused with natural bergamot — bold, citrus-bright and instantly recognisable. We mill it to a fine powder that carries its aroma through lattes, bakery and beverage innovation, sourced in East China and Fujian and documented per batch through our Hong Kong hub.",
+    applications: [
+      "Lattes & tea bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Cocktails & mocktails",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine dark powder" },
+      { label: "Source", value: "Black tea with natural bergamot" },
+      { label: "Grades", value: "Conventional" },
+      { label: "Origin", value: "East China · Fujian" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/terraces.jpg", alt: "Tea gardens at origin", caption: "Sourced in East China and Fujian" },
+      { src: "/photos/grading.jpg", alt: "Tea quality control", caption: "Screened and documented per batch via Hong Kong" },
+      { src: "/products/earl-grey-tea-powder.webp", alt: "Earl grey tea powder", caption: "Black tea infused with natural bergamot, finely milled" },
+    ],
     originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Conventional"],
     certs: ["HACCP"],
