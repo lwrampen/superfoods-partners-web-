@@ -20,12 +20,13 @@ export type Cert = {
   logo?: string; // /certs/<file> — omit for text-plate fallback
 };
 
-// PLACEHOLDER roster — replace names/roles and add photos.
+// Team — portraits unified to a single studio backdrop + crop (see
+// scripts note); originals live in /public/team/raw.
 export const TEAM: TeamMember[] = [
-  { name: "Name to add", role: "Sourcing & partnerships", location: "Hong Kong" },
-  { name: "Name to add", role: "Quality & compliance", location: "Hong Kong" },
-  { name: "Name to add", role: "Logistics & operations", location: "Hong Kong" },
-  { name: "Name to add", role: "Accounts & service", location: "Europe" },
+  { name: "Wanjin", role: "Supply chain & sourcing", photo: "/team/wanjin.jpg", location: "Hong Kong" },
+  { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
+  { name: "Candy", role: "Partnerships", photo: "/team/candy.jpg", location: "Hong Kong" },
+  { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
 ];
 
 // Certifications SFP works to — names come from the product data; drop official
