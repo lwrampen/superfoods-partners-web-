@@ -21,6 +21,11 @@ export type Product = {
   img?: string; // macro texture
   tagline: string;
   description: string;
+  intro?: string; // richer, keyword-aware opening paragraph for the PDP
+  applications?: string[]; // buyer use-cases (content depth + long-tail)
+  specs?: { label: string; value: string }[]; // at-a-glance product facts
+  gallery?: { src: string; alt: string; caption?: string }[]; // farm / people / product photos
+
   grades?: string[]; // matcha has grades; others may not
   originSlugs: string[];
   forms: Form[];
@@ -59,6 +64,29 @@ export const PRODUCTS: Product[] = [
     description:
       "Vibrant, single-origin matcha in ceremonial, premium and culinary grades. Shade-grown and stone-milled, lab-tested every batch, available from sample to full container.",
     grades: ["Ceremonial", "Premium", "Culinary"],
+    intro:
+      "Matcha is stone-ground green tea, shaded for weeks before harvest to build its deep umami and vivid colour. We supply single-origin matcha from Japan and China across ceremonial, premium and culinary grades — shade-grown, stone-milled and lab-tested every batch, available from sample to full container through our Hong Kong hub.",
+    applications: [
+      "Lattes & matcha bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Supplements & capsules",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine green powder" },
+      { label: "Source", value: "Shade-grown green tea (Camellia sinensis)" },
+      { label: "Grades", value: "Ceremonial · Premium · Culinary" },
+      { label: "Origin", value: "Japan · China" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/hero-shade-nets.jpg", alt: "Shade nets over a matcha tea garden before harvest", caption: "Shade-grown gardens — the weeks under nets that build matcha's umami and colour" },
+      { src: "/photos/grower-portrait.jpg", alt: "Tea grower at origin", caption: "Growers we buy from directly — one pair of hands from farm to freight" },
+      { src: "/photos/grading.jpg", alt: "Grading and quality control of tea", caption: "Every batch graded and lab-tested before it leaves the Hong Kong hub" },
+    ],
     originSlugs: ["uji-jp", "shizuoka-jp", "kagoshima-jp", "nara-jp", "gifu-jp", "ibaraki-jp", "east-china-cn", "south-china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["JAS", "EU Organic", "USDA Organic"],
@@ -74,6 +102,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Roasted green tea — low caffeine, deep aroma.",
     description:
       "Charcoal-roasted Japanese green tea with a warm, toasty profile. A natural fit for lattes, bakery and RTD applications.",
+    intro:
+      "Hojicha is Japanese green tea roasted over charcoal, which mellows the caffeine and brings out a warm, toasty aroma. We supply hojicha powder milled for even colour and flavour — a natural fit for lattes, bakery and RTD — sourced across Japan and East China and documented per batch through our Hong Kong hub.",
+    applications: [
+      "Lattes & hojicha bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Chocolate & confectionery",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Warm-brown powder" },
+      { label: "Source", value: "Roasted green tea (Camellia sinensis)" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Origin", value: "Japan · East China" },
+      { label: "Caffeine", value: "Naturally low" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/terraces.jpg", alt: "Japanese tea terraces", caption: "Grown across Japan's tea country, then charcoal-roasted for its toasty profile" },
+      { src: "/photos/grower-picker.jpg", alt: "Hand-picking tea leaf at origin", caption: "Selective picking at origin" },
+      { src: "/photos/grading.jpg", alt: "Tea quality control", caption: "Screened and documented per batch via Hong Kong" },
+    ],
     originSlugs: ["kyoto-jp", "uji-jp", "nara-jp", "shizuoka-jp", "kagoshima-jp", "east-china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["JAS", "EU Organic"],
@@ -89,6 +140,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Purple yam powder — colour and flavour from the Philippines.",
     description:
       "Naturally vivid purple yam powder for beverages, bakery and confectionery. Clean colour, consistent particle size, scalable supply.",
+    intro:
+      "Ube is the vivid purple yam that has moved from Filipino kitchens onto menus worldwide. Our ube powder is milled from mature purple yam (Dioscorea alata) for a clean, naturally violet colour and a soft, vanilla-like sweetness — no artificial dye. We source it directly in the Philippines, with a secondary China lane for scale, and screen and document every batch before it ships through our Hong Kong hub.",
+    applications: [
+      "Lattes & RTD beverages",
+      "Bakery & viennoiserie",
+      "Ice cream & gelato",
+      "Confectionery & fillings",
+      "Cheesecake & desserts",
+      "Pancakes & waffles",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine violet powder" },
+      { label: "Source", value: "Purple yam (Dioscorea alata)" },
+      { label: "Origin", value: "Philippines · China" },
+      { label: "Caffeine", value: "Caffeine-free" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    // Product macro only — we don't yet have authentic purple-yam farm/people
+    // photography; tea-garden shots would misrepresent the ube supply chain.
+    gallery: [
+      { src: "/products/ube.jpg", alt: "Ube purple yam powder", caption: "Milled to a clean, naturally violet powder — no artificial dye" },
+    ],
     originSlugs: ["philippines-ph", "china-cn"],
     forms: ["Conventional"],
     certs: ["HACCP", "FSSC 22000"],
@@ -104,6 +178,28 @@ export const PRODUCTS: Product[] = [
     tagline: "Functional mushroom for nutraceutical formulation.",
     description:
       "Fruiting-body lion's mane for supplement and functional-food brands. Tested for actives and contaminants, documented per batch.",
+    intro:
+      "Lion's mane (Hericium erinaceus) is the functional mushroom nutraceutical brands ask for by name. We supply fruiting-body powder — not mycelium-on-grain — so formulators start from a clean, documented material, tested for actives and contaminants. Sourced in China, screened batch by batch and routed through our Hong Kong hub, in organic and conventional grades.",
+    applications: [
+      "Capsules & tablets",
+      "Functional coffee & lattes",
+      "Nootropic blends",
+      "Powders & stick packs",
+      "Gummies",
+      "Functional foods",
+    ],
+    specs: [
+      { label: "Appearance", value: "Off-white to tan powder" },
+      { label: "Source", value: "Fruiting body (Hericium erinaceus)" },
+      { label: "Origin", value: "China" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Extract", value: "Powder or extract ratios on request" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    // Product macro only — authentic mushroom origin/people photos pending.
+    gallery: [
+      { src: "/products/lionsmane.jpg", alt: "Lion's mane mushroom powder", caption: "Fruiting-body powder — not mycelium-on-grain" },
+    ],
     originSlugs: ["china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["USDA Organic", "Kosher"],
@@ -119,6 +215,28 @@ export const PRODUCTS: Product[] = [
     tagline: "Tart, ruby-red botanical for teas and beverages.",
     description:
       "Deep-red hibiscus for infusions, RTD and blends. Sourced at volume, screened and documented.",
+    intro:
+      "Hibiscus (Hibiscus sabdariffa) brings a deep ruby colour and a bright, cranberry-like tartness that carries through beverages and bakery alike. We source sun-grown calyces — principally from Egypt, with an East-China lane for volume — and mill them to a consistent powder, screened and documented per batch before routing through Hong Kong.",
+    applications: [
+      "Teas & infusions",
+      "RTD & functional drinks",
+      "Natural red colour",
+      "Bakery & confectionery",
+      "Syrups & cordials",
+      "Yoghurt & desserts",
+    ],
+    specs: [
+      { label: "Appearance", value: "Deep red powder" },
+      { label: "Source", value: "Hibiscus sabdariffa calyx" },
+      { label: "Origin", value: "Egypt · East China" },
+      { label: "Caffeine", value: "Caffeine-free" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    // Product macro only — authentic hibiscus origin/people photos pending.
+    gallery: [
+      { src: "/products/hibiscus.webp", alt: "Hibiscus powder", caption: "Milled to a consistent, deep-red powder" },
+    ],
     originSlugs: ["east-china-cn", "egypt-eg"],
     forms: ["Conventional"],
     certs: ["HACCP"],
@@ -134,6 +252,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Jasmine-scented green tea, finely milled.",
     description:
       "Green tea powder layered with real jasmine blossom — floral aroma, smooth finish. For lattes, RTD, bakery and blends. Sourced at volume, screened and documented per batch.",
+    intro:
+      "Jasmine tea powder is green tea layered with real jasmine blossom, then finely milled for a floral aroma and a clean, smooth finish. We source it in East China and Fujian — China's classic jasmine region — and screen and document every batch before it ships through our Hong Kong hub.",
+    applications: [
+      "Lattes & tea bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Cocktails & mocktails",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine green powder" },
+      { label: "Source", value: "Jasmine-scented green tea" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Origin", value: "East China · Fujian" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/field-sky.jpg", alt: "Tea gardens at origin", caption: "Sourced in East China and Fujian — China's classic jasmine country" },
+      { src: "/photos/grading.jpg", alt: "Tea quality control", caption: "Screened and documented per batch via Hong Kong" },
+      { src: "/products/jasmine-tea-powder.webp", alt: "Jasmine green tea powder", caption: "Green tea layered with real jasmine blossom, finely milled" },
+    ],
     originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["EU Organic", "HACCP"],
@@ -149,6 +290,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Semi-oxidised tea, roasted and finely milled.",
     description:
       "Whole-leaf oolong milled to a fine powder — toasty, floral and complex. Semi-oxidised in China's classic oolong country. For specialty lattes, RTD and dessert applications.",
+    intro:
+      "Oolong is semi-oxidised tea — sitting between green and black — with a toasty, floral complexity. We mill whole-leaf oolong from China's classic oolong country to a fine powder for specialty lattes, RTD and dessert work, screened and documented per batch through our Hong Kong hub.",
+    applications: [
+      "Specialty lattes",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Cocktails & mocktails",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Amber-brown powder" },
+      { label: "Source", value: "Semi-oxidised whole-leaf tea" },
+      { label: "Grades", value: "Organic · Conventional" },
+      { label: "Origin", value: "East China · Fujian" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/gardens-wide.jpg", alt: "Tea country at origin", caption: "Semi-oxidised in China's classic oolong region" },
+      { src: "/photos/harvest-transport.jpg", alt: "Harvest transport", caption: "Consolidated and documented via Hong Kong" },
+      { src: "/products/oolong-tea-powder.webp", alt: "Oolong tea powder", caption: "Whole-leaf oolong, finely milled" },
+    ],
     originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["EU Organic", "HACCP"],
@@ -164,6 +328,29 @@ export const PRODUCTS: Product[] = [
     tagline: "Black tea with natural bergamot, finely milled.",
     description:
       "Black tea powder infused with natural bergamot — bold, citrus-bright and aromatic. A distinctive base for lattes, bakery and beverage innovation. Sourced and documented per batch.",
+    intro:
+      "Earl grey is black tea infused with natural bergamot — bold, citrus-bright and instantly recognisable. We mill it to a fine powder that carries its aroma through lattes, bakery and beverage innovation, sourced in East China and Fujian and documented per batch through our Hong Kong hub.",
+    applications: [
+      "Lattes & tea bars",
+      "RTD & bottled drinks",
+      "Bakery & pastry",
+      "Ice cream & desserts",
+      "Cocktails & mocktails",
+      "Private label",
+    ],
+    specs: [
+      { label: "Appearance", value: "Fine dark powder" },
+      { label: "Source", value: "Black tea with natural bergamot" },
+      { label: "Grades", value: "Conventional" },
+      { label: "Origin", value: "East China · Fujian" },
+      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    gallery: [
+      { src: "/photos/terraces.jpg", alt: "Tea gardens at origin", caption: "Sourced in East China and Fujian" },
+      { src: "/photos/grading.jpg", alt: "Tea quality control", caption: "Screened and documented per batch via Hong Kong" },
+      { src: "/products/earl-grey-tea-powder.webp", alt: "Earl grey tea powder", caption: "Black tea infused with natural bergamot, finely milled" },
+    ],
     originSlugs: ["east-china-cn", "fujian-cn"],
     forms: ["Conventional"],
     certs: ["HACCP"],
@@ -224,6 +411,15 @@ export const ORIGIN_BLURB: Record<string, string> = {
   "china-cn": "Sourced across China; screened and documented per batch.",
   "philippines-ph": "Philippine highlands; vivid, naturally sweet crops.",
   "egypt-eg": "Sun-grown along the Nile; deep colour, bright acidity.",
+};
+
+// Longer, unique origin narratives — used as the intro on origin pages that
+// otherwise read too thin to index (and richer context for the rest over time).
+export const ORIGIN_INTRO: Record<string, string> = {
+  "china-cn":
+    "Beyond tea, China is one of the world's largest and most capable growers of functional and specialty crops — from lion's mane and other mushrooms to ube and botanical powders. We work across screened Chinese supply for these lines, testing every batch for pesticide residue, heavy metals and microbiology and documenting it with a Verification Record™ before it leaves our Hong Kong hub. It is the lane we reach for when a programme needs real scale without losing traceability.",
+  "egypt-eg":
+    "Egypt's Nile-fed fields are the classic home of hibiscus (Hibiscus sabdariffa). Long hours of sun give the calyces their deep ruby colour and bright, clean acidity. We source sun-grown Egyptian hibiscus, mill it to a consistent powder and test every batch for contaminants before documenting it and routing it through Hong Kong — so the colour and tartness you sample are the colour and tartness you receive at volume.",
 };
 
 // Richer place × product notes (override the blurb where we have specifics).
