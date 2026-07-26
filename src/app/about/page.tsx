@@ -67,6 +67,9 @@ export default function AboutPage() {
           </Reveal>
         </section>
 
+        {/* The team — real faces, placed high for trust */}
+        <TeamSection members={TEAM} />
+
         {/* CORE MODEL */}
         <section className="bg-green text-oat">
           <div className="mx-auto max-w-6xl px-6 py-24">
@@ -126,9 +129,6 @@ export default function AboutPage() {
             </Reveal>
           </div>
         </section>
-
-        {/* The team — real faces behind the sourcing */}
-        <TeamSection members={TEAM} />
 
         {/* Certifications + independent testing */}
         <Certifications certs={CERTIFICATIONS} />
