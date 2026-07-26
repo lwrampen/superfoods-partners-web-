@@ -24,6 +24,8 @@ export type Product = {
   intro?: string; // richer, keyword-aware opening paragraph for the PDP
   applications?: string[]; // buyer use-cases (content depth + long-tail)
   specs?: { label: string; value: string }[]; // at-a-glance product facts
+  gallery?: { src: string; alt: string; caption?: string }[]; // farm / people / product photos
+
   grades?: string[]; // matcha has grades; others may not
   originSlugs: string[];
   forms: Form[];
@@ -62,6 +64,11 @@ export const PRODUCTS: Product[] = [
     description:
       "Vibrant, single-origin matcha in ceremonial, premium and culinary grades. Shade-grown and stone-milled, lab-tested every batch, available from sample to full container.",
     grades: ["Ceremonial", "Premium", "Culinary"],
+    gallery: [
+      { src: "/photos/hero-shade-nets.jpg", alt: "Shade nets over a matcha tea garden before harvest", caption: "Shade-grown gardens — the weeks under nets that build matcha's umami and colour" },
+      { src: "/photos/grower-portrait.jpg", alt: "Tea grower at origin", caption: "Growers we buy from directly — one pair of hands from farm to freight" },
+      { src: "/photos/grading.jpg", alt: "Grading and quality control of tea", caption: "Every batch graded and lab-tested before it leaves the Hong Kong hub" },
+    ],
     originSlugs: ["uji-jp", "shizuoka-jp", "kagoshima-jp", "nara-jp", "gifu-jp", "ibaraki-jp", "east-china-cn", "south-china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["JAS", "EU Organic", "USDA Organic"],
@@ -77,6 +84,11 @@ export const PRODUCTS: Product[] = [
     tagline: "Roasted green tea — low caffeine, deep aroma.",
     description:
       "Charcoal-roasted Japanese green tea with a warm, toasty profile. A natural fit for lattes, bakery and RTD applications.",
+    gallery: [
+      { src: "/photos/terraces.jpg", alt: "Japanese tea terraces", caption: "Grown across Japan's tea country, then charcoal-roasted for its toasty profile" },
+      { src: "/photos/grower-picker.jpg", alt: "Hand-picking tea leaf at origin", caption: "Selective picking at origin" },
+      { src: "/photos/grading.jpg", alt: "Tea quality control", caption: "Screened and documented per batch via Hong Kong" },
+    ],
     originSlugs: ["kyoto-jp", "uji-jp", "nara-jp", "shizuoka-jp", "kagoshima-jp", "east-china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["JAS", "EU Organic"],
@@ -109,6 +121,11 @@ export const PRODUCTS: Product[] = [
       { label: "Caffeine", value: "Caffeine-free" },
       { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    // Product macro only — we don't yet have authentic purple-yam farm/people
+    // photography; tea-garden shots would misrepresent the ube supply chain.
+    gallery: [
+      { src: "/products/ube.jpg", alt: "Ube purple yam powder", caption: "Milled to a clean, naturally violet powder — no artificial dye" },
     ],
     originSlugs: ["philippines-ph", "china-cn"],
     forms: ["Conventional"],
@@ -143,6 +160,10 @@ export const PRODUCTS: Product[] = [
       { label: "Extract", value: "Powder or extract ratios on request" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
+    // Product macro only — authentic mushroom origin/people photos pending.
+    gallery: [
+      { src: "/products/lionsmane.jpg", alt: "Lion's mane mushroom powder", caption: "Fruiting-body powder — not mycelium-on-grain" },
+    ],
     originSlugs: ["china-cn"],
     forms: ["Organic", "Conventional"],
     certs: ["USDA Organic", "Kosher"],
@@ -175,6 +196,10 @@ export const PRODUCTS: Product[] = [
       { label: "Caffeine", value: "Caffeine-free" },
       { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
+    ],
+    // Product macro only — authentic hibiscus origin/people photos pending.
+    gallery: [
+      { src: "/products/hibiscus.webp", alt: "Hibiscus powder", caption: "Milled to a consistent, deep-red powder" },
     ],
     originSlugs: ["east-china-cn", "egypt-eg"],
     forms: ["Conventional"],

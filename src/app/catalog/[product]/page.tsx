@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -81,6 +82,48 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
             {p.intro ?? p.description}
           </p>
         </section>
+
+        {/* From the source — real farm / people / product photography */}
+        {p.gallery?.length ? (
+          <section className="mx-auto max-w-6xl px-6 pt-14 md:pt-16">
+            <p className="mono text-[11px] uppercase tracking-widest text-stone/50">
+              {p.gallery.length > 1 ? "From the source" : "The product"}
+            </p>
+            <h2 className="display mt-2 text-2xl text-green md:text-3xl">
+              {p.gallery.length > 1 ? "People, farms & product" : `${p.name} up close`}
+            </h2>
+            <div className="mt-8 space-y-5">
+              <figure>
+                <div className="relative aspect-[16/7] w-full overflow-hidden rounded-2xl bg-sand">
+                  <Image
+                    src={p.gallery[0].src}
+                    alt={p.gallery[0].alt}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1152px) 100vw, 1152px"
+                  />
+                </div>
+                {p.gallery[0].caption && (
+                  <figcaption className="mono mt-2.5 text-[11px] leading-relaxed text-stone/60">{p.gallery[0].caption}</figcaption>
+                )}
+              </figure>
+              {p.gallery.length > 1 && (
+                <div className="grid gap-5 md:grid-cols-2">
+                  {p.gallery.slice(1).map((g) => (
+                    <figure key={g.src}>
+                      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-sand">
+                        <Image src={g.src} alt={g.alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 560px" />
+                      </div>
+                      {g.caption && (
+                        <figcaption className="mono mt-2.5 text-[11px] leading-relaxed text-stone/60">{g.caption}</figcaption>
+                      )}
+                    </figure>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
+        ) : null}
 
         {/* Trade terms + variant selector */}
         <section className="mx-auto grid max-w-6xl gap-12 px-6 py-14 md:grid-cols-2 md:py-16">
