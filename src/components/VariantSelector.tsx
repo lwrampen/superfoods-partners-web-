@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 import { ORIGINS, productSku, type Product } from "@/data/catalog";
+import { localizeOrigin, formLabel } from "@/data/content.de";
 
 function Chip({
   active,
@@ -30,6 +32,8 @@ function Chip({
 }
 
 export function VariantSelector({ product }: { product: Product }) {
+  const t = useTranslations("variant");
+  const locale = useLocale();
   const origins = product.originSlugs.map((s) => ORIGINS[s]);
   const [grade, setGrade] = useState(product.grades?.[0]);
   const [originSlug, setOriginSlug] = useState(origins[0].slug);
@@ -42,7 +46,7 @@ export function VariantSelector({ product }: { product: Product }) {
     <div className="rounded-xl border border-stone/15 bg-white p-6">
       {product.grades && (
         <div className="mb-5">
-          <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">Grade</p>
+          <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">{t("grade")}</p>
           <div className="flex flex-wrap gap-2">
             {product.grades.map((g) => (
               <Chip key={g} active={grade === g} accent={product.accent} onClick={() => setGrade(g)}>{g}</Chip>
@@ -52,30 +56,30 @@ export function VariantSelector({ product }: { product: Product }) {
       )}
 
       <div className="mb-5">
-        <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">Origin</p>
+        <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">{t("origin")}</p>
         <div className="flex flex-wrap gap-2">
           {origins.map((o) => (
             <Chip key={o.slug} active={originSlug === o.slug} accent={product.accent} onClick={() => setOriginSlug(o.slug)}>
-              {o.name} · {o.countryCode}
+              {localizeOrigin(o, locale).name} · {o.countryCode}
             </Chip>
           ))}
         </div>
       </div>
 
       <div className="mb-6">
-        <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">Certification</p>
+        <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">{t("certification")}</p>
         <div className="flex flex-wrap gap-2">
           {product.forms.map((f) => (
-            <Chip key={f} active={form === f} accent={product.accent} onClick={() => setForm(f)}>{f}</Chip>
+            <Chip key={f} active={form === f} accent={product.accent} onClick={() => setForm(f)}>{formLabel(f, locale)}</Chip>
           ))}
         </div>
       </div>
 
       <div className="flex items-center justify-between border-t border-stone/10 pt-4">
-        <span className="mono text-[11px] uppercase text-stone/60">SKU</span>
+        <span className="mono text-[11px] uppercase text-stone/60">{t("sku")}</span>
         <span className="mono text-sm" style={{ color: product.accent }}>{sku}</span>
       </div>
-      <p className="mono mt-2 text-[10px] uppercase text-stone/40">MOQ 25 kg → full container · {origin.coords}</p>
+      <p className="mono mt-2 text-[10px] uppercase text-stone/40">{t("moqLine", { coords: origin.coords })}</p>
     </div>
   );
 }

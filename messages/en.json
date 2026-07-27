@@ -213,5 +213,61 @@
   },
   "sourcingMap": {
     "aria": "Where Superfoods Partners sources, routed through Hong Kong"
+  },
+  "pdp": {
+    "metaTitle": "Bulk {name} — {origin}, {country} | wholesale supplier",
+    "bulkSupplier": "Bulk {name} supplier",
+    "requestQuote": "Request a quote",
+    "labReport": "Lab report & quote within 48 h",
+    "everyBatch": "Every batch ships with a Verification Record™ · routed via Hong Kong",
+    "atGlance": "At a glance",
+    "moq": "MOQ",
+    "moqValue": "25 kg → full container",
+    "leadTime": "Lead time",
+    "leadValue": "2–4 weeks via Hong Kong",
+    "incoterms": "Incoterms",
+    "incotermsValue": "FOB / CIF / DDP",
+    "applications": "Applications",
+    "applicationsBody": "Where buyers put {name} to work — across beverage, bakery and functional formats.",
+    "whereFrom": "Where it comes from",
+    "sourcedAtOrigin": "{name}, sourced at origin.",
+    "sourceMulti": "We source {name} directly from {count} regions, then consolidate and document every batch through our Hong Kong hub before it reaches you.",
+    "sourceSingle": "We source {name} directly in {country}, then consolidate and document every batch through our Hong Kong hub before it reaches you.",
+    "originsFor": "Origins for {name}",
+    "moreCatalogue": "More from the catalogue",
+    "viewCatalogue": "View full catalogue →",
+    "faqHeading": "Sourcing {name} — common questions",
+    "crumbHome": "Home",
+    "crumbCatalogue": "Catalogue"
+  },
+  "faq": {
+    "moqQ": "What is the minimum order quantity for bulk {name}?",
+    "moqA": "Bulk {name} is available from 25 kg up to full-container volume. Sample quantities can be arranged first so you can qualify the material before committing to a wholesale order.",
+    "certsQ": "Which certifications does your {name} carry?",
+    "certsA": "Our {name} is available with {certs}. Every batch ships with a full COA and a Verification Record™ documenting pesticide-residue, heavy-metal, microbiology and radiation testing.",
+    "sourceQ": "Where do you source {name}?",
+    "sourceA": "We source {name} from {countries}, routed and quality-checked through our Hong Kong hub, with traceability to the origin batch on every shipment.",
+    "plQ": "Can you supply {name} for private label or as a formulation ingredient?",
+    "plA": "Yes. We supply {name} to beverage manufacturers, supplement and nutraceutical brands, private-label and co-packers, and distributors — either as a bulk ingredient or under your own label.",
+    "shipQ": "How fast can you ship {name}, and on what Incoterms?",
+    "shipA": "Typical lead time is 2–4 weeks, shipped FOB, CIF or DDP via Hong Kong. A lab report and quote usually follow within 48 hours of your request.",
+    "gradesQ": "Which grades of {name} do you offer?",
+    "gradesA": "{name} is available in {grades} grades, in {forms} forms — matched to your application and budget.",
+    "organicQ": "Is your {name} available organic?",
+    "organicA": "Yes — {name} is available in both organic and conventional forms, documented per batch.",
+    "vettedOrigins": "vetted origins"
+  },
+  "variant": {
+    "grade": "Grade",
+    "origin": "Origin",
+    "certification": "Certification",
+    "sku": "SKU",
+    "moqLine": "MOQ 25 kg → full container · {coords}"
+  },
+  "passport": {
+    "eyebrow": "Origin passport",
+    "heading": "Where it comes from — and why it tastes that way.",
+    "originLabel": "Origin",
+    "verified": "Verified at origin · routed via Hong Kong"
   }
 }

@@ -213,5 +213,61 @@
   },
   "sourcingMap": {
     "aria": "Wo Superfoods Partners beschafft, geleitet über Hongkong"
+  },
+  "pdp": {
+    "metaTitle": "{name} in Großmengen — {origin}, {country} | Großhandelslieferant",
+    "bulkSupplier": "{name} · Großhandelslieferant",
+    "requestQuote": "Angebot anfragen",
+    "labReport": "Laborbericht & Angebot innerhalb von 48 Std.",
+    "everyBatch": "Jede Charge wird mit einem Verification Record™ geliefert · über Hongkong geleitet",
+    "atGlance": "Auf einen Blick",
+    "moq": "MOQ",
+    "moqValue": "25 kg → ganzer Container",
+    "leadTime": "Lieferzeit",
+    "leadValue": "2–4 Wochen über Hongkong",
+    "incoterms": "Incoterms",
+    "incotermsValue": "FOB / CIF / DDP",
+    "applications": "Anwendungen",
+    "applicationsBody": "Wo Einkäufer {name} einsetzen — in Getränke-, Back- und funktionellen Formaten.",
+    "whereFrom": "Woher es kommt",
+    "sourcedAtOrigin": "{name}, am Ursprung bezogen.",
+    "sourceMulti": "Wir beziehen {name} direkt aus {count} Regionen, konsolidieren und dokumentieren dann jede Charge über unseren Hongkong-Hub, bevor sie Sie erreicht.",
+    "sourceSingle": "Wir beziehen {name} direkt in {country}, konsolidieren und dokumentieren dann jede Charge über unseren Hongkong-Hub, bevor sie Sie erreicht.",
+    "originsFor": "Herkünfte für {name}",
+    "moreCatalogue": "Mehr aus dem Katalog",
+    "viewCatalogue": "Gesamten Katalog ansehen →",
+    "faqHeading": "{name} beziehen — häufige Fragen",
+    "crumbHome": "Startseite",
+    "crumbCatalogue": "Katalog"
+  },
+  "faq": {
+    "moqQ": "Wie hoch ist die Mindestbestellmenge für {name} in Großmengen?",
+    "moqA": "{name} ist in Großmengen ab 25 kg bis zu ganzen Containern erhältlich. Mustermengen lassen sich vorab arrangieren, sodass Sie das Material qualifizieren können, bevor Sie eine Großbestellung aufgeben.",
+    "certsQ": "Welche Zertifizierungen trägt Ihr {name}?",
+    "certsA": "Unser {name} ist mit {certs} erhältlich. Jede Charge wird mit einem vollständigen COA und einem Verification Record™ geliefert, der Prüfungen auf Pestizidrückstände, Schwermetalle, Mikrobiologie und Radioaktivität dokumentiert.",
+    "sourceQ": "Woher beziehen Sie {name}?",
+    "sourceA": "Wir beziehen {name} aus {countries}, geleitet und qualitätsgeprüft über unseren Hongkong-Hub, mit Rückverfolgbarkeit bis zur Ursprungscharge bei jeder Sendung.",
+    "plQ": "Können Sie {name} als Private Label oder als Formulierungszutat liefern?",
+    "plA": "Ja. Wir liefern {name} an Getränkehersteller, Supplement- und Nutraceutical-Marken, Private-Label- und Lohnhersteller sowie Distributoren — entweder als Bulk-Zutat oder unter Ihrer eigenen Marke.",
+    "shipQ": "Wie schnell können Sie {name} versenden, und zu welchen Incoterms?",
+    "shipA": "Die typische Lieferzeit beträgt 2–4 Wochen, versandt FOB, CIF oder DDP über Hongkong. Ein Laborbericht und ein Angebot folgen in der Regel innerhalb von 48 Stunden nach Ihrer Anfrage.",
+    "gradesQ": "Welche Grade von {name} bieten Sie an?",
+    "gradesA": "{name} ist in den Graden {grades} erhältlich, in {forms} Ausführung — abgestimmt auf Ihre Anwendung und Ihr Budget.",
+    "organicQ": "Ist Ihr {name} in Bio-Qualität erhältlich?",
+    "organicA": "Ja — {name} ist sowohl in Bio- als auch in konventioneller Ausführung erhältlich, pro Charge dokumentiert.",
+    "vettedOrigins": "geprüften Herkünften"
+  },
+  "variant": {
+    "grade": "Grade",
+    "origin": "Herkunft",
+    "certification": "Zertifizierung",
+    "sku": "SKU",
+    "moqLine": "MOQ 25 kg → ganzer Container · {coords}"
+  },
+  "passport": {
+    "eyebrow": "Herkunfts-Pass",
+    "heading": "Woher es kommt — und warum es so schmeckt.",
+    "originLabel": "Ursprung",
+    "verified": "Am Ursprung verifiziert · über Hongkong geleitet"
   }
 }

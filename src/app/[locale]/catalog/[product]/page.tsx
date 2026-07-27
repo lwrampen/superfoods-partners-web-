@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { VariantSelector } from "@/components/VariantSelector";
@@ -9,52 +9,88 @@ import { ProductHero } from "@/components/ProductHero";
 import { OriginPassport } from "@/components/OriginPassport";
 import { Reveal } from "@/components/Reveal";
 import { SourcingMap } from "@/components/SourcingMap";
-import { PRODUCTS, ORIGINS, getProduct, originNote, productFaqs, originLabel } from "@/data/catalog";
+import { Link } from "@/i18n/navigation";
+import { alternatesFor, localizedUrl } from "@/i18n/paths";
+import { PRODUCTS, ORIGINS, getProduct, originNote, originLabel } from "@/data/catalog";
+import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.de";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ product: p.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ product: string }> }): Promise<Metadata> {
-  const { product } = await params;
-  const p = getProduct(product);
-  if (!p) return {};
-  const origin = ORIGINS[p.originSlugs[0]];
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; product: string }>;
+}): Promise<Metadata> {
+  const { locale, product } = await params;
+  const base = getProduct(product);
+  if (!base) return {};
+  const p = localizeProduct(base, locale);
+  const origin = localizeOrigin(ORIGINS[p.originSlugs[0]], locale);
+  const t = await getTranslations({ locale, namespace: "pdp" });
   return {
-    title: `Bulk ${p.name} — ${origin.name}, ${origin.country} | wholesale supplier`,
+    title: t("metaTitle", { name: p.name, origin: origin.name, country: origin.country }),
     description: `${p.tagline} ${p.description}`,
-    alternates: { canonical: `/catalog/${p.slug}` },
+    alternates: alternatesFor(locale, `/catalog/${p.slug}`),
   };
 }
 
-export default async function ProductPage({ params }: { params: Promise<{ product: string }> }) {
-  const { product } = await params;
-  const p = getProduct(product);
-  if (!p) notFound();
+export default async function ProductPage({
+  params,
+}: {
+  params: Promise<{ locale: string; product: string }>;
+}) {
+  const { locale, product } = await params;
+  setRequestLocale(locale);
+  const base = getProduct(product);
+  if (!base) notFound();
+  const p = localizeProduct(base, locale);
+  const t = await getTranslations("pdp");
+  const tf = await getTranslations("faq");
+  const and = locale === "de" ? " und " : " and ";
 
-  const origins = p.originSlugs.map((s) => ORIGINS[s]);
-  const passportNotes = Object.fromEntries(origins.map((o) => [o.slug, originNote(p.slug, o.slug)]));
-  const faqs = productFaqs(p.slug);
-  // Interne links: crawl-paden naar origin- en andere product-pagina's (helpt indexatie).
-  const sameCat = PRODUCTS.filter((x) => x.category === p.category && x.slug !== p.slug);
+  const origins = p.originSlugs.map((s) => localizeOrigin(ORIGINS[s], locale));
+  const passportNotes = Object.fromEntries(
+    origins.map((o) => [o.slug, localizedBlurb(o.slug, locale, originNote(p.slug, o.slug))]),
+  );
+  const sameCat = PRODUCTS.filter((x) => x.category === base.category && x.slug !== p.slug);
   const related = (sameCat.length ? sameCat : PRODUCTS.filter((x) => x.slug !== p.slug)).slice(0, 4);
 
-  // B2B wholesale is quote-based (RFQ): no public price and no reviews, so a
-  // Product snippet can never satisfy Google's offers/review/aggregateRating
-  // requirement. Instead of emitting Product markup that will always be flagged,
-  // we ship an accurate BreadcrumbList (eligible, no merchant requirements) and
-  // rely on site-wide Organization schema for brand context.
+  // FAQ built from the message catalog so it is fully localized.
+  const nameLc = p.name.toLowerCase();
+  const certs = p.certs.join(", ");
+  const countries =
+    [...new Set(origins.map((o) => o.country).filter(Boolean))].join(and) || tf("vettedOrigins");
+  const faqs: { q: string; a: string }[] = [
+    { q: tf("moqQ", { name: nameLc }), a: tf("moqA", { name: nameLc }) },
+    { q: tf("certsQ", { name: nameLc }), a: tf("certsA", { name: nameLc, certs }) },
+    { q: tf("sourceQ", { name: nameLc }), a: tf("sourceA", { name: nameLc, countries }) },
+    { q: tf("plQ", { name: nameLc }), a: tf("plA", { name: nameLc }) },
+    { q: tf("shipQ", { name: nameLc }), a: tf("shipA", { name: nameLc }) },
+  ];
+  if (p.grades?.length) {
+    faqs.push({
+      q: tf("gradesQ", { name: nameLc }),
+      a: tf("gradesA", {
+        name: p.name,
+        grades: p.grades.join(", ").toLowerCase(),
+        forms: p.forms.map((f) => formLabel(f, locale)).join(and).toLowerCase(),
+      }),
+    });
+  } else if (p.forms.includes("Organic")) {
+    faqs.push({ q: tf("organicQ", { name: nameLc }), a: tf("organicA", { name: nameLc }) });
+  }
+
   const breadcrumb = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.superfoodspartners.com/" },
-      { "@type": "ListItem", position: 2, name: "Catalogue", item: "https://www.superfoodspartners.com/catalog" },
-      { "@type": "ListItem", position: 3, name: p.name, item: `https://www.superfoodspartners.com/catalog/${p.slug}` },
+      { "@type": "ListItem", position: 1, name: t("crumbHome"), item: localizedUrl(locale, "/") },
+      { "@type": "ListItem", position: 2, name: t("crumbCatalogue"), item: localizedUrl(locale, "/catalog") },
+      { "@type": "ListItem", position: 3, name: p.name, item: localizedUrl(locale, `/catalog/${p.slug}`) },
     ],
   };
-  // FAQPage: accurate Q&A drawn from the product's own data — eligible (no offers/review
-  // requirement) and citable in AI/GEO answers.
   const faqLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -66,8 +102,8 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
   };
   const jsonLd = [breadcrumb, faqLd];
 
-  const lead = p.gallery?.[0]; // hero-side supporting photo
-  const strip = p.gallery?.slice(1) ?? []; // extra farm/people shots (compact strip)
+  const lead = p.gallery?.[0];
+  const strip = p.gallery?.slice(1) ?? [];
 
   return (
     <>
@@ -77,42 +113,30 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
 
         <ProductHero name={p.name} category={p.category} tagline={p.tagline} accent={p.accent} tint={p.tint} img={p.img} />
 
-        {/* Intro — split: readable lead + one supporting image. Brings the page
-            to life while staying compact (no full-width photo band). */}
+        {/* Intro — split: readable lead + one supporting image */}
         <section className="mx-auto max-w-6xl px-6 pt-12 md:pt-16">
           <div className="grid items-center gap-10 md:grid-cols-[1.05fr_0.95fr]">
             <div>
               <p className="mono text-[11px] uppercase tracking-widest" style={{ color: p.accent }}>
-                Bulk {p.name.toLowerCase()} supplier
+                {t("bulkSupplier", { name: p.name.toLowerCase() })}
               </p>
-              <p className="mt-4 text-lg leading-relaxed text-stone md:text-xl">
-                {p.intro ?? p.description}
-              </p>
+              <p className="mt-4 text-lg leading-relaxed text-stone md:text-xl">{p.intro ?? p.description}</p>
               <div className="mt-8 flex flex-wrap items-center gap-x-4 gap-y-3">
                 <Link
                   href={`/contact?product=${p.slug}`}
                   className="inline-block rounded-lg px-6 py-3.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
                   style={{ backgroundColor: p.accent }}
                 >
-                  Request a quote
+                  {t("requestQuote")}
                 </Link>
-                <span className="mono text-[11px] uppercase tracking-wide text-stone/50">
-                  Lab report &amp; quote within 48 h
-                </span>
+                <span className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("labReport")}</span>
               </div>
             </div>
             {lead && (
               <div>
                 <figure>
                   <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-sand md:aspect-[5/6]">
-                    <Image
-                      src={lead.src}
-                      alt={lead.alt}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 520px"
-                      priority
-                    />
+                    <Image src={lead.src} alt={lead.alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 520px" priority />
                   </div>
                   {lead.caption && (
                     <figcaption className="mono mt-2.5 text-[11px] leading-relaxed text-stone/60">{lead.caption}</figcaption>
@@ -123,24 +147,23 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
           </div>
         </section>
 
-        {/* Order + at-a-glance — variant selector alongside a single compact
-            facts panel (trade terms + specs merged for scannability). */}
+        {/* Order + at-a-glance */}
         <section className="mx-auto max-w-6xl px-6 py-14 md:py-16">
           <div className="grid gap-12 md:grid-cols-2">
             <div>
               <VariantSelector product={p} />
               <p className="mono mt-4 flex items-center gap-2 text-[11px] uppercase text-stone/60">
                 <span className="h-2.5 w-2.5 rounded-full bg-amber" />
-                Every batch ships with a Verification Record™ · routed via Hong Kong
+                {t("everyBatch")}
               </p>
             </div>
             <div>
-              <h2 className="display text-xl text-green">At a glance</h2>
+              <h2 className="display text-xl text-green">{t("atGlance")}</h2>
               <dl className="mono mt-5 divide-y divide-stone/12 border-t border-stone/15 text-sm">
                 {[
-                  { label: "MOQ", value: "25 kg → full container" },
-                  { label: "Lead time", value: "2–4 weeks via Hong Kong" },
-                  { label: "Incoterms", value: "FOB / CIF / DDP" },
+                  { label: t("moq"), value: t("moqValue") },
+                  { label: t("leadTime"), value: t("leadValue") },
+                  { label: t("incoterms"), value: t("incotermsValue") },
                   ...(p.specs ?? []),
                 ].map((s) => (
                   <div key={s.label} className="flex items-baseline justify-between gap-6 py-3">
@@ -160,22 +183,19 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
           </div>
         </section>
 
-        {/* Applications — full-width compact chip row (buyer long-tail) */}
+        {/* Applications */}
         {p.applications?.length ? (
           <section className="border-t border-stone/10">
             <div className="mx-auto max-w-6xl px-6 py-14 md:py-16">
               <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
-                <h2 className="display text-2xl text-green">Applications</h2>
+                <h2 className="display text-2xl text-green">{t("applications")}</h2>
                 <p className="max-w-md text-sm leading-relaxed text-stone/70">
-                  Where buyers put {p.name.toLowerCase()} to work — across beverage, bakery and functional formats.
+                  {t("applicationsBody", { name: p.name.toLowerCase() })}
                 </p>
               </div>
               <ul className="mt-7 grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-6">
                 {p.applications.map((a) => (
-                  <li
-                    key={a}
-                    className="flex items-center gap-2 rounded-lg border border-stone/12 bg-sand/50 px-3.5 py-3 text-sm text-stone"
-                  >
+                  <li key={a} className="flex items-center gap-2 rounded-lg border border-stone/12 bg-sand/50 px-3.5 py-3 text-sm text-stone">
                     <span className="h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: p.accent }} />
                     {a}
                   </li>
@@ -185,7 +205,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
           </section>
         ) : null}
 
-        {/* Extra farm / people photography — compact, height-limited strip */}
+        {/* Extra farm / people photography */}
         {strip.length > 0 && (
           <section className="mx-auto max-w-6xl px-6 pt-14 md:pt-16">
             <div className="grid gap-4 sm:grid-cols-2">
@@ -205,21 +225,19 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
           </section>
         )}
 
-        {/* Where this comes from — hand-drawn map: origin countries → Hong Kong hub */}
+        {/* Where this comes from */}
         <section className="border-t border-stone/10 bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
             <div className="grid items-center gap-8 md:grid-cols-[1fr_1.1fr]">
               <div className="max-w-md">
-                <p className="mono text-[11px] uppercase tracking-widest" style={{ color: p.accent }}>
-                  Where it comes from
-                </p>
+                <p className="mono text-[11px] uppercase tracking-widest" style={{ color: p.accent }}>{t("whereFrom")}</p>
                 <h2 className="mt-3 display text-2xl leading-tight text-green md:text-3xl">
-                  {p.name.charAt(0) + p.name.slice(1).toLowerCase()}, sourced at origin.
+                  {t("sourcedAtOrigin", { name: p.name.charAt(0) + p.name.slice(1).toLowerCase() })}
                 </h2>
                 <p className="mt-4 leading-relaxed text-stone">
                   {origins.length > 1
-                    ? `We source ${p.name.toLowerCase()} directly from ${origins.length} regions, then consolidate and document every batch through our Hong Kong hub before it reaches you.`
-                    : `We source ${p.name.toLowerCase()} directly in ${origins[0].country}, then consolidate and document every batch through our Hong Kong hub before it reaches you.`}
+                    ? t("sourceMulti", { name: p.name.toLowerCase(), count: origins.length })
+                    : t("sourceSingle", { name: p.name.toLowerCase(), country: origins[0].country })}
                 </p>
                 <ul className="mono mt-6 flex flex-wrap gap-2">
                   {origins.map((o) => (
@@ -240,11 +258,11 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
 
         <OriginPassport origins={origins} notes={passportNotes} accent={p.accent} />
 
-        {/* Interne links — crawl-paden naar origin- & gerelateerde productpagina's (indexatie) */}
+        {/* Internal links */}
         <section className="mx-auto max-w-6xl px-6 py-12">
           <div className="grid gap-10 md:grid-cols-2">
             <div>
-              <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">Origins for {p.name.toLowerCase()}</h2>
+              <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("originsFor", { name: p.name.toLowerCase() })}</h2>
               <ul className="mt-4 flex flex-wrap gap-2">
                 {origins.map((o) => (
                   <li key={o.slug}>
@@ -257,7 +275,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
             </div>
             {related.length > 0 && (
               <div>
-                <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">More from the catalogue</h2>
+                <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("moreCatalogue")}</h2>
                 <ul className="mt-4 flex flex-wrap gap-2">
                   {related.map((r) => (
                     <li key={r.slug}>
@@ -267,19 +285,17 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
                     </li>
                   ))}
                 </ul>
-                <Link href="/catalog" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">View full catalogue →</Link>
+                <Link href="/catalog" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">{t("viewCatalogue")}</Link>
               </div>
             )}
           </div>
         </section>
 
-        {/* Buyer-intent FAQ — content depth for B2B long-tail + citable Q&A for AI/GEO */}
+        {/* FAQ */}
         {faqs.length > 0 && (
           <section className="border-t border-stone/10 bg-sand">
             <div className="mx-auto max-w-3xl px-6 py-16 md:py-20">
-              <h2 className="display text-2xl text-green md:text-3xl">
-                Sourcing {p.name.toLowerCase()} — common questions
-              </h2>
+              <h2 className="display text-2xl text-green md:text-3xl">{t("faqHeading", { name: p.name.toLowerCase() })}</h2>
               <dl className="mt-8 divide-y divide-stone/15">
                 {faqs.map((f) => (
                   <div key={f.q} className="py-5">
