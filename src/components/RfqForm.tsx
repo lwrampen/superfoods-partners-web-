@@ -2,15 +2,20 @@
 
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { useTranslations, useLocale } from "next-intl";
 import { getProduct } from "@/data/catalog";
+import { localizeProduct } from "@/data/content.de";
 
 const FIELD = "w-full rounded-lg border border-stone/25 bg-white px-4 py-2.5 text-sm text-green outline-none transition-colors focus:border-green";
 const LABEL = "mono mb-1.5 block text-[10px] uppercase tracking-wide text-stone/60";
 
 export function RfqForm() {
+  const t = useTranslations("rfq");
+  const locale = useLocale();
   const params = useSearchParams();
   const productSlug = params.get("product");
-  const product = productSlug ? getProduct(productSlug) : undefined;
+  const rawProduct = productSlug ? getProduct(productSlug) : undefined;
+  const product = rawProduct ? localizeProduct(rawProduct, locale) : undefined;
 
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
 
@@ -35,9 +40,9 @@ export function RfqForm() {
     return (
       <div className="rounded-xl border border-stone/15 bg-white p-10 text-center">
         <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green text-xl text-oat">✓</span>
-        <h2 className="mt-5 display text-2xl text-green">We&apos;ve got it.</h2>
+        <h2 className="mt-5 display text-2xl text-green">{t("successHeading")}</h2>
         <p className="mx-auto mt-3 max-w-sm text-stone">
-          Thanks — we&apos;ll come back with a lab report and a quote, usually within 48 hours. Check your inbox.
+          {t("successBody")}
         </p>
       </div>
     );
@@ -50,34 +55,34 @@ export function RfqForm() {
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label className={LABEL} htmlFor="company">Company *</label>
+          <label className={LABEL} htmlFor="company">{t("company")} *</label>
           <input id="company" name="company" required className={FIELD} />
         </div>
         <div>
-          <label className={LABEL} htmlFor="name">Name *</label>
+          <label className={LABEL} htmlFor="name">{t("name")} *</label>
           <input id="name" name="name" required className={FIELD} />
         </div>
         <div>
-          <label className={LABEL} htmlFor="email">Work email *</label>
+          <label className={LABEL} htmlFor="email">{t("email")} *</label>
           <input id="email" name="email" type="email" required className={FIELD} />
         </div>
         <div>
-          <label className={LABEL} htmlFor="market">Country / market</label>
+          <label className={LABEL} htmlFor="market">{t("market")}</label>
           <input id="market" name="market" className={FIELD} />
         </div>
         <div>
-          <label className={LABEL} htmlFor="product">Product</label>
-          <input id="product" name="product" defaultValue={product?.name ?? ""} placeholder="e.g. Ceremonial matcha" className={FIELD} />
+          <label className={LABEL} htmlFor="product">{t("product")}</label>
+          <input id="product" name="product" defaultValue={product?.name ?? ""} placeholder={t("productPlaceholder")} className={FIELD} />
         </div>
         <div>
-          <label className={LABEL} htmlFor="volume">Estimated volume</label>
-          <input id="volume" name="volume" placeholder="e.g. 500 kg / month" className={FIELD} />
+          <label className={LABEL} htmlFor="volume">{t("volume")}</label>
+          <input id="volume" name="volume" placeholder={t("volumePlaceholder")} className={FIELD} />
         </div>
       </div>
 
       <div className="mt-5">
-        <label className={LABEL} htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows={4} className={FIELD} placeholder="Grade, certification, timeline, anything specific…" />
+        <label className={LABEL} htmlFor="message">{t("message")}</label>
+        <textarea id="message" name="message" rows={4} className={FIELD} placeholder={t("messagePlaceholder")} />
       </div>
 
       <div className="mt-6 flex flex-wrap items-center gap-4">
@@ -86,14 +91,14 @@ export function RfqForm() {
           disabled={status === "sending"}
           className="rounded-lg bg-green px-6 py-3 text-sm font-medium text-oat transition-opacity hover:opacity-90 disabled:opacity-50"
         >
-          {status === "sending" ? "Sending…" : "Send request"}
+          {status === "sending" ? t("sending") : t("submit")}
         </button>
-        <span className="mono text-[11px] uppercase tracking-wide text-stone/50">Lab report &amp; quote within 48h</span>
+        <span className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("replyNote")}</span>
       </div>
 
       {status === "error" && (
         <p className="mt-4 text-sm text-hibiscus">
-          Something went wrong sending your request. Please email us directly at{" "}
+          {t("errorText")}{" "}
           <a href="mailto:leonard@purematchapartners.com" className="underline">leonard@purematchapartners.com</a>.
         </p>
       )}

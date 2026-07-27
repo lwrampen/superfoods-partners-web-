@@ -1,6 +1,7 @@
 "use client";
 
 import { useReducedMotion } from "motion/react";
+import { useTranslations } from "next-intl";
 import { feature } from "topojson-client";
 import land from "world-atlas/land-110m.json";
 import { ORIGIN_LIST, getProduct } from "@/data/catalog";
@@ -94,6 +95,7 @@ function arc(x: number, y: number): string {
  */
 export function SourcingMap({ productSlug, originSlug }: { productSlug?: string; originSlug?: string }) {
   const reduce = useReducedMotion();
+  const t = useTranslations("sourcingMap");
 
   let nodes: Node[];
   const showLabels = true;
@@ -112,7 +114,7 @@ export function SourcingMap({ productSlug, originSlug }: { productSlug?: string;
   const viewBox = "155 30 202 88";
 
   return (
-    <svg viewBox={viewBox} className="w-full" role="img" aria-label="Where Superfoods Partners sources, routed through Hong Kong">
+    <svg viewBox={viewBox} className="w-full" role="img" aria-label={t("aria")}>
       <defs>
         <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
           <feTurbulence type="fractalNoise" baseFrequency="0.028" numOctaves="2" seed="7" result="n" />

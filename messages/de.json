@@ -269,5 +269,148 @@
     "heading": "Woher es kommt — und warum es so schmeckt.",
     "originLabel": "Ursprung",
     "verified": "Am Ursprung verifiziert · über Hongkong geleitet"
+  },
+  "catalog": {
+    "metaTitle": "Katalog — Matcha & Superfoods in großen Mengen, am Ursprung geprüft",
+    "metaDescription": "Durchsuchen Sie den B2B-Katalog von Superfoods Partners: Matcha (zeremoniell, Premium, kulinarisch), Hojicha, Jasmin-, Oolong- & Earl-Grey-Teepulver, Ube, Igelstachelbart und Hibiskus — laborgeprüft und dokumentiert.",
+    "eyebrow": "Katalog",
+    "heading": "Matcha & Superfoods in großen Mengen, am Ursprung geprüft.",
+    "intro": "Kategorie → Produkt → Variante. Jede Linie ist laborgeprüft, dokumentiert und von der Probe bis zum vollen Container verfügbar.",
+    "lines": "{count, plural, one {# Linie} other {# Linien}}",
+    "ctaHeading": "Ihr Ursprung nicht dabei?",
+    "ctaBody": "Unser Katalog umfasst 13 Ursprünge in 4 Ländern — und unser Beschaffungsnetzwerk reicht weiter. Sagen Sie uns, was Sie brauchen, und wir finden, prüfen und dokumentieren es.",
+    "ctaButton": "Mengenangebot anfragen"
+  },
+  "origins": {
+    "metaTitle": "Ursprünge — {origins} geprüfte Quellen in {countries} Ländern",
+    "metaDescription": "In {countryList} wird jeder Ursprung von Superfoods Partners kartiert, laborgeprüft und über einen vertrauenswürdigen Hub in Hongkong geleitet. Entdecken Sie unser Beschaffungsnetzwerk.",
+    "eyebrow": "Ursprünge",
+    "heading": "Jeder Ursprung der Welt, über einen Hub geleitet.",
+    "intro": "Wir pflegen direkte Beziehungen am Ursprung in {countries} Ländern. Jede Charge wird vor dem Versand geprüft und dokumentiert — vom Ursprung über Hongkong bis zu Ihrem Betrieb.",
+    "heroCaption": "URSPRUNG — TEELAND ZUR SAISON",
+    "mapEyebrow": "Globale Handelskarte",
+    "mapHeading": "Wo wir beschaffen — und wo wir verkaufen.",
+    "mapBody": "Ziehen Sie, um den Globus zu drehen, scrollen Sie zum Zoomen und fahren Sie über einen beliebigen Punkt. Grün markiert, wo wir beschaffen; Bernstein markiert die Märkte, die wir bedienen — alles über einen Hub in Hongkong geleitet.",
+    "legendSourcing": "Beschaffung · {count} Ursprünge",
+    "legendMarkets": "Märkte · USA · EU (über Pure Matcha Partners) · Naher Osten",
+    "legendHub": "Hub · Hongkong",
+    "statOrigins": "URSPRÜNGE",
+    "statCountries": "LÄNDER",
+    "statBatch": "CHARGENGEPRÜFT",
+    "statHub": "HUB · HONGKONG",
+    "featuredHeading": "Ausgewählte Ursprünge",
+    "multipleLines": "Mehrere Linien",
+    "viewOrigin": "Ursprung ansehen",
+    "ctaHeading": "Fehlt ein Ursprung, den wir nicht aufgeführt haben?",
+    "ctaBody": "Unser Netzwerk reicht tiefer als diese Seite. Nennen Sie uns das Produkt und den Ursprung, den Sie brauchen — wir finden, prüfen und dokumentieren es.",
+    "ctaButton": "Mengenangebot anfragen"
+  },
+  "originDetail": {
+    "metaTitle": "{products} in großen Mengen aus {name}, {country}",
+    "metaDescription": "{products} im Großhandel, am Ursprung in {name}, {country} ({coords}) beschafft. Laborgeprüft, dokumentiert und über Hongkong geleitet. MOQ ab 25 kg.",
+    "metaProductsFallback": "Superfoods",
+    "back": "Ursprünge",
+    "routedVia": "{coords} — über Hongkong geleitet",
+    "introFallback": "Direkte Beschaffung in {label}. Jede Charge dieses Ursprungs wird im Labor auf Pestizidrückstände, Schwermetalle, Mikrobiologie und Radioaktivität geprüft und anschließend mit einem Verification Record™ dokumentiert, bevor sie den Hub verlässt.",
+    "routeEyebrow": "Die Route",
+    "routeHeading": "Von {name} zu Ihrer Laderampe.",
+    "routeBody": "Wir kaufen dort, wo es wächst, konsolidieren dann über unseren Hub in Hongkong und versenden es dokumentiert zu Ihnen. Ein Paar Hände von der Farm bis zur Fracht — keine anonymen Zwischenhändler dazwischen.",
+    "routePath": "{coords} → Hongkong → Sie",
+    "sourcedFrom": "Beschafft aus {name}",
+    "ctaQuote": "Angebot aus {name} anfragen"
+  },
+  "verification": {
+    "metaTitle": "Verifizierung — wie jede Charge geprüft & dokumentiert wird",
+    "metaDescription": "Origin Intelligence™: wie Superfoods Partners jede Charge prüft, dokumentiert und rückverfolgt. Laborpanels, der Verification Record™, Zertifizierungen und Antworten auf häufige Beschaffungsfragen.",
+    "eyebrow": "Origin Intelligence™",
+    "heading": "Wärme, die Sie prüfen können.",
+    "intro": "Die menschliche Geschichte gewinnt Aufmerksamkeit; die Dokumentation gewinnt den Auftrag. Jede Charge, die wir versenden, ist geprüft, dokumentiert und rückverfolgbar — damit Ihr QS-Team, Ihre Auditoren und Ihre Kunden alle dieselbe Antwort erhalten.",
+    "photoCaption": "QUALITÄT AM URSPRUNG — VON HAND VERKOSTET & KLASSIFIZIERT",
+    "steps": [
+      {
+        "t": "Beschaffung am Ursprung",
+        "d": "Direkte Beziehungen zu Erzeugern und Verarbeitern, weltweit."
+      },
+      {
+        "t": "Jede Charge im Labor prüfen",
+        "d": "Pestizidrückstände, Schwermetalle, Mikrobiologie, Radioaktivität — unabhängig geprüft."
+      },
+      {
+        "t": "Dokumentieren & rückverfolgen",
+        "d": "Ein Verification Record™ und ein vollständiges COA begleiten jede Sendung."
+      },
+      {
+        "t": "Über Hongkong leiten",
+        "d": "Konsolidiert, verzollt und von einem vertrauenswürdigen Hub versandt."
+      }
+    ],
+    "testHeading": "Was wir prüfen, bei jeder Charge.",
+    "panel": [
+      "Pestizidrückstände (Multi-Rückstands-Screening)",
+      "Schwermetalle — Blei, Arsen, Cadmium, Quecksilber",
+      "Mikrobiologie — Gesamtkeimzahl, Hefen & Schimmel, Krankheitserreger",
+      "Radioaktivität (wo zutreffend)",
+      "Feuchtigkeit, Partikelgröße & Sensorik"
+    ],
+    "recordEyebrow": "Verification Record™",
+    "recordBody": "Ein einziges Dokument, das jede Charge begleitet: Ursprung und Koordinaten, Chargen- und COA-Referenzen, das vollständige Prüfpanel, Zertifizierungen und die Route über Hongkong. Eine einzige Quelle der Wahrheit — für Sie, Ihre Auditoren und Ihre Kunden.",
+    "recordRoute": "Über Hongkong geleitet · 22,32° N 114,17° O",
+    "certsHeading": "Zertifiziert, geprüft, dokumentiert.",
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Wie hoch ist Ihre Mindestbestellmenge?",
+        "a": "Wir liefern ab 25 kg bis zu vollen Containermengen. Muster sind verfügbar, bevor Sie sich für ein wiederkehrendes Programm entscheiden."
+      },
+      {
+        "q": "Erhalte ich Laborberichte?",
+        "a": "Ja — jede Charge wird mit einem Verification Record™ und einem vollständigen Analysezertifikat (COA) versandt, das Pestizide, Schwermetalle, Mikrobiologie und mehr abdeckt."
+      },
+      {
+        "q": "Wie sind Ihre Lieferzeiten und Incoterms?",
+        "a": "In der Regel 2–4 Wochen, konsolidiert und über unseren Hub in Hongkong geleitet. Wir arbeiten je nach Bedarf mit FOB, CIF oder DDP."
+      },
+      {
+        "q": "Bieten Sie Private Label oder individuelle Mischungen an?",
+        "a": "Ja. Über unsere Blend Library™ unterstützen wir Private-Label- und individuelle Rezepturen für Hersteller und Lohnabfüller."
+      },
+      {
+        "q": "Welche Zertifizierungen haben Sie?",
+        "a": "JAS, EU-Bio, USDA Organic, HACCP, FSSC 22000 und Kosher, ergänzt durch unabhängige Laborprüfungen bei jeder Charge."
+      }
+    ],
+    "ctaButton": "Mengenangebot anfragen"
+  },
+  "contact": {
+    "metaTitle": "Mengenangebot anfragen",
+    "metaDescription": "Sagen Sie uns, was Sie brauchen — Produkt, Grade, Menge und Markt. Wir beschaffen, prüfen und dokumentieren es und antworten innerhalb von 48 Stunden mit einem Laborbericht und einem Angebot.",
+    "eyebrow": "RFQ",
+    "eyebrowSub": "Angebot anfragen",
+    "heading": "Bewegen Sie Mengen, denen Sie vertrauen können.",
+    "intro": "Sagen Sie uns, was Sie brauchen und in welchem Umfang. Wir beschaffen, prüfen und dokumentieren es — und leiten es über Hongkong zu Ihnen. Senden Sie Ihre Spezifikation, und ein Mensch antwortet, in Ihrer Zeitzone.",
+    "specMoq": "MOQ · 25 kg → voller Container",
+    "specLead": "Lieferzeit · 2–4 Wochen",
+    "specIncoterms": "Incoterms · FOB / CIF / DDP",
+    "specReply": "Antwort · Laborbericht & Angebot innerhalb von 48 Stunden",
+    "photoCaption": "VERTRAUEN AM URSPRUNG — WIR KENNEN DIE MENSCHEN"
+  },
+  "rfq": {
+    "loading": "Wird geladen…",
+    "company": "Unternehmen",
+    "name": "Name",
+    "email": "Geschäftliche E-Mail",
+    "market": "Land / Markt",
+    "product": "Produkt",
+    "productPlaceholder": "z. B. Zeremonieller Matcha",
+    "volume": "Geschätzte Menge",
+    "volumePlaceholder": "z. B. 500 kg / Monat",
+    "message": "Nachricht",
+    "messagePlaceholder": "Grade, Zertifizierung, Zeitplan, alles Spezifische…",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet…",
+    "replyNote": "Laborbericht & Angebot innerhalb von 48 Std.",
+    "successHeading": "Wir haben es erhalten.",
+    "successBody": "Danke — wir melden uns mit einem Laborbericht und einem Angebot zurück, in der Regel innerhalb von 48 Stunden. Prüfen Sie Ihren Posteingang.",
+    "errorText": "Beim Senden Ihrer Anfrage ist etwas schiefgegangen. Bitte schreiben Sie uns direkt an"
   }
 }
