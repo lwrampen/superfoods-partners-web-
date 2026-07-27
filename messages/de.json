@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "titleDefault": "Superfoods Partners — Beschaffung im großen Maßstab. Vertrauen am Ursprung.",
+    "description": "B2B-Superfood-Beschaffung mit Sitz in Hongkong. Jeder Ursprung der Welt – geprüft, dokumentiert und rückverfolgbar, gebündelt über einen vertrauenswürdigen Hub.",
+    "ogDescription": "Jeder Ursprung der Welt, gebündelt über einen vertrauenswürdigen Hub in Hongkong. Geprüft, dokumentiert, rückverfolgbar."
+  },
+  "nav": {
+    "catalog": "Katalog",
+    "origins": "Herkünfte",
+    "verification": "Verifizierung",
+    "about": "Über uns",
+    "requestVolume": "Menge anfragen",
+    "home": "Superfoods Partners — Startseite"
+  },
+  "footer": {
+    "tagline": "Beschafft im großen Maßstab. Vertraut am Ursprung.",
+    "catalogue": "Katalog",
+    "origins": "Herkünfte",
+    "company": "Unternehmen",
+    "allProducts": "Alle Produkte →",
+    "allOrigins": "Alle Herkünfte →",
+    "verification": "Verifizierung",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "hongKongHub": "Hongkong-Hub",
+    "requestQuote": "Angebot anfragen →",
+    "copyright": "© 2026 Superfoods Partners — Ein Unternehmen der Pure Matcha Partners."
+  },
+  "countries": {
+    "Japan": "Japan",
+    "China": "China",
+    "Philippines": "Philippinen",
+    "Egypt": "Ägypten"
+  }
+}

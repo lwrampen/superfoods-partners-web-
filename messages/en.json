@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "titleDefault": "Superfoods Partners — Sourced at scale. Trusted at origin.",
+    "description": "Hong Kong–based B2B superfood sourcing. Every origin in the world, verified, documented and traceable, routed through one trusted hub.",
+    "ogDescription": "Every origin in the world, routed through one trusted hub in Hong Kong. Verified, documented, traceable."
+  },
+  "nav": {
+    "catalog": "Catalog",
+    "origins": "Origins",
+    "verification": "Verification",
+    "about": "About",
+    "requestVolume": "Request volume",
+    "home": "Superfoods Partners — home"
+  },
+  "footer": {
+    "tagline": "Sourced at scale. Trusted at origin.",
+    "catalogue": "Catalogue",
+    "origins": "Origins",
+    "company": "Company",
+    "allProducts": "All products →",
+    "allOrigins": "All origins →",
+    "verification": "Verification",
+    "about": "About",
+    "contact": "Contact",
+    "hongKongHub": "Hong Kong hub",
+    "requestQuote": "Request a quote →",
+    "copyright": "© 2026 Superfoods Partners — A Pure Matcha Partners company."
+  },
+  "countries": {
+    "Japan": "Japan",
+    "China": "China",
+    "Philippines": "Philippines",
+    "Egypt": "Egypt"
+  }
+}

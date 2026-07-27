@@ -1,12 +1,13 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { Link } from "@/i18n/navigation";
+import { LangSwitch } from "@/components/LangSwitch";
 
 type NavLink = { label: string; href: string };
 
-export function MobileMenu({ links }: { links: NavLink[] }) {
+export function MobileMenu({ links, cta }: { links: NavLink[]; cta: string }) {
   const [open, setOpen] = useState(false);
 
   // Lock body scroll while the menu is open.
@@ -81,8 +82,11 @@ export function MobileMenu({ links }: { links: NavLink[] }) {
                   onClick={() => setOpen(false)}
                   className="mt-5 rounded-lg bg-green px-4 py-3 text-center text-sm font-medium text-oat transition-opacity hover:opacity-90"
                 >
-                  Request volume
+                  {cta}
                 </Link>
+                <div className="mt-5 border-t border-stone/10 pt-4">
+                  <LangSwitch />
+                </div>
               </nav>
             </motion.div>
           </>
