@@ -20,8 +20,8 @@ export type Cert = {
   logo?: string; // /certs/<file> — omit for text-plate fallback
 };
 
-// Team — portraits unified to a single studio backdrop + crop (see
-// scripts note); originals live in /public/team/raw.
+// Team — portraits unified to a single studio backdrop + crop; the untouched
+// originals are kept out of the build under /design-assets/team-raw.
 export const TEAM: TeamMember[] = [
   { name: "Wanjin", role: "Supply chain & sourcing", photo: "/team/wanjin.jpg", location: "Hong Kong" },
   { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
