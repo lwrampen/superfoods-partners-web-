@@ -31,5 +31,187 @@
     "China": "China",
     "Philippines": "Philippines",
     "Egypt": "Egypt"
+  },
+  "home": {
+    "heroEyebrow": "Origin Intelligence™",
+    "heroTitle1": "Sourced at scale.",
+    "heroTitle2": "Trusted at origin.",
+    "heroIntro": "Grown by people we know, in places we return to season after season — then tested, documented and moved at the scale you need.",
+    "ctaQuote": "Request a volume quote",
+    "ctaTrace": "Trace a batch →",
+    "heroBadge": "A Pure Matcha Partners company · Direct from origin",
+    "heroCaption": "ORIGIN — SHADE-GROWN GARDENS AT HARVEST",
+    "catMarker": "Catalogue",
+    "catHeading": "{n} origins, one standard.",
+    "catViewAll": "View all →",
+    "peopleMarker": "People & Planet",
+    "peopleHeading": "The source is a relationship, not a transaction.",
+    "peopleBody": "We buy directly from growers we know by name, in regions we return to season after season. Their care for the soil is the first quality check — long before the lab. When we say “trusted at origin,” we mean there is a person standing at that origin, and we have shaken their hand.",
+    "peopleItems": [
+      {
+        "t": "Growers first",
+        "d": "Long-term contracts and fair pricing that let farms invest in the land."
+      },
+      {
+        "t": "Care for the ground",
+        "d": "Shade-grown, low-intervention practices, protected across generations."
+      },
+      {
+        "t": "Provenance, proven",
+        "d": "A name, a place and a coordinate behind every batch we route."
+      }
+    ],
+    "peopleCaption": "A GROWER IN THE GARDENS AT HARVEST",
+    "sourceEyebrow": "Where we source",
+    "sourceHeading": "Every origin, one hub.",
+    "sourceBody": "We buy at the source — across Asia and beyond — then route every batch through our hub in Hong Kong. Follow the flows.",
+    "traceMarker": "Trace a batch",
+    "traceHeading": "See exactly what you're buying.",
+    "traceBody": "Pick a product and follow it from origin to your facility. Every batch arrives with a full Verification Record — the same checks we'd want if we were the ones buying. Nothing hidden, nothing to chase down.",
+    "stepsMarker": "How sourcing works",
+    "stepsHeading": "Sourcing, without the guesswork.",
+    "stepsBody": "Tell us what you need; we handle origin, testing and documentation — and keep you in the loop the whole way. You approve before anything scales.",
+    "steps": [
+      {
+        "t": "Tell us your spec",
+        "d": "Product, grade, volume and market. A short brief is enough to get going."
+      },
+      {
+        "t": "We sample & verify",
+        "d": "You taste, test and approve — before anything scales to volume."
+      },
+      {
+        "t": "We document it",
+        "d": "A Verification Record and full COA travel with every batch."
+      },
+      {
+        "t": "We ship via Hong Kong",
+        "d": "FOB, CIF or DDP — routed through the hub, in 2–4 weeks."
+      }
+    ],
+    "termMoq": "MOQ · 25 kg → full container",
+    "termLead": "Lead time · 2–4 weeks",
+    "termIncoterms": "Incoterms · FOB / CIF / DDP",
+    "statOrigins": "ORIGINS",
+    "statCountries": "COUNTRIES",
+    "statTested": "BATCH-TESTED",
+    "statHub": "HUB · HONG KONG",
+    "hkEyebrow": "Why Hong Kong",
+    "hkCoords": "22.32°N 114.17°E — where every origin converges",
+    "hkHeading": "One hub, so trust isn't scattered.",
+    "hkBody1": "Asia's origins meet the world here. From a single bonded hub we consolidate, test and document every shipment — so you work with one partner who knows your spec, not a dozen brokers who don't.",
+    "hkBody2": "And there are people behind it: a team you can call, in your timezone, who actually pick up. Part of the Pure Matcha Partners family.",
+    "hkExpertsLabel": "Meet the team",
+    "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
+    "socialMarker": "Trusted by",
+    "socialHeading": "For teams who can't afford a bad batch.",
+    "socialBody": "Beverage, supplement and foodservice brands come to us when consistency isn't optional — and stay because the documentation is always there when they need it.",
+    "socialQuote": "“They catch the things we'd miss — and when our auditors ask for paperwork, it's already there.”",
+    "socialQuoteAttr": "Head of Procurement · EU beverage brand",
+    "socialTags": [
+      "Global beverage brands",
+      "Supplement makers",
+      "Foodservice groups",
+      "Private-label co-packers"
+    ],
+    "ctaHeading": "The source is the story.",
+    "ctaBody": "Tell us what you need and at what scale. We'll source, verify and document it — and route it through Hong Kong to you.",
+    "ctaNote": "Send your spec — lab report & quote within 48 hours"
+  },
+  "core": {
+    "eyebrow": "Core model",
+    "eyebrowSub": "How we operate",
+    "heading": "Infrastructure, not a middleman.",
+    "body": "Ten commitments define how we operate — from the farm to your facility. This is the model behind the story: why buyers trust us with volume, not just with warmth.",
+    "items": [
+      {
+        "t": "Not a broker",
+        "d": "An integrated sourcing and supply company — we build partnerships at origin, we don't simply trade ingredients."
+      },
+      {
+        "t": "Farm investment",
+        "d": "We invest alongside producers in farms, facilities, quality and long-term capacity."
+      },
+      {
+        "t": "Operational support",
+        "d": "Sourcing, compliance, quality control, logistics and project management across the chain."
+      },
+      {
+        "t": "Multi-origin sourcing",
+        "d": "We transparently combine origins for consistent quality, security of supply and scale."
+      },
+      {
+        "t": "Hong Kong hub",
+        "d": "One entity manages sourcing, suppliers, QA, compliance and logistics across Asia."
+      },
+      {
+        "t": "Independent verification",
+        "d": "Every batch tested against the highest international quality and food-safety standards."
+      },
+      {
+        "t": "Compliance infrastructure",
+        "d": "Documentation, traceability and compliance systems built for global manufacturers."
+      },
+      {
+        "t": "Enterprise-scale supply",
+        "d": "Built for high volume — consistent quality, reliable logistics, scalable operations."
+      },
+      {
+        "t": "End-to-end supply chain",
+        "d": "Farm to final delivery: sourcing, QA, documentation, logistics — managed by us."
+      },
+      {
+        "t": "Long-term partnerships",
+        "d": "Lasting relationships with growers, processors and customers — not transactional trading."
+      }
+    ]
+  },
+  "about": {
+    "metaTitle": "About — the trusted superfood sourcing partner",
+    "metaDescription": "Superfoods Partners is the Hong Kong–based sourcing arm of the Pure Matcha Partners family. We don't aim to be the largest supplier — we aim to be the most trusted.",
+    "eyebrow": "About",
+    "eyebrowSub": "Who we are",
+    "heroHeading": "The source is the story.",
+    "heroBody1": "Superfoods Partners is the sourcing engine of the Pure Matcha Partners family. We buy direct from the farms that grow the world's finest superfoods and move large, verified volumes to the biggest manufacturers — routed, when it helps, through our hub in Hong Kong.",
+    "heroBody2": "We don't aspire to be the largest supplier. We aspire to be the one you never have to worry about.",
+    "heroCaption": "A GROWER IN THE GARDENS AT HARVEST",
+    "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
+    "ctaHeading": "Move volume you can trust.",
+    "ctaButton": "Request a volume quote"
+  },
+  "team": {
+    "eyebrow": "The team",
+    "eyebrowSub": "People behind it",
+    "heading": "Faces you can call.",
+    "body": "The people who source, test and move your volume — one partner, in your timezone, who actually picks up."
+  },
+  "certifications": {
+    "title": "Certified & independently tested",
+    "partnersTitle": "Tested & verified by"
+  },
+  "trace": {
+    "nodeOrigin": "ORIGIN",
+    "nodeLab": "LAB VERIFIED",
+    "nodeHub": "HONG KONG HUB",
+    "nodeFacility": "YOUR FACILITY",
+    "testPanel": "Test panel",
+    "routed": "Routed via Hong Kong",
+    "pesticide": "Pesticide residue",
+    "heavyMetals": "Heavy metals · Pb As Cd",
+    "microbiology": "Microbiology",
+    "radiation": "Radiation",
+    "moisture": "Moisture · particle size",
+    "pass": "Pass",
+    "inSpec": "In spec"
+  },
+  "roles": {
+    "Supply chain & sourcing": "Supply chain & sourcing",
+    "Sourcing": "Sourcing",
+    "Partnerships": "Partnerships",
+    "Quality control": "Quality control",
+    "Hong Kong": "Hong Kong"
+  },
+  "sourcingMap": {
+    "aria": "Where Superfoods Partners sources, routed through Hong Kong"
   }
 }

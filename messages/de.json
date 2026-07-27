@@ -31,5 +31,187 @@
     "China": "China",
     "Philippines": "Philippinen",
     "Egypt": "Ägypten"
+  },
+  "home": {
+    "heroEyebrow": "Origin Intelligence™",
+    "heroTitle1": "Im großen Maßstab beschafft.",
+    "heroTitle2": "Am Ursprung vertraut.",
+    "heroIntro": "Angebaut von Menschen, die wir kennen, an Orten, zu denen wir Saison für Saison zurückkehren — dann geprüft, dokumentiert und in dem Maßstab bewegt, den Sie brauchen.",
+    "ctaQuote": "Mengenangebot anfragen",
+    "ctaTrace": "Charge verfolgen →",
+    "heroBadge": "Ein Unternehmen der Pure Matcha Partners · Direkt vom Ursprung",
+    "heroCaption": "URSPRUNG — SCHATTENGEZOGENE GÄRTEN ZUR ERNTE",
+    "catMarker": "Katalog",
+    "catHeading": "{n} Herkünfte, ein Standard.",
+    "catViewAll": "Alle ansehen →",
+    "peopleMarker": "Mensch & Umwelt",
+    "peopleHeading": "Der Ursprung ist eine Beziehung, keine Transaktion.",
+    "peopleBody": "Wir kaufen direkt bei Erzeugern, die wir beim Namen kennen, in Regionen, in die wir Saison für Saison zurückkehren. Ihre Sorgfalt für den Boden ist die erste Qualitätsprüfung — lange vor dem Labor. Wenn wir „am Ursprung vertraut“ sagen, meinen wir: An diesem Ursprung steht ein Mensch, dem wir die Hand geschüttelt haben.",
+    "peopleItems": [
+      {
+        "t": "Erzeuger zuerst",
+        "d": "Langfristige Verträge und faire Preise, damit Farmen in ihr Land investieren können."
+      },
+      {
+        "t": "Sorge für den Boden",
+        "d": "Schattenanbau, schonende Methoden, über Generationen bewahrt."
+      },
+      {
+        "t": "Herkunft, belegt",
+        "d": "Ein Name, ein Ort und eine Koordinate hinter jeder Charge, die wir leiten."
+      }
+    ],
+    "peopleCaption": "EIN ERZEUGER IN DEN GÄRTEN ZUR ERNTE",
+    "sourceEyebrow": "Wo wir beschaffen",
+    "sourceHeading": "Jeder Ursprung, ein Hub.",
+    "sourceBody": "Wir kaufen an der Quelle — in ganz Asien und darüber hinaus — und leiten dann jede Charge über unseren Hub in Hongkong. Folgen Sie den Warenströmen.",
+    "traceMarker": "Charge verfolgen",
+    "traceHeading": "Sehen Sie genau, was Sie kaufen.",
+    "traceBody": "Wählen Sie ein Produkt und verfolgen Sie es vom Ursprung bis zu Ihrem Standort. Jede Charge kommt mit einem vollständigen Verification Record — dieselben Prüfungen, die wir uns wünschen würden, wenn wir selbst einkauften. Nichts versteckt, nichts, dem man hinterherlaufen muss.",
+    "stepsMarker": "So funktioniert die Beschaffung",
+    "stepsHeading": "Beschaffung ohne Rätselraten.",
+    "stepsBody": "Sagen Sie uns, was Sie brauchen; wir übernehmen Ursprung, Prüfung und Dokumentation — und halten Sie den ganzen Weg auf dem Laufenden. Sie geben frei, bevor etwas skaliert.",
+    "steps": [
+      {
+        "t": "Nennen Sie Ihre Spezifikation",
+        "d": "Produkt, Grade, Menge und Markt. Ein kurzes Briefing genügt für den Start."
+      },
+      {
+        "t": "Wir bemustern & prüfen",
+        "d": "Sie verkosten, testen und geben frei — bevor etwas in die Menge geht."
+      },
+      {
+        "t": "Wir dokumentieren es",
+        "d": "Ein Verification Record und ein vollständiges COA begleiten jede Charge."
+      },
+      {
+        "t": "Wir versenden über Hongkong",
+        "d": "FOB, CIF oder DDP — über den Hub, in 2–4 Wochen."
+      }
+    ],
+    "termMoq": "MOQ · 25 kg → ganzer Container",
+    "termLead": "Lieferzeit · 2–4 Wochen",
+    "termIncoterms": "Incoterms · FOB / CIF / DDP",
+    "statOrigins": "HERKÜNFTE",
+    "statCountries": "LÄNDER",
+    "statTested": "CHARGENGEPRÜFT",
+    "statHub": "HUB · HONGKONG",
+    "hkEyebrow": "Warum Hongkong",
+    "hkCoords": "22.32°N 114.17°E — wo jeder Ursprung zusammenläuft",
+    "hkHeading": "Ein Hub, damit Vertrauen nicht zersplittert.",
+    "hkBody1": "Asiens Ursprünge treffen hier auf die Welt. Von einem einzigen Zoll-Hub konsolidieren, prüfen und dokumentieren wir jede Sendung — so arbeiten Sie mit einem Partner, der Ihre Spezifikation kennt, statt mit einem Dutzend Zwischenhändler, die das nicht tun.",
+    "hkBody2": "Und dahinter stehen Menschen: ein Team, das Sie anrufen können, in Ihrer Zeitzone, das wirklich rangeht. Teil der Pure-Matcha-Partners-Familie.",
+    "hkExpertsLabel": "Lernen Sie das Team kennen",
+    "hkCaption": "GANZFELD-ERNTE — IM GROSSEN MASSSTAB BEWEGT",
+    "socialMarker": "Vertraut von",
+    "socialHeading": "Für Teams, die sich keine schlechte Charge leisten können.",
+    "socialBody": "Getränke-, Supplement- und Foodservice-Marken kommen zu uns, wenn Konsistenz nicht optional ist — und bleiben, weil die Dokumentation immer da ist, wenn sie gebraucht wird.",
+    "socialQuote": "„Sie fangen die Dinge ab, die wir übersehen würden — und wenn unsere Auditoren nach Unterlagen fragen, sind sie schon da.“",
+    "socialQuoteAttr": "Leiter Einkauf · EU-Getränkemarke",
+    "socialTags": [
+      "Globale Getränkemarken",
+      "Supplement-Hersteller",
+      "Foodservice-Gruppen",
+      "Private-Label-Lohnhersteller"
+    ],
+    "ctaHeading": "Der Ursprung ist die Geschichte.",
+    "ctaBody": "Sagen Sie uns, was Sie brauchen und in welchem Maßstab. Wir beschaffen, prüfen und dokumentieren es — und leiten es über Hongkong zu Ihnen.",
+    "ctaNote": "Senden Sie Ihre Spezifikation — Laborbericht & Angebot innerhalb von 48 Stunden"
+  },
+  "core": {
+    "eyebrow": "Kernmodell",
+    "eyebrowSub": "Wie wir arbeiten",
+    "heading": "Infrastruktur, kein Zwischenhändler.",
+    "body": "Zehn Verpflichtungen bestimmen, wie wir arbeiten — von der Farm bis zu Ihrem Betrieb. Das ist das Modell hinter der Geschichte: warum Einkäufer uns Mengen anvertrauen, nicht nur guten Willen.",
+    "items": [
+      {
+        "t": "Kein Zwischenhändler",
+        "d": "Ein integriertes Beschaffungs- und Lieferunternehmen — wir bauen Partnerschaften am Ursprung auf, wir handeln nicht einfach mit Zutaten."
+      },
+      {
+        "t": "Investition in Farmen",
+        "d": "Wir investieren gemeinsam mit Erzeugern in Farmen, Anlagen, Qualität und langfristige Kapazität."
+      },
+      {
+        "t": "Operative Unterstützung",
+        "d": "Beschaffung, Compliance, Qualitätskontrolle, Logistik und Projektmanagement über die gesamte Kette."
+      },
+      {
+        "t": "Beschaffung aus mehreren Ursprüngen",
+        "d": "Wir kombinieren Ursprünge transparent für gleichbleibende Qualität, Versorgungssicherheit und Skalierung."
+      },
+      {
+        "t": "Hongkong-Hub",
+        "d": "Eine Einheit steuert Beschaffung, Lieferanten, QS, Compliance und Logistik in ganz Asien."
+      },
+      {
+        "t": "Unabhängige Verifizierung",
+        "d": "Jede Charge wird nach den höchsten internationalen Qualitäts- und Lebensmittelsicherheitsstandards geprüft."
+      },
+      {
+        "t": "Compliance-Infrastruktur",
+        "d": "Dokumentations-, Rückverfolgbarkeits- und Compliance-Systeme, gebaut für globale Hersteller."
+      },
+      {
+        "t": "Versorgung in Enterprise-Maßstab",
+        "d": "Für hohe Mengen ausgelegt — gleichbleibende Qualität, zuverlässige Logistik, skalierbare Abläufe."
+      },
+      {
+        "t": "Durchgängige Lieferkette",
+        "d": "Von der Farm bis zur finalen Lieferung: Beschaffung, QS, Dokumentation, Logistik — von uns gesteuert."
+      },
+      {
+        "t": "Langfristige Partnerschaften",
+        "d": "Dauerhafte Beziehungen zu Erzeugern, Verarbeitern und Kunden — kein transaktionaler Handel."
+      }
+    ]
+  },
+  "about": {
+    "metaTitle": "Über uns — der vertrauenswürdige Superfood-Beschaffungspartner",
+    "metaDescription": "Superfoods Partners ist der in Hongkong ansässige Beschaffungsarm der Pure-Matcha-Partners-Familie. Wir wollen nicht der größte Lieferant sein — sondern der vertrauenswürdigste.",
+    "eyebrow": "Über uns",
+    "eyebrowSub": "Wer wir sind",
+    "heroHeading": "Der Ursprung ist die Geschichte.",
+    "heroBody1": "Superfoods Partners ist der Beschaffungsmotor der Pure-Matcha-Partners-Familie. Wir kaufen direkt bei den Farmen, die die feinsten Superfoods der Welt anbauen, und liefern große, geprüfte Mengen an die größten Hersteller — bei Bedarf über unseren Hub in Hongkong.",
+    "heroBody2": "Wir streben nicht danach, der größte Lieferant zu sein. Wir streben danach, der eine zu sein, um den Sie sich nie sorgen müssen.",
+    "heroCaption": "EIN ERZEUGER IN DEN GÄRTEN ZUR ERNTE",
+    "hkCaption": "GANZFELD-ERNTE — IM GROSSEN MASSSTAB BEWEGT",
+    "ctaHeading": "Bewegen Sie Mengen, denen Sie vertrauen können.",
+    "ctaButton": "Mengenangebot anfragen"
+  },
+  "team": {
+    "eyebrow": "Das Team",
+    "eyebrowSub": "Die Menschen dahinter",
+    "heading": "Gesichter, die Sie anrufen können.",
+    "body": "Die Menschen, die Ihre Menge beschaffen, prüfen und bewegen — ein Partner, in Ihrer Zeitzone, der wirklich rangeht."
+  },
+  "certifications": {
+    "title": "Zertifiziert & unabhängig geprüft",
+    "partnersTitle": "Geprüft & verifiziert von"
+  },
+  "trace": {
+    "nodeOrigin": "URSPRUNG",
+    "nodeLab": "LABORGEPRÜFT",
+    "nodeHub": "HONGKONG-HUB",
+    "nodeFacility": "IHR STANDORT",
+    "testPanel": "Prüfpanel",
+    "routed": "Über Hongkong geleitet",
+    "pesticide": "Pestizidrückstände",
+    "heavyMetals": "Schwermetalle · Pb As Cd",
+    "microbiology": "Mikrobiologie",
+    "radiation": "Radioaktivität",
+    "moisture": "Feuchte · Partikelgröße",
+    "pass": "Bestanden",
+    "inSpec": "In Spezifikation"
+  },
+  "roles": {
+    "Supply chain & sourcing": "Lieferkette & Beschaffung",
+    "Sourcing": "Beschaffung",
+    "Partnerships": "Partnerschaften",
+    "Quality control": "Qualitätskontrolle",
+    "Hong Kong": "Hongkong"
+  },
+  "sourcingMap": {
+    "aria": "Wo Superfoods Partners beschafft, geleitet über Hongkong"
   }
 }

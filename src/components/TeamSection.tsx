@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/Reveal";
 import type { TeamMember } from "@/data/trust";
 
@@ -13,21 +14,21 @@ function Silhouette() {
 }
 
 export function TeamSection({ members }: { members: TeamMember[] }) {
+  const t = useTranslations("team");
+  const tr = useTranslations("roles");
+  const tx = (key: string) => (tr.has(key) ? tr(key) : key);
   if (!members.length) return null;
   return (
     <section className="bg-oat">
       <div className="mx-auto max-w-6xl px-6 py-24">
         <Reveal className="mb-14 max-w-xl">
           <div className="mb-4 flex items-center gap-3">
-            <span className="mono text-[11px] text-amber">The team</span>
+            <span className="mono text-[11px] text-amber">{t("eyebrow")}</span>
             <span className="h-px w-8 bg-stone/30" />
-            <span className="mono text-[11px] uppercase tracking-widest text-stone/60">People behind it</span>
+            <span className="mono text-[11px] uppercase tracking-widest text-stone/60">{t("eyebrowSub")}</span>
           </div>
-          <h2 className="display text-4xl leading-tight text-green md:text-5xl">Faces you can call.</h2>
-          <p className="mt-5 text-stone/75">
-            The people who source, test and move your volume — one partner, in your timezone, who
-            actually picks up.
-          </p>
+          <h2 className="display text-4xl leading-tight text-green md:text-5xl">{t("heading")}</h2>
+          <p className="mt-5 text-stone/75">{t("body")}</p>
         </Reveal>
         <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4">
           {members.map((m, i) => (
@@ -42,9 +43,9 @@ export function TeamSection({ members }: { members: TeamMember[] }) {
                 </div>
                 <figcaption className="mt-3">
                   <p className="display text-lg leading-tight text-green">{m.name}</p>
-                  <p className="mono mt-1 text-[11px] uppercase tracking-wide text-stone/55">{m.role}</p>
+                  <p className="mono mt-1 text-[11px] uppercase tracking-wide text-stone/55">{tx(m.role)}</p>
                   {m.location && (
-                    <p className="mono mt-0.5 text-[10px] uppercase tracking-wide text-stone/40">{m.location}</p>
+                    <p className="mono mt-0.5 text-[10px] uppercase tracking-wide text-stone/40">{tx(m.location)}</p>
                   )}
                 </figcaption>
               </figure>

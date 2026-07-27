@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import type { Cert } from "@/data/trust";
 
 function LogoRow({ items, compact = false }: { items: Cert[]; compact?: boolean }) {
@@ -28,24 +29,27 @@ function LogoRow({ items, compact = false }: { items: Cert[]; compact?: boolean 
 // in one calm strip.
 export function Certifications({
   certs,
-  title = "Certified & independently tested",
+  title,
   partners,
-  partnersTitle = "Tested & verified by",
+  partnersTitle,
 }: {
   certs: Cert[];
   title?: string;
   partners?: Cert[];
   partnersTitle?: string;
 }) {
+  const t = useTranslations("certifications");
   if (!certs.length) return null;
+  const titleText = title ?? t("title");
+  const partnersTitleText = partnersTitle ?? t("partnersTitle");
   return (
     <section className="bg-sand">
       <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-        <p className="mono text-center text-[11px] uppercase tracking-widest text-stone/50">{title}</p>
+        <p className="mono text-center text-[11px] uppercase tracking-widest text-stone/50">{titleText}</p>
         <LogoRow items={certs} />
         {partners?.length ? (
           <>
-            <p className="mono mt-14 text-center text-[11px] uppercase tracking-widest text-stone/45">{partnersTitle}</p>
+            <p className="mono mt-14 text-center text-[11px] uppercase tracking-widest text-stone/45">{partnersTitleText}</p>
             <LogoRow items={partners} compact />
           </>
         ) : null}
