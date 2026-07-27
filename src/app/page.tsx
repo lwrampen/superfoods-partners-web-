@@ -7,7 +7,10 @@ import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { SourcingMap } from "@/components/SourcingMap";
+import { Certifications } from "@/components/Certifications";
+import { ExpertsCluster } from "@/components/ExpertsCluster";
 import { PRODUCTS, ORIGINS, ORIGIN_LIST } from "@/data/catalog";
+import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -48,7 +51,6 @@ const STATS = [
   { value: 1, suffix: "", l: "HUB · HONG KONG", amber: true },
 ];
 
-const CERTS = ["JAS", "EU ORGANIC", "USDA ORGANIC", "HACCP", "FSSC 22000", "KOSHER"];
 
 function Marker({ n, label, color = "text-stone/60" }: { n: string; label: string; color?: string }) {
   return (
@@ -322,9 +324,9 @@ export default function Home() {
                 And there are people behind it: a team you can call, in your timezone, who actually
                 pick up. Part of the Pure Matcha Partners family.
               </p>
-              <Link href="/about" className="mono mt-6 inline-flex items-center gap-1 text-[11px] uppercase tracking-wide text-amber transition-opacity hover:opacity-80">
-                Our story <span>→</span>
-              </Link>
+              <div className="mt-7">
+                <ExpertsCluster members={TEAM} tone="dark" label="Meet the team" />
+              </div>
             </Reveal>
             <Reveal delay={0.12} y={28}>
               <OriginPhoto
@@ -373,21 +375,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CERTIFICATIONS */}
-        <section className="bg-green text-oat">
-          <div className="mx-auto max-w-6xl px-6 py-20">
-            <Reveal>
-              <h2 className="display text-3xl">Certified, tested, documented.</h2>
-              <div className="mt-7 flex flex-wrap gap-3">
-                {CERTS.map((c) => (
-                  <span key={c} className="mono rounded-lg border border-amber/40 px-4 py-2 text-xs uppercase text-oat">
-                    {c}
-                  </span>
-                ))}
-              </div>
-            </Reveal>
-          </div>
-        </section>
+        {/* CERTIFICATIONS — same real-logo strip as About, for unity */}
+        <Certifications certs={CERTIFICATIONS} partners={PARTNERS} />
 
         {/* CTA */}
         <section className="bg-oat">
