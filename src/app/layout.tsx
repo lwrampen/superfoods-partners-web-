@@ -37,10 +37,6 @@ export const metadata: Metadata = {
   description:
     "Hong Kong–based B2B superfood sourcing. Every origin in the world, verified, documented and traceable, routed through one trusted hub.",
   applicationName: "Superfoods Partners",
-  icons: {
-    icon: "/logos/sfp-roundel-primary.svg",
-    apple: "/logos/sfp-roundel-primary.png",
-  },
   openGraph: {
     type: "website",
     siteName: "Superfoods Partners",
