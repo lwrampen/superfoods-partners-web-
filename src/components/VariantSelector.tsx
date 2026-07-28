@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { ORIGINS, productSku, type Product } from "@/data/catalog";
-import { localizeOrigin, formLabel } from "@/data/content.de";
+import { localizeOrigin, formLabel } from "@/data/content.i18n";
 
 function Chip({
   active,

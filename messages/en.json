@@ -238,7 +238,8 @@
     "viewCatalogue": "View full catalogue →",
     "faqHeading": "Sourcing {name} — common questions",
     "crumbHome": "Home",
-    "crumbCatalogue": "Catalogue"
+    "crumbCatalogue": "Catalogue",
+    "andWord": "and"
   },
   "faq": {
     "moqQ": "What is the minimum order quantity for bulk {name}?",

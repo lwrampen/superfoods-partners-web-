@@ -6,7 +6,7 @@ import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { CATEGORIES, PRODUCTS, ORIGINS } from "@/data/catalog";
-import { localizeProduct, localizeOrigin, CATEGORY_DE } from "@/data/content.de";
+import { localizeProduct, localizeOrigin, categoryLabel } from "@/data/content.i18n";
 
 export async function generateMetadata({
   params,
@@ -80,7 +80,7 @@ export default async function CatalogPage({ params }: { params: Promise<{ locale
         {CATEGORIES.map((cat) => {
           const items = PRODUCTS.filter((p) => p.category === cat);
           if (!items.length) return null;
-          const catLabel = locale === "de" ? (CATEGORY_DE[cat] ?? cat) : cat;
+          const catLabel = categoryLabel(cat, locale);
           return (
             <section key={cat} className="mx-auto max-w-6xl px-6 pb-16">
               <Reveal className="mb-6 flex items-center gap-3">

@@ -8,7 +8,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { SourcingMap } from "@/components/SourcingMap";
 import { ORIGIN_LIST, getOrigin, productsForOrigin, originLabel, ORIGIN_INTRO } from "@/data/catalog";
-import { localizeOrigin, localizeProduct, localizedIntro } from "@/data/content.de";
+import { localizeOrigin, localizeProduct, localizedIntro } from "@/data/content.i18n";
 
 export function generateStaticParams() {
   return ORIGIN_LIST.map((o) => ({ origin: o.slug }));

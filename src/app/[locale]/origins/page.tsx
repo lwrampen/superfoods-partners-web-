@@ -8,7 +8,7 @@ import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { TradeGlobe } from "@/components/TradeGlobe";
 import { ORIGIN_LIST, productsForOrigin } from "@/data/catalog";
-import { localizeOrigin, localizeProduct, COUNTRY_DE } from "@/data/content.de";
+import { localizeOrigin, localizeProduct, countryLabel } from "@/data/content.i18n";
 
 const ORIGIN_COUNT = ORIGIN_LIST.length;
 const COUNTRY_LIST = [...new Set(ORIGIN_LIST.map((o) => o.country))];
@@ -21,7 +21,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "origins" });
-  const countryList = COUNTRY_LIST.map((c) => (locale === "de" ? (COUNTRY_DE[c] ?? c) : c)).join(", ");
+  const countryList = COUNTRY_LIST.map((c) => countryLabel(c, locale)).join(", ");
   return {
     title: t("metaTitle", { origins: ORIGIN_COUNT, countries: COUNTRY_COUNT }),
     description: t("metaDescription", { countryList }),

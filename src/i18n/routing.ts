@@ -1,12 +1,12 @@
 import { defineRouting } from "next-intl/routing";
 
-// Phase 1 ships English (default, no prefix) + German. Additional locales
-// (es, fr, pl, zh-Hant) are added here once their translations are ready —
+// English (default, no prefix) + translated locales. Additional locales
+// (fr, pl, zh-Hant) are added here once their translations are ready —
 // we never publish an untranslated locale.
 export const routing = defineRouting({
-  locales: ["en", "de"],
+  locales: ["en", "de", "es"],
   defaultLocale: "en",
-  localePrefix: "as-needed", // en at "/", others at "/de/…"
+  localePrefix: "as-needed", // en at "/", others at "/de/…", "/es/…"
 });
 
 export type AppLocale = (typeof routing.locales)[number];

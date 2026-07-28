@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { getProduct } from "@/data/catalog";
-import { localizeProduct } from "@/data/content.de";
+import { localizeProduct } from "@/data/content.i18n";
 
 const FIELD = "w-full rounded-lg border border-stone/25 bg-white px-4 py-2.5 text-sm text-green outline-none transition-colors focus:border-green";
 const LABEL = "mono mb-1.5 block text-[10px] uppercase tracking-wide text-stone/60";

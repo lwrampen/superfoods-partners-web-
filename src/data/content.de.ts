@@ -1,10 +1,8 @@
-import type { Product, Origin, Form } from "./catalog";
+import type { LocaleContent, ProductText } from "./content.i18n";
 
-// German content overrides. English lives in catalog.ts; when locale === "de"
-// the localize* helpers merge these in. Structural fields (slug, code, colours,
-// img, originSlugs, forms, certs, coords) are never translated.
-
-type ProductText = Partial<Pick<Product, "tagline" | "description" | "intro" | "applications" | "specs" | "category">>;
+// German content overrides. English lives in catalog.ts; the localize* helpers
+// in content.i18n.ts merge these in for locale "de". Structural fields (slug,
+// code, colours, img, originSlugs, forms, certs, coords) are never translated.
 
 export const PRODUCTS_DE: Record<string, ProductText> = {
   "matcha": {
@@ -363,25 +361,12 @@ export const ORIGIN_INTRO_DE: Record<string, string> = {
   "egypt-eg": "Ägyptens vom Nil gespeiste Felder sind die klassische Heimat des Hibiskus (Hibiscus sabdariffa). Lange Sonnenstunden geben den Kelchen ihre tiefe Rubinfarbe und ihre helle, klare Säure. Wir beziehen sonnengereiften ägyptischen Hibiskus, mahlen ihn zu einem gleichmäßigen Pulver und testen jede Charge auf Kontaminanten, bevor wir sie dokumentieren und über Hongkong leiten — sodass die Farbe und Säure, die Sie bemustern, auch die Farbe und Säure sind, die Sie im Volumen erhalten."
 };
 
-export function localizeProduct(p: Product, locale: string): Product {
-  if (locale !== "de") return p;
-  const o = PRODUCTS_DE[p.slug] ?? {};
-  return { ...p, ...o, category: CATEGORY_DE[p.category] ?? p.category };
-}
-
-export function localizeOrigin(o: Origin, locale: string): Origin {
-  if (locale !== "de") return o;
-  return { ...o, name: ORIGIN_NAME_DE[o.slug] ?? o.name, country: COUNTRY_DE[o.country] ?? o.country };
-}
-
-export function formLabel(f: Form, locale: string): string {
-  return locale === "de" ? (FORM_DE[f] ?? f) : f;
-}
-
-// Origin narrative overrides (fall back to the English passed in).
-export function localizedBlurb(slug: string, locale: string, fallback: string): string {
-  return locale === "de" ? (ORIGIN_BLURB_DE[slug] ?? fallback) : fallback;
-}
-export function localizedIntro(slug: string, locale: string, fallback: string | undefined): string | undefined {
-  return locale === "de" ? (ORIGIN_INTRO_DE[slug] ?? fallback) : fallback;
-}
+export const DE: LocaleContent = {
+  products: PRODUCTS_DE,
+  category: CATEGORY_DE,
+  originName: ORIGIN_NAME_DE,
+  country: COUNTRY_DE,
+  form: FORM_DE,
+  blurb: ORIGIN_BLURB_DE,
+  intro: ORIGIN_INTRO_DE,
+};

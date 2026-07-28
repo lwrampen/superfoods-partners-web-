@@ -12,7 +12,7 @@ import { SourcingMap } from "@/components/SourcingMap";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor, localizedUrl } from "@/i18n/paths";
 import { PRODUCTS, ORIGINS, getProduct, originNote, originLabel } from "@/data/catalog";
-import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.de";
+import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.i18n";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ product: p.slug }));
@@ -48,7 +48,7 @@ export default async function ProductPage({
   const p = localizeProduct(base, locale);
   const t = await getTranslations("pdp");
   const tf = await getTranslations("faq");
-  const and = locale === "de" ? " und " : " and ";
+  const and = ` ${t("andWord")} `;
 
   const origins = p.originSlugs.map((s) => localizeOrigin(ORIGINS[s], locale));
   const passportNotes = Object.fromEntries(

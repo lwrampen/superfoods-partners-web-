@@ -238,7 +238,8 @@
     "viewCatalogue": "Gesamten Katalog ansehen →",
     "faqHeading": "{name} beziehen — häufige Fragen",
     "crumbHome": "Startseite",
-    "crumbCatalogue": "Katalog"
+    "crumbCatalogue": "Katalog",
+    "andWord": "und"
   },
   "faq": {
     "moqQ": "Wie hoch ist die Mindestbestellmenge für {name} in Großmengen?",
