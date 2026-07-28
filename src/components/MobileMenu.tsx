@@ -84,8 +84,8 @@ export function MobileMenu({ links, cta }: { links: NavLink[]; cta: string }) {
                 >
                   {cta}
                 </Link>
-                <div className="mt-5 border-t border-stone/10 pt-4">
-                  <LangSwitch />
+                <div className="mt-5 border-t border-stone/10 pt-4" onClick={() => setOpen(false)}>
+                  <LangSwitch variant="inline" />
                 </div>
               </nav>
             </motion.div>

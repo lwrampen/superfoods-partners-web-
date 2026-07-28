@@ -1,6 +1,7 @@
 import type { Product, Origin, Form } from "./catalog";
 import { DE } from "./content.de";
 import { ES } from "./content.es";
+import { FR } from "./content.fr";
 
 // Locale-generic content dispatcher. English lives in catalog.ts; each
 // translated locale ships a LocaleContent bundle (content.<locale>.ts) that the
@@ -21,7 +22,7 @@ export interface LocaleContent {
   intro: Record<string, string>;
 }
 
-const REGISTRY: Record<string, LocaleContent> = { de: DE, es: ES };
+const REGISTRY: Record<string, LocaleContent> = { de: DE, es: ES, fr: FR };
 
 export function localizeProduct(p: Product, locale: string): Product {
   const c = REGISTRY[locale];
