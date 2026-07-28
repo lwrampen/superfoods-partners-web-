@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 const PRODUCTS = [
@@ -9,18 +10,19 @@ const PRODUCTS = [
   { id: "lionsmane", chip: "LION'S MANE", name: "LION'S MANE", origin: "FUJIAN, CHINA", coords: "26.07°N 119.30°E", batch: "SFP-L-PR-1KG-CN-O", accent: "#C58A2A", certs: "USDA ORGANIC · KOSHER" },
 ];
 
-const NODES = ["ORIGIN", "LAB VERIFIED", "HONG KONG HUB", "YOUR FACILITY"];
+const NODE_KEYS = ["nodeOrigin", "nodeLab", "nodeHub", "nodeFacility"];
 
 export function TraceABatch() {
+  const t = useTranslations("trace");
   const [sel, setSel] = useState(0);
   const reduce = useReducedMotion();
   const p = PRODUCTS[sel];
   const panel: [string, string][] = [
-    ["Pesticide residue", "Pass"],
-    ["Heavy metals · Pb As Cd", "Pass"],
-    ["Microbiology", "Pass"],
-    ["Radiation", "Pass"],
-    ["Moisture · particle size", "In spec"],
+    ["pesticide", "pass"],
+    ["heavyMetals", "pass"],
+    ["microbiology", "pass"],
+    ["radiation", "pass"],
+    ["moisture", "inSpec"],
   ];
 
   return (
@@ -63,7 +65,7 @@ export function TraceABatch() {
             />
           )}
           <div className="flex h-full flex-col justify-between">
-            {NODES.map((n, idx) => (
+            {NODE_KEYS.map((n, idx) => (
               <div key={n} className="relative flex items-center">
                 <span
                   className="absolute left-[-26px] h-3 w-3 rounded-full border-2 bg-oat"
@@ -73,7 +75,7 @@ export function TraceABatch() {
                   className="mono text-xs uppercase"
                   style={{ color: idx === 2 ? "#E0A23E" : "#1E3D2A" }}
                 >
-                  {n}
+                  {t(n)}
                 </p>
               </div>
             ))}
@@ -103,7 +105,7 @@ export function TraceABatch() {
           <p className="mono mt-1 text-xs uppercase text-stone/70">
             {p.origin} · {p.coords}
           </p>
-          <p className="mono mt-6 text-[10px] uppercase tracking-wide text-stone/50">Test panel</p>
+          <p className="mono mt-6 text-[10px] uppercase tracking-wide text-stone/50">{t("testPanel")}</p>
           <ul className="mt-3 space-y-2.5">
             {panel.map(([label, result], idx) => (
               <motion.li
@@ -123,16 +125,16 @@ export function TraceABatch() {
                   >
                     ✓
                   </motion.span>
-                  {label}
+                  {t(label)}
                 </span>
-                <span className="mono text-[11px] uppercase text-stone/50">{result}</span>
+                <span className="mono text-[11px] uppercase text-stone/50">{t(result)}</span>
               </motion.li>
             ))}
           </ul>
           <div className="mt-5 flex items-center justify-between border-t border-stone/10 pt-4">
             <span className="mono text-[10px] uppercase text-stone/60">{p.certs}</span>
             <span className="mono flex items-center gap-2 text-[11px] uppercase text-stone/70">
-              <span className="h-2.5 w-2.5 rounded-full bg-amber" /> Routed via Hong Kong
+              <span className="h-2.5 w-2.5 rounded-full bg-amber" /> {t("routed")}
             </span>
           </div>
         </motion.div>
