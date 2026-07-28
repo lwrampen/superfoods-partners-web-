@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "titleDefault": "Superfoods Partners — Pozyskiwane na dużą skalę. Godne zaufania u źródła.",
+    "description": "B2B sourcing superfoods z bazą w Hongkongu. Każde źródło na świecie — zweryfikowane, udokumentowane i identyfikowalne, przeprowadzone przez jeden zaufany hub.",
+    "ogDescription": "Każde źródło na świecie, przeprowadzone przez jeden zaufany hub w Hongkongu. Zweryfikowane, udokumentowane, identyfikowalne."
+  },
+  "nav": {
+    "catalog": "Katalog",
+    "origins": "Źródła",
+    "verification": "Weryfikacja",
+    "about": "O nas",
+    "requestVolume": "Zapytaj o ilości hurtowe",
+    "home": "Superfoods Partners — strona główna"
+  },
+  "footer": {
+    "tagline": "Pozyskiwane na dużą skalę. Godne zaufania u źródła.",
+    "catalogue": "Katalog",
+    "origins": "Źródła",
+    "company": "Firma",
+    "allProducts": "Wszystkie produkty →",
+    "allOrigins": "Wszystkie źródła →",
+    "verification": "Weryfikacja",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "hongKongHub": "Hub w Hongkongu",
+    "requestQuote": "Poproś o wycenę →",
+    "copyright": "© 2026 Superfoods Partners — spółka grupy Pure Matcha Partners."
+  },
+  "countries": {
+    "Japan": "Japonia",
+    "China": "Chiny",
+    "Philippines": "Filipiny",
+    "Egypt": "Egipt"
+  },
+  "home": {
+    "heroEyebrow": "Origin Intelligence™",
+    "heroTitle1": "Pozyskiwane na dużą skalę.",
+    "heroTitle2": "Godne zaufania u źródła.",
+    "heroIntro": "Uprawiane przez ludzi, których znamy, w miejscach, do których wracamy sezon po sezonie — następnie badane, dokumentowane i dostarczane w skali, jakiej potrzebujesz.",
+    "ctaQuote": "Poproś o wycenę hurtową",
+    "ctaTrace": "Prześledź partię →",
+    "heroBadge": "Spółka grupy Pure Matcha Partners · Bezpośrednio od źródła",
+    "heroCaption": "ŹRÓDŁO — OGRODY CIENIOWANE W CZASIE ZBIORÓW",
+    "catMarker": "Katalog",
+    "catHeading": "{n} źródeł, jeden standard.",
+    "catViewAll": "Zobacz wszystkie →",
+    "peopleMarker": "Ludzie i Planeta",
+    "peopleHeading": "Źródło to relacja, nie transakcja.",
+    "peopleBody": "Kupujemy bezpośrednio od plantatorów, których znamy z imienia, w regionach, do których wracamy sezon po sezonie. Ich troska o glebę to pierwsza kontrola jakości — na długo przed laboratorium. Gdy mówimy „godne zaufania u źródła”, mamy na myśli, że u tego źródła stoi konkretna osoba, której podaliśmy rękę.",
+    "peopleItems": [
+      {
+        "t": "Najpierw plantatorzy",
+        "d": "Długoterminowe umowy i uczciwe ceny, które pozwalają gospodarstwom inwestować w ziemię."
+      },
+      {
+        "t": "Troska o glebę",
+        "d": "Uprawa cieniowana, praktyki niskiej ingerencji, chronione przez pokolenia."
+      },
+      {
+        "t": "Udowodnione pochodzenie",
+        "d": "Nazwisko, miejsce i współrzędne za każdą partią, którą przeprowadzamy."
+      }
+    ],
+    "peopleCaption": "PLANTATOR W OGRODACH W CZASIE ZBIORÓW",
+    "sourceEyebrow": "Skąd pozyskujemy",
+    "sourceHeading": "Każde źródło, jeden hub.",
+    "sourceBody": "Kupujemy u źródła — w całej Azji i poza nią — a następnie przeprowadzamy każdą partię przez nasz hub w Hongkongu. Śledź przepływy.",
+    "traceMarker": "Prześledź partię",
+    "traceHeading": "Zobacz dokładnie, co kupujesz.",
+    "traceBody": "Wybierz produkt i śledź go od źródła do swojego zakładu. Każda partia dociera z pełnym Verification Record™ — tymi samymi kontrolami, których oczekiwalibyśmy, gdybyśmy to my kupowali. Nic ukrytego, niczego nie trzeba dopytywać.",
+    "stepsMarker": "Jak działa sourcing",
+    "stepsHeading": "Sourcing bez zgadywania.",
+    "stepsBody": "Powiedz nam, czego potrzebujesz; zajmiemy się źródłem, badaniami i dokumentacją — i na bieżąco będziemy Cię informować. Ty zatwierdzasz, zanim cokolwiek wejdzie w skalę.",
+    "steps": [
+      {
+        "t": "Podaj swoją specyfikację",
+        "d": "Produkt, klasa, ilość i rynek. Krótki brief wystarczy, by ruszyć."
+      },
+      {
+        "t": "Próbkujemy i weryfikujemy",
+        "d": "Degustujesz, badasz i zatwierdzasz — zanim cokolwiek wejdzie w wolumen."
+      },
+      {
+        "t": "Dokumentujemy to",
+        "d": "Verification Record™ i pełne COA towarzyszą każdej partii."
+      },
+      {
+        "t": "Wysyłamy przez Hongkong",
+        "d": "FOB, CIF lub DDP — przeprowadzone przez hub, w 2–4 tygodnie."
+      }
+    ],
+    "termMoq": "MOQ · 25 kg → pełny kontener",
+    "termLead": "Czas realizacji · 2–4 tygodnie",
+    "termIncoterms": "Incoterms · FOB / CIF / DDP",
+    "statOrigins": "ŹRÓDŁA",
+    "statCountries": "KRAJE",
+    "statTested": "BADANE PARTIAMI",
+    "statHub": "HUB · HONGKONG",
+    "hkEyebrow": "Dlaczego Hongkong",
+    "hkCoords": "22.32°N 114.17°E — gdzie zbiega się każde źródło",
+    "hkHeading": "Jeden hub, aby zaufanie nie było rozproszone.",
+    "hkBody1": "Azjatyckie źródła spotykają tu świat. Z jednego składu celnego konsolidujemy, badamy i dokumentujemy każdą wysyłkę — dzięki czemu współpracujesz z jednym partnerem, który zna Twoją specyfikację, a nie z tuzinem brokerów, którzy jej nie znają.",
+    "hkBody2": "A za tym wszystkim stoją ludzie: zespół, do którego możesz zadzwonić w swojej strefie czasowej i który naprawdę odbiera telefon. Część rodziny Pure Matcha Partners.",
+    "hkExpertsLabel": "Poznaj zespół",
+    "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
+    "socialMarker": "Zaufali nam",
+    "socialHeading": "Dla zespołów, których nie stać na złą partię.",
+    "socialBody": "Marki napojów, suplementów i gastronomii przychodzą do nas, gdy powtarzalność nie jest opcjonalna — i zostają, bo dokumentacja jest zawsze pod ręką, gdy jej potrzebują.",
+    "socialQuote": "„Wychwytują rzeczy, które by nam umknęły — a gdy audytorzy proszą o dokumenty, one już tam są.”",
+    "socialQuoteAttr": "Szef zakupów · marka napojów z UE",
+    "socialTags": [
+      "Globalne marki napojów",
+      "Producenci suplementów",
+      "Grupy gastronomiczne",
+      "Co-packerzy private label"
+    ],
+    "ctaHeading": "Źródło to cała historia.",
+    "ctaBody": "Powiedz nam, czego potrzebujesz i w jakiej skali. Pozyskamy to, zweryfikujemy i udokumentujemy — i dostarczymy przez Hongkong do Ciebie.",
+    "ctaNote": "Wyślij specyfikację — raport z laboratorium i wycena w 48 godzin"
+  },
+  "core": {
+    "eyebrow": "Model podstawowy",
+    "eyebrowSub": "Jak działamy",
+    "heading": "Infrastruktura, a nie pośrednik.",
+    "body": "Dziesięć zobowiązań określa sposób, w jaki działamy — od gospodarstwa po Twój zakład. To model stojący za tą historią: dlaczego kupujący powierzają nam wolumen, a nie tylko ciepłe słowa.",
+    "items": [
+      {
+        "t": "Nie broker",
+        "d": "Zintegrowana firma sourcingowo-dostawcza — budujemy partnerstwa u źródła, nie tylko handlujemy składnikami."
+      },
+      {
+        "t": "Inwestycja w gospodarstwa",
+        "d": "Inwestujemy wraz z producentami w gospodarstwa, zakłady, jakość i długoterminowe moce."
+      },
+      {
+        "t": "Wsparcie operacyjne",
+        "d": "Sourcing, zgodność, kontrola jakości, logistyka i zarządzanie projektami w całym łańcuchu."
+      },
+      {
+        "t": "Sourcing z wielu źródeł",
+        "d": "Przejrzyście łączymy źródła dla spójnej jakości, bezpieczeństwa dostaw i skali."
+      },
+      {
+        "t": "Hub w Hongkongu",
+        "d": "Jeden podmiot zarządza sourcingiem, dostawcami, QA, zgodnością i logistyką w całej Azji."
+      },
+      {
+        "t": "Niezależna weryfikacja",
+        "d": "Każda partia badana wobec najwyższych międzynarodowych norm jakości i bezpieczeństwa żywności."
+      },
+      {
+        "t": "Infrastruktura zgodności",
+        "d": "Dokumentacja, identyfikowalność i systemy zgodności zbudowane dla globalnych producentów."
+      },
+      {
+        "t": "Dostawy w skali korporacyjnej",
+        "d": "Stworzone pod duży wolumen — spójna jakość, niezawodna logistyka, skalowalne operacje."
+      },
+      {
+        "t": "Łańcuch dostaw end-to-end",
+        "d": "Od gospodarstwa po dostawę końcową: sourcing, QA, dokumentacja, logistyka — zarządzane przez nas."
+      },
+      {
+        "t": "Długoterminowe partnerstwa",
+        "d": "Trwałe relacje z plantatorami, przetwórcami i klientami — a nie handel transakcyjny."
+      }
+    ]
+  },
+  "about": {
+    "metaTitle": "O nas — zaufany partner w sourcingu superfoods",
+    "metaDescription": "Superfoods Partners to działające z Hongkongu ramię sourcingowe rodziny Pure Matcha Partners. Nie dążymy do bycia największym dostawcą — dążymy do bycia najbardziej godnym zaufania.",
+    "eyebrow": "O nas",
+    "eyebrowSub": "Kim jesteśmy",
+    "heroHeading": "Źródło to cała historia.",
+    "heroBody1": "Superfoods Partners to silnik sourcingowy rodziny Pure Matcha Partners. Kupujemy bezpośrednio od gospodarstw, które uprawiają najlepsze superfoods świata, i dostarczamy duże, zweryfikowane wolumeny największym producentom — przeprowadzane, gdy to pomaga, przez nasz hub w Hongkongu.",
+    "heroBody2": "Nie aspirujemy do bycia największym dostawcą. Aspirujemy do bycia tym, o którego nigdy nie musisz się martwić.",
+    "heroCaption": "PLANTATOR W OGRODACH W CZASIE ZBIORÓW",
+    "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
+    "ctaHeading": "Przenoś wolumen, któremu możesz zaufać.",
+    "ctaButton": "Poproś o wycenę hurtową"
+  },
+  "team": {
+    "eyebrow": "Zespół",
+    "eyebrowSub": "Ludzie za tym stojący",
+    "heading": "Twarze, do których możesz zadzwonić.",
+    "body": "Ludzie, którzy pozyskują, badają i przenoszą Twój wolumen — jeden partner w Twojej strefie czasowej, który naprawdę odbiera."
+  },
+  "certifications": {
+    "title": "Certyfikowane i niezależnie badane",
+    "partnersTitle": "Badane i weryfikowane przez"
+  },
+  "trace": {
+    "nodeOrigin": "ŹRÓDŁO",
+    "nodeLab": "ZWERYFIKOWANE W LABORATORIUM",
+    "nodeHub": "HUB W HONGKONGU",
+    "nodeFacility": "TWÓJ ZAKŁAD",
+    "testPanel": "Panel badań",
+    "routed": "Przeprowadzone przez Hongkong",
+    "pesticide": "Pozostałości pestycydów",
+    "heavyMetals": "Metale ciężkie · Pb As Cd",
+    "microbiology": "Mikrobiologia",
+    "radiation": "Promieniowanie",
+    "moisture": "Wilgotność · granulacja",
+    "pass": "Wynik pozytywny",
+    "inSpec": "Zgodne ze specyfikacją"
+  },
+  "roles": {
+    "Supply chain & sourcing": "Łańcuch dostaw i sourcing",
+    "Sourcing": "Sourcing",
+    "Partnerships": "Partnerstwa",
+    "Quality control": "Kontrola jakości",
+    "Hong Kong": "Hongkong"
+  },
+  "sourcingMap": {
+    "aria": "Skąd Superfoods Partners pozyskuje surowce, przeprowadzane przez Hongkong"
+  },
+  "pdp": {
+    "metaTitle": "{name} hurt — {origin}, {country} | dostawca hurtowy",
+    "bulkSupplier": "Dostawca hurtowy: {name}",
+    "requestQuote": "Poproś o wycenę",
+    "labReport": "Raport z laboratorium i wycena w 48 h",
+    "everyBatch": "Każda partia wysyłana z Verification Record™ · przeprowadzana przez Hongkong",
+    "atGlance": "W skrócie",
+    "moq": "MOQ",
+    "moqValue": "25 kg → pełny kontener",
+    "leadTime": "Czas realizacji",
+    "leadValue": "2–4 tygodnie przez Hongkong",
+    "incoterms": "Incoterms",
+    "incotermsValue": "FOB / CIF / DDP",
+    "applications": "Zastosowania",
+    "applicationsBody": "Gdzie kupujący wykorzystują {name} — w napojach, wypiekach i formatach funkcjonalnych.",
+    "whereFrom": "Skąd pochodzi",
+    "sourcedAtOrigin": "{name}, pozyskiwane u źródła.",
+    "sourceMulti": "Pozyskujemy {name} bezpośrednio z {count} regionów, a następnie konsolidujemy i dokumentujemy każdą partię w naszym hubie w Hongkongu, zanim do Ciebie dotrze.",
+    "sourceSingle": "Pozyskujemy {name} bezpośrednio w kraju {country}, a następnie konsolidujemy i dokumentujemy każdą partię w naszym hubie w Hongkongu, zanim do Ciebie dotrze.",
+    "originsFor": "Źródła dla {name}",
+    "moreCatalogue": "Więcej z katalogu",
+    "viewCatalogue": "Zobacz pełny katalog →",
+    "faqHeading": "Sourcing {name} — częste pytania",
+    "crumbHome": "Strona główna",
+    "crumbCatalogue": "Katalog",
+    "andWord": "i"
+  },
+  "faq": {
+    "moqQ": "Jaka jest minimalna ilość zamówienia dla {name} w hurcie?",
+    "moqA": "{name} w hurcie dostępne jest od 25 kg do pełnego kontenera. Najpierw można ustalić ilości próbne, aby zakwalifikować materiał przed złożeniem zamówienia hurtowego.",
+    "certsQ": "Jakie certyfikaty posiada Wasze {name}?",
+    "certsA": "Nasze {name} dostępne jest z {certs}. Każda partia wysyłana jest z pełnym COA oraz Verification Record™, dokumentującym badania pozostałości pestycydów, metali ciężkich, mikrobiologii i promieniowania.",
+    "sourceQ": "Skąd pozyskujecie {name}?",
+    "sourceA": "Pozyskujemy {name} z {countries}, przeprowadzane i kontrolowane jakościowo przez nasz hub w Hongkongu, z identyfikowalnością do partii źródłowej na każdej wysyłce.",
+    "plQ": "Czy możecie dostarczyć {name} pod private label lub jako składnik receptury?",
+    "plA": "Tak. Dostarczamy {name} producentom napojów, markom suplementów i nutraceutyków, firmom private label i co-packerom oraz dystrybutorom — jako składnik hurtowy lub pod Waszą własną marką.",
+    "shipQ": "Jak szybko możecie wysłać {name} i na jakich Incoterms?",
+    "shipA": "Typowy czas realizacji to 2–4 tygodnie, wysyłka FOB, CIF lub DDP przez Hongkong. Raport z laboratorium i wycena zwykle następują w ciągu 48 godzin od zapytania.",
+    "gradesQ": "Jakie klasy {name} oferujecie?",
+    "gradesA": "{name} dostępne jest w klasach {grades}, w formach {forms} — dopasowanych do Waszego zastosowania i budżetu.",
+    "organicQ": "Czy Wasze {name} dostępne jest w wersji organicznej?",
+    "organicA": "Tak — {name} dostępne jest zarówno w wersji organicznej, jak i konwencjonalnej, dokumentowane partiami.",
+    "vettedOrigins": "sprawdzonych źródeł"
+  },
+  "variant": {
+    "grade": "Klasa",
+    "origin": "Źródło",
+    "certification": "Certyfikacja",
+    "sku": "SKU",
+    "moqLine": "MOQ 25 kg → pełny kontener · {coords}"
+  },
+  "passport": {
+    "eyebrow": "Paszport źródła",
+    "heading": "Skąd pochodzi — i dlaczego tak smakuje.",
+    "originLabel": "Źródło",
+    "verified": "Zweryfikowane u źródła · przeprowadzone przez Hongkong"
+  },
+  "catalog": {
+    "metaTitle": "Katalog — matcha i superfoods hurtowo, zweryfikowane u źródła",
+    "metaDescription": "Przeglądaj katalog B2B Superfoods Partners: matcha (ceremonialna, premium, kulinarna), hojicha, herbaty jaśminowa, oolong i earl grey w proszku, ube, soplówka jeżowata i hibiskus — badane laboratoryjnie i udokumentowane.",
+    "eyebrow": "Katalog",
+    "heading": "Matcha i superfoods hurtowo, zweryfikowane u źródła.",
+    "intro": "Kategoria → produkt → wariant. Każda pozycja badana laboratoryjnie, udokumentowana i dostępna od próbki po pełny kontener.",
+    "lines": "{count, plural, one {# linia} few {# linie} many {# linii} other {# linii}}",
+    "ctaHeading": "Nie widzisz swojego źródła?",
+    "ctaBody": "Nasz katalog obejmuje 13 źródeł w 4 krajach — a nasza sieć sourcingowa sięga dalej. Powiedz nam, czego potrzebujesz, a znajdziemy to, zweryfikujemy i udokumentujemy.",
+    "ctaButton": "Poproś o wycenę hurtową"
+  },
+  "origins": {
+    "metaTitle": "Źródła — {origins} zweryfikowanych źródeł w {countries} krajach",
+    "metaDescription": "W krajach {countryList} każde źródło Superfoods Partners jest zmapowane, badane laboratoryjnie i przeprowadzane przez jeden zaufany hub w Hongkongu. Poznaj naszą sieć sourcingową.",
+    "eyebrow": "Źródła",
+    "heading": "Każde źródło na świecie, przeprowadzone przez jeden hub.",
+    "intro": "Utrzymujemy bezpośrednie relacje u źródła w {countries} krajach. Każda partia jest badana i dokumentowana przed wysyłką — od źródła przez Hongkong do Twojego zakładu.",
+    "heroCaption": "ŹRÓDŁO — KRAINA HERBATY W SEZONIE",
+    "mapEyebrow": "Globalna mapa handlu",
+    "mapHeading": "Skąd pozyskujemy — i gdzie sprzedajemy.",
+    "mapBody": "Przeciągnij, by obrócić globus, przewiń, by przybliżyć, i najedź na dowolny punkt. Zielony oznacza, skąd pozyskujemy; bursztynowy oznacza rynki, które obsługujemy — wszystko przeprowadzane przez jeden hub w Hongkongu.",
+    "legendSourcing": "Sourcing · {count} źródeł",
+    "legendMarkets": "Rynki · USA · UE (przez Pure Matcha Partners) · Bliski Wschód",
+    "legendHub": "Hub · Hongkong",
+    "statOrigins": "ŹRÓDŁA",
+    "statCountries": "KRAJE",
+    "statBatch": "BADANE PARTIAMI",
+    "statHub": "HUB · HONGKONG",
+    "featuredHeading": "Wyróżnione źródła",
+    "multipleLines": "Wiele linii",
+    "viewOrigin": "Zobacz źródło",
+    "ctaHeading": "Potrzebujesz źródła, którego nie wymieniliśmy?",
+    "ctaBody": "Nasza sieć sięga głębiej niż ta strona. Powiedz nam, jaki produkt i źródło Cię interesuje — znajdziemy to, zweryfikujemy i udokumentujemy.",
+    "ctaButton": "Poproś o wycenę hurtową"
+  },
+  "originDetail": {
+    "metaTitle": "{products} hurtowo z {name}, {country}",
+    "metaDescription": "{products} hurtowo pozyskiwane u źródła w {name}, {country} ({coords}). Badane laboratoryjnie, dokumentowane i przeprowadzane przez Hongkong. MOQ od 25 kg.",
+    "metaProductsFallback": "superfoods",
+    "back": "Źródła",
+    "routedVia": "{coords} — przeprowadzone przez Hongkong",
+    "introFallback": "Bezpośredni sourcing w {label}. Każda partia z tego źródła jest badana laboratoryjnie na pozostałości pestycydów, metale ciężkie, mikrobiologię i promieniowanie, a następnie dokumentowana za pomocą Verification Record™, zanim opuści hub.",
+    "routeEyebrow": "Trasa",
+    "routeHeading": "Od {name} do Twojej rampy.",
+    "routeBody": "Kupujemy tam, gdzie rośnie, następnie konsolidujemy przez nasz hub w Hongkongu i wysyłamy do Ciebie z dokumentacją. Jedna para rąk od gospodarstwa po transport — bez anonimowych pośredników pomiędzy.",
+    "routePath": "{coords} → Hongkong → Ty",
+    "sourcedFrom": "Pozyskiwane z {name}",
+    "ctaQuote": "Poproś o wycenę z {name}"
+  },
+  "verification": {
+    "metaTitle": "Weryfikacja — jak każda partia jest badana i dokumentowana",
+    "metaDescription": "Origin Intelligence™: jak Superfoods Partners bada, dokumentuje i śledzi każdą partię. Panele laboratoryjne, Verification Record™, certyfikaty i odpowiedzi na częste pytania o sourcing.",
+    "eyebrow": "Origin Intelligence™",
+    "heading": "Ciepło, które możesz zaudytować.",
+    "intro": "Ludzka historia przyciąga uwagę; dokumentacja zdobywa kontrakt. Każda wysyłana przez nas partia jest badana, dokumentowana i identyfikowalna — dzięki czemu Twój dział QA, Twoi audytorzy i Twoi klienci otrzymują tę samą odpowiedź.",
+    "photoCaption": "JAKOŚĆ U ŹRÓDŁA — DEGUSTOWANE I KLASYFIKOWANE RĘCZNIE",
+    "steps": [
+      {
+        "t": "Sourcing u źródła",
+        "d": "Bezpośrednie relacje z plantatorami i przetwórcami na całym świecie."
+      },
+      {
+        "t": "Badanie każdej partii",
+        "d": "Pozostałości pestycydów, metale ciężkie, mikrobiologia, promieniowanie — badane niezależnie."
+      },
+      {
+        "t": "Dokumentacja i identyfikacja",
+        "d": "Verification Record™ i pełne COA towarzyszą każdej wysyłce."
+      },
+      {
+        "t": "Trasa przez Hongkong",
+        "d": "Skonsolidowane, celne i wysyłane z jednego zaufanego hubu."
+      }
+    ],
+    "testHeading": "Co badamy, w każdej partii.",
+    "panel": [
+      "Pozostałości pestycydów (wieloskładnikowy przegląd)",
+      "Metale ciężkie — ołów, arsen, kadm, rtęć",
+      "Mikrobiologia — ogólna liczba drobnoustrojów, drożdże i pleśnie, patogeny",
+      "Promieniowanie (tam, gdzie dotyczy)",
+      "Wilgotność, granulacja i sensoryka"
+    ],
+    "recordEyebrow": "Verification Record™",
+    "recordBody": "Jeden dokument, który towarzyszy każdej partii: źródło i współrzędne, numery partii i COA, pełny panel badań, certyfikaty oraz trasa przez Hongkong. Jedno źródło prawdy — dla Ciebie, Twoich audytorów i Twoich klientów.",
+    "recordRoute": "Przeprowadzone przez Hongkong · 22.32°N 114.17°E",
+    "certsHeading": "Certyfikowane, badane, dokumentowane.",
+    "faqHeading": "Częste pytania",
+    "faq": [
+      {
+        "q": "Jaka jest Wasza minimalna ilość zamówienia?",
+        "a": "Dostarczamy od 25 kg do pełnego kontenera. Próbkowanie jest dostępne, zanim zdecydujesz się na stały program."
+      },
+      {
+        "q": "Czy otrzymuję raporty z laboratorium?",
+        "a": "Tak — każda partia wysyłana jest z Verification Record™ oraz pełnym Certyfikatem Analizy (COA), obejmującym pestycydy, metale ciężkie, mikrobiologię i więcej."
+      },
+      {
+        "q": "Jakie są Wasze czasy realizacji i Incoterms?",
+        "a": "Zwykle 2–4 tygodnie, skonsolidowane i przeprowadzane przez nasz hub w Hongkongu. Pracujemy na FOB, CIF lub DDP w zależności od potrzeb."
+      },
+      {
+        "q": "Czy robicie private label lub mieszanki na zamówienie?",
+        "a": "Tak. Za pośrednictwem naszej Blend Library™ wspieramy receptury private label i na zamówienie dla producentów i co-packerów."
+      },
+      {
+        "q": "Jakie certyfikaty posiadacie?",
+        "a": "JAS, EU Organic, USDA Organic, HACCP, FSSC 22000 i Kosher, obok niezależnych badań laboratoryjnych każdej partii."
+      }
+    ],
+    "ctaButton": "Poproś o wycenę hurtową"
+  },
+  "contact": {
+    "metaTitle": "Poproś o wycenę hurtową",
+    "metaDescription": "Powiedz nam, czego potrzebujesz — produkt, klasa, ilość i rynek. Pozyskamy to, zweryfikujemy i udokumentujemy, i odpowiemy raportem z laboratorium oraz wyceną w ciągu 48 godzin.",
+    "eyebrow": "RFQ",
+    "eyebrowSub": "Poproś o wycenę",
+    "heading": "Przenoś wolumen, któremu możesz zaufać.",
+    "intro": "Powiedz nam, czego potrzebujesz i w jakiej skali. Pozyskamy to, zweryfikujemy i udokumentujemy — i dostarczymy przez Hongkong do Ciebie. Wyślij specyfikację, a odpowie człowiek, w Twojej strefie czasowej.",
+    "specMoq": "MOQ · 25 kg → pełny kontener",
+    "specLead": "Czas realizacji · 2–4 tygodnie",
+    "specIncoterms": "Incoterms · FOB / CIF / DDP",
+    "specReply": "Odpowiedź · raport z laboratorium i wycena w 48 godzin",
+    "photoCaption": "GODNE ZAUFANIA U ŹRÓDŁA — ZNAMY TYCH LUDZI"
+  },
+  "rfq": {
+    "loading": "Ładowanie…",
+    "company": "Firma",
+    "name": "Imię i nazwisko",
+    "email": "Służbowy e-mail",
+    "market": "Kraj / rynek",
+    "product": "Produkt",
+    "productPlaceholder": "np. Matcha ceremonialna",
+    "volume": "Szacowana ilość",
+    "volumePlaceholder": "np. 500 kg / miesiąc",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Klasa, certyfikacja, harmonogram, cokolwiek konkretnego…",
+    "submit": "Wyślij zapytanie",
+    "sending": "Wysyłanie…",
+    "replyNote": "Raport z laboratorium i wycena w 48 h",
+    "successHeading": "Mamy to.",
+    "successBody": "Dziękujemy — wrócimy z raportem z laboratorium i wyceną, zwykle w ciągu 48 godzin. Sprawdź swoją skrzynkę.",
+    "errorText": "Coś poszło nie tak przy wysyłaniu zapytania. Napisz do nas bezpośrednio na"
+  }
+}
