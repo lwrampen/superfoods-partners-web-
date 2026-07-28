@@ -7,7 +7,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { Certifications } from "@/components/Certifications";
-import type { Cert } from "@/data/trust";
+import { toCert } from "@/data/trust";
 
 export async function generateMetadata({
   params,
@@ -23,16 +23,9 @@ export async function generateMetadata({
   };
 }
 
-// Official cert marks (logos live in /public/certs). Kosher has no supplied
+// Official cert marks — logos resolved via toCert(). Kosher has no supplied
 // logo, so it falls back to a text plate — handled by <Certifications>.
-const CERTS: Cert[] = [
-  { name: "JAS Organic", logo: "/certs/jas.png" },
-  { name: "EU Organic", logo: "/certs/eu-organic.webp" },
-  { name: "USDA Organic", logo: "/certs/usda-organic.png" },
-  { name: "HACCP", logo: "/certs/haccp.webp" },
-  { name: "FSSC 22000", logo: "/certs/fssc-22000.webp" },
-  { name: "Kosher" },
-];
+const CERTS = ["JAS Organic", "EU Organic", "USDA Organic", "HACCP", "FSSC 22000", "Kosher"].map(toCert);
 const STEP_NUMS = ["01", "02", "03", "04"];
 
 export default async function VerificationPage({ params }: { params: Promise<{ locale: string }> }) {

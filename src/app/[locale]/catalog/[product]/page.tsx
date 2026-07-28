@@ -12,6 +12,7 @@ import { SourcingMap } from "@/components/SourcingMap";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor, localizedUrl } from "@/i18n/paths";
 import { PRODUCTS, ORIGINS, getProduct, originNote, originLabel } from "@/data/catalog";
+import { toCert } from "@/data/trust";
 import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.i18n";
 
 export function generateStaticParams() {
@@ -173,9 +174,17 @@ export default async function ProductPage({
                 ))}
               </dl>
               <div className="mt-5 flex flex-wrap gap-2">
-                {p.certs.map((c) => (
-                  <span key={c} className="mono rounded-lg border px-3 py-1.5 text-[10px] uppercase" style={{ borderColor: `${p.accent}40`, color: p.accent }}>
-                    {c}
+                {p.certs.map(toCert).map((c) => (
+                  <span
+                    key={c.name}
+                    title={c.name}
+                    className="flex h-9 items-center gap-2 rounded-lg border border-stone/12 bg-white px-3"
+                  >
+                    {c.logo ? (
+                      <Image src={c.logo} alt={c.name} width={120} height={40} className="max-h-5 w-auto object-contain" />
+                    ) : (
+                      <span className="mono text-[10px] uppercase text-stone/70">{c.name}</span>
+                    )}
                   </span>
                 ))}
               </div>

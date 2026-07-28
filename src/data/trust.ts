@@ -44,3 +44,22 @@ export const PARTNERS: Cert[] = [
   { name: "Eurofins", logo: "/certs/eurofins.png" },
   { name: "Mérieux NutriSciences", logo: "/certs/merieux.png" },
 ];
+
+// Cert marks are referenced by name in several places (catalog products,
+// verification page) with slightly different spellings. This maps any known
+// spelling to its logo so every surface renders the same mark; unknown names
+// (e.g. Kosher, for which we have no supplied asset) fall back to a text plate.
+const CERT_LOGOS: Record<string, string> = {
+  jas: "/certs/jas.png",
+  "jas organic": "/certs/jas.png",
+  "eu organic": "/certs/eu-organic.webp",
+  "usda organic": "/certs/usda-organic.png",
+  "rainforest alliance": "/certs/rainforest-alliance.png",
+  haccp: "/certs/haccp.webp",
+  "fssc 22000": "/certs/fssc-22000.webp",
+};
+
+export function toCert(name: string): Cert {
+  const logo = CERT_LOGOS[name.trim().toLowerCase()];
+  return logo ? { name, logo } : { name };
+}
