@@ -27,6 +27,7 @@ export type Product = {
   gallery?: { src: string; alt: string; caption?: string }[]; // farm / people / product photos
 
   grades?: string[]; // matcha has grades; others may not
+  gradeNotes?: { grade: string; use: string }[]; // "which grade for what" — buyer + GEO depth
   originSlugs: string[];
   forms: Form[];
   certs: string[];
@@ -64,6 +65,11 @@ export const PRODUCTS: Product[] = [
     description:
       "Vibrant, single-origin matcha in ceremonial, premium and culinary grades. Shade-grown and stone-milled, lab-tested every batch, available from sample to full container.",
     grades: ["Ceremonial", "Premium", "Culinary"],
+    gradeNotes: [
+      { grade: "Ceremonial", use: "Whisked straight with water — vivid green, naturally sweet, fine on the palate. For premium lattes, matcha bars and straight service." },
+      { grade: "Premium", use: "The everyday workhorse — balanced colour and flavour for cafés, RTD drinks and daily menu use at scale." },
+      { grade: "Culinary", use: "Built to hold its colour and body against other ingredients — for bakery, ice cream, desserts and supplements." },
+    ],
     intro:
       "Matcha is stone-ground green tea, shaded for weeks before harvest to build its deep umami and vivid colour. We supply single-origin matcha from Japan and China across ceremonial, premium and culinary grades — shade-grown, stone-milled and lab-tested every batch, available from sample to full container through our Hong Kong hub.",
     applications: [

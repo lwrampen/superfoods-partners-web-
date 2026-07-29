@@ -24,6 +24,11 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
       { "label": "Pochodzenie", "value": "Japonia · Chiny" },
       { "label": "Opakowanie", "value": "Saszetka 1 kg → 25 kg / pełny kontener" },
       { "label": "Dokumentacja", "value": "COA + Verification Record™ na partię" }
+    ],
+    "gradeNotes": [
+      { "grade": "Ceremonial", "use": "Ubijany prosto z wodą — żywa zieleń, naturalnie słodki, delikatny w smaku. Do latte premium, barów matcha i podawania na czysto." },
+      { "grade": "Premium", "use": "Codzienny koń roboczy — zrównoważony kolor i smak do kawiarni, napojów RTD i użycia w menu na dużą skalę." },
+      { "grade": "Culinary", "use": "Stworzony, by utrzymać kolor i ciało przy innych składnikach — do wypieków, lodów, deserów i suplementów." },
     ]
   },
   "hojicha": {

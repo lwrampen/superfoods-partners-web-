@@ -24,6 +24,11 @@ export const PRODUCTS_ES: Record<string, ProductText> = {
       { "label": "Origen", "value": "Japón · China" },
       { "label": "Presentación", "value": "Bolsa de 1 kg → 25 kg / contenedor completo" },
       { "label": "Documentación", "value": "COA + Verification Record™ por lote" }
+    ],
+    "gradeNotes": [
+      { "grade": "Ceremonial", "use": "Batido directamente con agua — verde vivo, naturalmente dulce, textura fina. Para lattes premium, barras de matcha y servicio directo." },
+      { "grade": "Premium", "use": "El caballo de batalla diario — color y sabor equilibrados para cafeterías, bebidas RTD y uso en carta a escala." },
+      { "grade": "Culinary", "use": "Diseñado para mantener color y cuerpo junto a otros ingredientes — para bollería, helados, postres y suplementos." },
     ]
   },
   "hojicha": {

@@ -42,6 +42,11 @@ export const PRODUCTS_DE: Record<string, ProductText> = {
         "label": "Dokumentation",
         "value": "COA + Verification Record™ pro Charge"
       }
+    ],
+    "gradeNotes": [
+      { "grade": "Ceremonial", "use": "Pur mit Wasser aufgeschlagen — leuchtend grün, natürlich süß, feiner Geschmack. Für Premium-Lattes, Matcha-Bars und puren Ausschank." },
+      { "grade": "Premium", "use": "Das Allround-Arbeitstier — ausgewogene Farbe und Geschmack für Cafés, RTD-Getränke und den täglichen Menüeinsatz im großen Maßstab." },
+      { "grade": "Culinary", "use": "Behält Farbe und Körper auch neben anderen Zutaten — für Backwaren, Eis, Desserts und Nahrungsergänzung." },
     ]
   },
   "hojicha": {
