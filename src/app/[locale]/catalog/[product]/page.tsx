@@ -209,6 +209,23 @@ export default async function ProductPage({
           </div>
         </section>
 
+        {/* Grades — "which grade for what" (products that have grades, e.g. matcha) */}
+        {p.gradeNotes?.length ? (
+          <section className="border-t border-stone/10">
+            <div className="mx-auto max-w-6xl px-6 py-14 md:py-16">
+              <h2 className="display text-2xl text-green">{t("gradesTitle")}</h2>
+              <div className="mt-8 grid gap-4 sm:grid-cols-3">
+                {p.gradeNotes.map((g) => (
+                  <div key={g.grade} className="rounded-xl border border-stone/15 bg-sand p-6">
+                    <p className="mono text-[11px] uppercase tracking-wide" style={{ color: p.accent }}>{g.grade}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-stone">{g.use}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        ) : null}
+
         {/* Applications */}
         {p.applications?.length ? (
           <section className="border-t border-stone/10">

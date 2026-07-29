@@ -24,6 +24,11 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
       { "label": "Origine", "value": "Japon · Chine" },
       { "label": "Conditionnement", "value": "Sachet de 1 kg → 25 kg / conteneur complet" },
       { "label": "Documentation", "value": "COA + Verification Record™ par lot" }
+    ],
+    "gradeNotes": [
+      { "grade": "Ceremonial", "use": "Fouetté directement à l'eau — vert vif, naturellement doux, texture fine. Pour lattes premium, bars à matcha et service pur." },
+      { "grade": "Premium", "use": "Le pilier du quotidien — couleur et goût équilibrés pour cafés, boissons RTD et usage à la carte à grande échelle." },
+      { "grade": "Culinary", "use": "Conçu pour tenir sa couleur et son corps face aux autres ingrédients — pour boulangerie, glaces, desserts et compléments." },
     ]
   },
   "hojicha": {

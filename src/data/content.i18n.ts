@@ -11,7 +11,7 @@ import { ZH } from "./content.zh-Hant";
 // originSlugs, forms, certs, coords) are never translated.
 
 export type ProductText = Partial<
-  Pick<Product, "tagline" | "description" | "intro" | "applications" | "specs" | "category">
+  Pick<Product, "tagline" | "description" | "intro" | "applications" | "specs" | "category" | "gradeNotes">
 >;
 
 export interface LocaleContent {

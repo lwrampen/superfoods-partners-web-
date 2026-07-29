@@ -25,6 +25,11 @@ export const PRODUCTS_ZH: Record<string, ProductText> = {
       { "label": "產地", "value": "日本 · 中國" },
       { "label": "包裝", "value": "1 公斤袋裝 → 25 公斤 / 整櫃" },
       { "label": "文件", "value": "COA + Verification Record™,逐批" }
+    ],
+    "gradeNotes": [
+      { "grade": "Ceremonial", "use": "直接以水點茶——鮮綠、自然回甘、口感細緻。適用於高級拿鐵、抹茶吧與純飲。" },
+      { "grade": "Premium", "use": "日常主力——色澤與風味均衡，適合咖啡館、即飲飲品與規模化的每日菜單。" },
+      { "grade": "Culinary", "use": "即使搭配其他食材也能維持色澤與厚度——適合烘焙、冰淇淋、甜點與保健品。" },
     ]
   },
   "hojicha": {
