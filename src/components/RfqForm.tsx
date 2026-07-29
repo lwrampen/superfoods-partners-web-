@@ -31,6 +31,15 @@ export function RfqForm() {
         body: JSON.stringify(data),
       });
       setStatus(res.ok ? "ok" : "error");
+      // Fire a GA4 conversion event on a successful quote request. Mark
+      // `generate_lead` as a Key Event in the GA4 UI to count it as a conversion.
+      if (res.ok) {
+        const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
+        gtag?.("event", "generate_lead", {
+          form: "rfq",
+          product: (data.product as string) || "unspecified",
+        });
+      }
     } catch {
       setStatus("error");
     }

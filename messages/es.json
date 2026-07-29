@@ -33,6 +33,8 @@
     "Egypt": "Egipto"
   },
   "home": {
+    "metaTitle": "Proveedor de Matcha al por Mayor — Matcha y Superalimentos a Granel",
+    "metaDescription": "Matcha a granel y superalimentos en polvo para fabricantes — de origen único, cada lote analizado en laboratorio (JAS, EU y USDA Orgánico), desde muestra hasta contenedor completo. Superfoods Partners abastece directo del origen. Solicita presupuesto.",
     "heroEyebrow": "Origin Intelligence™",
     "heroTitle1": "Abastecimiento a escala.",
     "heroTitle2": "Confianza en origen.",
@@ -216,6 +218,7 @@
   },
   "pdp": {
     "metaTitle": "{name} a granel — {origin}, {country} | proveedor mayorista",
+    "metaDescription": "{name} al por mayor, de origen en {origin}, {country}. Cada lote analizado en laboratorio con COA y Verification Record. MOQ desde 25 kg hasta contenedor completo — solicita presupuesto.",
     "bulkSupplier": "Proveedor de {name} a granel",
     "requestQuote": "Solicitar presupuesto",
     "labReport": "Informe de laboratorio y presupuesto en 48 h",
@@ -272,7 +275,7 @@
     "verified": "Verificado en origen · enrutado vía Hong Kong"
   },
   "catalog": {
-    "metaTitle": "Catálogo — matcha y superalimentos a granel, verificados en origen",
+    "metaTitle": "Matcha y Superalimentos al por Mayor — Catálogo B2B",
     "metaDescription": "Explore el catálogo B2B de Superfoods Partners: matcha (ceremonial, premium, culinario), hojicha, y polvos de té de jazmín, oolong y earl grey, ube, melena de león e hibisco — analizados en laboratorio y documentados.",
     "eyebrow": "Catálogo",
     "heading": "Matcha y superalimentos a granel, verificados en origen.",
@@ -383,7 +386,7 @@
     "ctaButton": "Solicitar presupuesto por volumen"
   },
   "contact": {
-    "metaTitle": "Solicitar presupuesto por volumen",
+    "metaTitle": "Solicitar Presupuesto al por Mayor — Matcha y Superalimentos",
     "metaDescription": "Díganos qué necesita — producto, grado, volumen y mercado. Lo abasteceremos, verificaremos y documentaremos, y le responderemos con un informe de laboratorio y un presupuesto en 48 horas.",
     "eyebrow": "RFQ",
     "eyebrowSub": "Solicitar presupuesto",
