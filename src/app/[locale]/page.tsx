@@ -20,7 +20,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  return { alternates: alternatesFor(locale, "/") };
+  const t = await getTranslations({ locale, namespace: "home" });
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    alternates: alternatesFor(locale, "/"),
+  };
 }
 
 function Marker({ n, label, color = "text-stone/60" }: { n: string; label: string; color?: string }) {
