@@ -6,6 +6,8 @@ import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
+import { Certifications } from "@/components/Certifications";
+import { toCert } from "@/data/trust";
 
 export async function generateMetadata({
   params,
@@ -21,7 +23,9 @@ export async function generateMetadata({
   };
 }
 
-const CERTS = ["JAS", "EU ORGANIC", "USDA ORGANIC", "HACCP", "FSSC 22000", "KOSHER"];
+// Official cert marks — logos resolved via toCert(). Kosher has no supplied
+// logo, so it falls back to a text plate — handled by <Certifications>.
+const CERTS = ["JAS Organic", "EU Organic", "USDA Organic", "HACCP", "FSSC 22000", "Kosher"].map(toCert);
 const STEP_NUMS = ["01", "02", "03", "04"];
 
 export default async function VerificationPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -112,19 +116,8 @@ export default async function VerificationPage({ params }: { params: Promise<{ l
           </Reveal>
         </section>
 
-        {/* Certs */}
-        <section className="bg-sand">
-          <div className="mx-auto max-w-6xl px-6 py-16">
-            <Reveal>
-              <h2 className="display text-2xl text-green">{t("certsHeading")}</h2>
-              <div className="mt-6 flex flex-wrap gap-3">
-                {CERTS.map((c) => (
-                  <span key={c} className="mono rounded-lg border border-green/25 px-4 py-2 text-xs uppercase text-green">{c}</span>
-                ))}
-              </div>
-            </Reveal>
-          </div>
-        </section>
+        {/* Certs — official marks with logos (text-plate fallback per cert) */}
+        <Certifications certs={CERTS} title={t("certsHeading")} />
 
         {/* FAQ */}
         <section className="mx-auto max-w-3xl px-6 py-20">

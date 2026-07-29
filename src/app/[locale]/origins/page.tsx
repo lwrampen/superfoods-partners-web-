@@ -7,6 +7,8 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { TradeGlobe } from "@/components/TradeGlobe";
+import { Certifications } from "@/components/Certifications";
+import { CERTIFICATIONS } from "@/data/trust";
 import { ORIGIN_LIST, productsForOrigin } from "@/data/catalog";
 import { localizeOrigin, localizeProduct, countryLabel } from "@/data/content.i18n";
 
@@ -117,6 +119,9 @@ export default async function OriginsPage({ params }: { params: Promise<{ locale
             ))}
           </div>
         </section>
+
+        {/* Certifications — same official marks (with logos) shown site-wide */}
+        <Certifications certs={CERTIFICATIONS} />
 
         <section className="mx-auto max-w-6xl px-6 py-16">
           <Reveal className="mb-8">
