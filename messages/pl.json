@@ -218,6 +218,7 @@
   },
   "pdp": {
     "metaTitle": "{name} hurt — {origin}, {country} | dostawca hurtowy",
+    "metaDescription": "{name} hurtowo, prosto ze źródła w {origin}, {country}. Każda partia badana laboratoryjnie z COA i Verification Record. MOQ od 25 kg do pełnego kontenera — poproś o wycenę.",
     "bulkSupplier": "Dostawca hurtowy: {name}",
     "requestQuote": "Poproś o wycenę",
     "labReport": "Raport z laboratorium i wycena w 48 h",
@@ -274,7 +275,7 @@
     "verified": "Zweryfikowane u źródła · przeprowadzone przez Hongkong"
   },
   "catalog": {
-    "metaTitle": "Katalog — matcha i superfoods hurtowo, zweryfikowane u źródła",
+    "metaTitle": "Matcha i Superfoods Hurtowo — Katalog B2B",
     "metaDescription": "Przeglądaj katalog B2B Superfoods Partners: matcha (ceremonialna, premium, kulinarna), hojicha, herbaty jaśminowa, oolong i earl grey w proszku, ube, soplówka jeżowata i hibiskus — badane laboratoryjnie i udokumentowane.",
     "eyebrow": "Katalog",
     "heading": "Matcha i superfoods hurtowo, zweryfikowane u źródła.",
@@ -385,7 +386,7 @@
     "ctaButton": "Poproś o wycenę hurtową"
   },
   "contact": {
-    "metaTitle": "Poproś o wycenę hurtową",
+    "metaTitle": "Poproś o Wycenę Hurtową — Matcha i Superfoods",
     "metaDescription": "Powiedz nam, czego potrzebujesz — produkt, klasa, ilość i rynek. Pozyskamy to, zweryfikujemy i udokumentujemy, i odpowiemy raportem z laboratorium oraz wyceną w ciągu 48 godzin.",
     "eyebrow": "RFQ",
     "eyebrowSub": "Poproś o wycenę",

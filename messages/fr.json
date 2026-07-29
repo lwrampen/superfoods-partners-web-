@@ -218,6 +218,7 @@
   },
   "pdp": {
     "metaTitle": "{name} en gros — {origin}, {country} | fournisseur grossiste",
+    "metaDescription": "{name} en gros, à l'origine à {origin}, {country}. Chaque lot testé en laboratoire avec COA et Verification Record. MOQ dès 25 kg au conteneur complet — demandez un devis.",
     "bulkSupplier": "Fournisseur de {name} en gros",
     "requestQuote": "Demander un devis",
     "labReport": "Rapport de laboratoire et devis sous 48 h",
@@ -274,7 +275,7 @@
     "verified": "Vérifié en origine · acheminé via Hong Kong"
   },
   "catalog": {
-    "metaTitle": "Catalogue — matcha et superaliments en gros, vérifiés en origine",
+    "metaTitle": "Matcha & Superaliments en Gros — Catalogue B2B",
     "metaDescription": "Parcourez le catalogue B2B de Superfoods Partners : matcha (cérémonial, premium, culinaire), hojicha, poudres de thé au jasmin, oolong et earl grey, ube, crinière de lion et hibiscus — analysés en laboratoire et documentés.",
     "eyebrow": "Catalogue",
     "heading": "Matcha et superaliments en gros, vérifiés en origine.",
@@ -385,7 +386,7 @@
     "ctaButton": "Demander un devis de volume"
   },
   "contact": {
-    "metaTitle": "Demander un devis de volume",
+    "metaTitle": "Demander un Devis en Gros — Matcha & Superaliments",
     "metaDescription": "Dites-nous ce qu'il vous faut — produit, grade, volume et marché. Nous le sourçons, le vérifions et le documentons, et répondons avec un rapport de laboratoire et un devis sous 48 heures.",
     "eyebrow": "RFQ",
     "eyebrowSub": "Demander un devis",

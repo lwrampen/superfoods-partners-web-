@@ -218,6 +218,7 @@
   },
   "pdp": {
     "metaTitle": "{name}批發 — {origin},{country} | 批發供應商",
+    "metaDescription": "大宗批發 {name}，源自 {origin}、{country} 產地。每批經實驗室檢驗,附 COA 與 Verification Record。起訂量 25 公斤起至整櫃——歡迎索取報價。",
     "bulkSupplier": "{name}批發供應商",
     "requestQuote": "索取報價",
     "labReport": "48 小時內提供實驗室報告與報價",
@@ -274,7 +275,7 @@
     "verified": "源頭驗證 · 經香港轉運"
   },
   "catalog": {
-    "metaTitle": "產品目錄——抹茶與超級食物批發,源頭驗證",
+    "metaTitle": "抹茶與超級食物批發 — B2B 產品目錄",
     "metaDescription": "瀏覽 Superfoods Partners 的 B2B 產品目錄:抹茶(儀式級、premium、料理級)、焙茶、茉莉花茶、烏龍茶與伯爵茶粉、紫山藥、猴頭菇與洛神花——皆經實驗室檢測並記錄。",
     "eyebrow": "產品目錄",
     "heading": "抹茶與超級食物批發,源頭驗證。",
@@ -385,7 +386,7 @@
     "ctaButton": "索取大宗報價"
   },
   "contact": {
-    "metaTitle": "索取大宗報價",
+    "metaTitle": "索取批發報價 — 抹茶與超級食物",
     "metaDescription": "告訴我們您的需求——產品、等級、數量與市場。我們會採購、驗證並記錄,並在 48 小時內以實驗室報告與報價回覆。",
     "eyebrow": "詢價",
     "eyebrowSub": "索取報價",

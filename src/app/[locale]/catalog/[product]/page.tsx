@@ -32,7 +32,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "pdp" });
   return {
     title: t("metaTitle", { name: p.name, origin: origin.name, country: origin.country }),
-    description: `${p.tagline} ${p.description}`,
+    description: t("metaDescription", { name: p.name, origin: origin.name, country: origin.country }),
     alternates: alternatesFor(locale, `/catalog/${p.slug}`),
   };
 }
@@ -101,7 +101,24 @@ export default async function ProductPage({
       acceptedAnswer: { "@type": "Answer", text: f.a },
     })),
   };
-  const jsonLd = [breadcrumb, faqLd];
+  // Product schema — B2B/quote-based, so no price Offer (avoids invalid
+  // merchant-listing markup); brand, category and origins carry the signal.
+  const productLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: p.name,
+    description: p.description,
+    category: p.category,
+    image: `https://www.superfoodspartners.com${p.img}`,
+    url: localizedUrl(locale, `/catalog/${p.slug}`),
+    brand: { "@type": "Brand", name: "Superfoods Partners" },
+    countryOfOrigin: [...new Set(origins.map((o) => o.country).filter(Boolean))],
+    additionalProperty: [
+      { "@type": "PropertyValue", name: "MOQ", value: "25 kg" },
+      { "@type": "PropertyValue", name: "Certifications", value: certs },
+    ],
+  };
+  const jsonLd = [breadcrumb, productLd, faqLd];
 
   const lead = p.gallery?.[0];
   const strip = p.gallery?.slice(1) ?? [];

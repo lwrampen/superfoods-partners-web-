@@ -218,6 +218,7 @@
   },
   "pdp": {
     "metaTitle": "Bulk {name} — {origin}, {country} | wholesale supplier",
+    "metaDescription": "Wholesale {name} sourced at origin in {origin}, {country}. Lab-tested every batch with COA and Verification Record. MOQ from 25 kg to full container — request a quote.",
     "bulkSupplier": "Bulk {name} supplier",
     "requestQuote": "Request a quote",
     "labReport": "Lab report & quote within 48 h",
@@ -274,7 +275,7 @@
     "verified": "Verified at origin · routed via Hong Kong"
   },
   "catalog": {
-    "metaTitle": "Catalogue — bulk matcha & superfoods, verified at origin",
+    "metaTitle": "Bulk Matcha & Superfood Wholesale — B2B Catalogue",
     "metaDescription": "Browse Superfoods Partners' B2B catalogue: matcha (ceremonial, premium, culinary), hojicha, jasmine, oolong & earl grey tea powders, ube, lion's mane and hibiscus — lab-tested and documented.",
     "eyebrow": "Catalogue",
     "heading": "Bulk matcha & superfoods, verified at origin.",
@@ -385,7 +386,7 @@
     "ctaButton": "Request a volume quote"
   },
   "contact": {
-    "metaTitle": "Request a volume quote",
+    "metaTitle": "Request a Wholesale Quote — Matcha & Superfoods",
     "metaDescription": "Tell us what you need — product, grade, volume and market. We'll source, verify and document it, and reply with a lab report and quote within 48 hours.",
     "eyebrow": "RFQ",
     "eyebrowSub": "Request a quote",

@@ -218,6 +218,7 @@
   },
   "pdp": {
     "metaTitle": "{name} in Großmengen — {origin}, {country} | Großhandelslieferant",
+    "metaDescription": "{name} im Großhandel, direkt vom Ursprung in {origin}, {country}. Jede Charge laborgeprüft mit COA und Verification Record. MOQ ab 25 kg bis ganzer Container — Angebot anfordern.",
     "bulkSupplier": "{name} · Großhandelslieferant",
     "requestQuote": "Angebot anfragen",
     "labReport": "Laborbericht & Angebot innerhalb von 48 Std.",
@@ -274,7 +275,7 @@
     "verified": "Am Ursprung verifiziert · über Hongkong geleitet"
   },
   "catalog": {
-    "metaTitle": "Katalog — Matcha & Superfoods in großen Mengen, am Ursprung geprüft",
+    "metaTitle": "Matcha & Superfoods im Großhandel — B2B-Katalog",
     "metaDescription": "Durchsuchen Sie den B2B-Katalog von Superfoods Partners: Matcha (zeremoniell, Premium, kulinarisch), Hojicha, Jasmin-, Oolong- & Earl-Grey-Teepulver, Ube, Igelstachelbart und Hibiskus — laborgeprüft und dokumentiert.",
     "eyebrow": "Katalog",
     "heading": "Matcha & Superfoods in großen Mengen, am Ursprung geprüft.",
@@ -385,7 +386,7 @@
     "ctaButton": "Mengenangebot anfragen"
   },
   "contact": {
-    "metaTitle": "Mengenangebot anfragen",
+    "metaTitle": "Großhandelsangebot anfragen — Matcha & Superfoods",
     "metaDescription": "Sagen Sie uns, was Sie brauchen — Produkt, Grade, Menge und Markt. Wir beschaffen, prüfen und dokumentieren es und antworten innerhalb von 48 Stunden mit einem Laborbericht und einem Angebot.",
     "eyebrow": "RFQ",
     "eyebrowSub": "Angebot anfragen",
