@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
+import { POSTS } from "@/data/insights";
 import { routing } from "@/i18n/routing";
 import { localizedUrl } from "@/i18n/paths";
 
@@ -27,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/catalog", 0.8],
     ["/origins", 0.8],
     ["/verification", 0.8],
+    ["/insights", 0.7],
     ["/about", 0.8],
     ["/contact", 0.8],
   ];
@@ -34,5 +36,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticPaths.map(([p, pr]) => entry(p, pr)),
     ...PRODUCTS.map((p) => entry(`/catalog/${p.slug}`, 0.7)),
     ...ORIGIN_LIST.map((o) => entry(`/origins/${o.slug}`, 0.6)),
+    ...POSTS.map((p) => entry(`/insights/${p.slug}`, 0.6)),
   ];
 }

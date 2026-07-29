@@ -10,7 +10,8 @@
     "verification": "Verificación",
     "about": "Nosotros",
     "requestVolume": "Solicitar volumen",
-    "home": "Superfoods Partners — inicio"
+    "home": "Superfoods Partners — inicio",
+    "insights": "Análisis"
   },
   "footer": {
     "tagline": "Abastecimiento a escala. Confianza en origen.",
@@ -119,6 +120,23 @@
     "ctaHeading": "El origen es la historia.",
     "ctaBody": "Díganos qué necesita y a qué escala. Lo abasteceremos, verificaremos y documentaremos — y se lo enrutaremos a través de Hong Kong.",
     "ctaNote": "Envíe su especificación — informe de laboratorio y presupuesto en 48 horas"
+  },
+  "insights": {
+    "eyebrow": "Análisis",
+    "heading": "Análisis y guías de compra",
+    "intro": "Guías prácticas para abastecerse de matcha y superalimentos a escala — grados, precios, documentación y las preguntas que conviene hacer.",
+    "metaTitle": "Análisis y Guías — Abastecimiento de Matcha y Superalimentos",
+    "metaDescription": "Guías B2B prácticas para comprar matcha y superalimentos al por mayor: grados, precios, MOQ, certificaciones y know-how de abastecimiento de Superfoods Partners.",
+    "readTime": "{mins} min de lectura",
+    "by": "Por",
+    "updated": "Actualizado",
+    "keyFacts": "Datos clave",
+    "faqHeading": "Preguntas frecuentes",
+    "related": "Productos relacionados",
+    "crumbInsights": "Análisis",
+    "back": "← Todos los análisis",
+    "ctaHeading": "¿Abasteciendo esto a escala?",
+    "ctaButton": "Solicitar presupuesto"
   },
   "core": {
     "eyebrow": "Modelo central",

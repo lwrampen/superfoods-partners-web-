@@ -10,7 +10,8 @@
     "verification": "Vérification",
     "about": "À propos",
     "requestVolume": "Demander un volume",
-    "home": "Superfoods Partners — accueil"
+    "home": "Superfoods Partners — accueil",
+    "insights": "Analyses"
   },
   "footer": {
     "tagline": "Sourcé à grande échelle. De confiance en origine.",
@@ -119,6 +120,23 @@
     "ctaHeading": "La source, c'est l'histoire.",
     "ctaBody": "Dites-nous ce qu'il vous faut et à quelle échelle. Nous le sourçons, le vérifions et le documentons — et l'acheminons via Hong Kong jusqu'à vous.",
     "ctaNote": "Envoyez votre spécification — rapport de laboratoire et devis sous 48 heures"
+  },
+  "insights": {
+    "eyebrow": "Analyses",
+    "heading": "Analyses & guides d'achat",
+    "intro": "Des guides pratiques pour s'approvisionner en matcha et superaliments à grande échelle — grades, prix, documentation et les bonnes questions à poser.",
+    "metaTitle": "Analyses & Guides — Sourcing de Matcha & Superaliments",
+    "metaDescription": "Guides B2B pratiques pour acheter du matcha et des superaliments en gros : grades, prix, MOQ, certifications et savoir-faire de sourcing de Superfoods Partners.",
+    "readTime": "{mins} min de lecture",
+    "by": "Par",
+    "updated": "Mis à jour",
+    "keyFacts": "Points clés",
+    "faqHeading": "Questions fréquentes",
+    "related": "Produits associés",
+    "crumbInsights": "Analyses",
+    "back": "← Toutes les analyses",
+    "ctaHeading": "Vous sourcez cela à grande échelle ?",
+    "ctaButton": "Demander un devis"
   },
   "core": {
     "eyebrow": "Modèle central",

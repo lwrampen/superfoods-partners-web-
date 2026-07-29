@@ -10,7 +10,8 @@
     "verification": "驗證",
     "about": "關於我們",
     "requestVolume": "洽詢大宗批發",
-    "home": "Superfoods Partners — 首頁"
+    "home": "Superfoods Partners — 首頁",
+    "insights": "洞察"
   },
   "footer": {
     "tagline": "規模化採購，源頭可信賴。",
@@ -119,6 +120,23 @@
     "ctaHeading": "源頭就是故事本身。",
     "ctaBody": "告訴我們您的需求與規模。我們負責採購、驗證與記錄——並經香港為您轉運。",
     "ctaNote": "寄出您的規格——48 小時內提供實驗室報告與報價"
+  },
+  "insights": {
+    "eyebrow": "洞察",
+    "heading": "洞察與採購指南",
+    "intro": "規模化採購抹茶與超級食物的實用指南——等級、價格、文件，以及值得提出的問題。",
+    "metaTitle": "洞察與指南 — 抹茶與超級食物採購",
+    "metaDescription": "批發採購抹茶與超級食物的實用 B2B 指南：等級、價格、起訂量、認證與 Superfoods Partners 的採購知識。",
+    "readTime": "閱讀 {mins} 分鐘",
+    "by": "作者：",
+    "updated": "更新於",
+    "keyFacts": "重點摘要",
+    "faqHeading": "常見問題",
+    "related": "相關產品",
+    "crumbInsights": "洞察",
+    "back": "← 所有洞察",
+    "ctaHeading": "要規模化採購嗎？",
+    "ctaButton": "索取報價"
   },
   "core": {
     "eyebrow": "核心模式",

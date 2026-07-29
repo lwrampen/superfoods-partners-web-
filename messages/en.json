@@ -10,7 +10,8 @@
     "verification": "Verification",
     "about": "About",
     "requestVolume": "Request volume",
-    "home": "Superfoods Partners — home"
+    "home": "Superfoods Partners — home",
+    "insights": "Insights"
   },
   "footer": {
     "tagline": "Sourced at scale. Trusted at origin.",
@@ -119,6 +120,23 @@
     "ctaHeading": "The source is the story.",
     "ctaBody": "Tell us what you need and at what scale. We'll source, verify and document it — and route it through Hong Kong to you.",
     "ctaNote": "Send your spec — lab report & quote within 48 hours"
+  },
+  "insights": {
+    "eyebrow": "Insights",
+    "heading": "Insights & buyer's guides",
+    "intro": "Practical guides to sourcing matcha and superfoods at scale — grades, pricing, documentation and the questions worth asking.",
+    "metaTitle": "Insights & Guides — Matcha & Superfood Sourcing",
+    "metaDescription": "Practical B2B guides to buying matcha and superfoods wholesale: grades, pricing, MOQ, certifications and sourcing know-how from Superfoods Partners.",
+    "readTime": "{mins} min read",
+    "by": "By",
+    "updated": "Updated",
+    "keyFacts": "Key facts",
+    "faqHeading": "Frequently asked",
+    "related": "Related products",
+    "crumbInsights": "Insights",
+    "back": "← All insights",
+    "ctaHeading": "Sourcing this at scale?",
+    "ctaButton": "Request a quote"
   },
   "core": {
     "eyebrow": "Core model",

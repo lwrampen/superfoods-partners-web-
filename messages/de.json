@@ -10,7 +10,8 @@
     "verification": "Verifizierung",
     "about": "Über uns",
     "requestVolume": "Menge anfragen",
-    "home": "Superfoods Partners — Startseite"
+    "home": "Superfoods Partners — Startseite",
+    "insights": "Einblicke"
   },
   "footer": {
     "tagline": "Beschafft im großen Maßstab. Vertraut am Ursprung.",
@@ -119,6 +120,23 @@
     "ctaHeading": "Der Ursprung ist die Geschichte.",
     "ctaBody": "Sagen Sie uns, was Sie brauchen und in welchem Maßstab. Wir beschaffen, prüfen und dokumentieren es — und leiten es über Hongkong zu Ihnen.",
     "ctaNote": "Senden Sie Ihre Spezifikation — Laborbericht & Angebot innerhalb von 48 Stunden"
+  },
+  "insights": {
+    "eyebrow": "Einblicke",
+    "heading": "Einblicke & Einkaufsratgeber",
+    "intro": "Praktische Leitfäden zur Beschaffung von Matcha und Superfoods im großen Maßstab — Grade, Preise, Dokumentation und die richtigen Fragen.",
+    "metaTitle": "Einblicke & Ratgeber — Matcha- & Superfood-Beschaffung",
+    "metaDescription": "Praktische B2B-Leitfäden zum Großhandelseinkauf von Matcha und Superfoods: Grade, Preise, MOQ, Zertifikate und Beschaffungs-Know-how von Superfoods Partners.",
+    "readTime": "{mins} Min. Lesezeit",
+    "by": "Von",
+    "updated": "Aktualisiert",
+    "keyFacts": "Auf einen Blick",
+    "faqHeading": "Häufige Fragen",
+    "related": "Passende Produkte",
+    "crumbInsights": "Einblicke",
+    "back": "← Alle Einblicke",
+    "ctaHeading": "Das im großen Maßstab beschaffen?",
+    "ctaButton": "Angebot anfragen"
   },
   "core": {
     "eyebrow": "Kernmodell",

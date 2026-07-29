@@ -10,7 +10,8 @@
     "verification": "Weryfikacja",
     "about": "O nas",
     "requestVolume": "Zapytaj o ilości hurtowe",
-    "home": "Superfoods Partners — strona główna"
+    "home": "Superfoods Partners — strona główna",
+    "insights": "Analizy"
   },
   "footer": {
     "tagline": "Pozyskiwane na dużą skalę. Godne zaufania u źródła.",
@@ -119,6 +120,23 @@
     "ctaHeading": "Źródło to cała historia.",
     "ctaBody": "Powiedz nam, czego potrzebujesz i w jakiej skali. Pozyskamy to, zweryfikujemy i udokumentujemy — i dostarczymy przez Hongkong do Ciebie.",
     "ctaNote": "Wyślij specyfikację — raport z laboratorium i wycena w 48 godzin"
+  },
+  "insights": {
+    "eyebrow": "Analizy",
+    "heading": "Analizy i przewodniki zakupowe",
+    "intro": "Praktyczne przewodniki po zakupie matchy i superfoods na dużą skalę — gatunki, ceny, dokumentacja i pytania, które warto zadać.",
+    "metaTitle": "Analizy i Przewodniki — Sourcing Matchy i Superfoods",
+    "metaDescription": "Praktyczne przewodniki B2B po hurtowym zakupie matchy i superfoods: gatunki, ceny, MOQ, certyfikaty i wiedza sourcingowa od Superfoods Partners.",
+    "readTime": "{mins} min czytania",
+    "by": "Autor:",
+    "updated": "Zaktualizowano",
+    "keyFacts": "Najważniejsze fakty",
+    "faqHeading": "Najczęstsze pytania",
+    "related": "Powiązane produkty",
+    "crumbInsights": "Analizy",
+    "back": "← Wszystkie analizy",
+    "ctaHeading": "Kupujesz to na dużą skalę?",
+    "ctaButton": "Poproś o wycenę"
   },
   "core": {
     "eyebrow": "Model podstawowy",
