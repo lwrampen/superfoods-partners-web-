@@ -26,9 +26,20 @@ posts (a real buyer's-guide tone — specific, documented, never fluffy).
 - [ ] `hojicha-roasted-profile-caffeine` — Hojicha: roasted profile, low caffeine and where it fits.
 - [ ] `specialty-tea-powders-jasmine-oolong-earl-grey` — Jasmine, oolong & earl grey tea powders for manufacturers.
 
-## Queue — trust / personal (human voice, E-E-A-T + GEO)
+## People / team (human voice — builds trust, E-E-A-T + GEO)
 
-<!-- Populated once the format for "personal / trust" content is confirmed with Leonard. -->
+Posts about the people behind Superfoods Partners so buyers trust the humans,
+not just the process.
+
+**ON HOLD — do NOT write individual team profiles until Leonard provides each
+person's pronouns / form of address.** German, Spanish, French and Polish force
+a grammatical gender, so writing a profile blind risks misgendering a real
+person on the live site in six languages. The weekly Routine must SKIP these.
+
+- [ ] (blocked) `meet-wanjin-sourcing` — Profile: Wanjin, supply chain & sourcing.
+- [ ] (blocked) `meet-lucinda-quality-control` — Profile: Lucinda, quality control.
+- [ ] (blocked) `meet-fannie-sourcing` — Profile: Fannie, sourcing.
+- [ ] (blocked) `meet-candy-partnerships` — Profile: Candy, partnerships.
 
 ## Published
 
@@ -36,3 +47,4 @@ posts (a real buyer's-guide tone — specific, documented, never fluffy).
 - [x] `ceremonial-vs-premium-vs-culinary-matcha` (2026-07-29)
 - [x] `how-to-judge-matcha-quality` (2026-07-29)
 - [x] `choosing-a-matcha-origin` (2026-07-29)
+- [x] `the-people-behind-superfoods-partners` — collective team post (2026-07-30)
