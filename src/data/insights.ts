@@ -1023,12 +1023,20 @@ export const POSTS: InsightPost[] = [
         body: [
           E("Matcha has crossed fully into the mainstream: 823,000 monthly US searches for 'matcha', 135,000 for 'matcha powder' and 110,000 for 'matcha latte'. Functional mushrooms are close behind — 'lion's mane' pulls ~165,000 searches a month. Botanicals like hibiscus (135,000 for 'hibiscus tea') and roasted greens like hojicha (74,000) show the category runs well beyond a single hero ingredient."),
           E("The emerging edge is colour and novelty. 'Ube powder' and 'purple yam powder' each draw ~9,900 searches, 'ube flavor' 27,100, and 'natural food coloring' 22,200 — a signal that clean-label, natural-colour ingredients like ube are riding a real consumer pull, not a passing trend."),
+          E("And it is still climbing. US search interest in matcha rose roughly 89% in 2025 versus 2024, and ube about 16% (Google Trends) — the demand behind these numbers is building, not levelling off."),
         ],
       },
       {
         heading: E("What it means for brands and manufacturers"),
         body: [
           E("Demand this size means the question is no longer whether to carry matcha or a superfood powder, but how to source it reliably. That is where the market is thin: buyers routinely struggle with inconsistent colour and flavour batch to batch, unclear minimums, and missing documentation when auditors ask. The opportunity sits with supply that is single-origin, lab-tested and documented — where a consistent spec is guaranteed, not hoped for."),
+        ],
+      },
+      {
+        heading: E("The tencha squeeze — why matcha is getting expensive"),
+        body: [
+          E("Behind every tin of matcha is tencha, the shade-grown leaf it is milled from. Tencha has risen roughly 50–60% versus last year's harvest, according to Superfoods Partners' sourcing desk — a jump that flows straight through to finished matcha and is pushing consistent supply out of reach for many buyers."),
+          E("The driver is demand. Tencha farms set the price, and with global matcha demand up sharply year over year they are raising it, while harvest conditions add further swing. That is exactly why leaning on a single country is a risk — it leaves a buyer fully exposed to one harvest and one price. Working directly with farms, and sourcing across more than one origin, is how we build back some control over price and production rather than simply passing the increase on."),
         ],
       },
       {
@@ -1040,7 +1048,7 @@ export const POSTS: InsightPost[] = [
       {
         heading: E("Methodology"),
         body: [
-          E("Search-volume figures are Google Ads data via DataforSEO, United States market, retrieved July 2026, rounded. Sourcing standards reflect Superfoods Partners' operating practice as a B2B sourcing partner. Figures are indicative of demand and process, not a price quotation."),
+          E("Search-volume figures are Google Ads data via DataforSEO, United States market, retrieved July 2026, rounded. Year-over-year interest is Google Trends relative search interest (US, 2025 vs 2024 average) — an index of interest, not absolute volume. Tencha and matcha price movement is reported by Superfoods Partners' sourcing desk versus the prior harvest. Sourcing standards reflect Superfoods Partners' operating practice as a B2B sourcing partner. Figures are indicative of demand, trend and process — not a price quotation."),
         ],
       },
     ],
@@ -1048,8 +1056,9 @@ export const POSTS: InsightPost[] = [
       { label: E("Matcha"), value: E("~823,000 US searches / month") },
       { label: E("Lion's mane"), value: E("~165,000 / month") },
       { label: E("Ube flavor"), value: E("~27,100 / month") },
-      { label: E("Natural food colouring"), value: E("~22,200 / month") },
-      { label: E("Data"), value: E("DataforSEO · US · Jul 2026") },
+      { label: E("Tencha price"), value: E("+50–60% vs last harvest") },
+      { label: E("Matcha interest"), value: E("+89% YoY (2025 vs 2024)") },
+      { label: E("Data"), value: E("DataforSEO · Google Trends · US · 2026") },
     ],
     tables: [
       {
@@ -1073,6 +1082,16 @@ export const POSTS: InsightPost[] = [
           ["Matcha wholesale", "1,300", "High"],
         ],
         note: "Source: Google Ads via DataforSEO, US, July 2026 (rounded).",
+      },
+      {
+        title: "Demand & price trends, year over year",
+        columns: ["Signal", "Change", "Basis"],
+        rows: [
+          ["Matcha — search interest", "+89%", "2025 vs 2024, US (Google Trends)"],
+          ["Ube — search interest", "+16%", "2025 vs 2024, US (Google Trends)"],
+          ["Tencha — price", "+50–60%", "vs last year's harvest (SFP sourcing desk)"],
+        ],
+        note: "Search interest is a relative index (Google Trends), not absolute volume. Tencha price movement per Superfoods Partners' sourcing desk.",
       },
       {
         title: "B2B sourcing standards",
