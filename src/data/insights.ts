@@ -1016,13 +1016,13 @@ export const POSTS: InsightPost[] = [
     metaTitle: E("Matcha & Superfood Wholesale — 2026 Demand & Sourcing Report"),
     metaDescription: E("How much demand sits behind matcha, ube, lion's mane and hibiscus — and the sourcing standards (MOQ, lab testing, incoterms) behind supplying them at scale. Original 2026 data."),
     dek: E("What buyers are searching for across matcha and superfood powders — and the B2B sourcing standards behind meeting that demand. Original 2026 data from Superfoods Partners."),
-    lede: E("Consumer demand for matcha and superfood powders is large and still rising — matcha alone draws well over 800,000 US searches a month, with functional mushrooms and botanicals close behind — yet the wholesale side that supplies it, and the tencha price surge now reshaping it, stays largely opaque. This report looks at both: where demand is heading, and what is happening to supply."),
+    lede: E("Consumer demand for matcha and superfood powders is large and still rising — matcha alone draws over 3.3 million searches a month worldwide, with functional mushrooms and botanicals close behind — yet the wholesale side that supplies it, and the tencha price surge now reshaping it, stays largely opaque. This report looks at both: where demand is heading, and what is happening to supply."),
     sections: [
       {
         heading: E("Demand is broad, not niche"),
         body: [
-          E("Matcha has crossed fully into the mainstream — it now draws well over 800,000 US searches a month — and the category runs far beyond it, with functional mushrooms like lion's mane and botanicals like hibiscus each pulling six-figure monthly demand. Consumer appetite for these ingredients is broad and durable."),
-          E("It is also still climbing. US search interest in matcha rose roughly 89% in 2025 versus 2024, and ube — the clean-label natural purple moving from Filipino kitchens onto global menus — about 16% (Google Trends). Demand is building, not levelling off."),
+          E("Matcha has crossed fully into the mainstream — it now draws over 3.3 million searches a month worldwide — and the category runs far beyond it, with functional mushrooms like lion's mane and botanicals like hibiscus each pulling six-figure monthly demand. Consumer appetite for these ingredients is broad and durable."),
+          E("It is also still climbing. Worldwide search interest in matcha rose about 18% in 2026 versus 2025, and ube — the clean-label natural purple moving from Filipino kitchens onto global menus — about 63% (Google Trends). Demand is building, not levelling off."),
         ],
       },
       {
@@ -1047,24 +1047,24 @@ export const POSTS: InsightPost[] = [
       {
         heading: E("Methodology"),
         body: [
-          E("Demand figures are drawn from Google search data for the United States, 2026. Year-over-year interest is Google Trends relative search interest (US, 2025 versus 2024 average) — an index of interest, not absolute volume. Tencha and matcha price movement is reported by Superfoods Partners' sourcing desk versus the prior harvest. Sourcing standards reflect our operating practice as a B2B sourcing partner. Figures are indicative of demand, trend and process — not a price quotation."),
+          E("Demand figures are drawn from worldwide Google search data, 2026. Year-over-year interest is Google Trends relative search interest (worldwide, 2026 versus 2025, year to date) — an index of interest, not absolute volume. Tencha and matcha price movement is reported by Superfoods Partners' sourcing desk versus the prior harvest. Sourcing standards reflect our operating practice as a B2B sourcing partner. Figures are indicative of demand, trend and process — not a price quotation."),
         ],
       },
     ],
     keyFacts: [
-      { label: E("Matcha demand"), value: E("800,000+ US searches / month") },
-      { label: E("Matcha interest"), value: E("+89% YoY (2025 vs 2024)") },
+      { label: E("Matcha demand"), value: E("3.3M+ searches / month (worldwide)") },
+      { label: E("Matcha interest"), value: E("+18% YoY (2026 vs 2025)") },
       { label: E("Tencha price"), value: E("+80–90% vs last harvest") },
-      { label: E("Ube interest"), value: E("+16% YoY (2025 vs 2024)") },
-      { label: E("Source"), value: E("Google Trends · US · 2026") },
+      { label: E("Ube interest"), value: E("+63% YoY (2026 vs 2025)") },
+      { label: E("Source"), value: E("Google Trends · worldwide · 2026") },
     ],
     tables: [
       {
         title: "Demand & price trends, year over year",
         columns: ["Signal", "Change", "Basis"],
         rows: [
-          ["Matcha — search interest", "+89%", "2025 vs 2024, US (Google Trends)"],
-          ["Ube — search interest", "+16%", "2025 vs 2024, US (Google Trends)"],
+          ["Matcha — search interest", "+18%", "2026 vs 2025, worldwide (Google Trends)"],
+          ["Ube — search interest", "+63%", "2026 vs 2025, worldwide (Google Trends)"],
           ["Tencha — price", "+80–90%", "vs last year's harvest (SFP sourcing desk)"],
         ],
         note: "Search interest is a relative index (Google Trends), not absolute volume. Tencha price movement per Superfoods Partners' sourcing desk.",
@@ -1087,7 +1087,7 @@ export const POSTS: InsightPost[] = [
     faqs: [
       {
         q: E("Where does the demand data come from?"),
-        a: E("Demand figures are drawn from Google search data, including Google Trends, for the United States in 2026. Tencha and matcha price movement is reported by our own sourcing desk; sourcing standards reflect our operating practice."),
+        a: E("Demand figures are drawn from worldwide Google search data, including Google Trends, in 2026. Tencha and matcha price movement is reported by our own sourcing desk; sourcing standards reflect our operating practice."),
       },
       {
         q: E("Can I cite this report?"),
