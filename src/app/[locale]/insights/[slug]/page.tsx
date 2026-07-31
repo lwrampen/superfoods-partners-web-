@@ -139,6 +139,33 @@ export default async function InsightPost({
             </div>
           ) : null}
 
+          {post.tables?.map((tbl, ti) => (
+            <div key={ti} className="mt-14">
+              <h2 className="display text-2xl text-green md:text-3xl">{tbl.title}</h2>
+              <div className="mt-5 overflow-x-auto rounded-xl border border-stone/15">
+                <table className="w-full min-w-[520px] border-collapse text-sm">
+                  <thead>
+                    <tr>
+                      {tbl.columns.map((c, ci) => (
+                        <th key={ci} className="mono border-b border-stone/15 bg-sand px-4 py-3 text-left text-[10px] uppercase tracking-wide text-stone/60">{c}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {tbl.rows.map((row, ri) => (
+                      <tr key={ri}>
+                        {row.map((cell, ci) => (
+                          <td key={ci} className={`border-b border-stone/10 px-4 py-3 ${ci === 0 ? "text-green" : "text-stone tabular-nums"}`}>{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {tbl.note ? <p className="mono mt-3 text-[11px] uppercase tracking-wide text-stone/45">{tbl.note}</p> : null}
+            </div>
+          ))}
+
           {post.faqs?.length ? (
             <div className="mt-14">
               <h2 className="display text-2xl text-green md:text-3xl">{t("faqHeading")}</h2>

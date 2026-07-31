@@ -60,3 +60,4 @@ person on the live site in six languages. The weekly Routine must SKIP these.
 - [x] `the-people-behind-superfoods-partners` — collective team post (2026-07-30)
 - [x] `what-is-ube-powder` — Ube hub (2026-07-30)
 - [x] `ube-powder-bakery-rtd-ice-cream` — Ube hub (2026-07-30)
+- [x] `matcha-superfood-wholesale-demand-report-2026` — Data-PR report, EN-first (2026-07-30)

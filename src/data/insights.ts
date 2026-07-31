@@ -11,6 +11,8 @@ export type Loc = Record<string, string>;
 export type Section = { heading: Loc; body: Loc[] };
 export type Fact = { label: Loc; value: Loc };
 export type Faq = { q: Loc; a: Loc };
+// Data tables (e.g. for reports). Cells are language-neutral strings.
+export type DataTable = { title: string; columns: string[]; rows: string[][]; note?: string };
 
 export type InsightPost = {
   slug: string;
@@ -29,6 +31,7 @@ export type InsightPost = {
   lede: Loc; // opening answer paragraph (extractable for AI)
   sections: Section[];
   keyFacts?: Fact[];
+  tables?: DataTable[]; // optional data tables (reports)
   faqs?: Faq[];
   relatedProducts?: string[]; // product slugs
 };
@@ -51,6 +54,10 @@ const L = (en: string, de: string, es: string, fr: string, pl: string, zh: strin
   pl,
   "zh-Hant": zh,
 });
+
+// English-first helper: content that ships in English now and localizes later.
+// pick() falls back to English on every other locale.
+const E = (en: string): Loc => ({ en });
 
 export const POSTS: InsightPost[] = [
   {
@@ -994,5 +1001,104 @@ export const POSTS: InsightPost[] = [
       },
     ],
     relatedProducts: ["ube"],
+  },
+
+  {
+    slug: "matcha-superfood-wholesale-demand-report-2026",
+    date: "2026-07-30",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/photos/hero-shade-nets.jpg",
+    heroAlt: E("Shade-grown tea gardens — the origin of matcha supply"),
+    category: E("Report"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("Matcha & superfood wholesale: the 2026 demand & sourcing report"),
+    metaTitle: E("Matcha & Superfood Wholesale — 2026 Demand & Sourcing Report"),
+    metaDescription: E("How much demand sits behind matcha, ube, lion's mane and hibiscus — and the sourcing standards (MOQ, lab testing, incoterms) behind supplying them at scale. Original 2026 data."),
+    dek: E("What buyers are searching for across matcha and superfood powders — and the B2B sourcing standards behind meeting that demand. Original 2026 data from Superfoods Partners."),
+    lede: E("Consumer demand for matcha and superfood powders is large and still rising — matcha alone draws around 823,000 US searches a month, lion's mane about 165,000 and hibiscus tea about 135,000 — yet the wholesale side that supplies it (minimum orders, lab testing, incoterms) stays largely opaque. This report maps both: what the market is asking for, and what it takes to supply it at scale."),
+    sections: [
+      {
+        heading: E("Demand is broad, not niche"),
+        body: [
+          E("Matcha has crossed fully into the mainstream: 823,000 monthly US searches for 'matcha', 135,000 for 'matcha powder' and 110,000 for 'matcha latte'. Functional mushrooms are close behind — 'lion's mane' pulls ~165,000 searches a month. Botanicals like hibiscus (135,000 for 'hibiscus tea') and roasted greens like hojicha (74,000) show the category runs well beyond a single hero ingredient."),
+          E("The emerging edge is colour and novelty. 'Ube powder' and 'purple yam powder' each draw ~9,900 searches, 'ube flavor' 27,100, and 'natural food coloring' 22,200 — a signal that clean-label, natural-colour ingredients like ube are riding a real consumer pull, not a passing trend."),
+        ],
+      },
+      {
+        heading: E("What it means for brands and manufacturers"),
+        body: [
+          E("Demand this size means the question is no longer whether to carry matcha or a superfood powder, but how to source it reliably. That is where the market is thin: buyers routinely struggle with inconsistent colour and flavour batch to batch, unclear minimums, and missing documentation when auditors ask. The opportunity sits with supply that is single-origin, lab-tested and documented — where a consistent spec is guaranteed, not hoped for."),
+        ],
+      },
+      {
+        heading: E("The sourcing standards behind supply"),
+        body: [
+          E("Meeting that demand at scale runs on a few concrete standards. Orders typically start at 25 kg and run to a full container, with samples first so buyers approve the material before committing. Lead times run 2–4 weeks, routed through a single hub, on FOB, CIF or DDP terms. And every batch should carry a full lab panel and documentation — the difference between a good sample and a supply you can build a product line on."),
+        ],
+      },
+      {
+        heading: E("Methodology"),
+        body: [
+          E("Search-volume figures are Google Ads data via DataforSEO, United States market, retrieved July 2026, rounded. Sourcing standards reflect Superfoods Partners' operating practice as a B2B sourcing partner. Figures are indicative of demand and process, not a price quotation."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Matcha"), value: E("~823,000 US searches / month") },
+      { label: E("Lion's mane"), value: E("~165,000 / month") },
+      { label: E("Ube flavor"), value: E("~27,100 / month") },
+      { label: E("Natural food colouring"), value: E("~22,200 / month") },
+      { label: E("Data"), value: E("DataforSEO · US · Jul 2026") },
+    ],
+    tables: [
+      {
+        title: "US search demand, 2026",
+        columns: ["Search term", "Monthly US searches", "Competition"],
+        rows: [
+          ["Matcha", "823,000", "High"],
+          ["Lion's mane", "165,000", "High"],
+          ["Matcha powder", "135,000", "High"],
+          ["Hibiscus tea", "135,000", "High"],
+          ["Matcha latte", "110,000", "Medium"],
+          ["Hojicha", "74,000", "Medium"],
+          ["Earl grey tea", "74,000", "High"],
+          ["Natural food colouring", "22,200", "High"],
+          ["Ceremonial matcha", "14,800", "High"],
+          ["Ube powder / purple yam powder", "9,900 each", "High"],
+          ["Hojicha powder", "9,900", "High"],
+          ["Lion's mane powder", "4,400", "High"],
+          ["Superfood powder", "4,400", "High"],
+          ["Hibiscus powder", "1,900", "High"],
+          ["Matcha wholesale", "1,300", "High"],
+        ],
+        note: "Source: Google Ads via DataforSEO, US, July 2026 (rounded).",
+      },
+      {
+        title: "B2B sourcing standards",
+        columns: ["Parameter", "Standard"],
+        rows: [
+          ["Minimum order (MOQ)", "From 25 kg to a full container"],
+          ["Lead time", "2–4 weeks, routed via Hong Kong"],
+          ["Incoterms", "FOB / CIF / DDP"],
+          ["Lab testing (every batch)", "Pesticide residue, heavy metals, microbiology, radiation"],
+          ["Certifications", "JAS, EU & USDA Organic; HACCP; FSSC 22000"],
+          ["Documentation", "Certificate of Analysis + Verification Record per batch"],
+          ["Sampling", "Samples before bulk — approve material before scaling"],
+        ],
+        note: "Superfoods Partners operating standards, 2026.",
+      },
+    ],
+    faqs: [
+      {
+        q: E("Where does the demand data come from?"),
+        a: E("Search-volume figures are Google Ads data accessed via DataforSEO for the United States market in July 2026, rounded. Sourcing standards reflect Superfoods Partners' operating practice."),
+      },
+      {
+        q: E("Can I cite this report?"),
+        a: E("Yes — please do. Journalists, analysts and buyers are welcome to cite these figures with attribution to Superfoods Partners and a link to this page. For the underlying detail or a comment, contact us."),
+      },
+    ],
+    relatedProducts: ["matcha", "ube", "lions-mane"],
   },
 ];
