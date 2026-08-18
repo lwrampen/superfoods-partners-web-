@@ -235,8 +235,8 @@
     "aria": "Where Superfoods Partners sources, routed through Hong Kong"
   },
   "pdp": {
-    "metaTitle": "Bulk {name} — {origin}, {country} | wholesale supplier",
-    "metaDescription": "Wholesale {name} sourced at origin in {origin}, {country}. Lab-tested every batch with COA and Verification Record. MOQ from 25 kg to full container — request a quote.",
+    "metaTitle": "Bulk {name} Powder — {place} | Wholesale Supplier",
+    "metaDescription": "Wholesale {name} powder sourced at origin in {place}. Lab-tested every batch with COA and Verification Record. MOQ from 25 kg to full container — request a quote.",
     "bulkSupplier": "Bulk {name} supplier",
     "requestQuote": "Request a quote",
     "labReport": "Lab report & quote within 48 h",

@@ -28,11 +28,16 @@ export async function generateMetadata({
   const base = getProduct(product);
   if (!base) return {};
   const p = localizeProduct(base, locale);
-  const origin = localizeOrigin(ORIGINS[p.originSlugs[0]], locale);
+  const baseOrigin = ORIGINS[p.originSlugs[0]];
+  const origin = localizeOrigin(baseOrigin, locale);
+  // Country-level origins (name == country in the base data, e.g. Philippines,
+  // China) collapse to just the localized country, so the title reads
+  // "Philippines" / "Chine" — never "Philippines, Philippines" or "China, Chine".
+  const place = baseOrigin.name === baseOrigin.country ? origin.country : `${origin.name}, ${origin.country}`;
   const t = await getTranslations({ locale, namespace: "pdp" });
   return {
-    title: t("metaTitle", { name: p.name, origin: origin.name, country: origin.country }),
-    description: t("metaDescription", { name: p.name, origin: origin.name, country: origin.country }),
+    title: t("metaTitle", { name: p.name, place }),
+    description: t("metaDescription", { name: p.name, place }),
     alternates: alternatesFor(locale, `/catalog/${p.slug}`),
   };
 }

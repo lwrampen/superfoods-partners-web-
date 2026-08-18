@@ -235,8 +235,8 @@
     "aria": "Superfoods Partners 的採購地,經香港轉運"
   },
   "pdp": {
-    "metaTitle": "{name}批發 — {origin},{country} | 批發供應商",
-    "metaDescription": "大宗批發 {name}，源自 {origin}、{country} 產地。每批經實驗室檢驗,附 COA 與 Verification Record。起訂量 25 公斤起至整櫃——歡迎索取報價。",
+    "metaTitle": "{name}粉批發 — {place} | 批發供應商",
+    "metaDescription": "大宗批發 {name}粉，源自 {place} 產地。每批經實驗室檢驗,附 COA 與 Verification Record。起訂量 25 公斤起至整櫃——歡迎索取報價。",
     "bulkSupplier": "{name}批發供應商",
     "requestQuote": "索取報價",
     "labReport": "48 小時內提供實驗室報告與報價",
