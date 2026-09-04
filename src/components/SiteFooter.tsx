@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
+import { ENTITIES } from "@/data/entities";
 
 // Group origins by country so the footer stays scannable while still exposing
 // a direct crawl link to every origin page.
@@ -67,8 +68,34 @@ export function SiteFooter() {
           </div>
         </div>
       </div>
+      {/* Registered operating entities — every company is Superfoods Partners */}
       <div className="border-t border-oat/10">
-        <p className="mx-auto max-w-6xl px-6 py-5 text-[11px] text-oat/50">{t("copyright")}</p>
+        <div className="mx-auto max-w-6xl px-6 py-8">
+          <span className="mono text-[10px] uppercase tracking-wide text-oat/40">{t("entities")}</span>
+          <div className="mt-3 grid gap-6 sm:grid-cols-3">
+            {ENTITIES.map((e) => (
+              <div key={e.code}>
+                <p className="text-sm text-oat">{e.name}</p>
+                <p className="mono mt-1 text-[11px] leading-relaxed text-oat/50">
+                  {e.address.join(", ")}, {e.country}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="border-t border-oat/10">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-5 text-[11px] text-oat/50 sm:flex-row sm:items-center sm:justify-between">
+          <p>{t("copyright")}</p>
+          <a
+            href="https://www.purematchapartners.com"
+            target="_blank"
+            rel="noopener"
+            className="mono uppercase tracking-wide hover:text-oat"
+          >
+            Pure Matcha Partners — a Superfoods Partners brand ↗
+          </a>
+        </div>
       </div>
     </footer>
   );

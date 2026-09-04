@@ -25,7 +25,8 @@
     "contact": "Contacto",
     "hongKongHub": "Hub de Hong Kong",
     "requestQuote": "Solicitar presupuesto →",
-    "copyright": "© 2026 Superfoods Partners B.V."
+    "copyright": "© 2026 Superfoods Partners B.V.",
+    "entities": "Entidades registradas"
   },
   "countries": {
     "Japan": "Japón",
@@ -103,7 +104,7 @@
     "hkCoords": "22.32°N 114.17°E — donde convergen todos los orígenes",
     "hkHeading": "Un solo hub, para que la confianza no se disperse.",
     "hkBody1": "Los orígenes de Asia se encuentran con el mundo aquí. Desde un único hub aduanero consolidamos, analizamos y documentamos cada envío — para que trabaje con un solo socio que conoce su especificación, y no con una docena de intermediarios que no la conocen.",
-    "hkBody2": "Y hay personas detrás: un equipo al que puede llamar, en su zona horaria, que de verdad contesta. Parte de la familia Pure Matcha Partners.",
+    "hkBody2": "Y hay personas detrás: un equipo al que puedes llamar, en tu zona horaria, que de verdad contesta. Pure Matcha Partners es nuestra marca especialista en matcha.",
     "hkExpertsLabel": "Conozca al equipo",
     "hkCaption": "COSECHA DE CAMPO COMPLETO — MOVIDA A ESCALA",
     "socialMarker": "Confían en nosotros",
@@ -188,16 +189,19 @@
   },
   "about": {
     "metaTitle": "Nosotros — el socio de abastecimiento de superalimentos de confianza",
-    "metaDescription": "Superfoods Partners es el brazo de abastecimiento con base en Hong Kong de la familia Pure Matcha Partners. No aspiramos a ser el mayor proveedor — aspiramos a ser el más fiable.",
+    "metaDescription": "Superfoods Partners es un proveedor neerlandés de superalimentos en polvo de origen único, con presencia en Hong Kong, los Países Bajos y Estados Unidos. Pure Matcha Partners es nuestra marca especialista en matcha.",
     "eyebrow": "Nosotros",
     "eyebrowSub": "Quiénes somos",
     "heroHeading": "El origen es la historia.",
-    "heroBody1": "Superfoods Partners es el motor de abastecimiento de la familia Pure Matcha Partners. Compramos directamente a las fincas que cultivan los mejores superalimentos del mundo y movemos grandes volúmenes verificados a los mayores fabricantes — enrutados, cuando conviene, a través de nuestro hub en Hong Kong.",
+    "heroBody1": "Superfoods Partners es el paraguas de nuestro grupo: una cartera compartida de superalimentos en polvo de origen único, con entidades operativas en Hong Kong, los Países Bajos y Estados Unidos. Compramos directamente en la finca y movemos grandes volúmenes verificados a fabricantes, marcas y private label.",
     "heroBody2": "No aspiramos a ser el mayor proveedor. Aspiramos a ser aquel por el que nunca tenga que preocuparse.",
     "heroCaption": "UN CULTIVADOR EN LOS JARDINES EN COSECHA",
     "hkCaption": "COSECHA DE CAMPO COMPLETO — MOVIDA A ESCALA",
     "ctaHeading": "Mueva volúmenes en los que pueda confiar.",
-    "ctaButton": "Solicitar presupuesto por volumen"
+    "ctaButton": "Solicitar presupuesto por volumen",
+    "groupEyebrow": "El grupo",
+    "groupHeading": "Un nombre, tres ubicaciones.",
+    "groupBody": "Cada empresa es Superfoods Partners: un paraguas con entidades operativas en Hong Kong, los Países Bajos y Estados Unidos. Las marcas comerciales están por debajo y son compartidas por todas; Pure Matcha Partners es hoy nuestra marca especialista en matcha."
   },
   "team": {
     "eyebrow": "El equipo",
