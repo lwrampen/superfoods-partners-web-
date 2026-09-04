@@ -6,7 +6,7 @@ import { CountUp } from "@/components/CountUp";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
-import { SourcingMap } from "@/components/SourcingMap";
+import { LocationsMap } from "@/components/LocationsMap";
 import { Certifications } from "@/components/Certifications";
 import { ExpertsCluster } from "@/components/ExpertsCluster";
 import { Link } from "@/i18n/navigation";
@@ -164,8 +164,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
 
-        {/* WHERE WE SOURCE */}
-        <section className="bg-sand">
+        {/* THE NETWORK — locations */}
+        <section id="network" className="bg-sand scroll-mt-20">
           <div className="mx-auto max-w-6xl px-6 py-20 md:py-24">
             <Reveal className="mb-10 max-w-xl">
               <p className="mono text-xs uppercase tracking-widest text-amber">{t("sourceEyebrow")}</p>
@@ -173,7 +173,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <p className="mt-4 text-stone">{t("sourceBody")}</p>
             </Reveal>
             <Reveal delay={0.1}>
-              <SourcingMap />
+              <LocationsMap />
             </Reveal>
           </div>
         </section>

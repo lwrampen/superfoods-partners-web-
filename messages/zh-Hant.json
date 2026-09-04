@@ -66,9 +66,9 @@
       }
     ],
     "peopleCaption": "採收時節茶園中的茶農",
-    "sourceEyebrow": "我們的採購地",
-    "sourceHeading": "每一個產地，一個樞紐。",
-    "sourceBody": "我們在源頭採購——遍及亞洲及更遠之處——再讓每一批次都經由香港樞紐轉運。追蹤流向。",
+    "sourceEyebrow": "網絡",
+    "sourceHeading": "一個名字,三處據點。",
+    "sourceBody": "每一家公司都是 Superfoods Partners——一個母體,並在香港、荷蘭與美國設有營運公司。點選任一據點即可聚焦該辦公室;商業品牌位於其下,由所有公司共用。",
     "traceMarker": "追溯批次",
     "traceHeading": "清楚看見您買的是什麼。",
     "traceBody": "選一款產品，跟著它從產地一路到您的廠房。每一批次都附上完整的 Verification Record™——正是我們若身為買方也會要求的檢驗。沒有隱瞞，無須追問。",
@@ -439,5 +439,10 @@
     "successHeading": "我們收到了。",
     "successBody": "謝謝——我們會以實驗室報告與報價回覆您,通常在 48 小時內。請留意您的收件匣。",
     "errorText": "傳送您的需求時發生錯誤。請直接來信至"
+  },
+  "locationsMap": {
+    "role": "營運公司",
+    "local": "當地時間",
+    "aria": "我們三家營運公司的世界地圖"
   }
 }

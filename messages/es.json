@@ -66,9 +66,9 @@
       }
     ],
     "peopleCaption": "UN CULTIVADOR EN LOS JARDINES EN COSECHA",
-    "sourceEyebrow": "Dónde nos abastecemos",
-    "sourceHeading": "Cada origen, un solo hub.",
-    "sourceBody": "Compramos en el origen — por toda Asia y más allá — y luego enrutamos cada lote a través de nuestro hub en Hong Kong. Siga los flujos.",
+    "sourceEyebrow": "La red",
+    "sourceHeading": "Un nombre, tres ubicaciones.",
+    "sourceBody": "Cada empresa es Superfoods Partners — un paraguas con entidades operativas en Hong Kong, los Países Bajos y Estados Unidos. Toca una ubicación para enfocar la oficina; las marcas comerciales están por debajo y son compartidas por todas.",
     "traceMarker": "Rastrear un lote",
     "traceHeading": "Vea exactamente lo que está comprando.",
     "traceBody": "Elija un producto y sígalo desde el origen hasta su planta. Cada lote llega con un Verification Record completo — los mismos controles que querríamos si fuéramos nosotros quienes compramos. Nada oculto, nada que perseguir.",
@@ -439,5 +439,10 @@
     "successHeading": "Lo hemos recibido.",
     "successBody": "Gracias — le responderemos con un informe de laboratorio y un presupuesto, normalmente en un plazo de 48 horas. Revise su bandeja de entrada.",
     "errorText": "Algo salió mal al enviar su solicitud. Escríbanos directamente a"
+  },
+  "locationsMap": {
+    "role": "Entidad operativa",
+    "local": "hora local",
+    "aria": "Mapa mundial de nuestras tres entidades operativas"
   }
 }

@@ -7,6 +7,10 @@ export type Entity = {
   city: string;
   country: string;
   address: string[]; // street lines, without city/country
+  lat: number;
+  lon: number;
+  coords: string; // display form
+  tz: string; // IANA timezone for the live local clock
 };
 
 export const ENTITIES: Entity[] = [
@@ -20,6 +24,10 @@ export const ENTITIES: Entity[] = [
       "9 Sheung Yuet Road",
       "Kowloon Bay",
     ],
+    lat: 22.32,
+    lon: 114.17,
+    coords: "22.32°N 114.17°E",
+    tz: "Asia/Hong_Kong",
   },
   {
     code: "NL",
@@ -27,6 +35,10 @@ export const ENTITIES: Entity[] = [
     city: "Amsterdam",
     country: "The Netherlands",
     address: ["Generaal Vetterstraat 85C", "1059 BT Amsterdam"],
+    lat: 52.37,
+    lon: 4.9,
+    coords: "52.37°N 4.90°E",
+    tz: "Europe/Amsterdam",
   },
   {
     code: "US",
@@ -34,5 +46,9 @@ export const ENTITIES: Entity[] = [
     city: "Salt Lake City",
     country: "United States",
     address: ["1375 Industrial Road", "Salt Lake City, UT 84104"],
+    lat: 40.76,
+    lon: -111.89,
+    coords: "40.76°N 111.89°W",
+    tz: "America/Denver",
   },
 ];

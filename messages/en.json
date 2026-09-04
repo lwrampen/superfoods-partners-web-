@@ -66,9 +66,9 @@
       }
     ],
     "peopleCaption": "A GROWER IN THE GARDENS AT HARVEST",
-    "sourceEyebrow": "Where we source",
-    "sourceHeading": "Every origin, one hub.",
-    "sourceBody": "We buy at the source — across Asia and beyond — then route every batch through our hub in Hong Kong. Follow the flows.",
+    "sourceEyebrow": "The network",
+    "sourceHeading": "One name, three locations.",
+    "sourceBody": "Every company is Superfoods Partners — one umbrella with local operating entities in Hong Kong, the Netherlands and the United States. Tap a location to focus the office; the commercial labels sit underneath and are shared across all of them.",
     "traceMarker": "Trace a batch",
     "traceHeading": "See exactly what you're buying.",
     "traceBody": "Pick a product and follow it from origin to your facility. Every batch arrives with a full Verification Record — the same checks we'd want if we were the ones buying. Nothing hidden, nothing to chase down.",
@@ -439,5 +439,10 @@
     "successHeading": "We've got it.",
     "successBody": "Thanks — we'll come back with a lab report and a quote, usually within 48 hours. Check your inbox.",
     "errorText": "Something went wrong sending your request. Please email us directly at"
+  },
+  "locationsMap": {
+    "role": "Operating entity",
+    "local": "local",
+    "aria": "World map of our three operating entities"
   }
 }

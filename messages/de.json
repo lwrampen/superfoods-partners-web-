@@ -66,9 +66,9 @@
       }
     ],
     "peopleCaption": "EIN ERZEUGER IN DEN GÄRTEN ZUR ERNTE",
-    "sourceEyebrow": "Wo wir beschaffen",
-    "sourceHeading": "Jeder Ursprung, ein Hub.",
-    "sourceBody": "Wir kaufen an der Quelle — in ganz Asien und darüber hinaus — und leiten dann jede Charge über unseren Hub in Hongkong. Folgen Sie den Warenströmen.",
+    "sourceEyebrow": "Das Netzwerk",
+    "sourceHeading": "Ein Name, drei Standorte.",
+    "sourceBody": "Jedes Unternehmen ist Superfoods Partners — ein Dach mit operativen Gesellschaften in Hongkong, den Niederlanden und den USA. Tippen Sie auf einen Standort, um das Büro zu fokussieren; die kommerziellen Labels liegen darunter und werden von allen gemeinsam genutzt.",
     "traceMarker": "Charge verfolgen",
     "traceHeading": "Sehen Sie genau, was Sie kaufen.",
     "traceBody": "Wählen Sie ein Produkt und verfolgen Sie es vom Ursprung bis zu Ihrem Standort. Jede Charge kommt mit einem vollständigen Verification Record — dieselben Prüfungen, die wir uns wünschen würden, wenn wir selbst einkauften. Nichts versteckt, nichts, dem man hinterherlaufen muss.",
@@ -439,5 +439,10 @@
     "successHeading": "Wir haben es erhalten.",
     "successBody": "Danke — wir melden uns mit einem Laborbericht und einem Angebot zurück, in der Regel innerhalb von 48 Stunden. Prüfen Sie Ihren Posteingang.",
     "errorText": "Beim Senden Ihrer Anfrage ist etwas schiefgegangen. Bitte schreiben Sie uns direkt an"
+  },
+  "locationsMap": {
+    "role": "Operative Gesellschaft",
+    "local": "Ortszeit",
+    "aria": "Weltkarte unserer drei operativen Gesellschaften"
   }
 }

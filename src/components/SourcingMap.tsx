@@ -48,7 +48,7 @@ function parseCoord(s: string): [number, number] {
 }
 
 const COUNTRY_COLOR: Record<string, string> = {
-  JP: "#1B5E3F", CN: "#C58A2A", PH: "#7E3FB0", EG: "#B0324E",
+  JP: "#1C4B0C", CN: "#9A6B24", PH: "#5A338C", EG: "#AE1D49",
 };
 
 type Node = { key: string; label: string; x: number; y: number; c: string };
@@ -126,7 +126,7 @@ export function SourcingMap({ productSlug, originSlug }: { productSlug?: string;
       {/* hand-drawn land */}
       <g clipPath="url(#frame)">
         <g filter="url(#sketch)">
-          <path d={LAND_PATH} fill="#E7E2D6" stroke="#b9b2a1" strokeWidth={0.22} strokeLinejoin="round" />
+          <path d={LAND_PATH} fill="#E4E6DD" stroke="#C9CCBF" strokeWidth={0.22} strokeLinejoin="round" />
         </g>
       </g>
 
@@ -147,21 +147,21 @@ export function SourcingMap({ productSlug, originSlug }: { productSlug?: string;
       {/* country labels — all sourcing countries; Philippines sits below its dot to clear the hub */}
       {showLabels && nodes.map((l) => (
         <text key={`lbl-${l.key}`} x={l.x} y={l.y + (l.key === "PH" ? 4.6 : -2.6)} textAnchor="middle"
-          style={{ fontFamily: "var(--font-mono), monospace", fontSize: 2.4, letterSpacing: 0.25, textTransform: "uppercase", fill: "#5A5E53" }}>
+          style={{ fontFamily: "var(--font-mono), monospace", fontSize: 2.4, letterSpacing: 0.25, textTransform: "uppercase", fill: "#565B4E" }}>
           {l.label}
         </text>
       ))}
 
       {/* Hong Kong hub */}
       {!reduce && (
-        <circle cx={HUB[0]} cy={HUB[1]} r={2.2} fill="none" stroke="#E0A23E" strokeWidth={0.45}>
+        <circle cx={HUB[0]} cy={HUB[1]} r={2.2} fill="none" stroke="#8CC541" strokeWidth={0.45}>
           <animate attributeName="r" values="2.2;6.5" dur="3.8s" repeatCount="indefinite" />
           <animate attributeName="opacity" values="0.55;0" dur="3.8s" repeatCount="indefinite" />
         </circle>
       )}
-      <circle cx={HUB[0]} cy={HUB[1]} r={2} fill="#E0A23E" />
+      <circle cx={HUB[0]} cy={HUB[1]} r={2} fill="#8CC541" />
       <text x={HUB[0]} y={HUB[1] + 6.8} textAnchor="middle"
-        style={{ fontFamily: "var(--font-mono), monospace", fontSize: 2.7, letterSpacing: 0.35, fill: "#14271B" }}>
+        style={{ fontFamily: "var(--font-mono), monospace", fontSize: 2.7, letterSpacing: 0.35, fill: "#16240F" }}>
         HONG KONG HUB
       </text>
     </svg>

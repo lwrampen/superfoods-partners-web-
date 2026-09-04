@@ -66,9 +66,9 @@
       }
     ],
     "peopleCaption": "PLANTATOR W OGRODACH W CZASIE ZBIORÓW",
-    "sourceEyebrow": "Skąd pozyskujemy",
-    "sourceHeading": "Każde źródło, jeden hub.",
-    "sourceBody": "Kupujemy u źródła — w całej Azji i poza nią — a następnie przeprowadzamy każdą partię przez nasz hub w Hongkongu. Śledź przepływy.",
+    "sourceEyebrow": "Sieć",
+    "sourceHeading": "Jedna nazwa, trzy lokalizacje.",
+    "sourceBody": "Każda spółka to Superfoods Partners — podmiot nadrzędny ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Dotknij lokalizacji, aby przybliżyć biuro; marki handlowe znajdują się poniżej i są wspólne dla wszystkich.",
     "traceMarker": "Prześledź partię",
     "traceHeading": "Zobacz dokładnie, co kupujesz.",
     "traceBody": "Wybierz produkt i śledź go od źródła do swojego zakładu. Każda partia dociera z pełnym Verification Record™ — tymi samymi kontrolami, których oczekiwalibyśmy, gdybyśmy to my kupowali. Nic ukrytego, niczego nie trzeba dopytywać.",
@@ -439,5 +439,10 @@
     "successHeading": "Mamy to.",
     "successBody": "Dziękujemy — wrócimy z raportem z laboratorium i wyceną, zwykle w ciągu 48 godzin. Sprawdź swoją skrzynkę.",
     "errorText": "Coś poszło nie tak przy wysyłaniu zapytania. Napisz do nas bezpośrednio na"
+  },
+  "locationsMap": {
+    "role": "Podmiot operacyjny",
+    "local": "czas lok.",
+    "aria": "Mapa świata z trzema spółkami operacyjnymi"
   }
 }
