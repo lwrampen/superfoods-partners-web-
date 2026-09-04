@@ -1,28 +1,31 @@
 @import "tailwindcss";
 
 @theme {
-  --color-oat: #f0ece2;
-  --color-sand: #e7e2d6;
-  --color-green: #1e3d2a;
-  --color-forest: #14271b;
-  --color-stone: #5a5e53;
-  --color-amber: #e0a23e;
+  /* — Brand Guidelines v4.0. "Forest holds the brand. Colour belongs to the range." —
+     Frame = forest / white / off-white; lime is the only accent.
+     Token names kept from v2 for back-compat; values remapped to v4.            */
+  --color-forest: #16240f;  /* anchor: koppen, tekst op licht, donkere vlakken */
+  --color-green: #16240f;   /* alias van forest (back-compat)                   */
+  --color-offwhite: #f6f6f3;
+  --color-white: #ffffff;
+  --color-oat: #f6f6f3;     /* was canvas oat → v4 off-white (back-compat)      */
+  --color-sand: #eceae2;    /* subtiele card/section-tint                       */
+  --color-stone: #565b4e;   /* muted green-grey — secundaire tekst              */
+  --color-lime: #8cc541;    /* v4 accent                                        */
+  --color-amber: #8cc541;   /* DEPRECATED alias → lime (oude .*-amber klassen)  */
 
-  /* Product palette — tints synced to Brandbook v2.0 (tokens.json) */
-  --color-matcha: #1b5e3f;
-  --color-matcha-tint: #8fd3a8;
-  --color-ube: #7e3fb0;
-  --color-ube-tint: #d9b8ee;
-  --color-lionsmane: #c58a2a;
-  --color-lionsmane-tint: #f4dcac;
-  --color-hojicha: #6b3a1e;
-  --color-hojicha-tint: #d9b199;
-  --color-hibiscus: #b0324e;
-  --color-hibiscus-tint: #eeaeba;
+  /* Range-kleuren (alleen waar een product benoemd wordt) — v4 + afgeleide tints */
+  --color-matcha: #1c4b0c;      --color-matcha-tint: #8fcba0;
+  --color-hojicha: #b24a18;     --color-hojicha-tint: #e9b48f;
+  --color-hibiscus: #ae1d49;    --color-hibiscus-tint: #e7a6bc;
+  --color-ube: #5a338c;         --color-ube-tint: #c6a9e4;
+  --color-lionsmane: #9a6b24;   --color-lionsmane-tint: #e4c58c;
+  --color-protein: #1f5a55;     --color-protein-tint: #93c9c2; /* gereserveerd */
 
-  /* Type — v2: Newsreader (serif) headlines, Hanken Grotesk body/UI, Plex Mono labels */
-  --font-sans: var(--font-hanken);
-  --font-serif: var(--font-newsreader);
+  /* Type — v4.0: Anton (display, UPPERCASE) · Archivo (body/UI) · Plex Mono (data) */
+  --font-sans: var(--font-archivo);
+  --font-display: var(--font-anton);
+  --font-serif: var(--font-anton); /* back-compat: .display gebruikte --font-serif */
   --font-mono: var(--font-plex-mono);
 }
 
@@ -39,16 +42,19 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
-/* Serif display — the brand voice. Use on headlines & pull-quotes. */
+/* Display — v4.0 brand voice: Anton, UPPERCASE only, on headlines & product names. */
 .display {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-weight: 400;
-  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
 }
 .display-italic {
-  font-family: var(--font-serif);
-  font-style: italic;
+  /* Anton has no italic; keep the display voice upright. */
+  font-family: var(--font-display);
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
 }
 
 html {

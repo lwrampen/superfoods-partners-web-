@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Newsreader, Hanken_Grotesk, IBM_Plex_Mono } from "next/font/google";
+import { Anton, Archivo, IBM_Plex_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -7,18 +7,17 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
-// Serif — headlines & pull-quotes (the brand's warmth and voice)
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
+// Display — Anton, UPPERCASE only (v4.0: headlines, chapter titles, product names)
+const anton = Anton({
+  variable: "--font-anton",
   subsets: ["latin"],
-  weight: ["400", "500"],
-  style: ["normal", "italic"],
+  weight: ["400"],
   display: "swap",
 });
 
-// Grotesk — body & UI
-const hanken = Hanken_Grotesk({
-  variable: "--font-hanken",
+// Text — Archivo (v4.0: body, labels, buttons, tables)
+const archivo = Archivo({
+  variable: "--font-archivo",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
@@ -80,7 +79,7 @@ export default async function LocaleLayout({
         "@id": ORG_ID,
         name: "Superfoods Partners",
         url: "https://www.superfoodspartners.com/",
-        logo: "https://www.superfoodspartners.com/logos/sfp-roundel-primary.png",
+        logo: "https://www.superfoodspartners.com/logos/sfp-block-dark.png",
         description:
           "Hong Kong–based B2B superfood sourcing. Every origin verified, documented and traceable, routed through one trusted hub in Hong Kong.",
         areaServed: "Worldwide",
@@ -108,7 +107,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${newsreader.variable} ${hanken.variable} ${plexMono.variable} h-full antialiased`}
+      className={`${anton.variable} ${archivo.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-oat text-stone">
         <script
