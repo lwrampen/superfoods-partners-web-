@@ -25,7 +25,7 @@
     "contact": "聯絡我們",
     "hongKongHub": "香港樞紐",
     "requestQuote": "索取報價 →",
-    "copyright": "© 2026 Superfoods Partners — Pure Matcha Partners 集團旗下公司。"
+    "copyright": "© 2026 Superfoods Partners B.V."
   },
   "countries": {
     "Japan": "日本",
@@ -36,13 +36,13 @@
   "home": {
     "metaTitle": "抹茶批發供應商 — 大宗抹茶與超級食品，源頭直供",
     "metaDescription": "為製造商供應大宗抹茶與超級食品粉末——單一產地、每批經實驗室檢驗（JAS、歐盟及 USDA 有機），從樣品到整櫃。Superfoods Partners 源頭直採，歡迎索取報價。",
-    "heroEyebrow": "Origin Intelligence™",
+    "heroEyebrow": "單一產地超級食物粉",
     "heroTitle1": "規模化採購。",
     "heroTitle2": "源頭可信賴。",
     "heroIntro": "由我們熟識的人親手栽種，在我們年復一年重返的產地——再依您所需的規模完成檢測、記錄與運送。",
     "ctaQuote": "索取大宗報價",
     "ctaTrace": "追溯批次 →",
-    "heroBadge": "Pure Matcha Partners 集團旗下公司 · 產地直供",
+    "heroBadge": "產地直供",
     "heroCaption": "產地——採收時節的遮蔭茶園",
     "catMarker": "產品目錄",
     "catHeading": "{n} 個產地，同一套標準。",
@@ -344,8 +344,8 @@
   },
   "verification": {
     "metaTitle": "驗證——每一批次如何檢測與記錄",
-    "metaDescription": "Origin Intelligence™:Superfoods Partners 如何檢測、記錄並追溯每一批次。實驗室項目、Verification Record™、認證,以及常見採購問題解答。",
-    "eyebrow": "Origin Intelligence™",
+    "metaDescription": "Superfoods Partners 如何檢測、記錄並追溯每一批次。實驗室項目、Verification Record™、認證,以及常見採購問題解答。",
+    "eyebrow": "檢驗與信任",
     "heading": "可供稽核的溫度。",
     "intro": "人的故事贏得注意;文件贏得合約。我們出貨的每一批次皆經檢測、記錄且可追溯——讓您的品保團隊、稽核員與客戶都得到同一個答案。",
     "photoCaption": "源頭品質——手工杯測與分級",
