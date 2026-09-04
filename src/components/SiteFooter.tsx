@@ -17,7 +17,7 @@ export function SiteFooter() {
     <footer className="bg-forest text-oat/80">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-16 md:flex-row md:items-start md:justify-between">
         <div className="flex items-center gap-4 md:max-w-[220px] md:flex-col md:items-start">
-          <Image src="/logos/sfp-roundel-reversed.svg" alt="" width={52} height={52} />
+          <Image src="/logos/sfp-block-light.svg" alt="" width={52} height={52} />
           <div>
             <p className="font-medium text-oat">Superfoods Partners</p>
             <p className="mono text-[11px] uppercase">{t("tagline")}</p>

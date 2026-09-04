@@ -60,7 +60,7 @@ export default async function InsightPost({
     publisher: {
       "@type": "Organization",
       name: "Superfoods Partners",
-      logo: { "@type": "ImageObject", url: `${SITE}/logos/sfp-roundel-primary.png` },
+      logo: { "@type": "ImageObject", url: `${SITE}/logos/sfp-block-dark.png` },
     },
     image: post.hero ? `${SITE}${post.hero}` : undefined,
     mainEntityOfPage: url,
