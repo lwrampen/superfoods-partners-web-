@@ -25,7 +25,7 @@
     "contact": "Contact",
     "hongKongHub": "Hong Kong hub",
     "requestQuote": "Request a quote →",
-    "copyright": "© 2026 Superfoods Partners — A Pure Matcha Partners company."
+    "copyright": "© 2026 Superfoods Partners B.V."
   },
   "countries": {
     "Japan": "Japan",
@@ -36,13 +36,13 @@
   "home": {
     "metaTitle": "Matcha Wholesale Supplier — Bulk Matcha & Superfoods at Origin",
     "metaDescription": "Bulk matcha and superfood powders for manufacturers — single-origin, lab-tested every batch (JAS, EU & USDA Organic), from sample to full container. Superfoods Partners sources direct from origin. Request a quote.",
-    "heroEyebrow": "Origin Intelligence™",
+    "heroEyebrow": "Single-origin superfood powders",
     "heroTitle1": "Sourced at scale.",
     "heroTitle2": "Trusted at origin.",
     "heroIntro": "Grown by people we know, in places we return to season after season — then tested, documented and moved at the scale you need.",
     "ctaQuote": "Request a volume quote",
     "ctaTrace": "Trace a batch →",
-    "heroBadge": "A Pure Matcha Partners company · Direct from origin",
+    "heroBadge": "Direct from origin",
     "heroCaption": "ORIGIN — SHADE-GROWN GARDENS AT HARVEST",
     "catMarker": "Catalogue",
     "catHeading": "{n} origins, one standard.",
@@ -344,8 +344,8 @@
   },
   "verification": {
     "metaTitle": "Verification — how every batch is tested & documented",
-    "metaDescription": "Origin Intelligence™: how Superfoods Partners tests, documents and traces every batch. Lab panels, the Verification Record™, certifications and answers to common sourcing questions.",
-    "eyebrow": "Origin Intelligence™",
+    "metaDescription": "How Superfoods Partners tests, documents and traces every batch. Lab panels, the Verification Record™, certifications and answers to common sourcing questions.",
+    "eyebrow": "Verification & trust",
     "heading": "Warmth you can audit.",
     "intro": "The human story earns attention; the paperwork earns the contract. Every batch we ship is tested, documented and traceable — so your QA team, your auditors and your customers all get the same answer.",
     "photoCaption": "QUALITY AT SOURCE — CUPPED & GRADED BY HAND",

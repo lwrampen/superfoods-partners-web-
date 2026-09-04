@@ -25,7 +25,7 @@
     "contact": "Contacto",
     "hongKongHub": "Hub de Hong Kong",
     "requestQuote": "Solicitar presupuesto →",
-    "copyright": "© 2026 Superfoods Partners — Una empresa de Pure Matcha Partners."
+    "copyright": "© 2026 Superfoods Partners B.V."
   },
   "countries": {
     "Japan": "Japón",
@@ -36,13 +36,13 @@
   "home": {
     "metaTitle": "Proveedor de Matcha al por Mayor — Matcha y Superalimentos a Granel",
     "metaDescription": "Matcha a granel y superalimentos en polvo para fabricantes — de origen único, cada lote analizado en laboratorio (JAS, EU y USDA Orgánico), desde muestra hasta contenedor completo. Superfoods Partners abastece directo del origen. Solicita presupuesto.",
-    "heroEyebrow": "Origin Intelligence™",
+    "heroEyebrow": "Superalimentos en polvo de origen único",
     "heroTitle1": "Abastecimiento a escala.",
     "heroTitle2": "Confianza en origen.",
     "heroIntro": "Cultivado por personas que conocemos, en lugares a los que volvemos temporada tras temporada — y luego analizado, documentado y movido a la escala que usted necesita.",
     "ctaQuote": "Solicitar presupuesto por volumen",
     "ctaTrace": "Rastrear un lote →",
-    "heroBadge": "Una empresa de Pure Matcha Partners · Directo desde origen",
+    "heroBadge": "Directo desde origen",
     "heroCaption": "ORIGEN — JARDINES CULTIVADOS A LA SOMBRA EN COSECHA",
     "catMarker": "Catálogo",
     "catHeading": "{n} orígenes, un solo estándar.",
@@ -344,8 +344,8 @@
   },
   "verification": {
     "metaTitle": "Verificación — cómo se analiza y documenta cada lote",
-    "metaDescription": "Origin Intelligence™: cómo Superfoods Partners analiza, documenta y rastrea cada lote. Paneles de laboratorio, el Verification Record™, certificaciones y respuestas a preguntas frecuentes de abastecimiento.",
-    "eyebrow": "Origin Intelligence™",
+    "metaDescription": "Cómo Superfoods Partners analiza, documenta y rastrea cada lote. Paneles de laboratorio, el Verification Record™, certificaciones y respuestas a preguntas frecuentes de abastecimiento.",
+    "eyebrow": "Verificación y confianza",
     "heading": "Cercanía que puede auditar.",
     "intro": "La historia humana capta la atención; la documentación gana el contrato. Cada lote que enviamos está analizado, documentado y es trazable — para que su equipo de calidad, sus auditores y sus clientes obtengan todos la misma respuesta.",
     "photoCaption": "CALIDAD EN ORIGEN — CATADO Y CLASIFICADO A MANO",

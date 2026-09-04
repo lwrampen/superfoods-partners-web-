@@ -25,7 +25,7 @@
     "contact": "Contact",
     "hongKongHub": "Hub de Hong Kong",
     "requestQuote": "Demander un devis →",
-    "copyright": "© 2026 Superfoods Partners — Une entreprise Pure Matcha Partners."
+    "copyright": "© 2026 Superfoods Partners B.V."
   },
   "countries": {
     "Japan": "Japon",
@@ -36,13 +36,13 @@
   "home": {
     "metaTitle": "Fournisseur de Matcha en Gros — Matcha & Superaliments en Vrac",
     "metaDescription": "Matcha en vrac et poudres de superaliments pour fabricants — origine unique, chaque lot testé en laboratoire (JAS, bio UE & USDA), de l'échantillon au conteneur complet. Superfoods Partners s'approvisionne directement à l'origine. Demandez un devis.",
-    "heroEyebrow": "Origin Intelligence™",
+    "heroEyebrow": "Poudres de superaliments mono-origine",
     "heroTitle1": "Sourcé à grande échelle.",
     "heroTitle2": "De confiance en origine.",
     "heroIntro": "Cultivé par des gens que nous connaissons, dans des lieux où nous revenons saison après saison — puis analysé, documenté et acheminé à l'échelle dont vous avez besoin.",
     "ctaQuote": "Demander un devis de volume",
     "ctaTrace": "Tracer un lot →",
-    "heroBadge": "Une entreprise Pure Matcha Partners · En direct de l'origine",
+    "heroBadge": "En direct de l'origine",
     "heroCaption": "ORIGINE — JARDINS CULTIVÉS À L'OMBRE À LA RÉCOLTE",
     "catMarker": "Catalogue",
     "catHeading": "{n} origines, un seul standard.",
@@ -344,8 +344,8 @@
   },
   "verification": {
     "metaTitle": "Vérification — comment chaque lot est analysé et documenté",
-    "metaDescription": "Origin Intelligence™ : comment Superfoods Partners analyse, documente et trace chaque lot. Panels de laboratoire, le Verification Record™, certifications et réponses aux questions fréquentes de sourcing.",
-    "eyebrow": "Origin Intelligence™",
+    "metaDescription": "Comment Superfoods Partners analyse, documente et trace chaque lot. Panels de laboratoire, le Verification Record™, certifications et réponses aux questions fréquentes de sourcing.",
+    "eyebrow": "Vérification & confiance",
     "heading": "Une chaleur que vous pouvez auditer.",
     "intro": "L'histoire humaine attire l'attention ; la documentation remporte le contrat. Chaque lot que nous expédions est analysé, documenté et traçable — pour que votre équipe qualité, vos auditeurs et vos clients obtiennent tous la même réponse.",
     "photoCaption": "QUALITÉ À LA SOURCE — DÉGUSTÉ ET CLASSÉ À LA MAIN",

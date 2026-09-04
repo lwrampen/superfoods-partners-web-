@@ -25,7 +25,7 @@
     "contact": "Kontakt",
     "hongKongHub": "Hongkong-Hub",
     "requestQuote": "Angebot anfragen →",
-    "copyright": "© 2026 Superfoods Partners — Ein Unternehmen der Pure Matcha Partners."
+    "copyright": "© 2026 Superfoods Partners B.V."
   },
   "countries": {
     "Japan": "Japan",
@@ -36,13 +36,13 @@
   "home": {
     "metaTitle": "Matcha-Großhandel & Lieferant — Bulk-Matcha & Superfoods ab Ursprung",
     "metaDescription": "Bulk-Matcha und Superfood-Pulver für Hersteller — sortenrein, jede Charge laborgeprüft (JAS, EU- & USDA-Bio), vom Muster bis zum ganzen Container. Superfoods Partners liefert direkt vom Ursprung. Angebot anfordern.",
-    "heroEyebrow": "Origin Intelligence™",
+    "heroEyebrow": "Superfood-Pulver aus einer Herkunft",
     "heroTitle1": "Im großen Maßstab beschafft.",
     "heroTitle2": "Am Ursprung vertraut.",
     "heroIntro": "Angebaut von Menschen, die wir kennen, an Orten, zu denen wir Saison für Saison zurückkehren — dann geprüft, dokumentiert und in dem Maßstab bewegt, den Sie brauchen.",
     "ctaQuote": "Mengenangebot anfragen",
     "ctaTrace": "Charge verfolgen →",
-    "heroBadge": "Ein Unternehmen der Pure Matcha Partners · Direkt vom Ursprung",
+    "heroBadge": "Direkt vom Ursprung",
     "heroCaption": "URSPRUNG — SCHATTENGEZOGENE GÄRTEN ZUR ERNTE",
     "catMarker": "Katalog",
     "catHeading": "{n} Herkünfte, ein Standard.",
@@ -344,8 +344,8 @@
   },
   "verification": {
     "metaTitle": "Verifizierung — wie jede Charge geprüft & dokumentiert wird",
-    "metaDescription": "Origin Intelligence™: wie Superfoods Partners jede Charge prüft, dokumentiert und rückverfolgt. Laborpanels, der Verification Record™, Zertifizierungen und Antworten auf häufige Beschaffungsfragen.",
-    "eyebrow": "Origin Intelligence™",
+    "metaDescription": "Wie Superfoods Partners jede Charge prüft, dokumentiert und rückverfolgt. Laborpanels, der Verification Record™, Zertifizierungen und Antworten auf häufige Beschaffungsfragen.",
+    "eyebrow": "Prüfung & Vertrauen",
     "heading": "Wärme, die Sie prüfen können.",
     "intro": "Die menschliche Geschichte gewinnt Aufmerksamkeit; die Dokumentation gewinnt den Auftrag. Jede Charge, die wir versenden, ist geprüft, dokumentiert und rückverfolgbar — damit Ihr QS-Team, Ihre Auditoren und Ihre Kunden alle dieselbe Antwort erhalten.",
     "photoCaption": "QUALITÄT AM URSPRUNG — VON HAND VERKOSTET & KLASSIFIZIERT",

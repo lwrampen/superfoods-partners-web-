@@ -25,7 +25,7 @@
     "contact": "Kontakt",
     "hongKongHub": "Hub w Hongkongu",
     "requestQuote": "Poproś o wycenę →",
-    "copyright": "© 2026 Superfoods Partners — spółka grupy Pure Matcha Partners."
+    "copyright": "© 2026 Superfoods Partners B.V."
   },
   "countries": {
     "Japan": "Japonia",
@@ -36,13 +36,13 @@
   "home": {
     "metaTitle": "Hurtowy Dostawca Matchy — Matcha i Superfoods Luzem, Prosto od Źródła",
     "metaDescription": "Matcha luzem i superfoods w proszku dla producentów — z jednego źródła, każda partia badana laboratoryjnie (JAS, EU i USDA Organic), od próbki po pełny kontener. Superfoods Partners dostarcza prosto z miejsca pochodzenia. Poproś o wycenę.",
-    "heroEyebrow": "Origin Intelligence™",
+    "heroEyebrow": "Superfoods w proszku z jednego źródła",
     "heroTitle1": "Pozyskiwane na dużą skalę.",
     "heroTitle2": "Godne zaufania u źródła.",
     "heroIntro": "Uprawiane przez ludzi, których znamy, w miejscach, do których wracamy sezon po sezonie — następnie badane, dokumentowane i dostarczane w skali, jakiej potrzebujesz.",
     "ctaQuote": "Poproś o wycenę hurtową",
     "ctaTrace": "Prześledź partię →",
-    "heroBadge": "Spółka grupy Pure Matcha Partners · Bezpośrednio od źródła",
+    "heroBadge": "Bezpośrednio od źródła",
     "heroCaption": "ŹRÓDŁO — OGRODY CIENIOWANE W CZASIE ZBIORÓW",
     "catMarker": "Katalog",
     "catHeading": "{n} źródeł, jeden standard.",
@@ -344,8 +344,8 @@
   },
   "verification": {
     "metaTitle": "Weryfikacja — jak każda partia jest badana i dokumentowana",
-    "metaDescription": "Origin Intelligence™: jak Superfoods Partners bada, dokumentuje i śledzi każdą partię. Panele laboratoryjne, Verification Record™, certyfikaty i odpowiedzi na częste pytania o sourcing.",
-    "eyebrow": "Origin Intelligence™",
+    "metaDescription": "Jak Superfoods Partners bada, dokumentuje i śledzi każdą partię. Panele laboratoryjne, Verification Record™, certyfikaty i odpowiedzi na częste pytania o sourcing.",
+    "eyebrow": "Weryfikacja i zaufanie",
     "heading": "Ciepło, które możesz zaudytować.",
     "intro": "Ludzka historia przyciąga uwagę; dokumentacja zdobywa kontrakt. Każda wysyłana przez nas partia jest badana, dokumentowana i identyfikowalna — dzięki czemu Twój dział QA, Twoi audytorzy i Twoi klienci otrzymują tę samą odpowiedź.",
     "photoCaption": "JAKOŚĆ U ŹRÓDŁA — DEGUSTOWANE I KLASYFIKOWANE RĘCZNIE",
