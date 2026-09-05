@@ -239,8 +239,8 @@
     "aria": "Skąd Superfoods Partners pozyskuje surowce, przeprowadzane przez Hongkong"
   },
   "pdp": {
-    "metaTitle": "{name} hurt — {origin}, {country} | dostawca hurtowy",
-    "metaDescription": "{name} hurtowo, prosto ze źródła w {origin}, {country}. Każda partia badana laboratoryjnie z COA i Verification Record. MOQ od 25 kg do pełnego kontenera — poproś o wycenę.",
+    "metaTitle": "{name} w proszku, hurt — {place} | Dostawca hurtowy",
+    "metaDescription": "{name} w proszku hurtowo, prosto ze źródła w {place}. Każda partia badana laboratoryjnie z COA i Verification Record. MOQ od 25 kg do pełnego kontenera — poproś o wycenę.",
     "bulkSupplier": "Dostawca hurtowy: {name}",
     "requestQuote": "Poproś o wycenę",
     "labReport": "Raport z laboratorium i wycena w 48 h",
