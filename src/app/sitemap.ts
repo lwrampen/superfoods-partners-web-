@@ -5,7 +5,7 @@ import { routing } from "@/i18n/routing";
 import { localizedUrl } from "@/i18n/paths";
 
 // Bumped when catalogue/on-page content is meaningfully updated.
-const LAST_UPDATED = new Date("2026-07-27");
+const LAST_UPDATED = new Date("2026-09-05");
 
 // Every URL is listed once (at the default locale) with hreflang `alternates`
 // pointing at all language versions — the Google-recommended sitemap shape for
