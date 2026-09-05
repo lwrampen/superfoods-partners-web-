@@ -25,7 +25,8 @@
     "contact": "Contact",
     "hongKongHub": "Hong Kong hub",
     "requestQuote": "Request a quote →",
-    "copyright": "© 2026 Superfoods Partners B.V."
+    "copyright": "© 2026 Superfoods Partners B.V.",
+    "entities": "Registered entities"
   },
   "countries": {
     "Japan": "Japan",
@@ -65,9 +66,9 @@
       }
     ],
     "peopleCaption": "A GROWER IN THE GARDENS AT HARVEST",
-    "sourceEyebrow": "Where we source",
-    "sourceHeading": "Every origin, one hub.",
-    "sourceBody": "We buy at the source — across Asia and beyond — then route every batch through our hub in Hong Kong. Follow the flows.",
+    "sourceEyebrow": "The network",
+    "sourceHeading": "One name, three locations.",
+    "sourceBody": "Every company is Superfoods Partners — one umbrella with local operating entities in Hong Kong, the Netherlands and the United States. Tap a location to focus the office; the commercial labels sit underneath and are shared across all of them.",
     "traceMarker": "Trace a batch",
     "traceHeading": "See exactly what you're buying.",
     "traceBody": "Pick a product and follow it from origin to your facility. Every batch arrives with a full Verification Record — the same checks we'd want if we were the ones buying. Nothing hidden, nothing to chase down.",
@@ -103,7 +104,7 @@
     "hkCoords": "22.32°N 114.17°E — where every origin converges",
     "hkHeading": "One hub, so trust isn't scattered.",
     "hkBody1": "Asia's origins meet the world here. From a single bonded hub we consolidate, test and document every shipment — so you work with one partner who knows your spec, not a dozen brokers who don't.",
-    "hkBody2": "And there are people behind it: a team you can call, in your timezone, who actually pick up. Part of the Pure Matcha Partners family.",
+    "hkBody2": "And there are people behind it: a team you can call, in your timezone, who actually pick up. Pure Matcha Partners is our specialist matcha brand.",
     "hkExpertsLabel": "Meet the team",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
     "socialMarker": "Trusted by",
@@ -188,16 +189,19 @@
   },
   "about": {
     "metaTitle": "About — the trusted superfood sourcing partner",
-    "metaDescription": "Superfoods Partners is the Hong Kong–based sourcing arm of the Pure Matcha Partners family. We don't aim to be the largest supplier — we aim to be the most trusted.",
+    "metaDescription": "Superfoods Partners is a Dutch supplier of single-origin superfood powders, operating from Hong Kong, the Netherlands and the United States. Pure Matcha Partners is our specialist matcha brand.",
     "eyebrow": "About",
     "eyebrowSub": "Who we are",
     "heroHeading": "The source is the story.",
-    "heroBody1": "Superfoods Partners is the sourcing engine of the Pure Matcha Partners family. We buy direct from the farms that grow the world's finest superfoods and move large, verified volumes to the biggest manufacturers — routed, when it helps, through our hub in Hong Kong.",
+    "heroBody1": "Superfoods Partners is the umbrella for our group — one shared portfolio of single-origin superfood powders, with local operating entities in Hong Kong, the Netherlands and the United States. We buy direct from the farms and move large, verified volumes to manufacturers, brands and private label.",
     "heroBody2": "We don't aspire to be the largest supplier. We aspire to be the one you never have to worry about.",
     "heroCaption": "A GROWER IN THE GARDENS AT HARVEST",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
     "ctaHeading": "Move volume you can trust.",
-    "ctaButton": "Request a volume quote"
+    "ctaButton": "Request a volume quote",
+    "groupEyebrow": "The group",
+    "groupHeading": "One name, three locations.",
+    "groupBody": "Every company is Superfoods Partners — one umbrella with local operating entities in Hong Kong, the Netherlands and the United States. The commercial labels sit underneath and are shared across all of them; Pure Matcha Partners is our specialist matcha brand today."
   },
   "team": {
     "eyebrow": "The team",
@@ -435,5 +439,10 @@
     "successHeading": "We've got it.",
     "successBody": "Thanks — we'll come back with a lab report and a quote, usually within 48 hours. Check your inbox.",
     "errorText": "Something went wrong sending your request. Please email us directly at"
+  },
+  "locationsMap": {
+    "role": "Operating entity",
+    "local": "local",
+    "aria": "World map of our three operating entities"
   }
 }

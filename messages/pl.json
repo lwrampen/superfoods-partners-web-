@@ -25,7 +25,8 @@
     "contact": "Kontakt",
     "hongKongHub": "Hub w Hongkongu",
     "requestQuote": "Poproś o wycenę →",
-    "copyright": "© 2026 Superfoods Partners B.V."
+    "copyright": "© 2026 Superfoods Partners B.V.",
+    "entities": "Zarejestrowane podmioty"
   },
   "countries": {
     "Japan": "Japonia",
@@ -65,9 +66,9 @@
       }
     ],
     "peopleCaption": "PLANTATOR W OGRODACH W CZASIE ZBIORÓW",
-    "sourceEyebrow": "Skąd pozyskujemy",
-    "sourceHeading": "Każde źródło, jeden hub.",
-    "sourceBody": "Kupujemy u źródła — w całej Azji i poza nią — a następnie przeprowadzamy każdą partię przez nasz hub w Hongkongu. Śledź przepływy.",
+    "sourceEyebrow": "Sieć",
+    "sourceHeading": "Jedna nazwa, trzy lokalizacje.",
+    "sourceBody": "Każda spółka to Superfoods Partners — podmiot nadrzędny ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Dotknij lokalizacji, aby przybliżyć biuro; marki handlowe znajdują się poniżej i są wspólne dla wszystkich.",
     "traceMarker": "Prześledź partię",
     "traceHeading": "Zobacz dokładnie, co kupujesz.",
     "traceBody": "Wybierz produkt i śledź go od źródła do swojego zakładu. Każda partia dociera z pełnym Verification Record™ — tymi samymi kontrolami, których oczekiwalibyśmy, gdybyśmy to my kupowali. Nic ukrytego, niczego nie trzeba dopytywać.",
@@ -103,7 +104,7 @@
     "hkCoords": "22.32°N 114.17°E — gdzie zbiega się każde źródło",
     "hkHeading": "Jeden hub, aby zaufanie nie było rozproszone.",
     "hkBody1": "Azjatyckie źródła spotykają tu świat. Z jednego składu celnego konsolidujemy, badamy i dokumentujemy każdą wysyłkę — dzięki czemu współpracujesz z jednym partnerem, który zna Twoją specyfikację, a nie z tuzinem brokerów, którzy jej nie znają.",
-    "hkBody2": "A za tym wszystkim stoją ludzie: zespół, do którego możesz zadzwonić w swojej strefie czasowej i który naprawdę odbiera telefon. Część rodziny Pure Matcha Partners.",
+    "hkBody2": "A za tym stoją ludzie: zespół, do którego zadzwonisz w swojej strefie czasowej i który naprawdę odbiera. Pure Matcha Partners to nasza wyspecjalizowana marka matcha.",
     "hkExpertsLabel": "Poznaj zespół",
     "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
     "socialMarker": "Zaufali nam",
@@ -188,16 +189,19 @@
   },
   "about": {
     "metaTitle": "O nas — zaufany partner w sourcingu superfoods",
-    "metaDescription": "Superfoods Partners to działające z Hongkongu ramię sourcingowe rodziny Pure Matcha Partners. Nie dążymy do bycia największym dostawcą — dążymy do bycia najbardziej godnym zaufania.",
+    "metaDescription": "Superfoods Partners to holenderski dostawca superfoods w proszku z jednego źródła, obecny w Hongkongu, Holandii i USA. Pure Matcha Partners to nasza wyspecjalizowana marka matcha.",
     "eyebrow": "O nas",
     "eyebrowSub": "Kim jesteśmy",
     "heroHeading": "Źródło to cała historia.",
-    "heroBody1": "Superfoods Partners to silnik sourcingowy rodziny Pure Matcha Partners. Kupujemy bezpośrednio od gospodarstw, które uprawiają najlepsze superfoods świata, i dostarczamy duże, zweryfikowane wolumeny największym producentom — przeprowadzane, gdy to pomaga, przez nasz hub w Hongkongu.",
+    "heroBody1": "Superfoods Partners to podmiot nadrzędny naszej grupy — wspólne portfolio superfoods w proszku z jednego źródła, ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Kupujemy bezpośrednio od gospodarstw i dostarczamy duże, zweryfikowane wolumeny producentom, markom i private label.",
     "heroBody2": "Nie aspirujemy do bycia największym dostawcą. Aspirujemy do bycia tym, o którego nigdy nie musisz się martwić.",
     "heroCaption": "PLANTATOR W OGRODACH W CZASIE ZBIORÓW",
     "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
     "ctaHeading": "Przenoś wolumen, któremu możesz zaufać.",
-    "ctaButton": "Poproś o wycenę hurtową"
+    "ctaButton": "Poproś o wycenę hurtową",
+    "groupEyebrow": "Grupa",
+    "groupHeading": "Jedna nazwa, trzy lokalizacje.",
+    "groupBody": "Każda spółka to Superfoods Partners — podmiot nadrzędny ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Marki handlowe znajdują się poniżej i są wspólne dla wszystkich; Pure Matcha Partners to dziś nasza wyspecjalizowana marka matcha."
   },
   "team": {
     "eyebrow": "Zespół",
@@ -435,5 +439,10 @@
     "successHeading": "Mamy to.",
     "successBody": "Dziękujemy — wrócimy z raportem z laboratorium i wyceną, zwykle w ciągu 48 godzin. Sprawdź swoją skrzynkę.",
     "errorText": "Coś poszło nie tak przy wysyłaniu zapytania. Napisz do nas bezpośrednio na"
+  },
+  "locationsMap": {
+    "role": "Podmiot operacyjny",
+    "local": "czas lok.",
+    "aria": "Mapa świata z trzema spółkami operacyjnymi"
   }
 }

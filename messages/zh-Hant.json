@@ -25,7 +25,8 @@
     "contact": "聯絡我們",
     "hongKongHub": "香港樞紐",
     "requestQuote": "索取報價 →",
-    "copyright": "© 2026 Superfoods Partners B.V."
+    "copyright": "© 2026 Superfoods Partners B.V.",
+    "entities": "註冊公司"
   },
   "countries": {
     "Japan": "日本",
@@ -65,9 +66,9 @@
       }
     ],
     "peopleCaption": "採收時節茶園中的茶農",
-    "sourceEyebrow": "我們的採購地",
-    "sourceHeading": "每一個產地，一個樞紐。",
-    "sourceBody": "我們在源頭採購——遍及亞洲及更遠之處——再讓每一批次都經由香港樞紐轉運。追蹤流向。",
+    "sourceEyebrow": "網絡",
+    "sourceHeading": "一個名字,三處據點。",
+    "sourceBody": "每一家公司都是 Superfoods Partners——一個母體,並在香港、荷蘭與美國設有營運公司。點選任一據點即可聚焦該辦公室;商業品牌位於其下,由所有公司共用。",
     "traceMarker": "追溯批次",
     "traceHeading": "清楚看見您買的是什麼。",
     "traceBody": "選一款產品，跟著它從產地一路到您的廠房。每一批次都附上完整的 Verification Record™——正是我們若身為買方也會要求的檢驗。沒有隱瞞，無須追問。",
@@ -103,7 +104,7 @@
     "hkCoords": "北緯 22.32° 東經 114.17°——每一個產地在此匯聚",
     "hkHeading": "一個樞紐，讓信任不再零散。",
     "hkBody1": "亞洲產地在此與世界相會。從單一保稅樞紐，我們整併、檢測並記錄每一批出貨——讓您面對的是一個熟知您規格的夥伴，而非一打不了解您的中間商。",
-    "hkBody2": "而這一切背後都有人：一支您能在自己時區撥通、且真的會接電話的團隊。Pure Matcha Partners 家族的一員。",
+    "hkBody2": "背後是實實在在的人:一支你能在自己時區致電、而且真的會接聽的團隊。Pure Matcha Partners 是我們的抹茶專門品牌。",
     "hkExpertsLabel": "認識團隊",
     "hkCaption": "全田採收——規模化運送",
     "socialMarker": "受信賴於",
@@ -188,16 +189,19 @@
   },
   "about": {
     "metaTitle": "關於我們——值得信賴的超級食物採購夥伴",
-    "metaDescription": "Superfoods Partners 是 Pure Matcha Partners 家族以香港為據點的採購部門。我們不求成為最大的供應商——只求成為最值得信賴的一家。",
+    "metaDescription": "Superfoods Partners 是一家荷蘭的單一產地超級食物粉供應商,於香港、荷蘭與美國營運。Pure Matcha Partners 是我們的抹茶專門品牌。",
     "eyebrow": "關於我們",
     "eyebrowSub": "我們是誰",
     "heroHeading": "源頭就是故事本身。",
-    "heroBody1": "Superfoods Partners 是 Pure Matcha Partners 家族的採購引擎。我們直接向栽種全球頂級超級食物的農場採購,並將大量且經驗證的貨量運送給最大型的製造商——在有助益時,經由我們的香港樞紐轉運。",
+    "heroBody1": "Superfoods Partners 是我們集團的母體——共用的單一產地超級食物粉組合,並於香港、荷蘭與美國設有營運公司。我們直接向農場採購,將大批經驗證的貨量供應給製造商、品牌與自有品牌。",
     "heroBody2": "我們不奢望成為最大的供應商。我們期許成為那個讓您永遠無須擔心的供應商。",
     "heroCaption": "採收時節茶園中的茶農",
     "hkCaption": "全田採收——規模化運送",
     "ctaHeading": "運送您能信賴的貨量。",
-    "ctaButton": "索取大宗報價"
+    "ctaButton": "索取大宗報價",
+    "groupEyebrow": "集團",
+    "groupHeading": "一個名字,三處據點。",
+    "groupBody": "每一家公司都是 Superfoods Partners——一個母體,並在香港、荷蘭與美國設有營運公司。商業品牌位於其下,由所有公司共用;Pure Matcha Partners 是我們目前的抹茶專門品牌。"
   },
   "team": {
     "eyebrow": "團隊",
@@ -435,5 +439,10 @@
     "successHeading": "我們收到了。",
     "successBody": "謝謝——我們會以實驗室報告與報價回覆您,通常在 48 小時內。請留意您的收件匣。",
     "errorText": "傳送您的需求時發生錯誤。請直接來信至"
+  },
+  "locationsMap": {
+    "role": "營運公司",
+    "local": "當地時間",
+    "aria": "我們三家營運公司的世界地圖"
   }
 }

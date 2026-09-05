@@ -9,6 +9,7 @@ import { Certifications } from "@/components/Certifications";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor } from "@/i18n/paths";
 import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
+import { ENTITIES } from "@/data/entities";
 
 export async function generateMetadata({
   params,
@@ -110,6 +111,38 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 sizes="(min-width: 768px) 45vw, 100vw"
               />
             </Reveal>
+          </div>
+        </section>
+
+        {/* GROUP & OPERATING ENTITIES */}
+        <section className="bg-oat">
+          <div className="mx-auto max-w-6xl px-6 py-24">
+            <Reveal className="mb-12 max-w-2xl">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="mono text-[11px] text-amber">{t("groupEyebrow")}</span>
+                <span className="h-px w-8 bg-stone/30" />
+              </div>
+              <h2 className="display text-4xl leading-tight text-green md:text-5xl">{t("groupHeading")}</h2>
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-stone">{t("groupBody")}</p>
+            </Reveal>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {ENTITIES.map((e) => (
+                <Reveal key={e.code}>
+                  <div className="h-full rounded-xl border border-stone/15 bg-white p-6">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <p className="display text-lg text-green">{e.name}</p>
+                      <span className="mono text-[11px] text-amber">{e.code}</span>
+                    </div>
+                    <address className="mono mt-4 block text-[12px] not-italic leading-relaxed text-stone/70">
+                      {e.address.map((line) => (
+                        <span key={line} className="block">{line}</span>
+                      ))}
+                      <span className="block">{e.country}</span>
+                    </address>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </section>
 

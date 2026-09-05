@@ -25,7 +25,8 @@
     "contact": "Contact",
     "hongKongHub": "Hub de Hong Kong",
     "requestQuote": "Demander un devis →",
-    "copyright": "© 2026 Superfoods Partners B.V."
+    "copyright": "© 2026 Superfoods Partners B.V.",
+    "entities": "Entités enregistrées"
   },
   "countries": {
     "Japan": "Japon",
@@ -65,9 +66,9 @@
       }
     ],
     "peopleCaption": "UN CULTIVATEUR DANS LES JARDINS À LA RÉCOLTE",
-    "sourceEyebrow": "Où nous sourçons",
-    "sourceHeading": "Chaque origine, un seul hub.",
-    "sourceBody": "Nous achetons à la source — à travers l'Asie et au-delà — puis acheminons chaque lot via notre hub de Hong Kong. Suivez les flux.",
+    "sourceEyebrow": "Le réseau",
+    "sourceHeading": "Un nom, trois implantations.",
+    "sourceBody": "Chaque société est Superfoods Partners — une ombrelle avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Touchez une implantation pour cadrer le bureau ; les marques commerciales se trouvent en dessous et sont partagées par toutes.",
     "traceMarker": "Tracer un lot",
     "traceHeading": "Voyez exactement ce que vous achetez.",
     "traceBody": "Choisissez un produit et suivez-le de l'origine à votre site. Chaque lot arrive avec un Verification Record complet — les mêmes contrôles que nous voudrions si c'était nous qui achetions. Rien de caché, rien à courir après.",
@@ -103,7 +104,7 @@
     "hkCoords": "22.32°N 114.17°E — là où convergent toutes les origines",
     "hkHeading": "Un seul hub, pour que la confiance ne soit pas dispersée.",
     "hkBody1": "Les origines d'Asie rencontrent le monde ici. Depuis un hub unique sous douane, nous consolidons, analysons et documentons chaque expédition — pour que vous travailliez avec un seul partenaire qui connaît votre spécification, et non une dizaine de courtiers qui l'ignorent.",
-    "hkBody2": "Et il y a des gens derrière : une équipe que vous pouvez appeler, dans votre fuseau horaire, qui décroche vraiment. Membre de la famille Pure Matcha Partners.",
+    "hkBody2": "Et il y a des personnes derrière : une équipe que vous pouvez appeler, dans votre fuseau horaire, et qui décroche vraiment. Pure Matcha Partners est notre marque spécialiste du matcha.",
     "hkExpertsLabel": "Rencontrez l'équipe",
     "hkCaption": "RÉCOLTE PLEIN CHAMP — ACHEMINÉE À GRANDE ÉCHELLE",
     "socialMarker": "Ils nous font confiance",
@@ -188,16 +189,19 @@
   },
   "about": {
     "metaTitle": "À propos — le partenaire de sourcing de superaliments de confiance",
-    "metaDescription": "Superfoods Partners est le bras de sourcing basé à Hong Kong de la famille Pure Matcha Partners. Nous ne visons pas à être le plus grand fournisseur — mais le plus fiable.",
+    "metaDescription": "Superfoods Partners est un fournisseur néerlandais de poudres de superaliments mono-origine, présent à Hong Kong, aux Pays-Bas et aux États-Unis. Pure Matcha Partners est notre marque spécialiste du matcha.",
     "eyebrow": "À propos",
     "eyebrowSub": "Qui nous sommes",
     "heroHeading": "La source, c'est l'histoire.",
-    "heroBody1": "Superfoods Partners est le moteur de sourcing de la famille Pure Matcha Partners. Nous achetons en direct aux fermes qui cultivent les meilleurs superaliments du monde et acheminons de gros volumes vérifiés vers les plus grands fabricants — via, quand c'est utile, notre hub de Hong Kong.",
+    "heroBody1": "Superfoods Partners est l'ombrelle de notre groupe — un portefeuille commun de poudres de superaliments mono-origine, avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Nous achetons directement à la ferme et livrons de grands volumes vérifiés aux fabricants, aux marques et au private label.",
     "heroBody2": "Nous n'aspirons pas à être le plus grand fournisseur. Nous aspirons à être celui dont vous n'aurez jamais à vous soucier.",
     "heroCaption": "UN CULTIVATEUR DANS LES JARDINS À LA RÉCOLTE",
     "hkCaption": "RÉCOLTE PLEIN CHAMP — ACHEMINÉE À GRANDE ÉCHELLE",
     "ctaHeading": "Déplacez des volumes en confiance.",
-    "ctaButton": "Demander un devis de volume"
+    "ctaButton": "Demander un devis de volume",
+    "groupEyebrow": "Le groupe",
+    "groupHeading": "Un nom, trois implantations.",
+    "groupBody": "Chaque société est Superfoods Partners — une ombrelle avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Les marques commerciales se trouvent en dessous et sont partagées par toutes ; Pure Matcha Partners est aujourd'hui notre marque spécialiste du matcha."
   },
   "team": {
     "eyebrow": "L'équipe",
@@ -435,5 +439,10 @@
     "successHeading": "Nous l'avons bien reçue.",
     "successBody": "Merci — nous reviendrons vers vous avec un rapport de laboratoire et un devis, généralement sous 48 heures. Vérifiez votre boîte de réception.",
     "errorText": "Une erreur est survenue lors de l'envoi de votre demande. Écrivez-nous directement à"
+  },
+  "locationsMap": {
+    "role": "Entité opérationnelle",
+    "local": "heure locale",
+    "aria": "Carte du monde de nos trois entités opérationnelles"
   }
 }
