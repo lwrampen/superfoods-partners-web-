@@ -38,7 +38,7 @@ export async function generateMetadata({
   return {
     title: t("metaTitle", { name: p.name, place }),
     description: t("metaDescription", { name: p.name, place }),
-    alternates: alternatesFor(locale, `/catalog/${p.slug}`),
+    alternates: alternatesFor(locale, `/products/${p.slug}`),
   };
 }
 
@@ -93,8 +93,8 @@ export default async function ProductPage({
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: t("crumbHome"), item: localizedUrl(locale, "/") },
-      { "@type": "ListItem", position: 2, name: t("crumbCatalogue"), item: localizedUrl(locale, "/catalog") },
-      { "@type": "ListItem", position: 3, name: p.name, item: localizedUrl(locale, `/catalog/${p.slug}`) },
+      { "@type": "ListItem", position: 2, name: t("crumbCatalogue"), item: localizedUrl(locale, "/products") },
+      { "@type": "ListItem", position: 3, name: p.name, item: localizedUrl(locale, `/products/${p.slug}`) },
     ],
   };
   const faqLd = {
@@ -115,7 +115,7 @@ export default async function ProductPage({
     description: p.description,
     category: p.category,
     image: `https://www.superfoodspartners.com${p.img}`,
-    url: localizedUrl(locale, `/catalog/${p.slug}`),
+    url: localizedUrl(locale, `/products/${p.slug}`),
     brand: { "@type": "Brand", name: "Superfoods Partners" },
     countryOfOrigin: [...new Set(origins.map((o) => o.country).filter(Boolean))],
     additionalProperty: [
@@ -327,13 +327,13 @@ export default async function ProductPage({
                 <ul className="mt-4 flex flex-wrap gap-2">
                   {related.map((r) => (
                     <li key={r.slug}>
-                      <Link href={`/catalog/${r.slug}`} className="mono inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-[11px] uppercase text-stone transition-colors hover:border-green hover:text-green">
+                      <Link href={`/products/${r.slug}`} className="mono inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-[11px] uppercase text-stone transition-colors hover:border-green hover:text-green">
                         {r.name}
                       </Link>
                     </li>
                   ))}
                 </ul>
-                <Link href="/catalog" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">{t("viewCatalogue")}</Link>
+                <Link href="/products" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">{t("viewCatalogue")}</Link>
               </div>
             )}
           </div>

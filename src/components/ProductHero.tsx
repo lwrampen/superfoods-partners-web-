@@ -49,8 +49,8 @@ export function ProductHero({
         </>
       )}
       <div className="relative mx-auto max-w-6xl px-6 py-20 md:py-32">
-        <Link href="/catalog" className="mono text-[11px] uppercase tracking-wide text-white/60 transition-colors hover:text-white">
-          ← Catalogue
+        <Link href="/products" className="mono text-[11px] uppercase tracking-wide text-white/60 transition-colors hover:text-white">
+          ← Products
         </Link>
         <p className="mono mt-6 text-[11px] uppercase tracking-widest text-white/70">{category}</p>
         <motion.h1

@@ -14,6 +14,21 @@ const nextConfig: NextConfig = {
         destination: "/:locale/company",
         permanent: true,
       },
+      // Catalog → Products (Fase 3 IA rename). Permanent (308) so the ranking
+      // of /catalog and every /catalog/<product> PDP carries over. Cover the
+      // index and product pages, default locale and every prefixed locale.
+      { source: "/catalog", destination: "/products", permanent: true },
+      { source: "/catalog/:slug", destination: "/products/:slug", permanent: true },
+      {
+        source: "/:locale(de|es|fr|pl|zh-Hant)/catalog",
+        destination: "/:locale/products",
+        permanent: true,
+      },
+      {
+        source: "/:locale(de|es|fr|pl|zh-Hant)/catalog/:slug",
+        destination: "/:locale/products/:slug",
+        permanent: true,
+      },
     ];
   },
 };
