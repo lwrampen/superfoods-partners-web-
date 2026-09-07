@@ -6,7 +6,7 @@ import type { TeamMember } from "@/data/trust";
 // circular team avatars. Reuses the team portraits (face-cropped via CSS).
 export function ExpertsCluster({
   members,
-  href = "/about",
+  href = "/company",
   label = "Meet the team",
   tone = "light",
 }: {

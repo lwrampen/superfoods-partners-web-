@@ -11,7 +11,8 @@
     "about": "O nas",
     "requestVolume": "Zapytaj o ilości hurtowe",
     "home": "Superfoods Partners — strona główna",
-    "insights": "Analizy"
+    "insights": "Analizy",
+    "company": "Firma"
   },
   "footer": {
     "tagline": "Pozyskiwane na dużą skalę. Godne zaufania u źródła.",
@@ -218,9 +219,9 @@
     ]
   },
   "about": {
-    "metaTitle": "O nas — zaufany partner w sourcingu superfoods",
+    "metaTitle": "Firma — zaufany partner w sourcingu superfoods",
     "metaDescription": "Superfoods Partners to holenderski dostawca superfoods w proszku z jednego źródła, obecny w Hongkongu, Holandii i USA. Pure Matcha Partners to nasza wyspecjalizowana marka matcha.",
-    "eyebrow": "O nas",
+    "eyebrow": "Firma",
     "eyebrowSub": "Kim jesteśmy",
     "heroHeading": "Źródło to cała historia.",
     "heroBody1": "Superfoods Partners to podmiot nadrzędny naszej grupy — wspólne portfolio superfoods w proszku z jednego źródła, ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Kupujemy bezpośrednio od gospodarstw i dostarczamy duże, zweryfikowane wolumeny producentom, markom i private label.",
@@ -231,7 +232,21 @@
     "ctaButton": "Poproś o wycenę hurtową",
     "groupEyebrow": "Grupa",
     "groupHeading": "Jedna nazwa, trzy lokalizacje.",
-    "groupBody": "Każda spółka to Superfoods Partners — podmiot nadrzędny ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Marki handlowe znajdują się poniżej i są wspólne dla wszystkich; Pure Matcha Partners to dziś nasza wyspecjalizowana marka matcha."
+    "groupBody": "Każda spółka to Superfoods Partners — podmiot nadrzędny ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Marki handlowe znajdują się poniżej i są wspólne dla wszystkich; Pure Matcha Partners to dziś nasza wyspecjalizowana marka matcha.",
+    "houseEyebrow": "Jak jesteśmy zbudowani",
+    "houseHeading": "Dwie marki, jeden dom",
+    "houseBody": "Superfoods Partners to dom — firma, pochodzenie, relacje z dostawcami. Poniżej znajdują się wyspecjalizowane marki, każda odpowiada za jedną kategorię i pokazuje, na co stać surowiec. Produkt trafia do Ciebie pod jedną z tych marek albo pod Twoją własną marką, z naszą w tle.",
+    "houseUmbrellaTag": "Dom",
+    "houseUmbrellaBody": "Firma i łańcuch — każde pochodzenie, każda partia, każda lokalizacja. Wszystkie linie, luzem i marka własna.",
+    "housePmpTag": "Marka wyspecjalizowana",
+    "housePmpBody": "Nasza wyspecjalizowana marka matchy — matcha i hojicha, pakowane i markowane, z własną tożsamością.",
+    "houseSoonTag": "W przygotowaniu",
+    "houseSoonTitle": "Więcej marek",
+    "houseSoonBody": "Model skaluje się według kategorii. Nowe wyspecjalizowane marki dołączają do domu w miarę dojrzewania linii.",
+    "houseRouteOwnTitle": "Pod naszą marką",
+    "houseRouteOwnBody": "Gdy sami pakujemy i markujemy — jak Pure Matcha Partners — marka ręczy za surowiec. Nasze marki pokazują, na co go stać.",
+    "houseRoutePrivTitle": "Pod Twoją marką",
+    "houseRoutePrivBody": "W marce własnej Twoja marka trafia na opakowanie, a nasza stoi za nią jako poręczenie — dowód pochodzenia surowca i jego badań."
   },
   "team": {
     "eyebrow": "Zespół",

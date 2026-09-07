@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/origins", 0.8],
     ["/verification", 0.8],
     ["/insights", 0.7],
-    ["/about", 0.8],
+    ["/company", 0.8],
     ["/contact", 0.8],
   ];
   return [

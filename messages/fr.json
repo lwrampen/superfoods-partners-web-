@@ -11,7 +11,8 @@
     "about": "À propos",
     "requestVolume": "Demander un volume",
     "home": "Superfoods Partners — accueil",
-    "insights": "Analyses"
+    "insights": "Analyses",
+    "company": "Entreprise"
   },
   "footer": {
     "tagline": "Sourcé à grande échelle. De confiance en origine.",
@@ -218,9 +219,9 @@
     ]
   },
   "about": {
-    "metaTitle": "À propos — le partenaire de sourcing de superaliments de confiance",
+    "metaTitle": "Entreprise — le partenaire de sourcing de superaliments de confiance",
     "metaDescription": "Superfoods Partners est un fournisseur néerlandais de poudres de superaliments mono-origine, présent à Hong Kong, aux Pays-Bas et aux États-Unis. Pure Matcha Partners est notre marque spécialiste du matcha.",
-    "eyebrow": "À propos",
+    "eyebrow": "Entreprise",
     "eyebrowSub": "Qui nous sommes",
     "heroHeading": "La source, c'est l'histoire.",
     "heroBody1": "Superfoods Partners est l'ombrelle de notre groupe — un portefeuille commun de poudres de superaliments mono-origine, avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Nous achetons directement à la ferme et livrons de grands volumes vérifiés aux fabricants, aux marques et au private label.",
@@ -231,7 +232,21 @@
     "ctaButton": "Demander un devis de volume",
     "groupEyebrow": "Le groupe",
     "groupHeading": "Un nom, trois implantations.",
-    "groupBody": "Chaque société est Superfoods Partners — une ombrelle avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Les marques commerciales se trouvent en dessous et sont partagées par toutes ; Pure Matcha Partners est aujourd'hui notre marque spécialiste du matcha."
+    "groupBody": "Chaque société est Superfoods Partners — une ombrelle avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Les marques commerciales se trouvent en dessous et sont partagées par toutes ; Pure Matcha Partners est aujourd'hui notre marque spécialiste du matcha.",
+    "houseEyebrow": "Comment nous sommes structurés",
+    "houseHeading": "Deux marques, une maison",
+    "houseBody": "Superfoods Partners est la maison : l'entreprise, les origines, les relations fournisseurs. En dessous se trouvent des marques spécialistes, chacune propriétaire d'une catégorie, qui prouvent ce que la matière peut faire. Un produit vous parvient sous l'une de ces marques, ou sous votre propre marque avec la nôtre derrière.",
+    "houseUmbrellaTag": "La maison",
+    "houseUmbrellaBody": "L'entreprise et la chaîne : chaque origine, chaque lot, chaque site. Toutes les gammes, en vrac et en marque de distributeur.",
+    "housePmpTag": "Marque spécialiste",
+    "housePmpBody": "Notre marque spécialiste du matcha : matcha et hojicha, conditionnés et marqués, avec leur propre identité.",
+    "houseSoonTag": "En préparation",
+    "houseSoonTitle": "D'autres marques",
+    "houseSoonBody": "Le modèle s'étend par catégorie. De nouvelles marques spécialistes rejoignent la maison à mesure que les gammes mûrissent.",
+    "houseRouteOwnTitle": "Sous notre marque",
+    "houseRouteOwnBody": "Quand nous conditionnons et marquons nous-mêmes — comme avec Pure Matcha Partners — la marque répond de la matière. Nos marques prouvent ce qu'elle peut faire.",
+    "houseRoutePrivTitle": "Sous votre marque",
+    "houseRoutePrivBody": "En marque de distributeur, votre marque figure sur l'emballage et la nôtre derrière, en caution : preuve de l'origine de la matière et de ses analyses."
   },
   "team": {
     "eyebrow": "L'équipe",

@@ -21,7 +21,7 @@ export async function generateMetadata({
   return {
     title: t("metaTitle"),
     description: t("metaDescription"),
-    alternates: alternatesFor(locale, "/about"),
+    alternates: alternatesFor(locale, "/company"),
   };
 }
 
@@ -59,6 +59,74 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               className="aspect-[4/5] w-full shadow-[0_30px_80px_-40px_rgba(20,39,27,0.55)]"
             />
           </Reveal>
+        </section>
+
+        {/* TWO BRANDS, ONE HOUSE — the umbrella architecture */}
+        <section className="bg-sand">
+          <div className="mx-auto max-w-6xl px-6 py-24">
+            <Reveal className="mb-12 max-w-2xl">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="mono text-[11px] text-amber">{t("houseEyebrow")}</span>
+                <span className="h-px w-8 bg-stone/30" />
+              </div>
+              <h2 className="display text-4xl leading-tight text-green md:text-5xl">{t("houseHeading")}</h2>
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-stone">{t("houseBody")}</p>
+            </Reveal>
+
+            {/* the house → labels diagram */}
+            <Reveal>
+              <div className="rounded-2xl border border-stone/15 bg-white p-6 md:p-8">
+                <div className="border-b border-stone/10 pb-6">
+                  <span className="mono text-[10px] uppercase tracking-widest text-amber">{t("houseUmbrellaTag")}</span>
+                  <p className="display mt-2 text-2xl text-green md:text-3xl">Superfoods Partners</p>
+                  <p className="mt-2 max-w-xl text-sm leading-relaxed text-stone/80">{t("houseUmbrellaBody")}</p>
+                </div>
+                {/* connector */}
+                <div className="mx-auto h-6 w-px bg-stone/20" aria-hidden />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {/* Pure Matcha Partners — the live specialist label */}
+                  <a
+                    href="https://www.purematchapartners.com"
+                    target="_blank"
+                    rel="noopener"
+                    className="group rounded-xl border border-green/20 bg-oat p-6 transition-colors hover:border-amber"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="mono text-[10px] uppercase tracking-widest text-amber">{t("housePmpTag")}</span>
+                      <span className="mono text-[11px] text-stone/40 transition-colors group-hover:text-green">↗</span>
+                    </div>
+                    <p className="display mt-3 text-xl text-green">Pure Matcha Partners</p>
+                    <p className="mt-2 text-sm leading-relaxed text-stone/80">{t("housePmpBody")}</p>
+                    <p className="mono mt-4 border-t border-stone/10 pt-3 text-[10px] uppercase leading-relaxed tracking-wide text-stone/55">
+                      Pure Matcha Partners — a Superfoods Partners brand
+                    </p>
+                  </a>
+                  {/* future labels — muted placeholder */}
+                  <div className="rounded-xl border border-dashed border-stone/25 bg-oat/40 p-6">
+                    <span className="mono text-[10px] uppercase tracking-widest text-stone/45">{t("houseSoonTag")}</span>
+                    <p className="display mt-3 text-xl text-stone/45">{t("houseSoonTitle")}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-stone/55">{t("houseSoonBody")}</p>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+
+            {/* two routes a product reaches a buyer */}
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              <Reveal>
+                <div className="h-full rounded-xl border border-stone/15 bg-white p-6">
+                  <h3 className="display text-lg text-green">{t("houseRouteOwnTitle")}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-stone/80">{t("houseRouteOwnBody")}</p>
+                </div>
+              </Reveal>
+              <Reveal delay={0.06}>
+                <div className="h-full rounded-xl border border-stone/15 bg-white p-6">
+                  <h3 className="display text-lg text-green">{t("houseRoutePrivTitle")}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-stone/80">{t("houseRoutePrivBody")}</p>
+                </div>
+              </Reveal>
+            </div>
+          </div>
         </section>
 
         {/* The team — real faces, placed high for trust */}
