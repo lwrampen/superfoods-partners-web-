@@ -38,9 +38,9 @@
     "metaTitle": "Hurtowy Dostawca Matchy — Matcha i Superfoods Luzem, Prosto od Źródła",
     "metaDescription": "Matcha luzem i superfoods w proszku dla producentów — z jednego źródła, każda partia badana laboratoryjnie (JAS, EU i USDA Organic), od próbki po pełny kontener. Superfoods Partners dostarcza prosto z miejsca pochodzenia. Poproś o wycenę.",
     "heroEyebrow": "Superfoods w proszku z jednego źródła",
-    "heroTitle1": "Pozyskiwane na dużą skalę.",
-    "heroTitle2": "Godne zaufania u źródła.",
-    "heroIntro": "Uprawiane przez ludzi, których znamy, w miejscach, do których wracamy sezon po sezonie — następnie badane, dokumentowane i dostarczane w skali, jakiej potrzebujesz.",
+    "heroTitle1": "Pozyskujemy składnik",
+    "heroTitle2": "i za nim stoimy.",
+    "heroIntro": "Kupujemy bezpośrednio od gospodarstwa, kontrolujemy łańcuch od zbioru do palety i dostarczamy markom, producentom i private label matcha, hojicha, hibiscus, ube i lion's mane.",
     "ctaQuote": "Poproś o wycenę hurtową",
     "ctaTrace": "Prześledź partię →",
     "heroBadge": "Bezpośrednio od źródła",
@@ -120,7 +120,12 @@
     ],
     "ctaHeading": "Źródło to cała historia.",
     "ctaBody": "Powiedz nam, czego potrzebujesz i w jakiej skali. Pozyskamy to, zweryfikujemy i udokumentujemy — i dostarczymy przez Hongkong do Ciebie.",
-    "ctaNote": "Wyślij specyfikację — raport z laboratorium i wycena w 48 godzin"
+    "ctaNote": "Wyślij specyfikację — raport z laboratorium i wycena w 48 godzin",
+    "pillars": [
+      "Kupowane u źródła, nie przez pośrednika",
+      "Jedno pochodzenie na produkt, z nazwy",
+      "Badane partiami, dokumentowane na palecie"
+    ]
   },
   "insights": {
     "eyebrow": "Analizy",

@@ -38,9 +38,9 @@
     "metaTitle": "Fournisseur de Matcha en Gros — Matcha & Superaliments en Vrac",
     "metaDescription": "Matcha en vrac et poudres de superaliments pour fabricants — origine unique, chaque lot testé en laboratoire (JAS, bio UE & USDA), de l'échantillon au conteneur complet. Superfoods Partners s'approvisionne directement à l'origine. Demandez un devis.",
     "heroEyebrow": "Poudres de superaliments mono-origine",
-    "heroTitle1": "Sourcé à grande échelle.",
-    "heroTitle2": "De confiance en origine.",
-    "heroIntro": "Cultivé par des gens que nous connaissons, dans des lieux où nous revenons saison après saison — puis analysé, documenté et acheminé à l'échelle dont vous avez besoin.",
+    "heroTitle1": "Nous sourçons l'ingrédient,",
+    "heroTitle2": "et nous l'assumons.",
+    "heroIntro": "Nous achetons directement à la ferme, maîtrisons la chaîne de la récolte à la palette, et fournissons marques, fabricants et private label en matcha, hojicha, hibiscus, ube et lion's mane.",
     "ctaQuote": "Demander un devis de volume",
     "ctaTrace": "Tracer un lot →",
     "heroBadge": "En direct de l'origine",
@@ -120,7 +120,12 @@
     ],
     "ctaHeading": "La source, c'est l'histoire.",
     "ctaBody": "Dites-nous ce qu'il vous faut et à quelle échelle. Nous le sourçons, le vérifions et le documentons — et l'acheminons via Hong Kong jusqu'à vous.",
-    "ctaNote": "Envoyez votre spécification — rapport de laboratoire et devis sous 48 heures"
+    "ctaNote": "Envoyez votre spécification — rapport de laboratoire et devis sous 48 heures",
+    "pillars": [
+      "Acheté à la source, pas via un négociant",
+      "Une origine par produit, nommée",
+      "Testé par lot, documenté par palette"
+    ]
   },
   "insights": {
     "eyebrow": "Analyses",

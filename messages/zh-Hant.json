@@ -38,9 +38,9 @@
     "metaTitle": "抹茶批發供應商 — 大宗抹茶與超級食品，源頭直供",
     "metaDescription": "為製造商供應大宗抹茶與超級食品粉末——單一產地、每批經實驗室檢驗（JAS、歐盟及 USDA 有機），從樣品到整櫃。Superfoods Partners 源頭直採，歡迎索取報價。",
     "heroEyebrow": "單一產地超級食物粉",
-    "heroTitle1": "規模化採購。",
-    "heroTitle2": "源頭可信賴。",
-    "heroIntro": "由我們熟識的人親手栽種，在我們年復一年重返的產地——再依您所需的規模完成檢測、記錄與運送。",
+    "heroTitle1": "我們採購原料,",
+    "heroTitle2": "並為它負責。",
+    "heroIntro": "我們直接向農場採購,掌控從採收到棧板的整條供應鏈,並為品牌、製造商與自有品牌供應 matcha、hojicha、hibiscus、ube 與 lion's mane。",
     "ctaQuote": "索取大宗報價",
     "ctaTrace": "追溯批次 →",
     "heroBadge": "產地直供",
@@ -120,7 +120,12 @@
     ],
     "ctaHeading": "源頭就是故事本身。",
     "ctaBody": "告訴我們您的需求與規模。我們負責採購、驗證與記錄——並經香港為您轉運。",
-    "ctaNote": "寄出您的規格——48 小時內提供實驗室報告與報價"
+    "ctaNote": "寄出您的規格——48 小時內提供實驗室報告與報價",
+    "pillars": [
+      "直接向源頭採購,不經貿易商",
+      "每項產品單一產地,明確標示",
+      "每批檢驗,每棧板記錄"
+    ]
   },
   "insights": {
     "eyebrow": "洞察",
