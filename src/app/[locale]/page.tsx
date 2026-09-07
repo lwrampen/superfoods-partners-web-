@@ -46,7 +46,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const steps = t.raw("steps") as { t: string; d: string }[];
-  const audienceHrefs = ["/catalog", "/verification", "/contact"];
+  const audienceHrefs = ["/products", "/verification", "/contact"];
   const audienceRooms = (
     t.raw("audiences.rooms") as { tag: string; who: string; body: string; cta: string }[]
   ).map((r, i) => ({ ...r, href: audienceHrefs[i] }));
@@ -138,7 +138,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <Marker n="(01)" label={t("catMarker")} />
             <div className="flex items-end justify-between">
               <h2 className="display text-4xl text-green">{t("catHeading", { n: ORIGIN_LIST.length })}</h2>
-              <Link href="/catalog" className="mono text-[11px] uppercase tracking-widest text-stone/60 transition-colors hover:text-green">
+              <Link href="/products" className="mono text-[11px] uppercase tracking-widest text-stone/60 transition-colors hover:text-green">
                 {t("catViewAll")}
               </Link>
             </div>
@@ -150,7 +150,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               return (
                 <Reveal key={p.slug} delay={i * 0.06}>
                   <Link
-                    href={`/catalog/${p.slug}`}
+                    href={`/products/${p.slug}`}
                     className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
                     style={{ backgroundColor: p.accent }}
                   >

@@ -5,7 +5,7 @@ import { MobileMenu } from "@/components/MobileMenu";
 import { LangSwitch } from "@/components/LangSwitch";
 
 const NAV = [
-  { key: "catalog", href: "/catalog" },
+  { key: "products", href: "/products" },
   { key: "origins", href: "/origins" },
   { key: "verification", href: "/verification" },
   { key: "insights", href: "/insights" },

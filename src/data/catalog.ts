@@ -1,4 +1,4 @@
-// Single source of truth for the catalogue. Drives /catalog, PDPs,
+// Single source of truth for the catalogue. Drives /products, PDPs,
 // /origins and the per-origin landing pages (programmatic SEO).
 
 export type Origin = {
@@ -11,10 +11,42 @@ export type Origin = {
 
 export type Form = "Organic" | "Conventional";
 
+// The specialist labels under the Superfoods Partners house. Every product is
+// offered under exactly one. "sfp" is the house itself (direct); "pmp" is the
+// live specialist matcha brand. Future labels (Ube/Protein Partners) slot in here.
+export type LabelId = "pmp" | "sfp";
+
+export const LABELS: Record<
+  LabelId,
+  {
+    id: LabelId;
+    name: string;
+    house: boolean; // true = the umbrella itself, not a distinct specialist brand
+    accent?: string; // brand accent (lime for PMP)
+    href?: string; // external label site, if any
+    endorsement?: string; // verbatim endorsement line, never translated
+  }
+> = {
+  pmp: {
+    id: "pmp",
+    name: "Pure Matcha Partners",
+    house: false,
+    accent: "#8CC541",
+    href: "https://www.purematchapartners.com",
+    endorsement: "Pure Matcha Partners — a Superfoods Partners brand",
+  },
+  sfp: {
+    id: "sfp",
+    name: "Superfoods Partners",
+    house: true,
+  },
+};
+
 export type Product = {
   slug: string;
   name: string; // UPPERCASE per brand
   category: string;
+  label: LabelId; // the specialist label this product is offered under
   code: string; // for SKU, e.g. "M"
   accent: string; // hex — matte product colour
   tint: string; // hex — lighter title tint
@@ -55,6 +87,7 @@ export const ORIGINS: Record<string, Origin> = {
 export const PRODUCTS: Product[] = [
   {
     slug: "matcha",
+    label: "pmp",
     name: "MATCHA",
     category: "Matcha",
     code: "M",
@@ -99,6 +132,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "hojicha",
+    label: "pmp",
     name: "HOJICHA",
     category: "Hojicha",
     code: "H",
@@ -137,6 +171,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "ube",
+    label: "sfp",
     name: "UBE",
     category: "Superfoods",
     code: "U",
@@ -175,6 +210,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "lions-mane",
+    label: "sfp",
     name: "LION'S MANE",
     category: "Superfoods",
     code: "L",
@@ -212,6 +248,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "hibiscus",
+    label: "sfp",
     name: "HIBISCUS",
     category: "Superfoods",
     code: "HB",
@@ -249,6 +286,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "jasmine-tea-powder",
+    label: "sfp",
     name: "JASMINE",
     category: "Specialty Teas",
     code: "JA",
@@ -287,6 +325,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "oolong-tea-powder",
+    label: "sfp",
     name: "OOLONG",
     category: "Specialty Teas",
     code: "OO",
@@ -325,6 +364,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "earl-grey-tea-powder",
+    label: "sfp",
     name: "EARL GREY",
     category: "Specialty Teas",
     code: "EG",

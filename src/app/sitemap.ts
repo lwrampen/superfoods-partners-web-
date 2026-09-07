@@ -25,7 +25,7 @@ function entry(path: string, priority: number): MetadataRoute.Sitemap[number] {
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths: [string, number][] = [
     ["/", 1],
-    ["/catalog", 0.8],
+    ["/products", 0.8],
     ["/origins", 0.8],
     ["/verification", 0.8],
     ["/insights", 0.7],
@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   return [
     ...staticPaths.map(([p, pr]) => entry(p, pr)),
-    ...PRODUCTS.map((p) => entry(`/catalog/${p.slug}`, 0.7)),
+    ...PRODUCTS.map((p) => entry(`/products/${p.slug}`, 0.7)),
     ...ORIGIN_LIST.map((o) => entry(`/origins/${o.slug}`, 0.6)),
     ...POSTS.map((p) => entry(`/insights/${p.slug}`, 0.6)),
   ];

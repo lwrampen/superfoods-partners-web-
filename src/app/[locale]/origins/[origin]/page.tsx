@@ -97,7 +97,7 @@ export default async function OriginPage({ params }: { params: Promise<{ locale:
               return (
                 <Reveal key={p.slug} delay={i * 0.07}>
                   <Link
-                    href={`/catalog/${p.slug}`}
+                    href={`/products/${p.slug}`}
                     className="group relative flex aspect-[5/4] flex-col justify-between overflow-hidden rounded-xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
                     style={{ backgroundColor: p.accent }}
                   >

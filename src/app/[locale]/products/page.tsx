@@ -18,7 +18,7 @@ export async function generateMetadata({
   return {
     title: t("metaTitle"),
     description: t("metaDescription"),
-    alternates: alternatesFor(locale, "/catalog"),
+    alternates: alternatesFor(locale, "/products"),
   };
 }
 
@@ -27,7 +27,7 @@ function ProductTile({ slug, locale }: { slug: string; locale: string }) {
   const origin = localizeOrigin(ORIGINS[p.originSlugs[0]], locale);
   return (
     <Link
-      href={`/catalog/${p.slug}`}
+      href={`/products/${p.slug}`}
       className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
       style={{ backgroundColor: p.accent }}
     >

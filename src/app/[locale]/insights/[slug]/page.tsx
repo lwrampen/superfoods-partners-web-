@@ -189,7 +189,7 @@ export default async function InsightPost({
                 {related.map((p) => (
                   <Link
                     key={p.slug}
-                    href={`/catalog/${p.slug}`}
+                    href={`/products/${p.slug}`}
                     className="rounded-lg border border-stone/20 bg-white px-4 py-2 text-sm text-green transition-colors hover:border-green/40"
                   >
                     {p.name}

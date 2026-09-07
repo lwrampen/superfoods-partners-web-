@@ -30,11 +30,11 @@ export function SiteFooter() {
           <div className="flex flex-col gap-2 text-sm">
             <span className="mono text-[10px] uppercase tracking-wide text-oat/40">{t("catalogue")}</span>
             {PRODUCTS.map((p) => (
-              <Link key={p.slug} href={`/catalog/${p.slug}`} className="capitalize hover:text-oat">
+              <Link key={p.slug} href={`/products/${p.slug}`} className="capitalize hover:text-oat">
                 {p.name.toLowerCase()}
               </Link>
             ))}
-            <Link href="/catalog" className="mt-1 text-oat/50 hover:text-oat">{t("allProducts")}</Link>
+            <Link href="/products" className="mt-1 text-oat/50 hover:text-oat">{t("allProducts")}</Link>
           </div>
 
           {/* Direct links to every origin page, grouped by country. */}
