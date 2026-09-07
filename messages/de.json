@@ -38,9 +38,9 @@
     "metaTitle": "Matcha-Großhandel & Lieferant — Bulk-Matcha & Superfoods ab Ursprung",
     "metaDescription": "Bulk-Matcha und Superfood-Pulver für Hersteller — sortenrein, jede Charge laborgeprüft (JAS, EU- & USDA-Bio), vom Muster bis zum ganzen Container. Superfoods Partners liefert direkt vom Ursprung. Angebot anfordern.",
     "heroEyebrow": "Superfood-Pulver aus einer Herkunft",
-    "heroTitle1": "Im großen Maßstab beschafft.",
-    "heroTitle2": "Am Ursprung vertraut.",
-    "heroIntro": "Angebaut von Menschen, die wir kennen, an Orten, zu denen wir Saison für Saison zurückkehren — dann geprüft, dokumentiert und in dem Maßstab bewegt, den Sie brauchen.",
+    "heroTitle1": "A Modern",
+    "heroTitle2": "Ingredient House",
+    "heroIntro": "Wir kaufen direkt ab Hof, kontrollieren die Kette von der Ernte bis zur Palette und beliefern Marken, Hersteller und Private Label mit matcha, hojicha, hibiscus, ube und lion's mane.",
     "ctaQuote": "Mengenangebot anfragen",
     "ctaTrace": "Charge verfolgen →",
     "heroBadge": "Direkt vom Ursprung",
@@ -120,7 +120,12 @@
     ],
     "ctaHeading": "Der Ursprung ist die Geschichte.",
     "ctaBody": "Sagen Sie uns, was Sie brauchen und in welchem Maßstab. Wir beschaffen, prüfen und dokumentieren es — und leiten es über Hongkong zu Ihnen.",
-    "ctaNote": "Senden Sie Ihre Spezifikation — Laborbericht & Angebot innerhalb von 48 Stunden"
+    "ctaNote": "Senden Sie Ihre Spezifikation — Laborbericht & Angebot innerhalb von 48 Stunden",
+    "pillars": [
+      "Direkt an der Quelle gekauft, nicht über einen Händler",
+      "Ein Ursprung pro Produkt, benannt",
+      "Pro Charge geprüft, pro Palette dokumentiert"
+    ]
   },
   "insights": {
     "eyebrow": "Einblicke",

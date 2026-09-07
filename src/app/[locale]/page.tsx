@@ -64,12 +64,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <section className="mx-auto grid max-w-6xl items-center gap-12 px-6 pt-14 pb-20 md:grid-cols-[1.05fr_0.95fr] md:gap-14 md:pt-24 md:pb-28">
           <Reveal>
             <p className="mono text-xs uppercase tracking-widest text-amber">{t("heroEyebrow")}</p>
-            <h1 className="display mt-6 text-[3.4rem] leading-[1.03] text-green md:text-[4.6rem]">
+            <h1 className="display mt-6 text-[2.9rem] leading-[1.02] text-green md:text-[3.9rem]">
               {t("heroTitle1")}
               <br />
               {t("heroTitle2")}
             </h1>
-            <p className="mt-7 max-w-md text-lg leading-relaxed text-stone">{t("heroIntro")}</p>
+            <p className="mt-7 max-w-lg text-lg leading-relaxed text-stone">{t("heroIntro")}</p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link href="/contact" className="rounded-lg bg-green px-5 py-3 text-sm font-medium text-oat transition-opacity hover:opacity-90">
                 {t("ctaQuote")}
@@ -78,7 +78,14 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 {t("ctaTrace")}
               </a>
             </div>
-            <p className="mono mt-8 text-[11px] uppercase tracking-wide text-stone/55">{t("heroBadge")}</p>
+            <ul className="mt-9 flex flex-col gap-2.5 border-t border-stone/15 pt-6">
+              {(t.raw("pillars") as string[]).map((pillar, i) => (
+                <li key={i} className="flex items-baseline gap-3 text-sm text-stone">
+                  <span className="mono text-[11px] text-amber">{String(i + 1).padStart(2, "0")}</span>
+                  {pillar}
+                </li>
+              ))}
+            </ul>
           </Reveal>
           <Reveal delay={0.15} y={28}>
             <OriginPhoto

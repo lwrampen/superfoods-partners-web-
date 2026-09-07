@@ -38,9 +38,9 @@
     "metaTitle": "Matcha Wholesale Supplier — Bulk Matcha & Superfoods at Origin",
     "metaDescription": "Bulk matcha and superfood powders for manufacturers — single-origin, lab-tested every batch (JAS, EU & USDA Organic), from sample to full container. Superfoods Partners sources direct from origin. Request a quote.",
     "heroEyebrow": "Single-origin superfood powders",
-    "heroTitle1": "Sourced at scale.",
-    "heroTitle2": "Trusted at origin.",
-    "heroIntro": "Grown by people we know, in places we return to season after season — then tested, documented and moved at the scale you need.",
+    "heroTitle1": "A Modern",
+    "heroTitle2": "Ingredient House",
+    "heroIntro": "We buy directly at the farm, control the chain from harvest to pallet, and supply brands, manufacturers and private label with matcha, hojicha, hibiscus, ube and lion's mane.",
     "ctaQuote": "Request a volume quote",
     "ctaTrace": "Trace a batch →",
     "heroBadge": "Direct from origin",
@@ -120,7 +120,12 @@
     ],
     "ctaHeading": "The source is the story.",
     "ctaBody": "Tell us what you need and at what scale. We'll source, verify and document it — and route it through Hong Kong to you.",
-    "ctaNote": "Send your spec — lab report & quote within 48 hours"
+    "ctaNote": "Send your spec — lab report & quote within 48 hours",
+    "pillars": [
+      "Bought at source, not through a trader",
+      "One origin per product, named",
+      "Tested per lot, documented per pallet"
+    ]
   },
   "insights": {
     "eyebrow": "Insights",

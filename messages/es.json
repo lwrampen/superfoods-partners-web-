@@ -38,9 +38,9 @@
     "metaTitle": "Proveedor de Matcha al por Mayor — Matcha y Superalimentos a Granel",
     "metaDescription": "Matcha a granel y superalimentos en polvo para fabricantes — de origen único, cada lote analizado en laboratorio (JAS, EU y USDA Orgánico), desde muestra hasta contenedor completo. Superfoods Partners abastece directo del origen. Solicita presupuesto.",
     "heroEyebrow": "Superalimentos en polvo de origen único",
-    "heroTitle1": "Abastecimiento a escala.",
-    "heroTitle2": "Confianza en origen.",
-    "heroIntro": "Cultivado por personas que conocemos, en lugares a los que volvemos temporada tras temporada — y luego analizado, documentado y movido a la escala que usted necesita.",
+    "heroTitle1": "A Modern",
+    "heroTitle2": "Ingredient House",
+    "heroIntro": "Compramos directamente en la finca, controlamos la cadena desde la cosecha hasta el palet, y suministramos a marcas, fabricantes y private label matcha, hojicha, hibiscus, ube y lion's mane.",
     "ctaQuote": "Solicitar presupuesto por volumen",
     "ctaTrace": "Rastrear un lote →",
     "heroBadge": "Directo desde origen",
@@ -120,7 +120,12 @@
     ],
     "ctaHeading": "El origen es la historia.",
     "ctaBody": "Díganos qué necesita y a qué escala. Lo abasteceremos, verificaremos y documentaremos — y se lo enrutaremos a través de Hong Kong.",
-    "ctaNote": "Envíe su especificación — informe de laboratorio y presupuesto en 48 horas"
+    "ctaNote": "Envíe su especificación — informe de laboratorio y presupuesto en 48 horas",
+    "pillars": [
+      "Comprado en origen, no a través de un intermediario",
+      "Un origen por producto, con nombre",
+      "Analizado por lote, documentado por palet"
+    ]
   },
   "insights": {
     "eyebrow": "Análisis",
