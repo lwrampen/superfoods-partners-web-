@@ -125,7 +125,32 @@
       "Acheté à la source, pas via un négociant",
       "Une origine par produit, nommée",
       "Testé par lot, documenté par palette"
-    ]
+    ],
+    "audiences": {
+      "eyebrow": "À qui nous fournissons",
+      "heading": "Trois salles, une maison",
+      "body": "Chaque acheteur entre par une porte différente. Dites-nous laquelle est la vôtre, et la conversation commence là.",
+      "rooms": [
+        {
+          "tag": "L'origine d'abord",
+          "who": "Pour les marques",
+          "body": "Vous construisez un produit autour d'une origine nommée. Commencez par la gamme : chaque poudre remonte à une seule ferme, documentée.",
+          "cta": "Voir la gamme"
+        },
+        {
+          "tag": "La spécification d'abord",
+          "who": "Pour les fabricants",
+          "body": "Vous avez besoin de la même spécification, lot après lot. Découvrez comment nous testons par lot et documentons par palette.",
+          "cta": "Voir la vérification"
+        },
+        {
+          "tag": "Le stock d'abord",
+          "who": "Pour la marque de distributeur",
+          "body": "Vous avez besoin d'un stock fiable et d'une exécution rapide. Indiquez votre volume, nous chiffrons sur le disponible.",
+          "cta": "Demander un devis"
+        }
+      ]
+    }
   },
   "insights": {
     "eyebrow": "Analyses",

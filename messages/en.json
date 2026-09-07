@@ -125,7 +125,32 @@
       "Bought at source, not through a trader",
       "One origin per product, named",
       "Tested per lot, documented per pallet"
-    ]
+    ],
+    "audiences": {
+      "eyebrow": "Who we supply",
+      "heading": "Three rooms, one house",
+      "body": "Every buyer comes in through a different door. Tell us which is yours, and the conversation starts there.",
+      "rooms": [
+        {
+          "tag": "Origin-first",
+          "who": "For brands",
+          "body": "You're building a product around a named origin. Start with the range — every powder traces to one farm, documented.",
+          "cta": "Browse the range"
+        },
+        {
+          "tag": "Spec-first",
+          "who": "For manufacturers",
+          "body": "You need the same spec, lot after lot. See how we test per lot and document per pallet.",
+          "cta": "See verification"
+        },
+        {
+          "tag": "Stock-first",
+          "who": "For private label",
+          "body": "You need reliable stock and quick turnaround. Tell us your volume and we'll quote from what's available.",
+          "cta": "Request a quote"
+        }
+      ]
+    }
   },
   "insights": {
     "eyebrow": "Insights",
