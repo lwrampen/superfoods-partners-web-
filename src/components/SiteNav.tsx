@@ -9,7 +9,7 @@ const NAV = [
   { key: "origins", href: "/origins" },
   { key: "verification", href: "/verification" },
   { key: "insights", href: "/insights" },
-  { key: "about", href: "/about" },
+  { key: "company", href: "/company" },
 ] as const;
 
 export function SiteNav() {

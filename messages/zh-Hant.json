@@ -11,7 +11,8 @@
     "about": "關於我們",
     "requestVolume": "洽詢大宗批發",
     "home": "Superfoods Partners — 首頁",
-    "insights": "洞察"
+    "insights": "洞察",
+    "company": "公司"
   },
   "footer": {
     "tagline": "規模化採購，源頭可信賴。",
@@ -218,9 +219,9 @@
     ]
   },
   "about": {
-    "metaTitle": "關於我們——值得信賴的超級食物採購夥伴",
+    "metaTitle": "公司——值得信賴的超級食物採購夥伴",
     "metaDescription": "Superfoods Partners 是一家荷蘭的單一產地超級食物粉供應商,於香港、荷蘭與美國營運。Pure Matcha Partners 是我們的抹茶專門品牌。",
-    "eyebrow": "關於我們",
+    "eyebrow": "公司",
     "eyebrowSub": "我們是誰",
     "heroHeading": "源頭就是故事本身。",
     "heroBody1": "Superfoods Partners 是我們集團的母體——共用的單一產地超級食物粉組合,並於香港、荷蘭與美國設有營運公司。我們直接向農場採購,將大批經驗證的貨量供應給製造商、品牌與自有品牌。",
@@ -231,7 +232,21 @@
     "ctaButton": "索取大宗報價",
     "groupEyebrow": "集團",
     "groupHeading": "一個名字,三處據點。",
-    "groupBody": "每一家公司都是 Superfoods Partners——一個母體,並在香港、荷蘭與美國設有營運公司。商業品牌位於其下,由所有公司共用;Pure Matcha Partners 是我們目前的抹茶專門品牌。"
+    "groupBody": "每一家公司都是 Superfoods Partners——一個母體,並在香港、荷蘭與美國設有營運公司。商業品牌位於其下,由所有公司共用;Pure Matcha Partners 是我們目前的抹茶專門品牌。",
+    "houseEyebrow": "我們如何組成",
+    "houseHeading": "兩個品牌，一個家",
+    "houseBody": "Superfoods Partners 是這個家——公司、產地、供應商關係。之下是專門的品牌，各自主理一個品類，證明原料的實力。產品以其中一個品牌交到你手上，或以你自己的品牌、由我們在背後背書。",
+    "houseUmbrellaTag": "這個家",
+    "houseUmbrellaBody": "公司與整條鏈——每個產地、每一批、每個據點。所有系列，散裝與自有品牌。",
+    "housePmpTag": "專門品牌",
+    "housePmpBody": "我們的專門抹茶品牌——抹茶與焙茶，自行包裝與品牌化，擁有獨立的品牌識別。",
+    "houseSoonTag": "籌備中",
+    "houseSoonTitle": "更多品牌",
+    "houseSoonBody": "此模式依品類擴展。隨著系列成熟，新的專門品牌會加入這個家。",
+    "houseRouteOwnTitle": "以我們的品牌",
+    "houseRouteOwnBody": "當我們親自包裝與品牌化——如 Pure Matcha Partners——品牌為原料背書。我們自己的品牌證明它的實力。",
+    "houseRoutePrivTitle": "以你的品牌",
+    "houseRoutePrivBody": "自有品牌時，你的品牌印在包裝上，我們在背後背書——證明原料的來源與檢測。"
   },
   "team": {
     "eyebrow": "團隊",

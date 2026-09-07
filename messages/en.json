@@ -11,7 +11,8 @@
     "about": "About",
     "requestVolume": "Request volume",
     "home": "Superfoods Partners — home",
-    "insights": "Insights"
+    "insights": "Insights",
+    "company": "Company"
   },
   "footer": {
     "tagline": "Sourced at scale. Trusted at origin.",
@@ -218,9 +219,9 @@
     ]
   },
   "about": {
-    "metaTitle": "About — the trusted superfood sourcing partner",
+    "metaTitle": "Company — the trusted superfood sourcing partner",
     "metaDescription": "Superfoods Partners is a Dutch supplier of single-origin superfood powders, operating from Hong Kong, the Netherlands and the United States. Pure Matcha Partners is our specialist matcha brand.",
-    "eyebrow": "About",
+    "eyebrow": "Company",
     "eyebrowSub": "Who we are",
     "heroHeading": "The source is the story.",
     "heroBody1": "Superfoods Partners is the umbrella for our group — one shared portfolio of single-origin superfood powders, with local operating entities in Hong Kong, the Netherlands and the United States. We buy direct from the farms and move large, verified volumes to manufacturers, brands and private label.",
@@ -231,7 +232,21 @@
     "ctaButton": "Request a volume quote",
     "groupEyebrow": "The group",
     "groupHeading": "One name, three locations.",
-    "groupBody": "Every company is Superfoods Partners — one umbrella with local operating entities in Hong Kong, the Netherlands and the United States. The commercial labels sit underneath and are shared across all of them; Pure Matcha Partners is our specialist matcha brand today."
+    "groupBody": "Every company is Superfoods Partners — one umbrella with local operating entities in Hong Kong, the Netherlands and the United States. The commercial labels sit underneath and are shared across all of them; Pure Matcha Partners is our specialist matcha brand today.",
+    "houseEyebrow": "How we're built",
+    "houseHeading": "Two brands, one house",
+    "houseBody": "Superfoods Partners is the house — the company, the origins, the supplier relationships. Beneath it sit specialist labels, each one owning a category and proving what the material can do. A product reaches you under one of those labels, or under your own brand with our name behind it.",
+    "houseUmbrellaTag": "The house",
+    "houseUmbrellaBody": "The company and the chain — every origin, every lot, every location. All the ranges, bulk and private label.",
+    "housePmpTag": "Specialist label",
+    "housePmpBody": "Our specialist matcha brand — matcha and hojicha, packed and branded, with its own identity.",
+    "houseSoonTag": "In the works",
+    "houseSoonTitle": "More labels",
+    "houseSoonBody": "The model scales by category. New specialist labels join the house as ranges mature.",
+    "houseRouteOwnTitle": "Under our label",
+    "houseRouteOwnBody": "When we pack and brand it ourselves — as with Pure Matcha Partners — the label stands behind the material. Our own labels prove what it can do.",
+    "houseRoutePrivTitle": "Under your brand",
+    "houseRoutePrivBody": "For private label, your brand goes on the pack and ours stands behind it as an endorsement — proof of where the material came from and how it was tested."
   },
   "team": {
     "eyebrow": "The team",

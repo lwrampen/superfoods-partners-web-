@@ -11,7 +11,8 @@
     "about": "Über uns",
     "requestVolume": "Menge anfragen",
     "home": "Superfoods Partners — Startseite",
-    "insights": "Einblicke"
+    "insights": "Einblicke",
+    "company": "Unternehmen"
   },
   "footer": {
     "tagline": "Beschafft im großen Maßstab. Vertraut am Ursprung.",
@@ -218,9 +219,9 @@
     ]
   },
   "about": {
-    "metaTitle": "Über uns — der vertrauenswürdige Superfood-Beschaffungspartner",
+    "metaTitle": "Unternehmen — der vertrauenswürdige Superfood-Beschaffungspartner",
     "metaDescription": "Superfoods Partners ist ein niederländischer Lieferant sortenreiner Superfood-Pulver mit Standorten in Hongkong, den Niederlanden und den USA. Pure Matcha Partners ist unsere Matcha-Spezialmarke.",
-    "eyebrow": "Über uns",
+    "eyebrow": "Unternehmen",
     "eyebrowSub": "Wer wir sind",
     "heroHeading": "Der Ursprung ist die Geschichte.",
     "heroBody1": "Superfoods Partners ist das Dach unserer Gruppe — ein gemeinsames Portfolio sortenreiner Superfood-Pulver, mit operativen Gesellschaften in Hongkong, den Niederlanden und den USA. Wir kaufen direkt ab Hof und liefern große, geprüfte Mengen an Hersteller, Marken und Private Label.",
@@ -231,7 +232,21 @@
     "ctaButton": "Mengenangebot anfragen",
     "groupEyebrow": "Die Gruppe",
     "groupHeading": "Ein Name, drei Standorte.",
-    "groupBody": "Jedes Unternehmen ist Superfoods Partners — ein Dach mit operativen Gesellschaften in Hongkong, den Niederlanden und den USA. Die kommerziellen Labels liegen darunter und werden von allen gemeinsam genutzt; Pure Matcha Partners ist heute unsere Matcha-Spezialmarke."
+    "groupBody": "Jedes Unternehmen ist Superfoods Partners — ein Dach mit operativen Gesellschaften in Hongkong, den Niederlanden und den USA. Die kommerziellen Labels liegen darunter und werden von allen gemeinsam genutzt; Pure Matcha Partners ist heute unsere Matcha-Spezialmarke.",
+    "houseEyebrow": "Wie wir aufgebaut sind",
+    "houseHeading": "Zwei Marken, ein Haus",
+    "houseBody": "Superfoods Partners ist das Haus – das Unternehmen, die Herkünfte, die Lieferantenbeziehungen. Darunter stehen spezialisierte Labels, jedes für eine Kategorie, die zeigen, was das Material kann. Ein Produkt erreicht Sie unter einem dieser Labels oder unter Ihrer eigenen Marke, mit unserem Namen dahinter.",
+    "houseUmbrellaTag": "Das Haus",
+    "houseUmbrellaBody": "Das Unternehmen und die Kette – jede Herkunft, jedes Los, jeder Standort. Alle Sortimente, Bulk und Handelsmarke.",
+    "housePmpTag": "Spezialisiertes Label",
+    "housePmpBody": "Unsere spezialisierte Matcha-Marke – Matcha und Hojicha, gepackt und gebrandet, mit eigener Identität.",
+    "houseSoonTag": "In Arbeit",
+    "houseSoonTitle": "Weitere Labels",
+    "houseSoonBody": "Das Modell skaliert nach Kategorie. Neue spezialisierte Labels kommen hinzu, wenn Sortimente reifen.",
+    "houseRouteOwnTitle": "Unter unserem Label",
+    "houseRouteOwnBody": "Wenn wir selbst packen und branden – wie bei Pure Matcha Partners – steht das Label hinter dem Material. Unsere eigenen Labels beweisen, was es kann.",
+    "houseRoutePrivTitle": "Unter Ihrer Marke",
+    "houseRoutePrivBody": "Bei Handelsmarke steht Ihre Marke auf der Verpackung und unsere als Endorsement dahinter – Beleg für Herkunft und Prüfung des Materials."
   },
   "team": {
     "eyebrow": "Das Team",
