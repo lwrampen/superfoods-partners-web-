@@ -13,7 +13,13 @@
     "home": "Superfoods Partners — home",
     "insights": "Insights",
     "company": "Company",
-    "products": "Products"
+    "products": "Products",
+    "allProducts": "All products",
+    "byOrigin": "By origin",
+    "allOrigins": "All origins",
+    "specialist": "Specialist label",
+    "house": "House range",
+    "originsNote": "{origins} origins across {countries} countries — bought at source."
   },
   "footer": {
     "tagline": "Sourced at scale. Trusted at origin.",

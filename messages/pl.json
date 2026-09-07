@@ -13,7 +13,13 @@
     "home": "Superfoods Partners — strona główna",
     "insights": "Analizy",
     "company": "Firma",
-    "products": "Produkty"
+    "products": "Produkty",
+    "allProducts": "Wszystkie produkty",
+    "byOrigin": "Wg pochodzenia",
+    "allOrigins": "Wszystkie pochodzenia",
+    "specialist": "Marka wyspecjalizowana",
+    "house": "Asortyment domu",
+    "originsNote": "{origins} miejsc pochodzenia w {countries} krajach — kupione u źródła."
   },
   "footer": {
     "tagline": "Pozyskiwane na dużą skalę. Godne zaufania u źródła.",
