@@ -125,7 +125,32 @@
       "Direkt an der Quelle gekauft, nicht über einen Händler",
       "Ein Ursprung pro Produkt, benannt",
       "Pro Charge geprüft, pro Palette dokumentiert"
-    ]
+    ],
+    "audiences": {
+      "eyebrow": "Wen wir beliefern",
+      "heading": "Drei Räume, ein Haus",
+      "body": "Jeder Einkäufer kommt durch eine andere Tür herein. Sagen Sie uns, welche Ihre ist – und das Gespräch beginnt genau dort.",
+      "rooms": [
+        {
+          "tag": "Herkunft zuerst",
+          "who": "Für Marken",
+          "body": "Sie bauen ein Produkt um eine benannte Herkunft. Beginnen Sie beim Sortiment – jedes Pulver lässt sich zu einer Farm zurückverfolgen, dokumentiert.",
+          "cta": "Sortiment ansehen"
+        },
+        {
+          "tag": "Spezifikation zuerst",
+          "who": "Für Hersteller",
+          "body": "Sie brauchen dieselbe Spezifikation, Charge für Charge. Sehen Sie, wie wir pro Los prüfen und pro Palette dokumentieren.",
+          "cta": "Verifizierung ansehen"
+        },
+        {
+          "tag": "Verfügbarkeit zuerst",
+          "who": "Für Handelsmarken",
+          "body": "Sie brauchen verlässlichen Bestand und schnelle Abwicklung. Nennen Sie uns Ihr Volumen, wir kalkulieren aus dem verfügbaren Lager.",
+          "cta": "Angebot anfordern"
+        }
+      ]
+    }
   },
   "insights": {
     "eyebrow": "Einblicke",

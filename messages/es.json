@@ -125,7 +125,32 @@
       "Comprado en origen, no a través de un intermediario",
       "Un origen por producto, con nombre",
       "Analizado por lote, documentado por palet"
-    ]
+    ],
+    "audiences": {
+      "eyebrow": "A quién abastecemos",
+      "heading": "Tres salas, una casa",
+      "body": "Cada comprador entra por una puerta distinta. Díganos cuál es la suya y la conversación empieza ahí.",
+      "rooms": [
+        {
+          "tag": "Origen primero",
+          "who": "Para marcas",
+          "body": "Construye un producto en torno a un origen con nombre. Empiece por la gama: cada polvo se rastrea hasta una sola finca, documentado.",
+          "cta": "Ver la gama"
+        },
+        {
+          "tag": "Especificación primero",
+          "who": "Para fabricantes",
+          "body": "Necesita la misma especificación, lote tras lote. Vea cómo analizamos por lote y documentamos por palet.",
+          "cta": "Ver verificación"
+        },
+        {
+          "tag": "Stock primero",
+          "who": "Para marca blanca",
+          "body": "Necesita stock fiable y entrega rápida. Indíquenos su volumen y le cotizamos con lo disponible.",
+          "cta": "Solicitar presupuesto"
+        }
+      ]
+    }
   },
   "insights": {
     "eyebrow": "Análisis",

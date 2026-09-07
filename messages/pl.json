@@ -125,7 +125,32 @@
       "Kupowane u źródła, nie przez pośrednika",
       "Jedno pochodzenie na produkt, z nazwy",
       "Badane partiami, dokumentowane na palecie"
-    ]
+    ],
+    "audiences": {
+      "eyebrow": "Kogo zaopatrujemy",
+      "heading": "Trzy pokoje, jeden dom",
+      "body": "Każdy kupujący wchodzi innymi drzwiami. Powiedz nam, które są Twoje, a rozmowa zacznie się właśnie tam.",
+      "rooms": [
+        {
+          "tag": "Najpierw pochodzenie",
+          "who": "Dla marek",
+          "body": "Budujesz produkt wokół nazwanego pochodzenia. Zacznij od asortymentu — każdy proszek prowadzi do jednej farmy, udokumentowany.",
+          "cta": "Zobacz asortyment"
+        },
+        {
+          "tag": "Najpierw specyfikacja",
+          "who": "Dla producentów",
+          "body": "Potrzebujesz tej samej specyfikacji, partia po partii. Zobacz, jak badamy każdą partię i dokumentujemy każdą paletę.",
+          "cta": "Zobacz weryfikację"
+        },
+        {
+          "tag": "Najpierw dostępność",
+          "who": "Dla marek własnych",
+          "body": "Potrzebujesz pewnych zapasów i szybkiej realizacji. Podaj wolumen, a wycenimy z dostępnego stanu.",
+          "cta": "Poproś o wycenę"
+        }
+      ]
+    }
   },
   "insights": {
     "eyebrow": "Analizy",

@@ -46,6 +46,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const steps = t.raw("steps") as { t: string; d: string }[];
+  const audienceHrefs = ["/catalog", "/verification", "/contact"];
+  const audienceRooms = (
+    t.raw("audiences.rooms") as { tag: string; who: string; body: string; cta: string }[]
+  ).map((r, i) => ({ ...r, href: audienceHrefs[i] }));
   const coreItems = tc.raw("items") as { t: string; d: string }[];
   const socialTags = t.raw("socialTags") as string[];
   const stats = [
@@ -97,6 +101,35 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               className="aspect-[4/5] w-full shadow-[0_30px_80px_-40px_rgba(20,39,27,0.55)]"
             />
           </Reveal>
+        </section>
+
+        {/* AUDIENCES — three rooms, one house */}
+        <section className="bg-forest text-oat">
+          <div className="mx-auto max-w-6xl px-6 py-24">
+            <Reveal className="mb-12 max-w-xl">
+              <p className="mono text-[11px] uppercase tracking-widest text-amber">{t("audiences.eyebrow")}</p>
+              <h2 className="display mt-4 text-4xl leading-tight md:text-5xl">{t("audiences.heading")}</h2>
+              <p className="mt-5 text-oat/75">{t("audiences.body")}</p>
+            </Reveal>
+            <div className="grid gap-5 md:grid-cols-3">
+              {audienceRooms.map((r, i) => (
+                <Reveal key={r.href} delay={i * 0.08}>
+                  <Link
+                    href={r.href}
+                    className="group flex h-full flex-col rounded-xl border border-oat/15 bg-oat/[0.03] p-7 transition-colors hover:border-amber/50 hover:bg-oat/[0.06]"
+                  >
+                    <span className="mono text-[10px] uppercase tracking-widest text-amber">{r.tag}</span>
+                    <h3 className="display mt-4 text-2xl text-oat">{r.who}</h3>
+                    <p className="mt-3 flex-1 text-sm leading-relaxed text-oat/70">{r.body}</p>
+                    <span className="mono mt-6 inline-flex items-center gap-1.5 text-[11px] uppercase tracking-wide text-oat/80 transition-colors group-hover:text-amber">
+                      {r.cta}
+                      <span className="transition-transform group-hover:translate-x-1">→</span>
+                    </span>
+                  </Link>
+                </Reveal>
+              ))}
+            </div>
+          </div>
         </section>
 
         {/* CATALOGUE */}
