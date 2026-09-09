@@ -69,11 +69,11 @@ export function TraceABatch() {
               <div key={n} className="relative flex items-center">
                 <span
                   className="absolute left-[-26px] h-3 w-3 rounded-full border-2 bg-oat"
-                  style={{ borderColor: idx === 2 ? "#E0A23E" : p.accent }}
+                  style={{ borderColor: idx === 2 ? "#8CC541" : p.accent }}
                 />
                 <p
                   className="mono text-xs uppercase"
-                  style={{ color: idx === 2 ? "#E0A23E" : "#1E3D2A" }}
+                  style={{ color: "#1E3D2A" }}
                 >
                   {t(n)}
                 </p>

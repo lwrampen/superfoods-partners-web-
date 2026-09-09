@@ -102,7 +102,7 @@ export default async function OriginsPage({ params }: { params: Promise<{ locale
                 {t("legendMarkets")}
               </span>
               <span className="flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full border-2" style={{ borderColor: "#c58a2a" }} />
+                <span className="h-3 w-3 rounded-full" style={{ backgroundColor: "#8CC541" }} />
                 {t("legendHub")}
               </span>
             </div>

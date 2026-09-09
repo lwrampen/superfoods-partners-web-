@@ -52,12 +52,28 @@ export const MARKETS: Market[] = [
 ];
 
 // The convergence hub every shipment routes through.
-export const HUB = {
-  name: "Hong Kong",
-  via: "Central hub",
-  blurb: "Every origin converges here — consolidated, tested and documented.",
-  lat: 22.32,
-  lng: 114.17,
-};
+// The three co-equal operating locations (replaces the former single hub).
+export type Location = { id: string; name: string; blurb: string; lat: number; lng: number };
+export const LOCATIONS: Location[] = [
+  { id: "hk", name: "Hong Kong", blurb: "Sourcing and QC across Asia — closest to the gardens.", lat: 22.32, lng: 114.17 },
+  { id: "nl", name: "Amsterdam", blurb: "European base — commercial, ops and documentation.", lat: 52.37, lng: 4.9 },
+  { id: "us", name: "Salt Lake City", blurb: "North American base, serving the Americas.", lat: 40.76, lng: -111.89 },
+];
+
+// Nearest operating location to a point — used to route map flows to whichever
+// location sits closest, instead of everything converging on one hub.
+export function nearestLocation(lat: number, lng: number): Location {
+  let best = LOCATIONS[0];
+  let bestD = Infinity;
+  for (const L of LOCATIONS) {
+    const dLng = Math.min(Math.abs(L.lng - lng), 360 - Math.abs(L.lng - lng));
+    const d = (L.lat - lat) ** 2 + dLng ** 2;
+    if (d < bestD) {
+      bestD = d;
+      best = L;
+    }
+  }
+  return best;
+}
 
 export const MARKET_COUNTRIES = new Set(MARKETS.flatMap((m) => m.countries));

@@ -269,7 +269,7 @@
   "trace": {
     "nodeOrigin": "ŹRÓDŁO",
     "nodeLab": "ZWERYFIKOWANE W LABORATORIUM",
-    "nodeHub": "HUB W HONGKONGU",
+    "nodeHub": "UDOKUMENTOWANE",
     "nodeFacility": "TWÓJ ZAKŁAD",
     "testPanel": "Panel badań",
     "routed": "Przeprowadzone przez Hongkong",
@@ -373,7 +373,7 @@
     "mapBody": "Przeciągnij, by obrócić globus, przewiń, by przybliżyć, i najedź na dowolny punkt. Zielony oznacza, skąd pozyskujemy; bursztynowy oznacza rynki, które obsługujemy — wszystko przeprowadzane przez jeden hub w Hongkongu.",
     "legendSourcing": "Sourcing · {count} źródeł",
     "legendMarkets": "Rynki · USA · UE (przez Pure Matcha Partners) · Bliski Wschód",
-    "legendHub": "Hub · Hongkong",
+    "legendHub": "Nasze lokalizacje",
     "statOrigins": "ŹRÓDŁA",
     "statCountries": "KRAJE",
     "statBatch": "BADANE PARTIAMI",

@@ -269,7 +269,7 @@
   "trace": {
     "nodeOrigin": "ORIGINE",
     "nodeLab": "VÉRIFIÉ EN LABORATOIRE",
-    "nodeHub": "HUB DE HONG KONG",
+    "nodeHub": "DOCUMENTÉ",
     "nodeFacility": "VOTRE SITE",
     "testPanel": "Panel d'analyses",
     "routed": "Acheminé via Hong Kong",
@@ -373,7 +373,7 @@
     "mapBody": "Faites glisser pour faire tourner le globe, faites défiler pour zoomer et survolez n'importe quel point. Le vert marque où nous sourçons ; l'ambre marque les marchés que nous desservons — le tout acheminé via un hub unique à Hong Kong.",
     "legendSourcing": "Sourcing · {count} origines",
     "legendMarkets": "Marchés · États-Unis · UE (via Pure Matcha Partners) · Moyen-Orient",
-    "legendHub": "Hub · Hong Kong",
+    "legendHub": "Nos sites",
     "statOrigins": "ORIGINES",
     "statCountries": "PAYS",
     "statBatch": "ANALYSÉ PAR LOT",

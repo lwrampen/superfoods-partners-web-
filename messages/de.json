@@ -269,7 +269,7 @@
   "trace": {
     "nodeOrigin": "URSPRUNG",
     "nodeLab": "LABORGEPRÜFT",
-    "nodeHub": "HONGKONG-HUB",
+    "nodeHub": "DOKUMENTIERT",
     "nodeFacility": "IHR STANDORT",
     "testPanel": "Prüfpanel",
     "routed": "Über Hongkong geleitet",
@@ -373,7 +373,7 @@
     "mapBody": "Ziehen Sie, um den Globus zu drehen, scrollen Sie zum Zoomen und fahren Sie über einen beliebigen Punkt. Grün markiert, wo wir beschaffen; Bernstein markiert die Märkte, die wir bedienen — alles über einen Hub in Hongkong geleitet.",
     "legendSourcing": "Beschaffung · {count} Ursprünge",
     "legendMarkets": "Märkte · USA · EU (über Pure Matcha Partners) · Naher Osten",
-    "legendHub": "Hub · Hongkong",
+    "legendHub": "Unsere Standorte",
     "statOrigins": "URSPRÜNGE",
     "statCountries": "LÄNDER",
     "statBatch": "CHARGENGEPRÜFT",

@@ -3,14 +3,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as topojson from "topojson-client";
 import { ORIGIN_LIST, productsForOrigin, parseLatLng } from "@/data/catalog";
-import { MARKETS, HUB, MARKET_COUNTRIES } from "@/data/markets";
+import { MARKETS, LOCATIONS, nearestLocation, MARKET_COUNTRIES } from "@/data/markets";
 
 type Loc = {
   id: string;
   name: string;
   sub: string;
   detail: string;
-  kind: "origin" | "market" | "hub";
+  kind: "origin" | "market" | "location";
   lat: number;
   lng: number;
 };
@@ -21,8 +21,9 @@ type PointDatum = Loc & { color: string; r: number; label: string };
 const LAND = "rgba(30,61,42,0.42)"; // ink-green landmass dots
 const MARKET_HEX = "rgba(224,162,62,0.85)"; // amber-lit market countries
 const PAPER = "#e7e2d6"; // sphere (sand)
-const AMBER = "#c58a2a"; // markets + hub (slightly deeper than UI amber for cream)
+const AMBER = "#c58a2a"; // markets (slightly deeper than UI amber for cream)
 const GREEN_DOT = "#1b5e3f"; // sourcing pins
+const LIME = "#8CC541"; // our operating locations
 
 function card(title: string, sub: string, body: string, accent: string) {
   return `<div style="font-family:ui-monospace,monospace;background:#f0ece2;border:1px solid ${accent};border-radius:10px;padding:10px 12px;max-width:240px;color:#1e3d2a;box-shadow:0 12px 30px rgba(20,39,27,.18)">
@@ -57,18 +58,18 @@ const SELLING: Loc[] = MARKETS.map((m) => ({
   lng: m.lng,
 }));
 
-const HUB_LOC: Loc = {
-  id: "hub",
-  name: HUB.name,
-  sub: "Hub",
-  detail: HUB.blurb,
-  kind: "hub",
-  lat: HUB.lat,
-  lng: HUB.lng,
-};
+const LOCATION_LOCS: Loc[] = LOCATIONS.map((L) => ({
+  id: `loc-${L.id}`,
+  name: L.name,
+  sub: "Our location",
+  detail: L.blurb,
+  kind: "location",
+  lat: L.lat,
+  lng: L.lng,
+}));
 
 const LOC_BY_ID: Record<string, Loc> = Object.fromEntries(
-  [...SOURCING, ...SELLING, HUB_LOC].map((l) => [l.id, l]),
+  [...SOURCING, ...SELLING, ...LOCATION_LOCS].map((l) => [l.id, l]),
 );
 
 // Paint the sphere as warm matte "paper". Returns true once the material exists.
@@ -161,38 +162,46 @@ export function TradeGlobe() {
       ...l,
       color,
       r: base * (l.id === selected ? 2.1 : l.id === hovered ? 1.6 : 1),
-      label: card(l.name, l.kind === "origin" ? `Sourcing · ${l.sub}` : l.kind === "market" ? `Market · ${l.sub}` : "Hub", body, color),
+      label: card(l.name, l.kind === "origin" ? `Sourcing · ${l.sub}` : l.kind === "market" ? `Market · ${l.sub}` : "Our location", body, color),
     });
     return [
       ...SOURCING.map((l) => mk(l, GREEN_DOT, 0.3, `${l.detail}<br/>${ORIGIN_LIST.find((o) => o.slug === l.id)?.coords ?? ""}`)),
       ...SELLING.map((l) => mk(l, AMBER, 0.5, l.detail)),
-      mk(HUB_LOC, AMBER, 0.62, HUB_LOC.detail),
+      ...LOCATION_LOCS.map((l) => mk(l, LIME, 0.6, l.detail)),
     ];
   }, [selected, hovered]);
 
   const arcs = useMemo(() => {
-    const inbound = SOURCING.map((l) => ({
-      startLat: l.lat,
-      startLng: l.lng,
-      endLat: HUB.lat,
-      endLng: HUB.lng,
-      color: ["rgba(27,94,63,0.04)", "rgba(27,94,63,0.75)"],
-      time: 3600,
-      label: `${l.name} → Hong Kong`,
-    }));
-    const outbound = SELLING.map((l) => ({
-      startLat: HUB.lat,
-      startLng: HUB.lng,
-      endLat: l.lat,
-      endLng: l.lng,
-      color: ["rgba(197,138,42,0.8)", "rgba(197,138,42,0.15)"],
-      time: 2800,
-      label: `Hong Kong → ${l.name}`,
-    }));
+    // Each origin flows to its nearest location; each market is served from its
+    // nearest location — no single hub.
+    const inbound = SOURCING.map((l) => {
+      const loc = nearestLocation(l.lat, l.lng);
+      return {
+        startLat: l.lat,
+        startLng: l.lng,
+        endLat: loc.lat,
+        endLng: loc.lng,
+        color: ["rgba(27,94,63,0.04)", "rgba(27,94,63,0.75)"],
+        time: 3600,
+        label: `${l.name} → ${loc.name}`,
+      };
+    });
+    const outbound = SELLING.map((l) => {
+      const loc = nearestLocation(l.lat, l.lng);
+      return {
+        startLat: loc.lat,
+        startLng: loc.lng,
+        endLat: l.lat,
+        endLng: l.lng,
+        color: ["rgba(197,138,42,0.8)", "rgba(197,138,42,0.15)"],
+        time: 2800,
+        label: `${loc.name} → ${l.name}`,
+      };
+    });
     return [...inbound, ...outbound];
   }, []);
 
-  const rings = useMemo(() => [{ lat: HUB.lat, lng: HUB.lng }], []);
+  const rings = useMemo(() => LOCATIONS.map((L) => ({ lat: L.lat, lng: L.lng })), []);
   const ready = GlobeComp && features.length > 0 && size.w > 0;
 
   // onGlobeReady can fire before the WebGL material exists (esp. on slow GPUs),
