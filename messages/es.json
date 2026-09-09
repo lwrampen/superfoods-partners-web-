@@ -13,7 +13,13 @@
     "home": "Superfoods Partners — inicio",
     "insights": "Análisis",
     "company": "Empresa",
-    "products": "Productos"
+    "products": "Productos",
+    "allProducts": "Todos los productos",
+    "byOrigin": "Por origen",
+    "allOrigins": "Todos los orígenes",
+    "specialist": "Marca especialista",
+    "house": "Gama de la casa",
+    "originsNote": "{origins} orígenes en {countries} países — comprado en origen."
   },
   "footer": {
     "tagline": "Abastecimiento a escala. Confianza en origen.",

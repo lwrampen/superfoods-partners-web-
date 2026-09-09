@@ -13,7 +13,13 @@
     "home": "Superfoods Partners — 首頁",
     "insights": "洞察",
     "company": "公司",
-    "products": "產品"
+    "products": "產品",
+    "allProducts": "所有產品",
+    "byOrigin": "依產地",
+    "allOrigins": "所有產地",
+    "specialist": "專門品牌",
+    "house": "自家系列",
+    "originsNote": "橫跨 {countries} 國、{origins} 個產地——產地直採。"
   },
   "footer": {
     "tagline": "規模化採購，源頭可信賴。",
