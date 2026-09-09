@@ -8,7 +8,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "matcha": {
     "tagline": "Thé vert moulu à la pierre, cultivé à l'ombre en origine.",
     "description": "Matcha vibrant d'origine unique en grades cérémonial, premium et culinaire. Cultivé à l'ombre et moulu à la pierre, chaque lot analysé en laboratoire, de l'échantillon au conteneur complet.",
-    "intro": "Le matcha est un thé vert moulu à la pierre, ombré pendant des semaines avant la récolte pour développer son umami profond et sa couleur éclatante. Nous fournissons du matcha d'origine unique du Japon et de Chine en grades cérémonial, premium et culinaire — cultivé à l'ombre, moulu à la pierre et analysé en laboratoire sur chaque lot, de l'échantillon au conteneur complet via notre hub de Hong Kong.",
+    "intro": "Le matcha est un thé vert moulu à la pierre, ombré pendant des semaines avant la récolte pour développer son umami profond et sa couleur éclatante. Nous fournissons du matcha d'origine unique du Japon et de Chine en grades cérémonial, premium et culinaire — cultivé à l'ombre, moulu à la pierre et analysé en laboratoire sur chaque lot, de l'échantillon au conteneur complet.",
     "applications": [
       "Lattes et bars à matcha",
       "Boissons RTD et embouteillées",
@@ -34,7 +34,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "hojicha": {
     "tagline": "Thé vert torréfié — pauvre en caféine, arôme profond.",
     "description": "Thé vert japonais torréfié au charbon de bois, au profil chaud et grillé. S'accorde naturellement aux lattes, à la boulangerie et aux applications RTD.",
-    "intro": "Le hojicha est un thé vert japonais torréfié au charbon de bois, ce qui adoucit la caféine et fait ressortir un arôme chaud et grillé. Nous fournissons de la poudre de hojicha, broyée pour une couleur et une saveur homogènes — idéale pour les lattes, la boulangerie et le RTD — sourcée au Japon et en Chine orientale et documentée lot par lot via notre hub de Hong Kong.",
+    "intro": "Le hojicha est un thé vert japonais torréfié au charbon de bois, ce qui adoucit la caféine et fait ressortir un arôme chaud et grillé. Nous fournissons de la poudre de hojicha, broyée pour une couleur et une saveur homogènes — idéale pour les lattes, la boulangerie et le RTD — sourcée au Japon et en Chine orientale et documentée lot par lot avant expédition.",
     "applications": [
       "Lattes et bars à hojicha",
       "Boissons RTD et embouteillées",
@@ -55,7 +55,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "ube": {
     "tagline": "Poudre d'igname violette — couleur et saveur des Philippines.",
     "description": "Poudre d'igname violette naturellement intense pour boissons, boulangerie et confiserie. Couleur nette, granulométrie homogène, approvisionnement évolutif.",
-    "intro": "L'ube est le tubercule d'igname violette, d'un violet intense, passé des cuisines philippines aux cartes du monde entier. Notre poudre d'ube est broyée à partir d'ignames violettes mûres (Dioscorea alata) — pour une couleur violette nette et naturelle et une douceur subtile, vanillée, sans colorants artificiels. Nous la sourçons directement aux Philippines, avec une route via la Chine pour la montée en échelle, et analysons et documentons chaque lot avant de l'expédier via notre hub de Hong Kong.",
+    "intro": "L'ube est le tubercule d'igname violette, d'un violet intense, passé des cuisines philippines aux cartes du monde entier. Notre poudre d'ube est broyée à partir d'ignames violettes mûres (Dioscorea alata) — pour une couleur violette nette et naturelle et une douceur subtile, vanillée, sans colorants artificiels. Nous la sourçons directement aux Philippines, avec une route via la Chine pour la montée en échelle, et analysons et documentons chaque lot avant expédition.",
     "applications": [
       "Lattes et boissons RTD",
       "Boulangerie et viennoiserie",
@@ -76,7 +76,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "lions-mane": {
     "tagline": "Champignon fonctionnel pour la formulation nutraceutique.",
     "description": "Crinière de lion issue du carpophore pour marques de compléments et d'aliments fonctionnels. Analysée pour les principes actifs et les contaminants, documentée lot par lot.",
-    "intro": "La crinière de lion (Hericium erinaceus) est le champignon fonctionnel que les marques nutraceutiques demandent nommément. Nous fournissons de la poudre de carpophore — et non du mycélium sur céréales — afin que les formulateurs partent d'une matière propre et documentée, analysée pour les principes actifs et les contaminants. Sourcée en Chine, analysée lot par lot et acheminée via notre hub de Hong Kong, en qualité bio et conventionnelle.",
+    "intro": "La crinière de lion (Hericium erinaceus) est le champignon fonctionnel que les marques nutraceutiques demandent nommément. Nous fournissons de la poudre de carpophore — et non du mycélium sur céréales — afin que les formulateurs partent d'une matière propre et documentée, analysée pour les principes actifs et les contaminants. Sourcée en Chine, analysée lot par lot et documentée avant expédition, en qualité bio et conventionnelle.",
     "applications": [
       "Gélules et comprimés",
       "Café fonctionnel et lattes",
@@ -97,7 +97,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "hibiscus": {
     "tagline": "Fleur rubis et acidulée pour thés et boissons.",
     "description": "Hibiscus d'un rouge profond pour infusions, RTD et mélanges. Sourcé en volume, analysé et documenté.",
-    "intro": "L'hibiscus (Hibiscus sabdariffa) apporte une couleur rubis profonde et une acidité vive, façon canneberge, qui traverse aussi bien les boissons que la boulangerie. Nous sourçons des calices mûris au soleil — principalement d'Égypte, avec une route via la Chine orientale pour le volume — et les broyons en une poudre homogène, analysée et documentée lot par lot avant d'être acheminée via Hong Kong.",
+    "intro": "L'hibiscus (Hibiscus sabdariffa) apporte une couleur rubis profonde et une acidité vive, façon canneberge, qui traverse aussi bien les boissons que la boulangerie. Nous sourçons des calices mûris au soleil — principalement d'Égypte, avec une route via la Chine orientale pour le volume — et les broyons en une poudre homogène, analysée et documentée lot par lot avant expédition.",
     "applications": [
       "Thés et infusions",
       "Boissons RTD et fonctionnelles",
@@ -118,7 +118,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "jasmine-tea-powder": {
     "tagline": "Thé vert parfumé au jasmin, finement moulu.",
     "description": "Poudre de thé vert superposée à de véritables fleurs de jasmin — arôme floral, finale douce. Pour lattes, RTD, boulangerie et mélanges. Sourcée en volume, analysée et documentée lot par lot.",
-    "intro": "La poudre de thé au jasmin est un thé vert superposé à de véritables fleurs de jasmin, puis finement moulu — pour un arôme floral et une finale nette et douce. Nous la sourçons en Chine orientale et au Fujian — la région classique du jasmin en Chine — et analysons et documentons chaque lot avant de l'expédier via notre hub de Hong Kong.",
+    "intro": "La poudre de thé au jasmin est un thé vert superposé à de véritables fleurs de jasmin, puis finement moulu — pour un arôme floral et une finale nette et douce. Nous la sourçons en Chine orientale et au Fujian — la région classique du jasmin en Chine — et analysons et documentons chaque lot avant expédition.",
     "applications": [
       "Lattes et bars à thé",
       "Boissons RTD et embouteillées",
@@ -139,7 +139,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "oolong-tea-powder": {
     "tagline": "Thé semi-fermenté, torréfié et finement moulu.",
     "description": "Oolong en feuilles entières, finement moulu — grillé, floral et complexe. Semi-fermenté au cœur du pays classique de l'oolong en Chine. Pour lattes de spécialité, RTD et applications dessert.",
-    "intro": "L'oolong est un thé semi-fermenté — entre le vert et le noir — d'une complexité grillée et florale. Nous broyons de l'oolong en feuilles entières issu du pays classique de l'oolong en Chine en une poudre fine pour lattes de spécialité, RTD et travail de dessert, analysé et documenté lot par lot via notre hub de Hong Kong.",
+    "intro": "L'oolong est un thé semi-fermenté — entre le vert et le noir — d'une complexité grillée et florale. Nous broyons de l'oolong en feuilles entières issu du pays classique de l'oolong en Chine en une poudre fine pour lattes de spécialité, RTD et travail de dessert, analysé et documenté lot par lot avant expédition.",
     "applications": [
       "Lattes de spécialité",
       "Boissons RTD et embouteillées",
@@ -160,7 +160,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
   "earl-grey-tea-powder": {
     "tagline": "Thé noir à la bergamote naturelle, finement moulu.",
     "description": "Poudre de thé noir à l'huile de bergamote naturelle — corsé, vif en agrumes et aromatique. Une base distinctive pour lattes, boulangerie et innovation boisson. Sourcé et documenté lot par lot.",
-    "intro": "L'Earl Grey est un thé noir à la bergamote naturelle — corsé, vif en agrumes et immédiatement reconnaissable. Nous le broyons en une poudre fine qui porte son arôme dans les lattes, la boulangerie et l'innovation boisson, sourcé en Chine orientale et au Fujian et documenté lot par lot via notre hub de Hong Kong.",
+    "intro": "L'Earl Grey est un thé noir à la bergamote naturelle — corsé, vif en agrumes et immédiatement reconnaissable. Nous le broyons en une poudre fine qui porte son arôme dans les lattes, la boulangerie et l'innovation boisson, sourcé en Chine orientale et au Fujian et documenté lot par lot avant expédition.",
     "applications": [
       "Lattes et bars à thé",
       "Boissons RTD et embouteillées",
@@ -218,8 +218,8 @@ export const ORIGIN_BLURB_FR: Record<string, string> = {
   "egypt-eg": "Mûri au soleil le long du Nil ; couleur profonde, acidité éclatante."
 };
 export const ORIGIN_INTRO_FR: Record<string, string> = {
-  "china-cn": "Au-delà du thé, la Chine est l'un des plus grands et des plus performants producteurs mondiaux de cultures fonctionnelles et de spécialité — de la crinière de lion et d'autres champignons à l'ube et aux poudres botaniques. Pour ces lignes, nous travaillons avec un approvisionnement chinois vérifié, analysons chaque lot à la recherche de résidus de pesticides, de métaux lourds et de contamination microbiologique, et le documentons avec un Verification Record™ avant qu'il ne quitte notre hub de Hong Kong. C'est la route vers laquelle nous nous tournons lorsqu'un programme a besoin d'une véritable montée en échelle sans perdre la traçabilité.",
-  "egypt-eg": "Les champs irrigués par le Nil en Égypte sont le berceau classique de l'hibiscus (Hibiscus sabdariffa). Les longues heures d'ensoleillement donnent aux calices leur couleur rubis profonde et leur acidité vive et nette. Nous sourçons de l'hibiscus égyptien mûri au soleil, le broyons en une poudre homogène et analysons chaque lot à la recherche de contaminants avant de le documenter et de l'acheminer via Hong Kong — de sorte que la couleur et l'acidité que vous échantillonnez soient la couleur et l'acidité que vous recevez en volume."
+  "china-cn": "Au-delà du thé, la Chine est l'un des plus grands et des plus performants producteurs mondiaux de cultures fonctionnelles et de spécialité — de la crinière de lion et d'autres champignons à l'ube et aux poudres botaniques. Pour ces lignes, nous travaillons avec un approvisionnement chinois vérifié, analysons chaque lot à la recherche de résidus de pesticides, de métaux lourds et de contamination microbiologique, et le documentons avec un Verification Record™ avant expédition. C'est la route vers laquelle nous nous tournons lorsqu'un programme a besoin d'une véritable montée en échelle sans perdre la traçabilité.",
+  "egypt-eg": "Les champs irrigués par le Nil en Égypte sont le berceau classique de l'hibiscus (Hibiscus sabdariffa). Les longues heures d'ensoleillement donnent aux calices leur couleur rubis profonde et leur acidité vive et nette. Nous sourçons de l'hibiscus égyptien mûri au soleil, le broyons en une poudre homogène et analysons chaque lot à la recherche de contaminants avant de le documenter et de l'expédier — de sorte que la couleur et l'acidité que vous échantillonnez soient la couleur et l'acidité que vous recevez en volume."
 };
 
 export const FR: LocaleContent = {

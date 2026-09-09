@@ -8,7 +8,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "matcha": {
     "tagline": "Zielona herbata mielona na kamieniu, uprawiana w cieniu u źródła.",
     "description": "Intensywna matcha jednego pochodzenia w klasach ceremonialnej, premium i kulinarnej. Uprawiana w cieniu i mielona na kamieniu, każda partia badana laboratoryjnie — od próbki po pełny kontener.",
-    "intro": "Matcha to zielona herbata mielona na kamieniu, cieniowana przez tygodnie przed zbiorem, aby rozwinąć głębokie umami i żywy kolor. Dostarczamy matchę jednego pochodzenia z Japonii i Chin w klasach ceremonialnej, premium i kulinarnej — uprawianą w cieniu, mieloną na kamieniu i badaną laboratoryjnie w każdej partii, od próbki po pełny kontener, przez nasz hub w Hongkongu.",
+    "intro": "Matcha to zielona herbata mielona na kamieniu, cieniowana przez tygodnie przed zbiorem, aby rozwinąć głębokie umami i żywy kolor. Dostarczamy matchę jednego pochodzenia z Japonii i Chin w klasach ceremonialnej, premium i kulinarnej — uprawianą w cieniu, mieloną na kamieniu i badaną laboratoryjnie w każdej partii, od próbki po pełny kontener.",
     "applications": [
       "Latte i bary matcha",
       "Napoje RTD i butelkowane",
@@ -34,7 +34,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "hojicha": {
     "tagline": "Prażona zielona herbata — mało kofeiny, głęboki aromat.",
     "description": "Japońska zielona herbata prażona na węglu drzewnym, o ciepłym, tostowym profilu. Naturalnie pasuje do latte, wypieków i zastosowań RTD.",
-    "intro": "Hojicha to japońska zielona herbata prażona na węglu drzewnym, co łagodzi kofeinę i wydobywa ciepły, tostowy aromat. Dostarczamy proszek hojicha, zmielony dla jednorodnego koloru i smaku — idealny do latte, wypieków i RTD — pozyskiwany w Japonii i wschodnich Chinach oraz dokumentowany partia po partii przez nasz hub w Hongkongu.",
+    "intro": "Hojicha to japońska zielona herbata prażona na węglu drzewnym, co łagodzi kofeinę i wydobywa ciepły, tostowy aromat. Dostarczamy proszek hojicha, zmielony dla jednorodnego koloru i smaku — idealny do latte, wypieków i RTD — pozyskiwany w Japonii i wschodnich Chinach oraz dokumentowany partia po partii przed wysyłką.",
     "applications": [
       "Latte i bary hojicha",
       "Napoje RTD i butelkowane",
@@ -55,7 +55,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "ube": {
     "tagline": "Proszek z fioletowego pochrzynu — kolor i smak Filipin.",
     "description": "Naturalnie intensywny proszek z fioletowego pochrzynu do napojów, wypieków i wyrobów cukierniczych. Czysty kolor, jednorodna granulacja, skalowalne dostawy.",
-    "intro": "Ube to bulwa fioletowego pochrzynu o intensywnie fioletowej barwie, która z filipińskich kuchni trafiła do menu na całym świecie. Nasz proszek ube mielony jest z dojrzałych fioletowych pochrzynów (Dioscorea alata) — dla czystego, naturalnie fioletowego koloru i subtelnej, waniliowej słodyczy, bez sztucznych barwników. Pozyskujemy go bezpośrednio na Filipinach, z trasą przez Chiny dla zwiększenia skali, i badamy oraz dokumentujemy każdą partię przed wysyłką przez nasz hub w Hongkongu.",
+    "intro": "Ube to bulwa fioletowego pochrzynu o intensywnie fioletowej barwie, która z filipińskich kuchni trafiła do menu na całym świecie. Nasz proszek ube mielony jest z dojrzałych fioletowych pochrzynów (Dioscorea alata) — dla czystego, naturalnie fioletowego koloru i subtelnej, waniliowej słodyczy, bez sztucznych barwników. Pozyskujemy go bezpośrednio na Filipinach, z trasą przez Chiny dla zwiększenia skali, i badamy oraz dokumentujemy każdą partię przed wysyłką.",
     "applications": [
       "Latte i napoje RTD",
       "Wypieki i wyroby drożdżowe",
@@ -76,7 +76,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "lions-mane": {
     "tagline": "Grzyb funkcjonalny do receptur nutraceutycznych.",
     "description": "Soplówka jeżowata z owocnika dla marek suplementów i żywności funkcjonalnej. Badana pod kątem substancji aktywnych i zanieczyszczeń, dokumentowana partiami.",
-    "intro": "Soplówka jeżowata (Hericium erinaceus) to grzyb funkcjonalny, o który marki nutraceutyczne pytają z nazwy. Dostarczamy proszek z owocnika — a nie grzybnię na zbożu — dzięki czemu formulatorzy startują od czystego, udokumentowanego materiału, badanego pod kątem substancji aktywnych i zanieczyszczeń. Pozyskiwana w Chinach, badana partia po partii i przeprowadzana przez nasz hub w Hongkongu, w klasie organicznej i konwencjonalnej.",
+    "intro": "Soplówka jeżowata (Hericium erinaceus) to grzyb funkcjonalny, o który marki nutraceutyczne pytają z nazwy. Dostarczamy proszek z owocnika — a nie grzybnię na zbożu — dzięki czemu formulatorzy startują od czystego, udokumentowanego materiału, badanego pod kątem substancji aktywnych i zanieczyszczeń. Pozyskiwana w Chinach, badana partia po partii i dokumentowana przed wysyłką, w klasie organicznej i konwencjonalnej.",
     "applications": [
       "Kapsułki i tabletki",
       "Kawa funkcjonalna i latte",
@@ -97,7 +97,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "hibiscus": {
     "tagline": "Rubinowy, kwaskowy kwiat do herbat i napojów.",
     "description": "Głęboko czerwony hibiskus do naparów, RTD i mieszanek. Pozyskiwany hurtowo, badany i dokumentowany.",
-    "intro": "Hibiskus (Hibiscus sabdariffa) wnosi głęboki, rubinowy kolor i żywą, żurawinową kwaskowość, która sprawdza się zarówno w napojach, jak i w wypiekach. Pozyskujemy dojrzewające w słońcu kielichy — głównie z Egiptu, z trasą przez wschodnie Chiny dla wolumenu — i mielemy je na jednorodny proszek, badany i dokumentowany partia po partii przed przeprowadzeniem przez Hongkong.",
+    "intro": "Hibiskus (Hibiscus sabdariffa) wnosi głęboki, rubinowy kolor i żywą, żurawinową kwaskowość, która sprawdza się zarówno w napojach, jak i w wypiekach. Pozyskujemy dojrzewające w słońcu kielichy — głównie z Egiptu, z trasą przez wschodnie Chiny dla wolumenu — i mielemy je na jednorodny proszek, badany i dokumentowany partia po partii przed wysyłką.",
     "applications": [
       "Herbaty i napary",
       "Napoje RTD i funkcjonalne",
@@ -118,7 +118,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "jasmine-tea-powder": {
     "tagline": "Zielona herbata aromatyzowana jaśminem, drobno mielona.",
     "description": "Proszek z zielonej herbaty przekładanej prawdziwymi kwiatami jaśminu — kwiatowy aromat, łagodne wykończenie. Do latte, RTD, wypieków i mieszanek. Pozyskiwany hurtowo, badany i dokumentowany partia po partii.",
-    "intro": "Proszek herbaty jaśminowej to zielona herbata przekładana prawdziwymi kwiatami jaśminu, a następnie drobno mielona — dla kwiatowego aromatu i czystego, łagodnego wykończenia. Pozyskujemy go we wschodnich Chinach i w Fujianie — klasycznym regionie jaśminu w Chinach — i badamy oraz dokumentujemy każdą partię przed wysyłką przez nasz hub w Hongkongu.",
+    "intro": "Proszek herbaty jaśminowej to zielona herbata przekładana prawdziwymi kwiatami jaśminu, a następnie drobno mielona — dla kwiatowego aromatu i czystego, łagodnego wykończenia. Pozyskujemy go we wschodnich Chinach i w Fujianie — klasycznym regionie jaśminu w Chinach — i badamy oraz dokumentujemy każdą partię przed wysyłką.",
     "applications": [
       "Latte i bary herbaciane",
       "Napoje RTD i butelkowane",
@@ -139,7 +139,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "oolong-tea-powder": {
     "tagline": "Herbata półfermentowana, prażona i drobno mielona.",
     "description": "Oolong z całych liści, drobno mielony — tostowy, kwiatowy i złożony. Półfermentowany w sercu klasycznego regionu oolongu w Chinach. Do latte specialty, RTD i zastosowań deserowych.",
-    "intro": "Oolong to herbata półfermentowana — pomiędzy zieloną a czarną — o tostowej, kwiatowej złożoności. Mielemy oolong z całych liści z klasycznego regionu oolongu w Chinach na drobny proszek do latte specialty, RTD i wyrobów deserowych, badany i dokumentowany partia po partii przez nasz hub w Hongkongu.",
+    "intro": "Oolong to herbata półfermentowana — pomiędzy zieloną a czarną — o tostowej, kwiatowej złożoności. Mielemy oolong z całych liści z klasycznego regionu oolongu w Chinach na drobny proszek do latte specialty, RTD i wyrobów deserowych, badany i dokumentowany partia po partii przed wysyłką.",
     "applications": [
       "Latte specialty",
       "Napoje RTD i butelkowane",
@@ -160,7 +160,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
   "earl-grey-tea-powder": {
     "tagline": "Czarna herbata z naturalną bergamotką, drobno mielona.",
     "description": "Proszek z czarnej herbaty z naturalnym olejkiem bergamotowym — mocny, cytrusowo wyrazisty i aromatyczny. Wyróżniająca się baza do latte, wypieków i innowacji napojowych. Pozyskiwany i dokumentowany partia po partii.",
-    "intro": "Earl Grey to czarna herbata z naturalną bergamotką — mocna, cytrusowo wyrazista i natychmiast rozpoznawalna. Mielemy ją na drobny proszek, który niesie jej aromat w latte, wypiekach i innowacjach napojowych, pozyskiwany we wschodnich Chinach i w Fujianie oraz dokumentowany partia po partii przez nasz hub w Hongkongu.",
+    "intro": "Earl Grey to czarna herbata z naturalną bergamotką — mocna, cytrusowo wyrazista i natychmiast rozpoznawalna. Mielemy ją na drobny proszek, który niesie jej aromat w latte, wypiekach i innowacjach napojowych, pozyskiwany we wschodnich Chinach i w Fujianie oraz dokumentowany partia po partii przed wysyłką.",
     "applications": [
       "Latte i bary herbaciane",
       "Napoje RTD i butelkowane",
@@ -218,8 +218,8 @@ export const ORIGIN_BLURB_PL: Record<string, string> = {
   "egypt-eg": "Dojrzewające w słońcu wzdłuż Nilu; głęboki kolor, wyrazista kwaskowość."
 };
 export const ORIGIN_INTRO_PL: Record<string, string> = {
-  "china-cn": "Poza herbatą Chiny są jednym z największych i najsprawniejszych światowych producentów upraw funkcjonalnych i specjalistycznych — od soplówki jeżowatej i innych grzybów po ube i proszki botaniczne. Dla tych linii współpracujemy ze zweryfikowanymi chińskimi dostawami, badamy każdą partię pod kątem pozostałości pestycydów, metali ciężkich i zanieczyszczeń mikrobiologicznych, i dokumentujemy ją za pomocą Verification Record™, zanim opuści nasz hub w Hongkongu. To trasa, po którą sięgamy, gdy program potrzebuje prawdziwej skali bez utraty identyfikowalności.",
-  "egypt-eg": "Nawadniane wodami Nilu pola Egiptu to klasyczna kolebka hibiskusa (Hibiscus sabdariffa). Długie godziny słońca nadają kielichom głęboki, rubinowy kolor i wyrazistą, czystą kwaskowość. Pozyskujemy dojrzewający w słońcu egipski hibiskus, mielemy go na jednorodny proszek i badamy każdą partię pod kątem zanieczyszczeń, zanim udokumentujemy ją i przeprowadzimy przez Hongkong — tak, aby kolor i kwaskowość, które próbkujesz, były kolorem i kwaskowością, które otrzymujesz w wolumenie."
+  "china-cn": "Poza herbatą Chiny są jednym z największych i najsprawniejszych światowych producentów upraw funkcjonalnych i specjalistycznych — od soplówki jeżowatej i innych grzybów po ube i proszki botaniczne. Dla tych linii współpracujemy ze zweryfikowanymi chińskimi dostawami, badamy każdą partię pod kątem pozostałości pestycydów, metali ciężkich i zanieczyszczeń mikrobiologicznych, i dokumentujemy ją za pomocą Verification Record™, zanim zostanie wysłana. To trasa, po którą sięgamy, gdy program potrzebuje prawdziwej skali bez utraty identyfikowalności.",
+  "egypt-eg": "Nawadniane wodami Nilu pola Egiptu to klasyczna kolebka hibiskusa (Hibiscus sabdariffa). Długie godziny słońca nadają kielichom głęboki, rubinowy kolor i wyrazistą, czystą kwaskowość. Pozyskujemy dojrzewający w słońcu egipski hibiskus, mielemy go na jednorodny proszek, badamy każdą partię pod kątem zanieczyszczeń i dokumentujemy ją przed wysyłką — tak, aby kolor i kwaskowość, które próbkujesz, były kolorem i kwaskowością, które otrzymujesz w wolumenie."
 };
 
 export const PL: LocaleContent = {
