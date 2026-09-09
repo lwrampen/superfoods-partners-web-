@@ -11,7 +11,7 @@ import { Reveal } from "@/components/Reveal";
 import { SourcingMap } from "@/components/SourcingMap";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor, localizedUrl } from "@/i18n/paths";
-import { PRODUCTS, ORIGINS, getProduct, originNote, originLabel } from "@/data/catalog";
+import { PRODUCTS, ORIGINS, LABELS, getProduct, originNote, originLabel } from "@/data/catalog";
 import { toCert } from "@/data/trust";
 import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.i18n";
 
@@ -134,7 +134,7 @@ export default async function ProductPage({
       <main className="flex-1">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-        <ProductHero name={p.name} category={p.category} tagline={p.tagline} accent={p.accent} tint={p.tint} img={p.img} />
+        <ProductHero name={p.name} category={p.category} tagline={p.tagline} accent={p.accent} tint={p.tint} img={p.img} labelName={LABELS[p.label].name} labelHouse={LABELS[p.label].house} labelHref={LABELS[p.label].href} />
 
         {/* Intro — split: readable lead + one supporting image */}
         <section className="mx-auto max-w-6xl px-6 pt-12 md:pt-16">
