@@ -160,7 +160,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </div>
         </section>
 
-        {/* Hong Kong / the family */}
+        {/* How we operate — three locations, the people */}
         <section className="bg-forest text-oat">
           <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 md:grid-cols-[1.05fr_0.95fr] md:items-center">
             <Reveal>

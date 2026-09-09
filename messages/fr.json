@@ -34,7 +34,8 @@
     "hongKongHub": "Hub de Hong Kong",
     "requestQuote": "Demander un devis →",
     "copyright": "© 2026 Superfoods Partners B.V.",
-    "entities": "Entités enregistrées"
+    "entities": "Entités enregistrées",
+    "locations": "Sites"
   },
   "countries": {
     "Japan": "Japon",
@@ -107,7 +108,7 @@
     "statOrigins": "ORIGINES",
     "statCountries": "PAYS",
     "statTested": "ANALYSÉ PAR LOT",
-    "statHub": "HUB · HONG KONG",
+    "statHub": "SITES",
     "hkEyebrow": "Pourquoi Hong Kong",
     "hkCoords": "22.32°N 114.17°E — là où convergent toutes les origines",
     "hkHeading": "Un seul hub, pour que la confiance ne soit pas dispersée.",
@@ -376,7 +377,7 @@
     "statOrigins": "ORIGINES",
     "statCountries": "PAYS",
     "statBatch": "ANALYSÉ PAR LOT",
-    "statHub": "HUB · HONG KONG",
+    "statHub": "SITES",
     "featuredHeading": "Origines à la une",
     "multipleLines": "Plusieurs lignes",
     "viewOrigin": "Voir l'origine",

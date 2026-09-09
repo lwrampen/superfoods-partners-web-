@@ -34,7 +34,8 @@
     "hongKongHub": "香港樞紐",
     "requestQuote": "索取報價 →",
     "copyright": "© 2026 Superfoods Partners B.V.",
-    "entities": "註冊公司"
+    "entities": "註冊公司",
+    "locations": "據點"
   },
   "countries": {
     "Japan": "日本",
@@ -107,7 +108,7 @@
     "statOrigins": "產地",
     "statCountries": "國家",
     "statTested": "批次檢測",
-    "statHub": "樞紐 · 香港",
+    "statHub": "據點",
     "hkEyebrow": "為何選香港",
     "hkCoords": "北緯 22.32° 東經 114.17°——每一個產地在此匯聚",
     "hkHeading": "一個樞紐，讓信任不再零散。",
@@ -376,7 +377,7 @@
     "statOrigins": "產地",
     "statCountries": "國家",
     "statBatch": "批次檢測",
-    "statHub": "樞紐 · 香港",
+    "statHub": "據點",
     "featuredHeading": "精選產地",
     "multipleLines": "多個系列",
     "viewOrigin": "查看產地",

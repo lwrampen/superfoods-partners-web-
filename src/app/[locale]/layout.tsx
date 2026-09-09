@@ -81,7 +81,7 @@ export default async function LocaleLayout({
         url: "https://www.superfoodspartners.com/",
         logo: "https://www.superfoodspartners.com/logos/sfp-block-dark.png",
         description:
-          "Hong Kong–based B2B superfood sourcing. Every origin verified, documented and traceable, routed through one trusted hub in Hong Kong.",
+          "International B2B superfood sourcing, operating from Hong Kong, Amsterdam and Salt Lake City. Every origin verified, documented and traceable to the batch.",
         areaServed: "Worldwide",
         knowsAbout: [
           "matcha",
