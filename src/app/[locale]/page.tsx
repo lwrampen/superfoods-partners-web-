@@ -56,7 +56,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     { value: ORIGIN_LIST.length, suffix: "", l: t("statOrigins") },
     { value: new Set(ORIGIN_LIST.map((o) => o.country)).size, suffix: "", l: t("statCountries") },
     { value: 100, suffix: "%", l: t("statTested") },
-    { value: 1, suffix: "", l: t("statHub"), amber: true },
+    { value: 3, suffix: "", l: t("statHub"), amber: true },
   ];
 
   return (
@@ -315,7 +315,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
 
-        {/* WHY HONG KONG */}
+        {/* HOW WE OPERATE — three locations, the people behind them */}
         <section className="bg-forest text-oat">
           <div className="mx-auto grid max-w-6xl gap-12 px-6 pb-24 md:grid-cols-[1.05fr_0.95fr] md:items-center">
             <Reveal>

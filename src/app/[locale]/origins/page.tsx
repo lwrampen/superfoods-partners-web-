@@ -40,7 +40,7 @@ export default async function OriginsPage({ params }: { params: Promise<{ locale
     { v: String(ORIGIN_COUNT), l: t("statOrigins") },
     { v: String(COUNTRY_COUNT), l: t("statCountries") },
     { v: "100%", l: t("statBatch") },
-    { v: "1", l: t("statHub"), amber: true },
+    { v: "3", l: t("statHub"), amber: true },
   ];
 
   return (

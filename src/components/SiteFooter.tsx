@@ -78,8 +78,8 @@ export function SiteFooter() {
             <Link href="/company" className="hover:text-oat">{t("about")}</Link>
             <Link href="/contact" className="hover:text-oat">{t("contact")}</Link>
             <div className="mono mt-3 text-[11px] uppercase leading-relaxed text-oat/50">
-              <p className="text-oat/40">{t("hongKongHub")}</p>
-              <p>22.32°N 114.17°E</p>
+              <p className="text-oat/40">{t("locations")}</p>
+              <p>Hong Kong · Amsterdam · Salt Lake City</p>
             </div>
             <Link href="/contact" className="mt-2 inline-block text-amber hover:underline">{t("requestQuote")}</Link>
           </div>
