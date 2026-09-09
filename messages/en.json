@@ -1,8 +1,8 @@
 {
   "meta": {
     "titleDefault": "Superfoods Partners — Sourced at scale. Trusted at origin.",
-    "description": "Hong Kong–based B2B superfood sourcing. Every origin in the world, verified, documented and traceable, routed through one trusted hub.",
-    "ogDescription": "Every origin in the world, routed through one trusted hub in Hong Kong. Verified, documented, traceable."
+    "description": "International B2B superfood sourcing from Hong Kong, Amsterdam and Salt Lake City. Every origin in the world — verified, documented and traceable to the batch.",
+    "ogDescription": "Every origin in the world, verified, documented and traceable to the batch. Sourced direct, tested every lot."
   },
   "nav": {
     "catalog": "Catalog",
@@ -98,8 +98,8 @@
         "d": "A Verification Record and full COA travel with every batch."
       },
       {
-        "t": "We ship via Hong Kong",
-        "d": "FOB, CIF or DDP — routed through the hub, in 2–4 weeks."
+        "t": "We ship, documented",
+        "d": "FOB, CIF or DDP — every batch documented, in 2–4 weeks."
       }
     ],
     "termMoq": "MOQ · 25 kg → full container",
@@ -128,7 +128,7 @@
       "Private-label co-packers"
     ],
     "ctaHeading": "The source is the story.",
-    "ctaBody": "Tell us what you need and at what scale. We'll source, verify and document it — and route it through Hong Kong to you.",
+    "ctaBody": "Tell us what you need and at what scale. We'll source, verify and document it — and ship it to you.",
     "ctaNote": "Send your spec — lab report & quote within 48 hours",
     "pillars": [
       "Bought at source, not through a trader",
@@ -201,8 +201,8 @@
         "d": "We transparently combine origins for consistent quality, security of supply and scale."
       },
       {
-        "t": "Hong Kong hub",
-        "d": "One entity manages sourcing, suppliers, QA, compliance and logistics across Asia."
+        "t": "Three locations",
+        "d": "Local teams in Hong Kong, Amsterdam and Salt Lake City manage sourcing, QA, compliance and logistics — close to origin and to you."
       },
       {
         "t": "Independent verification",
@@ -272,7 +272,7 @@
     "nodeHub": "HONG KONG HUB",
     "nodeFacility": "YOUR FACILITY",
     "testPanel": "Test panel",
-    "routed": "Routed via Hong Kong",
+    "routed": "Documented per batch",
     "pesticide": "Pesticide residue",
     "heavyMetals": "Heavy metals · Pb As Cd",
     "microbiology": "Microbiology",
@@ -297,21 +297,21 @@
     "bulkSupplier": "Bulk {name} supplier",
     "requestQuote": "Request a quote",
     "labReport": "Lab report & quote within 48 h",
-    "everyBatch": "Every batch ships with a Verification Record™ · routed via Hong Kong",
+    "everyBatch": "Every batch ships with a Verification Record™ · traceable to the batch",
     "atGlance": "At a glance",
     "gradesTitle": "Which grade for what",
     "moq": "MOQ",
     "moqValue": "25 kg → full container",
     "leadTime": "Lead time",
-    "leadValue": "2–4 weeks via Hong Kong",
+    "leadValue": "2–4 weeks",
     "incoterms": "Incoterms",
     "incotermsValue": "FOB / CIF / DDP",
     "applications": "Applications",
     "applicationsBody": "Where buyers put {name} to work — across beverage, bakery and functional formats.",
     "whereFrom": "Where it comes from",
     "sourcedAtOrigin": "{name}, sourced at origin.",
-    "sourceMulti": "We source {name} directly from {count} regions, then consolidate and document every batch through our Hong Kong hub before it reaches you.",
-    "sourceSingle": "We source {name} directly in {country}, then consolidate and document every batch through our Hong Kong hub before it reaches you.",
+    "sourceMulti": "We source {name} directly from {count} regions, then test and document every batch before it reaches you.",
+    "sourceSingle": "We source {name} directly in {country}, then test and document every batch before it reaches you.",
     "originsFor": "Origins for {name}",
     "moreCatalogue": "More from the catalogue",
     "viewCatalogue": "View full catalogue →",
@@ -326,11 +326,11 @@
     "certsQ": "Which certifications does your {name} carry?",
     "certsA": "Our {name} is available with {certs}. Every batch ships with a full COA and a Verification Record™ documenting pesticide-residue, heavy-metal, microbiology and radiation testing.",
     "sourceQ": "Where do you source {name}?",
-    "sourceA": "We source {name} from {countries}, routed and quality-checked through our Hong Kong hub, with traceability to the origin batch on every shipment.",
+    "sourceA": "We source {name} from {countries}, quality-checked batch by batch, with traceability to the origin batch on every shipment.",
     "plQ": "Can you supply {name} for private label or as a formulation ingredient?",
     "plA": "Yes. We supply {name} to beverage manufacturers, supplement and nutraceutical brands, private-label and co-packers, and distributors — either as a bulk ingredient or under your own label.",
     "shipQ": "How fast can you ship {name}, and on what Incoterms?",
-    "shipA": "Typical lead time is 2–4 weeks, shipped FOB, CIF or DDP via Hong Kong. A lab report and quote usually follow within 48 hours of your request.",
+    "shipA": "Typical lead time is 2–4 weeks, shipped FOB, CIF or DDP. A lab report and quote usually follow within 48 hours of your request.",
     "gradesQ": "Which grades of {name} do you offer?",
     "gradesA": "{name} is available in {grades} grades, in {forms} forms — matched to your application and budget.",
     "organicQ": "Is your {name} available organic?",
@@ -348,7 +348,7 @@
     "eyebrow": "Origin passport",
     "heading": "Where it comes from — and why it tastes that way.",
     "originLabel": "Origin",
-    "verified": "Verified at origin · routed via Hong Kong"
+    "verified": "Verified at origin · documented per batch"
   },
   "catalog": {
     "metaTitle": "Bulk Matcha & Superfood Wholesale — B2B Catalogue",
@@ -363,10 +363,10 @@
   },
   "origins": {
     "metaTitle": "Origins — {origins} verified sources across {countries} countries",
-    "metaDescription": "Across {countryList}, every Superfoods Partners origin is mapped, lab-tested and routed through one trusted hub in Hong Kong. Explore our sourcing network.",
+    "metaDescription": "Across {countryList}, every Superfoods Partners origin is mapped, lab-tested and documented to the batch. Explore our sourcing network.",
     "eyebrow": "Origins",
     "heading": "Every origin in the world, routed through one hub.",
-    "intro": "We hold direct relationships at source across {countries} countries. Each batch is tested and documented before it ships — origin to Hong Kong to your facility.",
+    "intro": "We hold direct relationships at source across {countries} countries. Each batch is tested and documented before it ships — origin to your facility.",
     "heroCaption": "ORIGIN — TEA COUNTRY AT SEASON",
     "mapEyebrow": "Global trade map",
     "mapHeading": "Where we source — and where we sell.",
@@ -387,14 +387,14 @@
   },
   "originDetail": {
     "metaTitle": "Bulk {products} from {name}, {country}",
-    "metaDescription": "Wholesale {products} sourced at origin in {name}, {country} ({coords}). Lab-tested, documented and routed through Hong Kong. MOQ from 25 kg.",
+    "metaDescription": "Wholesale {products} sourced at origin in {name}, {country} ({coords}). Lab-tested and documented to the batch. MOQ from 25 kg.",
     "metaProductsFallback": "superfoods",
     "back": "Origins",
     "routedVia": "{coords} — routed via Hong Kong",
     "introFallback": "Direct sourcing in {label}. Every batch from this origin is lab-tested for pesticide residue, heavy metals, microbiology and radiation, then documented with a Verification Record™ before it leaves the hub.",
     "routeEyebrow": "The route",
     "routeHeading": "From {name} to your dock.",
-    "routeBody": "We buy where it grows, then consolidate through our Hong Kong hub and ship it documented to you. One pair of hands from farm to freight — no anonymous middlemen in between.",
+    "routeBody": "We buy where it grows, test and document every batch, and ship it to you. One pair of hands from farm to freight — no anonymous middlemen in between.",
     "routePath": "{coords} → Hong Kong → you",
     "sourcedFrom": "Sourced from {name}",
     "ctaQuote": "Request a quote from {name}"
@@ -420,8 +420,8 @@
         "d": "A Verification Record™ and full COA accompany every shipment."
       },
       {
-        "t": "Route via Hong Kong",
-        "d": "Consolidated, bonded and shipped from one trusted hub."
+        "t": "Documented & shipped",
+        "d": "Consolidated, documented and shipped worldwide — FOB, CIF or DDP."
       }
     ],
     "testHeading": "What we test, every batch.",
@@ -433,8 +433,8 @@
       "Moisture, particle size & sensory"
     ],
     "recordEyebrow": "Verification Record™",
-    "recordBody": "A single document that travels with each batch: origin and coordinates, batch and COA references, the full test panel, certifications, and the route through Hong Kong. One source of truth — for you, your auditors and your customers.",
-    "recordRoute": "Routed via Hong Kong · 22.32°N 114.17°E",
+    "recordBody": "A single document that travels with each batch: origin and coordinates, batch and COA references, the full test panel and certifications. One source of truth — for you, your auditors and your customers.",
+    "recordRoute": "Documented per batch · traceable to origin",
     "certsHeading": "Certified, tested, documented.",
     "faqHeading": "Common questions",
     "faq": [
@@ -448,7 +448,7 @@
       },
       {
         "q": "What are your lead times and Incoterms?",
-        "a": "Typically 2–4 weeks, consolidated and routed through our Hong Kong hub. We work FOB, CIF or DDP depending on your needs."
+        "a": "Typically 2–4 weeks, consolidated and documented per batch. We work FOB, CIF or DDP depending on your needs."
       },
       {
         "q": "Can you do private label or custom blends?",
@@ -467,7 +467,7 @@
     "eyebrow": "RFQ",
     "eyebrowSub": "Request a quote",
     "heading": "Move volume you can trust.",
-    "intro": "Tell us what you need and at what scale. We'll source, verify and document it — and route it through Hong Kong to you. Send your spec and a person replies, in your timezone.",
+    "intro": "Tell us what you need and at what scale. We'll source, verify and document it — and ship it to you. Send your spec and a person replies, in your timezone.",
     "specMoq": "MOQ · 25 kg → full container",
     "specLead": "Lead time · 2–4 weeks",
     "specIncoterms": "Incoterms · FOB / CIF / DDP",
