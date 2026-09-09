@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
+import { PRODUCTS, ORIGIN_LIST, LABELS, type LabelId } from "@/data/catalog";
 import { ENTITIES } from "@/data/entities";
 
 // Group origins by country so the footer stays scannable while still exposing
@@ -10,6 +10,9 @@ const ORIGINS_BY_COUNTRY = ORIGIN_LIST.reduce<Record<string, typeof ORIGIN_LIST>
   (acc[o.country] ??= []).push(o);
   return acc;
 }, {});
+
+// Products grouped by their specialist label — mirrors the mega-menu.
+const LABEL_ORDER: LabelId[] = ["pmp", "sfp"];
 
 export function SiteFooter() {
   const t = useTranslations("footer");
@@ -27,14 +30,28 @@ export function SiteFooter() {
 
         <div className="grid grid-cols-2 gap-x-10 gap-y-8 sm:grid-cols-3">
           {/* Direct links to every product — a crawl path from every page. */}
-          <div className="flex flex-col gap-2 text-sm">
+          <div className="flex flex-col gap-4 text-sm">
             <span className="mono text-[10px] uppercase tracking-wide text-oat/40">{t("catalogue")}</span>
-            {PRODUCTS.map((p) => (
-              <Link key={p.slug} href={`/products/${p.slug}`} className="capitalize hover:text-oat">
-                {p.name.toLowerCase()}
-              </Link>
-            ))}
-            <Link href="/products" className="mt-1 text-oat/50 hover:text-oat">{t("allProducts")}</Link>
+            {LABEL_ORDER.map((id) => {
+              const L = LABELS[id];
+              return (
+                <div key={id} className="flex flex-col gap-1.5">
+                  <span className="mono flex items-center gap-1.5 text-[10px] uppercase tracking-wide text-oat/30">
+                    <span
+                      className="h-1.5 w-1.5 rounded-full"
+                      style={{ backgroundColor: L.house ? "rgba(246,246,243,0.4)" : "#8CC541" }}
+                    />
+                    {L.name}
+                  </span>
+                  {PRODUCTS.filter((p) => p.label === id).map((p) => (
+                    <Link key={p.slug} href={`/products/${p.slug}`} className="capitalize hover:text-oat">
+                      {p.name.toLowerCase()}
+                    </Link>
+                  ))}
+                </div>
+              );
+            })}
+            <Link href="/products" className="text-oat/50 hover:text-oat">{t("allProducts")}</Link>
           </div>
 
           {/* Direct links to every origin page, grouped by country. */}

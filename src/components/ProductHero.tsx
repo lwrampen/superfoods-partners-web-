@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "motion/react";
+import { Link as LocaleLink } from "@/i18n/navigation";
 
 export function ProductHero({
   name,
@@ -10,6 +11,9 @@ export function ProductHero({
   accent,
   tint,
   img,
+  labelName,
+  labelHouse,
+  labelHref,
 }: {
   name: string;
   category: string;
@@ -17,6 +21,9 @@ export function ProductHero({
   accent: string;
   tint: string;
   img?: string;
+  labelName: string;
+  labelHouse: boolean;
+  labelHref?: string;
 }) {
   return (
     <motion.section
@@ -52,7 +59,28 @@ export function ProductHero({
         <Link href="/products" className="mono text-[11px] uppercase tracking-wide text-white/60 transition-colors hover:text-white">
           ← Products
         </Link>
-        <p className="mono mt-6 text-[11px] uppercase tracking-widest text-white/70">{category}</p>
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <p className="mono text-[11px] uppercase tracking-widest text-white/70">{category}</p>
+          {labelHref ? (
+            <a
+              href={labelHref}
+              target="_blank"
+              rel="noopener"
+              className="mono inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[10px] uppercase tracking-wide transition-opacity hover:opacity-80"
+              style={{ borderColor: "#8CC541", color: "#8CC541" }}
+            >
+              {labelName} ↗
+            </a>
+          ) : (
+            <LocaleLink
+              href="/company"
+              className="mono inline-flex items-center rounded-full border px-2.5 py-0.5 text-[10px] uppercase tracking-wide transition-opacity hover:opacity-80"
+              style={{ borderColor: "rgba(255,255,255,0.3)", color: "rgba(255,255,255,0.8)" }}
+            >
+              {labelName}
+            </LocaleLink>
+          )}
+        </div>
         <motion.h1
           className="mt-3 display text-6xl leading-[0.95] md:text-7xl"
           style={{ color: tint }}

@@ -11,7 +11,7 @@ import { Certifications } from "@/components/Certifications";
 import { ExpertsCluster } from "@/components/ExpertsCluster";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor } from "@/i18n/paths";
-import { PRODUCTS, ORIGINS, ORIGIN_LIST } from "@/data/catalog";
+import { PRODUCTS, ORIGINS, ORIGIN_LIST, LABELS } from "@/data/catalog";
 import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
 
 export async function generateMetadata({
@@ -161,7 +161,19 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                       className="absolute inset-0 transition-opacity duration-700 ease-out group-hover:opacity-0"
                       style={{ backgroundColor: p.accent }}
                     />
-                    <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{label}</span>
+                    <div className="relative flex items-start justify-between gap-2">
+                      <span className="mono text-[10px] uppercase tracking-wide text-white/70">{label}</span>
+                      <span
+                        className="mono shrink-0 rounded-full border px-2 py-0.5 text-[9px] uppercase leading-none tracking-wide"
+                        style={
+                          LABELS[p.label].house
+                            ? { borderColor: "rgba(255,255,255,0.28)", color: "rgba(255,255,255,0.75)" }
+                            : { borderColor: "#8CC541", color: "#8CC541" }
+                        }
+                      >
+                        {LABELS[p.label].name}
+                      </span>
+                    </div>
                     <span className="relative">
                       <span className="display block text-3xl leading-tight" style={{ color: p.tint }}>{p.name}</span>
                       <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/80">

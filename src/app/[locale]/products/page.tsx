@@ -5,8 +5,26 @@ import { alternatesFor } from "@/i18n/paths";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
-import { CATEGORIES, PRODUCTS, ORIGINS } from "@/data/catalog";
+import { CATEGORIES, PRODUCTS, ORIGINS, LABELS } from "@/data/catalog";
 import { localizeProduct, localizeOrigin, categoryLabel } from "@/data/content.i18n";
+
+// Small label chip for a product card (on the coloured accent background).
+// Lime marks the specialist label; the house reads as a quiet default.
+function CardLabelChip({ labelId }: { labelId: keyof typeof LABELS }) {
+  const L = LABELS[labelId];
+  return (
+    <span
+      className="mono shrink-0 rounded-full border px-2 py-0.5 text-[9px] uppercase leading-none tracking-wide"
+      style={
+        L.house
+          ? { borderColor: "rgba(255,255,255,0.28)", color: "rgba(255,255,255,0.75)" }
+          : { borderColor: "#8CC541", color: "#8CC541" }
+      }
+    >
+      {L.name}
+    </span>
+  );
+}
 
 export async function generateMetadata({
   params,
@@ -40,7 +58,10 @@ function ProductTile({ slug, locale }: { slug: string; locale: string }) {
           <div className="absolute inset-0 transition-opacity duration-700 ease-out group-hover:opacity-0" style={{ backgroundColor: p.accent }} />
         </>
       )}
-      <span className="relative mono text-[10px] uppercase tracking-wide text-white/70">{p.category}</span>
+      <div className="relative flex items-start justify-between gap-2">
+        <span className="mono text-[10px] uppercase tracking-wide text-white/70">{p.category}</span>
+        <CardLabelChip labelId={p.label} />
+      </div>
       <span className="relative">
         <span className="block display text-3xl leading-tight" style={{ color: p.tint }}>{p.name}</span>
         <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/80">
