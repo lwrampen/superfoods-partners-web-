@@ -269,7 +269,7 @@
   "trace": {
     "nodeOrigin": "產地",
     "nodeLab": "實驗室驗證",
-    "nodeHub": "香港樞紐",
+    "nodeHub": "已記錄",
     "nodeFacility": "您的廠房",
     "testPanel": "檢測項目",
     "routed": "經香港轉運",
@@ -373,7 +373,7 @@
     "mapBody": "拖曳旋轉地球、滾動縮放,並將游標移至任一點。綠色標示我們的採購地;琥珀色標示我們服務的市場——全部經由香港一個樞紐轉運。",
     "legendSourcing": "採購 · {count} 個產地",
     "legendMarkets": "市場 · 美國 · 歐盟(經 Pure Matcha Partners)· 中東",
-    "legendHub": "樞紐 · 香港",
+    "legendHub": "我們的據點",
     "statOrigins": "產地",
     "statCountries": "國家",
     "statBatch": "批次檢測",

@@ -269,7 +269,7 @@
   "trace": {
     "nodeOrigin": "ORIGIN",
     "nodeLab": "LAB VERIFIED",
-    "nodeHub": "HONG KONG HUB",
+    "nodeHub": "DOCUMENTED",
     "nodeFacility": "YOUR FACILITY",
     "testPanel": "Test panel",
     "routed": "Documented per batch",
@@ -289,7 +289,7 @@
     "Hong Kong": "Hong Kong"
   },
   "sourcingMap": {
-    "aria": "Where Superfoods Partners sources, routed through Hong Kong"
+    "aria": "Where Superfoods Partners sources, flowing to our nearest location"
   },
   "pdp": {
     "metaTitle": "Bulk {name} Powder — {place} | Wholesale Supplier",
@@ -370,10 +370,10 @@
     "heroCaption": "ORIGIN — TEA COUNTRY AT SEASON",
     "mapEyebrow": "Global trade map",
     "mapHeading": "Where we source — and where we sell.",
-    "mapBody": "Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve — all routed through one hub in Hong Kong.",
+    "mapBody": "Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve; lime marks our three locations — Hong Kong, Amsterdam and Salt Lake City.",
     "legendSourcing": "Sourcing · {count} origins",
     "legendMarkets": "Markets · US · EU (via Pure Matcha Partners) · Middle East",
-    "legendHub": "Hub · Hong Kong",
+    "legendHub": "Our locations",
     "statOrigins": "ORIGINS",
     "statCountries": "COUNTRIES",
     "statBatch": "BATCH-TESTED",
@@ -390,12 +390,12 @@
     "metaDescription": "Wholesale {products} sourced at origin in {name}, {country} ({coords}). Lab-tested and documented to the batch. MOQ from 25 kg.",
     "metaProductsFallback": "superfoods",
     "back": "Origins",
-    "routedVia": "{coords} — routed via Hong Kong",
+    "routedVia": "{coords} — sourced direct, documented",
     "introFallback": "Direct sourcing in {label}. Every batch from this origin is lab-tested for pesticide residue, heavy metals, microbiology and radiation, then documented with a Verification Record™ before it leaves the hub.",
     "routeEyebrow": "The route",
     "routeHeading": "From {name} to your dock.",
     "routeBody": "We buy where it grows, test and document every batch, and ship it to you. One pair of hands from farm to freight — no anonymous middlemen in between.",
-    "routePath": "{coords} → Hong Kong → you",
+    "routePath": "{coords} → tested & documented → you",
     "sourcedFrom": "Sourced from {name}",
     "ctaQuote": "Request a quote from {name}"
   },

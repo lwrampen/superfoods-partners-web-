@@ -269,7 +269,7 @@
   "trace": {
     "nodeOrigin": "ORIGEN",
     "nodeLab": "VERIFICADO EN LABORATORIO",
-    "nodeHub": "HUB DE HONG KONG",
+    "nodeHub": "DOCUMENTADO",
     "nodeFacility": "SU PLANTA",
     "testPanel": "Panel de análisis",
     "routed": "Enrutado vía Hong Kong",
@@ -373,7 +373,7 @@
     "mapBody": "Arrastre para girar el globo, desplácese para acercar y pase el cursor por cualquier punto. El verde marca dónde nos abastecemos; el ámbar marca los mercados que atendemos — todo enrutado a través de un único hub en Hong Kong.",
     "legendSourcing": "Abastecimiento · {count} orígenes",
     "legendMarkets": "Mercados · EE. UU. · UE (vía Pure Matcha Partners) · Oriente Medio",
-    "legendHub": "Hub · Hong Kong",
+    "legendHub": "Nuestras ubicaciones",
     "statOrigins": "ORÍGENES",
     "statCountries": "PAÍSES",
     "statBatch": "ANALIZADO POR LOTE",
