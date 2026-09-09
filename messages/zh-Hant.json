@@ -159,7 +159,25 @@
           "cta": "索取報價"
         }
       ]
-    }
+    },
+    "peopleStripEyebrow": "我們一再回訪的農場",
+    "peopleStrip": [
+      {
+        "src": "/photos/grower-picker.jpg",
+        "alt": "A grower picking leaf at harvest",
+        "cap": "我們採購的對象——具名，一季又一季"
+      },
+      {
+        "src": "/photos/gardens-wide.jpg",
+        "alt": "Shade-grown gardens",
+        "cap": "我們一再回訪的產區，而非現貨批次"
+      },
+      {
+        "src": "/photos/terraces.jpg",
+        "alt": "Tea terraces at origin",
+        "cap": "長期合約，讓農場能投資於土地"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "洞察",

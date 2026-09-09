@@ -621,7 +621,7 @@ export const POSTS: InsightPost[] = [
       "Superfoods Partners 背後的團隊",
     ),
     metaDescription: L(
-      "Meet the Hong Kong team behind Superfoods Partners — the people who vet the gardens, test every batch and pick up the phone. Trust starts with knowing who sources your matcha.",
+      "Meet the team behind Superfoods Partners — the people who vet the gardens, test every batch and pick up the phone. Trust starts with knowing who sources your matcha.",
       "Lernen Sie das Hongkong-Team hinter Superfoods Partners kennen — die Menschen, die die Gärten prüfen, jede Charge testen und ans Telefon gehen. Vertrauen beginnt damit zu wissen, wer Ihren Matcha beschafft.",
       "Conozca al equipo de Hong Kong detrás de Superfoods Partners — las personas que evalúan los jardines, analizan cada lote y contestan el teléfono. La confianza empieza por saber quién abastece su matcha.",
       "Rencontrez l'équipe de Hong Kong derrière Superfoods Partners — les personnes qui évaluent les jardins, testent chaque lot et décrochent le téléphone. La confiance commence par savoir qui source votre matcha.",
@@ -629,7 +629,7 @@ export const POSTS: InsightPost[] = [
       "認識 Superfoods Partners 背後的香港團隊——評估茶園、檢驗每批、接聽電話的人。信任始於知道是誰為你採購抹茶。",
     ),
     dek: L(
-      "Sourcing you can trust starts with people you can name. Meet the small Hong Kong team that vets the gardens, tests every batch and answers the phone.",
+      "Sourcing you can trust starts with people you can name. Meet the small, named team that vets the gardens, tests every batch and answers the phone.",
       "Beschaffung, der Sie vertrauen, beginnt mit Menschen, die Sie beim Namen kennen. Lernen Sie das kleine Hongkong-Team kennen, das die Gärten prüft, jede Charge testet und ans Telefon geht.",
       "El abastecimiento en el que puede confiar empieza con personas a las que puede nombrar. Conozca al pequeño equipo de Hong Kong que evalúa los jardines, analiza cada lote y contesta el teléfono.",
       "Un approvisionnement digne de confiance commence par des personnes que vous pouvez nommer. Rencontrez la petite équipe de Hong Kong qui évalue les jardins, teste chaque lot et répond au téléphone.",
@@ -637,7 +637,7 @@ export const POSTS: InsightPost[] = [
       "值得信任的採購，始於你叫得出名字的人。認識這支評估茶園、檢驗每批、接聽電話的香港小團隊。",
     ),
     lede: L(
-      "Superfoods Partners is run by a small, named team based in Hong Kong, working across sourcing, quality control and partnerships. Behind every batch is a specific person who vetted the garden, tested the material or took your call — not an anonymous broker.",
+      "Superfoods Partners is run by a small, named team working across sourcing, quality control and partnerships, from our three locations. Behind every batch is a specific person who vetted the garden, tested the material or took your call — not an anonymous broker.",
       "Superfoods Partners wird von einem kleinen, namentlich bekannten Team in Hongkong geführt, das in Beschaffung, Qualitätskontrolle und Partnerschaften arbeitet. Hinter jeder Charge steht eine konkrete Person, die den Garten geprüft, das Material getestet oder Ihren Anruf entgegengenommen hat — kein anonymer Zwischenhändler.",
       "Superfoods Partners está dirigida por un equipo pequeño y con nombre propio, con sede en Hong Kong, que trabaja en abastecimiento, control de calidad y alianzas. Detrás de cada lote hay una persona concreta que evaluó el jardín, analizó el material o atendió su llamada — no un intermediario anónimo.",
       "Superfoods Partners est gérée par une petite équipe identifiée, basée à Hong Kong, qui travaille sur le sourcing, le contrôle qualité et les partenariats. Derrière chaque lot, il y a une personne précise qui a évalué le jardin, testé la matière ou pris votre appel — pas un courtier anonyme.",
@@ -649,7 +649,7 @@ export const POSTS: InsightPost[] = [
         heading: L("A team, not a middleman", "Ein Team, kein Zwischenhändler", "Un equipo, no un intermediario", "Une équipe, pas un intermédiaire", "Zespół, nie pośrednik", "一支團隊，而非中間商"),
         body: [
           L(
-            "Four people carry the work across the chain. Wanjin leads supply chain and sourcing; Fannie sources at origin; Candy handles partnerships; Lucinda runs quality control. All are based in our Hong Kong hub, close to the gardens we buy from and the shipments we consolidate.",
+            "A small, named team carries the work across the chain. Wanjin leads supply chain and sourcing; Fannie sources at origin; Candy handles partnerships; Lucinda runs quality control — the sourcing and quality-control core, close to the gardens we buy from. Commercial teams in Amsterdam and Salt Lake City serve Europe and the Americas.",
             "Vier Menschen tragen die Arbeit über die gesamte Kette. Wanjin leitet Lieferkette und Beschaffung; Fannie beschafft am Ursprung; Candy betreut Partnerschaften; Lucinda verantwortet die Qualitätskontrolle. Alle sitzen in unserem Hongkong-Hub, nah an den Gärten, bei denen wir kaufen, und an den Sendungen, die wir bündeln.",
             "Cuatro personas llevan el trabajo a lo largo de la cadena. Wanjin lidera la cadena de suministro y el abastecimiento; Fannie abastece en origen; Candy gestiona las alianzas; Lucinda dirige el control de calidad. Todas trabajan en nuestro hub de Hong Kong, cerca de los jardines a los que compramos y de los envíos que consolidamos.",
             "Quatre personnes portent le travail sur toute la chaîne. Wanjin dirige la chaîne d'approvisionnement et le sourcing ; Fannie source à l'origine ; Candy gère les partenariats ; Lucinda pilote le contrôle qualité. Toutes sont basées dans notre hub de Hong Kong, au plus près des jardins où nous achetons et des expéditions que nous consolidons.",
@@ -690,13 +690,13 @@ export const POSTS: InsightPost[] = [
       { label: L("Fannie", "Fannie", "Fannie", "Fannie", "Fannie", "Fannie"), value: L("Sourcing", "Beschaffung", "Abastecimiento", "Sourcing", "Sourcing", "採購") },
       { label: L("Candy", "Candy", "Candy", "Candy", "Candy", "Candy"), value: L("Partnerships", "Partnerschaften", "Alianzas", "Partenariats", "Partnerstwa", "合作關係") },
       { label: L("Lucinda", "Lucinda", "Lucinda", "Lucinda", "Lucinda", "Lucinda"), value: L("Quality control", "Qualitätskontrolle", "Control de calidad", "Contrôle qualité", "Kontrola jakości", "品質管制") },
-      { label: L("Based", "Sitz", "Sede", "Basée à", "Siedziba", "據點"), value: L("Hong Kong hub", "Hongkong-Hub", "Hub de Hong Kong", "Hub de Hong Kong", "Hub w Hongkongu", "香港樞紐") },
+      { label: L("Based", "Sitz", "Sede", "Basée à", "Siedziba", "據點"), value: L("Three locations", "Hongkong-Hub", "Hub de Hong Kong", "Hub de Hong Kong", "Hub w Hongkongu", "香港樞紐") },
     ],
     faqs: [
       {
         q: L("Can I speak to the sourcing team directly?", "Kann ich direkt mit dem Beschaffungsteam sprechen?", "¿Puedo hablar directamente con el equipo de abastecimiento?", "Puis-je parler directement à l'équipe de sourcing ?", "Czy mogę rozmawiać bezpośrednio z zespołem sourcingu?", "我可以直接與採購團隊聯繫嗎？"),
         a: L(
-          "Yes. You work with named people in Hong Kong, not a faceless order desk — reachable within your own working day.",
+          "Yes. You work with named people across our locations, not a faceless order desk — reachable within your own working day.",
           "Ja. Sie arbeiten mit namentlich bekannten Menschen in Hongkong, nicht mit einem gesichtslosen Bestell-Desk — erreichbar innerhalb Ihres Arbeitstags.",
           "Sí. Trabaja con personas con nombre en Hong Kong, no con un mostrador de pedidos anónimo — accesibles dentro de su jornada laboral.",
           "Oui. Vous travaillez avec des personnes identifiées à Hong Kong, pas un guichet de commandes anonyme — joignables pendant votre journée de travail.",
@@ -707,7 +707,7 @@ export const POSTS: InsightPost[] = [
       {
         q: L("Where is the team based?", "Wo sitzt das Team?", "¿Dónde está el equipo?", "Où est basée l'équipe ?", "Gdzie znajduje się zespół?", "團隊在哪裡？"),
         a: L(
-          "In our Hong Kong hub, close to the origins we source from and the shipments we consolidate and document.",
+          "Across our three locations — Hong Kong, Amsterdam and Salt Lake City — close to the origins we source from and the manufacturers we supply.",
           "In unserem Hongkong-Hub, nah an den Ursprüngen, bei denen wir beschaffen, und an den Sendungen, die wir bündeln und dokumentieren.",
           "En nuestro hub de Hong Kong, cerca de los orígenes de los que nos abastecemos y de los envíos que consolidamos y documentamos.",
           "Dans notre hub de Hong Kong, au plus près des origines où nous nous approvisionnons et des expéditions que nous consolidons et documentons.",
@@ -991,7 +991,7 @@ export const POSTS: InsightPost[] = [
       {
         q: L("Can you supply a consistent colour at volume?", "Können Sie eine konstante Farbe im großen Maßstab liefern?", "¿Pueden suministrar un color constante a volumen?", "Pouvez-vous fournir une couleur constante au volume ?", "Czy możecie dostarczyć stały kolor przy dużych ilościach?", "你們能在大量時供應一致的色澤嗎？"),
         a: L(
-          "Yes — we screen and document colour and particle size per batch and consolidate through our Hong Kong hub, so the spec stays consistent across repeat orders.",
+          "Yes — we screen and document colour and particle size per batch, so the spec stays consistent across repeat orders.",
           "Ja — wir prüfen und dokumentieren Farbe und Partikelgröße pro Charge und bündeln über unseren Hongkong-Hub, sodass die Spezifikation über Folgeaufträge konstant bleibt.",
           "Sí — controlamos y documentamos el color y el tamaño de partícula por lote y consolidamos a través de nuestro hub de Hong Kong, de modo que la especificación se mantiene constante en pedidos repetidos.",
           "Oui — nous contrôlons et documentons la couleur et la granulométrie par lot et consolidons via notre hub de Hong Kong, de sorte que la spécification reste constante sur les commandes répétées.",

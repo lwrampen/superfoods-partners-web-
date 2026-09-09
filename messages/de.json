@@ -159,7 +159,25 @@
           "cta": "Angebot anfordern"
         }
       ]
-    }
+    },
+    "peopleStripEyebrow": "Die Farmen, zu denen wir zurückkehren",
+    "peopleStrip": [
+      {
+        "src": "/photos/grower-picker.jpg",
+        "alt": "A grower picking leaf at harvest",
+        "cap": "Menschen, bei denen wir kaufen — mit Namen, Saison für Saison"
+      },
+      {
+        "src": "/photos/gardens-wide.jpg",
+        "alt": "Shade-grown gardens",
+        "cap": "Regionen, zu denen wir zurückkehren — keine Spotmarkt-Lose"
+      },
+      {
+        "src": "/photos/terraces.jpg",
+        "alt": "Tea terraces at origin",
+        "cap": "Langfristige Verträge, damit Farmen in das Land investieren können"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Einblicke",
