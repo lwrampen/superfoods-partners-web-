@@ -13,6 +13,24 @@ function Silhouette() {
   );
 }
 
+// Group the roster by operating location, in a stable, sensible order.
+const LOCATION_ORDER = ["Hong Kong", "Amsterdam", "Salt Lake City"];
+function groupByLocation(members: TeamMember[]): { location: string; members: TeamMember[] }[] {
+  const byLoc = new Map<string, TeamMember[]>();
+  for (const m of members) {
+    const key = m.location ?? "";
+    if (!byLoc.has(key)) byLoc.set(key, []);
+    byLoc.get(key)!.push(m);
+  }
+  const rank = (loc: string) => {
+    const i = LOCATION_ORDER.indexOf(loc);
+    return i === -1 ? 99 : i;
+  };
+  return [...byLoc.entries()]
+    .map(([location, mem]) => ({ location, members: mem }))
+    .sort((a, b) => rank(a.location) - rank(b.location));
+}
+
 export function TeamSection({ members }: { members: TeamMember[] }) {
   const t = useTranslations("team");
   const tr = useTranslations("roles");
@@ -30,28 +48,38 @@ export function TeamSection({ members }: { members: TeamMember[] }) {
           <h2 className="display text-4xl leading-tight text-green md:text-5xl">{t("heading")}</h2>
           <p className="mt-5 text-stone/75">{t("body")}</p>
         </Reveal>
-        <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4">
-          {members.map((m, i) => (
-            <Reveal key={`${m.name}-${i}`} delay={(i % 4) * 0.05}>
-              <figure>
-                <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-sand">
-                  {m.photo ? (
-                    <Image src={m.photo} alt={m.name} fill className="object-cover" sizes="(min-width: 1024px) 22vw, 45vw" />
-                  ) : (
-                    <Silhouette />
-                  )}
-                </div>
-                <figcaption className="mt-3">
-                  <p className="display text-lg leading-tight text-green">{m.name}</p>
-                  <p className="mono mt-1 text-[11px] uppercase tracking-wide text-stone/55">{tx(m.role)}</p>
-                  {m.location && (
-                    <p className="mono mt-0.5 text-[10px] uppercase tracking-wide text-stone/40">{tx(m.location)}</p>
-                  )}
-                </figcaption>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
+        {/* Grouped by operating location — scales to the full roster across
+            Hong Kong, Amsterdam and Salt Lake City. */}
+        {groupByLocation(members).map((g) => (
+          <div key={g.location || "team"} className="mb-14 last:mb-0">
+            <div className="mb-6 flex items-center gap-3">
+              <span className="h-2 w-2 rounded-full bg-amber" />
+              <span className="mono text-[11px] uppercase tracking-widest text-stone/60">
+                {g.location ? tx(g.location) : t("eyebrowSub")}
+              </span>
+              <span className="mono text-[11px] text-stone/35">{g.members.length}</span>
+            </div>
+            <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4">
+              {g.members.map((m, i) => (
+                <Reveal key={`${m.name}-${i}`} delay={(i % 4) * 0.05}>
+                  <figure>
+                    <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-sand">
+                      {m.photo ? (
+                        <Image src={m.photo} alt={m.name} fill className="object-cover" sizes="(min-width: 1024px) 22vw, 45vw" />
+                      ) : (
+                        <Silhouette />
+                      )}
+                    </div>
+                    <figcaption className="mt-3">
+                      <p className="display text-lg leading-tight text-green">{m.name}</p>
+                      <p className="mono mt-1 text-[11px] uppercase tracking-wide text-stone/55">{tx(m.role)}</p>
+                    </figcaption>
+                  </figure>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

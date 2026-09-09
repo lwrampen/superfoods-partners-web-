@@ -159,7 +159,25 @@
           "cta": "Demander un devis"
         }
       ]
-    }
+    },
+    "peopleStripEyebrow": "Les fermes où nous revenons",
+    "peopleStrip": [
+      {
+        "src": "/photos/grower-picker.jpg",
+        "alt": "A grower picking leaf at harvest",
+        "cap": "Des personnes chez qui nous achetons — nommées, saison après saison"
+      },
+      {
+        "src": "/photos/gardens-wide.jpg",
+        "alt": "Shade-grown gardens",
+        "cap": "Des régions où nous revenons, pas des lots au comptant"
+      },
+      {
+        "src": "/photos/terraces.jpg",
+        "alt": "Tea terraces at origin",
+        "cap": "Des contrats de longue durée, pour que les fermes investissent dans la terre"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Analyses",

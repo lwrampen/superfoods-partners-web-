@@ -71,7 +71,7 @@
       },
       {
         "t": "Provenance, proven",
-        "d": "A name, a place and a coordinate behind every batch we route."
+        "d": "A name, a place and a coordinate behind every batch we ship."
       }
     ],
     "peopleCaption": "A GROWER IN THE GARDENS AT HARVEST",
@@ -159,7 +159,25 @@
           "cta": "Request a quote"
         }
       ]
-    }
+    },
+    "peopleStripEyebrow": "The farms we return to",
+    "peopleStrip": [
+      {
+        "src": "/photos/grower-picker.jpg",
+        "alt": "A grower picking leaf at harvest",
+        "cap": "People we buy from — by name, season after season"
+      },
+      {
+        "src": "/photos/gardens-wide.jpg",
+        "alt": "Shade-grown gardens",
+        "cap": "Regions we return to, not spot-market lots"
+      },
+      {
+        "src": "/photos/terraces.jpg",
+        "alt": "Tea terraces at origin",
+        "cap": "Long-term contracts, so farms can invest in the land"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Insights",
@@ -260,7 +278,7 @@
     "eyebrow": "The team",
     "eyebrowSub": "People behind it",
     "heading": "Faces you can call.",
-    "body": "The people who source, test and move your volume — one partner, in your timezone, who actually picks up."
+    "body": "The people who source, test and move your volume — one partner across our locations, in your timezone, who actually picks up."
   },
   "certifications": {
     "title": "Certified & independently tested",

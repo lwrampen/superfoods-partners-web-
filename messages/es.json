@@ -159,7 +159,25 @@
           "cta": "Solicitar presupuesto"
         }
       ]
-    }
+    },
+    "peopleStripEyebrow": "Las fincas a las que volvemos",
+    "peopleStrip": [
+      {
+        "src": "/photos/grower-picker.jpg",
+        "alt": "A grower picking leaf at harvest",
+        "cap": "Personas a las que compramos — con nombre, temporada tras temporada"
+      },
+      {
+        "src": "/photos/gardens-wide.jpg",
+        "alt": "Shade-grown gardens",
+        "cap": "Regiones a las que volvemos, no lotes del mercado spot"
+      },
+      {
+        "src": "/photos/terraces.jpg",
+        "alt": "Tea terraces at origin",
+        "cap": "Contratos a largo plazo para que las fincas inviertan en la tierra"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Análisis",

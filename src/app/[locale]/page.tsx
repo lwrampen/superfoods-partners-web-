@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { TraceABatch } from "@/components/TraceABatch";
 import { Reveal } from "@/components/Reveal";
@@ -45,6 +46,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const tc = await getTranslations("core");
 
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
+  const peopleStrip = t.raw("peopleStrip") as { src: string; alt: string; cap: string }[];
   const steps = t.raw("steps") as { t: string; d: string }[];
   const audienceHrefs = ["/products", "/verification", "/contact"];
   const audienceRooms = (
@@ -213,6 +215,32 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 sizes="(min-width: 768px) 36vw, 100vw"
               />
             </Reveal>
+          </div>
+          {/* the farms we return to — show, not just tell */}
+          <div className="mx-auto max-w-6xl px-6 pb-24">
+            <Reveal className="mb-6">
+              <p className="mono text-[11px] uppercase tracking-widest text-lionsmane">{t("peopleStripEyebrow")}</p>
+            </Reveal>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {peopleStrip.map((s, i) => (
+                <Reveal key={s.src} delay={i * 0.08}>
+                  <figure className="group">
+                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-sand">
+                      <Image
+                        src={s.src}
+                        alt={s.alt}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                        sizes="(min-width: 640px) 30vw, 100vw"
+                      />
+                    </div>
+                    <figcaption className="mono mt-3 text-[11px] uppercase leading-relaxed tracking-wide text-stone/55">
+                      {s.cap}
+                    </figcaption>
+                  </figure>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </section>
 

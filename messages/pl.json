@@ -159,7 +159,25 @@
           "cta": "Poproś o wycenę"
         }
       ]
-    }
+    },
+    "peopleStripEyebrow": "Gospodarstwa, do których wracamy",
+    "peopleStrip": [
+      {
+        "src": "/photos/grower-picker.jpg",
+        "alt": "A grower picking leaf at harvest",
+        "cap": "Ludzie, od których kupujemy — z imienia, sezon po sezonie"
+      },
+      {
+        "src": "/photos/gardens-wide.jpg",
+        "alt": "Shade-grown gardens",
+        "cap": "Regiony, do których wracamy, a nie partie ze spotu"
+      },
+      {
+        "src": "/photos/terraces.jpg",
+        "alt": "Tea terraces at origin",
+        "cap": "Długoterminowe umowy, by gospodarstwa mogły inwestować w ziemię"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Analizy",

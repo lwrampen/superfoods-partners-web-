@@ -20,13 +20,20 @@ export type Cert = {
   logo?: string; // /certs/<file> — omit for text-plate fallback
 };
 
-// Team — portraits unified to a single studio backdrop + crop; the untouched
-// originals are kept out of the build under /design-assets/team-raw.
+// Team — the site groups this roster by `location`, so add people for every
+// operating location (Hong Kong / Amsterdam / Salt Lake City) and they appear
+// under the right heading automatically. To grow the team: add entries below
+// with name, role, location and a photo in /public/team (silhouette fallback
+// until a photo is set). Roles/locations are localised via the `roles` message
+// namespace when a matching key exists, else shown verbatim.
 export const TEAM: TeamMember[] = [
   { name: "Wanjin", role: "Supply chain & sourcing", photo: "/team/wanjin.jpg", location: "Hong Kong" },
   { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
   { name: "Candy", role: "Partnerships", photo: "/team/candy.jpg", location: "Hong Kong" },
   { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
+  // TODO (Leonard to supply): remaining team + Amsterdam / Salt Lake City people,
+  // with better portraits. e.g.
+  // { name: "…", role: "…", photo: "/team/….jpg", location: "Amsterdam" },
 ];
 
 // Certifications — official marks supplied by SFP.
