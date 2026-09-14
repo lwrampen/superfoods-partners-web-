@@ -7,7 +7,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { Certifications } from "@/components/Certifications";
-import { toCert } from "@/data/trust";
+import { CERT_GROUPS } from "@/data/trust";
 
 export async function generateMetadata({
   params,
@@ -23,9 +23,6 @@ export async function generateMetadata({
   };
 }
 
-// Official cert marks — logos resolved via toCert(). Kosher has no supplied
-// logo, so it falls back to a text plate — handled by <Certifications>.
-const CERTS = ["JAS Organic", "EU Organic", "USDA Organic", "HACCP", "FSSC 22000", "Kosher"].map(toCert);
 const STEP_NUMS = ["01", "02", "03", "04"];
 
 export default async function VerificationPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -117,7 +114,7 @@ export default async function VerificationPage({ params }: { params: Promise<{ l
         </section>
 
         {/* Certs — official marks with logos (text-plate fallback per cert) */}
-        <Certifications certs={CERTS} title={t("certsHeading")} />
+        <Certifications groups={CERT_GROUPS} title={t("certsHeading")} />
 
         {/* FAQ */}
         <section className="mx-auto max-w-3xl px-6 py-20">

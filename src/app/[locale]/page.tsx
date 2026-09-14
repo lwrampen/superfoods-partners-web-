@@ -9,11 +9,12 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { LocationsMap } from "@/components/LocationsMap";
 import { Certifications } from "@/components/Certifications";
+import { ClientLogos } from "@/components/ClientLogos";
 import { ExpertsCluster } from "@/components/ExpertsCluster";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor } from "@/i18n/paths";
 import { PRODUCTS, ORIGINS, ORIGIN_LIST, LABELS } from "@/data/catalog";
-import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
+import { TEAM, CERTIFICATIONS, PARTNERS, CLIENTS } from "@/data/trust";
 
 export async function generateMetadata({
   params,
@@ -382,6 +383,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <figcaption className="mono mt-5 text-[11px] uppercase tracking-wide text-stone/60">{t("socialQuoteAttr")}</figcaption>
               </figure>
             </Reveal>
+            {CLIENTS.some((c) => c.logo) && (
+              <Reveal delay={0.13}>
+                <div className="mt-12 border-t border-stone/15 pt-8">
+                  <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
+                </div>
+              </Reveal>
+            )}
             <Reveal delay={0.15}>
               <div className="mono mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-stone/15 pt-6 text-[11px] uppercase tracking-wide text-stone/45">
                 {socialTags.map((tag) => (

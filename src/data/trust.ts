@@ -70,3 +70,23 @@ export function toCert(name: string): Cert {
   const logo = CERT_LOGOS[name.trim().toLowerCase()];
   return logo ? { name, logo } : { name };
 }
+
+// Certifications grouped by what they prove — for the featured "credentials"
+// block on Company + Verification. Labels/notes are localised via the
+// `certifications` message namespace (key + "Label" / key + "Note").
+const certByName = (n: string): Cert => CERTIFICATIONS.find((c) => c.name === n) ?? toCert(n);
+export type CertGroup = { key: string; items: Cert[] };
+export const CERT_GROUPS: CertGroup[] = [
+  { key: "organic", items: [certByName("JAS Organic"), certByName("EU Organic"), certByName("USDA Organic")] },
+  { key: "safety", items: [certByName("HACCP"), certByName("FSSC 22000"), certByName("Rainforest Alliance")] },
+  { key: "labs", items: PARTNERS },
+];
+
+// Customer logos — permission-cleared client marks for the "trusted by" bar.
+// TO POPULATE: drop logos in /public/clients (e.g. /public/clients/acme.svg)
+// and add entries below. The bar only renders once there is at least one entry.
+export type Client = { name: string; logo?: string };
+export const CLIENTS: Client[] = [
+  // TODO (Leonard to supply): permission-cleared customer logos, e.g.
+  // { name: "Acme Beverages", logo: "/clients/acme.svg" },
+];

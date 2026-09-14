@@ -176,7 +176,8 @@
         "alt": "Tea terraces at origin",
         "cap": "Contratos a largo plazo para que las fincas inviertan en la tierra"
       }
-    ]
+    ],
+    "clientsLabel": "Algunos de los equipos a los que suministramos"
   },
   "insights": {
     "eyebrow": "Análisis",
@@ -281,7 +282,13 @@
   },
   "certifications": {
     "title": "Certificado y analizado de forma independiente",
-    "partnersTitle": "Analizado y verificado por"
+    "partnersTitle": "Analizado y verificado por",
+    "organicLabel": "Ecológico",
+    "organicNote": "Certificado ecológico en Japón (JAS), la UE y EE. UU. (USDA).",
+    "safetyLabel": "Seguridad alimentaria y abastecimiento responsable",
+    "safetyNote": "Sistemas de seguridad alimentaria HACCP y FSSC 22000, más Rainforest Alliance.",
+    "labsLabel": "Laboratorios independientes",
+    "labsNote": "Cada lote analizado por laboratorios externos acreditados."
   },
   "trace": {
     "nodeOrigin": "ORIGEN",
