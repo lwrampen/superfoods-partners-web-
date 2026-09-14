@@ -1,8 +1,8 @@
 {
   "meta": {
     "titleDefault": "Superfoods Partners — 規模化採購，源頭可信賴。",
-    "description": "以香港為據點的 B2B 超級食物採購。全球每一個產地，皆經驗證、記錄與可追溯，統一經由一個可信賴的樞紐轉運。",
-    "ogDescription": "全球每一個產地，統一經由香港一個可信賴的樞紐轉運。經驗證、有記錄、可追溯。"
+    "description": "國際化的 B2B 超級食物採購，據點遍及香港、阿姆斯特丹與鹽湖城。全球每一個產地，皆經驗證、記錄並可追溯至批次。",
+    "ogDescription": "全球每一個產地，皆經驗證、記錄並可追溯至批次。產地直採，逐批檢測。"
   },
   "nav": {
     "catalog": "產品目錄",
@@ -31,7 +31,6 @@
     "verification": "驗證",
     "about": "關於我們",
     "contact": "聯絡我們",
-    "hongKongHub": "香港樞紐",
     "requestQuote": "索取報價 →",
     "copyright": "© 2026 Superfoods Partners B.V.",
     "entities": "註冊公司",
@@ -71,7 +70,7 @@
       },
       {
         "t": "來源，經得起證明",
-        "d": "我們轉運的每一批次，背後都有名字、地點與座標。"
+        "d": "我們出貨的每一批次，背後都有名字、地點與座標。"
       }
     ],
     "peopleCaption": "採收時節茶園中的茶農",
@@ -98,8 +97,8 @@
         "d": "每一批次都附上 Verification Record™ 與完整 COA。"
       },
       {
-        "t": "我們經香港出貨",
-        "d": "FOB、CIF 或 DDP——經樞紐轉運，2–4 週送達。"
+        "t": "我們出貨，附文件",
+        "d": "FOB、CIF 或 DDP——每一批皆附文件，2–4 週送達。"
       }
     ],
     "termMoq": "最低訂購量 · 25 公斤 → 整櫃",
@@ -109,11 +108,11 @@
     "statCountries": "國家",
     "statTested": "批次檢測",
     "statHub": "據點",
-    "hkEyebrow": "為何選香港",
-    "hkCoords": "北緯 22.32° 東經 114.17°——每一個產地在此匯聚",
-    "hkHeading": "一個樞紐，讓信任不再零散。",
-    "hkBody1": "亞洲產地在此與世界相會。從單一保稅樞紐，我們整併、檢測並記錄每一批出貨——讓您面對的是一個熟知您規格的夥伴，而非一打不了解您的中間商。",
-    "hkBody2": "背後是實實在在的人:一支你能在自己時區致電、而且真的會接聽的團隊。Pure Matcha Partners 是我們的抹茶專門品牌。",
+    "hkEyebrow": "我們如何運作",
+    "hkCoords": "香港 · 阿姆斯特丹 · 鹽湖城",
+    "hkHeading": "貼近產地，也貼近您。",
+    "hkBody1": "我們從三處據點營運——香港、阿姆斯特丹與鹽湖城——因此既貼近我們採購的茶園，也貼近我們供應的製造商。每一批貨無論運往何處，都在出貨前經檢測與記錄。",
+    "hkBody2": "背後是實實在在的人:一支你能在自己時區致電、而且真的會接聽的團隊。",
     "hkExpertsLabel": "認識團隊",
     "hkCaption": "全田採收——規模化運送",
     "socialMarker": "受信賴於",
@@ -128,7 +127,7 @@
       "自有品牌代工廠"
     ],
     "ctaHeading": "源頭就是故事本身。",
-    "ctaBody": "告訴我們您的需求與規模。我們負責採購、驗證與記錄——並經香港為您轉運。",
+    "ctaBody": "告訴我們您的需求與規模。我們負責採購、驗證與記錄——並為您出貨。",
     "ctaNote": "寄出您的規格——48 小時內提供實驗室報告與報價",
     "pillars": [
       "直接向源頭採購,不經貿易商",
@@ -219,8 +218,8 @@
         "d": "我們以透明方式整合產地,以達成一致品質、供應安全與規模。"
       },
       {
-        "t": "香港樞紐",
-        "d": "由單一實體統籌全亞洲的採購、供應商、品保、合規與物流。"
+        "t": "三處據點",
+        "d": "香港、阿姆斯特丹與鹽湖城的在地團隊統籌採購、品保、合規與物流——貼近產地,也貼近您。"
       },
       {
         "t": "獨立驗證",
@@ -246,7 +245,7 @@
   },
   "about": {
     "metaTitle": "公司——值得信賴的超級食物採購夥伴",
-    "metaDescription": "Superfoods Partners 是一家荷蘭的單一產地超級食物粉供應商,於香港、荷蘭與美國營運。Pure Matcha Partners 是我們的抹茶專門品牌。",
+    "metaDescription": "Superfoods Partners 是一家國際化的單一產地超級食物粉供應商,於香港、阿姆斯特丹與鹽湖城營運。Pure Matcha Partners 是我們的抹茶專門品牌。",
     "eyebrow": "公司",
     "eyebrowSub": "我們是誰",
     "heroHeading": "源頭就是故事本身。",
@@ -290,7 +289,7 @@
     "nodeHub": "已記錄",
     "nodeFacility": "您的廠房",
     "testPanel": "檢測項目",
-    "routed": "經香港轉運",
+    "routed": "逐批記錄",
     "pesticide": "農藥殘留",
     "heavyMetals": "重金屬 · 鉛 砷 鎘",
     "microbiology": "微生物",
@@ -307,7 +306,7 @@
     "Hong Kong": "香港"
   },
   "sourcingMap": {
-    "aria": "Superfoods Partners 的採購地,經香港轉運"
+    "aria": "Superfoods Partners 的採購地,流向我們最近的據點"
   },
   "pdp": {
     "metaTitle": "{name}粉批發 — {place} | 批發供應商",
@@ -315,21 +314,21 @@
     "bulkSupplier": "{name}批發供應商",
     "requestQuote": "索取報價",
     "labReport": "48 小時內提供實驗室報告與報價",
-    "everyBatch": "每一批次皆附 Verification Record™ 出貨 · 經香港轉運",
+    "everyBatch": "每一批次皆附 Verification Record™ 出貨 · 可追溯至批次",
     "atGlance": "重點一覽",
     "gradesTitle": "哪個等級適合什麼用途",
     "moq": "最低訂購量",
     "moqValue": "25 公斤 → 整櫃",
     "leadTime": "交期",
-    "leadValue": "2–4 週,經香港",
+    "leadValue": "2–4 週",
     "incoterms": "貿易條件",
     "incotermsValue": "FOB / CIF / DDP",
     "applications": "應用",
     "applicationsBody": "買家將{name}用於何處——橫跨飲品、烘焙與機能性型態。",
     "whereFrom": "來自何處",
     "sourcedAtOrigin": "{name},源頭直採。",
-    "sourceMulti": "我們直接從 {count} 個產區採購{name},再於香港樞紐整併並記錄每一批次,才送達您手中。",
-    "sourceSingle": "我們直接在{country}採購{name},再於香港樞紐整併並記錄每一批次,才送達您手中。",
+    "sourceMulti": "我們直接從 {count} 個產區採購{name},並於出貨前逐批檢測與記錄,才送達您手中。",
+    "sourceSingle": "我們直接在{country}採購{name},並於出貨前逐批檢測與記錄,才送達您手中。",
     "originsFor": "{name}的產地",
     "moreCatalogue": "更多目錄產品",
     "viewCatalogue": "查看完整目錄 →",
@@ -344,11 +343,11 @@
     "certsQ": "您的{name}具備哪些認證?",
     "certsA": "我們的{name}可提供 {certs}。每一批次皆附完整 COA 與 Verification Record™,記錄農藥殘留、重金屬、微生物與輻射檢測。",
     "sourceQ": "您在哪裡採購{name}?",
-    "sourceA": "我們從 {countries} 採購{name},經由香港樞紐轉運與品質查驗,每一批出貨皆可追溯至產地批次。",
+    "sourceA": "我們從 {countries} 採購{name},逐批品質查驗,每一批出貨皆可追溯至產地批次。",
     "plQ": "您能否為自有品牌或作為配方原料供應{name}?",
     "plA": "可以。我們向飲品製造商、保健品與營養補充品品牌、自有品牌與代工廠及經銷商供應{name}——可作為大宗原料,或以您自有品牌供應。",
     "shipQ": "您能多快出貨{name},採用何種貿易條件?",
-    "shipA": "典型交期為 2–4 週,經香港以 FOB、CIF 或 DDP 出貨。實驗室報告與報價通常在您洽詢後 48 小時內提供。",
+    "shipA": "典型交期為 2–4 週,以 FOB、CIF 或 DDP 出貨。實驗室報告與報價通常在您洽詢後 48 小時內提供。",
     "gradesQ": "您提供哪些等級的{name}?",
     "gradesA": "{name}提供 {grades} 等級,{forms} 型態——依您的應用與預算搭配。",
     "organicQ": "您的{name}是否有有機版本?",
@@ -366,7 +365,7 @@
     "eyebrow": "產地護照",
     "heading": "它來自何處——以及為何是這個風味。",
     "originLabel": "產地",
-    "verified": "源頭驗證 · 經香港轉運"
+    "verified": "源頭驗證 · 逐批記錄"
   },
   "catalog": {
     "metaTitle": "抹茶與超級食物批發 — B2B 產品目錄",
@@ -381,14 +380,14 @@
   },
   "origins": {
     "metaTitle": "產地——橫跨 {countries} 個國家的 {origins} 個經驗證來源",
-    "metaDescription": "橫跨 {countryList},Superfoods Partners 的每一個產地皆經標定、實驗室檢測,並經由香港一個可信賴的樞紐轉運。探索我們的採購網絡。",
+    "metaDescription": "橫跨 {countryList},Superfoods Partners 的每一個產地皆經標定、實驗室檢測,並記錄至批次。探索我們的採購網絡。",
     "eyebrow": "產地",
-    "heading": "全球每一個產地,統一經由一個樞紐轉運。",
-    "intro": "我們在 {countries} 個國家的源頭維持直接關係。每一批次出貨前皆經檢測與記錄——從產地經香港到您的廠房。",
+    "heading": "全球每個產地，皆經驗證並可追溯至批次。",
+    "intro": "我們在 {countries} 個國家的源頭維持直接關係。每一批次出貨前皆經檢測與記錄——從產地到您的廠房。",
     "heroCaption": "產地——當季的茶鄉",
     "mapEyebrow": "全球貿易地圖",
     "mapHeading": "我們在哪裡採購——又在哪裡銷售。",
-    "mapBody": "拖曳旋轉地球、滾動縮放,並將游標移至任一點。綠色標示我們的採購地;琥珀色標示我們服務的市場——全部經由香港一個樞紐轉運。",
+    "mapBody": "拖曳旋轉地球、滾動縮放,並將游標移至任一點。綠色標示我們的採購地;琥珀色標示我們服務的市場;萊姆綠標示我們的三處據點——香港、阿姆斯特丹與鹽湖城。",
     "legendSourcing": "採購 · {count} 個產地",
     "legendMarkets": "市場 · 美國 · 歐盟(經 Pure Matcha Partners)· 中東",
     "legendHub": "我們的據點",
@@ -405,15 +404,15 @@
   },
   "originDetail": {
     "metaTitle": "來自 {name},{country} 的{products}批發",
-    "metaDescription": "{products}批發,源頭直採於 {name},{country}({coords})。經實驗室檢測、記錄並經香港轉運。最低訂購量自 25 公斤起。",
+    "metaDescription": "{products}批發,源頭直採於 {name},{country}({coords})。經實驗室檢測並記錄至批次。最低訂購量自 25 公斤起。",
     "metaProductsFallback": "超級食物",
     "back": "產地",
-    "routedVia": "{coords} — 經香港轉運",
-    "introFallback": "於 {label} 直接採購。此產地的每一批次皆經實驗室檢測農藥殘留、重金屬、微生物與輻射,並於離開樞紐前以 Verification Record™ 完成記錄。",
+    "routedVia": "{coords} — 產地直採,附文件",
+    "introFallback": "於 {label} 直接採購。此產地的每一批皆經實驗室檢測農藥殘留、重金屬、微生物與輻射，並以 Verification Record™ 記錄，出貨前完成。",
     "routeEyebrow": "路線",
     "routeHeading": "從 {name} 到您的碼頭。",
-    "routeBody": "我們在它生長之處採購,再經香港樞紐整併,並附文件運送給您。從農場到貨運一手包辦——中間沒有匿名中間商。",
-    "routePath": "{coords} → 香港 → 您",
+    "routeBody": "我們在它生長之處採購,逐批檢測與記錄,再運送給您。從農場到貨運一手包辦——中間沒有匿名中間商。",
+    "routePath": "{coords} → 檢測與記錄 → 您",
     "sourcedFrom": "採購自 {name}",
     "ctaQuote": "索取 {name} 的報價"
   },
@@ -438,8 +437,8 @@
         "d": "Verification Record™ 與完整 COA 隨每一批出貨。"
       },
       {
-        "t": "經香港轉運",
-        "d": "自一個可信賴的樞紐整併、保稅並出貨。"
+        "t": "記錄並出貨",
+        "d": "整併、記錄並運往全球——FOB、CIF 或 DDP。"
       }
     ],
     "testHeading": "每一批次,我們檢測什麼。",
@@ -451,8 +450,8 @@
       "水分、粒徑與感官"
     ],
     "recordEyebrow": "Verification Record™",
-    "recordBody": "一份隨每一批次移動的文件:產地與座標、批次與 COA 編號、完整檢測項目、認證,以及經香港的路線。單一事實來源——為您、您的稽核員與您的客戶而備。",
-    "recordRoute": "經香港轉運 · 北緯 22.32° 東經 114.17°",
+    "recordBody": "一份隨每一批次移動的文件:產地與座標、批次與 COA 編號、完整檢測項目與認證。單一事實來源——為您、您的稽核員與您的客戶而備。",
+    "recordRoute": "逐批記錄 · 可追溯至產地",
     "certsHeading": "經認證、經檢測、有記錄。",
     "faqHeading": "常見問題",
     "faq": [
@@ -466,7 +465,7 @@
       },
       {
         "q": "您的交期與貿易條件為何?",
-        "a": "通常為 2–4 週,經我們的香港樞紐整併與轉運。我們依您需求採 FOB、CIF 或 DDP。"
+        "a": "通常為 2–4 週,逐批整併與記錄。我們依您需求採 FOB、CIF 或 DDP。"
       },
       {
         "q": "您能做自有品牌或客製配方嗎?",
@@ -485,7 +484,7 @@
     "eyebrow": "詢價",
     "eyebrowSub": "索取報價",
     "heading": "運送您能信賴的貨量。",
-    "intro": "告訴我們您的需求與規模。我們負責採購、驗證與記錄——並經香港為您轉運。寄出您的規格,由真人在您的時區回覆。",
+    "intro": "告訴我們您的需求與規模。我們負責採購、驗證與記錄——並為您出貨。寄出您的規格,由真人在您的時區回覆。",
     "specMoq": "最低訂購量 · 25 公斤 → 整櫃",
     "specLead": "交期 · 2–4 週",
     "specIncoterms": "貿易條件 · FOB / CIF / DDP",
