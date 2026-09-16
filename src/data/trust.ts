@@ -78,7 +78,7 @@ export type Client = { name: string; logo?: string };
 export const CLIENTS: Client[] = [
   { name: "de Bijenkorf", logo: "/clients/de-bijenkorf.png" },
   { name: "Picnic", logo: "/clients/picnic.png" },
-  { name: "Bidfood", logo: "/clients/bidfood.png" },
+  { name: "Bidfood", logo: "/clients/bidfood.webp" },
   { name: "asa matcha", logo: "/clients/asa-matcha.png" },
   { name: "noor", logo: "/clients/noor.png" },
 ];
