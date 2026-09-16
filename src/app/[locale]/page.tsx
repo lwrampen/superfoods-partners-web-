@@ -48,7 +48,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const peopleStrip = t.raw("peopleStrip") as { src: string; alt: string; cap: string }[];
-  const reviews = t.raw("reviews") as { q: string; a: string }[];
+  const reviews = t.raw("reviews") as { q: string; name: string; role: string }[];
   const steps = t.raw("steps") as { t: string; d: string }[];
   const audienceHrefs = ["/products", "/verification", "/contact"];
   const audienceRooms = (
@@ -384,19 +384,20 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <h2 className="display text-4xl leading-tight text-green">{t("socialHeading")}</h2>
               <p className="mt-4 text-stone">{t("socialBody")}</p>
             </Reveal>
-            <div className="mt-12 grid gap-5 md:grid-cols-3">
-              {reviews.map((r, i) => (
-                <Reveal key={i} delay={i * 0.08}>
-                  <figure className="flex h-full flex-col rounded-2xl border border-stone/15 bg-white p-7">
-                    <span className="display text-3xl leading-none text-amber" aria-hidden>“</span>
-                    <blockquote className="mt-2 flex-1 leading-relaxed text-green">{r.q}</blockquote>
-                    <figcaption className="mono mt-6 border-t border-stone/10 pt-4 text-[11px] uppercase tracking-wide text-stone/55">
-                      {r.a}
+            <Reveal delay={0.1}>
+              <div className="mt-12 columns-1 gap-5 sm:columns-2 lg:columns-3">
+                {reviews.map((r, i) => (
+                  <figure key={i} className="mb-5 break-inside-avoid rounded-2xl border border-stone/15 bg-white p-7">
+                    <div className="text-sm tracking-[0.15em] text-amber" aria-label="Rated 5 out of 5">★★★★★</div>
+                    <blockquote className="mt-4 whitespace-pre-line text-sm leading-relaxed text-green">{r.q}</blockquote>
+                    <figcaption className="mt-5 border-t border-stone/10 pt-4">
+                      <p className="font-medium text-green">{r.name}</p>
+                      <p className="mono text-[11px] uppercase tracking-wide text-stone/55">{r.role}</p>
                     </figcaption>
                   </figure>
-                </Reveal>
-              ))}
-            </div>
+                ))}
+              </div>
+            </Reveal>
           </div>
         </section>
 

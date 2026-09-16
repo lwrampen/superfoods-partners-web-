@@ -180,16 +180,24 @@
     "clientsLabel": "深受信賴",
     "reviews": [
       {
-        "q": "他們會抓到我們會漏掉的細節——當稽核員索取文件時，資料早已備妥。",
-        "a": "採購主管 · 歐盟飲料品牌"
+        "q": "As a coffee company in Rotterdam, we couldn't ignore it anymore — matcha had to be added to our assortment. But which one? And what exactly is really good matcha? Through mutual connections, I got in touch with Robbert-Jan from Pure Matcha Partners. We quickly set up an introduction. He came by and fully immersed me in the world of matcha. We tasted several matchas and experienced the different flavour profiles.\n\nOne clear winner came out of the tasting: Premium Matcha South China. What really made the difference for us was the fact that the matcha is traded fairly. They know the farmers and pay a fair price. So… it was a match(a)! After that, everything was arranged quickly. Thank you for your enthusiasm and all the valuable matcha knowledge.",
+        "name": "Angela",
+        "role": "Sococo Coffee"
       },
       {
-        "q": "一批又一批都穩定。我們把抹茶專案轉過來，從未後悔。",
-        "a": "品類採購 · 餐飲服務經銷商"
+        "q": "We've tried multiple matcha suppliers over the years, but Pure Matcha Partners stands out. The quality is consistent, vibrant, and our customers noticed the difference immediately. Fast delivery, clear communication, and a team that truly understands the product.",
+        "name": "Laticia",
+        "role": "Owner · Coffee Tales"
       },
       {
-        "q": "樣品與量產一致，文件也一次通過我們的稽核。",
-        "a": "品保經理 · 保健食品品牌"
+        "q": "Amazing matcha! Perfect price-to-quality for horeca. Great communication with the account manager — love working together! 🍵",
+        "name": "Mariel van Cece",
+        "role": "Urbana · Rotterdam"
+      },
+      {
+        "q": "I've been working with Pure Matcha Partners for the past few months, and the experience has been exceptional. Their communication is smooth, their operations are efficient, and they consistently deliver high-quality tea I can rely on. They've proven to be trustworthy partners, and I'm genuinely grateful for our collaboration. I have full confidence that this strong partnership will continue well into the future.",
+        "name": "Joana",
+        "role": "Swiss matcha brand owner"
       }
     ]
   },
