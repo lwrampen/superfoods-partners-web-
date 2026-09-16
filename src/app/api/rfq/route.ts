@@ -24,7 +24,19 @@ export async function POST(req: Request) {
     return Response.json({ ok: false, error: "unconfigured" }, { status: 503 });
   }
 
-  const to = process.env.RFQ_TO_EMAIL || "leonard@purematchapartners.com";
+  // Every request reaches the SFP inbox(es) and Robbert-Jan at Pure Matcha
+  // Partners. RFQ_TO_EMAIL (comma-separated) sets the primary recipient(s);
+  // robbert-jan@purematchapartners.com is always included.
+  const to = Array.from(
+    new Set(
+      [
+        ...(process.env.RFQ_TO_EMAIL || "leonard@purematchapartners.com").split(","),
+        "robbert-jan@purematchapartners.com",
+      ]
+        .map((s) => s.trim())
+        .filter(Boolean),
+    ),
+  );
   const from = process.env.RFQ_FROM_EMAIL || "Superfoods Partners <sourcing@superfoodspartners.com>";
 
   const row = (k: string, v?: string) =>
