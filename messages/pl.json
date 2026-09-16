@@ -115,7 +115,7 @@
     "hkBody2": "A za tym stoją ludzie: zespół, do którego zadzwonisz w swojej strefie czasowej i który naprawdę odbiera.",
     "hkExpertsLabel": "Poznaj zespół",
     "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
-    "socialMarker": "Zaufali nam",
+    "socialMarker": "Co mówią kupujący",
     "socialHeading": "Dla zespołów, których nie stać na złą partię.",
     "socialBody": "Marki napojów, suplementów i gastronomii przychodzą do nas, gdy powtarzalność nie jest opcjonalna — i zostają, bo dokumentacja jest zawsze pod ręką, gdy jej potrzebują.",
     "socialQuote": "„Wychwytują rzeczy, które by nam umknęły — a gdy audytorzy proszą o dokumenty, one już tam są.”",
@@ -177,7 +177,21 @@
         "cap": "Długoterminowe umowy, by gospodarstwa mogły inwestować w ziemię"
       }
     ],
-    "clientsLabel": "Niektóre z zespołów, które zaopatrujemy"
+    "clientsLabel": "Zaufali nam",
+    "reviews": [
+      {
+        "q": "Wyłapują to, co my byśmy przeoczyli – a gdy audytorzy proszą o dokumenty, są już gotowe.",
+        "a": "Szef Zakupów · Marka napojów z UE"
+      },
+      {
+        "q": "Powtarzalne partia po partii. Przenieśliśmy program matchy i nie żałujemy.",
+        "a": "Kupiec Kategorii · Dystrybutor foodservice"
+      },
+      {
+        "q": "Próbka zgadzała się z produkcją, a dokumentacja przeszła nasz audyt za pierwszym razem.",
+        "a": "Kierownik Jakości · Marka suplementów"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Analizy",

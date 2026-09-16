@@ -115,7 +115,7 @@
     "hkBody2": "Y hay personas detrás: un equipo al que puede llamar, en su propia zona horaria, que de verdad contesta el teléfono.",
     "hkExpertsLabel": "Conozca al equipo",
     "hkCaption": "COSECHA DE CAMPO COMPLETO — MOVIDA A ESCALA",
-    "socialMarker": "Confían en nosotros",
+    "socialMarker": "Lo que dicen los compradores",
     "socialHeading": "Para equipos que no pueden permitirse un mal lote.",
     "socialBody": "Marcas de bebidas, suplementos y foodservice acuden a nosotros cuando la consistencia no es opcional — y se quedan porque la documentación siempre está ahí cuando la necesitan.",
     "socialQuote": "«Detectan lo que a nosotros se nos escaparía — y cuando nuestros auditores piden la documentación, ya está lista.»",
@@ -177,7 +177,21 @@
         "cap": "Contratos a largo plazo para que las fincas inviertan en la tierra"
       }
     ],
-    "clientsLabel": "Algunos de los equipos a los que suministramos"
+    "clientsLabel": "Con la confianza de",
+    "reviews": [
+      {
+        "q": "Detectan lo que se nos escaparía, y cuando nuestros auditores piden la documentación, ya está ahí.",
+        "a": "Director de Compras · Marca de bebidas de la UE"
+      },
+      {
+        "q": "Consistente lote tras lote. Trasladamos nuestro programa de matcha y no hemos mirado atrás.",
+        "a": "Comprador de Categoría · Distribuidor de foodservice"
+      },
+      {
+        "q": "La muestra coincidió con la producción, y la documentación pasó nuestra auditoría a la primera.",
+        "a": "Responsable de Calidad · Marca de suplementos"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Análisis",

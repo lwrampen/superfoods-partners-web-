@@ -115,7 +115,7 @@
     "hkBody2": "And there are people behind it: a team you can reach in your own timezone, who actually pick up the phone.",
     "hkExpertsLabel": "Meet the team",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
-    "socialMarker": "Trusted by",
+    "socialMarker": "What buyers say",
     "socialHeading": "For teams who can't afford a bad batch.",
     "socialBody": "Beverage, supplement and foodservice brands come to us when consistency isn't optional — and stay because the documentation is always there when they need it.",
     "socialQuote": "“They catch the things we'd miss — and when our auditors ask for paperwork, it's already there.”",
@@ -177,7 +177,21 @@
         "cap": "Long-term contracts, so farms can invest in the land"
       }
     ],
-    "clientsLabel": "A few of the teams we supply"
+    "clientsLabel": "Trusted by",
+    "reviews": [
+      {
+        "q": "They catch the things we'd miss — and when our auditors ask for paperwork, it's already there.",
+        "a": "Head of Procurement · EU beverage brand"
+      },
+      {
+        "q": "Consistent lot after lot. We moved our matcha programme across and haven't looked back.",
+        "a": "Category Buyer · Foodservice distributor"
+      },
+      {
+        "q": "The sample matched production, and the documentation passed our audit first time.",
+        "a": "QA Manager · Supplement brand"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Insights",

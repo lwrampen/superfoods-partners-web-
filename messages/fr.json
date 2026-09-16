@@ -115,7 +115,7 @@
     "hkBody2": "Et il y a des personnes derrière : une équipe que vous pouvez joindre dans votre propre fuseau horaire, et qui décroche vraiment.",
     "hkExpertsLabel": "Rencontrez l'équipe",
     "hkCaption": "RÉCOLTE PLEIN CHAMP — ACHEMINÉE À GRANDE ÉCHELLE",
-    "socialMarker": "Ils nous font confiance",
+    "socialMarker": "Ce que disent les acheteurs",
     "socialHeading": "Pour les équipes qui ne peuvent pas se permettre un mauvais lot.",
     "socialBody": "Les marques de boissons, de compléments et de foodservice viennent à nous quand la régularité n'est pas optionnelle — et restent parce que la documentation est toujours là quand elles en ont besoin.",
     "socialQuote": "« Ils repèrent ce qui nous échapperait — et quand nos auditeurs réclament les documents, ils sont déjà là. »",
@@ -177,7 +177,21 @@
         "cap": "Des contrats de longue durée, pour que les fermes investissent dans la terre"
       }
     ],
-    "clientsLabel": "Quelques-unes des équipes que nous fournissons"
+    "clientsLabel": "Ils nous font confiance",
+    "reviews": [
+      {
+        "q": "Ils repèrent ce qui nous échapperait, et quand nos auditeurs demandent les documents, ils sont déjà là.",
+        "a": "Directeur des Achats · Marque de boissons UE"
+      },
+      {
+        "q": "Constant, lot après lot. Nous avons basculé notre programme matcha sans jamais regretter.",
+        "a": "Acheteur Catégorie · Distributeur foodservice"
+      },
+      {
+        "q": "L'échantillon correspondait à la production, et la documentation a passé notre audit du premier coup.",
+        "a": "Responsable Qualité · Marque de compléments"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Analyses",

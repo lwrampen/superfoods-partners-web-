@@ -48,6 +48,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const peopleStrip = t.raw("peopleStrip") as { src: string; alt: string; cap: string }[];
+  const reviews = t.raw("reviews") as { q: string; a: string }[];
   const steps = t.raw("steps") as { t: string; d: string }[];
   const audienceHrefs = ["/products", "/verification", "/contact"];
   const audienceRooms = (
@@ -104,6 +105,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             />
           </Reveal>
         </section>
+
+        {/* TRUSTED BY — customer logo strip, right under the hero */}
+        {CLIENTS.some((c) => c.logo) && (
+          <section className="border-y border-stone/10 bg-oat/60">
+            <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
+          </section>
+        )}
 
         {/* AUDIENCES — three rooms, one house */}
         <section className="bg-forest text-oat">
@@ -376,17 +384,19 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <h2 className="display text-4xl leading-tight text-green">{t("socialHeading")}</h2>
               <p className="mt-4 text-stone">{t("socialBody")}</p>
             </Reveal>
-            <Reveal delay={0.1}>
-              <figure className="mt-12 max-w-3xl border-l-2 border-amber pl-6">
-                <blockquote className="display-italic text-2xl leading-snug text-green md:text-3xl">{t("socialQuote")}</blockquote>
-                <figcaption className="mono mt-5 text-[11px] uppercase tracking-wide text-stone/60">{t("socialQuoteAttr")}</figcaption>
-              </figure>
-            </Reveal>
-            <Reveal delay={0.13}>
-              <div className="mt-14 border-t border-stone/15 pt-8">
-                <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
-              </div>
-            </Reveal>
+            <div className="mt-12 grid gap-5 md:grid-cols-3">
+              {reviews.map((r, i) => (
+                <Reveal key={i} delay={i * 0.08}>
+                  <figure className="flex h-full flex-col rounded-2xl border border-stone/15 bg-white p-7">
+                    <span className="display text-3xl leading-none text-amber" aria-hidden>“</span>
+                    <blockquote className="mt-2 flex-1 leading-relaxed text-green">{r.q}</blockquote>
+                    <figcaption className="mono mt-6 border-t border-stone/10 pt-4 text-[11px] uppercase tracking-wide text-stone/55">
+                      {r.a}
+                    </figcaption>
+                  </figure>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </section>
 

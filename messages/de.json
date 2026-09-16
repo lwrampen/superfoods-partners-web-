@@ -115,7 +115,7 @@
     "hkBody2": "Und dahinter stehen Menschen: ein Team, das Sie in Ihrer Zeitzone erreichen und das wirklich ans Telefon geht.",
     "hkExpertsLabel": "Lernen Sie das Team kennen",
     "hkCaption": "GANZFELD-ERNTE — IM GROSSEN MASSSTAB BEWEGT",
-    "socialMarker": "Vertraut von",
+    "socialMarker": "Was Einkäufer sagen",
     "socialHeading": "Für Teams, die sich keine schlechte Charge leisten können.",
     "socialBody": "Getränke-, Supplement- und Foodservice-Marken kommen zu uns, wenn Konsistenz nicht optional ist — und bleiben, weil die Dokumentation immer da ist, wenn sie gebraucht wird.",
     "socialQuote": "„Sie fangen die Dinge ab, die wir übersehen würden — und wenn unsere Auditoren nach Unterlagen fragen, sind sie schon da.“",
@@ -177,7 +177,21 @@
         "cap": "Langfristige Verträge, damit Farmen in das Land investieren können"
       }
     ],
-    "clientsLabel": "Einige der Teams, die wir beliefern"
+    "clientsLabel": "Vertraut von",
+    "reviews": [
+      {
+        "q": "Sie fangen die Dinge ab, die wir übersehen würden – und wenn unsere Auditoren nach Unterlagen fragen, sind sie schon da.",
+        "a": "Leiter Einkauf · EU-Getränkemarke"
+      },
+      {
+        "q": "Charge für Charge konstant. Wir haben unser Matcha-Programm umgestellt und es nie bereut.",
+        "a": "Category Buyer · Foodservice-Distributor"
+      },
+      {
+        "q": "Das Muster entsprach der Produktion, und die Dokumentation bestand unser Audit auf Anhieb.",
+        "a": "QA-Manager · Supplement-Marke"
+      }
+    ]
   },
   "insights": {
     "eyebrow": "Einblicke",
