@@ -282,13 +282,7 @@
   },
   "certifications": {
     "title": "Certified & independently tested",
-    "partnersTitle": "Tested & verified by",
-    "organicLabel": "Organic",
-    "organicNote": "Certified organic in Japan (JAS), the EU and the US (USDA).",
-    "safetyLabel": "Food safety & responsible sourcing",
-    "safetyNote": "HACCP and FSSC 22000 food-safety systems, plus Rainforest Alliance.",
-    "labsLabel": "Independent labs",
-    "labsNote": "Every batch tested by accredited third-party laboratories."
+    "partnersTitle": "Tested & verified by"
   },
   "trace": {
     "nodeOrigin": "ORIGIN",

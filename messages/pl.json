@@ -282,13 +282,7 @@
   },
   "certifications": {
     "title": "Certyfikowane i niezależnie badane",
-    "partnersTitle": "Badane i weryfikowane przez",
-    "organicLabel": "Ekologiczne",
-    "organicNote": "Certyfikat ekologiczny w Japonii (JAS), UE i USA (USDA).",
-    "safetyLabel": "Bezpieczeństwo żywności i odpowiedzialne pozyskiwanie",
-    "safetyNote": "Systemy bezpieczeństwa żywności HACCP i FSSC 22000 oraz Rainforest Alliance.",
-    "labsLabel": "Niezależne laboratoria",
-    "labsNote": "Każda partia badana przez akredytowane laboratoria zewnętrzne."
+    "partnersTitle": "Badane i weryfikowane przez"
   },
   "trace": {
     "nodeOrigin": "ŹRÓDŁO",

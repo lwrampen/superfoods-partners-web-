@@ -282,13 +282,7 @@
   },
   "certifications": {
     "title": "經認證且獨立檢測",
-    "partnersTitle": "檢測與驗證單位",
-    "organicLabel": "有機",
-    "organicNote": "於日本（JAS）、歐盟與美國（USDA）取得有機認證。",
-    "safetyLabel": "食品安全與負責任採購",
-    "safetyNote": "HACCP 與 FSSC 22000 食品安全系統，以及 Rainforest Alliance。",
-    "labsLabel": "獨立實驗室",
-    "labsNote": "每一批皆由具認證資格的第三方實驗室檢測。"
+    "partnersTitle": "檢測與驗證單位"
   },
   "trace": {
     "nodeOrigin": "產地",

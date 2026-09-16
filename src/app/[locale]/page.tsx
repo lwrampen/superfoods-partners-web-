@@ -54,7 +54,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     t.raw("audiences.rooms") as { tag: string; who: string; body: string; cta: string }[]
   ).map((r, i) => ({ ...r, href: audienceHrefs[i] }));
   const coreItems = tc.raw("items") as { t: string; d: string }[];
-  const socialTags = t.raw("socialTags") as string[];
   const stats = [
     { value: ORIGIN_LIST.length, suffix: "", l: t("statOrigins") },
     { value: new Set(ORIGIN_LIST.map((o) => o.country)).size, suffix: "", l: t("statCountries") },
@@ -383,18 +382,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <figcaption className="mono mt-5 text-[11px] uppercase tracking-wide text-stone/60">{t("socialQuoteAttr")}</figcaption>
               </figure>
             </Reveal>
-            {CLIENTS.some((c) => c.logo) && (
-              <Reveal delay={0.13}>
-                <div className="mt-12 border-t border-stone/15 pt-8">
-                  <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
-                </div>
-              </Reveal>
-            )}
-            <Reveal delay={0.15}>
-              <div className="mono mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-stone/15 pt-6 text-[11px] uppercase tracking-wide text-stone/45">
-                {socialTags.map((tag) => (
-                  <span key={tag}>{tag}</span>
-                ))}
+            <Reveal delay={0.13}>
+              <div className="mt-14 border-t border-stone/15 pt-8">
+                <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
               </div>
             </Reveal>
           </div>

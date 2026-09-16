@@ -7,7 +7,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { Certifications } from "@/components/Certifications";
-import { CERT_GROUPS } from "@/data/trust";
+import { CERTIFICATIONS, PARTNERS } from "@/data/trust";
 
 export async function generateMetadata({
   params,
@@ -114,7 +114,7 @@ export default async function VerificationPage({ params }: { params: Promise<{ l
         </section>
 
         {/* Certs — official marks with logos (text-plate fallback per cert) */}
-        <Certifications groups={CERT_GROUPS} title={t("certsHeading")} />
+        <Certifications certs={CERTIFICATIONS} partners={PARTNERS} title={t("certsHeading")} />
 
         {/* FAQ */}
         <section className="mx-auto max-w-3xl px-6 py-20">

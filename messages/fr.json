@@ -282,13 +282,7 @@
   },
   "certifications": {
     "title": "Certifié et analysé de façon indépendante",
-    "partnersTitle": "Analysé et vérifié par",
-    "organicLabel": "Bio",
-    "organicNote": "Certifié bio au Japon (JAS), dans l'UE et aux États-Unis (USDA).",
-    "safetyLabel": "Sécurité alimentaire & approvisionnement responsable",
-    "safetyNote": "Systèmes de sécurité alimentaire HACCP et FSSC 22000, plus Rainforest Alliance.",
-    "labsLabel": "Laboratoires indépendants",
-    "labsNote": "Chaque lot analysé par des laboratoires tiers accrédités."
+    "partnersTitle": "Analysé et vérifié par"
   },
   "trace": {
     "nodeOrigin": "ORIGINE",

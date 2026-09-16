@@ -8,7 +8,7 @@ import { TeamSection } from "@/components/TeamSection";
 import { Certifications } from "@/components/Certifications";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor } from "@/i18n/paths";
-import { TEAM, CERT_GROUPS } from "@/data/trust";
+import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
 import { ENTITIES } from "@/data/entities";
 
 export async function generateMetadata({
@@ -215,7 +215,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         </section>
 
         {/* Certifications + independent labs */}
-        <Certifications groups={CERT_GROUPS} />
+        <Certifications certs={CERTIFICATIONS} partners={PARTNERS} />
 
         <section className="bg-oat">
           <div className="mx-auto max-w-6xl px-6 py-28 text-center">
