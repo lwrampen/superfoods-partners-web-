@@ -70,3 +70,15 @@ export function toCert(name: string): Cert {
   const logo = CERT_LOGOS[name.trim().toLowerCase()];
   return logo ? { name, logo } : { name };
 }
+
+// Customer logos — permission-cleared client marks for the "trusted by" bar.
+// Files live in /public/clients (drop a real logo to replace the placeholder;
+// keep the same filename). The bar only renders entries that have a logo.
+export type Client = { name: string; logo?: string };
+export const CLIENTS: Client[] = [
+  { name: "de Bijenkorf", logo: "/clients/de-bijenkorf.png" },
+  { name: "Picnic", logo: "/clients/picnic.png" },
+  { name: "Bidfood", logo: "/clients/bidfood.webp" },
+  { name: "asa matcha", logo: "/clients/asa-matcha.png" },
+  { name: "noor", logo: "/clients/noor.png" },
+];

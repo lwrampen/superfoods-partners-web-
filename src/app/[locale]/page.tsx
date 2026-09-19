@@ -9,11 +9,12 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
 import { LocationsMap } from "@/components/LocationsMap";
 import { Certifications } from "@/components/Certifications";
+import { ClientLogos } from "@/components/ClientLogos";
 import { ExpertsCluster } from "@/components/ExpertsCluster";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor } from "@/i18n/paths";
 import { PRODUCTS, ORIGINS, ORIGIN_LIST, LABELS } from "@/data/catalog";
-import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
+import { TEAM, CERTIFICATIONS, PARTNERS, CLIENTS } from "@/data/trust";
 
 export async function generateMetadata({
   params,
@@ -47,13 +48,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const peopleStrip = t.raw("peopleStrip") as { src: string; alt: string; cap: string }[];
+  const reviews = t.raw("reviews") as { q: string; name: string; role: string }[];
   const steps = t.raw("steps") as { t: string; d: string }[];
   const audienceHrefs = ["/products", "/verification", "/contact"];
   const audienceRooms = (
     t.raw("audiences.rooms") as { tag: string; who: string; body: string; cta: string }[]
   ).map((r, i) => ({ ...r, href: audienceHrefs[i] }));
   const coreItems = tc.raw("items") as { t: string; d: string }[];
-  const socialTags = t.raw("socialTags") as string[];
   const stats = [
     { value: ORIGIN_LIST.length, suffix: "", l: t("statOrigins") },
     { value: new Set(ORIGIN_LIST.map((o) => o.country)).size, suffix: "", l: t("statCountries") },
@@ -104,6 +105,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             />
           </Reveal>
         </section>
+
+        {/* TRUSTED BY — customer logo strip, right under the hero */}
+        {CLIENTS.some((c) => c.logo) && (
+          <section className="border-y border-stone/10 bg-oat/60">
+            <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
+          </section>
+        )}
 
         {/* AUDIENCES — three rooms, one house */}
         <section className="bg-forest text-oat">
@@ -377,15 +385,16 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <p className="mt-4 text-stone">{t("socialBody")}</p>
             </Reveal>
             <Reveal delay={0.1}>
-              <figure className="mt-12 max-w-3xl border-l-2 border-amber pl-6">
-                <blockquote className="display-italic text-2xl leading-snug text-green md:text-3xl">{t("socialQuote")}</blockquote>
-                <figcaption className="mono mt-5 text-[11px] uppercase tracking-wide text-stone/60">{t("socialQuoteAttr")}</figcaption>
-              </figure>
-            </Reveal>
-            <Reveal delay={0.15}>
-              <div className="mono mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-stone/15 pt-6 text-[11px] uppercase tracking-wide text-stone/45">
-                {socialTags.map((tag) => (
-                  <span key={tag}>{tag}</span>
+              <div className="mt-12 columns-1 gap-5 sm:columns-2 lg:columns-3">
+                {reviews.map((r, i) => (
+                  <figure key={i} className="mb-5 break-inside-avoid rounded-2xl border border-stone/15 bg-white p-7">
+                    <div className="text-sm tracking-[0.15em] text-amber" aria-label="Rated 5 out of 5">★★★★★</div>
+                    <blockquote className="mt-4 whitespace-pre-line text-sm leading-relaxed text-green">{r.q}</blockquote>
+                    <figcaption className="mt-5 border-t border-stone/10 pt-4">
+                      <p className="font-medium text-green">{r.name}</p>
+                      <p className="mono text-[11px] uppercase tracking-wide text-stone/55">{r.role}</p>
+                    </figcaption>
+                  </figure>
                 ))}
               </div>
             </Reveal>

@@ -14,19 +14,16 @@ function LogoRow({ items, compact = false }: { items: Cert[]; compact?: boolean 
           title={c.name}
           className={`flex ${h} ${minW} items-center justify-center rounded-xl border border-stone/12 bg-white px-6 shadow-[0_1px_2px_rgba(20,39,27,0.05)]`}
         >
-          {c.logo ? (
-            <Image src={c.logo} alt={c.name} width={220} height={90} className={`${logoMax} w-auto object-contain`} />
-          ) : (
-            <span className="mono text-[11px] uppercase tracking-wide text-stone/70">{c.name}</span>
-          )}
+          <Image src={c.logo!} alt={c.name} width={220} height={90} className={`${logoMax} w-auto object-contain`} />
         </div>
       ))}
     </div>
   );
 }
 
-// Certification marks + (optionally) the independent labs we work with,
-// in one calm strip.
+// Certification marks + (optionally) the independent labs we work with, in one
+// calm strip. Only marks we actually have a logo for are shown — the logos
+// carry the recognition, so no explanatory text is needed.
 export function Certifications({
   certs,
   title,
@@ -39,18 +36,20 @@ export function Certifications({
   partnersTitle?: string;
 }) {
   const t = useTranslations("certifications");
-  if (!certs.length) return null;
-  const titleText = title ?? t("title");
-  const partnersTitleText = partnersTitle ?? t("partnersTitle");
+  const shownCerts = certs.filter((c) => c.logo);
+  const shownPartners = (partners ?? []).filter((c) => c.logo);
+  if (!shownCerts.length) return null;
   return (
     <section className="bg-sand">
       <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-        <p className="mono text-center text-[11px] uppercase tracking-widest text-stone/50">{titleText}</p>
-        <LogoRow items={certs} />
-        {partners?.length ? (
+        <p className="mono text-center text-[11px] uppercase tracking-widest text-stone/50">{title ?? t("title")}</p>
+        <LogoRow items={shownCerts} />
+        {shownPartners.length ? (
           <>
-            <p className="mono mt-14 text-center text-[11px] uppercase tracking-widest text-stone/45">{partnersTitleText}</p>
-            <LogoRow items={partners} compact />
+            <p className="mono mt-14 text-center text-[11px] uppercase tracking-widest text-stone/45">
+              {partnersTitle ?? t("partnersTitle")}
+            </p>
+            <LogoRow items={shownPartners} compact />
           </>
         ) : null}
       </div>

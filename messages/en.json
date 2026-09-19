@@ -115,7 +115,7 @@
     "hkBody2": "And there are people behind it: a team you can reach in your own timezone, who actually pick up the phone.",
     "hkExpertsLabel": "Meet the team",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
-    "socialMarker": "Trusted by",
+    "socialMarker": "What buyers say",
     "socialHeading": "For teams who can't afford a bad batch.",
     "socialBody": "Beverage, supplement and foodservice brands come to us when consistency isn't optional — and stay because the documentation is always there when they need it.",
     "socialQuote": "“They catch the things we'd miss — and when our auditors ask for paperwork, it's already there.”",
@@ -175,6 +175,29 @@
         "src": "/photos/terraces.jpg",
         "alt": "Tea terraces at origin",
         "cap": "Long-term contracts, so farms can invest in the land"
+      }
+    ],
+    "clientsLabel": "Trusted by",
+    "reviews": [
+      {
+        "q": "As a coffee company in Rotterdam, we couldn't ignore it anymore — matcha had to be added to our assortment. But which one? And what exactly is really good matcha? Through mutual connections, I got in touch with Robbert-Jan from Superfoods Partners. He fully immersed me in the world of matcha — we tasted several and experienced the different flavour profiles.\n\nOne clear winner came out of the tasting: Premium Matcha, South China. What really made the difference for us was that the matcha is traded fairly — they know the farmers and pay a fair price. So… it was a match(a)! After that, everything was arranged quickly. Thank you for your enthusiasm and all the valuable matcha knowledge.",
+        "name": "Angela",
+        "role": "Sococo Coffee"
+      },
+      {
+        "q": "We've tried multiple matcha suppliers over the years, but Superfoods Partners stands out. The quality is consistent, vibrant, and our customers noticed the difference immediately. Fast delivery, clear communication, and a team that truly understands the product.",
+        "name": "Laticia",
+        "role": "Owner · Coffee Tales"
+      },
+      {
+        "q": "Amazing matcha! Perfect price-to-quality for horeca. Great communication with the account manager — love working together! 🍵",
+        "name": "Mariel van Cece",
+        "role": "Urbana · Rotterdam"
+      },
+      {
+        "q": "I've been working with Superfoods Partners for the past few months, and the experience has been exceptional. Their communication is smooth, their operations are efficient, and they consistently deliver high-quality tea I can rely on. They've proven to be trustworthy partners, and I'm genuinely grateful for our collaboration. I have full confidence that this strong partnership will continue well into the future.",
+        "name": "Joana",
+        "role": "Swiss matcha brand owner"
       }
     ]
   },

@@ -115,7 +115,7 @@
     "hkBody2": "A za tym stoją ludzie: zespół, do którego zadzwonisz w swojej strefie czasowej i który naprawdę odbiera.",
     "hkExpertsLabel": "Poznaj zespół",
     "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
-    "socialMarker": "Zaufali nam",
+    "socialMarker": "Co mówią kupujący",
     "socialHeading": "Dla zespołów, których nie stać na złą partię.",
     "socialBody": "Marki napojów, suplementów i gastronomii przychodzą do nas, gdy powtarzalność nie jest opcjonalna — i zostają, bo dokumentacja jest zawsze pod ręką, gdy jej potrzebują.",
     "socialQuote": "„Wychwytują rzeczy, które by nam umknęły — a gdy audytorzy proszą o dokumenty, one już tam są.”",
@@ -175,6 +175,29 @@
         "src": "/photos/terraces.jpg",
         "alt": "Tea terraces at origin",
         "cap": "Długoterminowe umowy, by gospodarstwa mogły inwestować w ziemię"
+      }
+    ],
+    "clientsLabel": "Zaufali nam",
+    "reviews": [
+      {
+        "q": "Jako firma kawowa w Rotterdamie nie mogliśmy dłużej tego ignorować — matcha musiała trafić do naszego asortymentu. Ale która? I czym właściwie jest naprawdę dobra matcha? Dzięki wspólnym znajomym skontaktowałam się z Robbertem-Janem z Superfoods Partners. W pełni wprowadził mnie w świat matchy — spróbowaliśmy kilku i poznaliśmy różne profile smakowe.\n\nZ degustacji wyłonił się wyraźny zwycięzca: Premium Matcha, południowe Chiny. Różnicę zrobiło dla nas to, że matcha jest handlowana uczciwie — znają rolników i płacą uczciwą cenę. Więc… to był match(a)! Potem wszystko szybko załatwiono. Dziękuję za wasz entuzjazm i całą cenną wiedzę o matchy.",
+        "name": "Angela",
+        "role": "Sococo Coffee"
+      },
+      {
+        "q": "Przez lata próbowaliśmy wielu dostawców matchy, ale Superfoods Partners się wyróżnia. Jakość jest stała i wyrazista, a nasi klienci od razu zauważyli różnicę. Szybka dostawa, jasna komunikacja i zespół, który naprawdę rozumie produkt.",
+        "name": "Laticia",
+        "role": "Właścicielka · Coffee Tales"
+      },
+      {
+        "q": "Niesamowita matcha! Idealny stosunek jakości do ceny dla gastronomii. Świetna komunikacja z opiekunem klienta — współpraca to przyjemność! 🍵",
+        "name": "Mariel van Cece",
+        "role": "Urbana · Rotterdam"
+      },
+      {
+        "q": "Współpracuję z Superfoods Partners od kilku miesięcy i doświadczenie jest wyjątkowe. Ich komunikacja jest płynna, operacje efektywne, a herbata, którą dostarczają, jest niezmiennie wysokiej jakości i można na niej polegać. Okazali się godnymi zaufania partnerami i jestem naprawdę wdzięczna za współpracę. Mam pełne przekonanie, że to silne partnerstwo potrwa długo.",
+        "name": "Joana",
+        "role": "Właścicielka szwajcarskiej marki matchy"
       }
     ]
   },
