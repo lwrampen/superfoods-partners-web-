@@ -174,7 +174,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </section>
 
         {/* CATALOGUE */}
-        <section className="mx-auto max-w-6xl px-6 pb-24">
+        <section className="mx-auto max-w-6xl px-6 py-24">
           <Reveal className="mb-8">
             <Marker n="(01)" label={t("catMarker")} />
             <div className="flex items-end justify-between">
