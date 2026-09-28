@@ -437,15 +437,16 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </section>
 
         {/* CTA */}
-        <section className="relative bg-forest text-oat">
-          <div className="absolute inset-x-0 top-0 flex h-1.5">
-            <span className="flex-1 bg-amber" />
-            <span className="flex-1 bg-hojicha" />
-            <span className="flex-1 bg-hibiscus" />
-            <span className="flex-1 bg-ube" />
-          </div>
-          <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+        <section className="bg-sand">
+          <div className="mx-auto max-w-6xl px-6 py-24">
             <Reveal>
+              <div className="relative overflow-hidden rounded-3xl bg-forest px-8 py-14 text-oat md:px-14 md:py-16">
+                <div className="absolute inset-x-0 top-0 flex h-1.5">
+                  <span className="flex-1 bg-amber" />
+                  <span className="flex-1 bg-hojicha" />
+                  <span className="flex-1 bg-hibiscus" />
+                  <span className="flex-1 bg-ube" />
+                </div>
                 <div className="grid items-center gap-10 md:grid-cols-[1.35fr_0.65fr]">
                   <div>
                     <p className="mono text-[11px] uppercase tracking-widest text-amber">{t("ctaMarker")}</p>
@@ -465,6 +466,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                     </p>
                   </div>
                 </div>
+              </div>
             </Reveal>
           </div>
         </section>
