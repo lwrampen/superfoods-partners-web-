@@ -43,12 +43,12 @@ export const ENTITIES: Entity[] = [
   {
     code: "US",
     name: "Superfoods Partners US",
-    city: "Salt Lake City",
+    city: "Los Angeles",
     country: "United States",
-    address: ["1375 Industrial Road", "Salt Lake City, UT 84104"],
-    lat: 40.76,
-    lon: -111.89,
-    coords: "40.76°N 111.89°W",
-    tz: "America/Denver",
+    address: ["Los Angeles, CA"],
+    lat: 34.05,
+    lon: -118.24,
+    coords: "34.05°N 118.24°W",
+    tz: "America/Los_Angeles",
   },
 ];

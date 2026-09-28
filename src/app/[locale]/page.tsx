@@ -30,6 +30,14 @@ export async function generateMetadata({
   };
 }
 
+const PROMISE_COLORS = [
+  { border: "border-green", text: "text-green" },
+  { border: "border-hojicha", text: "text-hojicha" },
+  { border: "border-hibiscus", text: "text-hibiscus" },
+  { border: "border-ube", text: "text-ube" },
+  { border: "border-lionsmane", text: "text-lionsmane" },
+];
+
 function Marker({ n, label, color = "text-stone/60" }: { n: string; label: string; color?: string }) {
   return (
     <div className="mb-4 flex items-center gap-3">
@@ -45,7 +53,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   setRequestLocale(locale);
   const t = await getTranslations("home");
   const tc = await getTranslations("core");
+  const tp = await getTranslations("promises");
 
+  const promiseItems = tp.raw("items") as { t: string; d: string }[];
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const peopleStrip = t.raw("peopleStrip") as { src: string; alt: string; cap: string }[];
   const reviews = t.raw("reviews") as { q: string; name: string; role: string }[];
@@ -112,6 +122,27 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
           </section>
         )}
+
+        {/* CUSTOMER PROMISES — your partner at every stage */}
+        <section className="mx-auto max-w-6xl px-6 pt-20 md:pt-24">
+          <Reveal className="mb-10 max-w-2xl">
+            <p className="mono text-[11px] uppercase tracking-widest text-amber">{tp("marker")}</p>
+            <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">{tp("heading")}</h2>
+          </Reveal>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {promiseItems.map((p, i) => (
+              <Reveal key={p.t} delay={i * 0.07}>
+                <div className={`flex h-full flex-col rounded-xl border-t-4 ${PROMISE_COLORS[i].border} bg-sand/60 p-6`}>
+                  <span className={`display text-3xl leading-none ${PROMISE_COLORS[i].text}`}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-6 text-lg font-bold leading-snug text-green">{p.t}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-stone">{p.d}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
 
         {/* AUDIENCES — three rooms, one house */}
         <section className="bg-forest text-oat">
@@ -202,7 +233,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <section className="bg-oat">
           <div className="mx-auto grid max-w-6xl items-stretch gap-12 px-6 py-24 md:grid-cols-[1fr_0.8fr]">
             <Reveal>
-              <Marker n="(02)" label={t("peopleMarker")} color="text-lionsmane" />
+              <Marker n="(02)" label={t("peopleMarker")} />
               <h2 className="display max-w-xl text-4xl leading-tight text-green md:text-5xl">{t("peopleHeading")}</h2>
               <p className="mt-6 max-w-lg text-stone">{t("peopleBody")}</p>
               <div className="mt-9 flex flex-col">
@@ -227,7 +258,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           {/* the farms we return to — show, not just tell */}
           <div className="mx-auto max-w-6xl px-6 pb-24">
             <Reveal className="mb-6">
-              <p className="mono text-[11px] uppercase tracking-widest text-lionsmane">{t("peopleStripEyebrow")}</p>
+              <p className="mono text-[11px] uppercase tracking-widest text-amber">{t("peopleStripEyebrow")}</p>
             </Reveal>
             <div className="grid gap-4 sm:grid-cols-3">
               {peopleStrip.map((s, i) => (
@@ -406,14 +437,35 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
         {/* CTA */}
         <section className="bg-oat">
-          <div className="mx-auto max-w-6xl px-6 py-28 text-center">
+          <div className="mx-auto max-w-6xl px-6 pb-24">
             <Reveal>
-              <h2 className="display text-5xl tracking-tight text-green md:text-6xl">{t("ctaHeading")}</h2>
-              <p className="mx-auto mt-5 max-w-lg text-stone">{t("ctaBody")}</p>
-              <Link href="/contact" className="mt-9 inline-block rounded-lg bg-green px-6 py-3.5 text-sm font-medium text-oat transition-opacity hover:opacity-90">
-                {t("ctaQuote")}
-              </Link>
-              <p className="mono mt-5 text-[11px] uppercase tracking-wide text-stone/50">{t("ctaNote")}</p>
+              <div className="relative overflow-hidden rounded-3xl bg-forest px-8 py-14 text-oat md:px-14 md:py-16">
+                <div className="absolute inset-x-0 top-0 flex h-1.5">
+                  <span className="flex-1 bg-amber" />
+                  <span className="flex-1 bg-hojicha" />
+                  <span className="flex-1 bg-hibiscus" />
+                  <span className="flex-1 bg-ube" />
+                </div>
+                <div className="grid items-center gap-10 md:grid-cols-[1.35fr_0.65fr]">
+                  <div>
+                    <p className="mono text-[11px] uppercase tracking-widest text-amber">{t("ctaMarker")}</p>
+                    <h2 className="display mt-4 text-4xl leading-[1.05] md:text-5xl">{t("ctaHeading")}</h2>
+                    <p className="mt-5 max-w-lg leading-relaxed text-oat/75">{t("ctaBody")}</p>
+                  </div>
+                  <div className="flex flex-col gap-4 md:items-end">
+                    <Link
+                      href="/contact"
+                      className="inline-flex items-center gap-2 rounded-lg bg-amber px-7 py-4 text-sm font-semibold text-forest transition-transform hover:-translate-y-0.5"
+                    >
+                      {t("ctaQuote")}
+                      <span>→</span>
+                    </Link>
+                    <p className="mono max-w-[15rem] text-[11px] uppercase leading-relaxed tracking-wide text-oat/50 md:text-right">
+                      {t("ctaNote")}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </Reveal>
           </div>
         </section>

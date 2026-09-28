@@ -1,7 +1,7 @@
 {
   "meta": {
     "titleDefault": "Superfoods Partners — Sourcé à grande échelle. De confiance en origine.",
-    "description": "Sourcing B2B international de superaliments depuis Hong Kong, Amsterdam et Salt Lake City. Chaque origine du monde — vérifiée, documentée et traçable jusqu'au lot.",
+    "description": "Sourcing B2B international de superaliments depuis Hong Kong, Amsterdam et Los Angeles. Chaque origine du monde — vérifiée, documentée et traçable jusqu'au lot.",
     "ogDescription": "Chaque origine du monde, vérifiée, documentée et traçable jusqu'au lot. Sourcé en direct, chaque lot analysé."
   },
   "nav": {
@@ -43,12 +43,12 @@
     "Egypt": "Égypte"
   },
   "home": {
-    "metaTitle": "Fournisseur de Matcha en Gros — Matcha & Superaliments en Vrac",
-    "metaDescription": "Matcha en vrac et poudres de superaliments pour fabricants — origine unique, chaque lot testé en laboratoire (JAS, bio UE & USDA), de l'échantillon au conteneur complet. Superfoods Partners s'approvisionne directement à l'origine. Demandez un devis.",
-    "heroEyebrow": "Poudres de superaliments mono-origine",
+    "metaTitle": "Fournisseur grossiste de matcha et superaliments — de la source à l'échelle",
+    "metaDescription": "Matcha et superaliments en poudre en gros pour fabricants — sourcés en direct, chaque lot testé en laboratoire (JAS, EU & USDA Organic) et rendus constants par une production guidée par la science, l'assemblage et le support d'application. De l'échantillon au conteneur complet. Demandez un devis.",
+    "heroEyebrow": "Superaliments en poudre · de la source à l'échelle",
     "heroTitle1": "A Modern",
     "heroTitle2": "Ingredient House",
-    "heroIntro": "Nous achetons directement à la ferme, maîtrisons la chaîne de la récolte à la palette, et fournissons marques, fabricants et private label en matcha, hojicha, hibiscus, ube et lion's mane.",
+    "heroIntro": "De la source à l'échelle : nous achetons directement à la ferme, maîtrisons la variation naturelle par une production guidée par la science et développons des solutions d'ingrédients constantes pour les marques, les fabricants et la marque de distributeur — matcha, hojicha, hibiscus, ube et plus.",
     "ctaQuote": "Demander un devis de volume",
     "ctaTrace": "Tracer un lot →",
     "heroBadge": "En direct de l'origine",
@@ -80,9 +80,9 @@
     "traceMarker": "Tracer un lot",
     "traceHeading": "Voyez exactement ce que vous achetez.",
     "traceBody": "Choisissez un produit et suivez-le de l'origine à votre site. Chaque lot arrive avec un Verification Record complet — les mêmes contrôles que nous voudrions si c'était nous qui achetions. Rien de caché, rien à courir après.",
-    "stepsMarker": "Comment fonctionne le sourcing",
-    "stepsHeading": "Le sourcing, sans les approximations.",
-    "stepsBody": "Dites-nous ce qu'il vous faut ; nous gérons l'origine, les analyses et la documentation — et vous tenons informé tout du long. Vous validez avant toute montée en échelle.",
+    "stepsMarker": "Notre façon de travailler",
+    "stepsHeading": "De votre cahier des charges à la pleine échelle.",
+    "stepsBody": "Dites-nous ce qu'il vous faut ; nous sourçons, standardisons, formulons et documentons — en vous tenant informé à chaque étape. Vous validez avant tout passage à l'échelle.",
     "steps": [
       {
         "t": "Donnez-nous votre spécification",
@@ -109,10 +109,10 @@
     "statTested": "ANALYSÉ PAR LOT",
     "statHub": "SITES",
     "hkEyebrow": "Comment nous opérons",
-    "hkCoords": "Hong Kong · Amsterdam · Salt Lake City",
+    "hkCoords": "Hong Kong · Amsterdam · Los Angeles",
     "hkHeading": "Proche de l'origine, proche de vous.",
-    "hkBody1": "Nous opérons depuis trois implantations — Hong Kong, Amsterdam et Salt Lake City — pour rester proches des jardins où nous achetons et des fabricants que nous fournissons. Chaque lot est analysé et documenté avant expédition, quelle que soit sa destination.",
-    "hkBody2": "Et il y a des personnes derrière : une équipe que vous pouvez joindre dans votre propre fuseau horaire, et qui décroche vraiment.",
+    "hkBody1": "Nous opérons depuis trois implantations — Hong Kong, Amsterdam et Los Angeles — pour rester proches des jardins où nous achetons et des fabricants que nous fournissons. Chaque lot est analysé et documenté avant expédition, quelle que soit sa destination.",
+    "hkBody2": "Et il y a des personnes derrière : une équipe que vous pouvez joindre dans votre propre fuseau horaire, et qui décroche vraiment. Des hubs d’appui à Barcelone et Tokyo nous rapprochent encore.",
     "hkExpertsLabel": "Rencontrez l'équipe",
     "hkCaption": "RÉCOLTE PLEIN CHAMP — ACHEMINÉE À GRANDE ÉCHELLE",
     "socialMarker": "Ce que disent les acheteurs",
@@ -199,6 +199,33 @@
         "name": "Joana",
         "role": "Propriétaire d'une marque suisse de matcha"
       }
+    ],
+    "ctaMarker": "Parlons-en"
+  },
+  "promises": {
+    "marker": "Nos engagements client",
+    "heading": "Superfoods Partners, votre partenaire à chaque étape.",
+    "items": [
+      {
+        "t": "Source pure",
+        "d": "Accès direct à des fermes de confiance et à de multiples origines."
+      },
+      {
+        "t": "Production guidée par la science",
+        "d": "Transformation et assemblage qui maîtrisent la variation naturelle."
+      },
+      {
+        "t": "Application & R&D",
+        "d": "Conçu pour la saveur, la fonctionnalité et les applications réelles."
+      },
+      {
+        "t": "Intelligence de marché",
+        "d": "Expérience produit sur plus de 35 marchés mondiaux."
+      },
+      {
+        "t": "Chaîne d’approvisionnement évolutive",
+        "d": "Qualité de niveau entreprise, traçabilité et approvisionnement mondial."
+      }
     ]
   },
   "insights": {
@@ -242,7 +269,7 @@
       },
       {
         "t": "Trois implantations",
-        "d": "Des équipes locales à Hong Kong, Amsterdam et Salt Lake City gèrent le sourcing, l'assurance qualité, la conformité et la logistique — proches de l'origine et de vous."
+        "d": "Des équipes locales à Hong Kong, Amsterdam et Los Angeles gèrent le sourcing, l'assurance qualité, la conformité et la logistique — proches de l'origine et de vous."
       },
       {
         "t": "Vérification indépendante",
@@ -268,11 +295,11 @@
   },
   "about": {
     "metaTitle": "Entreprise — le partenaire de sourcing de superaliments de confiance",
-    "metaDescription": "Superfoods Partners est un fournisseur international de poudres de superaliments mono-origine, opérant depuis Hong Kong, Amsterdam et Salt Lake City. Pure Matcha Partners est notre marque spécialiste du matcha.",
+    "metaDescription": "Superfoods Partners est un fournisseur international de poudres de superaliments traçables, opérant depuis Hong Kong, Amsterdam et Los Angeles. Pure Matcha Partners est notre marque spécialiste du matcha.",
     "eyebrow": "Entreprise",
     "eyebrowSub": "Qui nous sommes",
     "heroHeading": "La source, c'est l'histoire.",
-    "heroBody1": "Superfoods Partners est l'ombrelle de notre groupe — un portefeuille commun de poudres de superaliments mono-origine, avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Nous achetons directement à la ferme et livrons de grands volumes vérifiés aux fabricants, aux marques et au private label.",
+    "heroBody1": "Superfoods Partners est l'ombrelle de notre groupe — un portefeuille commun de poudres de superaliments traçables, avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Nous achetons directement à la ferme et livrons de grands volumes vérifiés aux fabricants, aux marques et au private label. Votre partenaire à chaque étape, de la source à l'échelle.",
     "heroBody2": "Nous n'aspirons pas à être le plus grand fournisseur. Nous aspirons à être celui dont vous n'aurez jamais à vous soucier.",
     "heroCaption": "UN CULTIVATEUR DANS LES JARDINS À LA RÉCOLTE",
     "hkCaption": "RÉCOLTE PLEIN CHAMP — ACHEMINÉE À GRANDE ÉCHELLE",
@@ -410,7 +437,7 @@
     "heroCaption": "ORIGINE — PAYS DU THÉ EN SAISON",
     "mapEyebrow": "Carte du commerce mondial",
     "mapHeading": "Où nous sourçons — et où nous vendons.",
-    "mapBody": "Faites glisser pour faire tourner le globe, faites défiler pour zoomer et survolez n'importe quel point. Le vert marque où nous sourçons ; l'ambre marque les marchés que nous desservons ; le vert citron marque nos trois implantations — Hong Kong, Amsterdam et Salt Lake City.",
+    "mapBody": "Faites glisser pour faire tourner le globe, faites défiler pour zoomer et survolez n'importe quel point. Le vert marque où nous sourçons ; l'ambre marque les marchés que nous desservons ; le vert citron marque nos trois implantations — Hong Kong, Amsterdam et Los Angeles.",
     "legendSourcing": "Sourcing · {count} origines",
     "legendMarkets": "Marchés · États-Unis · UE (via Pure Matcha Partners) · Moyen-Orient",
     "legendHub": "Nos sites",
