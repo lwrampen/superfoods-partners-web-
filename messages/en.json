@@ -203,28 +203,29 @@
     "ctaMarker": "Start a conversation"
   },
   "promises": {
-    "marker": "Customer promises",
-    "heading": "Superfoods Partners, your partner at every stage.",
+    "marker": "Source to scale",
+    "heading": "Your partner at every stage.",
+    "intro": "One team from farm to finished pallet — sourcing, production, application and supply, all held to a single standard.",
     "items": [
       {
-        "t": "Pure Source",
-        "d": "Direct access to trusted farms and multiple origins."
+        "t": "Pure source",
+        "d": "We buy direct at origin from named gardens — traceable, with no trader in between."
       },
       {
-        "t": "Science-led Production",
-        "d": "Processing and blending that controls natural variation."
+        "t": "Science-led production",
+        "d": "Processing and blending that control natural variation, so every lot performs the same."
       },
       {
         "t": "Application & R&D",
-        "d": "Built for flavour, functionality and real-world applications."
+        "d": "We help you turn the ingredient into a product — flavour, function and format."
       },
       {
-        "t": "Market Intelligence",
-        "d": "Product experience across 35+ global markets."
+        "t": "Market intelligence",
+        "d": "We track where the categories are moving, so what we make matches real demand."
       },
       {
-        "t": "Supply chain, built to scale",
-        "d": "Enterprise-ready quality, traceability and global supply."
+        "t": "Built to scale",
+        "d": "Enterprise-ready quality and documentation, delivered at volume from five locations across Asia, Europe and the US."
       }
     ]
   },

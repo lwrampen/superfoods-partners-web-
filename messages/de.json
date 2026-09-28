@@ -203,28 +203,29 @@
     "ctaMarker": "Sprechen wir"
   },
   "promises": {
-    "marker": "Kundenversprechen",
-    "heading": "Superfoods Partners – Ihr Partner in jeder Phase.",
+    "marker": "Von der Quelle bis zur Skalierung",
+    "heading": "Ihr Partner in jeder Phase.",
+    "intro": "Ein Team von der Farm bis zur fertigen Palette — Beschaffung, Produktion, Anwendung und Lieferung, alles nach einem einzigen Standard.",
     "items": [
       {
-        "t": "Reine Herkunft",
-        "d": "Direkter Zugang zu vertrauenswürdigen Farmen und mehreren Ursprüngen."
+        "t": "Reine Quelle",
+        "d": "Wir kaufen direkt am Ursprung von benannten Gärten — rückverfolgbar, ohne Zwischenhändler."
       },
       {
-        "t": "Wissenschaftlich fundierte Produktion",
-        "d": "Verarbeitung und Blending, die natürliche Schwankungen kontrollieren."
+        "t": "Wissenschaftlich geführte Produktion",
+        "d": "Verarbeitung und Blending, die natürliche Schwankungen kontrollieren, damit jede Charge gleich performt."
       },
       {
         "t": "Anwendung & F&E",
-        "d": "Entwickelt für Geschmack, Funktionalität und praxisnahe Anwendungen."
+        "d": "Wir helfen Ihnen, aus der Zutat ein Produkt zu machen — Geschmack, Funktion und Format."
       },
       {
         "t": "Marktkenntnis",
-        "d": "Produkterfahrung in über 35 globalen Märkten."
+        "d": "Wir verfolgen, wohin sich die Kategorien entwickeln, damit unser Angebot zur echten Nachfrage passt."
       },
       {
-        "t": "Skalierbare Lieferkette",
-        "d": "Enterprise-taugliche Qualität, Rückverfolgbarkeit und globale Versorgung."
+        "t": "Für Skalierung gebaut",
+        "d": "Enterprise-taugliche Qualität und Dokumentation, in großen Mengen geliefert von fünf Standorten in Asien, Europa und den USA."
       }
     ]
   },

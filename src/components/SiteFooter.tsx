@@ -79,7 +79,7 @@ export function SiteFooter() {
             <Link href="/contact" className="hover:text-oat">{t("contact")}</Link>
             <div className="mono mt-3 text-[11px] uppercase leading-relaxed text-oat/50">
               <p className="text-oat/40">{t("locations")}</p>
-              <p>Hong Kong · Amsterdam · Salt Lake City</p>
+              <p>Hong Kong · Amsterdam · Los Angeles</p>
             </div>
             <Link href="/contact" className="mt-2 inline-block text-amber hover:underline">{t("requestQuote")}</Link>
           </div>

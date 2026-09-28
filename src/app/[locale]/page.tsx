@@ -30,14 +30,6 @@ export async function generateMetadata({
   };
 }
 
-const PROMISE_COLORS = [
-  { border: "border-green", text: "text-green" },
-  { border: "border-hojicha", text: "text-hojicha" },
-  { border: "border-hibiscus", text: "text-hibiscus" },
-  { border: "border-ube", text: "text-ube" },
-  { border: "border-lionsmane", text: "text-lionsmane" },
-];
-
 function Marker({ n, label, color = "text-stone/60" }: { n: string; label: string; color?: string }) {
   return (
     <div className="mb-4 flex items-center gap-3">
@@ -122,27 +114,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
           </section>
         )}
-
-        {/* CUSTOMER PROMISES — your partner at every stage */}
-        <section className="mx-auto max-w-6xl px-6 py-20 md:py-24">
-          <Reveal className="mb-10 max-w-2xl">
-            <p className="mono text-[11px] uppercase tracking-widest text-amber">{tp("marker")}</p>
-            <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">{tp("heading")}</h2>
-          </Reveal>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-            {promiseItems.map((p, i) => (
-              <Reveal key={p.t} delay={i * 0.07}>
-                <div className={`flex h-full flex-col rounded-xl border-t-4 ${PROMISE_COLORS[i].border} bg-sand/60 p-6`}>
-                  <span className={`display text-3xl leading-none ${PROMISE_COLORS[i].text}`}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <h3 className="mt-6 text-lg font-bold leading-snug text-green">{p.t}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-stone">{p.d}</p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </section>
 
         {/* AUDIENCES — three rooms, one house */}
         <section className="bg-forest text-oat">
@@ -434,6 +405,36 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
         {/* CERTIFICATIONS */}
         <Certifications certs={CERTIFICATIONS} partners={PARTNERS} />
+
+        {/* SOURCE TO SCALE — the partner-at-every-stage spine */}
+        <section className="bg-sand">
+          <div className="mx-auto max-w-6xl px-6 py-24">
+            <Reveal className="mb-14 max-w-xl">
+              <Marker n="(07)" label={tp("marker")} />
+              <h2 className="display text-4xl leading-tight text-green md:text-5xl">{tp("heading")}</h2>
+              <p className="mt-4 text-stone">{tp("intro")}</p>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <div className="relative">
+                {/* desktop connecting thread, source → scale */}
+                <div className="pointer-events-none absolute inset-x-0 top-[5px] hidden h-px bg-gradient-to-r from-lime via-lime/50 to-lime/15 md:block" />
+                <ol className="grid gap-y-9 md:grid-cols-5 md:gap-x-6">
+                  {promiseItems.map((p, i) => (
+                    <li
+                      key={p.t}
+                      className="relative border-l-2 border-lime/30 pl-5 md:border-l-0 md:pl-0"
+                    >
+                      <span className="mb-5 hidden h-2.5 w-2.5 rounded-full bg-lime md:block" />
+                      <span className="mono text-[11px] text-lime">{String(i + 1).padStart(2, "0")}</span>
+                      <h3 className="display mt-2 text-lg leading-snug text-green">{p.t}</h3>
+                      <p className="mt-2 text-sm leading-relaxed text-stone">{p.d}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </Reveal>
+          </div>
+        </section>
 
         {/* CTA */}
         <section className="bg-oat">

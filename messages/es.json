@@ -203,28 +203,29 @@
     "ctaMarker": "Hablemos"
   },
   "promises": {
-    "marker": "Promesas al cliente",
-    "heading": "Superfoods Partners, tu socio en cada etapa.",
+    "marker": "Del origen a la escala",
+    "heading": "Tu socio en cada etapa.",
+    "intro": "Un solo equipo desde la finca hasta el palé terminado: origen, producción, aplicación y suministro, todo bajo un único estándar.",
     "items": [
       {
         "t": "Origen puro",
-        "d": "Acceso directo a granjas de confianza y múltiples orígenes."
+        "d": "Compramos directamente en origen a jardines identificados: trazable y sin intermediarios."
       },
       {
         "t": "Producción con base científica",
-        "d": "Procesado y blending que controlan la variación natural."
+        "d": "Procesado y mezcla que controlan la variación natural, para que cada lote rinda igual."
       },
       {
         "t": "Aplicación e I+D",
-        "d": "Diseñado para sabor, funcionalidad y aplicaciones reales."
+        "d": "Te ayudamos a convertir el ingrediente en producto: sabor, función y formato."
       },
       {
         "t": "Inteligencia de mercado",
-        "d": "Experiencia de producto en más de 35 mercados globales."
+        "d": "Seguimos hacia dónde se mueven las categorías, para que lo que hacemos responda a la demanda real."
       },
       {
-        "t": "Cadena de suministro escalable",
-        "d": "Calidad de nivel enterprise, trazabilidad y suministro global."
+        "t": "Preparado para escalar",
+        "d": "Calidad y documentación listas para empresa, entregadas a gran volumen desde cinco ubicaciones en Asia, Europa y EE. UU."
       }
     ]
   },

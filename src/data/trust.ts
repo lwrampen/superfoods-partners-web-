@@ -21,7 +21,7 @@ export type Cert = {
 };
 
 // Team — the site groups this roster by `location`, so add people for every
-// operating location (Hong Kong / Amsterdam / Salt Lake City) and they appear
+// operating location (Hong Kong / Amsterdam / Los Angeles) and they appear
 // under the right heading automatically. To grow the team: add entries below
 // with name, role, location and a photo in /public/team (silhouette fallback
 // until a photo is set). Roles/locations are localised via the `roles` message
@@ -31,7 +31,7 @@ export const TEAM: TeamMember[] = [
   { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
   { name: "Candy", role: "Partnerships", photo: "/team/candy.jpg", location: "Hong Kong" },
   { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
-  // TODO (Leonard to supply): remaining team + Amsterdam / Salt Lake City people,
+  // TODO (Leonard to supply): remaining team + Amsterdam / Los Angeles people,
   // with better portraits. e.g.
   // { name: "…", role: "…", photo: "/team/….jpg", location: "Amsterdam" },
 ];

@@ -203,28 +203,29 @@
     "ctaMarker": "Porozmawiajmy"
   },
   "promises": {
-    "marker": "Nasze obietnice",
-    "heading": "Superfoods Partners – Twój partner na każdym etapie.",
+    "marker": "Od źródła do skali",
+    "heading": "Twój partner na każdym etapie.",
+    "intro": "Jeden zespół od farmy po gotową paletę — pozyskiwanie, produkcja, zastosowanie i dostawa, wszystko według jednego standardu.",
     "items": [
       {
         "t": "Czyste źródło",
-        "d": "Bezpośredni dostęp do zaufanych farm i wielu źródeł."
+        "d": "Kupujemy bezpośrednio u źródła, z konkretnych ogrodów — z pełną identyfikowalnością, bez pośredników."
       },
       {
         "t": "Produkcja oparta na nauce",
-        "d": "Przetwarzanie i blendowanie, które kontrolują naturalną zmienność."
+        "d": "Przetwarzanie i kupażowanie, które kontrolują naturalną zmienność, aby każda partia działała tak samo."
       },
       {
-        "t": "Zastosowania i B+R",
-        "d": "Tworzone z myślą o smaku, funkcjonalności i realnych zastosowaniach."
+        "t": "Zastosowanie i B+R",
+        "d": "Pomagamy przekształcić składnik w produkt — smak, funkcję i format."
       },
       {
         "t": "Wiedza rynkowa",
-        "d": "Doświadczenie produktowe na ponad 35 rynkach na świecie."
+        "d": "Śledzimy, w którą stronę idą kategorie, aby to, co tworzymy, odpowiadało realnemu popytowi."
       },
       {
-        "t": "Skalowalny łańcuch dostaw",
-        "d": "Jakość klasy enterprise, identyfikowalność i globalne dostawy."
+        "t": "Gotowi na skalę",
+        "d": "Jakość i dokumentacja na poziomie enterprise, dostarczane w dużym wolumenie z pięciu lokalizacji w Azji, Europie i USA."
       }
     ]
   },

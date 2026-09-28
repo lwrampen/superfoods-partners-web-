@@ -14,7 +14,7 @@ function Silhouette() {
 }
 
 // Group the roster by operating location, in a stable, sensible order.
-const LOCATION_ORDER = ["Hong Kong", "Amsterdam", "Salt Lake City"];
+const LOCATION_ORDER = ["Hong Kong", "Amsterdam", "Los Angeles"];
 function groupByLocation(members: TeamMember[]): { location: string; members: TeamMember[] }[] {
   const byLoc = new Map<string, TeamMember[]>();
   for (const m of members) {
@@ -49,7 +49,7 @@ export function TeamSection({ members }: { members: TeamMember[] }) {
           <p className="mt-5 text-stone/75">{t("body")}</p>
         </Reveal>
         {/* Grouped by operating location — scales to the full roster across
-            Hong Kong, Amsterdam and Salt Lake City. */}
+            Hong Kong, Amsterdam and Los Angeles. */}
         {groupByLocation(members).map((g) => (
           <div key={g.location || "team"} className="mb-14 last:mb-0">
             <div className="mb-6 flex items-center gap-3">
