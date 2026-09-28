@@ -649,11 +649,11 @@ export const POSTS: InsightPost[] = [
         heading: L("A team, not a middleman", "Ein Team, kein Zwischenhändler", "Un equipo, no un intermediario", "Une équipe, pas un intermédiaire", "Zespół, nie pośrednik", "一支團隊，而非中間商"),
         body: [
           L(
-            "A small, named team carries the work across the chain. Wanjin leads supply chain and sourcing; Fannie sources at origin; Candy handles partnerships; Lucinda runs quality control — the sourcing and quality-control core, close to the gardens we buy from. Commercial teams in Amsterdam and Salt Lake City serve Europe and the Americas.",
-            "Ein kleines, namentlich bekanntes Team trägt die Arbeit über die gesamte Kette. Wanjin leitet Lieferkette und Beschaffung; Fannie beschafft am Ursprung; Candy betreut Partnerschaften; Lucinda verantwortet die Qualitätskontrolle — der Kern aus Beschaffung und Qualitätskontrolle, nah an den Gärten, bei denen wir kaufen. Kommerzielle Teams in Amsterdam und Salt Lake City betreuen Europa und Amerika.",
-            "Un equipo pequeño y con nombre propio lleva el trabajo a lo largo de la cadena. Wanjin lidera la cadena de suministro y el abastecimiento; Fannie abastece en origen; Candy gestiona las alianzas; Lucinda dirige el control de calidad — el núcleo de abastecimiento y control de calidad, cerca de los jardines a los que compramos. Equipos comerciales en Ámsterdam y Salt Lake City atienden Europa y América.",
-            "Une petite équipe identifiée porte le travail sur toute la chaîne. Wanjin dirige la chaîne d'approvisionnement et le sourcing ; Fannie source à l'origine ; Candy gère les partenariats ; Lucinda pilote le contrôle qualité — le cœur sourcing et contrôle qualité, au plus près des jardins où nous achetons. Des équipes commerciales à Amsterdam et Salt Lake City servent l'Europe et les Amériques.",
-            "Mały, znany z imienia zespół prowadzi pracę wzdłuż całego łańcucha. Wanjin kieruje łańcuchem dostaw i sourcingiem; Fannie pozyskuje u źródła; Candy zajmuje się partnerstwami; Lucinda prowadzi kontrolę jakości — trzon sourcingu i kontroli jakości, blisko ogrodów, od których kupujemy. Zespoły handlowe w Amsterdamie i Salt Lake City obsługują Europę i obie Ameryki.",
+            "A small, named team carries the work across the chain. Wanjin leads supply chain and sourcing; Fannie sources at origin; Candy handles partnerships; Lucinda runs quality control — the sourcing and quality-control core, close to the gardens we buy from. Commercial teams in Amsterdam and Los Angeles serve Europe and the Americas.",
+            "Ein kleines, namentlich bekanntes Team trägt die Arbeit über die gesamte Kette. Wanjin leitet Lieferkette und Beschaffung; Fannie beschafft am Ursprung; Candy betreut Partnerschaften; Lucinda verantwortet die Qualitätskontrolle — der Kern aus Beschaffung und Qualitätskontrolle, nah an den Gärten, bei denen wir kaufen. Kommerzielle Teams in Amsterdam und Los Angeles betreuen Europa und Amerika.",
+            "Un equipo pequeño y con nombre propio lleva el trabajo a lo largo de la cadena. Wanjin lidera la cadena de suministro y el abastecimiento; Fannie abastece en origen; Candy gestiona las alianzas; Lucinda dirige el control de calidad — el núcleo de abastecimiento y control de calidad, cerca de los jardines a los que compramos. Equipos comerciales en Ámsterdam y Los Angeles atienden Europa y América.",
+            "Une petite équipe identifiée porte le travail sur toute la chaîne. Wanjin dirige la chaîne d'approvisionnement et le sourcing ; Fannie source à l'origine ; Candy gère les partenariats ; Lucinda pilote le contrôle qualité — le cœur sourcing et contrôle qualité, au plus près des jardins où nous achetons. Des équipes commerciales à Amsterdam et Los Angeles servent l'Europe et les Amériques.",
+            "Mały, znany z imienia zespół prowadzi pracę wzdłuż całego łańcucha. Wanjin kieruje łańcuchem dostaw i sourcingiem; Fannie pozyskuje u źródła; Candy zajmuje się partnerstwami; Lucinda prowadzi kontrolę jakości — trzon sourcingu i kontroli jakości, blisko ogrodów, od których kupujemy. Zespoły handlowe w Amsterdamie i Los Angeles obsługują Europę i obie Ameryki.",
             "一支叫得出名字的小團隊扛起整條供應鏈的工作。Wanjin 主導供應鏈與採購；Fannie 於產地採購；Candy 負責合作關係；Lucinda 掌管品質管制——這是貼近我們採購茶園的採購與品質管制核心。阿姆斯特丹與鹽湖城的商務團隊則服務歐洲與美洲。",
           ),
         ],
@@ -707,11 +707,11 @@ export const POSTS: InsightPost[] = [
       {
         q: L("Where is the team based?", "Wo sitzt das Team?", "¿Dónde está el equipo?", "Où est basée l'équipe ?", "Gdzie znajduje się zespół?", "團隊在哪裡？"),
         a: L(
-          "Across our three locations — Hong Kong, Amsterdam and Salt Lake City — close to the origins we source from and the manufacturers we supply.",
-          "An unseren drei Standorten — Hongkong, Amsterdam und Salt Lake City — nah an den Ursprüngen, bei denen wir beschaffen, und den Herstellern, die wir beliefern.",
-          "En nuestras tres sedes — Hong Kong, Ámsterdam y Salt Lake City — cerca de los orígenes de los que nos abastecemos y de los fabricantes a los que suministramos.",
-          "Sur nos trois sites — Hong Kong, Amsterdam et Salt Lake City — au plus près des origines où nous nous approvisionnons et des fabricants que nous fournissons.",
-          "W naszych trzech lokalizacjach — Hongkong, Amsterdam i Salt Lake City — blisko źródeł, z których pozyskujemy, i producentów, których zaopatrujemy.",
+          "Across our three locations — Hong Kong, Amsterdam and Los Angeles — close to the origins we source from and the manufacturers we supply.",
+          "An unseren drei Standorten — Hongkong, Amsterdam und Los Angeles — nah an den Ursprüngen, bei denen wir beschaffen, und den Herstellern, die wir beliefern.",
+          "En nuestras tres sedes — Hong Kong, Ámsterdam y Los Angeles — cerca de los orígenes de los que nos abastecemos y de los fabricantes a los que suministramos.",
+          "Sur nos trois sites — Hong Kong, Amsterdam et Los Angeles — au plus près des origines où nous nous approvisionnons et des fabricants que nous fournissons.",
+          "W naszych trzech lokalizacjach — Hongkong, Amsterdam i Los Angeles — blisko źródeł, z których pozyskujemy, i producentów, których zaopatrujemy.",
           "分布於我們的三個據點——香港、阿姆斯特丹與鹽湖城——貼近我們採購的產地，以及我們供貨的製造商。",
         ),
       },

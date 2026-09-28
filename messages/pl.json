@@ -75,7 +75,7 @@
     ],
     "peopleCaption": "PLANTATOR W OGRODACH W CZASIE ZBIORÓW",
     "sourceEyebrow": "Sieć",
-    "sourceHeading": "Jedna nazwa, trzy lokalizacje.",
+    "sourceHeading": "Jedna nazwa, pięć lokalizacji.",
     "sourceBody": "Każda spółka to Superfoods Partners — podmiot nadrzędny ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Dotknij lokalizacji, aby przybliżyć biuro; marki handlowe znajdują się poniżej i są wspólne dla wszystkich.",
     "traceMarker": "Prześledź partię",
     "traceHeading": "Zobacz dokładnie, co kupujesz.",
@@ -109,10 +109,10 @@
     "statTested": "BADANE PARTIAMI",
     "statHub": "LOKALIZACJE",
     "hkEyebrow": "Jak działamy",
-    "hkCoords": "Hongkong · Amsterdam · Los Angeles",
+    "hkCoords": "Hong Kong · Amsterdam · Los Angeles · Barcelona · Tokio",
     "hkHeading": "Blisko źródła, blisko Ciebie.",
-    "hkBody1": "Działamy z trzech lokalizacji — Hongkongu, Amsterdamu i Los Angeles — dzięki czemu jesteśmy blisko ogrodów, od których kupujemy, i blisko producentów, których zaopatrujemy. Każda partia jest badana i dokumentowana przed wysyłką, dokądkolwiek zmierza.",
-    "hkBody2": "A za tym stoją ludzie: zespół, do którego zadzwonisz w swojej strefie czasowej i który naprawdę odbiera. Huby wsparcia w Barcelonie i Tokio jeszcze bardziej nas przybliżają.",
+    "hkBody1": "Działamy z pięciu lokalizacji — biura w Hongkongu, Amsterdamie i Los Angeles oraz huby w Barcelonie i Tokio — dzięki czemu jesteśmy blisko gospodarstw, od których kupujemy, i blisko producentów, których zaopatrujemy. Każda partia jest badana i dokumentowana przed wysyłką, dokądkolwiek trafia.",
+    "hkBody2": "A za tym stoją ludzie: zespół, z którym skontaktujesz się w swojej strefie czasowej i który naprawdę odbiera telefon.",
     "hkExpertsLabel": "Poznaj zespół",
     "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
     "socialMarker": "Co mówią kupujący",
@@ -203,28 +203,29 @@
     "ctaMarker": "Porozmawiajmy"
   },
   "promises": {
-    "marker": "Nasze obietnice",
-    "heading": "Superfoods Partners – Twój partner na każdym etapie.",
+    "marker": "Od źródła do skali",
+    "heading": "Twój partner na każdym etapie.",
+    "intro": "Jeden zespół od farmy po gotową paletę — pozyskiwanie, produkcja, zastosowanie i dostawa, wszystko według jednego standardu.",
     "items": [
       {
         "t": "Czyste źródło",
-        "d": "Bezpośredni dostęp do zaufanych farm i wielu źródeł."
+        "d": "Kupujemy bezpośrednio u źródła, z konkretnych ogrodów — z pełną identyfikowalnością, bez pośredników."
       },
       {
         "t": "Produkcja oparta na nauce",
-        "d": "Przetwarzanie i blendowanie, które kontrolują naturalną zmienność."
+        "d": "Przetwarzanie i kupażowanie, które kontrolują naturalną zmienność, aby każda partia działała tak samo."
       },
       {
-        "t": "Zastosowania i B+R",
-        "d": "Tworzone z myślą o smaku, funkcjonalności i realnych zastosowaniach."
+        "t": "Zastosowanie i B+R",
+        "d": "Pomagamy przekształcić składnik w produkt — smak, funkcję i format."
       },
       {
         "t": "Wiedza rynkowa",
-        "d": "Doświadczenie produktowe na ponad 35 rynkach na świecie."
+        "d": "Śledzimy, w którą stronę idą kategorie, aby to, co tworzymy, odpowiadało realnemu popytowi."
       },
       {
-        "t": "Skalowalny łańcuch dostaw",
-        "d": "Jakość klasy enterprise, identyfikowalność i globalne dostawy."
+        "t": "Gotowi na skalę",
+        "d": "Jakość i dokumentacja na poziomie enterprise, dostarczane w dużym wolumenie z pięciu lokalizacji w Azji, Europie i USA."
       }
     ]
   },
@@ -268,8 +269,8 @@
         "d": "Przejrzyście łączymy źródła dla spójnej jakości, bezpieczeństwa dostaw i skali."
       },
       {
-        "t": "Trzy lokalizacje",
-        "d": "Lokalne zespoły w Hongkongu, Amsterdamie i Los Angeles zarządzają sourcingiem, QA, zgodnością i logistyką — blisko źródła i blisko Ciebie."
+        "t": "Pięć lokalizacji",
+        "d": "Biura w Hongkongu, Amsterdamie i Los Angeles oraz huby w Barcelonie i Tokio — sourcing, QA, zgodność i logistyka blisko źródła i blisko Ciebie."
       },
       {
         "t": "Niezależna weryfikacja",
@@ -306,7 +307,7 @@
     "ctaHeading": "Przenoś wolumen, któremu możesz zaufać.",
     "ctaButton": "Poproś o wycenę hurtową",
     "groupEyebrow": "Grupa",
-    "groupHeading": "Jedna nazwa, trzy lokalizacje.",
+    "groupHeading": "Jedna nazwa, pięć lokalizacji.",
     "groupBody": "Każda spółka to Superfoods Partners — podmiot nadrzędny ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Marki handlowe znajdują się poniżej i są wspólne dla wszystkich; Pure Matcha Partners to dziś nasza wyspecjalizowana marka matcha.",
     "houseEyebrow": "Jak jesteśmy zbudowani",
     "houseHeading": "Dwie marki, jeden dom",
@@ -437,7 +438,7 @@
     "heroCaption": "ŹRÓDŁO — KRAINA HERBATY W SEZONIE",
     "mapEyebrow": "Globalna mapa handlu",
     "mapHeading": "Skąd pozyskujemy — i gdzie sprzedajemy.",
-    "mapBody": "Przeciągnij, by obrócić globus, przewiń, by przybliżyć, i najedź na dowolny punkt. Zielony oznacza, skąd pozyskujemy; bursztynowy oznacza rynki, które obsługujemy; limonkowy oznacza nasze trzy lokalizacje — Hongkong, Amsterdam i Los Angeles.",
+    "mapBody": "Przeciągnij, by obrócić globus, przewiń, by przybliżyć, i najedź na dowolny punkt. Zielony oznacza, skąd pozyskujemy; bursztynowy — rynki, które obsługujemy; limonkowy — nasze pięć lokalizacji: biura w Hongkongu, Amsterdamie i Los Angeles oraz huby w Barcelonie i Tokio.",
     "legendSourcing": "Sourcing · {count} źródeł",
     "legendMarkets": "Rynki · USA · UE (przez Pure Matcha Partners) · Bliski Wschód",
     "legendHub": "Nasze lokalizacje",
@@ -563,6 +564,7 @@
   "locationsMap": {
     "role": "Podmiot operacyjny",
     "local": "czas lok.",
-    "aria": "Mapa świata z trzema spółkami operacyjnymi"
+    "aria": "Mapa świata z trzema spółkami operacyjnymi",
+    "mapBody": "Przeciągnij, aby obrócić kulę, przewiń, aby przybliżyć, i najedź na dowolny punkt. Zielony oznacza, skąd pozyskujemy; bursztynowy — rynki, które obsługujemy; limonkowy — nasze pięć lokalizacji: biura w Hongkongu, Amsterdamie i Los Angeles oraz huby w Barcelonie i Tokio."
   }
 }

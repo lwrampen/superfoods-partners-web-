@@ -75,7 +75,7 @@
     ],
     "peopleCaption": "UN CULTIVATEUR DANS LES JARDINS À LA RÉCOLTE",
     "sourceEyebrow": "Le réseau",
-    "sourceHeading": "Un nom, trois implantations.",
+    "sourceHeading": "Un nom, cinq implantations.",
     "sourceBody": "Chaque société est Superfoods Partners — une ombrelle avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Touchez une implantation pour cadrer le bureau ; les marques commerciales se trouvent en dessous et sont partagées par toutes.",
     "traceMarker": "Tracer un lot",
     "traceHeading": "Voyez exactement ce que vous achetez.",
@@ -109,10 +109,10 @@
     "statTested": "ANALYSÉ PAR LOT",
     "statHub": "SITES",
     "hkEyebrow": "Comment nous opérons",
-    "hkCoords": "Hong Kong · Amsterdam · Los Angeles",
+    "hkCoords": "Hong Kong · Amsterdam · Los Angeles · Barcelone · Tokyo",
     "hkHeading": "Proche de l'origine, proche de vous.",
-    "hkBody1": "Nous opérons depuis trois implantations — Hong Kong, Amsterdam et Los Angeles — pour rester proches des jardins où nous achetons et des fabricants que nous fournissons. Chaque lot est analysé et documenté avant expédition, quelle que soit sa destination.",
-    "hkBody2": "Et il y a des personnes derrière : une équipe que vous pouvez joindre dans votre propre fuseau horaire, et qui décroche vraiment. Des hubs d’appui à Barcelone et Tokyo nous rapprochent encore.",
+    "hkBody1": "Nous opérons depuis cinq implantations — des bureaux à Hong Kong, Amsterdam et Los Angeles, plus des hubs à Barcelone et Tokyo — pour rester proches des jardins où nous achetons et des fabricants que nous fournissons. Chaque lot est testé et documenté avant expédition, quelle que soit sa destination.",
+    "hkBody2": "Et il y a des personnes derrière : une équipe que vous joignez dans votre propre fuseau horaire, et qui décroche vraiment.",
     "hkExpertsLabel": "Rencontrez l'équipe",
     "hkCaption": "RÉCOLTE PLEIN CHAMP — ACHEMINÉE À GRANDE ÉCHELLE",
     "socialMarker": "Ce que disent les acheteurs",
@@ -203,28 +203,29 @@
     "ctaMarker": "Parlons-en"
   },
   "promises": {
-    "marker": "Nos engagements client",
-    "heading": "Superfoods Partners, votre partenaire à chaque étape.",
+    "marker": "De la source à l'échelle",
+    "heading": "Votre partenaire à chaque étape.",
+    "intro": "Une seule équipe, de la ferme à la palette finie : sourcing, production, application et approvisionnement, le tout selon un standard unique.",
     "items": [
       {
         "t": "Source pure",
-        "d": "Accès direct à des fermes de confiance et à de multiples origines."
+        "d": "Nous achetons directement à l'origine auprès de jardins identifiés — traçable, sans intermédiaire."
       },
       {
         "t": "Production guidée par la science",
-        "d": "Transformation et assemblage qui maîtrisent la variation naturelle."
+        "d": "Transformation et assemblage qui maîtrisent la variation naturelle, pour que chaque lot se comporte de la même façon."
       },
       {
         "t": "Application & R&D",
-        "d": "Conçu pour la saveur, la fonctionnalité et les applications réelles."
+        "d": "Nous vous aidons à transformer l'ingrédient en produit — goût, fonction et format."
       },
       {
         "t": "Intelligence de marché",
-        "d": "Expérience produit sur plus de 35 marchés mondiaux."
+        "d": "Nous suivons l'évolution des catégories, pour que ce que nous produisons colle à la demande réelle."
       },
       {
-        "t": "Chaîne d’approvisionnement évolutive",
-        "d": "Qualité de niveau entreprise, traçabilité et approvisionnement mondial."
+        "t": "Conçu pour l'échelle",
+        "d": "Qualité et documentation prêtes pour l'entreprise, livrées en volume depuis cinq implantations en Asie, en Europe et aux États-Unis."
       }
     ]
   },
@@ -268,8 +269,8 @@
         "d": "Nous combinons les origines en toute transparence pour une qualité constante, une sécurité d'approvisionnement et de l'échelle."
       },
       {
-        "t": "Trois implantations",
-        "d": "Des équipes locales à Hong Kong, Amsterdam et Los Angeles gèrent le sourcing, l'assurance qualité, la conformité et la logistique — proches de l'origine et de vous."
+        "t": "Cinq implantations",
+        "d": "Des bureaux à Hong Kong, Amsterdam et Los Angeles, plus des hubs à Barcelone et Tokyo — sourcing, QA, conformité et logistique au plus près de l'origine et de vous."
       },
       {
         "t": "Vérification indépendante",
@@ -306,7 +307,7 @@
     "ctaHeading": "Déplacez des volumes en confiance.",
     "ctaButton": "Demander un devis de volume",
     "groupEyebrow": "Le groupe",
-    "groupHeading": "Un nom, trois implantations.",
+    "groupHeading": "Un nom, cinq implantations.",
     "groupBody": "Chaque société est Superfoods Partners — une ombrelle avec des entités opérationnelles à Hong Kong, aux Pays-Bas et aux États-Unis. Les marques commerciales se trouvent en dessous et sont partagées par toutes ; Pure Matcha Partners est aujourd'hui notre marque spécialiste du matcha.",
     "houseEyebrow": "Comment nous sommes structurés",
     "houseHeading": "Deux marques, une maison",
@@ -437,7 +438,7 @@
     "heroCaption": "ORIGINE — PAYS DU THÉ EN SAISON",
     "mapEyebrow": "Carte du commerce mondial",
     "mapHeading": "Où nous sourçons — et où nous vendons.",
-    "mapBody": "Faites glisser pour faire tourner le globe, faites défiler pour zoomer et survolez n'importe quel point. Le vert marque où nous sourçons ; l'ambre marque les marchés que nous desservons ; le vert citron marque nos trois implantations — Hong Kong, Amsterdam et Los Angeles.",
+    "mapBody": "Faites glisser pour faire tourner le globe, défilez pour zoomer et survolez un point. Le vert marque où nous sourçons ; l'ambre, les marchés que nous desservons ; le vert citron, nos cinq implantations — des bureaux à Hong Kong, Amsterdam et Los Angeles, plus des hubs à Barcelone et Tokyo.",
     "legendSourcing": "Sourcing · {count} origines",
     "legendMarkets": "Marchés · États-Unis · UE (via Pure Matcha Partners) · Moyen-Orient",
     "legendHub": "Nos sites",
@@ -563,6 +564,7 @@
   "locationsMap": {
     "role": "Entité opérationnelle",
     "local": "heure locale",
-    "aria": "Carte du monde de nos trois entités opérationnelles"
+    "aria": "Carte du monde de nos trois entités opérationnelles",
+    "mapBody": "Faites glisser pour faire tourner le globe, défilez pour zoomer et survolez un point. Le vert indique où nous sourçons ; l'ambre, les marchés que nous servons ; le lime, nos cinq implantations — des bureaux à Hong Kong, Amsterdam et Los Angeles, plus des hubs à Barcelone et Tokyo."
   }
 }

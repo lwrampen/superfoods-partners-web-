@@ -75,7 +75,7 @@
     ],
     "peopleCaption": "A GROWER IN THE GARDENS AT HARVEST",
     "sourceEyebrow": "The network",
-    "sourceHeading": "One name, three locations.",
+    "sourceHeading": "One name, five locations.",
     "sourceBody": "Every company is Superfoods Partners — one umbrella with local operating entities in Hong Kong, the Netherlands and the United States. Tap a location to focus the office; the commercial labels sit underneath and are shared across all of them.",
     "traceMarker": "Trace a batch",
     "traceHeading": "See exactly what you're buying.",
@@ -109,10 +109,10 @@
     "statTested": "BATCH-TESTED",
     "statHub": "LOCATIONS",
     "hkEyebrow": "How we operate",
-    "hkCoords": "Hong Kong · Amsterdam · Los Angeles",
+    "hkCoords": "Hong Kong · Amsterdam · Los Angeles · Barcelona · Tokyo",
     "hkHeading": "Close to origin, close to you.",
-    "hkBody1": "We run from three locations — Hong Kong, Amsterdam and Los Angeles — so we sit close to the gardens we buy from and close to the manufacturers we supply. Every lot is tested and documented before it ships, wherever it's headed.",
-    "hkBody2": "And there are people behind it: a team you can reach in your own timezone, who actually pick up the phone. Support hubs in Barcelona and Tokyo keep us closer still.",
+    "hkBody1": "We run from five locations — offices in Hong Kong, Amsterdam and Los Angeles, plus hubs in Barcelona and Tokyo — so we sit close to the gardens we buy from and close to the manufacturers we supply. Every lot is tested and documented before it ships, wherever it's headed.",
+    "hkBody2": "And there are people behind it: a team you can reach in your own timezone, who actually pick up the phone.",
     "hkExpertsLabel": "Meet the team",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
     "socialMarker": "What buyers say",
@@ -203,28 +203,29 @@
     "ctaMarker": "Start a conversation"
   },
   "promises": {
-    "marker": "Customer promises",
-    "heading": "Superfoods Partners, your partner at every stage.",
+    "marker": "Source to scale",
+    "heading": "Your partner at every stage.",
+    "intro": "One team from farm to finished pallet — sourcing, production, application and supply, all held to a single standard.",
     "items": [
       {
-        "t": "Pure Source",
-        "d": "Direct access to trusted farms and multiple origins."
+        "t": "Pure source",
+        "d": "We buy direct at origin from named gardens — traceable, with no trader in between."
       },
       {
-        "t": "Science-led Production",
-        "d": "Processing and blending that controls natural variation."
+        "t": "Science-led production",
+        "d": "Processing and blending that control natural variation, so every lot performs the same."
       },
       {
         "t": "Application & R&D",
-        "d": "Built for flavour, functionality and real-world applications."
+        "d": "We help you turn the ingredient into a product — flavour, function and format."
       },
       {
-        "t": "Market Intelligence",
-        "d": "Product experience across 35+ global markets."
+        "t": "Market intelligence",
+        "d": "We track where the categories are moving, so what we make matches real demand."
       },
       {
-        "t": "Supply chain, built to scale",
-        "d": "Enterprise-ready quality, traceability and global supply."
+        "t": "Built to scale",
+        "d": "Enterprise-ready quality and documentation, delivered at volume from five locations across Asia, Europe and the US."
       }
     ]
   },
@@ -268,8 +269,8 @@
         "d": "We transparently combine origins for consistent quality, security of supply and scale."
       },
       {
-        "t": "Three locations",
-        "d": "Local teams in Hong Kong, Amsterdam and Los Angeles manage sourcing, QA, compliance and logistics — close to origin and to you."
+        "t": "Five locations",
+        "d": "Offices in Hong Kong, Amsterdam and Los Angeles, plus hubs in Barcelona and Tokyo — sourcing, QA, compliance and logistics close to origin and to you."
       },
       {
         "t": "Independent verification",
@@ -306,7 +307,7 @@
     "ctaHeading": "Move volume you can trust.",
     "ctaButton": "Request a volume quote",
     "groupEyebrow": "The group",
-    "groupHeading": "One name, three locations.",
+    "groupHeading": "One name, five locations.",
     "groupBody": "Every company is Superfoods Partners — one umbrella with local operating entities in Hong Kong, the Netherlands and the United States. The commercial labels sit underneath and are shared across all of them; Pure Matcha Partners is our specialist matcha brand today.",
     "houseEyebrow": "How we're built",
     "houseHeading": "Two brands, one house",
@@ -437,7 +438,7 @@
     "heroCaption": "ORIGIN — TEA COUNTRY AT SEASON",
     "mapEyebrow": "Global trade map",
     "mapHeading": "Where we source — and where we sell.",
-    "mapBody": "Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve; lime marks our three locations — Hong Kong, Amsterdam and Los Angeles.",
+    "mapBody": "Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve; lime marks our five locations — offices in Hong Kong, Amsterdam and Los Angeles, plus hubs in Barcelona and Tokyo.",
     "legendSourcing": "Sourcing · {count} origins",
     "legendMarkets": "Markets · US · EU (via Pure Matcha Partners) · Middle East",
     "legendHub": "Our locations",
@@ -563,6 +564,7 @@
   "locationsMap": {
     "role": "Operating entity",
     "local": "local",
-    "aria": "World map of our three operating entities"
+    "aria": "World map of our three operating entities",
+    "mapBody": "Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve; lime marks our five locations — offices in Hong Kong, Amsterdam and Los Angeles, plus hubs in Barcelona and Tokyo."
   }
 }
