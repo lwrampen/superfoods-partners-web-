@@ -69,7 +69,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     { value: ORIGIN_LIST.length, suffix: "", l: t("statOrigins") },
     { value: new Set(ORIGIN_LIST.map((o) => o.country)).size, suffix: "", l: t("statCountries") },
     { value: 100, suffix: "%", l: t("statTested") },
-    { value: 3, suffix: "", l: t("statHub"), amber: true },
+    { value: 5, suffix: "", l: t("statHub"), amber: true },
   ];
 
   return (
@@ -124,7 +124,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         )}
 
         {/* CUSTOMER PROMISES — your partner at every stage */}
-        <section className="mx-auto max-w-6xl px-6 pt-20 md:pt-24">
+        <section className="mx-auto max-w-6xl px-6 py-20 md:py-24">
           <Reveal className="mb-10 max-w-2xl">
             <p className="mono text-[11px] uppercase tracking-widest text-amber">{tp("marker")}</p>
             <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">{tp("heading")}</h2>
