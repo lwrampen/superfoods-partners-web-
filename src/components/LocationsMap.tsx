@@ -58,6 +58,15 @@ const ARCS = [
   [0, 2],
 ].map(([i, j]) => arc(NODES[i], NODES[j]));
 
+// Smaller support hubs — shown on the map but not as full operating cards.
+const HUBS = [
+  { city: "Barcelona", lon: 2.16, lat: 41.39 },
+  { city: "Tokyo", lon: 139.69, lat: 35.68 },
+].map((h) => {
+  const [x, y] = project(h.lon, h.lat);
+  return { ...h, x, y };
+});
+
 export function LocationsMap() {
   const reduce = useReducedMotion();
   const t = useTranslations("locationsMap");
@@ -172,6 +181,14 @@ export function LocationsMap() {
               fill="transparent"
               onClick={() => select(n.code)}
             />
+          </g>
+        ))}
+        {HUBS.map((h) => (
+          <g key={h.city} className="lm-hub">
+            <circle cx={h.x} cy={h.y} r={0.9} fill="#8cc541" opacity={0.65} />
+            <text className="lm-lbl" x={h.x} y={h.y - 2.4} opacity={0.6}>
+              {h.city.toUpperCase()}
+            </text>
           </g>
         ))}
       </svg>

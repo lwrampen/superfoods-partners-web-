@@ -57,7 +57,7 @@ export type Location = { id: string; name: string; blurb: string; lat: number; l
 export const LOCATIONS: Location[] = [
   { id: "hk", name: "Hong Kong", blurb: "Sourcing and QC across Asia — closest to the gardens.", lat: 22.32, lng: 114.17 },
   { id: "nl", name: "Amsterdam", blurb: "European base — commercial, ops and documentation.", lat: 52.37, lng: 4.9 },
-  { id: "us", name: "Salt Lake City", blurb: "North American base, serving the Americas.", lat: 40.76, lng: -111.89 },
+  { id: "us", name: "Los Angeles", blurb: "North American base, serving the Americas.", lat: 34.05, lng: -118.24 },
 ];
 
 // Nearest operating location to a point — used to route map flows to whichever

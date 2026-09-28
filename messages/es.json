@@ -1,7 +1,7 @@
 {
   "meta": {
     "titleDefault": "Superfoods Partners — Abastecimiento a escala. Confianza en origen.",
-    "description": "Abastecimiento B2B internacional de superalimentos desde Hong Kong, Ámsterdam y Salt Lake City. Cada origen del mundo — verificado, documentado y trazable hasta el lote.",
+    "description": "Abastecimiento B2B internacional de superalimentos desde Hong Kong, Ámsterdam y Los Angeles. Cada origen del mundo — verificado, documentado y trazable hasta el lote.",
     "ogDescription": "Cada origen del mundo, verificado, documentado y trazable hasta el lote. Abastecido directo, cada lote analizado."
   },
   "nav": {
@@ -43,12 +43,12 @@
     "Egypt": "Egipto"
   },
   "home": {
-    "metaTitle": "Proveedor de Matcha al por Mayor — Matcha y Superalimentos a Granel",
-    "metaDescription": "Matcha a granel y superalimentos en polvo para fabricantes — de origen único, cada lote analizado en laboratorio (JAS, EU y USDA Orgánico), desde muestra hasta contenedor completo. Superfoods Partners abastece directo del origen. Solicita presupuesto.",
+    "metaTitle": "Proveedor mayorista de matcha y superalimentos — del origen a la escala",
+    "metaDescription": "Matcha y superalimentos en polvo a granel para fabricantes — de origen directo, con cada lote analizado en laboratorio (JAS, EU y USDA Organic) y hechos consistentes mediante producción con base científica, blending y soporte de aplicación. De la muestra al contenedor completo. Solicita presupuesto.",
     "heroEyebrow": "Superalimentos en polvo de origen único",
     "heroTitle1": "A Modern",
     "heroTitle2": "Ingredient House",
-    "heroIntro": "Compramos directamente en la finca, controlamos la cadena desde la cosecha hasta el palet, y suministramos a marcas, fabricantes y private label matcha, hojicha, hibiscus, ube y lion's mane.",
+    "heroIntro": "Del origen a la escala: compramos directamente en la granja, controlamos la variación natural con producción de base científica y creamos soluciones de ingredientes consistentes para marcas, fabricantes y marca blanca — matcha, hojicha, hibisco, ube y más.",
     "ctaQuote": "Solicitar presupuesto por volumen",
     "ctaTrace": "Rastrear un lote →",
     "heroBadge": "Directo desde origen",
@@ -80,9 +80,9 @@
     "traceMarker": "Rastrear un lote",
     "traceHeading": "Vea exactamente lo que está comprando.",
     "traceBody": "Elija un producto y sígalo desde el origen hasta su planta. Cada lote llega con un Verification Record completo — los mismos controles que querríamos si fuéramos nosotros quienes compramos. Nada oculto, nada que perseguir.",
-    "stepsMarker": "Cómo funciona el abastecimiento",
-    "stepsHeading": "Abastecimiento, sin conjeturas.",
-    "stepsBody": "Díganos qué necesita; nosotros gestionamos el origen, los análisis y la documentación — y le mantenemos informado en todo momento. Usted aprueba antes de que nada escale.",
+    "stepsMarker": "Cómo trabajamos",
+    "stepsHeading": "De tu especificación a la escala completa.",
+    "stepsBody": "Dinos qué necesitas; nos encargamos del origen, la estandarización, la formulación y la documentación — y te mantenemos informado en todo momento. Tú apruebas antes de escalar.",
     "steps": [
       {
         "t": "Díganos su especificación",
@@ -109,10 +109,10 @@
     "statTested": "ANALIZADO POR LOTE",
     "statHub": "UBICACIONES",
     "hkEyebrow": "Cómo operamos",
-    "hkCoords": "Hong Kong · Ámsterdam · Salt Lake City",
+    "hkCoords": "Hong Kong · Ámsterdam · Los Angeles",
     "hkHeading": "Cerca del origen, cerca de usted.",
-    "hkBody1": "Operamos desde tres ubicaciones —Hong Kong, Ámsterdam y Salt Lake City— para estar cerca de los jardines a los que compramos y cerca de los fabricantes a los que abastecemos. Cada lote se analiza y documenta antes de enviarse, sea cual sea su destino.",
-    "hkBody2": "Y hay personas detrás: un equipo al que puede llamar, en su propia zona horaria, que de verdad contesta el teléfono.",
+    "hkBody1": "Operamos desde tres ubicaciones —Hong Kong, Ámsterdam y Los Angeles— para estar cerca de los jardines a los que compramos y cerca de los fabricantes a los que abastecemos. Cada lote se analiza y documenta antes de enviarse, sea cual sea su destino.",
+    "hkBody2": "Y hay personas detrás: un equipo al que puede llamar, en su propia zona horaria, que de verdad contesta el teléfono. Hubs de apoyo en Barcelona y Tokio nos acercan aún más.",
     "hkExpertsLabel": "Conozca al equipo",
     "hkCaption": "COSECHA DE CAMPO COMPLETO — MOVIDA A ESCALA",
     "socialMarker": "Lo que dicen los compradores",
@@ -199,7 +199,8 @@
         "name": "Joana",
         "role": "Propietaria de marca suiza de matcha"
       }
-    ]
+    ],
+    "ctaMarker": "Hablemos"
   },
   "promises": {
     "marker": "Promesas al cliente",
@@ -268,7 +269,7 @@
       },
       {
         "t": "Tres ubicaciones",
-        "d": "Equipos locales en Hong Kong, Ámsterdam y Salt Lake City gestionan abastecimiento, control de calidad, cumplimiento y logística — cerca del origen y de usted."
+        "d": "Equipos locales en Hong Kong, Ámsterdam y Los Angeles gestionan abastecimiento, control de calidad, cumplimiento y logística — cerca del origen y de usted."
       },
       {
         "t": "Verificación independiente",
@@ -294,11 +295,11 @@
   },
   "about": {
     "metaTitle": "Empresa — el socio de abastecimiento de superalimentos de confianza",
-    "metaDescription": "Superfoods Partners es un proveedor internacional de superalimentos en polvo de origen único, que opera desde Hong Kong, Ámsterdam y Salt Lake City. Pure Matcha Partners es nuestra marca especialista en matcha.",
+    "metaDescription": "Superfoods Partners es un proveedor internacional de superalimentos en polvo de origen único, que opera desde Hong Kong, Ámsterdam y Los Angeles. Pure Matcha Partners es nuestra marca especialista en matcha.",
     "eyebrow": "Empresa",
     "eyebrowSub": "Quiénes somos",
     "heroHeading": "El origen es la historia.",
-    "heroBody1": "Superfoods Partners es el paraguas de nuestro grupo: una cartera compartida de superalimentos en polvo de origen único, con entidades operativas en Hong Kong, los Países Bajos y Estados Unidos. Compramos directamente en la finca y movemos grandes volúmenes verificados a fabricantes, marcas y private label.",
+    "heroBody1": "Superfoods Partners es el paraguas de nuestro grupo: una cartera compartida de superalimentos en polvo de origen único, con entidades operativas en Hong Kong, los Países Bajos y Estados Unidos. Compramos directamente en la finca y movemos grandes volúmenes verificados a fabricantes, marcas y private label. Tu socio en cada etapa, del origen a la escala.",
     "heroBody2": "No aspiramos a ser el mayor proveedor. Aspiramos a ser aquel por el que nunca tenga que preocuparse.",
     "heroCaption": "UN CULTIVADOR EN LOS JARDINES EN COSECHA",
     "hkCaption": "COSECHA DE CAMPO COMPLETO — MOVIDA A ESCALA",
@@ -436,7 +437,7 @@
     "heroCaption": "ORIGEN — TIERRA DE TÉ EN TEMPORADA",
     "mapEyebrow": "Mapa de comercio global",
     "mapHeading": "Dónde nos abastecemos — y dónde vendemos.",
-    "mapBody": "Arrastre para girar el globo, desplácese para acercar y pase el cursor por cualquier punto. El verde marca dónde nos abastecemos; el ámbar marca los mercados que atendemos; el lima marca nuestras tres ubicaciones — Hong Kong, Ámsterdam y Salt Lake City.",
+    "mapBody": "Arrastre para girar el globo, desplácese para acercar y pase el cursor por cualquier punto. El verde marca dónde nos abastecemos; el ámbar marca los mercados que atendemos; el lima marca nuestras tres ubicaciones — Hong Kong, Ámsterdam y Los Angeles.",
     "legendSourcing": "Abastecimiento · {count} orígenes",
     "legendMarkets": "Mercados · EE. UU. · UE (vía Pure Matcha Partners) · Oriente Medio",
     "legendHub": "Nuestras ubicaciones",

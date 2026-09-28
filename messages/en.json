@@ -1,7 +1,7 @@
 {
   "meta": {
     "titleDefault": "Superfoods Partners — Sourced at scale. Trusted at origin.",
-    "description": "International B2B superfood sourcing from Hong Kong, Amsterdam and Salt Lake City. Every origin in the world — verified, documented and traceable to the batch.",
+    "description": "International B2B superfood sourcing from Hong Kong, Amsterdam and Los Angeles. Every origin in the world — verified, documented and traceable to the batch.",
     "ogDescription": "Every origin in the world, verified, documented and traceable to the batch. Sourced direct, tested every lot."
   },
   "nav": {
@@ -43,12 +43,12 @@
     "Egypt": "Egypt"
   },
   "home": {
-    "metaTitle": "Matcha Wholesale Supplier — Bulk Matcha & Superfoods at Origin",
-    "metaDescription": "Bulk matcha and superfood powders for manufacturers — single-origin, lab-tested every batch (JAS, EU & USDA Organic), from sample to full container. Superfoods Partners sources direct from origin. Request a quote.",
+    "metaTitle": "Matcha & Superfood Wholesale Supplier — From Source to Scale",
+    "metaDescription": "Bulk matcha and superfood powders for manufacturers — sourced direct, lab-tested every batch (JAS, EU & USDA Organic), and made consistent through science-led production, blending and application support. From sample to full container. Request a quote.",
     "heroEyebrow": "Single-origin superfood powders",
     "heroTitle1": "A Modern",
     "heroTitle2": "Ingredient House",
-    "heroIntro": "We buy directly at the farm, control the chain from harvest to pallet, and supply brands, manufacturers and private label with matcha, hojicha, hibiscus, ube and lion's mane.",
+    "heroIntro": "From source to scale: we buy directly at the farm, control natural variation through science-led production, and build consistent ingredient solutions for brands, manufacturers and private label — matcha, hojicha, hibiscus, ube and more.",
     "ctaQuote": "Request a volume quote",
     "ctaTrace": "Trace a batch →",
     "heroBadge": "Direct from origin",
@@ -80,9 +80,9 @@
     "traceMarker": "Trace a batch",
     "traceHeading": "See exactly what you're buying.",
     "traceBody": "Pick a product and follow it from origin to your facility. Every batch arrives with a full Verification Record — the same checks we'd want if we were the ones buying. Nothing hidden, nothing to chase down.",
-    "stepsMarker": "How sourcing works",
-    "stepsHeading": "Sourcing, without the guesswork.",
-    "stepsBody": "Tell us what you need; we handle origin, testing and documentation — and keep you in the loop the whole way. You approve before anything scales.",
+    "stepsMarker": "How we work",
+    "stepsHeading": "From your spec to full scale.",
+    "stepsBody": "Tell us what you need; we source, standardise, formulate and document it — and keep you in the loop the whole way. You approve before anything scales.",
     "steps": [
       {
         "t": "Tell us your spec",
@@ -109,10 +109,10 @@
     "statTested": "BATCH-TESTED",
     "statHub": "LOCATIONS",
     "hkEyebrow": "How we operate",
-    "hkCoords": "Hong Kong · Amsterdam · Salt Lake City",
+    "hkCoords": "Hong Kong · Amsterdam · Los Angeles",
     "hkHeading": "Close to origin, close to you.",
-    "hkBody1": "We run from three locations — Hong Kong, Amsterdam and Salt Lake City — so we sit close to the gardens we buy from and close to the manufacturers we supply. Every lot is tested and documented before it ships, wherever it's headed.",
-    "hkBody2": "And there are people behind it: a team you can reach in your own timezone, who actually pick up the phone.",
+    "hkBody1": "We run from three locations — Hong Kong, Amsterdam and Los Angeles — so we sit close to the gardens we buy from and close to the manufacturers we supply. Every lot is tested and documented before it ships, wherever it's headed.",
+    "hkBody2": "And there are people behind it: a team you can reach in your own timezone, who actually pick up the phone. Support hubs in Barcelona and Tokyo keep us closer still.",
     "hkExpertsLabel": "Meet the team",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
     "socialMarker": "What buyers say",
@@ -199,7 +199,8 @@
         "name": "Joana",
         "role": "Swiss matcha brand owner"
       }
-    ]
+    ],
+    "ctaMarker": "Start a conversation"
   },
   "promises": {
     "marker": "Customer promises",
@@ -268,7 +269,7 @@
       },
       {
         "t": "Three locations",
-        "d": "Local teams in Hong Kong, Amsterdam and Salt Lake City manage sourcing, QA, compliance and logistics — close to origin and to you."
+        "d": "Local teams in Hong Kong, Amsterdam and Los Angeles manage sourcing, QA, compliance and logistics — close to origin and to you."
       },
       {
         "t": "Independent verification",
@@ -294,11 +295,11 @@
   },
   "about": {
     "metaTitle": "Company — the trusted superfood sourcing partner",
-    "metaDescription": "Superfoods Partners is an international supplier of single-origin superfood powders, operating from Hong Kong, Amsterdam and Salt Lake City. Pure Matcha Partners is our specialist matcha brand.",
+    "metaDescription": "Superfoods Partners is an international supplier of single-origin superfood powders, operating from Hong Kong, Amsterdam and Los Angeles. Pure Matcha Partners is our specialist matcha brand.",
     "eyebrow": "Company",
     "eyebrowSub": "Who we are",
     "heroHeading": "The source is the story.",
-    "heroBody1": "Superfoods Partners is the umbrella for our group — one shared portfolio of single-origin superfood powders, with local operating entities in Hong Kong, the Netherlands and the United States. We buy direct from the farms and move large, verified volumes to manufacturers, brands and private label.",
+    "heroBody1": "Superfoods Partners is the umbrella for our group — one shared portfolio of single-origin superfood powders, with local operating entities in Hong Kong, the Netherlands and the United States. We buy direct from the farms and move large, verified volumes to manufacturers, brands and private label. Your partner at every stage, from source to scale.",
     "heroBody2": "We don't aspire to be the largest supplier. We aspire to be the one you never have to worry about.",
     "heroCaption": "A GROWER IN THE GARDENS AT HARVEST",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
@@ -436,7 +437,7 @@
     "heroCaption": "ORIGIN — TEA COUNTRY AT SEASON",
     "mapEyebrow": "Global trade map",
     "mapHeading": "Where we source — and where we sell.",
-    "mapBody": "Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve; lime marks our three locations — Hong Kong, Amsterdam and Salt Lake City.",
+    "mapBody": "Drag to spin the globe, scroll to zoom, and hover any point. Green marks where we source; amber marks the markets we serve; lime marks our three locations — Hong Kong, Amsterdam and Los Angeles.",
     "legendSourcing": "Sourcing · {count} origins",
     "legendMarkets": "Markets · US · EU (via Pure Matcha Partners) · Middle East",
     "legendHub": "Our locations",
