@@ -30,6 +30,14 @@ export async function generateMetadata({
   };
 }
 
+const PROMISE_COLORS = [
+  { border: "border-green", text: "text-green" },
+  { border: "border-hojicha", text: "text-hojicha" },
+  { border: "border-hibiscus", text: "text-hibiscus" },
+  { border: "border-ube", text: "text-ube" },
+  { border: "border-lionsmane", text: "text-lionsmane" },
+];
+
 function Marker({ n, label, color = "text-stone/60" }: { n: string; label: string; color?: string }) {
   return (
     <div className="mb-4 flex items-center gap-3">
@@ -45,7 +53,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   setRequestLocale(locale);
   const t = await getTranslations("home");
   const tc = await getTranslations("core");
+  const tp = await getTranslations("promises");
 
+  const promiseItems = tp.raw("items") as { t: string; d: string }[];
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const peopleStrip = t.raw("peopleStrip") as { src: string; alt: string; cap: string }[];
   const reviews = t.raw("reviews") as { q: string; name: string; role: string }[];
@@ -112,6 +122,27 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <ClientLogos clients={CLIENTS} label={t("clientsLabel")} />
           </section>
         )}
+
+        {/* CUSTOMER PROMISES — your partner at every stage */}
+        <section className="mx-auto max-w-6xl px-6 py-20 md:py-24">
+          <Reveal className="mb-10 max-w-2xl">
+            <p className="mono text-[11px] uppercase tracking-widest text-amber">{tp("marker")}</p>
+            <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">{tp("heading")}</h2>
+          </Reveal>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {promiseItems.map((p, i) => (
+              <Reveal key={p.t} delay={i * 0.07}>
+                <div className={`flex h-full flex-col rounded-xl border-t-4 ${PROMISE_COLORS[i].border} bg-sand/60 p-6`}>
+                  <span className={`display text-3xl leading-none ${PROMISE_COLORS[i].text}`}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-6 text-lg font-bold leading-snug text-green">{p.t}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-stone">{p.d}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
 
         {/* AUDIENCES — three rooms, one house */}
         <section className="bg-forest text-oat">

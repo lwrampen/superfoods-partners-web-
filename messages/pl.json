@@ -201,6 +201,32 @@
       }
     ]
   },
+  "promises": {
+    "marker": "Nasze obietnice",
+    "heading": "Superfoods Partners – Twój partner na każdym etapie.",
+    "items": [
+      {
+        "t": "Czyste źródło",
+        "d": "Bezpośredni dostęp do zaufanych farm i wielu źródeł."
+      },
+      {
+        "t": "Produkcja oparta na nauce",
+        "d": "Przetwarzanie i blendowanie, które kontrolują naturalną zmienność."
+      },
+      {
+        "t": "Zastosowania i B+R",
+        "d": "Tworzone z myślą o smaku, funkcjonalności i realnych zastosowaniach."
+      },
+      {
+        "t": "Wiedza rynkowa",
+        "d": "Doświadczenie produktowe na ponad 35 rynkach na świecie."
+      },
+      {
+        "t": "Skalowalny łańcuch dostaw",
+        "d": "Jakość klasy enterprise, identyfikowalność i globalne dostawy."
+      }
+    ]
+  },
   "insights": {
     "eyebrow": "Analizy",
     "heading": "Analizy i przewodniki zakupowe",

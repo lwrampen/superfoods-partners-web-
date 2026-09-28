@@ -201,6 +201,32 @@
       }
     ]
   },
+  "promises": {
+    "marker": "Customer promises",
+    "heading": "Superfoods Partners, your partner at every stage.",
+    "items": [
+      {
+        "t": "Pure Source",
+        "d": "Direct access to trusted farms and multiple origins."
+      },
+      {
+        "t": "Science-led Production",
+        "d": "Processing and blending that controls natural variation."
+      },
+      {
+        "t": "Application & R&D",
+        "d": "Built for flavour, functionality and real-world applications."
+      },
+      {
+        "t": "Market Intelligence",
+        "d": "Product experience across 35+ global markets."
+      },
+      {
+        "t": "Supply chain, built to scale",
+        "d": "Enterprise-ready quality, traceability and global supply."
+      }
+    ]
+  },
   "insights": {
     "eyebrow": "Insights",
     "heading": "Insights & buyer's guides",
