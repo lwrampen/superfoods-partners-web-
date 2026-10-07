@@ -31,9 +31,23 @@ export const TEAM: TeamMember[] = [
   { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
   { name: "Candy", role: "Partnerships", photo: "/team/candy.jpg", location: "Hong Kong" },
   { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
-  // TODO (Leonard to supply): remaining team + Amsterdam / Los Angeles people,
-  // with better portraits. e.g.
-  // { name: "…", role: "…", photo: "/team/….jpg", location: "Amsterdam" },
+  { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.jpg", location: "Netherlands" },
+  { name: "Leonard", role: "Digital strategy & operations", photo: "/team/leonard.jpg", location: "Netherlands" },
+  { name: "Max", role: "Sales & supply chain", photo: "/team/max.jpg", location: "Netherlands" },
+  { name: "Iris", role: "Sales", photo: "/team/iris.jpg", location: "Netherlands" },
+  { name: "Marieke", role: "Sales", photo: "/team/marieke.jpg", location: "Netherlands" },
+  { name: "Bo Gyi", role: "Sales", photo: "/team/bo-gyi.jpg", location: "Europe" },
+  { name: "Nancy", role: "Sales", photo: "/team/nancy.jpg", location: "Europe" },
+  { name: "Gino", role: "Sales", photo: "/team/gino.jpg", location: "Eastern Europe" },
+  { name: "Judith", role: "Sales", photo: "/team/judith.jpg", location: "Barcelona" },
+  { name: "Oisin", role: "Sales", photo: "/team/oisin.jpg", location: "United States" },
+  // Jasmijn (Asa Matcha) is held pending confirmation whether she belongs on
+  // the SFP team page. Sales-team roles are placeholders ("Sales") pending
+  // real titles.
+  //
+  // All portraits share one treatment: cut out and placed on brand sand, with
+  // face size and eye-line normalised, so the roster reads as one set. The
+  // section groups by `location`; LOCATION_ORDER in TeamSection sets the order.
 ];
 
 // Certifications — official marks supplied by SFP.
