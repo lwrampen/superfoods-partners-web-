@@ -62,15 +62,15 @@ export function TeamSection({ members }: { members: TeamMember[] }) {
             <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4">
               {g.members.map((m, i) => (
                 <Reveal key={`${m.name}-${i}`} delay={(i % 4) * 0.05}>
-                  <figure>
-                    <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-sand">
+                  <figure className="flex flex-col items-center text-center">
+                    <div className="relative aspect-square w-full max-w-[190px] overflow-hidden rounded-full bg-sand ring-1 ring-stone/10">
                       {m.photo ? (
-                        <Image src={m.photo} alt={m.name} fill className="object-cover" sizes="(min-width: 1024px) 22vw, 45vw" />
+                        <Image src={m.photo} alt={m.name} fill className="object-cover" sizes="(min-width: 1024px) 190px, 40vw" />
                       ) : (
                         <Silhouette />
                       )}
                     </div>
-                    <figcaption className="mt-3">
+                    <figcaption className="mt-4">
                       <p className="display text-lg leading-tight text-green">{m.name}</p>
                       <p className="mono mt-1 text-[11px] uppercase tracking-wide text-stone/55">{tx(m.role)}</p>
                     </figcaption>
