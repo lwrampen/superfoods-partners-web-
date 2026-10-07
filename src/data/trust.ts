@@ -34,12 +34,16 @@ export const TEAM: TeamMember[] = [
   { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.jpg", location: "Netherlands" },
   { name: "Leonard", role: "Digital strategy & operations", photo: "/team/leonard.jpg", location: "Netherlands" },
   { name: "Max", role: "Sales & supply chain", photo: "/team/max.jpg", location: "Netherlands" },
+  { name: "Iris", role: "Sales", photo: "/team/iris.jpg", location: "Netherlands" },
+  { name: "Marieke", role: "Sales", photo: "/team/marieke.jpg", location: "Netherlands" },
   { name: "Bo Gyi", role: "Sales", photo: "/team/bo-gyi.jpg", location: "Europe" },
+  { name: "Nancy", role: "Sales", photo: "/team/nancy.jpg", location: "Europe" },
   { name: "Gino", role: "Sales", photo: "/team/gino.jpg", location: "Eastern Europe" },
+  { name: "Judith", role: "Sales", photo: "/team/judith.jpg", location: "Barcelona" },
   { name: "Oisin", role: "Sales", photo: "/team/oisin.jpg", location: "United States" },
-  // Still to add once photos arrive: Judith (Barcelona), Iris (Netherlands),
-  // Marieke (Netherlands), Nancy (Europe), and Jasmijn (Asa Matcha — TBC).
-  // Roles for the sales team are placeholders ("Sales") pending real titles.
+  // Jasmijn (Asa Matcha) is held pending confirmation whether she belongs on
+  // the SFP team page. Sales-team roles are placeholders ("Sales") pending
+  // real titles.
   //
   // All portraits share one treatment: cut out and placed on brand sand, with
   // face size and eye-line normalised, so the roster reads as one set. The
