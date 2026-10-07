@@ -31,9 +31,12 @@ export const TEAM: TeamMember[] = [
   { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
   { name: "Candy", role: "Partnerships", photo: "/team/candy.jpg", location: "Hong Kong" },
   { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
-  // TODO (Leonard to supply): remaining team + Amsterdam / Los Angeles people,
-  // with better portraits. e.g.
-  // { name: "…", role: "…", photo: "/team/….jpg", location: "Amsterdam" },
+  { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.jpg", location: "Amsterdam" },
+  { name: "Leonard", role: "Digital strategy & operations", photo: "/team/leonard.jpg", location: "Amsterdam" },
+  { name: "Max", role: "Sales & supply chain", photo: "/team/max.jpg", location: "Amsterdam" },
+  // All portraits share one treatment: cut out and placed on brand sand, with
+  // face size and eye-line normalised, so the roster reads as one set. To add
+  // more people, run a headshot through the same pipeline and add an entry here.
 ];
 
 // Certifications — official marks supplied by SFP.
