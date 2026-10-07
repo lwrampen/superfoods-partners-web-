@@ -9,7 +9,7 @@ import { Certifications } from "@/components/Certifications";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor } from "@/i18n/paths";
 import { TEAM, CERTIFICATIONS, PARTNERS } from "@/data/trust";
-import { ENTITIES } from "@/data/entities";
+import { ENTITIES, HUBS } from "@/data/entities";
 
 export async function generateMetadata({
   params,
@@ -211,6 +211,32 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 </Reveal>
               ))}
             </div>
+
+            <Reveal className="mt-10">
+              <div className="mb-4 flex items-center gap-3">
+                <span className="h-2 w-2 rounded-full bg-amber" />
+                <span className="mono text-[11px] uppercase tracking-widest text-stone/60">
+                  {t("hubsLabel")}
+                </span>
+                <span className="mono text-[11px] text-stone/35">{HUBS.length}</span>
+              </div>
+              <div className="grid gap-4 sm:grid-cols-3">
+                {HUBS.map((h) => (
+                  <div
+                    key={h.code}
+                    className="h-full rounded-xl border border-dashed border-stone/25 bg-sand/40 p-6"
+                  >
+                    <div className="flex items-baseline justify-between gap-3">
+                      <p className="display text-lg text-green">{h.city}</p>
+                      <span className="mono text-[11px] text-stone/45">{t("hubTag")}</span>
+                    </div>
+                    <p className="mono mt-4 text-[12px] not-italic leading-relaxed text-stone/60">
+                      {h.country}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </Reveal>
           </div>
         </section>
 

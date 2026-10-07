@@ -52,3 +52,12 @@ export const ENTITIES: Entity[] = [
     tz: "America/Los_Angeles",
   },
 ];
+
+// Support hubs — real locations, but not registered legal entities, so they
+// carry a city/country rather than a registered address. Together with the
+// three entities above they make up the group's five locations.
+export type Hub = { city: string; country: string; code: string };
+export const HUBS: Hub[] = [
+  { city: "Barcelona", country: "Spain", code: "ES" },
+  { city: "Tokyo", country: "Japan", code: "JP" },
+];
