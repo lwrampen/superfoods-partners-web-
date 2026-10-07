@@ -14,7 +14,14 @@ function Silhouette() {
 }
 
 // Group the roster by operating location, in a stable, sensible order.
-const LOCATION_ORDER = ["Hong Kong", "Amsterdam", "Los Angeles"];
+const LOCATION_ORDER = [
+  "Hong Kong",
+  "Netherlands",
+  "Europe",
+  "Eastern Europe",
+  "Barcelona",
+  "United States",
+];
 function groupByLocation(members: TeamMember[]): { location: string; members: TeamMember[] }[] {
   const byLoc = new Map<string, TeamMember[]>();
   for (const m of members) {

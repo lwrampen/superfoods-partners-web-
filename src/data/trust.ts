@@ -31,12 +31,19 @@ export const TEAM: TeamMember[] = [
   { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
   { name: "Candy", role: "Partnerships", photo: "/team/candy.jpg", location: "Hong Kong" },
   { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
-  { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.jpg", location: "Amsterdam" },
-  { name: "Leonard", role: "Digital strategy & operations", photo: "/team/leonard.jpg", location: "Amsterdam" },
-  { name: "Max", role: "Sales & supply chain", photo: "/team/max.jpg", location: "Amsterdam" },
+  { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.jpg", location: "Netherlands" },
+  { name: "Leonard", role: "Digital strategy & operations", photo: "/team/leonard.jpg", location: "Netherlands" },
+  { name: "Max", role: "Sales & supply chain", photo: "/team/max.jpg", location: "Netherlands" },
+  { name: "Bo Gyi", role: "Sales", photo: "/team/bo-gyi.jpg", location: "Europe" },
+  { name: "Gino", role: "Sales", photo: "/team/gino.jpg", location: "Eastern Europe" },
+  { name: "Oisin", role: "Sales", photo: "/team/oisin.jpg", location: "United States" },
+  // Still to add once photos arrive: Judith (Barcelona), Iris (Netherlands),
+  // Marieke (Netherlands), Nancy (Europe), and Jasmijn (Asa Matcha — TBC).
+  // Roles for the sales team are placeholders ("Sales") pending real titles.
+  //
   // All portraits share one treatment: cut out and placed on brand sand, with
-  // face size and eye-line normalised, so the roster reads as one set. To add
-  // more people, run a headshot through the same pipeline and add an entry here.
+  // face size and eye-line normalised, so the roster reads as one set. The
+  // section groups by `location`; LOCATION_ORDER in TeamSection sets the order.
 ];
 
 // Certifications — official marks supplied by SFP.
