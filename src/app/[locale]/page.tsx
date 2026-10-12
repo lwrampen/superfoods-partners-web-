@@ -44,19 +44,16 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("home");
-  const tc = await getTranslations("core");
   const tp = await getTranslations("promises");
 
   const promiseItems = tp.raw("items") as { t: string; d: string }[];
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
   const peopleStrip = t.raw("peopleStrip") as { src: string; alt: string; cap: string }[];
   const reviews = t.raw("reviews") as { q: string; name: string; role: string }[];
-  const steps = t.raw("steps") as { t: string; d: string }[];
   const audienceHrefs = ["/products", "/verification", "/contact"];
   const audienceRooms = (
     t.raw("audiences.rooms") as { tag: string; who: string; body: string; cta: string }[]
   ).map((r, i) => ({ ...r, href: audienceHrefs[i] }));
-  const coreItems = tc.raw("items") as { t: string; d: string }[];
   const stats = [
     { value: ORIGIN_LIST.length, suffix: "", l: t("statOrigins") },
     { value: new Set(ORIGIN_LIST.map((o) => o.country)).size, suffix: "", l: t("statCountries") },
@@ -117,7 +114,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
         {/* AUDIENCES — three rooms, one house */}
         <section className="bg-forest text-oat">
-          <div className="mx-auto max-w-6xl px-6 py-24">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <Reveal className="mb-12 max-w-xl">
               <p className="mono text-[11px] uppercase tracking-widest text-amber">{t("audiences.eyebrow")}</p>
               <h2 className="display mt-4 text-4xl leading-tight md:text-5xl">{t("audiences.heading")}</h2>
@@ -145,7 +142,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </section>
 
         {/* CATALOGUE */}
-        <section className="mx-auto max-w-6xl px-6 py-24">
+        <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
           <Reveal className="mb-8">
             <Marker n="(01)" label={t("catMarker")} />
             <div className="flex items-end justify-between">
@@ -155,7 +152,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </Link>
             </div>
           </Reveal>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {PRODUCTS.map((p, i) => {
               const o = ORIGINS[p.originSlugs[0]];
               const label = p.grades ? p.grades.join(" · ") : p.category;
@@ -163,23 +160,27 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <Reveal key={p.slug} delay={i * 0.06}>
                   <Link
                     href={`/products/${p.slug}`}
-                    className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-6 transition-transform duration-300 hover:-translate-y-1.5"
+                    className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-5 transition-transform duration-300 hover:-translate-y-1.5 sm:p-6"
                     style={{ backgroundColor: p.accent }}
                   >
                     {p.img && (
-                      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${p.img})` }} />
+                      <Image
+                        src={p.img}
+                        alt={p.name}
+                        fill
+                        sizes="(min-width: 1024px) 22vw, 45vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                      />
                     )}
-                    <div
-                      className="absolute inset-0 transition-opacity duration-700 ease-out group-hover:opacity-0"
-                      style={{ backgroundColor: p.accent }}
-                    />
+                    {/* legibility wash — always on, so the photo shows on touch devices too */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-forest/70 via-forest/10 to-forest/25" />
                     <div className="relative flex items-start justify-between gap-2">
-                      <span className="mono text-[10px] uppercase tracking-wide text-white/70">{label}</span>
+                      <span className="mono text-[10px] uppercase tracking-wide text-white/80">{label}</span>
                       <span
                         className="mono shrink-0 rounded-full border px-2 py-0.5 text-[9px] uppercase leading-none tracking-wide"
                         style={
                           LABELS[p.label].house
-                            ? { borderColor: "rgba(255,255,255,0.28)", color: "rgba(255,255,255,0.75)" }
+                            ? { borderColor: "rgba(255,255,255,0.3)", color: "rgba(255,255,255,0.8)" }
                             : { borderColor: "#8CC541", color: "#8CC541" }
                         }
                       >
@@ -187,8 +188,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                       </span>
                     </div>
                     <span className="relative">
-                      <span className="display block text-3xl leading-tight" style={{ color: p.tint }}>{p.name}</span>
-                      <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/80">
+                      <span className="display block text-2xl leading-tight text-white sm:text-3xl">{p.name}</span>
+                      <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/85">
                         {o.name === o.country ? o.name : `${o.name} · ${o.country}`}
                         <span className="translate-x-0 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">→</span>
                       </span>
@@ -202,7 +203,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
         {/* PEOPLE & PLANET */}
         <section className="bg-oat">
-          <div className="mx-auto grid max-w-6xl items-stretch gap-12 px-6 py-24 md:grid-cols-[1fr_0.8fr]">
+          <div className="mx-auto grid max-w-6xl items-stretch gap-12 px-6 py-16 md:grid-cols-[1fr_0.8fr] md:py-24">
             <Reveal>
               <Marker n="(02)" label={t("peopleMarker")} />
               <h2 className="display max-w-xl text-4xl leading-tight text-green md:text-5xl">{t("peopleHeading")}</h2>
@@ -227,7 +228,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </Reveal>
           </div>
           {/* the farms we return to — show, not just tell */}
-          <div className="mx-auto max-w-6xl px-6 pb-24">
+          <div className="mx-auto max-w-6xl px-6 pb-16 md:pb-24">
             <Reveal className="mb-6">
               <p className="mono text-[11px] uppercase tracking-widest text-amber">{t("peopleStripEyebrow")}</p>
             </Reveal>
@@ -254,51 +255,47 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
 
-        {/* THE NETWORK — locations */}
-        <section id="network" className="bg-sand scroll-mt-20">
-          <div className="mx-auto max-w-6xl px-6 py-20 md:py-24">
-            <Reveal className="mb-10 max-w-xl">
-              <p className="mono text-xs uppercase tracking-widest text-amber">{t("sourceEyebrow")}</p>
-              <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">{t("sourceHeading")}</h2>
-              <p className="mt-4 text-stone">{t("sourceBody")}</p>
+        {/* HOW WE WORK — one journey, source to scale (spine + commercial terms) */}
+        <section id="how" className="bg-sand scroll-mt-20">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+            <Reveal className="mb-14 max-w-xl">
+              <Marker n="(03)" label={tp("marker")} />
+              <h2 className="display text-4xl leading-tight text-green md:text-5xl">{tp("heading")}</h2>
+              <p className="mt-4 text-stone">{tp("intro")}</p>
             </Reveal>
             <Reveal delay={0.1}>
-              <LocationsMap />
-            </Reveal>
-          </div>
-        </section>
-
-        {/* CORE MODEL */}
-        <section className="bg-green text-oat">
-          <div className="mx-auto max-w-6xl px-6 py-24">
-            <Reveal className="mb-14 max-w-xl">
-              <div className="mb-4 flex items-center gap-3">
-                <span className="mono text-[11px] text-amber">(03)</span>
-                <span className="h-px w-8 bg-oat/25" />
-                <span className="mono text-[11px] uppercase tracking-widest text-oat/60">{tc("eyebrow")}</span>
+              <div className="relative">
+                {/* desktop connecting thread, source → scale */}
+                <div className="pointer-events-none absolute inset-x-0 top-[5px] hidden h-px bg-gradient-to-r from-lime via-lime/50 to-lime/15 md:block" />
+                <ol className="grid gap-y-9 md:grid-cols-5 md:gap-x-6">
+                  {promiseItems.map((p, i) => (
+                    <li
+                      key={p.t}
+                      className="relative border-l-2 border-lime/30 pl-5 md:border-l-0 md:pl-0"
+                    >
+                      <span className="mb-5 hidden h-2.5 w-2.5 rounded-full bg-lime md:block" />
+                      <span className="mono text-[11px] text-lime">{String(i + 1).padStart(2, "0")}</span>
+                      <h3 className="display mt-2 text-lg leading-snug text-green">{p.t}</h3>
+                      <p className="mt-2 text-sm leading-relaxed text-stone">{p.d}</p>
+                    </li>
+                  ))}
+                </ol>
               </div>
-              <h2 className="display text-4xl leading-tight md:text-5xl">{tc("heading")}</h2>
-              <p className="mt-5 text-oat/75">{tc("body")}</p>
             </Reveal>
-            <div className="grid gap-x-12 sm:grid-cols-2">
-              {coreItems.map((c, i) => (
-                <Reveal key={c.t} delay={(i % 2) * 0.05}>
-                  <div className={`flex gap-5 border-t border-oat/15 py-5 ${i === coreItems.length - 1 || i === coreItems.length - 2 ? "border-b" : ""}`}>
-                    <span className="mono pt-1 text-[13px] text-amber">{String(i + 1).padStart(2, "0")}</span>
-                    <div>
-                      <h3 className="display text-xl">{c.t}</h3>
-                      <p className="mt-1.5 text-sm leading-relaxed text-oat/70">{c.d}</p>
-                    </div>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
+            {/* commercial terms — the concrete numbers buyers ask for */}
+            <Reveal delay={0.1}>
+              <div className="mono mt-12 flex flex-wrap gap-x-8 gap-y-3 border-t border-stone/15 pt-6 text-[11px] uppercase tracking-wide text-stone/70">
+                <span>{t("termMoq")}</span>
+                <span>{t("termLead")}</span>
+                <span>{t("termIncoterms")}</span>
+              </div>
+            </Reveal>
           </div>
         </section>
 
         {/* TRACE A BATCH */}
         <section id="trace" className="bg-oat">
-          <div className="mx-auto max-w-6xl px-6 py-24">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <Reveal className="mb-12 max-w-xl">
               <Marker n="(04)" label={t("traceMarker")} />
               <h2 className="display text-4xl leading-tight text-green md:text-5xl">{t("traceHeading")}</h2>
@@ -310,79 +307,44 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
 
-        {/* HOW SOURCING WORKS */}
-        <section className="bg-sand">
-          <div className="mx-auto max-w-6xl px-6 py-24">
-            <Reveal className="mb-12 max-w-xl">
-              <Marker n="(05)" label={t("stepsMarker")} />
-              <h2 className="display text-4xl leading-tight text-green">{t("stepsHeading")}</h2>
-              <p className="mt-4 text-stone">{t("stepsBody")}</p>
+        {/* WHERE WE OPERATE — the network, the scale, the people (merged) */}
+        <section id="network" className="bg-sand scroll-mt-20">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+            <Reveal className="mb-10 max-w-2xl">
+              <p className="mono text-xs uppercase tracking-widest text-amber">{t("sourceEyebrow")}</p>
+              <h2 className="display mt-4 text-4xl leading-tight text-green md:text-5xl">{t("sourceHeading")}</h2>
+              <p className="mono mt-4 text-sm tracking-wide text-stone/70">{t("hkCoords")}</p>
+              <p className="mt-4 text-stone">{t("hkBody1")}</p>
             </Reveal>
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-              {steps.map((s, i) => (
-                <Reveal key={s.t} delay={i * 0.08}>
-                  <div className="border-t border-stone/20 pt-5">
-                    <p className="mono text-xs text-amber">{String(i + 1).padStart(2, "0")}</p>
-                    <h3 className="display mt-3 text-lg text-green">{s.t}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-stone">{s.d}</p>
-                  </div>
+            <Reveal delay={0.1}>
+              <LocationsMap />
+            </Reveal>
+            {/* scale, in numbers */}
+            <div className="mt-14 grid grid-cols-2 gap-8 border-t border-stone/15 pt-10 lg:grid-cols-4">
+              {stats.map((s, i) => (
+                <Reveal key={s.l} delay={i * 0.08}>
+                  <p className={`display text-5xl md:text-6xl ${s.amber ? "text-amber" : "text-green"}`}>
+                    <CountUp value={s.value} suffix={s.suffix} />
+                  </p>
+                  <p className="mono mt-3 text-[11px] uppercase tracking-wide text-stone/60">{s.l}</p>
                 </Reveal>
               ))}
             </div>
-            <Reveal delay={0.1}>
-              <div className="mono mt-12 flex flex-wrap gap-x-8 gap-y-3 border-t border-stone/15 pt-6 text-[11px] uppercase tracking-wide text-stone/70">
-                <span>{t("termMoq")}</span>
-                <span>{t("termLead")}</span>
-                <span>{t("termIncoterms")}</span>
-              </div>
-            </Reveal>
-          </div>
-        </section>
-
-        {/* STAT BAND */}
-        <section className="bg-forest text-oat">
-          <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-6 pt-20 pb-12 lg:grid-cols-4">
-            {stats.map((s, i) => (
-              <Reveal key={s.l} delay={i * 0.08}>
-                <p className={`display text-6xl ${s.amber ? "text-amber" : "text-oat"}`}>
-                  <CountUp value={s.value} suffix={s.suffix} />
-                </p>
-                <p className="mono mt-3 text-[11px] uppercase tracking-wide text-oat/60">{s.l}</p>
-              </Reveal>
-            ))}
-          </div>
-        </section>
-
-        {/* HOW WE OPERATE — three locations, the people behind them */}
-        <section className="bg-forest text-oat">
-          <div className="mx-auto grid max-w-6xl gap-12 px-6 pb-24 md:grid-cols-[1.05fr_0.95fr] md:items-center">
-            <Reveal>
-              <p className="mono text-[11px] uppercase tracking-widest text-amber">{t("hkEyebrow")}</p>
-              <p className="mono mt-3 text-sm text-oat/55">{t("hkCoords")}</p>
-              <h2 className="display mt-6 text-4xl leading-tight text-oat md:text-5xl">{t("hkHeading")}</h2>
-              <p className="mt-6 max-w-xl leading-relaxed text-oat/75">{t("hkBody1")}</p>
-              <p className="mt-4 max-w-xl leading-relaxed text-oat/75">{t("hkBody2")}</p>
+            {/* the people behind it */}
+            <Reveal delay={0.1} className="mt-14 border-t border-stone/15 pt-10">
+              <p className="max-w-xl leading-relaxed text-stone">{t("hkBody2")}</p>
               <div className="mt-7">
-                <ExpertsCluster members={TEAM} tone="dark" label={t("hkExpertsLabel")} />
+                <ExpertsCluster members={TEAM} tone="light" label={t("hkExpertsLabel")} />
               </div>
-            </Reveal>
-            <Reveal delay={0.12} y={28}>
-              <OriginPhoto
-                src="/photos/harvest-transport.jpg"
-                alt="Loaded harvest moving from the gardens"
-                caption={t("hkCaption")}
-                className="aspect-[4/5] w-full"
-                sizes="(min-width: 768px) 45vw, 100vw"
-              />
             </Reveal>
           </div>
         </section>
 
         {/* SOCIAL PROOF */}
-        <section className="bg-sand">
-          <div className="mx-auto max-w-6xl px-6 py-24">
+        <section className="bg-oat">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <Reveal className="max-w-xl">
-              <Marker n="(06)" label={t("socialMarker")} />
+              <Marker n="(05)" label={t("socialMarker")} />
               <h2 className="display text-4xl leading-tight text-green">{t("socialHeading")}</h2>
               <p className="mt-4 text-stone">{t("socialBody")}</p>
             </Reveal>
@@ -406,39 +368,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         {/* CERTIFICATIONS */}
         <Certifications certs={CERTIFICATIONS} partners={PARTNERS} />
 
-        {/* SOURCE TO SCALE — the partner-at-every-stage spine */}
-        <section className="bg-sand">
-          <div className="mx-auto max-w-6xl px-6 py-24">
-            <Reveal className="mb-14 max-w-xl">
-              <Marker n="(07)" label={tp("marker")} />
-              <h2 className="display text-4xl leading-tight text-green md:text-5xl">{tp("heading")}</h2>
-              <p className="mt-4 text-stone">{tp("intro")}</p>
-            </Reveal>
-            <Reveal delay={0.1}>
-              <div className="relative">
-                {/* desktop connecting thread, source → scale */}
-                <div className="pointer-events-none absolute inset-x-0 top-[5px] hidden h-px bg-gradient-to-r from-lime via-lime/50 to-lime/15 md:block" />
-                <ol className="grid gap-y-9 md:grid-cols-5 md:gap-x-6">
-                  {promiseItems.map((p, i) => (
-                    <li
-                      key={p.t}
-                      className="relative border-l-2 border-lime/30 pl-5 md:border-l-0 md:pl-0"
-                    >
-                      <span className="mb-5 hidden h-2.5 w-2.5 rounded-full bg-lime md:block" />
-                      <span className="mono text-[11px] text-lime">{String(i + 1).padStart(2, "0")}</span>
-                      <h3 className="display mt-2 text-lg leading-snug text-green">{p.t}</h3>
-                      <p className="mt-2 text-sm leading-relaxed text-stone">{p.d}</p>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            </Reveal>
-          </div>
-        </section>
-
         {/* CTA */}
         <section className="bg-sand">
-          <div className="mx-auto max-w-6xl px-6 py-24">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <Reveal>
               <div className="relative overflow-hidden rounded-3xl bg-forest px-8 py-14 text-oat md:px-14 md:py-16">
                 <div className="absolute inset-x-0 top-0 flex h-1.5">
