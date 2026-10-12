@@ -360,7 +360,7 @@
     "aria": "Where Superfoods Partners sources, flowing to our nearest location"
   },
   "pdp": {
-    "metaTitle": "Bulk {name} Powder — {place} | Wholesale Supplier",
+    "metaTitle": "{name} Wholesale — Bulk {name} Supplier",
     "metaDescription": "Wholesale {name} powder sourced at origin in {place}. Lab-tested every batch with COA and Verification Record. MOQ from 25 kg to full container — request a quote.",
     "bulkSupplier": "Bulk {name} supplier",
     "requestQuote": "Request a quote",

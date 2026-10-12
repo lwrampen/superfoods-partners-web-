@@ -360,7 +360,7 @@
     "aria": "Skąd Superfoods Partners pozyskuje surowce, spływające do naszej najbliższej lokalizacji"
   },
   "pdp": {
-    "metaTitle": "{name} w proszku, hurt — {place} | Dostawca hurtowy",
+    "metaTitle": "{name} hurt — dostawca {name} luzem",
     "metaDescription": "{name} w proszku hurtowo, prosto ze źródła w {place}. Każda partia badana laboratoryjnie z COA i Verification Record. MOQ od 25 kg do pełnego kontenera — poproś o wycenę.",
     "bulkSupplier": "Dostawca hurtowy: {name}",
     "requestQuote": "Poproś o wycenę",
