@@ -13,7 +13,7 @@ import { ClientLogos } from "@/components/ClientLogos";
 import { ExpertsCluster } from "@/components/ExpertsCluster";
 import { Link } from "@/i18n/navigation";
 import { alternatesFor } from "@/i18n/paths";
-import { PRODUCTS, ORIGINS, ORIGIN_LIST, LABELS } from "@/data/catalog";
+import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
 import { TEAM, CERTIFICATIONS, PARTNERS, CLIENTS } from "@/data/trust";
 
 export async function generateMetadata({
@@ -154,13 +154,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </Reveal>
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {PRODUCTS.map((p, i) => {
-              const o = ORIGINS[p.originSlugs[0]];
-              const label = p.grades ? p.grades.join(" · ") : p.category;
               return (
                 <Reveal key={p.slug} delay={i * 0.06}>
                   <Link
                     href={`/products/${p.slug}`}
-                    className="group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl p-5 transition-transform duration-300 hover:-translate-y-1.5 sm:p-6"
+                    className="group relative flex aspect-[4/5] flex-col justify-end overflow-hidden rounded-xl p-5 transition-transform duration-300 hover:-translate-y-1.5 sm:p-6"
                     style={{ backgroundColor: p.accent }}
                   >
                     {p.img && (
@@ -169,30 +167,20 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                         alt={p.name}
                         fill
                         sizes="(min-width: 1024px) 22vw, 45vw"
-                        className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                        className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                       />
                     )}
-                    {/* legibility wash — always on, so the photo shows on touch devices too */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-forest/70 via-forest/10 to-forest/25" />
-                    <div className="relative flex items-start justify-between gap-2">
-                      <span className="mono text-[10px] uppercase tracking-wide text-white/80">{label}</span>
-                      <span
-                        className="mono shrink-0 rounded-full border px-2 py-0.5 text-[9px] uppercase leading-none tracking-wide"
-                        style={
-                          LABELS[p.label].house
-                            ? { borderColor: "rgba(255,255,255,0.3)", color: "rgba(255,255,255,0.8)" }
-                            : { borderColor: "#8CC541", color: "#8CC541" }
-                        }
-                      >
-                        {LABELS[p.label].name}
-                      </span>
-                    </div>
-                    <span className="relative">
-                      <span className="display block text-2xl leading-tight text-white sm:text-3xl">{p.name}</span>
-                      <span className="mono mt-2 flex items-center gap-1 text-[10px] uppercase text-white/85">
-                        {o.name === o.country ? o.name : `${o.name} · ${o.country}`}
-                        <span className="translate-x-0 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">→</span>
-                      </span>
+                    {/* Flat brand colour by default; on hover (desktop) it fades to
+                        reveal the powder. On touch devices — no hover — it stays off,
+                        so the photo shows straight away. */}
+                    <div
+                      className="absolute inset-0 opacity-0 transition-opacity duration-500 ease-out [@media(hover:hover)]:opacity-100 group-hover:opacity-0"
+                      style={{ backgroundColor: p.accent }}
+                    />
+                    {/* scrim so the name stays legible on light powders (e.g. lion's mane) */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                    <span className="relative display text-2xl leading-tight sm:text-3xl" style={{ color: p.tint }}>
+                      {p.name}
                     </span>
                   </Link>
                 </Reveal>
