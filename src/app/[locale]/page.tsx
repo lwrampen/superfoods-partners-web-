@@ -80,9 +80,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <Link href="/contact" className="rounded-lg bg-green px-5 py-3 text-sm font-medium text-oat transition-opacity hover:opacity-90">
                 {t("ctaQuote")}
               </Link>
-              <a href="#trace" className="rounded-lg border border-green/25 px-5 py-3 text-sm font-medium text-green transition-colors hover:bg-green/5">
+              <Link href="/products" className="rounded-lg border border-green/25 px-5 py-3 text-sm font-medium text-green transition-colors hover:bg-green/5">
                 {t("ctaTrace")}
-              </a>
+              </Link>
             </div>
             <ul className="mt-9 flex flex-col gap-2.5 border-t border-stone/15 pt-6">
               {(t.raw("pillars") as string[]).map((pillar, i) => (
