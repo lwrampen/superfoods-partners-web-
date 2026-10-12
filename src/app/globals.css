@@ -27,6 +27,11 @@
   --font-display: var(--font-anton);
   --font-serif: var(--font-anton); /* back-compat: .display gebruikte --font-serif */
   --font-mono: var(--font-plex-mono);
+
+  /* Motion — one brand curve for every micro-interaction (matches Reveal).
+     transition utilities with no explicit duration or ease inherit these. */
+  --default-transition-duration: 220ms;
+  --default-transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 body {
