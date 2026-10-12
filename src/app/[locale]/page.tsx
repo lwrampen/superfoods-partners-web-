@@ -7,6 +7,7 @@ import { CountUp } from "@/components/CountUp";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { OriginPhoto } from "@/components/OriginPhoto";
+import { HeroStack } from "@/components/HeroStack";
 import { LocationsMap } from "@/components/LocationsMap";
 import { Certifications } from "@/components/Certifications";
 import { ClientLogos } from "@/components/ClientLogos";
@@ -29,6 +30,14 @@ export async function generateMetadata({
     alternates: alternatesFor(locale, "/"),
   };
 }
+
+const HERO_PHOTOS = [
+  { src: "/photos/hero-shade-nets.jpg", alt: "A grower among the shade-grown tea gardens at harvest" },
+  { src: "/photos/terraces.jpg", alt: "Tea terraces under a working sky at season" },
+  { src: "/photos/grower-picker.jpg", alt: "A picker working the rows at harvest" },
+  { src: "/photos/gardens-wide.jpg", alt: "A wide view across the tea gardens" },
+  { src: "/photos/harvest-transport.jpg", alt: "Loaded harvest moving from the gardens" },
+];
 
 function Marker({ n, label, color = "text-stone/60" }: { n: string; label: string; color?: string }) {
   return (
@@ -94,14 +103,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </ul>
           </Reveal>
           <Reveal delay={0.15} y={28}>
-            <OriginPhoto
-              src="/photos/hero-shade-nets.jpg"
-              alt="A grower among the shade-grown tea gardens at harvest"
-              caption={t("heroCaption")}
-              priority
-              sizes="(min-width: 768px) 45vw, 100vw"
-              className="aspect-[4/5] w-full shadow-[0_30px_80px_-40px_rgba(20,39,27,0.55)]"
-            />
+            <HeroStack photos={HERO_PHOTOS} className="w-full" />
           </Reveal>
         </section>
 
