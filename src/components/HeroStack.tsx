@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export type StackPhoto = { src: string; alt: string };
 
@@ -16,20 +16,33 @@ export function HeroStack({
   caption,
   className = "",
   sizes = "(min-width: 768px) 45vw, 100vw",
+  autoplayMs = 5000,
 }: {
   photos: StackPhoto[];
   caption?: string;
   className?: string;
   sizes?: string;
+  /** Auto-advance interval in ms. 0 disables it. Ignored under reduced motion. */
+  autoplayMs?: number;
 }) {
   const reduce = useReducedMotion();
   // `index` grows without bound; the actual photo is index mod length.
   const [[index, dir], setState] = useState<[number, number]>([0, 1]);
+  const [paused, setPaused] = useState(false);
   const n = photos.length;
   const at = (i: number) => photos[((i % n) + n) % n];
   const active = ((index % n) + n) % n;
 
   const go = (d: number) => setState([index + d, d]);
+
+  // Auto-advance. The effect re-runs on each `index` change, so every manual
+  // step also restarts the clock. Paused while the viewer is on the stack
+  // (hover/drag) and disabled under reduced motion.
+  useEffect(() => {
+    if (reduce || paused || !autoplayMs || n < 2) return;
+    const id = setTimeout(() => setState([index + 1, 1]), autoplayMs);
+    return () => clearTimeout(id);
+  }, [index, paused, reduce, autoplayMs, n]);
 
   const SWIPE = 55;
 
@@ -49,7 +62,13 @@ export function HeroStack({
   };
 
   return (
-    <div className={className}>
+    <div
+      className={className}
+      onPointerEnter={() => setPaused(true)}
+      onPointerLeave={() => setPaused(false)}
+      onFocusCapture={() => setPaused(true)}
+      onBlurCapture={() => setPaused(false)}
+    >
       <div className="relative aspect-[4/5] w-full select-none">
         {/* deck — static cards peeking out behind the top photo */}
         <div
