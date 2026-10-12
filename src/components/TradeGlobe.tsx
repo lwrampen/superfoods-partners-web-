@@ -114,8 +114,33 @@ export function TradeGlobe() {
   const [selected, setSelected] = useState<string | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
   const [pointerOver, setPointerOver] = useState(false);
+  const [inView, setInView] = useState(false);
+
+  // Only pull in three.js / react-globe.gl (a heavy bundle) and the country
+  // geometry once the map actually scrolls near the viewport — keeps it off the
+  // initial /origins load, which matters most on mobile.
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el) return;
+    if (typeof IntersectionObserver === "undefined") {
+      setInView(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setInView(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "300px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   useEffect(() => {
+    if (!inView) return;
     let alive = true;
     import("react-globe.gl").then((mod) => {
       if (alive) setGlobeComp(() => mod.default);
@@ -123,9 +148,10 @@ export function TradeGlobe() {
     return () => {
       alive = false;
     };
-  }, []);
+  }, [inView]);
 
   useEffect(() => {
+    if (!inView) return;
     fetch("/geo/countries-110m.json")
       .then((r) => r.json())
       .then((topo) => {
@@ -133,7 +159,7 @@ export function TradeGlobe() {
         setFeatures(fc.features);
       })
       .catch(() => {});
-  }, []);
+  }, [inView]);
 
   useEffect(() => {
     if (!wrapRef.current) return;
@@ -278,8 +304,16 @@ export function TradeGlobe() {
         }}
       >
         {!ready && (
-          <div className="flex items-center justify-center" style={{ height: size.h || 460 }}>
-            <span className="mono text-[11px] uppercase tracking-widest text-stone/50">Loading trade map…</span>
+          <div className="flex flex-col items-center justify-center gap-4 px-6 text-center" style={{ height: size.h || 460 }}>
+            <span aria-hidden className="relative block h-14 w-14">
+              <span className="absolute inset-0 rounded-full border border-stone/20" />
+              <span className="absolute inset-0 rounded-full border-t-2 border-amber/70 motion-safe:animate-spin [animation-duration:2.6s]" />
+              <span className="absolute inset-[22%] rounded-full bg-green/70" />
+            </span>
+            <span className="mono text-[11px] uppercase tracking-widest text-stone/55">
+              {inView ? "Loading sourcing map…" : "Our sourcing & markets, mapped"}
+            </span>
+            <span className="mono text-[10px] uppercase tracking-wide text-stone/40">Drag to rotate · tap a point</span>
           </div>
         )}
         {ready && (
