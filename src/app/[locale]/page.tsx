@@ -77,10 +77,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </h1>
             <p className="mt-7 max-w-lg text-lg leading-relaxed text-stone">{t("heroIntro")}</p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Link href="/contact" className="rounded-lg bg-green px-5 py-3 text-sm font-medium text-oat transition-opacity hover:opacity-90">
+              <Link href="/contact" className="rounded-lg bg-green px-6 py-3.5 text-sm font-medium text-oat transition-opacity hover:opacity-90">
                 {t("ctaQuote")}
               </Link>
-              <Link href="/products" className="rounded-lg border border-green/25 px-5 py-3 text-sm font-medium text-green transition-colors hover:bg-green/5">
+              <Link href="/products" className="rounded-lg border border-green/25 px-6 py-3.5 text-sm font-medium text-green transition-colors hover:bg-green/5">
                 {t("ctaTrace")}
               </Link>
             </div>
