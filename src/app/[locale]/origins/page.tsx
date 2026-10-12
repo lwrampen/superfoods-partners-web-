@@ -40,7 +40,7 @@ export default async function OriginsPage({ params }: { params: Promise<{ locale
     { v: String(ORIGIN_COUNT), l: t("statOrigins") },
     { v: String(COUNTRY_COUNT), l: t("statCountries") },
     { v: "100%", l: t("statBatch") },
-    { v: "3", l: t("statHub"), amber: true },
+    { v: "5", l: t("statHub"), amber: true },
   ];
 
   return (
@@ -74,10 +74,52 @@ export default async function OriginsPage({ params }: { params: Promise<{ locale
           </Reveal>
         </section>
 
+        {/* Origins first — the substance a buyer came for */}
+        <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+          <Reveal className="mb-8">
+            <div className="mb-4 flex items-center gap-3">
+              <span className="mono text-[11px] text-amber">(02)</span>
+              <span className="h-px w-8 bg-stone/30" />
+              <span className="mono text-[11px] uppercase tracking-widest text-stone/60">{t("eyebrow")}</span>
+            </div>
+            <h2 className="display text-3xl text-green md:text-4xl">{t("featuredHeading")}</h2>
+          </Reveal>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {ORIGIN_LIST.map((raw, i) => {
+              const o = localizeOrigin(raw, locale);
+              const products = productsForOrigin(raw.slug);
+              const accent = products[0]?.accent ?? "#1E3D2A";
+              return (
+                <Reveal key={o.slug} delay={i * 0.06}>
+                  <Link
+                    href={`/origins/${o.slug}`}
+                    className="group block rounded-xl border border-stone/15 bg-sand p-6 transition-colors hover:border-green/30"
+                  >
+                    <span className="flex items-center gap-2">
+                      <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: accent }} />
+                      <span className="mono text-[10px] uppercase tracking-wide text-stone/50">{o.country}</span>
+                    </span>
+                    <p className="display mt-3 text-2xl text-green">{o.name}</p>
+                    <p className="mono mt-1 text-[11px] uppercase text-stone/50">{o.coords}</p>
+                    <p className="mt-4 text-sm text-stone">
+                      {products.map((p) => localizeProduct(p, locale).name).join(" · ") || t("multipleLines")}
+                    </p>
+                    <span className="mono mt-4 inline-flex items-center gap-1 text-[10px] uppercase text-stone/50 transition-colors group-hover:text-green">
+                      {t("viewOrigin")}
+                      <span className="transition-transform group-hover:translate-x-1">→</span>
+                    </span>
+                  </Link>
+                </Reveal>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* The bigger picture — sourcing & markets, mapped */}
         <section className="bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-14 md:py-20">
             <div className="mb-6 flex items-center gap-3">
-              <span className="mono text-[11px] text-amber">(02)</span>
+              <span className="mono text-[11px] text-amber">(03)</span>
               <span className="h-px w-8 bg-stone/25" />
               <span className="mono text-[11px] uppercase tracking-widest text-stone/60">{t("mapEyebrow")}</span>
             </div>
@@ -122,41 +164,6 @@ export default async function OriginsPage({ params }: { params: Promise<{ locale
 
         {/* Certifications — same official marks (with logos) shown site-wide */}
         <Certifications certs={CERTIFICATIONS} />
-
-        <section className="mx-auto max-w-6xl px-6 py-16">
-          <Reveal className="mb-8">
-            <h2 className="display text-3xl text-green">{t("featuredHeading")}</h2>
-          </Reveal>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {ORIGIN_LIST.map((raw, i) => {
-              const o = localizeOrigin(raw, locale);
-              const products = productsForOrigin(raw.slug);
-              const accent = products[0]?.accent ?? "#1E3D2A";
-              return (
-                <Reveal key={o.slug} delay={i * 0.06}>
-                  <Link
-                    href={`/origins/${o.slug}`}
-                    className="group block rounded-xl border border-stone/15 bg-sand p-6 transition-colors hover:border-green/30"
-                  >
-                    <span className="flex items-center gap-2">
-                      <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: accent }} />
-                      <span className="mono text-[10px] uppercase tracking-wide text-stone/50">{o.country}</span>
-                    </span>
-                    <p className="display mt-3 text-2xl text-green">{o.name}</p>
-                    <p className="mono mt-1 text-[11px] uppercase text-stone/50">{o.coords}</p>
-                    <p className="mt-4 text-sm text-stone">
-                      {products.map((p) => localizeProduct(p, locale).name).join(" · ") || t("multipleLines")}
-                    </p>
-                    <span className="mono mt-4 inline-flex items-center gap-1 text-[10px] uppercase text-stone/50 transition-colors group-hover:text-green">
-                      {t("viewOrigin")}
-                      <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
-                    </span>
-                  </Link>
-                </Reveal>
-              );
-            })}
-          </div>
-        </section>
 
         <section className="bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-20 text-center">
