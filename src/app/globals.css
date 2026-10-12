@@ -133,3 +133,10 @@ p {
 @keyframes lm-p{0%{box-shadow:0 0 0 0 rgba(140,197,65,.45)}70%{box-shadow:0 0 0 5px rgba(140,197,65,0)}100%{box-shadow:0 0 0 0 rgba(140,197,65,0)}}
 @media(max-width:600px){.lm-stage{aspect-ratio:3/4}.lm-cards{padding:10px;gap:8px}.lm-card{min-width:180px}}
 @media(prefers-reduced-motion:reduce){.lm-pulse{animation:none}}
+
+/* Marquee — seamless auto-scroll for the team avatar strip. Pause on hover;
+   reduced-motion freezes it (global rule sets iteration-count:1). */
+.marquee-track { animation: marquee 32s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
