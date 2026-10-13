@@ -101,7 +101,7 @@
         "d": "FOB, CIF oder DDP — jede Charge dokumentiert, in 2–4 Wochen."
       }
     ],
-    "termMoq": "MOQ · 25 kg → ganzer Container",
+    "termMoq": "Probe → ganzer Container · kg/lb",
     "termLead": "Lieferzeit · 2–4 Wochen",
     "termIncoterms": "Incoterms · FOB / CIF / DDP",
     "statOrigins": "HERKÜNFTE",
@@ -362,7 +362,7 @@
   },
   "pdp": {
     "metaTitle": "{name} Großhandel — Bulk-{name}-Lieferant",
-    "metaDescription": "{name}-Pulver im Großhandel, direkt vom Ursprung in {place}. Jede Charge laborgeprüft mit COA und Verification Record. MOQ ab 25 kg bis ganzer Container — Angebot anfordern.",
+    "metaDescription": "{name}-Pulver im Großhandel, direkt vom Ursprung in {place}. Jede Charge laborgeprüft (COA + Verification Record). Von der Probe bis zum Full Container, in kg oder lb — Angebot anfordern.",
     "bulkSupplier": "{name} · Großhandelslieferant",
     "requestQuote": "Angebot anfragen",
     "labReport": "Laborbericht & Angebot innerhalb von 48 Std.",
@@ -390,8 +390,8 @@
     "andWord": "und"
   },
   "faq": {
-    "moqQ": "Wie hoch ist die Mindestbestellmenge für {name} in Großmengen?",
-    "moqA": "{name} ist in Großmengen ab 25 kg bis zu ganzen Containern erhältlich. Mustermengen lassen sich vorab arrangieren, sodass Sie das Material qualifizieren können, bevor Sie eine Großbestellung aufgeben.",
+    "moqQ": "Liefern Sie {name} in kg oder lb, und in welchen Mengen?",
+    "moqA": "Wir kalkulieren und verpacken {name} sowohl in kg als auch in lb, passend zu Ihrem Betrieb — von Mustermengen bis zu ganzen Containern. Nennen Sie uns Ihre Zielspezifikation, und wir passen Verpackung und Dokumentation daran an.",
     "certsQ": "Welche Zertifizierungen trägt Ihr {name}?",
     "certsA": "Unser {name} ist mit {certs} erhältlich. Jede Charge wird mit einem vollständigen COA und einem Verification Record™ geliefert, der Prüfungen auf Pestizidrückstände, Schwermetalle, Mikrobiologie und Radioaktivität dokumentiert.",
     "sourceQ": "Woher beziehen Sie {name}?",
@@ -411,7 +411,7 @@
     "origin": "Herkunft",
     "certification": "Zertifizierung",
     "sku": "SKU",
-    "moqLine": "MOQ 25 kg → ganzer Container · {coords}"
+    "moqLine": "Probe → ganzer Container · kg oder lb · {coords}"
   },
   "passport": {
     "eyebrow": "Herkunfts-Pass",
@@ -456,7 +456,7 @@
   },
   "originDetail": {
     "metaTitle": "{products} in großen Mengen aus {name}, {country}",
-    "metaDescription": "{products} im Großhandel, am Ursprung in {name}, {country} ({coords}) beschafft. Laborgeprüft und bis zur Charge dokumentiert. MOQ ab 25 kg.",
+    "metaDescription": "{products} im Großhandel, am Ursprung in {name}, {country} ({coords}) beschafft. Laborgeprüft und bis zur Charge dokumentiert. Erhältlich in kg oder lb.",
     "metaProductsFallback": "Superfoods",
     "back": "Ursprünge",
     "routedVia": "{coords} — direkt bezogen, dokumentiert",
@@ -508,8 +508,8 @@
     "faqHeading": "Häufige Fragen",
     "faq": [
       {
-        "q": "Wie hoch ist Ihre Mindestbestellmenge?",
-        "a": "Wir liefern ab 25 kg bis zu vollen Containermengen. Muster sind verfügbar, bevor Sie sich für ein wiederkehrendes Programm entscheiden."
+        "q": "Liefern Sie in kg oder lb?",
+        "a": "Ja — wir kalkulieren, verpacken und dokumentieren sowohl in kg als auch in lb, von Mustermengen bis zu ganzen Containern. Nennen Sie uns Ihre Zielspezifikation, und wir passen uns an."
       },
       {
         "q": "Erhalte ich Laborberichte?",
@@ -537,7 +537,7 @@
     "eyebrowSub": "Angebot anfragen",
     "heading": "Bewegen Sie Mengen, denen Sie vertrauen können.",
     "intro": "Sagen Sie uns, was Sie brauchen und in welchem Umfang. Wir beschaffen, prüfen und dokumentieren es — und versenden es zu Ihnen. Senden Sie Ihre Spezifikation, und ein Mensch antwortet, in Ihrer Zeitzone.",
-    "specMoq": "MOQ · 25 kg → voller Container",
+    "specMoq": "Probe → ganzer Container · kg/lb",
     "specLead": "Lieferzeit · 2–4 Wochen",
     "specIncoterms": "Incoterms · FOB / CIF / DDP",
     "specReply": "Antwort · Laborbericht & Angebot innerhalb von 48 Stunden",

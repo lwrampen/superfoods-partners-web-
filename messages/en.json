@@ -101,7 +101,7 @@
         "d": "FOB, CIF or DDP — every batch documented, in 2–4 weeks."
       }
     ],
-    "termMoq": "MOQ · 25 kg → full container",
+    "termMoq": "Sample → full container · kg/lb",
     "termLead": "Lead time · 2–4 weeks",
     "termIncoterms": "Incoterms · FOB / CIF / DDP",
     "statOrigins": "ORIGINS",
@@ -362,7 +362,7 @@
   },
   "pdp": {
     "metaTitle": "{name} Wholesale — Bulk {name} Supplier",
-    "metaDescription": "Wholesale {name} powder sourced at origin in {place}. Lab-tested every batch with COA and Verification Record. MOQ from 25 kg to full container — request a quote.",
+    "metaDescription": "Wholesale {name} powder sourced at origin in {place}. Lab-tested every batch (COA + Verification Record). From sample to full container, priced in kg or lb — request a quote.",
     "bulkSupplier": "Bulk {name} supplier",
     "requestQuote": "Request a quote",
     "labReport": "Lab report & quote within 48 h",
@@ -390,8 +390,8 @@
     "andWord": "and"
   },
   "faq": {
-    "moqQ": "What is the minimum order quantity for bulk {name}?",
-    "moqA": "Bulk {name} is available from 25 kg up to full-container volume. Sample quantities can be arranged first so you can qualify the material before committing to a wholesale order.",
+    "moqQ": "Can you supply {name} in kg or lb, and at what volumes?",
+    "moqA": "We quote and pack {name} in both kg and lb to suit your facility — from sample quantities up to full-container volumes. Tell us your target spec and we'll match packaging and documentation to it.",
     "certsQ": "Which certifications does your {name} carry?",
     "certsA": "Our {name} is available with {certs}. Every batch ships with a full COA and a Verification Record™ documenting pesticide-residue, heavy-metal, microbiology and radiation testing.",
     "sourceQ": "Where do you source {name}?",
@@ -411,7 +411,7 @@
     "origin": "Origin",
     "certification": "Certification",
     "sku": "SKU",
-    "moqLine": "MOQ 25 kg → full container · {coords}"
+    "moqLine": "Sample → full container · kg or lb · {coords}"
   },
   "passport": {
     "eyebrow": "Origin passport",
@@ -456,7 +456,7 @@
   },
   "originDetail": {
     "metaTitle": "Bulk {products} from {name}, {country}",
-    "metaDescription": "Wholesale {products} sourced at origin in {name}, {country} ({coords}). Lab-tested and documented to the batch. MOQ from 25 kg.",
+    "metaDescription": "Wholesale {products} sourced at origin in {name}, {country} ({coords}). Lab-tested and documented to the batch. Available in kg or lb.",
     "metaProductsFallback": "superfoods",
     "back": "Origins",
     "routedVia": "{coords} — sourced direct, documented",
@@ -508,8 +508,8 @@
     "faqHeading": "Common questions",
     "faq": [
       {
-        "q": "What's your minimum order quantity?",
-        "a": "We supply from 25 kg up to full container volume. Sampling is available before you commit to a recurring program."
+        "q": "Can you supply in kg or lb?",
+        "a": "Yes — we quote, pack and document in both kg and lb, from sample quantities up to full-container volumes. Tell us your target spec and we'll match it."
       },
       {
         "q": "Do I get lab reports?",
@@ -537,7 +537,7 @@
     "eyebrowSub": "Request a quote",
     "heading": "Move volume you can trust.",
     "intro": "Tell us what you need and at what scale. We'll source, verify and document it — and ship it to you. Send your spec and a person replies, in your timezone.",
-    "specMoq": "MOQ · 25 kg → full container",
+    "specMoq": "Sample → full container · kg/lb",
     "specLead": "Lead time · 2–4 weeks",
     "specIncoterms": "Incoterms · FOB / CIF / DDP",
     "specReply": "Reply · lab report & quote within 48 hours",
