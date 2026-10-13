@@ -101,7 +101,7 @@
         "d": "FOB、CIF 或 DDP——每一批皆附文件，2–4 週送達。"
       }
     ],
-    "termMoq": "最低訂購量 · 25 公斤 → 整櫃",
+    "termMoq": "樣品 → 整櫃 · 公斤/磅",
     "termLead": "交期 · 2–4 週",
     "termIncoterms": "貿易條件 · FOB / CIF / DDP",
     "statOrigins": "產地",
@@ -362,7 +362,7 @@
   },
   "pdp": {
     "metaTitle": "{name}批發 — {name}大宗供應商",
-    "metaDescription": "大宗批發 {name}粉，源自 {place} 產地。每批經實驗室檢驗,附 COA 與 Verification Record。起訂量 25 公斤起至整櫃——歡迎索取報價。",
+    "metaDescription": "{name}粉批發，產地直採於 {place}。每批經實驗室檢驗（COA + Verification Record）。從樣品到整櫃，以公斤或磅計價 — 歡迎索取報價。",
     "bulkSupplier": "{name}批發供應商",
     "requestQuote": "索取報價",
     "labReport": "48 小時內提供實驗室報告與報價",
@@ -390,8 +390,8 @@
     "andWord": "與"
   },
   "faq": {
-    "moqQ": "{name}批發的最低訂購量是多少?",
-    "moqA": "{name}批發自 25 公斤起,最高可達整櫃量。可先安排樣品數量,讓您在下批發訂單前先行確認材料。",
+    "moqQ": "你們的{name}可以用公斤或磅供應嗎？可供應多大的量？",
+    "moqA": "我們以公斤或磅為{name}報價與包裝，配合你的工廠需求 — 從樣品到整櫃皆可。告訴我們你的目標規格，我們會據此調整包裝與文件。",
     "certsQ": "您的{name}具備哪些認證?",
     "certsA": "我們的{name}可提供 {certs}。每一批次皆附完整 COA 與 Verification Record™,記錄農藥殘留、重金屬、微生物與輻射檢測。",
     "sourceQ": "您在哪裡採購{name}?",
@@ -411,7 +411,7 @@
     "origin": "產地",
     "certification": "認證",
     "sku": "料號",
-    "moqLine": "最低訂購量 25 公斤 → 整櫃 · {coords}"
+    "moqLine": "樣品 → 整櫃 · 公斤或磅 · {coords}"
   },
   "passport": {
     "eyebrow": "產地護照",
@@ -456,7 +456,7 @@
   },
   "originDetail": {
     "metaTitle": "來自 {name},{country} 的{products}批發",
-    "metaDescription": "{products}批發,源頭直採於 {name},{country}({coords})。經實驗室檢測並記錄至批次。最低訂購量自 25 公斤起。",
+    "metaDescription": "{products}批發,源頭直採於 {name},{country}({coords})。經實驗室檢測並記錄至批次。以公斤或磅供應。",
     "metaProductsFallback": "超級食物",
     "back": "產地",
     "routedVia": "{coords} — 產地直採,附文件",
@@ -508,8 +508,8 @@
     "faqHeading": "常見問題",
     "faq": [
       {
-        "q": "您的最低訂購量是多少?",
-        "a": "我們自 25 公斤供應至整櫃量。在您決定固定合作方案前,可先取樣。"
+        "q": "可以用公斤或磅供應嗎？",
+        "a": "可以 — 我們以公斤或磅報價、包裝與記錄，從樣品到整櫃皆可。告訴我們你的目標規格，我們會據此配合。"
       },
       {
         "q": "我會拿到實驗室報告嗎?",
@@ -537,7 +537,7 @@
     "eyebrowSub": "索取報價",
     "heading": "運送您能信賴的貨量。",
     "intro": "告訴我們您的需求與規模。我們負責採購、驗證與記錄——並為您出貨。寄出您的規格,由真人在您的時區回覆。",
-    "specMoq": "最低訂購量 · 25 公斤 → 整櫃",
+    "specMoq": "樣品 → 整櫃 · 公斤/磅",
     "specLead": "交期 · 2–4 週",
     "specIncoterms": "貿易條件 · FOB / CIF / DDP",
     "specReply": "回覆 · 48 小時內提供實驗室報告與報價",

@@ -119,7 +119,6 @@ export default async function ProductPage({
     brand: { "@type": "Brand", name: "Superfoods Partners" },
     countryOfOrigin: [...new Set(origins.map((o) => o.country).filter(Boolean))],
     additionalProperty: [
-      { "@type": "PropertyValue", name: "MOQ", value: "25 kg" },
       { "@type": "PropertyValue", name: "Certifications", value: certs },
     ],
   };
@@ -184,7 +183,6 @@ export default async function ProductPage({
               <h2 className="display text-xl text-green">{t("atGlance")}</h2>
               <dl className="mono mt-5 divide-y divide-stone/12 border-t border-stone/15 text-sm">
                 {[
-                  { label: t("moq"), value: t("moqValue") },
                   { label: t("leadTime"), value: t("leadValue") },
                   { label: t("incoterms"), value: t("incotermsValue") },
                   ...(p.specs ?? []),

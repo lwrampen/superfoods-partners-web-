@@ -101,7 +101,7 @@
         "d": "FOB, CIF o DDP — cada lote documentado, en 2–4 semanas."
       }
     ],
-    "termMoq": "MOQ · 25 kg → contenedor completo",
+    "termMoq": "Muestra → contenedor completo · kg/lb",
     "termLead": "Plazo de entrega · 2–4 semanas",
     "termIncoterms": "Incoterms · FOB / CIF / DDP",
     "statOrigins": "ORÍGENES",
@@ -362,7 +362,7 @@
   },
   "pdp": {
     "metaTitle": "{name} al por mayor — proveedor de {name} a granel",
-    "metaDescription": "{name} en polvo al por mayor, de origen en {place}. Cada lote analizado en laboratorio con COA y Verification Record. MOQ desde 25 kg hasta contenedor completo — solicita presupuesto.",
+    "metaDescription": "{name} en polvo al por mayor, de origen en {place}. Cada lote analizado en laboratorio (COA + Verification Record). Desde muestra hasta contenedor completo, en kg o lb — solicita presupuesto.",
     "bulkSupplier": "Proveedor de {name} a granel",
     "requestQuote": "Solicitar presupuesto",
     "labReport": "Informe de laboratorio y presupuesto en 48 h",
@@ -390,8 +390,8 @@
     "andWord": "y"
   },
   "faq": {
-    "moqQ": "¿Cuál es la cantidad mínima de pedido para {name} a granel?",
-    "moqA": "El {name} a granel está disponible desde 25 kg hasta volumen de contenedor completo. Podemos gestionar primero cantidades de muestra para que cualifique el material antes de comprometerse con un pedido mayorista.",
+    "moqQ": "¿Pueden suministrar {name} en kg o lb, y en qué volúmenes?",
+    "moqA": "Cotizamos y envasamos {name} tanto en kg como en lb, según su planta — desde muestras hasta volúmenes de contenedor completo. Indíquenos su especificación objetivo y adaptaremos el envasado y la documentación.",
     "certsQ": "¿Qué certificaciones tiene su {name}?",
     "certsA": "Nuestro {name} está disponible con {certs}. Cada lote se envía con un COA completo y un Verification Record™ que documenta los análisis de residuos de pesticidas, metales pesados, microbiología y radiación.",
     "sourceQ": "¿De dónde abastecen el {name}?",
@@ -411,7 +411,7 @@
     "origin": "Origen",
     "certification": "Certificación",
     "sku": "SKU",
-    "moqLine": "MOQ 25 kg → contenedor completo · {coords}"
+    "moqLine": "Muestra → contenedor completo · kg o lb · {coords}"
   },
   "passport": {
     "eyebrow": "Pasaporte de origen",
@@ -456,7 +456,7 @@
   },
   "originDetail": {
     "metaTitle": "{products} a granel de {name}, {country}",
-    "metaDescription": "{products} al por mayor, abastecidos en origen en {name}, {country} ({coords}). Analizado en laboratorio y documentado hasta el lote. MOQ desde 25 kg.",
+    "metaDescription": "{products} al por mayor, abastecidos en origen en {name}, {country} ({coords}). Analizado en laboratorio y documentado hasta el lote. Disponible en kg o lb.",
     "metaProductsFallback": "superalimentos",
     "back": "Orígenes",
     "routedVia": "{coords} — abastecido directo, documentado",
@@ -508,8 +508,8 @@
     "faqHeading": "Preguntas frecuentes",
     "faq": [
       {
-        "q": "¿Cuál es su cantidad mínima de pedido?",
-        "a": "Suministramos desde 25 kg hasta volumen de contenedor completo. El muestreo está disponible antes de que se comprometa con un programa recurrente."
+        "q": "¿Pueden suministrar en kg o lb?",
+        "a": "Sí — cotizamos, envasamos y documentamos tanto en kg como en lb, desde muestras hasta contenedor completo. Indíquenos su especificación objetivo y nos adaptamos."
       },
       {
         "q": "¿Recibo informes de laboratorio?",
@@ -537,7 +537,7 @@
     "eyebrowSub": "Solicitar presupuesto",
     "heading": "Mueva volúmenes en los que pueda confiar.",
     "intro": "Díganos qué necesita y a qué escala. Lo abasteceremos, verificaremos y documentaremos — y se lo enviaremos. Envíe su especificación y le responde una persona, en su zona horaria.",
-    "specMoq": "MOQ · 25 kg → contenedor completo",
+    "specMoq": "Muestra → contenedor completo · kg/lb",
     "specLead": "Plazo de entrega · 2–4 semanas",
     "specIncoterms": "Incoterms · FOB / CIF / DDP",
     "specReply": "Respuesta · informe de laboratorio y presupuesto en 48 horas",

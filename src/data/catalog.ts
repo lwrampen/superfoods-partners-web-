@@ -118,7 +118,7 @@ export const PRODUCTS: Product[] = [
       { label: "Source", value: "Shade-grown green tea (Camellia sinensis)" },
       { label: "Grades", value: "Ceremonial · Premium · Culinary" },
       { label: "Origin", value: "Japan · China" },
-      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Packaging", value: "1 kg (2.2 lb) foil → 25 kg (55 lb) carton → full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
     gallery: [
@@ -196,7 +196,7 @@ export const PRODUCTS: Product[] = [
       { label: "Source", value: "Purple yam (Dioscorea alata)" },
       { label: "Origin", value: "Philippines · China" },
       { label: "Caffeine", value: "Caffeine-free" },
-      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Packaging", value: "1 kg (2.2 lb) foil → 25 kg (55 lb) carton → full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
     // Product macro only — we don't yet have authentic purple-yam farm/people
@@ -273,7 +273,7 @@ export const PRODUCTS: Product[] = [
       { label: "Source", value: "Hibiscus sabdariffa calyx" },
       { label: "Origin", value: "Egypt · East China" },
       { label: "Caffeine", value: "Caffeine-free" },
-      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Packaging", value: "1 kg (2.2 lb) foil → 25 kg (55 lb) carton → full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
     // Product macro only — authentic hibiscus origin/people photos pending.
@@ -311,7 +311,7 @@ export const PRODUCTS: Product[] = [
       { label: "Source", value: "Jasmine-scented green tea" },
       { label: "Grades", value: "Organic · Conventional" },
       { label: "Origin", value: "East China · Fujian" },
-      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Packaging", value: "1 kg (2.2 lb) foil → 25 kg (55 lb) carton → full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
     gallery: [
@@ -350,7 +350,7 @@ export const PRODUCTS: Product[] = [
       { label: "Source", value: "Semi-oxidised whole-leaf tea" },
       { label: "Grades", value: "Organic · Conventional" },
       { label: "Origin", value: "East China · Fujian" },
-      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Packaging", value: "1 kg (2.2 lb) foil → 25 kg (55 lb) carton → full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
     gallery: [
@@ -389,7 +389,7 @@ export const PRODUCTS: Product[] = [
       { label: "Source", value: "Black tea with natural bergamot" },
       { label: "Grades", value: "Conventional" },
       { label: "Origin", value: "East China · Fujian" },
-      { label: "Packaging", value: "1 kg foil → 25 kg / full container" },
+      { label: "Packaging", value: "1 kg (2.2 lb) foil → 25 kg (55 lb) carton → full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
     gallery: [

@@ -101,7 +101,7 @@
         "d": "FOB, CIF ou DDP — chaque lot documenté, en 2 à 4 semaines."
       }
     ],
-    "termMoq": "MOQ · 25 kg → conteneur complet",
+    "termMoq": "Échantillon → conteneur complet · kg/lb",
     "termLead": "Délai · 2 à 4 semaines",
     "termIncoterms": "Incoterms · FOB / CIF / DDP",
     "statOrigins": "ORIGINES",
@@ -362,7 +362,7 @@
   },
   "pdp": {
     "metaTitle": "{name} en gros — fournisseur de {name} en vrac",
-    "metaDescription": "{name} en poudre en gros, à l'origine à {place}. Chaque lot testé en laboratoire avec COA et Verification Record. MOQ dès 25 kg au conteneur complet — demandez un devis.",
+    "metaDescription": "{name} en poudre en gros, à l'origine à {place}. Chaque lot testé en laboratoire (COA + Verification Record). De l'échantillon au conteneur complet, en kg ou lb — demandez un devis.",
     "bulkSupplier": "Fournisseur de {name} en gros",
     "requestQuote": "Demander un devis",
     "labReport": "Rapport de laboratoire et devis sous 48 h",
@@ -390,8 +390,8 @@
     "andWord": "et"
   },
   "faq": {
-    "moqQ": "Quelle est la quantité minimale de commande pour le {name} en gros ?",
-    "moqA": "Le {name} en gros est disponible de 25 kg jusqu'au volume conteneur complet. Des quantités d'échantillon peuvent être arrangées au préalable pour qualifier la matière avant de vous engager sur une commande en gros.",
+    "moqQ": "Pouvez-vous fournir le {name} en kg ou lb, et dans quels volumes ?",
+    "moqA": "Nous chiffrons et conditionnons le {name} en kg comme en lb, selon votre site — de l'échantillon au conteneur complet. Indiquez-nous votre spécification cible et nous adapterons l'emballage et la documentation.",
     "certsQ": "Quelles certifications porte votre {name} ?",
     "certsA": "Notre {name} est disponible avec {certs}. Chaque lot est expédié avec un COA complet et un Verification Record™ documentant les analyses de résidus de pesticides, de métaux lourds, de microbiologie et de radioactivité.",
     "sourceQ": "Où sourcez-vous le {name} ?",
@@ -411,7 +411,7 @@
     "origin": "Origine",
     "certification": "Certification",
     "sku": "SKU",
-    "moqLine": "MOQ 25 kg → conteneur complet · {coords}"
+    "moqLine": "Échantillon → conteneur complet · kg ou lb · {coords}"
   },
   "passport": {
     "eyebrow": "Passeport d'origine",
@@ -456,7 +456,7 @@
   },
   "originDetail": {
     "metaTitle": "{products} en gros de {name}, {country}",
-    "metaDescription": "{products} en gros, sourcés en origine à {name}, {country} ({coords}). Analysé en laboratoire et documenté jusqu'au lot. MOQ à partir de 25 kg.",
+    "metaDescription": "{products} en gros, sourcés en origine à {name}, {country} ({coords}). Analysé en laboratoire et documenté jusqu'au lot. Disponible en kg ou lb.",
     "metaProductsFallback": "superaliments",
     "back": "Origines",
     "routedVia": "{coords} — sourcé en direct, documenté",
@@ -508,8 +508,8 @@
     "faqHeading": "Questions fréquentes",
     "faq": [
       {
-        "q": "Quelle est votre quantité minimale de commande ?",
-        "a": "Nous fournissons de 25 kg jusqu'au volume conteneur complet. L'échantillonnage est disponible avant de vous engager sur un programme récurrent."
+        "q": "Pouvez-vous fournir en kg ou lb ?",
+        "a": "Oui — nous chiffrons, conditionnons et documentons en kg comme en lb, de l'échantillon au conteneur complet. Indiquez-nous votre spécification cible et nous nous adaptons."
       },
       {
         "q": "Est-ce que je reçois des rapports de laboratoire ?",
@@ -537,7 +537,7 @@
     "eyebrowSub": "Demander un devis",
     "heading": "Déplacez des volumes en confiance.",
     "intro": "Dites-nous ce qu'il vous faut et à quelle échelle. Nous le sourçons, le vérifions et le documentons — et vous l'expédions. Envoyez votre spécification et une personne vous répond, dans votre fuseau horaire.",
-    "specMoq": "MOQ · 25 kg → conteneur complet",
+    "specMoq": "Échantillon → conteneur complet · kg/lb",
     "specLead": "Délai · 2 à 4 semaines",
     "specIncoterms": "Incoterms · FOB / CIF / DDP",
     "specReply": "Réponse · rapport de laboratoire et devis sous 48 heures",

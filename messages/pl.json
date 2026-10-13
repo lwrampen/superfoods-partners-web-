@@ -101,7 +101,7 @@
         "d": "FOB, CIF lub DDP — każda partia udokumentowana, w 2–4 tygodnie."
       }
     ],
-    "termMoq": "MOQ · 25 kg → pełny kontener",
+    "termMoq": "Próbka → pełny kontener · kg/lb",
     "termLead": "Czas realizacji · 2–4 tygodnie",
     "termIncoterms": "Incoterms · FOB / CIF / DDP",
     "statOrigins": "ŹRÓDŁA",
@@ -362,7 +362,7 @@
   },
   "pdp": {
     "metaTitle": "{name} hurt — dostawca {name} luzem",
-    "metaDescription": "{name} w proszku hurtowo, prosto ze źródła w {place}. Każda partia badana laboratoryjnie z COA i Verification Record. MOQ od 25 kg do pełnego kontenera — poproś o wycenę.",
+    "metaDescription": "{name} w proszku hurtowo, prosto ze źródła w {place}. Każda partia badana laboratoryjnie (COA + Verification Record). Od próbki po pełny kontener, w kg lub lb — poproś o wycenę.",
     "bulkSupplier": "Dostawca hurtowy: {name}",
     "requestQuote": "Poproś o wycenę",
     "labReport": "Raport z laboratorium i wycena w 48 h",
@@ -390,8 +390,8 @@
     "andWord": "i"
   },
   "faq": {
-    "moqQ": "Jaka jest minimalna ilość zamówienia dla {name} w hurcie?",
-    "moqA": "{name} w hurcie dostępne jest od 25 kg do pełnego kontenera. Najpierw można ustalić ilości próbne, aby zakwalifikować materiał przed złożeniem zamówienia hurtowego.",
+    "moqQ": "Czy dostarczacie {name} w kg lub lb, i w jakich ilościach?",
+    "moqA": "Wyceniamy i pakujemy {name} zarówno w kg, jak i w lb, zależnie od Twojego zakładu — od próbek po pełne kontenery. Podaj docelową specyfikację, a dopasujemy opakowanie i dokumentację.",
     "certsQ": "Jakie certyfikaty posiada Wasze {name}?",
     "certsA": "Nasze {name} dostępne jest z {certs}. Każda partia wysyłana jest z pełnym COA oraz Verification Record™, dokumentującym badania pozostałości pestycydów, metali ciężkich, mikrobiologii i promieniowania.",
     "sourceQ": "Skąd pozyskujecie {name}?",
@@ -411,7 +411,7 @@
     "origin": "Źródło",
     "certification": "Certyfikacja",
     "sku": "SKU",
-    "moqLine": "MOQ 25 kg → pełny kontener · {coords}"
+    "moqLine": "Próbka → pełny kontener · kg lub lb · {coords}"
   },
   "passport": {
     "eyebrow": "Paszport źródła",
@@ -456,7 +456,7 @@
   },
   "originDetail": {
     "metaTitle": "{products} hurtowo z {name}, {country}",
-    "metaDescription": "{products} hurtowo pozyskiwane u źródła w {name}, {country} ({coords}). Badane laboratoryjnie i dokumentowane do partii. MOQ od 25 kg.",
+    "metaDescription": "{products} hurtowo pozyskiwane u źródła w {name}, {country} ({coords}). Badane laboratoryjnie i dokumentowane do partii. Dostępne w kg lub lb.",
     "metaProductsFallback": "superfoods",
     "back": "Źródła",
     "routedVia": "{coords} — pozyskiwane bezpośrednio, dokumentowane",
@@ -508,8 +508,8 @@
     "faqHeading": "Częste pytania",
     "faq": [
       {
-        "q": "Jaka jest Wasza minimalna ilość zamówienia?",
-        "a": "Dostarczamy od 25 kg do pełnego kontenera. Próbkowanie jest dostępne, zanim zdecydujesz się na stały program."
+        "q": "Czy dostarczacie w kg lub lb?",
+        "a": "Tak — wyceniamy, pakujemy i dokumentujemy zarówno w kg, jak i w lb, od próbek po pełne kontenery. Podaj docelową specyfikację, a dopasujemy się."
       },
       {
         "q": "Czy otrzymuję raporty z laboratorium?",
@@ -537,7 +537,7 @@
     "eyebrowSub": "Poproś o wycenę",
     "heading": "Przenoś wolumen, któremu możesz zaufać.",
     "intro": "Powiedz nam, czego potrzebujesz i w jakiej skali. Pozyskamy to, zweryfikujemy i udokumentujemy — i dostarczymy do Ciebie. Wyślij specyfikację, a odpowie człowiek, w Twojej strefie czasowej.",
-    "specMoq": "MOQ · 25 kg → pełny kontener",
+    "specMoq": "Próbka → pełny kontener · kg/lb",
     "specLead": "Czas realizacji · 2–4 tygodnie",
     "specIncoterms": "Incoterms · FOB / CIF / DDP",
     "specReply": "Odpowiedź · raport z laboratorium i wycena w 48 godzin",
