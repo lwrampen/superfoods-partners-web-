@@ -19,7 +19,7 @@
     "allOrigins": "Wszystkie pochodzenia",
     "specialist": "Marka wyspecjalizowana",
     "house": "Asortyment domu",
-    "originsNote": "{origins} miejsc pochodzenia w {countries} krajach — kupione u źródła."
+    "originsNote": "{origins} miejsc pochodzenia w {countries} krajach — zarządzane u źródła."
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -58,7 +58,7 @@
     "catViewAll": "Zobacz wszystkie →",
     "peopleMarker": "Ludzie i Planeta",
     "peopleHeading": "Źródło to relacja, nie transakcja.",
-    "peopleBody": "Kupujemy bezpośrednio od plantatorów, których znamy z imienia, w regionach, do których wracamy sezon po sezonie. Ich troska o glebę to pierwsza kontrola jakości — na długo przed laboratorium. Gdy mówimy „godne zaufania u źródła”, mamy na myśli, że u tego źródła stoi konkretna osoba, której podaliśmy rękę.",
+    "peopleBody": "Współpracujemy bezpośrednio z plantatorami, których znamy z imienia, w regionach, do których wracamy sezon po sezonie. Ich troska o glebę to pierwsza kontrola jakości — na długo przed laboratorium. Gdy mówimy „godne zaufania u źródła”, mamy na myśli, że u tego źródła stoi konkretna osoba, której podaliśmy rękę.",
     "peopleItems": [
       {
         "t": "Najpierw plantatorzy",
@@ -111,7 +111,7 @@
     "hkEyebrow": "Jak działamy",
     "hkCoords": "Hong Kong · Amsterdam · Los Angeles · Barcelona · Tokio",
     "hkHeading": "Blisko źródła, blisko Ciebie.",
-    "hkBody1": "Działamy z pięciu lokalizacji — biura w Hongkongu, Amsterdamie i Los Angeles oraz huby w Barcelonie i Tokio — dzięki czemu jesteśmy blisko gospodarstw, od których kupujemy, i blisko producentów, których zaopatrujemy. Każda partia jest badana i dokumentowana przed wysyłką, dokądkolwiek trafia.",
+    "hkBody1": "Działamy z pięciu lokalizacji — biura w Hongkongu, Amsterdamie i Los Angeles oraz huby w Barcelonie i Tokio — dzięki czemu jesteśmy blisko gospodarstw, z którymi współpracujemy, i blisko producentów, których zaopatrujemy. Każda partia jest badana i dokumentowana przed wysyłką, dokądkolwiek trafia.",
     "hkBody2": "A za tym stoją ludzie: zespół, z którym skontaktujesz się w swojej strefie czasowej i który naprawdę odbiera telefon.",
     "hkExpertsLabel": "Poznaj zespół",
     "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
@@ -130,7 +130,7 @@
     "ctaBody": "Powiedz nam, czego potrzebujesz i w jakiej skali. Pozyskamy to, zweryfikujemy i udokumentujemy — i dostarczymy do Ciebie.",
     "ctaNote": "Wyślij specyfikację — raport z laboratorium i wycena w 48 godzin",
     "pillars": [
-      "Kupowane u źródła, nie przez pośrednika",
+      "Zarządzane u źródła, nie przez pośrednika",
       "Jedno pochodzenie na produkt, z nazwy",
       "Badane partiami, dokumentowane na palecie"
     ],
@@ -164,7 +164,7 @@
       {
         "src": "/photos/grower-picker.jpg",
         "alt": "A grower picking leaf at harvest",
-        "cap": "Ludzie, od których kupujemy — z imienia, sezon po sezonie"
+        "cap": "Ludzie, z którymi współpracujemy — z imienia, sezon po sezonie"
       },
       {
         "src": "/photos/gardens-wide.jpg",
@@ -203,13 +203,13 @@
     "ctaMarker": "Porozmawiajmy"
   },
   "promises": {
-    "marker": "Od źródła do skali",
+    "marker": "Od farmy do palety",
     "heading": "Twój partner na każdym etapie.",
     "intro": "Jeden zespół od farmy po gotową paletę — pozyskiwanie, produkcja, zastosowanie i dostawa, wszystko według jednego standardu.",
     "items": [
       {
         "t": "Czyste składniki",
-        "d": "Kupujemy bezpośrednio u źródła, z konkretnych ogrodów — z pełną identyfikowalnością, bez pośredników."
+        "d": "Zarządzamy dostawami u źródła, z konkretnymi ogrodami — z pełną identyfikowalnością, bez pośredników."
       },
       {
         "t": "Produkcja oparta na nauce",
@@ -300,7 +300,7 @@
     "eyebrow": "Firma",
     "eyebrowSub": "Kim jesteśmy",
     "heroHeading": "Źródło to cała historia.",
-    "heroBody1": "Superfoods Partners to podmiot nadrzędny naszej grupy — wspólne portfolio superfoods w proszku z pełną identyfikowalnością, ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Kupujemy bezpośrednio od gospodarstw i dostarczamy duże, zweryfikowane wolumeny producentom, markom i private label. Twój partner na każdym etapie, od źródła do skali.",
+    "heroBody1": "Superfoods Partners to podmiot nadrzędny naszej grupy — wspólne portfolio superfoods w proszku z pełną identyfikowalnością, ze spółkami operacyjnymi w Hongkongu, Holandii i USA. Zarządzamy dostawami bezpośrednio w gospodarstwach i dostarczamy duże, zweryfikowane wolumeny producentom, markom i private label. Twój partner na każdym etapie, od źródła do skali.",
     "heroBody2": "Nie aspirujemy do bycia największym dostawcą. Aspirujemy do bycia tym, o którego nigdy nie musisz się martwić.",
     "heroCaption": "PLANTATOR W OGRODACH W CZASIE ZBIORÓW",
     "hkCaption": "ZBIÓR Z CAŁEGO POLA — DOSTARCZANY NA SKALĘ",
@@ -463,7 +463,7 @@
     "introFallback": "Bezpośredni zakup w {label}. Każda partia z tego pochodzenia jest badana laboratoryjnie pod kątem pozostałości pestycydów, metali ciężkich, mikrobiologii i promieniowania, a następnie dokumentowana w Verification Record™ przed wysyłką.",
     "routeEyebrow": "Trasa",
     "routeHeading": "Od {name} do Twojej rampy.",
-    "routeBody": "Kupujemy tam, gdzie rośnie, badamy i dokumentujemy każdą partię i wysyłamy do Ciebie. Jedna para rąk od gospodarstwa po transport — bez anonimowych pośredników pomiędzy.",
+    "routeBody": "Pozyskujemy tam, gdzie rośnie, badamy i dokumentujemy każdą partię i wysyłamy do Ciebie. Jedna para rąk od gospodarstwa po transport — bez anonimowych pośredników pomiędzy.",
     "routePath": "{coords} → badane i dokumentowane → Ty",
     "sourcedFrom": "Pozyskiwane z {name}",
     "ctaQuote": "Poproś o wycenę z {name}"
