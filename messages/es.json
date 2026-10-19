@@ -19,7 +19,7 @@
     "allOrigins": "Todos los orígenes",
     "specialist": "Marca especialista",
     "house": "Gama de la casa",
-    "originsNote": "{origins} orígenes en {countries} países — comprado en origen."
+    "originsNote": "{origins} orígenes en {countries} países — gestionado en origen."
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -45,10 +45,10 @@
   "home": {
     "metaTitle": "Proveedor mayorista de matcha y superalimentos — del origen a la escala",
     "metaDescription": "Matcha y superalimentos en polvo a granel para fabricantes — de origen directo, con cada lote analizado en laboratorio (JAS, EU y USDA Organic) y hechos consistentes mediante producción con base científica, blending y soporte de aplicación. De la muestra al contenedor completo. Solicita presupuesto.",
-    "heroEyebrow": "Superalimentos en polvo · del origen a la escala",
+    "heroEyebrow": "Superalimentos en polvo · una casa de ingredientes moderna",
     "heroTitle1": "Pure ingredients.",
     "heroTitle2": "Formulated to thrive.",
-    "heroIntro": "Del origen a la escala: compramos directamente en la granja, controlamos la variación natural con producción de base científica y creamos soluciones de ingredientes consistentes para marcas, fabricantes y marca blanca — matcha, hojicha, hibisco, ube y más.",
+    "heroIntro": "Del origen a la escala: gestionamos el suministro de materias primas directamente en la fuente, controlamos la variación natural con producción de base científica y creamos soluciones de ingredientes consistentes para marcas, fabricantes y marca blanca — matcha, hojicha, hibisco, ube y más.",
     "ctaQuote": "Solicitar presupuesto por volumen",
     "ctaTrace": "Ver el catálogo →",
     "heroBadge": "Directo desde origen",
@@ -58,7 +58,7 @@
     "catViewAll": "Ver todo →",
     "peopleMarker": "Personas y planeta",
     "peopleHeading": "El origen es una relación, no una transacción.",
-    "peopleBody": "Compramos directamente a cultivadores que conocemos por su nombre, en regiones a las que volvemos temporada tras temporada. Su cuidado del suelo es el primer control de calidad — mucho antes del laboratorio. Cuando decimos «confianza en origen», queremos decir que hay una persona en ese origen, y le hemos dado la mano.",
+    "peopleBody": "Trabajamos directamente con cultivadores que conocemos por su nombre, en regiones a las que volvemos temporada tras temporada. Su cuidado del suelo es el primer control de calidad — mucho antes del laboratorio. Cuando decimos «confianza en origen», queremos decir que hay una persona en ese origen, y le hemos dado la mano.",
     "peopleItems": [
       {
         "t": "Los cultivadores primero",
@@ -111,7 +111,7 @@
     "hkEyebrow": "Cómo operamos",
     "hkCoords": "Hong Kong · Ámsterdam · Los Angeles · Barcelona · Tokio",
     "hkHeading": "Cerca del origen, cerca de usted.",
-    "hkBody1": "Operamos desde cinco ubicaciones — oficinas en Hong Kong, Ámsterdam y Los Angeles, más hubs en Barcelona y Tokio — para estar cerca de las fincas donde compramos y de los fabricantes a los que abastecemos. Cada lote se analiza y documenta antes de enviarse, sea cual sea su destino.",
+    "hkBody1": "Operamos desde cinco ubicaciones — oficinas en Hong Kong, Ámsterdam y Los Angeles, más hubs en Barcelona y Tokio — para estar cerca de las fincas con las que trabajamos y de los fabricantes a los que abastecemos. Cada lote se analiza y documenta antes de enviarse, sea cual sea su destino.",
     "hkBody2": "Y hay personas detrás: un equipo al que puedes llamar en tu propia zona horaria y que de verdad contesta el teléfono.",
     "hkExpertsLabel": "Conozca al equipo",
     "hkCaption": "COSECHA DE CAMPO COMPLETO — MOVIDA A ESCALA",
@@ -130,7 +130,7 @@
     "ctaBody": "Díganos qué necesita y a qué escala. Lo abasteceremos, verificaremos y documentaremos — y se lo enviaremos.",
     "ctaNote": "Envíe su especificación — informe de laboratorio y presupuesto en 48 horas",
     "pillars": [
-      "Comprado en origen, no a través de un intermediario",
+      "Gestionado en origen, no a través de un intermediario",
       "Un origen por producto, con nombre",
       "Analizado por lote, documentado por palet"
     ],
@@ -164,7 +164,7 @@
       {
         "src": "/photos/grower-picker.jpg",
         "alt": "A grower picking leaf at harvest",
-        "cap": "Personas a las que compramos — con nombre, temporada tras temporada"
+        "cap": "Personas con las que trabajamos — con nombre, temporada tras temporada"
       },
       {
         "src": "/photos/gardens-wide.jpg",
@@ -203,20 +203,20 @@
     "ctaMarker": "Hablemos"
   },
   "promises": {
-    "marker": "Del origen a la escala",
+    "marker": "De la finca al palé",
     "heading": "Tu socio en cada etapa.",
     "intro": "Un solo equipo desde la finca hasta el palé terminado: origen, producción, aplicación y suministro, todo bajo un único estándar.",
     "items": [
       {
-        "t": "Origen puro",
-        "d": "Compramos directamente en origen a jardines identificados: trazable y sin intermediarios."
+        "t": "Ingredientes puros",
+        "d": "Gestionamos el suministro en origen con jardines identificados: trazable y sin intermediarios."
       },
       {
         "t": "Producción con base científica",
         "d": "Procesado y mezcla que controlan la variación natural, para que cada lote rinda igual."
       },
       {
-        "t": "Aplicación e I+D",
+        "t": "Formulado para prosperar",
         "d": "Te ayudamos a convertir el ingrediente en producto: sabor, función y formato."
       },
       {
@@ -300,7 +300,7 @@
     "eyebrow": "Empresa",
     "eyebrowSub": "Quiénes somos",
     "heroHeading": "El origen es la historia.",
-    "heroBody1": "Superfoods Partners es el paraguas de nuestro grupo: una cartera compartida de superalimentos en polvo trazables, con entidades operativas en Hong Kong, los Países Bajos y Estados Unidos. Compramos directamente en la finca y movemos grandes volúmenes verificados a fabricantes, marcas y private label. Tu socio en cada etapa, del origen a la escala.",
+    "heroBody1": "Superfoods Partners es el paraguas de nuestro grupo: una cartera compartida de superalimentos en polvo trazables, con entidades operativas en Hong Kong, los Países Bajos y Estados Unidos. Gestionamos el suministro directamente en la finca y movemos grandes volúmenes verificados a fabricantes, marcas y private label. Tu socio en cada etapa, del origen a la escala.",
     "heroBody2": "No aspiramos a ser el mayor proveedor. Aspiramos a ser aquel por el que nunca tenga que preocuparse.",
     "heroCaption": "UN CULTIVADOR EN LOS JARDINES EN COSECHA",
     "hkCaption": "COSECHA DE CAMPO COMPLETO — MOVIDA A ESCALA",
@@ -463,7 +463,7 @@
     "introFallback": "Abastecimiento directo en {label}. Cada lote de este origen se analiza en laboratorio para residuos de pesticidas, metales pesados, microbiología y radiación, y luego se documenta con un Verification Record™ antes de enviarse.",
     "routeEyebrow": "La ruta",
     "routeHeading": "De {name} a su muelle.",
-    "routeBody": "Compramos donde se cultiva, analizamos y documentamos cada lote, y se lo enviamos. Un solo par de manos de la finca al flete — sin intermediarios anónimos de por medio.",
+    "routeBody": "Nos abastecemos donde se cultiva, analizamos y documentamos cada lote, y se lo enviamos. Un solo par de manos de la finca al flete — sin intermediarios anónimos de por medio.",
     "routePath": "{coords} → analizado y documentado → usted",
     "sourcedFrom": "Abastecido de {name}",
     "ctaQuote": "Solicitar presupuesto de {name}"

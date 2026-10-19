@@ -19,7 +19,7 @@
     "allOrigins": "All origins",
     "specialist": "Specialist label",
     "house": "House range",
-    "originsNote": "{origins} origins across {countries} countries — bought at source."
+    "originsNote": "{origins} origins across {countries} countries — managed at source."
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -45,10 +45,10 @@
   "home": {
     "metaTitle": "Matcha & Superfood Wholesale Supplier — From Source to Scale",
     "metaDescription": "Pure ingredients, formulated to thrive. Bulk matcha and superfood powders for manufacturers — sourced direct, lab-tested every batch (JAS, EU & USDA Organic), and made consistent through science-led production, blending and application support. From sample to full container. Request a quote.",
-    "heroEyebrow": "Superfood powders · source to scale",
+    "heroEyebrow": "Superfood powders · a modern ingredient house",
     "heroTitle1": "Pure ingredients.",
     "heroTitle2": "Formulated to thrive.",
-    "heroIntro": "From source to scale: we buy directly at the farm, control natural variation through science-led production, and build consistent ingredient solutions for brands, manufacturers and private label — matcha, hojicha, hibiscus, ube and more.",
+    "heroIntro": "From source to scale: we manage the supply of raw materials at origin, control natural variation through science-led production, and build consistent ingredient solutions for brands, manufacturers and private label — matcha, hojicha, hibiscus, ube and more.",
     "ctaQuote": "Request a volume quote",
     "ctaTrace": "Browse the catalogue →",
     "heroBadge": "Direct from origin",
@@ -58,7 +58,7 @@
     "catViewAll": "View all →",
     "peopleMarker": "People & Planet",
     "peopleHeading": "The source is a relationship, not a transaction.",
-    "peopleBody": "We buy directly from growers we know by name, in regions we return to season after season. Their care for the soil is the first quality check — long before the lab. When we say “trusted at origin,” we mean there is a person standing at that origin, and we have shaken their hand.",
+    "peopleBody": "We work directly with growers we know by name, in regions we return to season after season. Their care for the soil is the first quality check — long before the lab. When we say “trusted at origin,” we mean there is a person standing at that origin, and we have shaken their hand.",
     "peopleItems": [
       {
         "t": "Growers first",
@@ -111,7 +111,7 @@
     "hkEyebrow": "How we operate",
     "hkCoords": "Hong Kong · Amsterdam · Los Angeles · Barcelona · Tokyo",
     "hkHeading": "Close to origin, close to you.",
-    "hkBody1": "We run from five locations — offices in Hong Kong, Amsterdam and Los Angeles, plus hubs in Barcelona and Tokyo — so we sit close to the gardens we buy from and close to the manufacturers we supply. Every lot is tested and documented before it ships, wherever it's headed.",
+    "hkBody1": "We run from five locations — offices in Hong Kong, Amsterdam and Los Angeles, plus hubs in Barcelona and Tokyo — so we sit close to the gardens we work with and close to the manufacturers we supply. Every lot is tested and documented before it ships, wherever it's headed.",
     "hkBody2": "And there are people behind it: a team you can reach in your own timezone, who actually pick up the phone.",
     "hkExpertsLabel": "Meet the team",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
@@ -130,7 +130,7 @@
     "ctaBody": "Tell us what you need and at what scale. We'll source, verify and document it — and ship it to you.",
     "ctaNote": "Send your spec — lab report & quote within 48 hours",
     "pillars": [
-      "Bought at source, not through a trader",
+      "Managed at source, not through a trader",
       "One origin per product, named",
       "Tested per lot, documented per pallet"
     ],
@@ -164,7 +164,7 @@
       {
         "src": "/photos/grower-picker.jpg",
         "alt": "A grower picking leaf at harvest",
-        "cap": "People we buy from — by name, season after season"
+        "cap": "People we work with — by name, season after season"
       },
       {
         "src": "/photos/gardens-wide.jpg",
@@ -203,20 +203,20 @@
     "ctaMarker": "Start a conversation"
   },
   "promises": {
-    "marker": "Source to scale",
+    "marker": "Farm to pallet",
     "heading": "Your partner at every stage.",
     "intro": "One team from farm to finished pallet — sourcing, production, application and supply, all held to a single standard.",
     "items": [
       {
-        "t": "Pure source",
-        "d": "We buy direct at origin from named gardens — traceable, with no trader in between."
+        "t": "Pure ingredients",
+        "d": "We manage supply at origin with named gardens — traceable, with no trader in between."
       },
       {
         "t": "Science-led production",
         "d": "Processing and blending that control natural variation, so every lot performs the same."
       },
       {
-        "t": "Application & R&D",
+        "t": "Formulated to thrive",
         "d": "We help you turn the ingredient into a product — flavour, function and format."
       },
       {
@@ -300,7 +300,7 @@
     "eyebrow": "Company",
     "eyebrowSub": "Who we are",
     "heroHeading": "The source is the story.",
-    "heroBody1": "Superfoods Partners is the umbrella for our group — one shared portfolio of traceable superfood powders, with local operating entities in Hong Kong, the Netherlands and the United States. We buy direct from the farms and move large, verified volumes to manufacturers, brands and private label. Your partner at every stage, from source to scale.",
+    "heroBody1": "Superfoods Partners is the umbrella for our group — one shared portfolio of traceable superfood powders, with local operating entities in Hong Kong, the Netherlands and the United States. We manage supply directly at the farms and move large, verified volumes to manufacturers, brands and private label. Your partner at every stage, from source to scale.",
     "heroBody2": "We don't aspire to be the largest supplier. We aspire to be the one you never have to worry about.",
     "heroCaption": "A GROWER IN THE GARDENS AT HARVEST",
     "hkCaption": "WHOLE-FIELD HARVEST — MOVED AT SCALE",
@@ -463,7 +463,7 @@
     "introFallback": "Direct sourcing in {label}. Every batch from this origin is lab-tested for pesticide residue, heavy metals, microbiology and radiation, then documented with a Verification Record™ before it ships.",
     "routeEyebrow": "The route",
     "routeHeading": "From {name} to your dock.",
-    "routeBody": "We buy where it grows, test and document every batch, and ship it to you. One pair of hands from farm to freight — no anonymous middlemen in between.",
+    "routeBody": "We source where it grows, test and document every batch, and ship it to you. One pair of hands from farm to freight — no anonymous middlemen in between.",
     "routePath": "{coords} → tested & documented → you",
     "sourcedFrom": "Sourced from {name}",
     "ctaQuote": "Request a quote from {name}"
