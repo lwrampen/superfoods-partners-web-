@@ -1096,4 +1096,84 @@ export const POSTS: InsightPost[] = [
     ],
     relatedProducts: ["matcha", "ube", "lions-mane"],
   },
+  {
+    slug: "hojicha-powder-wholesale-buyers-guide",
+    date: "2026-10-19",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/photos/terraces.jpg",
+    heroAlt: E("Tea terraces in Japan, where the leaf for hojicha is grown"),
+    category: E("Buyer's guide"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("Hojicha powder wholesale: a buyer's guide for lattes, bakery and RTD"),
+    metaTitle: E("Hojicha Powder Wholesale — Buyer's Guide for B2B"),
+    metaDescription: E("How to buy hojicha powder in bulk: what sets one lot apart, how roast and milling affect the cup, where it is grown, and what documentation to ask a supplier for."),
+    dek: E("Hojicha is moving from specialty cafés into mainstream menus. Here is what a buyer should look at before specifying it for a latte, a bakery line or a bottled drink."),
+    lede: E("To buy hojicha powder wholesale, specify four things: the roast level (which sets the flavour), the fineness of the mill (which sets how it mixes), the origin of the leaf, and the batch documentation that proves what you received. Get those right and hojicha behaves consistently in lattes, bakery and ready-to-drink; leave them open and every shipment can taste different."),
+    sections: [
+      {
+        heading: E("Why hojicha is on more menus"),
+        body: [
+          E("Hojicha is Japanese green tea that has been roasted over high heat, which turns the leaf from green to brown and shifts the flavour from fresh and grassy to warm, toasty and nutty. Because it tastes familiar to anyone who likes roasted or caramelised flavours, it has a much shorter explanation than matcha when it appears on a menu."),
+          E("Demand is already visible at scale. In US Google search data, \"hojicha powder\" draws roughly 12,000 searches a month and \"hojicha latte\" roughly 15,000 (Google Ads keyword data, United States). Those are consumers looking for a drink, and they are the reason cafés, bakeries and beverage brands are now asking their suppliers for it."),
+        ],
+      },
+      {
+        heading: E("Roast level: the first thing to specify"),
+        body: [
+          E("Roast is the main variable in hojicha. A lighter roast keeps more of the tea's fresh character and a gentle toastiness; a darker roast gives a deeper, more caramel-like flavour and a darker colour in the cup. Neither is better. They suit different products."),
+          E("For a milk latte, where milk softens everything, a medium to darker roast tends to hold its flavour. For a clear bottled tea or a delicate pastry, a lighter roast is less likely to taste burnt. The practical advice is to name the roast you want in the spec, approve a sample in your own recipe, and ask that later lots are matched to that approved sample."),
+        ],
+      },
+      {
+        heading: E("Milling: why fineness decides how it mixes"),
+        body: [
+          E("Hojicha powder is milled from roasted leaf, so particle size drives the experience. A fine, even powder disperses cleanly in milk and water and gives a smooth texture; a coarse or uneven one settles, clumps or feels gritty in a latte."),
+          E("If the powder will go into a dry blend, a batter or a bottled drink, test how it behaves in that exact medium. Dispersion in cold water, in hot milk and in a fat-based mix can differ, and it is cheaper to find that out on a sample than on a production run."),
+        ],
+      },
+      {
+        heading: E("Origin: where the leaf is grown"),
+        body: [
+          E("Hojicha can be made from leaf grown in several regions, and origin shapes the base tea before it is roasted. We work with growers across Japan, including Uji, Kyoto, Nara, Shizuoka and Kagoshima, as well as East China, and manage supply at origin rather than treating it as a commodity to be swapped lot by lot."),
+          E("For a buyer, the useful question is not which origin is best but which origin is consistent for your spec, and whether a second origin is available if one harvest runs short. Tea supply moves with the harvest, so a supplier who can source in more than one place gives you room to plan."),
+        ],
+      },
+      {
+        heading: E("Documentation to ask for"),
+        body: [
+          E("Hojicha is a tea, so the paperwork that matters is the same as for any imported food ingredient: a certificate of analysis for each batch, and certification that matches what you intend to claim, such as organic. Ask what each lot was tested for and whether the report is tied to the specific batch you receive."),
+          E("Our own practice is to supply a certificate of analysis and a Verification Record for every batch before it ships, and to offer samples first so you can approve the material before committing to volume."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("What it is"), value: E("Japanese green tea, roasted, then milled to powder") },
+      { label: E("Flavour"), value: E("Warm, toasty, nutty; roast level sets the intensity") },
+      { label: E("Caffeine"), value: E("Naturally low compared with unroasted green tea") },
+      { label: E("Typical uses"), value: E("Lattes, RTD drinks, bakery, ice cream, confectionery") },
+      { label: E("Our origins"), value: E("Japan and East China") },
+      { label: E("Grades"), value: E("Organic and conventional") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("What is the difference between hojicha and matcha?"),
+        a: E("Matcha is made from shade-grown leaf that is steamed and stone-milled, and tastes fresh and vegetal. Hojicha is made from leaf that is roasted, which gives a brown powder with a toasty flavour. They are different products for different uses."),
+      },
+      {
+        q: E("Which roast should I choose for a latte?"),
+        a: E("A medium to darker roast usually holds its flavour in milk, while a lighter roast suits clear drinks and delicate pastry. The best answer comes from testing a sample in your own recipe."),
+      },
+      {
+        q: E("Is hojicha available organic?"),
+        a: E("Yes. We offer hojicha in organic and conventional grades, with certification and a certificate of analysis for each batch."),
+      },
+      {
+        q: E("Can I get samples before ordering?"),
+        a: E("Yes. We send samples first so you can approve flavour, colour and mixing behaviour before you commit to volume."),
+      },
+    ],
+    relatedProducts: ["hojicha", "matcha"],
+  },
 ];
