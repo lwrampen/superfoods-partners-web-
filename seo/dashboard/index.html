@@ -1,0 +1,296 @@
+<title>SFP Search Command</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: instrument panel — status line, scoreboard per topic, then the evidence (keywords, links), then the plan. SFP brand v4 tokens. */
+:root{
+  --bg:#f6f6f3; --surface:#ffffff; --sand:#eceae2; --fg:#16240f; --muted:#565b4e; --faint:#8a8f80;
+  --line:rgba(22,36,15,.12); --accent:#8cc541; --accent-ink:#3f6b12; --pmp:#1c4b0c;
+  --good:#3f8f1f; --warn:#b26a00; --bad:#a3302a;
+  --display:"Anton",Impact,"Arial Narrow",sans-serif;
+  --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10180b; --surface:#16210f; --sand:#1c2914; --fg:#eef1e8; --muted:#b4bba9; --faint:#7f8875;
+  --line:rgba(238,241,232,.12); --accent:#9fd456; --accent-ink:#b9e37c; --pmp:#8fcba0;
+  --good:#7fcf5a; --warn:#e3a54a; --bad:#ef7a70; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10180b; --surface:#16210f; --sand:#1c2914; --fg:#eef1e8; --muted:#b4bba9; --faint:#7f8875;
+  --line:rgba(238,241,232,.12); --accent:#9fd456; --accent-ink:#b9e37c; --pmp:#8fcba0;
+  --good:#7fcf5a; --warn:#e3a54a; --bad:#ef7a70; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;gap:44px}
+h1,h2{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.01em;margin:0;text-wrap:balance}
+h1{font-size:clamp(34px,6vw,54px);line-height:1}
+h2{font-size:clamp(24px,3.4vw,32px);line-height:1.05}
+h3{font-size:15px;margin:0;font-weight:600}
+p{margin:0;max-width:68ch}
+.mono,.eyebrow,.num,table{font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--muted);font-size:16px}
+section{display:grid;gap:18px;min-width:0}
+.head{display:grid;gap:10px}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:2px solid var(--fg);padding-bottom:18px}
+.stamp{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right}
+.stamp b{color:var(--fg);font-weight:500}
+/* KPI strip */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.kpi{background:var(--surface);padding:16px 18px;display:grid;gap:6px;align-content:start}
+.kpi .num{font-family:var(--display);font-size:38px;line-height:1}
+.kpi .num small{font-family:var(--mono);font-size:13px;color:var(--muted);margin-left:6px}
+.kpi .note{font-size:12.5px;color:var(--muted)}
+/* scoreboard */
+.tablebox{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:500;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+.track{position:relative;height:18px;min-width:180px}
+.track::before{content:"";position:absolute;left:0;right:0;top:8px;height:2px;background:var(--sand)}
+.track .zone{position:absolute;top:4px;height:10px;left:0;width:20%;background:color-mix(in srgb,var(--accent) 28%,transparent);border-radius:2px}
+.track .dot{position:absolute;top:2px;width:14px;height:14px;border-radius:50%;transform:translateX(-50%);border:2px solid var(--surface)}
+.dot.sfp{background:var(--accent)} .dot.pmp{background:var(--pmp)}
+.track .off{position:absolute;right:0;top:-1px;font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:12.5px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.pos{display:inline-block;min-width:38px;text-align:center;font-family:var(--mono);font-size:12.5px;padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.pos.t3{background:var(--accent);border-color:var(--accent);color:#16240f}
+.pos.t10{border-color:var(--accent);color:var(--accent-ink)}
+.pos.none{border-style:dashed;color:var(--faint)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:500 13px var(--body);padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.top3{font-family:var(--mono);font-size:12px;color:var(--muted)}
+/* backlinks */
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+@media (max-width:820px){.split{grid-template-columns:1fr}}
+.bars{display:grid;gap:10px}
+.bar{display:grid;grid-template-columns:minmax(120px,170px) minmax(0,1fr) 34px;gap:10px;align-items:center;font-size:13.5px}
+.bar .fill{height:12px;background:var(--faint);border-radius:2px;min-width:2px}
+.bar.us .fill{background:var(--accent)}
+.bar.us .name{font-weight:600}
+.bar .v{font-family:var(--mono);text-align:right}
+.callout{border-left:3px solid var(--warn);background:var(--surface);padding:14px 16px;display:grid;gap:6px;font-size:14px}
+.callout.decide{border-left-color:var(--bad)}
+.callout b{font-weight:600}
+.plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.prospect{background:var(--surface);padding:10px 14px;display:grid;gap:2px;min-width:0}
+.prospect a{color:var(--fg);font-weight:600;text-decoration:none;overflow-wrap:anywhere}
+.prospect a:hover{text-decoration:underline}
+.prospect span{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+/* plan */
+.themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.theme{background:var(--surface);border:1px solid var(--line);padding:18px;display:grid;gap:10px;align-content:start}
+.theme .tag{justify-self:start;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:3px;background:var(--sand);color:var(--muted)}
+.theme .tag.dec{background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+.theme ul,.tiers ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--muted)}
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.tier{border-top:3px solid var(--sand);padding-top:12px;display:grid;gap:8px;align-content:start}
+.tier.rec{border-top-color:var(--accent)}
+.tier .amt{font-family:var(--display);font-size:28px;line-height:1}
+.tier .amt small{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.list{display:grid;gap:8px;font-size:14px}
+.list div{display:grid;grid-template-columns:22px minmax(0,1fr);gap:8px}
+.yes{color:var(--good);font-weight:700} .no{color:var(--bad);font-weight:700}
+.cadence{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.cadence div{background:var(--surface);padding:12px 14px;display:grid;gap:2px;font-size:13.5px}
+.cadence b{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padding-top:14px}
+@media (prefers-reduced-motion:no-preference){.dot{transition:left .4s ease}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="head">
+      <span class="eyebrow">Superfoods Partners · online vindbaarheid</span>
+      <h1>SFP Search Command</h1>
+      <p class="lede">Waar we staan op de zoektermen waar inkopers op zoeken, wie ervoor ons staat, en wat we doen om de topposities te pakken.</p>
+    </div>
+    <div class="stamp">Laatste meting <b id="updated">—</b><br>Wekelijks bijgewerkt · bron: Google Search Console, DataforSEO</div>
+  </header>
+
+  <section aria-labelledby="kpi-h">
+    <h2 id="kpi-h" class="eyebrow" style="font-family:var(--mono);font-size:11.5px">Stand van zaken</h2>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section aria-labelledby="clu-h">
+    <div class="head">
+      <h2 id="clu-h">Topics</h2>
+      <p class="lede">Beste positie per onderwerp over alle gevolgde markten. Het groene vak is de top-10, rechts betekent buiten de top-50.</p>
+      <div class="legend"><span><i style="background:var(--accent)"></i>Superfoods Partners</span><span><i style="background:var(--pmp)"></i>Pure Matcha Partners</span></div>
+    </div>
+    <div class="tablebox"><table id="clusters"><thead><tr><th>Topic</th><th>Markten</th><th class="r">Zoekvolume/mnd</th><th>Positie (1 → 50)</th><th>SFP</th><th>PMP</th><th>Nu #1</th><th>Doel</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section aria-labelledby="kw-h">
+    <div class="head">
+      <h2 id="kw-h">Zoektermen</h2>
+      <p class="lede">Alle gevolgde termen per markt, met maandelijks zoekvolume en de huidige top-3.</p>
+    </div>
+    <div class="chips" id="filters" role="group" aria-label="Filter op topic"></div>
+    <div class="tablebox"><table id="kw"><thead><tr><th>Zoekterm</th><th>Markt</th><th class="r">Volume</th><th>SFP</th><th>PMP</th><th>Top-3 nu</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section aria-labelledby="bl-h">
+    <div class="head">
+      <h2 id="bl-h">Backlinks</h2>
+      <p class="lede">Aantal echte verwijzende domeinen, dus zonder de automatisch gegenereerde spam-sites die naar iedereen linken. Dit is de grootste factor tussen ons en de top-3.</p>
+    </div>
+    <div class="split">
+      <div class="bars" id="bars"></div>
+      <div class="callout">
+        <b>Ruwe tellingen misleiden.</b>
+        <span>Pure Matcha Partners lijkt 1.962 verwijzende domeinen te hebben, maar ruim 80% is spam van "SEO-checker"-sites (.store, .site, .online). Concurrenten hebben hetzelfde. Gefilterd is de echte achterstand tientallen links, geen duizenden. Dat is in een paar maanden in te halen.</span>
+      </div>
+    </div>
+    <div class="head" style="margin-top:8px">
+      <h3>Link-kansen <span class="eyebrow" id="pcount" style="margin-left:8px"></span></h3>
+      <p class="lede" style="font-size:14px">Sites die naar minstens twee concurrenten linken, maar niet naar ons. Relevante (thee, food, horeca, vakmedia) eerst. Maandelijks ververst.</p>
+    </div>
+    <div class="plist" id="prospects"></div>
+  </section>
+
+  <section aria-labelledby="plan-h">
+    <div class="head">
+      <h2 id="plan-h">Roadmap Q4 2026 – Q1 2027</h2>
+      <p class="lede">De SEO-sprints en de wekelijkse blog trekken hun onderwerpen uit deze vier thema's.</p>
+    </div>
+    <div class="themes">
+      <article class="theme">
+        <span class="tag dec">Besluit nodig</span>
+        <h3>Matcha wholesale: wie van de twee?</h3>
+        <p style="font-size:14px;color:var(--muted)">Pure Matcha Partners staat al in de top-50 op 16 van de 40 termen (#9 op "matcha großhandel"). Superfoods Partners op 0. Twee sites op dezelfde termen verdelen de kracht.</p>
+        <ul><li>A: PMP pakt matcha, SFP de brede ingredient-categorieën</li><li>B: matcha bundelen op SFP, PMP linkt en verwijst door</li></ul>
+      </article>
+      <article class="theme">
+        <span class="tag">Doorlopend</span>
+        <h3>Linkprogramma</h3>
+        <ul><li>Doel: 25 echte verwijzende domeinen eind Q1 (nu 1)</li><li>3 à 4 nieuwe per maand uit de kansenlijst</li><li>Elk kwartaal één citeerbaar data-stuk (prijs- en oogstrapport)</li></ul>
+      </article>
+      <article class="theme">
+        <span class="tag">Kans</span>
+        <h3>Hojicha en ube voor B2B</h3>
+        <ul><li>"hojicha powder" en "ube powder": elk 12.100 zoekopdrachten/mnd in de VS</li><li>Top-3 is nu een webshop, Amazon of Reddit</li><li>B2B-gidsen en productpagina's die inkopers bedienen</li></ul>
+      </article>
+      <article class="theme">
+        <span class="tag">Kans</span>
+        <h3>Europa eerst</h3>
+        <ul><li>DE, FR, NL, ES, PL: lokale groothandelstermen met weinig concurrentie</li><li>Lokale landingspagina's ("Matcha Großhandel", "grossiste matcha")</li><li>Sneller resultaat dan de Amerikaanse kerntermen</li></ul>
+      </article>
+    </div>
+    <div class="cadence">
+      <div><b>Doel eind Q1 2027</b>SFP top-10 op 10 van de 40 termen</div>
+      <div><b>Doel eind Q1 2027</b>25 echte verwijzende domeinen</div>
+      <div><b>Doel eind Q1 2027</b>500 klikken per 28 dagen uit Google</div>
+      <div><b>Altijd</b>Elke aanvraag (RFQ) via Google gemeten</div>
+    </div>
+  </section>
+
+  <section aria-labelledby="bud-h">
+    <div class="head">
+      <h2 id="bud-h">Budget voor links</h2>
+      <p class="lede">Links kopen schendt de spamregels van Google en kan de site laten zakken. Budget gaat naar dingen die links verdienen. De bedragen zijn richtbudgetten per maand, exclusief beursdeelname.</p>
+    </div>
+    <div class="tiers">
+      <div class="tier"><span class="eyebrow">Basis</span><span class="amt">€ 750<small> /mnd</small></span>
+        <ul><li>Branche- en leveranciersgidsen, verenigingslidmaatschappen</li><li>Data-stuk per kwartaal, outreach door ons</li></ul></div>
+      <div class="tier rec"><span class="eyebrow">Groei · aanbevolen</span><span class="amt">€ 2.000<small> /mnd</small></span>
+        <ul><li>Alles van Basis</li><li>Freelance digital PR voor food en beverage</li><li>Redactionele stukken in vakmedia</li></ul></div>
+      <div class="tier"><span class="eyebrow">Versneld</span><span class="amt">€ 4.000+<small> /mnd</small></span>
+        <ul><li>Alles van Groei</li><li>PR-bureau, gesponsord marktonderzoek</li><li>Zichtbaarheid rond vakbeurzen</li></ul></div>
+    </div>
+    <div class="two">
+      <div class="list"><h3>Wat we automatiseren</h3>
+        <div><span class="yes">✓</span><span>Elke maand de kansenlijst: wie linkt naar concurrenten en niet naar ons</span></div>
+        <div><span class="yes">✓</span><span>Spam filteren en kansen rangschikken op relevantie en autoriteit</span></div>
+        <div><span class="yes">✓</span><span>Pitch- en outreachteksten per site, data-stukken schrijven</span></div>
+        <div><span class="yes">✓</span><span>Nieuwe en verloren links bewaken, wekelijks rapporteren</span></div></div>
+      <div class="list"><h3>Wat mensenwerk blijft</h3>
+        <div><span class="no">✕</span><span>Links kopen of linknetwerken: geen ranking-effect of een straf</span></div>
+        <div><span class="yes">✓</span><span>Contact met vakmedia, verenigingen en partners</span></div>
+        <div><span class="yes">✓</span><span>Echte data aanleveren: prijsbereiken, labresultaten, klantcases</span></div>
+        <div><span class="yes">✓</span><span>Akkoord op lidmaatschappen en PR-inzet</span></div></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="cad-h">
+    <h2 id="cad-h">Ritme</h2>
+    <div class="cadence">
+      <div><b>Maandag</b>Blog live + watchdog</div>
+      <div><b>Woensdag · om de week</b>SEO-sprint als PR, jij keurt goed</div>
+      <div><b>Vrijdag</b>Meting: posities, Google-klikken, links → dit dashboard</div>
+      <div><b>Eerste vrijdag v/d maand</b>Nieuwe link-kansenlijst</div>
+    </div>
+  </section>
+
+  <footer id="foot">Posities gemeten in de organische Google-resultaten (top-50) per markt. Zoekvolume: Google Ads, maandgemiddelde.</footer>
+</div>
+
+<script id="seed" type="application/json">__SEED__</script>
+<script>
+(function(){
+  const $=s=>document.querySelector(s);
+  const fmt=n=>n==null?"—":Number(n).toLocaleString("nl-NL");
+  const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  let active="Alle";
+  function posChip(p){
+    if(!p) return '<span class="pos none">50+</span>';
+    const c=p<=3?"t3":p<=10?"t10":"";
+    return `<span class="pos ${c}">#${p}</span>`;
+  }
+  function track(sfp,pmp){
+    const x=p=>Math.min(100,(p-1)/49*100);
+    let h='<div class="track" aria-hidden="true"><span class="zone"></span>';
+    if(pmp) h+=`<span class="dot pmp" style="left:${x(pmp)}%"></span>`;
+    if(sfp) h+=`<span class="dot sfp" style="left:${x(sfp)}%"></span>`;
+    if(!sfp) h+='<span class="off">SFP 50+</span>';
+    return h+'</div>';
+  }
+  function render(d){
+    $("#updated").textContent=new Date(d.updated+"T12:00:00").toLocaleDateString("nl-NL",{day:"numeric",month:"long",year:"numeric"});
+    const h=d.history, last=h[h.length-1], first=h[0];
+    const delta=(k)=>h.length>1&&last[k]!=null&&first[k]!=null?` <small>${last[k]-first[k]>=0?"+":""}${last[k]-first[k]} sinds ${first.date.slice(5)}</small>`:"";
+    const g=(d.gsc||{}).d28||{}, total=d.keywords.length;
+    const ref=d.ref_domains||{};
+    const leaders=Object.entries(ref).filter(([k])=>!/superfoodspartners|purematchapartners/.test(k)).map(([,v])=>v);
+    $("#kpis").innerHTML=[
+      ["SFP in top-10",`${last.sfp_top10}<small>/ ${total}</small>`+delta("sfp_top10"),`Top-3: ${last.sfp_top3} · top-50: ${last.sfp_top50}`],
+      ["PMP in top-50",`${last.pmp_top50}<small>/ ${total}</small>`,"Zustermerk, al zichtbaar op matcha"],
+      ["Klikken uit Google",`${fmt(g.clicks)}<small>28 dgn</small>`+delta("clicks28"),`${fmt(g.impressions)} vertoningen · gem. positie ${g.position?g.position.toFixed(1):"—"}`],
+      ["Echte verwijzende domeinen",`${fmt(ref["superfoodspartners.com"])}`+delta("ref_sfp"),`Concurrenten: ${leaders.length?Math.min(...leaders)+"–"+Math.max(...leaders):"—"}`],
+      ["Link-kansen",`${fmt(d.prospects_total)}`,"Linken naar ≥2 concurrenten, niet naar ons"]
+    ].map(([l,n,s])=>`<div class="kpi"><span class="eyebrow">${l}</span><span class="num">${n}</span><span class="note">${s}</span></div>`).join("");
+
+    $("#clusters tbody").innerHTML=d.clusters.map(c=>`<tr>
+      <td><b>${esc(c.name)}</b></td><td class="mono">${c.markets.join(" · ")}</td>
+      <td class="r num">${fmt(c.volume)}</td><td>${track(c.sfp_best,c.pmp_best)}</td>
+      <td>${posChip(c.sfp_best)}</td><td>${posChip(c.pmp_best)}</td>
+      <td class="top3">${esc(c.leader||"—")}</td><td style="font-size:13px;color:var(--muted)">${esc(c.target)}</td></tr>`).join("");
+
+    const names=["Alle",...d.clusters.map(c=>c.name)];
+    $("#filters").innerHTML=names.map(n=>`<button class="chip" type="button" aria-pressed="${n===active}" data-c="${esc(n)}">${esc(n)}</button>`).join("");
+    $("#filters").onclick=e=>{const b=e.target.closest(".chip"); if(!b) return; active=b.dataset.c; render(d);};
+    $("#kw tbody").innerHTML=d.keywords.filter(k=>active==="Alle"||k.cluster===active).map(k=>`<tr>
+      <td>${esc(k.keyword)}</td><td class="mono">${k.market}</td><td class="r num">${fmt(k.volume)}</td>
+      <td>${posChip(k.pos_sfp)}</td><td>${posChip(k.pos_pmp)}</td><td class="top3">${esc((k.top3||[]).join(", "))}</td></tr>`).join("");
+
+    const order=Object.entries(ref).sort((a,b)=>b[1]-a[1]), max=Math.max(1,...order.map(o=>o[1]));
+    $("#bars").innerHTML=order.map(([dom,v])=>`<div class="bar ${/superfoodspartners/.test(dom)?"us":""}"><span class="name">${esc(dom)}</span><span class="fill" style="width:${Math.max(1,v/max*100)}%"></span><span class="v">${v}</span></div>`).join("");
+
+    $("#pcount").textContent=`${d.prospects.filter(p=>p.relevant).length} relevant · ${fmt(d.prospects_total)} totaal`;
+    $("#prospects").innerHTML=d.prospects.filter(p=>p.relevant).slice(0,36).map(p=>`<div class="prospect"><a href="https://${esc(p.domain)}" target="_blank" rel="noopener">${esc(p.domain)}</a><span>linkt naar ${p.competitors}/4 concurrenten${p.rank?` · autoriteit ${p.rank}`:""}</span></div>`).join("");
+  }
+  let data=null;
+  try{ data=JSON.parse(document.getElementById("seed").textContent); render(data);}catch(e){}
+  fetch("data.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{ if(d&&(!data||d.updated>=data.updated)) render(d); }).catch(()=>{});
+})();
+</script>

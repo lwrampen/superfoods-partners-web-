@@ -1,0 +1,1765 @@
+{
+ "date": "2026-10-20",
+ "gsc": {
+  "d28": {
+   "clicks": 98,
+   "impressions": 1082,
+   "ctr": 0.0906,
+   "position": 9.7967
+  },
+  "d90": {
+   "clicks": 142,
+   "impressions": 2955,
+   "ctr": 0.0481,
+   "position": 27.0802
+  }
+ },
+ "ref_domains": {
+  "superfoodspartners.com": {
+   "count": 1,
+   "domains": [
+    "asa-matcha.com"
+   ]
+  },
+  "purematchapartners.com": {
+   "count": 1,
+   "domains": [
+    "brdg.app"
+   ]
+  },
+  "jadeleafmatcha.com": {
+   "count": 30,
+   "domains": [
+    "meegs1982.com",
+    "emailsnest.com",
+    "matchadb.com",
+    "thefeedfeed.com",
+    "sellersnooper.com",
+    "acquireprime.com",
+    "sunrisecoffee.ua",
+    "carman.uno",
+    "gorgias.help",
+    "myjapanesegreentea.com",
+    "thatasianlookingchick.com",
+    "erinrogerspickering.com",
+    "matcharonin.ch",
+    "stephanie-spring.com",
+    "promizi.com",
+    "thenoodlemagazine.net",
+    "matchaceremonialgrade.com",
+    "communitybazar.com",
+    "clientsbee.com",
+    "clean.coupons",
+    "baywestmarketing.com",
+    "famadillo.com",
+    "jadeleaf.com",
+    "mergr.com",
+    "me.sh",
+    "joinleisure.com",
+    "clay.earth",
+    "dailydetoxhacks.com",
+    "bestcoffee.reviews",
+    "straitsresearch.com"
+   ]
+  },
+  "matchaful.com": {
+   "count": 18,
+   "domains": [
+    "shopify.com",
+    "kaigaijin.jp",
+    "matchadb.com",
+    "cleantravelclub.com",
+    "oncanal.nyc",
+    "healthbyhaven.com",
+    "ywong.com",
+    "fitzenlove.com",
+    "eatchicchocolates.com",
+    "anruibio.com",
+    "karendillon.me",
+    "myteaexplorer.com",
+    "overshot.io",
+    "promizi.com",
+    "railbuff.net",
+    "matcha-times.jp",
+    "sashayogawellness.com",
+    "simplyrealhealth.com"
+   ]
+  },
+  "keichamatcha.com": {
+   "count": 1,
+   "domains": [
+    "ikedamatcha.com"
+   ]
+  },
+  "matcha.com": {
+   "count": 51,
+   "domains": [
+    "zwdh.com",
+    "betterlife.com",
+    "matchadb.com",
+    "simplecast.com",
+    "thehouseofumami.in",
+    "lauralivewell.com",
+    "matcha-8.myshopify.com",
+    "brapodd.se",
+    "sunrisecoffee.ua",
+    "budokon.com",
+    "searchlabz.com",
+    "avocadoskillet.com",
+    "nilgiristores.in",
+    "iheart.com",
+    "snipd.com",
+    "categoryhierarchies.com",
+    "matcharonin.ch",
+    "greatkenyanjobs.com",
+    "peptea.com.au",
+    "isbandytireceptai.com",
+    "carefocusdaily.com",
+    "benable.com",
+    "ekucharka.cz",
+    "sourcifychina.com",
+    "cookinginstilettos.com",
+    "storeatlas.cc",
+    "infinity-himalaya.id",
+    "mosbatesabz.com",
+    "goteaworld.com",
+    "webyourself.eu",
+    "kenzierecipes.com",
+    "clientsbee.com",
+    "promocodes.com",
+    "cikade.lv",
+    "starbucksfaqs.com",
+    "mawduat360.com",
+    "blendnewyork.com",
+    "loveandlemons.com",
+    "sydneynavid.com",
+    "thedonut.co"
+   ]
+  }
+ },
+ "link_gap": [
+  {
+   "domain": "matchadb.com",
+   "competitors": 3,
+   "rank": 123,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "teabrands.org",
+   "competitors": 3,
+   "rank": 23,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "teaformeplease.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "sashayogawellness.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "sunrisecoffee.ua",
+   "competitors": 2,
+   "rank": 79,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "matcharonin.ch",
+   "competitors": 2,
+   "rank": 58,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "teatrade.co.uk",
+   "competitors": 2,
+   "rank": 24,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "steamykitchen.com",
+   "competitors": 2,
+   "rank": 14,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "matchafound.com",
+   "competitors": 2,
+   "rank": 10,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "teajubilee.com",
+   "competitors": 2,
+   "rank": 10,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "kyotogeishamatcha.com",
+   "competitors": 2,
+   "rank": 6,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "matchatealeaf.com",
+   "competitors": 2,
+   "rank": 1,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "myteaexplorer.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "greentea.buzz",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "lovedrecipe.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "weekendrecipes.net",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "coffeehouseconfessionals.blogspot.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "foodyas.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "thebestmatchapowder.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "atlantacoffeeshops.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "strictlyteas.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "specialtyfood.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "keichamatcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "worldteanews.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "theteahousetimes.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "yokomatcha.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "best-matcha.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "booboosbakery.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "zentea.dk",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "onewithtea.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "ujiha.au",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "themanamatcha.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "zulaykitchen.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "siteprice.org",
+   "competitors": 4,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "nombase.com",
+   "competitors": 4,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "daisye.pages.dev",
+   "competitors": 4,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "searchlabz.com",
+   "competitors": 3,
+   "rank": 28,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "scrollstash.com",
+   "competitors": 3,
+   "rank": 10,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "evolize.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ccof.org",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "summarizereviews.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "couponly.ai",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "17track.net",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "sorate.co",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "intelmarketresearch.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "zoominfo.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "simplycodes.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "internetresearchunit.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "grokipedia.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "lusha.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "keichamatcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "crunchbase.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "beehiiv.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "spoonuniversity.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "trenquilityrainedrops.blogspot.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "camillestyles.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "hercampus.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "tastingtable.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "toppodcast.com",
+   "competitors": 3,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "emailsnest.com",
+   "competitors": 2,
+   "rank": 150,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "promizi.com",
+   "competitors": 2,
+   "rank": 51,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "clientsbee.com",
+   "competitors": 2,
+   "rank": 51,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "clay.earth",
+   "competitors": 2,
+   "rank": 35,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "edu.ag",
+   "competitors": 2,
+   "rank": 23,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "cbinsights.com",
+   "competitors": 2,
+   "rank": 15,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ispillice.com",
+   "competitors": 2,
+   "rank": 9,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "mycozo.com",
+   "competitors": 2,
+   "rank": 7,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "healfulfil.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "wethrift.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "storecensus.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "serpex.ai",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "facebystace.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "aventure.vc",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "milled.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ovalware.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ahzfsw.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "oppalerts.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "aljazeera.net",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "forbes.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "nycforfree.co",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "dietofcommonsense.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "bipns.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ucsb.edu",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "bestieai.app",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "plateinminutes.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "dontpayfull.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "lovefreebie.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "muscleandfitness.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "yunihealth.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "mummy-time.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "chowhound.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "fitnessvivid.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "bestsellers.ai",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "accessibility.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "c212.net",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "particl.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "leadiq.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "siamcoolermart.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "feedspot.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "beautynewsnycofficial.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "oheltorah.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "nymag.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "thefruityjem.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "brit.co",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ubc.ca",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ofjensweets.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "netzender.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "thebobasocial.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "theforkbite.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "keichamatcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "beheathandwellsness.blogspot.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "simmerandsage.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ohdaisey.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "dowellwebtools.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "prnewswire.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "thezoereport.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "willettonuniforms.com.au",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "mashed.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "couponupto.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "fitonapp.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "thedetoxlady.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "asweatlife.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "naturalthrive.co.uk",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "whats-the-buzz.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "bonappetit.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "breakfastcriminals.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "wellandgood.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "centralc.pages.dev",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "cna.st",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "codcourier.org",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "dailydishhaven.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ehl.edu",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "avoiceforchoiceadvocacy.org",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "familyfeastguide.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "fayn.press",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "keichamatcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "gedd.it",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "greenmatters.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "healthfitnessrevolution.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "hospitalitynet.org",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "huffingtonpost.co.uk",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "iheart.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "jetro.go.jp",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "kapook.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "kitrusy.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "mapquest.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "keichamatcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "ansi.org",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "mawduat360.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "mentalfloss.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "alltheedge.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "patch.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "publichealthpolicyjournal.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "roamingtaste.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "saturdayeveningpost.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "urbannaturale.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "sohoinchina.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "twig.pl",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "sourcifychina.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "sydneynavid.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "6amcity.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "the-peak.ca",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "the-qi.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  },
+  {
+   "domain": "therefinedhippie.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": false
+  }
+ ],
+ "cost_usd": 0.188
+}
