@@ -24,3 +24,7 @@ python3 seo_metrics.py pmp/snapshots/metrics-$D.json --site=pmp [--no-linkgap]
 python3 build_data.py pmp/snapshots pmp/dashboard/data.json pmp
 ```
 `build_data.py <dir> <out> sfp|pmp` sets the primary brand; the dashboard template reads `primary` from data.json.
+
+### PMP site snapshot (`seo/pmp/site/`)
+`pages.json` (page id, path, SEO title/description) and `blogs.json` (CMS blog items, word count, links) exported from Webflow, because routine sessions cannot reach Webflow. Refreshed by the main session after every applied sprint.
+Webflow ids: site `6798bd1e4b234bad93cdaa9c`, Blogs collection `6798bd1e4b234bad93cdab3d` (fields: name, slug, blog-summary, blog-post-body, blog-post-body-two, blog-category, writer-detail, blog-date, blog-main-image, blog-thumbnail-image), locales EN (primary), ES (/es), DE (/de).
