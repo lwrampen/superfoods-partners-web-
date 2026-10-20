@@ -126,9 +126,9 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
     <div class="head">
       <h2 id="clu-h">Topics</h2>
       <p class="lede">Beste positie per onderwerp over alle gevolgde markten. Het groene vak is de top-10, rechts betekent buiten de top-50.</p>
-      <div class="legend"><span><i style="background:var(--accent)"></i>Superfoods Partners</span><span><i style="background:var(--pmp)"></i>Pure Matcha Partners</span></div>
+      <div class="legend"><span><i style="background:var(--accent)"></i><span id="lg-me">Superfoods Partners</span></span><span><i style="background:var(--pmp)"></i><span id="lg-ot">Pure Matcha Partners</span></span></div>
     </div>
-    <div class="tablebox"><table id="clusters"><thead><tr><th>Topic</th><th>Markten</th><th class="r">Zoekvolume/mnd</th><th>Positie (1 → 50)</th><th>SFP</th><th>PMP</th><th>Nu #1</th><th>Doel</th></tr></thead><tbody></tbody></table></div>
+    <div class="tablebox"><table id="clusters"><thead><tr><th>Topic</th><th>Markten</th><th class="r">Zoekvolume/mnd</th><th>Positie (1 → 50)</th><th id="h-me">SFP</th><th id="h-ot">PMP</th><th>Nu #1</th><th>Doel</th></tr></thead><tbody></tbody></table></div>
   </section>
 
   <section aria-labelledby="kw-h">
@@ -137,7 +137,7 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
       <p class="lede">Alle gevolgde termen per markt, met maandelijks zoekvolume en de huidige top-3.</p>
     </div>
     <div class="chips" id="filters" role="group" aria-label="Filter op topic"></div>
-    <div class="tablebox"><table id="kw"><thead><tr><th>Zoekterm</th><th>Markt</th><th class="r">Volume</th><th>SFP</th><th>PMP</th><th>Top-3 nu</th></tr></thead><tbody></tbody></table></div>
+    <div class="tablebox"><table id="kw"><thead><tr><th>Zoekterm</th><th>Markt</th><th class="r">Volume</th><th id="k-me">SFP</th><th id="k-ot">PMP</th><th>Top-3 nu</th></tr></thead><tbody></tbody></table></div>
   </section>
 
   <section aria-labelledby="bl-h">
@@ -247,15 +247,19 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
     const c=p<=3?"t3":p<=10?"t10":"";
     return `<span class="pos ${c}">#${p}</span>`;
   }
-  function track(sfp,pmp){
+  function track(me,ot){
     const x=p=>Math.min(100,(p-1)/49*100);
     let h='<div class="track" aria-hidden="true"><span class="zone"></span>';
-    if(pmp) h+=`<span class="dot pmp" style="left:${x(pmp)}%"></span>`;
-    if(sfp) h+=`<span class="dot sfp" style="left:${x(sfp)}%"></span>`;
-    if(!sfp) h+='<span class="off">SFP 50+</span>';
+    if(ot) h+=`<span class="dot pmp" style="left:${x(ot)}%"></span>`;
+    if(me) h+=`<span class="dot sfp" style="left:${x(me)}%"></span>`;
+    if(!me) h+=`<span class="off">${B.me} 50+</span>`;
     return h+'</div>';
   }
+  let B={me:'SFP',ot:'PMP',meName:'Superfoods Partners',otName:'Pure Matcha Partners',meDom:'superfoodspartners.com',meKey:'sfp',otKey:'pmp'};
   function render(d){
+    if(d.primary==='pmp') B={me:'PMP',ot:'SFP',meName:'Pure Matcha Partners',otName:'Superfoods Partners',meDom:'purematchapartners.com',meKey:'pmp',otKey:'sfp'};
+    ['h-me','k-me'].forEach(i=>$('#'+i).textContent=B.me); ['h-ot','k-ot'].forEach(i=>$('#'+i).textContent=B.ot);
+    $('#lg-me').textContent=B.meName; $('#lg-ot').textContent=B.otName;
     $("#updated").textContent=new Date(d.updated+"T12:00:00").toLocaleDateString("nl-NL",{day:"numeric",month:"long",year:"numeric"});
     const h=d.history, last=h[h.length-1], first=h[0];
     const delta=(k)=>h.length>1&&last[k]!=null&&first[k]!=null?` <small>${last[k]-first[k]>=0?"+":""}${last[k]-first[k]} sinds ${first.date.slice(5)}</small>`:"";
@@ -263,17 +267,17 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
     const ref=d.ref_domains||{};
     const leaders=Object.entries(ref).filter(([k])=>!/superfoodspartners|purematchapartners/.test(k)).map(([,v])=>v);
     $("#kpis").innerHTML=[
-      ["SFP in top-10",`${last.sfp_top10}<small>/ ${total}</small>`+delta("sfp_top10"),`Top-3: ${last.sfp_top3} · top-50: ${last.sfp_top50}`],
-      ["PMP in top-50",`${last.pmp_top50}<small>/ ${total}</small>`,"Zustermerk, al zichtbaar op matcha"],
+      [`${B.me} in top-10`,`${last.sfp_top10}<small>/ ${total}</small>`+delta("sfp_top10"),`Top-3: ${last.sfp_top3} · top-50: ${last.sfp_top50}`],
+      [`${B.ot} in top-50`,`${last.pmp_top50}<small>/ ${total}</small>`,"Zustermerk op dezelfde termen"],
       ["Klikken uit Google",`${fmt(g.clicks)}<small>28 dgn</small>`+delta("clicks28"),`${fmt(g.impressions)} vertoningen · gem. positie ${g.position?g.position.toFixed(1):"—"}`],
-      ["Echte verwijzende domeinen",`${fmt(ref["superfoodspartners.com"])}`+delta("ref_sfp"),`Concurrenten: ${leaders.length?Math.min(...leaders)+"–"+Math.max(...leaders):"—"}`],
+      ["Echte verwijzende domeinen",`${fmt(ref[B.meDom])}`+delta("ref_sfp"),`Concurrenten: ${leaders.length?Math.min(...leaders)+"–"+Math.max(...leaders):"—"}`],
       ["Link-kansen",`${fmt(d.prospects_total)}`,"Linken naar ≥2 concurrenten, niet naar ons"]
     ].map(([l,n,s])=>`<div class="kpi"><span class="eyebrow">${l}</span><span class="num">${n}</span><span class="note">${s}</span></div>`).join("");
 
     $("#clusters tbody").innerHTML=d.clusters.map(c=>`<tr>
       <td><b>${esc(c.name)}</b></td><td class="mono">${c.markets.join(" · ")}</td>
-      <td class="r num">${fmt(c.volume)}</td><td>${track(c.sfp_best,c.pmp_best)}</td>
-      <td>${posChip(c.sfp_best)}</td><td>${posChip(c.pmp_best)}</td>
+      <td class="r num">${fmt(c.volume)}</td><td>${track(c[B.meKey+"_best"],c[B.otKey+"_best"])}</td>
+      <td>${posChip(c[B.meKey+"_best"])}</td><td>${posChip(c[B.otKey+"_best"])}</td>
       <td class="top3">${esc(c.leader||"—")}</td><td style="font-size:13px;color:var(--muted)">${esc(c.target)}</td></tr>`).join("");
 
     const names=["Alle",...d.clusters.map(c=>c.name)];
@@ -281,10 +285,10 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
     $("#filters").onclick=e=>{const b=e.target.closest(".chip"); if(!b) return; active=b.dataset.c; render(d);};
     $("#kw tbody").innerHTML=d.keywords.filter(k=>active==="Alle"||k.cluster===active).map(k=>`<tr>
       <td>${esc(k.keyword)}</td><td class="mono">${k.market}</td><td class="r num">${fmt(k.volume)}</td>
-      <td>${posChip(k.pos_sfp)}</td><td>${posChip(k.pos_pmp)}</td><td class="top3">${esc((k.top3||[]).join(", "))}</td></tr>`).join("");
+      <td>${posChip(k["pos_"+B.meKey])}</td><td>${posChip(k["pos_"+B.otKey])}</td><td class="top3">${esc((k.top3||[]).join(", "))}</td></tr>`).join("");
 
     const order=Object.entries(ref).sort((a,b)=>b[1]-a[1]), max=Math.max(1,...order.map(o=>o[1]));
-    $("#bars").innerHTML=order.map(([dom,v])=>`<div class="bar ${/superfoodspartners/.test(dom)?"us":""}"><span class="name">${esc(dom)}</span><span class="fill" style="width:${Math.max(1,v/max*100)}%"></span><span class="v">${v}</span></div>`).join("");
+    $("#bars").innerHTML=order.map(([dom,v])=>`<div class="bar ${dom===B.meDom?"us":""}"><span class="name">${esc(dom)}</span><span class="fill" style="width:${Math.max(1,v/max*100)}%"></span><span class="v">${v}</span></div>`).join("");
 
     $("#pcount").textContent=`${d.prospects.filter(p=>p.relevant).length} relevant · ${fmt(d.prospects_total)} totaal`;
     $("#prospects").innerHTML=d.prospects.filter(p=>p.relevant).slice(0,36).map(p=>`<div class="prospect"><a href="https://${esc(p.domain)}" target="_blank" rel="noopener">${esc(p.domain)}</a><span>linkt naar ${p.competitors}/4 concurrenten${p.rank?` · autoriteit ${p.rank}`:""}</span></div>`).join("");

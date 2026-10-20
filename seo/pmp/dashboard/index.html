@@ -1,0 +1,301 @@
+<title>PMP Search Command</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: instrument panel — status line, scoreboard per topic, then the evidence (keywords, links), then the plan. SFP brand v4 tokens. */
+:root{
+  --bg:#fbfff6; --surface:#ffffff; --sand:#eef2e3; --fg:#19220f; --muted:#5b6650; --faint:#8b9480;
+  --line:#e0e3d6; --accent:#8cc541; --accent-ink:#3f6b12; --pmp:#565b4e;
+  --good:#3f8f1f; --warn:#b26a00; --bad:#a3302a;
+  --head:#1c4b0c;
+  --display:"Anton",Impact,"Arial Narrow",sans-serif;
+  --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10180b; --surface:#16210f; --sand:#1c2914; --fg:#eef1e8; --muted:#b4bba9; --faint:#7f8875;
+  --line:rgba(238,241,232,.12); --accent:#9fd456; --accent-ink:#b9e37c; --pmp:#8fcba0;
+  --good:#7fcf5a; --warn:#e3a54a; --bad:#ef7a70; --head:#b9e37c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10180b; --surface:#16210f; --sand:#1c2914; --fg:#eef1e8; --muted:#b4bba9; --faint:#7f8875;
+  --line:rgba(238,241,232,.12); --accent:#9fd456; --accent-ink:#b9e37c; --pmp:#8fcba0;
+  --good:#7fcf5a; --warn:#e3a54a; --bad:#ef7a70; --head:#b9e37c; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;gap:44px}
+h1,h2{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.01em;margin:0;text-wrap:balance}
+h1{font-size:clamp(34px,6vw,54px);line-height:1;color:var(--head)}
+h2{color:var(--head)}
+h2{font-size:clamp(24px,3.4vw,32px);line-height:1.05}
+h3{font-size:15px;margin:0;font-weight:600}
+p{margin:0;max-width:68ch}
+.mono,.eyebrow,.num,table{font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--muted);font-size:16px}
+section{display:grid;gap:18px;min-width:0}
+.head{display:grid;gap:10px}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:2px solid var(--fg);padding-bottom:18px}
+.stamp{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right}
+.stamp b{color:var(--fg);font-weight:500}
+/* KPI strip */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.kpi{background:var(--surface);padding:16px 18px;display:grid;gap:6px;align-content:start}
+.kpi .num{font-family:var(--display);font-size:38px;line-height:1}
+.kpi .num small{font-family:var(--mono);font-size:13px;color:var(--muted);margin-left:6px}
+.kpi .note{font-size:12.5px;color:var(--muted)}
+/* scoreboard */
+.tablebox{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:500;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+.track{position:relative;height:18px;min-width:180px}
+.track::before{content:"";position:absolute;left:0;right:0;top:8px;height:2px;background:var(--sand)}
+.track .zone{position:absolute;top:4px;height:10px;left:0;width:20%;background:color-mix(in srgb,var(--accent) 28%,transparent);border-radius:2px}
+.track .dot{position:absolute;top:2px;width:14px;height:14px;border-radius:50%;transform:translateX(-50%);border:2px solid var(--surface)}
+.dot.sfp{background:var(--accent)} .dot.pmp{background:var(--pmp)}
+.track .off{position:absolute;right:0;top:-1px;font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:12.5px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.pos{display:inline-block;min-width:38px;text-align:center;font-family:var(--mono);font-size:12.5px;padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.pos.t3{background:var(--accent);border-color:var(--accent);color:#16240f}
+.pos.t10{border-color:var(--accent);color:var(--accent-ink)}
+.pos.none{border-style:dashed;color:var(--faint)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:500 13px var(--body);padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.top3{font-family:var(--mono);font-size:12px;color:var(--muted)}
+/* backlinks */
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+@media (max-width:820px){.split{grid-template-columns:1fr}}
+.bars{display:grid;gap:10px}
+.bar{display:grid;grid-template-columns:minmax(120px,170px) minmax(0,1fr) 34px;gap:10px;align-items:center;font-size:13.5px}
+.bar .fill{height:12px;background:var(--faint);border-radius:2px;min-width:2px}
+.bar.us .fill{background:var(--accent)}
+.bar.us .name{font-weight:600}
+.bar .v{font-family:var(--mono);text-align:right}
+.callout{border-left:3px solid var(--warn);background:var(--surface);padding:14px 16px;display:grid;gap:6px;font-size:14px}
+.callout.decide{border-left-color:var(--bad)}
+.callout b{font-weight:600}
+.plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.prospect{background:var(--surface);padding:10px 14px;display:grid;gap:2px;min-width:0}
+.prospect a{color:var(--fg);font-weight:600;text-decoration:none;overflow-wrap:anywhere}
+.prospect a:hover{text-decoration:underline}
+.prospect span{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+/* plan */
+.themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.theme{background:var(--surface);border:1px solid var(--line);padding:18px;display:grid;gap:10px;align-content:start}
+.theme .tag{justify-self:start;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:3px;background:var(--sand);color:var(--muted)}
+.theme .tag.dec{background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+.theme ul,.tiers ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--muted)}
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.tier{border-top:3px solid var(--sand);padding-top:12px;display:grid;gap:8px;align-content:start}
+.tier.rec{border-top-color:var(--accent)}
+.tier .amt{font-family:var(--display);font-size:28px;line-height:1}
+.tier .amt small{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.list{display:grid;gap:8px;font-size:14px}
+.list div{display:grid;grid-template-columns:22px minmax(0,1fr);gap:8px}
+.yes{color:var(--good);font-weight:700} .no{color:var(--bad);font-weight:700}
+.cadence{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.cadence div{background:var(--surface);padding:12px 14px;display:grid;gap:2px;font-size:13.5px}
+.cadence b{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padding-top:14px}
+@media (prefers-reduced-motion:no-preference){.dot{transition:left .4s ease}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="head">
+      <span class="eyebrow">Pure Matcha Partners · online vindbaarheid</span>
+      <h1>PMP Search Command</h1>
+      <p class="lede">De matcha-specialist van de groep. Waar we staan op de zoektermen van inkopers in de VS en Europa, en wat we doen om van pagina 2 naar de top-3 te komen.</p>
+    </div>
+    <div class="stamp">Laatste meting <b id="updated">—</b><br>Wekelijks bijgewerkt · bron: Google Search Console, DataforSEO</div>
+  </header>
+
+  <section aria-labelledby="kpi-h">
+    <h2 id="kpi-h" class="eyebrow" style="font-family:var(--mono);font-size:11.5px">Stand van zaken</h2>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section aria-labelledby="clu-h">
+    <div class="head">
+      <h2 id="clu-h">Topics</h2>
+      <p class="lede">Beste positie per onderwerp over alle gevolgde markten. Het groene vak is de top-10, rechts betekent buiten de top-50.</p>
+      <div class="legend"><span><i style="background:var(--accent)"></i><span id="lg-me">Superfoods Partners</span></span><span><i style="background:var(--pmp)"></i><span id="lg-ot">Pure Matcha Partners</span></span></div>
+    </div>
+    <div class="tablebox"><table id="clusters"><thead><tr><th>Topic</th><th>Markten</th><th class="r">Zoekvolume/mnd</th><th>Positie (1 → 50)</th><th id="h-me">SFP</th><th id="h-ot">PMP</th><th>Nu #1</th><th>Doel</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section aria-labelledby="kw-h">
+    <div class="head">
+      <h2 id="kw-h">Zoektermen</h2>
+      <p class="lede">Alle gevolgde termen per markt, met maandelijks zoekvolume en de huidige top-3.</p>
+    </div>
+    <div class="chips" id="filters" role="group" aria-label="Filter op topic"></div>
+    <div class="tablebox"><table id="kw"><thead><tr><th>Zoekterm</th><th>Markt</th><th class="r">Volume</th><th id="k-me">SFP</th><th id="k-ot">PMP</th><th>Top-3 nu</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section aria-labelledby="bl-h">
+    <div class="head">
+      <h2 id="bl-h">Backlinks</h2>
+      <p class="lede">Aantal echte verwijzende domeinen, dus zonder de automatisch gegenereerde spam-sites die naar iedereen linken. Dit is de grootste factor tussen ons en de top-3.</p>
+    </div>
+    <div class="split">
+      <div class="bars" id="bars"></div>
+      <div class="callout">
+        <b>Sterk in Google, zwak in links.</b>
+        <span>PMP krijgt 104.000 vertoningen per 28 dagen, maar heeft na het wegfilteren van spam maar 1 echt verwijzend domein. De ruwe 1.962 zijn "SEO-checker"-sites. Echte links zijn het verschil tussen positie 13–30 en de top-3 op "matcha wholesale".</span>
+      </div>
+    </div>
+    <div class="head" style="margin-top:8px">
+      <h3>Link-kansen <span class="eyebrow" id="pcount" style="margin-left:8px"></span></h3>
+      <p class="lede" style="font-size:14px">Sites die naar minstens twee concurrenten linken, maar niet naar ons. Relevante (thee, food, horeca, vakmedia) eerst. Maandelijks ververst.</p>
+    </div>
+    <div class="plist" id="prospects"></div>
+  </section>
+
+  <section aria-labelledby="plan-h">
+    <div class="head">
+      <h2 id="plan-h">Roadmap Q4 2026 – Q1 2027</h2>
+      <p class="lede">Besloten 20 oktober: matcha en hojicha lopen via Pure Matcha Partners. De PMP-sprints trekken hun onderwerpen uit deze thema's.</p>
+    </div>
+    <div class="themes">
+      <article class="theme">
+        <span class="tag">Snelste winst</span>
+        <h3>Matcha wholesale naar de top-10</h3>
+        <ul><li>"matcha supplier" #13, "wholesale matcha" #14, "ceremonial matcha wholesale" #19, "matcha wholesale" #22, "bulk matcha" #30</li><li>Homepage en de supplier-pagina's scherper op deze termen, interne links, FAQ- en productschema</li></ul>
+      </article>
+      <article class="theme">
+        <span class="tag">Snelste winst</span>
+        <h3>Meer klikken uit dezelfde vertoningen</h3>
+        <ul><li>104.000 vertoningen, maar 1% klikt (1.051 klikken in 28 dagen)</li><li>Titels en omschrijvingen herschrijven van de pagina's met de meeste vertoningen</li><li>Doel: 2% klikratio, ongeveer een verdubbeling van de klikken</li></ul>
+      </article>
+      <article class="theme">
+        <span class="tag">Kans</span>
+        <h3>Europa: van aanwezig naar #1</h3>
+        <ul><li>#1 "proveedor de matcha", #4 "matcha grossist", #9 "matcha großhandel", #14 "matcha inkopen"</li><li>Nog niet zichtbaar in FR, PL, DK en CH</li><li>Lokale pagina's uitbreiden waar de vraag het grootst is</li></ul>
+      </article>
+      <article class="theme">
+        <span class="tag">Doorlopend</span>
+        <h3>Linkprogramma en opschonen</h3>
+        <ul><li>Van 1 naar 25 echte verwijzende domeinen, gedeeld met het SFP-programma</li><li>Dubbele post "Matcha Grades Explained" samenvoegen</li><li>Afbakening met SFP: ube-content hoort op de SFP-hub</li></ul>
+      </article>
+    </div>
+    <div class="cadence">
+      <div><b>Doel eind Q1 2027</b>PMP top-10 op 20 van de 44 termen (nu 10)</div>
+      <div><b>Doel eind Q1 2027</b>2.000 klikken per 28 dagen (nu 1.051)</div>
+      <div><b>Doel eind Q1 2027</b>Klikratio 2% (nu 1,0%)</div>
+      <div><b>Doel eind Q1 2027</b>25 echte verwijzende domeinen (nu 1)</div>
+    </div>
+  </section>
+
+  <section aria-labelledby="bud-h">
+    <div class="head">
+      <h2 id="bud-h">Budget voor links</h2>
+      <p class="lede">Eén linkbudget voor SFP en PMP samen; elke link-kans wordt aan het merk gekoppeld waar hij het meest oplevert. Links kopen schendt de spamregels van Google. De bedragen zijn richtbudgetten per maand, exclusief beursdeelname.</p>
+    </div>
+    <div class="tiers">
+      <div class="tier"><span class="eyebrow">Basis</span><span class="amt">€ 750<small> /mnd</small></span>
+        <ul><li>Branche- en leveranciersgidsen, verenigingslidmaatschappen</li><li>Data-stuk per kwartaal, outreach door ons</li></ul></div>
+      <div class="tier rec"><span class="eyebrow">Groei · aanbevolen</span><span class="amt">€ 2.000<small> /mnd</small></span>
+        <ul><li>Alles van Basis</li><li>Freelance digital PR voor food en beverage</li><li>Redactionele stukken in vakmedia</li></ul></div>
+      <div class="tier"><span class="eyebrow">Versneld</span><span class="amt">€ 4.000+<small> /mnd</small></span>
+        <ul><li>Alles van Groei</li><li>PR-bureau, gesponsord marktonderzoek</li><li>Zichtbaarheid rond vakbeurzen</li></ul></div>
+    </div>
+    <div class="two">
+      <div class="list"><h3>Wat we automatiseren</h3>
+        <div><span class="yes">✓</span><span>Elke maand de kansenlijst: wie linkt naar concurrenten en niet naar ons</span></div>
+        <div><span class="yes">✓</span><span>Spam filteren en kansen rangschikken op relevantie en autoriteit</span></div>
+        <div><span class="yes">✓</span><span>Pitch- en outreachteksten per site, data-stukken schrijven</span></div>
+        <div><span class="yes">✓</span><span>Nieuwe en verloren links bewaken, wekelijks rapporteren</span></div></div>
+      <div class="list"><h3>Wat mensenwerk blijft</h3>
+        <div><span class="no">✕</span><span>Links kopen of linknetwerken: geen ranking-effect of een straf</span></div>
+        <div><span class="yes">✓</span><span>Contact met vakmedia, verenigingen en partners</span></div>
+        <div><span class="yes">✓</span><span>Echte data aanleveren: prijsbereiken, labresultaten, klantcases</span></div>
+        <div><span class="yes">✓</span><span>Akkoord op lidmaatschappen en PR-inzet</span></div></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="cad-h">
+    <h2 id="cad-h">Ritme</h2>
+    <div class="cadence">
+      <div><b>Donderdag</b>Meting: posities, Google-klikken, links → dit dashboard</div>
+      <div><b>Woensdag · om de week</b>PMP-sprint in Webflow, pas live na jouw akkoord</div>
+      <div><b>Woensdag · zelfde dag</b>Ik zet de wijzigingen met advies voor je klaar</div>
+      <div><b>Eerste donderdag v/d maand</b>Nieuwe link-kansenlijst</div>
+    </div>
+  </section>
+
+  <footer id="foot">Posities gemeten in de organische Google-resultaten (top-50) per markt. Zoekvolume: Google Ads, maandgemiddelde.</footer>
+</div>
+
+<script id="seed" type="application/json">__SEED__</script>
+<script>
+(function(){
+  const $=s=>document.querySelector(s);
+  const fmt=n=>n==null?"—":Number(n).toLocaleString("nl-NL");
+  const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  let active="Alle";
+  function posChip(p){
+    if(!p) return '<span class="pos none">50+</span>';
+    const c=p<=3?"t3":p<=10?"t10":"";
+    return `<span class="pos ${c}">#${p}</span>`;
+  }
+  function track(me,ot){
+    const x=p=>Math.min(100,(p-1)/49*100);
+    let h='<div class="track" aria-hidden="true"><span class="zone"></span>';
+    if(ot) h+=`<span class="dot pmp" style="left:${x(ot)}%"></span>`;
+    if(me) h+=`<span class="dot sfp" style="left:${x(me)}%"></span>`;
+    if(!me) h+=`<span class="off">${B.me} 50+</span>`;
+    return h+'</div>';
+  }
+  let B={me:'SFP',ot:'PMP',meName:'Superfoods Partners',otName:'Pure Matcha Partners',meDom:'superfoodspartners.com',meKey:'sfp',otKey:'pmp'};
+  function render(d){
+    if(d.primary==='pmp') B={me:'PMP',ot:'SFP',meName:'Pure Matcha Partners',otName:'Superfoods Partners',meDom:'purematchapartners.com',meKey:'pmp',otKey:'sfp'};
+    ['h-me','k-me'].forEach(i=>$('#'+i).textContent=B.me); ['h-ot','k-ot'].forEach(i=>$('#'+i).textContent=B.ot);
+    $('#lg-me').textContent=B.meName; $('#lg-ot').textContent=B.otName;
+    $("#updated").textContent=new Date(d.updated+"T12:00:00").toLocaleDateString("nl-NL",{day:"numeric",month:"long",year:"numeric"});
+    const h=d.history, last=h[h.length-1], first=h[0];
+    const delta=(k)=>h.length>1&&last[k]!=null&&first[k]!=null?` <small>${last[k]-first[k]>=0?"+":""}${last[k]-first[k]} sinds ${first.date.slice(5)}</small>`:"";
+    const g=(d.gsc||{}).d28||{}, total=d.keywords.length;
+    const ref=d.ref_domains||{};
+    const leaders=Object.entries(ref).filter(([k])=>!/superfoodspartners|purematchapartners/.test(k)).map(([,v])=>v);
+    $("#kpis").innerHTML=[
+      [`${B.me} in top-10`,`${last.sfp_top10}<small>/ ${total}</small>`+delta("sfp_top10"),`Top-3: ${last.sfp_top3} · top-50: ${last.sfp_top50}`],
+      [`${B.ot} in top-50`,`${last.pmp_top50}<small>/ ${total}</small>`,"Zustermerk op dezelfde termen"],
+      ["Klikken uit Google",`${fmt(g.clicks)}<small>28 dgn</small>`+delta("clicks28"),`${fmt(g.impressions)} vertoningen · gem. positie ${g.position?g.position.toFixed(1):"—"}`],
+      ["Echte verwijzende domeinen",`${fmt(ref[B.meDom])}`+delta("ref_sfp"),`Concurrenten: ${leaders.length?Math.min(...leaders)+"–"+Math.max(...leaders):"—"}`],
+      ["Link-kansen",`${fmt(d.prospects_total)}`,"Linken naar ≥2 concurrenten, niet naar ons"]
+    ].map(([l,n,s])=>`<div class="kpi"><span class="eyebrow">${l}</span><span class="num">${n}</span><span class="note">${s}</span></div>`).join("");
+
+    $("#clusters tbody").innerHTML=d.clusters.map(c=>`<tr>
+      <td><b>${esc(c.name)}</b></td><td class="mono">${c.markets.join(" · ")}</td>
+      <td class="r num">${fmt(c.volume)}</td><td>${track(c[B.meKey+"_best"],c[B.otKey+"_best"])}</td>
+      <td>${posChip(c[B.meKey+"_best"])}</td><td>${posChip(c[B.otKey+"_best"])}</td>
+      <td class="top3">${esc(c.leader||"—")}</td><td style="font-size:13px;color:var(--muted)">${esc(c.target)}</td></tr>`).join("");
+
+    const names=["Alle",...d.clusters.map(c=>c.name)];
+    $("#filters").innerHTML=names.map(n=>`<button class="chip" type="button" aria-pressed="${n===active}" data-c="${esc(n)}">${esc(n)}</button>`).join("");
+    $("#filters").onclick=e=>{const b=e.target.closest(".chip"); if(!b) return; active=b.dataset.c; render(d);};
+    $("#kw tbody").innerHTML=d.keywords.filter(k=>active==="Alle"||k.cluster===active).map(k=>`<tr>
+      <td>${esc(k.keyword)}</td><td class="mono">${k.market}</td><td class="r num">${fmt(k.volume)}</td>
+      <td>${posChip(k["pos_"+B.meKey])}</td><td>${posChip(k["pos_"+B.otKey])}</td><td class="top3">${esc((k.top3||[]).join(", "))}</td></tr>`).join("");
+
+    const order=Object.entries(ref).sort((a,b)=>b[1]-a[1]), max=Math.max(1,...order.map(o=>o[1]));
+    $("#bars").innerHTML=order.map(([dom,v])=>`<div class="bar ${dom===B.meDom?"us":""}"><span class="name">${esc(dom)}</span><span class="fill" style="width:${Math.max(1,v/max*100)}%"></span><span class="v">${v}</span></div>`).join("");
+
+    $("#pcount").textContent=`${d.prospects.filter(p=>p.relevant).length} relevant · ${fmt(d.prospects_total)} totaal`;
+    $("#prospects").innerHTML=d.prospects.filter(p=>p.relevant).slice(0,36).map(p=>`<div class="prospect"><a href="https://${esc(p.domain)}" target="_blank" rel="noopener">${esc(p.domain)}</a><span>linkt naar ${p.competitors}/4 concurrenten${p.rank?` · autoriteit ${p.rank}`:""}</span></div>`).join("");
+  }
+  let data=null;
+  try{ data=JSON.parse(document.getElementById("seed").textContent); render(data);}catch(e){}
+  fetch("data.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{ if(d&&(!data||d.updated>=data.updated)) render(d); }).catch(()=>{});
+})();
+</script>

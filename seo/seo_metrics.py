@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """SFP SEO metrics snapshot: Search Console totals, quality backlink counts vs competitors,
 and the competitor link-gap prospect list (spam filtered).
-Usage: python3 seo_metrics.py out.json [--no-linkgap]"""
+Usage: python3 seo_metrics.py out.json [--no-linkgap] [--site=pmp]"""
 import os, sys, json, base64, datetime, urllib.request, urllib.parse
 
 DFS = base64.b64encode(f'{os.environ["DATAFORSEO_USERNAME"]}:{os.environ["DATAFORSEO_PASSWORD"]}'.encode()).decode()
@@ -22,7 +22,7 @@ def dfs(path, payload):
     return r
 
 
-def gsc():
+def gsc(prop):
     data = urllib.parse.urlencode({"client_id": os.environ["GOOGLE_CLIENT_ID"],
                                    "client_secret": os.environ["GOOGLE_CLIENT_SECRET"],
                                    "refresh_token": os.environ["GOOGLE_REFRESH_TOKEN"],
@@ -33,7 +33,7 @@ def gsc():
     for days in (28, 90):
         body = {"startDate": str(end - datetime.timedelta(days=days - 1)), "endDate": str(end)}
         req = urllib.request.Request(
-            "https://www.googleapis.com/webmasters/v3/sites/sc-domain%3Asuperfoodspartners.com/searchAnalytics/query",
+            f"https://www.googleapis.com/webmasters/v3/sites/sc-domain%3A{prop}/searchAnalytics/query",
             data=json.dumps(body).encode(), headers={"Authorization": "Bearer " + at, "Content-Type": "application/json"})
         row = (json.load(urllib.request.urlopen(req)).get("rows") or [{}])[0]
         out[f"d{days}"] = {k: round(row.get(k, 0), 4) for k in ("clicks", "impressions", "ctr", "position")}
@@ -70,10 +70,10 @@ def link_gap():
     return rows
 
 
-def main(out, with_gap=True):
-    snap = {"date": datetime.date.today().isoformat()}
+def main(out, with_gap=True, site="sfp"):
+    snap = {"date": datetime.date.today().isoformat(), "site": site}
     try:
-        snap["gsc"] = gsc()
+        snap["gsc"] = gsc(OURS[0] if site == "sfp" else OURS[1])
     except Exception as e:
         snap["gsc_error"] = str(e)[:200]
     snap["ref_domains"] = {d: quality_ref_domains(d) for d in OURS + COMPETITORS}
@@ -89,4 +89,4 @@ def main(out, with_gap=True):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], "--no-linkgap" not in sys.argv)
+    main(sys.argv[1], "--no-linkgap" not in sys.argv, "pmp" if "--site=pmp" in sys.argv else "sfp")

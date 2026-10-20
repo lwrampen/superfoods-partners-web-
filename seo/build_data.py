@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Merge rankings-*.json + metrics-*.json snapshots into dashboard/data.json (latest + history).
-Usage: python3 build_data.py snapshots_dir out.json"""
+Usage: python3 build_data.py snapshots_dir out.json [sfp|pmp]"""
 import sys, json, glob, os
 
-TARGETS = {  # top-3 goal per cluster for the current roadmap horizon
-    "Matcha wholesale": "Top-10 US, top-3 EU", "Private label": "Top-10 US",
-    "Ube": "Top-10 US (B2B terms)", "Hojicha": "Top-10 US (B2B terms)",
-    "Hibiscus": "Top-10 US", "Superfood powders": "Top-10 US", "Mushroom powders": "Top-20 US"}
+TARGETS = {  # goal per cluster for the current roadmap horizon, per brand
+    "sfp": {"Matcha wholesale": "Naar PMP (besluit 20 okt)", "Private label": "Naar PMP",
+            "Ube": "Top-10 US (B2B-termen)", "Hojicha": "Naar PMP", "Hibiscus": "Top-10 US",
+            "Superfood powders": "Top-10 US", "Mushroom powders": "Top-20 US"},
+    "pmp": {"Matcha wholesale": "Top-3 US/UK", "Matcha Europe": "Top-3 per land", "Private label": "Top-5 US",
+            "Hojicha": "Top-10 US", "Café & latte": "Top-3 + meer klikken", "Matcha knowledge": "Top-5"},
+}
 
 
 def load(pattern):
@@ -16,7 +19,9 @@ def load(pattern):
     return out
 
 
-def main(d, out):
+def main(d, out, primary="sfp"):
+    me, other = primary, ("pmp" if primary == "sfp" else "sfp")
+    my_domain = "superfoodspartners.com" if me == "sfp" else "purematchapartners.com"
     ranks, mets = load(os.path.join(d, "rankings-*.json")), load(os.path.join(d, "metrics-*.json"))
     r, m = ranks[-1], mets[-1]
     kws = r["results"]
@@ -29,10 +34,10 @@ def main(d, out):
             p = k.get("pos_" + key)
             if p and (c[key + "_best"] is None or p < c[key + "_best"]):
                 c[key + "_best"] = p
-        if k.get("pos_sfp") and k["pos_sfp"] <= 10:
+        if k.get("pos_" + me) and k["pos_" + me] <= 10:
             c["sfp_top10"] += 1
     for c in clusters.values():
-        c["markets"] = sorted(c["markets"]); c["target"] = TARGETS.get(c["name"], "")
+        c["markets"] = sorted(c["markets"]); c["target"] = TARGETS[me].get(c["name"], "")
         lead = [k for k in kws if k["cluster"] == c["name"] and k["top3"]]
         lead.sort(key=lambda k: -(k.get("volume") or 0))
         c["leader"] = lead[0]["top3"][0] if lead else ""
@@ -43,14 +48,14 @@ def main(d, out):
         mm = mets_by_date.get(x["date"], {})
         history.append({
             "date": x["date"],
-            "sfp_top50": sum(1 for k in res if k.get("pos_sfp")),
-            "sfp_top10": sum(1 for k in res if (k.get("pos_sfp") or 99) <= 10),
-            "sfp_top3": sum(1 for k in res if (k.get("pos_sfp") or 99) <= 3),
-            "pmp_top50": sum(1 for k in res if k.get("pos_pmp")),
+            "sfp_top50": sum(1 for k in res if k.get("pos_" + me)),
+            "sfp_top10": sum(1 for k in res if (k.get("pos_" + me) or 99) <= 10),
+            "sfp_top3": sum(1 for k in res if (k.get("pos_" + me) or 99) <= 3),
+            "pmp_top50": sum(1 for k in res if k.get("pos_" + other)),
             "clicks28": (mm.get("gsc") or {}).get("d28", {}).get("clicks"),
-            "ref_sfp": (mm.get("ref_domains") or {}).get("superfoodspartners.com", {}).get("count")})
+            "ref_sfp": (mm.get("ref_domains") or {}).get(my_domain, {}).get("count")})
     gap = m.get("link_gap") or next((x["link_gap"] for x in reversed(mets) if x.get("link_gap")), [])
-    data = {"updated": r["date"], "gsc": m.get("gsc"), "history": history,
+    data = {"primary": me, "updated": r["date"], "gsc": m.get("gsc"), "history": history,
             "clusters": sorted(clusters.values(), key=lambda c: -c["volume"]),
             "keywords": sorted(kws, key=lambda k: (k["cluster"], -(k.get("volume") or 0))),
             "ref_domains": {k: v["count"] for k, v in (m.get("ref_domains") or {}).items()},
@@ -61,4 +66,4 @@ def main(d, out):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "sfp")
