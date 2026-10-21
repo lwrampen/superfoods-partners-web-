@@ -14,6 +14,7 @@ import { alternatesFor, localizedUrl } from "@/i18n/paths";
 import { PRODUCTS, ORIGINS, LABELS, getProduct, originNote, originLabel } from "@/data/catalog";
 import { toCert } from "@/data/trust";
 import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.i18n";
+import { POSTS, pick } from "@/data/insights";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ product: p.slug }));
@@ -35,9 +36,14 @@ export async function generateMetadata({
   // "Philippines" / "Chine" — never "Philippines, Philippines" or "China, Chine".
   const place = baseOrigin.name === baseOrigin.country ? origin.country : `${origin.name}, ${origin.country}`;
   const t = await getTranslations({ locale, namespace: "pdp" });
+  // Hand-written meta for products whose head term isn't "<NAME> wholesale"
+  // (e.g. "ube powder", "Ube-Pulver"); everything else uses the template.
+  const override = `metaOverride.${p.slug}`;
   return {
-    title: t("metaTitle", { name: p.name, place }),
-    description: t("metaDescription", { name: p.name, place }),
+    title: t.has(`${override}.title`) ? t(`${override}.title`) : t("metaTitle", { name: p.name, place }),
+    description: t.has(`${override}.description`)
+      ? t(`${override}.description`)
+      : t("metaDescription", { name: p.name, place }),
     alternates: alternatesFor(locale, `/products/${p.slug}`),
   };
 }
@@ -60,6 +66,9 @@ export default async function ProductPage({
   const passportNotes = Object.fromEntries(
     origins.map((o) => [o.slug, localizedBlurb(o.slug, locale, originNote(p.slug, o.slug))]),
   );
+  // Insight guides about this product — links the PDP into its topic cluster.
+  // House (SFP) products only: matcha/hojicha guidance lives with Pure Matcha Partners.
+  const guides = LABELS[base.label].house ? POSTS.filter((x) => x.relatedProducts?.includes(base.slug)) : [];
   const sameCat = PRODUCTS.filter((x) => x.category === base.category && x.slug !== p.slug);
   const related = (sameCat.length ? sameCat : PRODUCTS.filter((x) => x.slug !== p.slug)).slice(0, 4);
 
@@ -332,6 +341,20 @@ export default async function ProductPage({
                   ))}
                 </ul>
                 <Link href="/products" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">{t("viewCatalogue")}</Link>
+              </div>
+            )}
+            {guides.length > 0 && (
+              <div className="md:col-span-2">
+                <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("guidesFor", { name: p.name.toLowerCase() })}</h2>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {guides.map((g) => (
+                    <li key={g.slug}>
+                      <Link href={`/insights/${g.slug}`} className="inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-sm text-stone transition-colors hover:border-green hover:text-green">
+                        {pick(g.title, locale)}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
           </div>

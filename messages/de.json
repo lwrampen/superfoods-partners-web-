@@ -387,7 +387,22 @@
     "faqHeading": "{name} beziehen — häufige Fragen",
     "crumbHome": "Startseite",
     "crumbCatalogue": "Katalog",
-    "andWord": "und"
+    "andWord": "und",
+    "guidesFor": "Ratgeber zu {name}",
+    "metaOverride": {
+      "ube": {
+        "title": "Ube-Pulver Großhandel — lila Yams von den Philippinen",
+        "description": "Ube-Pulver im Großhandel, gemahlen aus philippinischer lila Yamswurzel (Dioscorea alata) — natürliches Violett, ohne künstlichen Farbstoff. Jede Charge laborgeprüft (COA + Verification Record). Von der Probe bis zum Full Container — Angebot anfordern."
+      },
+      "lions-mane": {
+        "title": "Lion's-Mane-Pulver Großhandel — aus dem Fruchtkörper",
+        "description": "Lion's-Mane-Pulver (Hericium erinaceus) im Großhandel, aus dem Fruchtkörper — nicht Myzel auf Getreide. Bio oder konventionell, jede Charge laborgeprüft (COA + Verification Record). Angebot anfordern."
+      },
+      "hibiscus": {
+        "title": "Hibiskuspulver Großhandel — Hibiskus aus Ägypten",
+        "description": "Hibiskuspulver im Großhandel aus sonnengereiften ägyptischen Blütenkelchen (Hibiscus sabdariffa) — tiefes Rubinrot, frische Säure. Jede Charge laborgeprüft (COA + Verification Record). Angebot anfordern."
+      }
+    }
   },
   "faq": {
     "moqQ": "Liefern Sie {name} in kg oder lb, und in welchen Mengen?",

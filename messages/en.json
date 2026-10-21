@@ -387,7 +387,22 @@
     "faqHeading": "Sourcing {name} — common questions",
     "crumbHome": "Home",
     "crumbCatalogue": "Catalogue",
-    "andWord": "and"
+    "andWord": "and",
+    "guidesFor": "Guides on {name}",
+    "metaOverride": {
+      "ube": {
+        "title": "Ube Powder Supplier — Bulk & Wholesale, Philippines",
+        "description": "Bulk ube powder milled from Philippine purple yam (Dioscorea alata) — natural violet colour, no artificial dye. Lab-tested every batch (COA + Verification Record). From sample to full container — request a quote."
+      },
+      "lions-mane": {
+        "title": "Lion's Mane Powder Bulk Supplier — Fruiting Body",
+        "description": "Bulk lion's mane powder from the fruiting body (Hericium erinaceus), not mycelium-on-grain. Organic or conventional, lab-tested every batch (COA + Verification Record). Request a quote."
+      },
+      "hibiscus": {
+        "title": "Hibiscus Powder Wholesale — Bulk Egyptian Hibiscus",
+        "description": "Wholesale hibiscus powder from sun-grown Egyptian calyces (Hibiscus sabdariffa) — deep ruby colour, bright tartness. Lab-tested every batch (COA + Verification Record). Request a quote."
+      }
+    }
   },
   "faq": {
     "moqQ": "Can you supply {name} in kg or lb, and at what volumes?",
