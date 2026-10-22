@@ -67,8 +67,8 @@ export default async function ProductPage({
     origins.map((o) => [o.slug, localizedBlurb(o.slug, locale, originNote(p.slug, o.slug))]),
   );
   // Insight guides about this product — links the PDP into its topic cluster.
-  // House (SFP) products only: matcha/hojicha guidance lives with Pure Matcha Partners.
-  const guides = LABELS[base.label].house ? POSTS.filter((x) => x.relatedProducts?.includes(base.slug)) : [];
+  // Not for PMP products: matcha/hojicha guidance lives with Pure Matcha Partners.
+  const guides = base.label !== "pmp" ? POSTS.filter((x) => x.relatedProducts?.includes(base.slug)) : [];
   const sameCat = PRODUCTS.filter((x) => x.category === base.category && x.slug !== p.slug);
   const related = (sameCat.length ? sameCat : PRODUCTS.filter((x) => x.slug !== p.slug)).slice(0, 4);
 
@@ -142,7 +142,7 @@ export default async function ProductPage({
       <main className="flex-1">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-        <ProductHero name={p.name} category={p.category} tagline={p.tagline} accent={p.accent} tint={p.tint} img={p.img} labelName={LABELS[p.label].name} labelHouse={LABELS[p.label].house} labelHref={LABELS[p.label].href} />
+        <ProductHero name={p.name} category={p.category} tagline={p.tagline} accent={p.accent} tint={p.tint} img={p.img} labelName={LABELS[p.label].name} labelHouse={LABELS[p.label].house} labelHref={LABELS[p.label].href} labelColor={LABELS[p.label].accentOnDark ?? LABELS[p.label].accent} />
 
         {/* Intro — split: readable lead + one supporting image */}
         <section className="mx-auto max-w-6xl px-6 pt-12 md:pt-16">

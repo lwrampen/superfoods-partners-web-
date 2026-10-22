@@ -14,7 +14,7 @@ const NAV = [
   { key: "company", href: "/company" },
 ] as const;
 
-const LABEL_ORDER: LabelId[] = ["pmp", "sfp"];
+const LABEL_ORDER: LabelId[] = ["pmp", "pup", "sfp"];
 
 export function SiteNav() {
   const t = useTranslations("nav");

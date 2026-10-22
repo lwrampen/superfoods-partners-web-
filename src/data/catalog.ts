@@ -13,8 +13,9 @@ export type Form = "Organic" | "Conventional";
 
 // The specialist labels under the Superfoods Partners house. Every product is
 // offered under exactly one. "sfp" is the house itself (direct); "pmp" is the
-// live specialist matcha brand. Future labels (Ube/Protein Partners) slot in here.
-export type LabelId = "pmp" | "sfp";
+// specialist matcha brand (own site); "pup" is the specialist ube brand, which
+// lives on this site at /pure-ube-partners. Future labels slot in here.
+export type LabelId = "pmp" | "pup" | "sfp";
 
 export const LABELS: Record<
   LabelId,
@@ -22,8 +23,9 @@ export const LABELS: Record<
     id: LabelId;
     name: string;
     house: boolean; // true = the umbrella itself, not a distinct specialist brand
-    accent?: string; // brand accent (lime for PMP)
-    href?: string; // external label site, if any
+    accent?: string; // brand accent on light backgrounds (lime for PMP)
+    accentOnDark?: string; // accent on dark/colour backgrounds, when `accent` lacks contrast
+    href?: string; // label home: an external site (https://…) or a page on this site (/…)
     endorsement?: string; // verbatim endorsement line, never translated
   }
 > = {
@@ -34,6 +36,15 @@ export const LABELS: Record<
     accent: "#8CC541",
     href: "https://www.purematchapartners.com",
     endorsement: "Pure Matcha Partners — a Superfoods Partners brand",
+  },
+  pup: {
+    id: "pup",
+    name: "Pure Ube Partners",
+    house: false,
+    accent: "#6B3FA0",
+    accentOnDark: "#C6A9E4",
+    href: "/pure-ube-partners",
+    endorsement: "Pure Ube Partners — a Superfoods Partners brand",
   },
   sfp: {
     id: "sfp",
@@ -171,7 +182,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     slug: "ube",
-    label: "sfp",
+    label: "pup",
     name: "UBE",
     category: "Superfoods",
     code: "U",

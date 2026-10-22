@@ -9,7 +9,7 @@ import { CATEGORIES, PRODUCTS, ORIGINS, LABELS } from "@/data/catalog";
 import { localizeProduct, localizeOrigin, categoryLabel } from "@/data/content.i18n";
 
 // Small label chip for a product card (on the coloured accent background).
-// Lime marks the specialist label; the house reads as a quiet default.
+// The label's accent marks a specialist label; the house reads as a quiet default.
 function CardLabelChip({ labelId }: { labelId: keyof typeof LABELS }) {
   const L = LABELS[labelId];
   return (
@@ -18,7 +18,7 @@ function CardLabelChip({ labelId }: { labelId: keyof typeof LABELS }) {
       style={
         L.house
           ? { borderColor: "rgba(255,255,255,0.28)", color: "rgba(255,255,255,0.75)" }
-          : { borderColor: "#8CC541", color: "#8CC541" }
+          : { borderColor: L.accentOnDark ?? L.accent, color: L.accentOnDark ?? L.accent }
       }
     >
       {L.name}
