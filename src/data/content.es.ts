@@ -53,9 +53,9 @@ export const PRODUCTS_ES: Record<string, ProductText> = {
     ]
   },
   "ube": {
-    "tagline": "Polvo de ñame morado — color y sabor de Filipinas.",
+    "tagline": "Polvo de ñame morado de Filipinas y China — orgánico y convencional.",
     "description": "Polvo de ñame morado naturalmente intenso para bebidas, panadería y confitería. Color limpio, tamaño de partícula homogéneo, suministro escalable.",
-    "intro": "El ube es el tubérculo de ñame morado, de un violeta intenso, que pasó de las cocinas filipinas a las cartas de todo el mundo. Nuestro polvo de ube se muele a partir de ñames morados maduros (Dioscorea alata) — para un color violeta limpio y natural y un dulzor suave, tipo vainilla, sin colorantes artificiales. Lo suministramos directamente en Filipinas, con una ruta secundaria por China para escalar, y analizamos y documentamos cada lote antes de enviarlo.",
+    "intro": "El ube es el tubérculo de ñame morado, de un violeta intenso, que pasó de las cocinas filipinas a las cartas de todo el mundo. Nuestro polvo de ube se muele a partir de ñames morados maduros (Dioscorea alata) — para un color violeta limpio y natural y un dulzor suave, tipo vainilla, sin colorantes artificiales. Lo suministramos en Filipinas y China —orgánico de China, convencional de ambos— y analizamos y documentamos cada lote antes de enviarlo.",
     "applications": [
       "Lattes y bebidas RTD",
       "Panadería y viennoiserie",

@@ -196,11 +196,11 @@ export const PRODUCTS: Product[] = [
     accent: "#5A338C",
     tint: "#C6A9E4",
     img: "/products/ube.jpg",
-    tagline: "Purple yam powder — colour and flavour from the Philippines.",
+    tagline: "Purple yam powder from the Philippines and China — organic and conventional.",
     description:
       "Naturally vivid purple yam powder for beverages, bakery and confectionery. Clean colour, consistent particle size, scalable supply.",
     intro:
-      "Ube is the vivid purple yam that has moved from Filipino kitchens onto menus worldwide. Our ube powder is milled from mature purple yam (Dioscorea alata) for a clean, naturally violet colour and a soft, vanilla-like sweetness — no artificial dye. We source it directly in the Philippines, with a secondary China lane for scale, and screen and document every batch before it ships.",
+      "Ube is the vivid purple yam that has moved from Filipino kitchens onto menus worldwide. Our ube powder is milled from mature purple yam (Dioscorea alata) for a clean, naturally violet colour and a soft, vanilla-like sweetness — no artificial dye. We source it in the Philippines and China — organic from China, conventional from both — and screen and document every batch before it ships.",
     applications: [
       "Lattes & RTD beverages",
       "Bakery & viennoiserie",

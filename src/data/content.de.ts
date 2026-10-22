@@ -89,9 +89,9 @@ export const PRODUCTS_DE: Record<string, ProductText> = {
     ]
   },
   "ube": {
-    "tagline": "Purpur-Yam-Pulver — Farbe und Geschmack von den Philippinen.",
+    "tagline": "Purpur-Yam-Pulver von den Philippinen und aus China — bio und konventionell.",
     "description": "Von Natur aus leuchtend violettes Purpur-Yam-Pulver für Getränke, Backwaren und Confiserie. Klare Farbe, gleichmäßige Partikelgröße, skalierbare Versorgung.",
-    "intro": "Ube ist die leuchtend violette Purpur-Yam-Knolle, die von philippinischen Küchen auf Speisekarten weltweit gewandert ist. Unser Ube-Pulver wird aus reifen Purpur-Yams (Dioscorea alata) gemahlen — für eine klare, natürlich violette Farbe und eine sanfte, vanilleartige Süße, ganz ohne künstliche Farbstoffe. Wir beziehen es direkt auf den Philippinen, mit einer China-Route für Skalierung, und prüfen und dokumentieren jede Charge, bevor sie versendet wird.",
+    "intro": "Ube ist die leuchtend violette Purpur-Yam-Knolle, die von philippinischen Küchen auf Speisekarten weltweit gewandert ist. Unser Ube-Pulver wird aus reifen Purpur-Yams (Dioscorea alata) gemahlen — für eine klare, natürlich violette Farbe und eine sanfte, vanilleartige Süße, ganz ohne künstliche Farbstoffe. Wir beziehen es auf den Philippinen und in China — bio aus China, konventionell aus beiden Ländern — und prüfen und dokumentieren jede Charge, bevor sie versendet wird.",
     "applications": [
       "Lattes & RTD-Getränke",
       "Backwaren & Viennoiserie",
