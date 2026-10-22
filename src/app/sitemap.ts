@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/verification", 0.8],
     ["/insights", 0.7],
     ["/company", 0.8],
+    ["/pure-ube-partners", 0.6],
     ["/contact", 0.8],
   ];
   return [

@@ -61,7 +61,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </Reveal>
         </section>
 
-        {/* TWO BRANDS, ONE HOUSE — the umbrella architecture */}
+        {/* SPECIALIST LABELS, ONE HOUSE — the umbrella architecture */}
         <section className="bg-sand">
           <div className="mx-auto max-w-6xl px-6 py-24">
             <Reveal className="mb-12 max-w-2xl">
@@ -83,7 +83,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 </div>
                 {/* connector */}
                 <div className="mx-auto h-6 w-px bg-stone/20" aria-hidden />
-                <div className="grid gap-4 sm:grid-cols-2">
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {/* Pure Matcha Partners — the live specialist label */}
                   <a
                     href="https://www.purematchapartners.com"
@@ -101,6 +101,21 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                       Pure Matcha Partners — a Superfoods Partners brand
                     </p>
                   </a>
+                  {/* Pure Ube Partners — specialist ube label, lives on this site */}
+                  <Link
+                    href="/pure-ube-partners"
+                    className="group rounded-xl border border-green/20 bg-oat p-6 transition-colors hover:border-amber"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="mono text-[10px] uppercase tracking-widest text-amber">{t("housePupTag")}</span>
+                      <span className="mono text-[11px] text-stone/40 transition-colors group-hover:text-green">→</span>
+                    </div>
+                    <p className="display mt-3 text-xl text-green">Pure Ube Partners</p>
+                    <p className="mt-2 text-sm leading-relaxed text-stone/80">{t("housePupBody")}</p>
+                    <p className="mono mt-4 border-t border-stone/10 pt-3 text-[10px] uppercase leading-relaxed tracking-wide text-stone/55">
+                      Pure Ube Partners — a Superfoods Partners brand
+                    </p>
+                  </Link>
                   {/* future labels — muted placeholder */}
                   <div className="rounded-xl border border-dashed border-stone/25 bg-oat/40 p-6">
                     <span className="mono text-[10px] uppercase tracking-widest text-stone/45">{t("houseSoonTag")}</span>

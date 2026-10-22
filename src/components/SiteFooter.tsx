@@ -12,7 +12,7 @@ const ORIGINS_BY_COUNTRY = ORIGIN_LIST.reduce<Record<string, typeof ORIGIN_LIST>
 }, {});
 
 // Products grouped by their specialist label — mirrors the mega-menu.
-const LABEL_ORDER: LabelId[] = ["pmp", "sfp"];
+const LABEL_ORDER: LabelId[] = ["pmp", "pup", "sfp"];
 
 export function SiteFooter() {
   const t = useTranslations("footer");
@@ -39,7 +39,7 @@ export function SiteFooter() {
                   <span className="mono flex items-center gap-1.5 text-[10px] uppercase tracking-wide text-oat/30">
                     <span
                       className="h-1.5 w-1.5 rounded-full"
-                      style={{ backgroundColor: L.house ? "rgba(246,246,243,0.4)" : "#8CC541" }}
+                      style={{ backgroundColor: L.house ? "rgba(246,246,243,0.4)" : (L.accentOnDark ?? L.accent) }}
                     />
                     {L.name}
                   </span>
@@ -112,6 +112,9 @@ export function SiteFooter() {
           >
             Pure Matcha Partners — a Superfoods Partners brand ↗
           </a>
+          <Link href="/pure-ube-partners" className="mono uppercase tracking-wide hover:text-oat">
+            Pure Ube Partners — a Superfoods Partners brand
+          </Link>
         </div>
       </div>
     </footer>

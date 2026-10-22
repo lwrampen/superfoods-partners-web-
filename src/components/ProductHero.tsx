@@ -14,6 +14,7 @@ export function ProductHero({
   labelName,
   labelHouse,
   labelHref,
+  labelColor = "#8CC541",
 }: {
   name: string;
   category: string;
@@ -24,6 +25,7 @@ export function ProductHero({
   labelName: string;
   labelHouse: boolean;
   labelHref?: string;
+  labelColor?: string;
 }) {
   return (
     <motion.section
@@ -61,13 +63,21 @@ export function ProductHero({
         </Link>
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <p className="mono text-[11px] uppercase tracking-widest text-white/70">{category}</p>
-          {labelHref ? (
+          {labelHref?.startsWith("/") ? (
+            <LocaleLink
+              href={labelHref}
+              className="mono inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[10px] uppercase tracking-wide transition-opacity hover:opacity-80"
+              style={{ borderColor: labelColor, color: labelColor }}
+            >
+              {labelName}
+            </LocaleLink>
+          ) : labelHref ? (
             <a
               href={labelHref}
               target="_blank"
               rel="noopener"
               className="mono inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[10px] uppercase tracking-wide transition-opacity hover:opacity-80"
-              style={{ borderColor: "#8CC541", color: "#8CC541" }}
+              style={{ borderColor: labelColor, color: labelColor }}
             >
               {labelName} ↗
             </a>
