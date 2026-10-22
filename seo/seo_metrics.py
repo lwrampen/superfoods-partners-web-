@@ -6,6 +6,9 @@ import os, sys, json, base64, datetime, urllib.request, urllib.parse
 
 DFS = base64.b64encode(f'{os.environ["DATAFORSEO_USERNAME"]}:{os.environ["DATAFORSEO_PASSWORD"]}'.encode()).decode()
 COMPETITORS = ["jadeleafmatcha.com", "matchaful.com", "keichamatcha.com", "matcha.com"]
+# ube SERP leaders (ube powder wholesale/supplier, Oct 2026) — link-gap set for SFP
+COMPETITORS_UBE = ["botanicalcube.com", "wholesale-tea-supplier.com", "texture-maker.com", "ubesuperfood.com",
+                   "imube.com", "sacfoodsupplies.com"]
 OURS = ["superfoodspartners.com", "purematchapartners.com"]
 # auto-generated "SEO checker" link farms that link to every domain; Google ignores them
 SPAM_TLDS = {"store", "site", "online", "website", "space", "shop", "link", "xyz", "top", "click", "info", "pro", "center"}
@@ -49,9 +52,9 @@ def quality_ref_domains(target):
     return {"count": len(good), "domains": good[:40]}
 
 
-def link_gap():
+def link_gap(competitors=COMPETITORS):
     r = dfs("/v3/backlinks/domain_intersection/live", [{
-        "targets": {str(i + 1): d for i, d in enumerate(COMPETITORS)}, "exclude_targets": OURS,
+        "targets": {str(i + 1): d for i, d in enumerate(competitors)}, "exclude_targets": OURS,
         "intersection_mode": "partial", "limit": 1000, "order_by": ["1.rank,desc"],
         "filters": [["1.backlinks_spam_score", "<", 30]]}])
     rows = []
@@ -64,7 +67,7 @@ def link_gap():
         if dom.split(".")[-1] in SPAM_TLDS or max(v.get("backlinks_spam_score", 0) for v in vs) >= 30:
             continue
         rows.append({"domain": dom, "competitors": len(hits), "rank": vs[0].get("rank", 0),
-                     "links_to": [COMPETITORS[int(k) - 1] for k in hits],
+                     "links_to": [competitors[int(k) - 1] for k in hits],
                      "relevant": any(w in dom for w in RELEVANT)})
     rows.sort(key=lambda x: (not x["relevant"], -x["competitors"], -x["rank"]))
     return rows
@@ -79,6 +82,8 @@ def main(out, with_gap=True, site="sfp"):
     snap["ref_domains"] = {d: quality_ref_domains(d) for d in OURS + COMPETITORS}
     if with_gap:
         snap["link_gap"] = link_gap()
+        if site == "sfp":
+            snap["link_gap_ube"] = link_gap(COMPETITORS_UBE)
     snap["cost_usd"] = round(COST[0], 3)
     json.dump(snap, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("gsc:", snap.get("gsc") or snap.get("gsc_error"))

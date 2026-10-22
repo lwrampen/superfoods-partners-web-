@@ -13,6 +13,7 @@ Weekly measurement for the **SFP Search Command** dashboard
 
 Env: `DATAFORSEO_USERNAME`, `DATAFORSEO_PASSWORD`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`.
 Link-gap filter drops auto-generated "SEO checker" link farms (spam score ≥ 30, TLDs like .store/.site/.online).
+SFP snapshots also carry `link_gap_ube` (ube SERP leaders). Linkbuilding plan, prospects and spend ledger: `docs/seo/linkbuilding/`.
 
 ## Pure Matcha Partners (`seo/pmp/`)
 Dashboard **PMP Search Command**: https://claude.ai/artifact/2cQy8q6GiqLVi696WL6yZu
