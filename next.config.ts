@@ -4,6 +4,16 @@ import createNextIntlPlugin from "next-intl/plugin";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // pureubepartners.com (brand/print domain, bought Oct 2026) → the SFP ube hub.
+      // Every path on the apex or www host lands on /products/ube; UTM tags make the
+      // traffic visible in GA4. Must stay first so it wins over the rules below.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "(www\\.)?pureubepartners\\.com" }],
+        destination:
+          "https://www.superfoodspartners.com/products/ube?utm_source=pureubepartners.com&utm_medium=redirect",
+        permanent: true,
+      },
       // Old origin slug still indexed by Google — consolidate to the current page.
       { source: "/origins/luzon-ph", destination: "/origins/philippines-ph", permanent: true },
       // About → Company (Fase 3 IA rename). Permanent (308) so /about keeps its
