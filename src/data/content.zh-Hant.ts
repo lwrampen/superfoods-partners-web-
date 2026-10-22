@@ -54,9 +54,9 @@ export const PRODUCTS_ZH: Record<string, ProductText> = {
     ]
   },
   "ube": {
-    "tagline": "紫山藥粉——來自菲律賓的色澤與風味。",
+    "tagline": "紫山藥粉——產自菲律賓與中國，提供有機與常規。",
     "description": "天然濃郁的紫山藥粉,用於飲品、烘焙與糖果。色澤純淨、粒徑一致、供應可擴充。",
-    "intro": "Ube 是紫山藥的塊莖,呈濃郁紫色,已從菲律賓廚房走上世界各地的菜單。我們的紫山藥粉以成熟的紫山藥(Dioscorea alata)研磨而成——呈現純淨、天然的紫色與細緻的香草般甜香,不含人工色素。我們直接在菲律賓採購,並以中國為擴充規模的次要路線,於出貨前逐批檢測與記錄。",
+    "intro": "Ube 是紫山藥的塊莖,呈濃郁紫色,已從菲律賓廚房走上世界各地的菜單。我們的紫山藥粉以成熟的紫山藥(Dioscorea alata)研磨而成——呈現純淨、天然的紫色與細緻的香草般甜香,不含人工色素。我們在菲律賓與中國採購——有機產自中國,常規兩地皆有——於出貨前逐批檢測與記錄。",
     "applications": [
       "拿鐵與即飲飲品",
       "烘焙與麵包",
@@ -70,6 +70,7 @@ export const PRODUCTS_ZH: Record<string, ProductText> = {
       { "label": "來源", "value": "紫山藥(Dioscorea alata)" },
       { "label": "產地", "value": "菲律賓 · 中國" },
       { "label": "咖啡因", "value": "無咖啡因" },
+      { "label": "等級", "value": "有機 · 常規" },
       { "label": "包裝", "value": "1 公斤袋裝 → 25 公斤 / 整櫃" },
       { "label": "文件", "value": "COA + Verification Record™,逐批" }
     ]

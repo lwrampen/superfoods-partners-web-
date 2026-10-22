@@ -53,9 +53,9 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
     ]
   },
   "ube": {
-    "tagline": "Proszek z fioletowego pochrzynu — kolor i smak Filipin.",
+    "tagline": "Proszek z fioletowego pochrzynu z Filipin i Chin — organiczny i konwencjonalny.",
     "description": "Naturalnie intensywny proszek z fioletowego pochrzynu do napojów, wypieków i wyrobów cukierniczych. Czysty kolor, jednorodna granulacja, skalowalne dostawy.",
-    "intro": "Ube to bulwa fioletowego pochrzynu o intensywnie fioletowej barwie, która z filipińskich kuchni trafiła do menu na całym świecie. Nasz proszek ube mielony jest z dojrzałych fioletowych pochrzynów (Dioscorea alata) — dla czystego, naturalnie fioletowego koloru i subtelnej, waniliowej słodyczy, bez sztucznych barwników. Pozyskujemy go bezpośrednio na Filipinach, z trasą przez Chiny dla zwiększenia skali, i badamy oraz dokumentujemy każdą partię przed wysyłką.",
+    "intro": "Ube to bulwa fioletowego pochrzynu o intensywnie fioletowej barwie, która z filipińskich kuchni trafiła do menu na całym świecie. Nasz proszek ube mielony jest z dojrzałych fioletowych pochrzynów (Dioscorea alata) — dla czystego, naturalnie fioletowego koloru i subtelnej, waniliowej słodyczy, bez sztucznych barwników. Pozyskujemy go na Filipinach i w Chinach — organiczny z Chin, konwencjonalny z obu krajów — i badamy oraz dokumentujemy każdą partię przed wysyłką.",
     "applications": [
       "Latte i napoje RTD",
       "Wypieki i wyroby drożdżowe",
@@ -69,6 +69,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
       { "label": "Źródło", "value": "Fioletowy pochrzyn (Dioscorea alata)" },
       { "label": "Pochodzenie", "value": "Filipiny · Chiny" },
       { "label": "Kofeina", "value": "Bez kofeiny" },
+      { "label": "Klasa", "value": "Organiczna · Konwencjonalna" },
       { "label": "Opakowanie", "value": "Saszetka 1 kg → 25 kg / pełny kontener" },
       { "label": "Dokumentacja", "value": "COA + Verification Record™ na partię" }
     ]

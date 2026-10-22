@@ -53,9 +53,9 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
     ]
   },
   "ube": {
-    "tagline": "Poudre d'igname violette — couleur et saveur des Philippines.",
+    "tagline": "Poudre d'igname violette des Philippines et de Chine — bio et conventionnelle.",
     "description": "Poudre d'igname violette naturellement intense pour boissons, boulangerie et confiserie. Couleur nette, granulométrie homogène, approvisionnement évolutif.",
-    "intro": "L'ube est le tubercule d'igname violette, d'un violet intense, passé des cuisines philippines aux cartes du monde entier. Notre poudre d'ube est broyée à partir d'ignames violettes mûres (Dioscorea alata) — pour une couleur violette nette et naturelle et une douceur subtile, vanillée, sans colorants artificiels. Nous la sourçons directement aux Philippines, avec une route via la Chine pour la montée en échelle, et analysons et documentons chaque lot avant expédition.",
+    "intro": "L'ube est le tubercule d'igname violette, d'un violet intense, passé des cuisines philippines aux cartes du monde entier. Notre poudre d'ube est broyée à partir d'ignames violettes mûres (Dioscorea alata) — pour une couleur violette nette et naturelle et une douceur subtile, vanillée, sans colorants artificiels. Nous la sourçons aux Philippines et en Chine — bio depuis la Chine, conventionnelle depuis les deux — et analysons et documentons chaque lot avant expédition.",
     "applications": [
       "Lattes et boissons RTD",
       "Boulangerie et viennoiserie",
@@ -69,6 +69,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
       { "label": "Source", "value": "Igname violette (Dioscorea alata)" },
       { "label": "Origine", "value": "Philippines · Chine" },
       { "label": "Caféine", "value": "Sans caféine" },
+      { "label": "Grade", "value": "Bio · Conventionnel" },
       { "label": "Conditionnement", "value": "Sachet de 1 kg → 25 kg / conteneur complet" },
       { "label": "Documentation", "value": "COA + Verification Record™ par lot" }
     ]

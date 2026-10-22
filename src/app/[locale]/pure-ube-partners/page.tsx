@@ -45,6 +45,7 @@ export default async function PureUbePartnersPage({ params }: { params: Promise<
   const facts = [
     { l: t("factSource"), v: spec("Source") },
     { l: t("factOrigins"), v: spec("Origin") },
+    { l: t("factGrades"), v: spec("Grades") },
     { l: t("factDocs"), v: spec("Documentation") },
   ];
   const origins = base.originSlugs.map((s) => localizeOrigin(ORIGINS[s], locale));
@@ -86,7 +87,7 @@ export default async function PureUbePartnersPage({ params }: { params: Promise<
 
         {/* FACTS — from the catalogue */}
         <section className="border-y border-stone/15 bg-white">
-          <div className="mx-auto grid max-w-6xl gap-8 px-6 py-10 sm:grid-cols-3">
+          <div className="mx-auto grid max-w-6xl gap-8 px-6 py-10 sm:grid-cols-2 lg:grid-cols-4">
             {facts.map((f) => (
               <div key={f.l}>
                 <p className="mono text-[10px] uppercase tracking-widest text-stone/50">{f.l}</p>
