@@ -52,6 +52,21 @@ Log every euro in `spend.csv`.
 3. **Weekly (measurement routines):** new referring domains are picked up automatically. Claude marks `status` = `won` with the link URL.
 4. **Quarterly:** Claude drafts the data asset. Leonard supplies the internal data (prices, MOQs, harvest notes), and the PR freelancer pitches it.
 
+## SFP = ube first (decision 22 Oct 2026)
+
+SFP's ~40% share goes to ube before other categories. Link targets, in order:
+1. `/products/ube` (money page)
+2. the ube guides in `/insights`
+3. the brand page `/pure-ube-partners`
+
+Angles:
+- the ube-identity pitch (true purple yam vs purple sweet potato);
+- Faire / ingredient directories;
+- Filipino food, bakery and café blogs (samples);
+- a Q1 2027 ube market note as a data asset.
+
+The full ube roadmap is in `docs/seo-sprints.md` on `main`.
+
 ## Month 1 (Nov 2026)
 
 - **Free foundation links (P0 in `../authority-checklist.md`):**
