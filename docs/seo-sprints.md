@@ -9,6 +9,62 @@ Roadmap Q4 2026 – Q1 2027 (besluit Leonard, 20-10):
 
 Doelen eind Q1 2027: top-10 op 10/40 gevolgde termen · 25 echte verwijzende domeinen · 500 klikken/28d · elke organische RFQ gemeten.
 
+## Ube-offensief (besluit Leonard, 22-10) — prioriteit 1 voor elke SFP-sprint
+
+Ube blijft op superfoodspartners.com: één domein bouwt alle autoriteit op. Pure Ube Partners is het specialist-label (net als PMP), maar zonder eigen site.
+`pureubepartners.com` is alleen een 308-redirect.
+
+**Paginastructuur (hub & spoke): elke pagina mikt op één taak, er is geen kannibalisatie**
+
+| Rol | URL | Mikt op |
+|---|---|---|
+| Merk | `/pure-ube-partners` | alleen "Pure Ube Partners" |
+| Commercieel (money page) | `/products/ube` | ube powder, purple yam powder, wholesale/bulk/supplier, organic ube powder; DE Ube-Pulver |
+| Informatief (gidsen) | `/insights/*` | what is ube, ube vs taro, ube vs purple sweet potato, ube flavor, ube latte, toepassingen |
+| Herkomst | `/origins/philippines-ph`, `/origins/china-cn` | ube powder Philippines, herkomst en seizoen |
+
+Elke gids linkt naar `/products/ube`. De PDP en de merkpagina linken terug naar de gidsen.
+
+**Zoekvolumes (DataforSEO, 22-10, per maand)**
+
+| Term | Markt | Volume | Opmerking |
+|---|---|---|---|
+| what is ube | US | 90.500 | info, AI-antwoorden; zh-Hant-gids staat al op pos. 7 |
+| ube flavor | US | 27.100 | info |
+| ube vs taro | US | 14.800 | info, nog geen gids |
+| ube powder | US | 12.100 | kern-commercieel |
+| purple yam powder | US | 12.100 | kern-commercieel |
+| ube latte | US | 8.100 | café/foodservice-hoek |
+| Ube Pulver | DE | 4.400 | `/de/products/ube` |
+| ube powder | UK | 1.900 | |
+| ube vs purple sweet potato | US | 1.600 | identiteit; FAQ staat er (#52) |
+| ube poeder | NL | 1.300 | er is geen NL-locale; de EN-pagina bedient NL |
+| organic ube powder | US | 390 | CPC $2,46 |
+| ube powder bulk / wholesale / supplier | US | 30 / 20 / 10 | weinig volume, maar CPC $6–9 = pure koopintentie. Moet makkelijk top-3 worden (concurrenten hebben amper echte links) |
+
+**Backlog (op volgorde; per sprint 1–2 items naast de meting)**
+1. Indexering `/products/ube` in 6 locales bewaken: URL Inspection elke sprint, tot alle locales *Indexed* zijn.
+2. Structured data: `Organization` met `brand` Pure Ube Partners op de merkpagina, en `Product` met `brand` op `/products/ube`.
+3. Nieuwe gids "Ube vs taro vs purple sweet potato" (14,8k + 1,6k): de hoek van de botanische identiteit. Laat de wekelijkse blog dit oppakken.
+4. EN-gids "What is ube powder" uitbreiden richting "what is ube" (90,5k), met FAQPage en een duidelijke lede voor AI-extractie.
+5. Gids "Ube latte & café menus: formulating with ube powder" (8,1k), met een link naar de PDP-sectie over toepassingen.
+6. `/de/products/ube` inhoudelijk verdiepen voor "Ube Pulver" (4,4k), met toepassingen en FAQ in natuurlijk Duits.
+7. `/origins/philippines-ph`: een ube-specifieke alinea (herkomst, seizoen, verwerking). Alleen feiten die Leonard aanlevert.
+8. Optioneel na Q1: een NL-locale, als NL-verkeer blijft groeien (nu land #1 op klikken).
+
+Niet doen: ube-claims verzinnen (organic, certificaten en vormen alleen zoals in `catalog.ts`), gezondheidsclaims, en de merkpagina laten concurreren met `/products/ube`.
+
+**Links:** ongeveer 40% van het linkbudget (€2.000/mnd) gaat naar SFP, met ube voorop. Denk aan de ube-identiteitspitch (`docs/outreach/`), Faire, blogs over Filipijns eten en bakken, en eventueel een ube-marktrapport als data-asset in Q1.
+Het plan staat in `docs/seo/linkbuilding/` op de `seo-tracking`-branch.
+
+**Ube-doelen eind Q1 2027**
+- `/products/ube` geïndexeerd in alle 6 locales.
+- Top-3 op ube powder wholesale / bulk / supplier (US).
+- Top-20 op "ube powder" en "purple yam powder" (US).
+- Top-10 op "Ube Pulver" (DE).
+- 10 kwaliteitsdomeinen die naar ube-pagina's linken.
+- ≥ 20 ube-RFQ's per 28 dagen (nu 11).
+
 ---
 
 ## 2026-10-21 — Ube-hub: indexering, PDP-meta, ube-identiteit
