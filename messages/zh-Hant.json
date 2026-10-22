@@ -48,7 +48,7 @@
     "heroEyebrow": "超級食物粉末 · 現代原料之家",
     "heroTitle1": "Pure ingredients.",
     "heroTitle2": "Formulated to thrive.",
-    "heroIntro": "從原產到規模化：我們在產地管理原料供應，透過科學化生產控制天然差異，並為品牌、製造商與自有品牌打造品質一致的原料方案 — 抹茶、焙茶、洛神花、紫薯等。",
+    "heroIntro": "從原產到規模化：我們在產地管理原料供應，透過科學化生產控制天然差異，並為品牌、製造商與自有品牌打造品質一致的原料方案 — 抹茶、焙茶、洛神花、紫山藥（ube）等。",
     "ctaQuote": "索取大宗報價",
     "ctaTrace": "瀏覽產品目錄 →",
     "heroBadge": "產地直供",
@@ -387,7 +387,22 @@
     "faqHeading": "採購{name}——常見問題",
     "crumbHome": "首頁",
     "crumbCatalogue": "產品目錄",
-    "andWord": "與"
+    "andWord": "與",
+    "guidesFor": "{name} 相關指南",
+    "metaOverride": {
+      "ube": {
+        "title": "Ube 紫山藥粉批發 — 菲律賓紫山藥供應商",
+        "description": "Ube 紫山藥粉批發，以菲律賓紫山藥（Dioscorea alata）研磨——天然紫色，不含人工色素。每批經實驗室檢驗（COA + Verification Record）。從樣品到整櫃——歡迎索取報價。"
+      },
+      "lions-mane": {
+        "title": "猴頭菇粉批發 — 子實體原料供應商",
+        "description": "猴頭菇粉（Hericium erinaceus）批發，取自子實體——非穀物培養菌絲體。有機或常規，每批經實驗室檢驗（COA + Verification Record）。歡迎索取報價。"
+      },
+      "hibiscus": {
+        "title": "洛神花粉批發 — 埃及與華東產地",
+        "description": "洛神花粉批發，取自埃及與華東產地的洛神花萼（Hibiscus sabdariffa）——深紅寶石色、明亮酸味。每批經實驗室檢驗（COA + Verification Record）。歡迎索取報價。"
+      }
+    }
   },
   "faq": {
     "moqQ": "你們的{name}可以用公斤或磅供應嗎？可供應多大的量？",

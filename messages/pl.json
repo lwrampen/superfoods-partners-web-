@@ -387,7 +387,22 @@
     "faqHeading": "Sourcing {name} — częste pytania",
     "crumbHome": "Strona główna",
     "crumbCatalogue": "Katalog",
-    "andWord": "i"
+    "andWord": "i",
+    "guidesFor": "Poradniki: {name}",
+    "metaOverride": {
+      "ube": {
+        "title": "Ube w proszku hurt — fioletowy pochrzyn z Filipin",
+        "description": "Ube w proszku hurtowo, mielony z filipińskiego fioletowego pochrzynu (Dioscorea alata) — naturalny fiolet, bez sztucznego barwnika. Każda partia badana laboratoryjnie (COA + Verification Record). Od próbki po pełny kontener — poproś o wycenę."
+      },
+      "lions-mane": {
+        "title": "Soplówka jeżowata (lion's mane) w proszku hurt",
+        "description": "Soplówka jeżowata (Hericium erinaceus) w proszku hurtowo, z owocnika — nie grzybnia na ziarnie. Ekologiczna lub konwencjonalna, każda partia badana laboratoryjnie (COA + Verification Record). Poproś o wycenę."
+      },
+      "hibiscus": {
+        "title": "Hibiskus w proszku hurt — Hibiscus sabdariffa",
+        "description": "Hibiskus w proszku hurtowo, z kielichów Hibiscus sabdariffa z Egiptu i wschodnich Chin — głęboka rubinowa barwa, wyrazista kwasowość. Każda partia badana laboratoryjnie (COA + Verification Record). Poproś o wycenę."
+      }
+    }
   },
   "faq": {
     "moqQ": "Czy dostarczacie {name} w kg lub lb, i w jakich ilościach?",

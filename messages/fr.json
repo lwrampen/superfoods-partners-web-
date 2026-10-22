@@ -387,7 +387,22 @@
     "faqHeading": "Sourcing du {name} — questions fréquentes",
     "crumbHome": "Accueil",
     "crumbCatalogue": "Catalogue",
-    "andWord": "et"
+    "andWord": "et",
+    "guidesFor": "Guides sur {name}",
+    "metaOverride": {
+      "ube": {
+        "title": "Poudre d'ube en gros — igname pourpre des Philippines",
+        "description": "Poudre d'ube en gros, moulue à partir d'igname pourpre des Philippines (Dioscorea alata) — violet naturel, sans colorant artificiel. Chaque lot testé en laboratoire (COA + Verification Record). De l'échantillon au conteneur complet — demandez un devis."
+      },
+      "lions-mane": {
+        "title": "Poudre de lion's mane (hydne hérisson) en gros",
+        "description": "Poudre de lion's mane (Hericium erinaceus) en gros, issue du corps fructifère — pas de mycélium sur céréales. Bio ou conventionnelle, chaque lot testé en laboratoire (COA + Verification Record). Demandez un devis."
+      },
+      "hibiscus": {
+        "title": "Poudre d'hibiscus en gros — Hibiscus sabdariffa",
+        "description": "Poudre d'hibiscus en gros, issue de calices d'Hibiscus sabdariffa d'Égypte et de Chine orientale — rouge rubis profond, acidité vive. Chaque lot testé en laboratoire (COA + Verification Record). Demandez un devis."
+      }
+    }
   },
   "faq": {
     "moqQ": "Pouvez-vous fournir le {name} en kg ou lb, et dans quels volumes ?",

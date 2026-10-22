@@ -387,7 +387,22 @@
     "faqHeading": "Abastecimiento de {name} — preguntas frecuentes",
     "crumbHome": "Inicio",
     "crumbCatalogue": "Catálogo",
-    "andWord": "y"
+    "andWord": "y",
+    "guidesFor": "Guías sobre {name}",
+    "metaOverride": {
+      "ube": {
+        "title": "Ube en polvo al por mayor — ñame morado de Filipinas",
+        "description": "Ube en polvo al por mayor, molido de ñame morado filipino (Dioscorea alata) — violeta natural, sin colorante artificial. Cada lote analizado en laboratorio (COA + Verification Record). Desde muestra hasta contenedor completo — solicita presupuesto."
+      },
+      "lions-mane": {
+        "title": "Melena de león en polvo al por mayor — cuerpo fructífero",
+        "description": "Melena de león en polvo (Hericium erinaceus) al por mayor, del cuerpo fructífero — no micelio sobre grano. Orgánica o convencional, cada lote analizado en laboratorio (COA + Verification Record). Solicita presupuesto."
+      },
+      "hibiscus": {
+        "title": "Hibisco en polvo al por mayor — Hibiscus sabdariffa",
+        "description": "Hibisco en polvo al por mayor, de cálices de Hibiscus sabdariffa de Egipto y el este de China — rojo rubí intenso, acidez viva. Cada lote analizado en laboratorio (COA + Verification Record). Solicita presupuesto."
+      }
+    }
   },
   "faq": {
     "moqQ": "¿Pueden suministrar {name} en kg o lb, y en qué volúmenes?",
