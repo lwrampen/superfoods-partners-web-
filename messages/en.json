@@ -394,7 +394,7 @@
     "metaOverride": {
       "ube": {
         "title": "Ube Powder Supplier — Bulk & Wholesale, Philippines",
-        "description": "Bulk ube powder milled from Philippine purple yam (Dioscorea alata) — natural violet colour, no artificial dye. Lab-tested every batch (COA + Verification Record). From sample to full container — request a quote."
+        "description": "Bulk ube powder, organic and conventional, milled from purple yam (Dioscorea alata) — natural violet colour, no artificial dye. Lab-tested every batch (COA + Verification Record). From sample to full container — request a quote."
       },
       "lions-mane": {
         "title": "Lion's Mane Powder Bulk Supplier — Fruiting Body",
@@ -594,6 +594,7 @@
     "ctaSecondary": "View ube powder",
     "factSource": "Source",
     "factOrigins": "Origins",
+    "factGrades": "Grades",
     "factDocs": "Documentation",
     "whyEyebrow": "Why a dedicated label",
     "whyHeading": "One ingredient, done properly.",

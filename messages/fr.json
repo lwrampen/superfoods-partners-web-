@@ -394,7 +394,7 @@
     "metaOverride": {
       "ube": {
         "title": "Poudre d'ube en gros — igname pourpre des Philippines",
-        "description": "Poudre d'ube en gros, moulue à partir d'igname pourpre des Philippines (Dioscorea alata) — violet naturel, sans colorant artificiel. Chaque lot testé en laboratoire (COA + Verification Record). De l'échantillon au conteneur complet — demandez un devis."
+        "description": "Poudre d'ube en gros, bio et conventionnelle, moulue à partir d'igname pourpre (Dioscorea alata) — violet naturel, sans colorant artificiel. Chaque lot testé en laboratoire (COA + Verification Record). De l'échantillon au conteneur complet — demandez un devis."
       },
       "lions-mane": {
         "title": "Poudre de lion's mane (hydne hérisson) en gros",
@@ -594,6 +594,7 @@
     "ctaSecondary": "Voir la poudre d'ube",
     "factSource": "Matière première",
     "factOrigins": "Origines",
+    "factGrades": "Qualités",
     "factDocs": "Documentation",
     "whyEyebrow": "Pourquoi une marque dédiée",
     "whyHeading": "Un ingrédient, bien fait.",

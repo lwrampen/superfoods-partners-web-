@@ -394,7 +394,7 @@
     "metaOverride": {
       "ube": {
         "title": "Ube w proszku hurt — fioletowy pochrzyn z Filipin",
-        "description": "Ube w proszku hurtowo, mielony z filipińskiego fioletowego pochrzynu (Dioscorea alata) — naturalny fiolet, bez sztucznego barwnika. Każda partia badana laboratoryjnie (COA + Verification Record). Od próbki po pełny kontener — poproś o wycenę."
+        "description": "Ube w proszku hurtowo, organiczny i konwencjonalny, mielony z fioletowego pochrzynu (Dioscorea alata) — naturalny fiolet, bez sztucznego barwnika. Każda partia badana laboratoryjnie (COA + Verification Record). Od próbki po pełny kontener — poproś o wycenę."
       },
       "lions-mane": {
         "title": "Soplówka jeżowata (lion's mane) w proszku hurt",
@@ -594,6 +594,7 @@
     "ctaSecondary": "Zobacz proszek ube",
     "factSource": "Surowiec",
     "factOrigins": "Pochodzenie",
+    "factGrades": "Klasy",
     "factDocs": "Dokumentacja",
     "whyEyebrow": "Dlaczego osobna marka",
     "whyHeading": "Jeden składnik, zrobiony porządnie.",

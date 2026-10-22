@@ -73,8 +73,15 @@ export type Product = {
   gradeNotes?: { grade: string; use: string }[]; // "which grade for what" — buyer + GEO depth
   originSlugs: string[];
   forms: Form[];
+  // Forms available per origin, when not every origin offers every form
+  // (e.g. organic ube only from China). Origins not listed offer all `forms`.
+  formsByOrigin?: Record<string, Form[]>;
   certs: string[];
 };
+
+export function formsForOrigin(p: Product, originSlug: string): Form[] {
+  return p.formsByOrigin?.[originSlug] ?? p.forms;
+}
 
 export const ORIGINS: Record<string, Origin> = {
   // Japan
@@ -207,6 +214,7 @@ export const PRODUCTS: Product[] = [
       { label: "Source", value: "Purple yam (Dioscorea alata)" },
       { label: "Origin", value: "Philippines · China" },
       { label: "Caffeine", value: "Caffeine-free" },
+      { label: "Grades", value: "Organic · Conventional" },
       { label: "Packaging", value: "1 kg (2.2 lb) foil → 25 kg (55 lb) carton → full container" },
       { label: "Documentation", value: "COA + Verification Record™ per batch" },
     ],
@@ -216,8 +224,11 @@ export const PRODUCTS: Product[] = [
       { src: "/products/ube.jpg", alt: "Ube purple yam powder", caption: "Milled to a clean, naturally violet powder — no artificial dye" },
     ],
     originSlugs: ["philippines-ph", "china-cn"],
-    forms: ["Conventional"],
-    certs: ["HACCP", "FSSC 22000"],
+    forms: ["Organic", "Conventional"],
+    // Organic ube comes from China; the Philippine lane is conventional.
+    formsByOrigin: { "philippines-ph": ["Conventional"], "china-cn": ["Organic", "Conventional"] },
+    // Confirmed by Leonard, 22 Oct 2026.
+    certs: ["JAS Organic", "EU Organic", "USDA Organic", "Rainforest Alliance", "HACCP", "FSSC 22000"],
   },
   {
     slug: "lions-mane",

@@ -394,7 +394,7 @@
     "metaOverride": {
       "ube": {
         "title": "Ube en polvo al por mayor — ñame morado de Filipinas",
-        "description": "Ube en polvo al por mayor, molido de ñame morado filipino (Dioscorea alata) — violeta natural, sin colorante artificial. Cada lote analizado en laboratorio (COA + Verification Record). Desde muestra hasta contenedor completo — solicita presupuesto."
+        "description": "Ube en polvo al por mayor, orgánico y convencional, molido de ñame morado (Dioscorea alata) — violeta natural, sin colorante artificial. Cada lote analizado en laboratorio (COA + Verification Record). Desde muestra hasta contenedor completo — solicita presupuesto."
       },
       "lions-mane": {
         "title": "Melena de león en polvo al por mayor — cuerpo fructífero",
@@ -594,6 +594,7 @@
     "ctaSecondary": "Ver polvo de ube",
     "factSource": "Materia prima",
     "factOrigins": "Orígenes",
+    "factGrades": "Grados",
     "factDocs": "Documentación",
     "whyEyebrow": "Por qué una marca propia",
     "whyHeading": "Un ingrediente, bien hecho.",

@@ -394,7 +394,7 @@
     "metaOverride": {
       "ube": {
         "title": "Ube 紫山藥粉批發 — 菲律賓紫山藥供應商",
-        "description": "Ube 紫山藥粉批發，以菲律賓紫山藥（Dioscorea alata）研磨——天然紫色，不含人工色素。每批經實驗室檢驗（COA + Verification Record）。從樣品到整櫃——歡迎索取報價。"
+        "description": "Ube 紫山藥粉批發，提供有機與常規，以紫山藥（Dioscorea alata）研磨——天然紫色，不含人工色素。每批經實驗室檢驗（COA + Verification Record）。從樣品到整櫃——歡迎索取報價。"
       },
       "lions-mane": {
         "title": "猴頭菇粉批發 — 子實體原料供應商",
@@ -594,6 +594,7 @@
     "ctaSecondary": "查看紫山藥粉",
     "factSource": "原料",
     "factOrigins": "產地",
+    "factGrades": "等級",
     "factDocs": "文件",
     "whyEyebrow": "為何設立專門品牌",
     "whyHeading": "一種原料，做到最好。",

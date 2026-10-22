@@ -69,6 +69,7 @@ export const PRODUCTS_ES: Record<string, ProductText> = {
       { "label": "Fuente", "value": "Ñame morado (Dioscorea alata)" },
       { "label": "Origen", "value": "Filipinas · China" },
       { "label": "Cafeína", "value": "Sin cafeína" },
+      { "label": "Grado", "value": "Orgánico · Convencional" },
       { "label": "Presentación", "value": "Bolsa de 1 kg → 25 kg / contenedor completo" },
       { "label": "Documentación", "value": "COA + Verification Record™ por lote" }
     ]

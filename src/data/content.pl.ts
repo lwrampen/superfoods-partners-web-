@@ -69,6 +69,7 @@ export const PRODUCTS_PL: Record<string, ProductText> = {
       { "label": "Źródło", "value": "Fioletowy pochrzyn (Dioscorea alata)" },
       { "label": "Pochodzenie", "value": "Filipiny · Chiny" },
       { "label": "Kofeina", "value": "Bez kofeiny" },
+      { "label": "Klasa", "value": "Organiczna · Konwencjonalna" },
       { "label": "Opakowanie", "value": "Saszetka 1 kg → 25 kg / pełny kontener" },
       { "label": "Dokumentacja", "value": "COA + Verification Record™ na partię" }
     ]

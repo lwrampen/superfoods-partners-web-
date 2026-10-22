@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { ORIGINS, productSku, type Product } from "@/data/catalog";
+import { ORIGINS, productSku, formsForOrigin, type Product } from "@/data/catalog";
 import { localizeOrigin, formLabel } from "@/data/content.i18n";
 
 function Chip({
@@ -37,9 +37,16 @@ export function VariantSelector({ product }: { product: Product }) {
   const origins = product.originSlugs.map((s) => ORIGINS[s]);
   const [grade, setGrade] = useState(product.grades?.[0]);
   const [originSlug, setOriginSlug] = useState(origins[0].slug);
-  const [form, setForm] = useState(product.forms[0]);
+  const [form, setForm] = useState(formsForOrigin(product, origins[0].slug)[0]);
 
   const origin = ORIGINS[originSlug];
+  const forms = formsForOrigin(product, originSlug);
+  const pickOrigin = (slug: string) => {
+    setOriginSlug(slug);
+    // keep the chosen form if this origin offers it, else fall back to its first form
+    const available = formsForOrigin(product, slug);
+    if (!available.includes(form)) setForm(available[0]);
+  };
   const sku = productSku(product, { grade, origin, form });
 
   return (
@@ -59,7 +66,7 @@ export function VariantSelector({ product }: { product: Product }) {
         <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">{t("origin")}</p>
         <div className="flex flex-wrap gap-2">
           {origins.map((o) => (
-            <Chip key={o.slug} active={originSlug === o.slug} accent={product.accent} onClick={() => setOriginSlug(o.slug)}>
+            <Chip key={o.slug} active={originSlug === o.slug} accent={product.accent} onClick={() => pickOrigin(o.slug)}>
               {localizeOrigin(o, locale).name} · {o.countryCode}
             </Chip>
           ))}
@@ -69,7 +76,7 @@ export function VariantSelector({ product }: { product: Product }) {
       <div className="mb-6">
         <p className="mono mb-2 text-[10px] uppercase tracking-wide text-stone/50">{t("certification")}</p>
         <div className="flex flex-wrap gap-2">
-          {product.forms.map((f) => (
+          {forms.map((f) => (
             <Chip key={f} active={form === f} accent={product.accent} onClick={() => setForm(f)}>{formLabel(f, locale)}</Chip>
           ))}
         </div>

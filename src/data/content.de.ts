@@ -118,6 +118,10 @@ export const PRODUCTS_DE: Record<string, ProductText> = {
         "value": "Koffeinfrei"
       },
       {
+        "label": "Grade",
+        "value": "Bio · Konventionell"
+      },
+      {
         "label": "Verpackung",
         "value": "1 kg Folie → 25 kg / ganzer Container"
       },

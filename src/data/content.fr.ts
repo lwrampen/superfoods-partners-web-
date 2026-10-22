@@ -69,6 +69,7 @@ export const PRODUCTS_FR: Record<string, ProductText> = {
       { "label": "Source", "value": "Igname violette (Dioscorea alata)" },
       { "label": "Origine", "value": "Philippines · Chine" },
       { "label": "Caféine", "value": "Sans caféine" },
+      { "label": "Grade", "value": "Bio · Conventionnel" },
       { "label": "Conditionnement", "value": "Sachet de 1 kg → 25 kg / conteneur complet" },
       { "label": "Documentation", "value": "COA + Verification Record™ par lot" }
     ]

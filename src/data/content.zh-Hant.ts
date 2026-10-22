@@ -70,6 +70,7 @@ export const PRODUCTS_ZH: Record<string, ProductText> = {
       { "label": "來源", "value": "紫山藥(Dioscorea alata)" },
       { "label": "產地", "value": "菲律賓 · 中國" },
       { "label": "咖啡因", "value": "無咖啡因" },
+      { "label": "等級", "value": "有機 · 常規" },
       { "label": "包裝", "value": "1 公斤袋裝 → 25 公斤 / 整櫃" },
       { "label": "文件", "value": "COA + Verification Record™,逐批" }
     ]
