@@ -1,17 +1,18 @@
 {
- "updated": "2026-10-20",
+ "primary": "sfp",
+ "updated": "2026-10-23",
  "gsc": {
   "d28": {
-   "clicks": 98,
-   "impressions": 1082,
-   "ctr": 0.0906,
-   "position": 9.7967
+   "clicks": 104,
+   "impressions": 1128,
+   "ctr": 0.0922,
+   "position": 10.0745
   },
   "d90": {
-   "clicks": 142,
-   "impressions": 2955,
-   "ctr": 0.0481,
-   "position": 27.0802
+   "clicks": 159,
+   "impressions": 3079,
+   "ctr": 0.0516,
+   "position": 26.3404
   }
  },
  "history": [
@@ -23,21 +24,47 @@
    "pmp_top50": 16,
    "clicks28": 98,
    "ref_sfp": 1
+  },
+  {
+   "date": "2026-10-23",
+   "sfp_top50": 0,
+   "sfp_top10": 0,
+   "sfp_top3": 0,
+   "pmp_top50": 20,
+   "clicks28": 104,
+   "ref_sfp": 1
   }
  ],
  "clusters": [
   {
-   "name": "Ube",
+   "name": "Ube info",
    "markets": [
     "TW",
     "US"
    ],
-   "volume": 12230,
+   "volume": 115390,
    "sfp_best": null,
-   "pmp_best": 33,
+   "pmp_best": 10,
    "keywords": 5,
    "sfp_top10": 0,
-   "target": "Top-10 US (B2B terms)",
+   "target": "",
+   "leader": "mccormick.com"
+  },
+  {
+   "name": "Ube",
+   "markets": [
+    "DE",
+    "NL",
+    "TW",
+    "UK",
+    "US"
+   ],
+   "volume": 32330,
+   "sfp_best": null,
+   "pmp_best": 33,
+   "keywords": 11,
+   "sfp_top10": 0,
+   "target": "Top-10 US (B2B-termen)",
    "leader": "amazon.com"
   },
   {
@@ -47,11 +74,11 @@
    ],
    "volume": 12120,
    "sfp_best": null,
-   "pmp_best": 22,
+   "pmp_best": null,
    "keywords": 4,
    "sfp_top10": 0,
-   "target": "Top-10 US (B2B terms)",
-   "leader": "hojicha.co"
+   "target": "Naar PMP",
+   "leader": "meileaf.com"
   },
   {
    "name": "Matcha wholesale",
@@ -67,11 +94,11 @@
    ],
    "volume": 5570,
    "sfp_best": null,
-   "pmp_best": 9,
+   "pmp_best": 8,
    "keywords": 20,
    "sfp_top10": 0,
-   "target": "Top-10 US, top-3 EU",
-   "leader": "wholesale.jadeleafmatcha.com"
+   "target": "Naar PMP (besluit 20 okt)",
+   "leader": "bulk.matcha.com"
   },
   {
    "name": "Private label",
@@ -80,10 +107,10 @@
    ],
    "volume": 160,
    "sfp_best": null,
-   "pmp_best": 17,
+   "pmp_best": 23,
    "keywords": 4,
    "sfp_top10": 0,
-   "target": "Top-10 US",
+   "target": "Naar PMP",
    "leader": "wollenhaupt.com"
   },
   {
@@ -110,7 +137,7 @@
    "keywords": 3,
    "sfp_top10": 0,
    "target": "Top-10 US",
-   "leader": "intermountainnutrition.com"
+   "leader": "gnc.com"
   },
   {
    "name": "Mushroom powders",
@@ -123,7 +150,20 @@
    "keywords": 2,
    "sfp_top10": 0,
    "target": "Top-20 US",
-   "leader": "terrasoul.com"
+   "leader": "wholesale.bulksupplements.com"
+  },
+  {
+   "name": "Ube brand",
+   "markets": [
+    "US"
+   ],
+   "volume": 0,
+   "sfp_best": null,
+   "pmp_best": 2,
+   "keywords": 1,
+   "sfp_top10": 0,
+   "target": "",
+   "leader": "uubepure.com"
   }
  ],
  "keywords": [
@@ -137,8 +177,8 @@
    "pos_pmp": null,
    "top3": [
     "herbco.com",
-    "spicejungle.com",
-    "banyanbotanicals.com"
+    "wholespice.com",
+    "spicejungle.com"
    ],
    "volume": 10
   },
@@ -151,9 +191,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "herbco.com",
-    "erbology.co",
-    "wholespice.com"
+    "wholespice.com",
+    "dolcesuperfoods.com",
+    "amazon.com"
    ],
    "volume": 10
   },
@@ -166,9 +206,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "hojicha.co",
-    "reddit.com",
-    "artoftea.com"
+    "meileaf.com",
+    "kimikuratea.com",
+    "camelliard.com"
    ],
    "volume": 12100
   },
@@ -181,9 +221,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "wholesale.sugimotousa.com",
-    "shop.sugimotousa.com",
-    "artoftea.com"
+    "wholesale.jadeleafmatcha.com",
+    "hojicha.co",
+    "shop.sugimotousa.com"
    ],
    "volume": 10
   },
@@ -194,11 +234,11 @@
    "language_code": "en",
    "keyword": "hojicha supplier",
    "pos_sfp": null,
-   "pos_pmp": 22,
+   "pos_pmp": null,
    "top3": [
-    "hojicha.co",
     "shop.sugimotousa.com",
-    "wholesale.jadeleafmatcha.com"
+    "hojicha.co",
+    "kametani-tea.com"
    ],
    "volume": 10
   },
@@ -211,9 +251,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "hojicha.co",
-    "reddit.com",
-    "bulk.matcha.com"
+    "wholesale.obubutea.com",
+    "takaokayausa.com",
+    "wholesale.sugimotousa.com"
    ],
    "volume": null
   },
@@ -224,11 +264,11 @@
    "language_code": "en",
    "keyword": "bulk matcha",
    "pos_sfp": null,
-   "pos_pmp": 17,
+   "pos_pmp": 32,
    "top3": [
-    "wholesale.jadeleafmatcha.com",
-    "maeda-en.com",
-    "heavenlytealeaves.com"
+    "bulk.matcha.com",
+    "bulk.matcha.com",
+    "kettl.co"
    ],
    "volume": 1300
   },
@@ -239,11 +279,11 @@
    "language_code": "en",
    "keyword": "matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 10,
    "top3": [
-    "nipponcha.us",
-    "yokomatcha.com",
-    "reddit.com"
+    "shop.sugimotousa.com",
+    "aprikamatcha.com",
+    "yokomatcha.com"
    ],
    "volume": 1000
   },
@@ -254,11 +294,11 @@
    "language_code": "en",
    "keyword": "wholesale matcha",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 22,
    "top3": [
-    "wholesale.artoftea.com",
-    "yokomatcha.com",
-    "mizubatea.com"
+    "kettl.co",
+    "bulk.matcha.com",
+    "wholesale.jadeleafmatcha.com"
    ],
    "volume": 1000
   },
@@ -269,11 +309,11 @@
    "language_code": "en",
    "keyword": "matcha powder bulk",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 8,
    "top3": [
-    "matchasource.com",
-    "soarorganics.com",
-    "bulk.matcha.com"
+    "bulk.matcha.com",
+    "kettl.co",
+    "wholesale.jadeleafmatcha.com"
    ],
    "volume": 720
   },
@@ -287,7 +327,7 @@
    "pos_pmp": null,
    "top3": [
     "wholesale.jadeleafmatcha.com",
-    "shop.sugimotousa.com",
+    "bulk.matcha.com",
     "reddit.com"
    ],
    "volume": 590
@@ -299,11 +339,11 @@
    "language_code": "en",
    "keyword": "matcha powder wholesale",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 29,
    "top3": [
+    "nipponcha.us",
     "bulk.matcha.com",
-    "bulk.matcha.com",
-    "tenzotea.co"
+    "shop.sugimotousa.com"
    ],
    "volume": 260
   },
@@ -314,11 +354,11 @@
    "language_code": "en",
    "keyword": "ceremonial matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": 36,
+   "pos_pmp": 16,
    "top3": [
-    "wholesale.fullleafteacompany.com",
-    "keichamatcha.com",
-    "bulk.matcha.com"
+    "bulk.matcha.com",
+    "kettl.co",
+    "shop.sugimotousa.com"
    ],
    "volume": 140
   },
@@ -329,11 +369,11 @@
    "language_code": "de",
    "keyword": "matcha großhandel",
    "pos_sfp": null,
-   "pos_pmp": 9,
+   "pos_pmp": null,
    "top3": [
-    "vehgroshop.de",
-    "reddit.com",
-    "matcha-magic.de"
+    "kissatea.com",
+    "lebensmittel-produktion.de",
+    "funkymatcha.com"
    ],
    "volume": 110
   },
@@ -346,9 +386,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "grossiste-de-the.fr",
-    "grossiste-the.com",
-    "ileauxepices.com"
+    "vehgroshop.fr",
+    "thesdirect.com",
+    "melimatcha.com"
    ],
    "volume": 90
   },
@@ -374,11 +414,11 @@
    "language_code": "en",
    "keyword": "matcha wholesale uk",
    "pos_sfp": null,
-   "pos_pmp": 47,
+   "pos_pmp": 50,
    "top3": [
-    "matchawholesale.co.uk",
-    "ikomiki.uk",
-    "ukmatchawholesale.co.uk"
+    "thezentea.co.uk",
+    "brake.co.uk",
+    "discountcoffee.co.uk"
    ],
    "volume": 70
   },
@@ -389,11 +429,11 @@
    "language_code": "en",
    "keyword": "japanese matcha supplier",
    "pos_sfp": null,
-   "pos_pmp": 26,
+   "pos_pmp": 34,
    "top3": [
-    "kettl.co",
-    "the-matcha.tokyo",
-    "reddit.com"
+    "matchaandbeyond.com",
+    "reddit.com",
+    "facebook.com"
    ],
    "volume": 40
   },
@@ -404,11 +444,11 @@
    "language_code": "nl",
    "keyword": "matcha groothandel",
    "pos_sfp": null,
-   "pos_pmp": 22,
+   "pos_pmp": 20,
    "top3": [
     "horeca-teabar.nl",
-    "shinrintea.nl",
-    "teathemoment.com"
+    "horeca-teabar.nl",
+    "shinrintea.nl"
    ],
    "volume": 40
   },
@@ -419,11 +459,11 @@
    "language_code": "en",
    "keyword": "bulk organic matcha",
    "pos_sfp": null,
-   "pos_pmp": 15,
+   "pos_pmp": 9,
    "top3": [
-    "bulk.matcha.com",
-    "wholesale.jadeleafmatcha.com",
-    "matchaoutlet.com"
+    "soarorganics.com",
+    "reddit.com",
+    "keichamatcha.com"
    ],
    "volume": 30
   },
@@ -436,9 +476,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchamatcha.fr",
     "grossiste-boite.com",
-    "nishikidori.com"
+    "nishikidori.com",
+    "chabiothe.fr"
    ],
    "volume": 30
   },
@@ -466,8 +506,8 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "azaria.es",
     "biribox.com",
+    "vehgroshop.es",
     "faire.com"
    ],
    "volume": 20
@@ -481,9 +521,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "targroch.pl",
-    "krainaherbaty.pl",
-    "cafedujour.pl"
+    "frutavita.pl",
+    "matcha-cha.com",
+    "hurtowniakawyherbaty.pl"
    ],
    "volume": 20
   },
@@ -494,11 +534,11 @@
    "language_code": "de",
    "keyword": "bio matcha großhandel",
    "pos_sfp": null,
-   "pos_pmp": 14,
+   "pos_pmp": 13,
    "top3": [
     "vehgroshop.de",
     "matcha-magic.de",
-    "wollenhaupt.com"
+    "alveus.eu"
    ],
    "volume": 10
   },
@@ -509,11 +549,11 @@
    "language_code": "en",
    "keyword": "bulk matcha uk",
    "pos_sfp": null,
-   "pos_pmp": 40,
+   "pos_pmp": 24,
    "top3": [
     "matchadao.co.uk",
-    "bulkcoffee.co.uk",
-    "facebook.com"
+    "thezentea.co.uk",
+    "shopcoffee.co.uk"
    ],
    "volume": null
   },
@@ -526,9 +566,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "terrasoul.com",
     "wholesale.bulksupplements.com",
-    "bulksupplements.com"
+    "terrasoul.com",
+    "hernshawfarms.com"
    ],
    "volume": 20
   },
@@ -542,8 +582,8 @@
    "pos_pmp": null,
    "top3": [
     "dolcesuperfoods.com",
-    "mountainroseherbs.com",
-    "herbco.com"
+    "dolcesuperfoods.com",
+    "usetorg.com"
    ],
    "volume": null
   },
@@ -554,11 +594,11 @@
    "language_code": "en",
    "keyword": "private label matcha",
    "pos_sfp": null,
-   "pos_pmp": 29,
+   "pos_pmp": 30,
    "top3": [
     "wollenhaupt.com",
     "facebook.com",
-    "wonnda.com"
+    "bulk.matcha.com"
    ],
    "volume": 70
   },
@@ -569,11 +609,11 @@
    "language_code": "en",
    "keyword": "matcha manufacturer",
    "pos_sfp": null,
-   "pos_pmp": 49,
+   "pos_pmp": 46,
    "top3": [
-    "und-ny.com",
-    "chtmatcha.com",
-    "youtube.com"
+    "kettl.co",
+    "reddit.com",
+    "und-ny.com"
    ],
    "volume": 40
   },
@@ -584,11 +624,11 @@
    "language_code": "en",
    "keyword": "white label matcha",
    "pos_sfp": null,
-   "pos_pmp": 17,
+   "pos_pmp": 23,
    "top3": [
-    "bulk.matcha.com",
-    "wakokoro-tea.com",
-    "yunomi.life"
+    "keichamatcha.com",
+    "facebook.com",
+    "usetorg.com"
    ],
    "volume": 40
   },
@@ -600,11 +640,7 @@
    "keyword": "private label superfood powder",
    "pos_sfp": null,
    "pos_pmp": null,
-   "top3": [
-    "makersnutrition.com",
-    "viacorenutrition.com",
-    "nucare.com"
-   ],
+   "top3": [],
    "volume": 10
   },
   {
@@ -616,9 +652,8 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "intermountainnutrition.com",
-    "orgain.com",
-    "navitasorganics.com"
+    "gnc.com",
+    "bulkpowders.com.au"
    ],
    "volume": 10
   },
@@ -631,9 +666,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "vehgroshop.com",
-    "gosuperfoods.com",
-    "bulksupplements.com"
+    "herbco.com",
+    "mounthopewholesale.com",
+    "smirks.com"
    ],
    "volume": 10
   },
@@ -659,9 +694,84 @@
    "top3": [
     "amazon.com",
     "wildernesspoets.com",
-    "bulknaturalswholesale.com"
+    "ubesuperfood.com"
    ],
    "volume": 12100
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "purple yam powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.com",
+    "wildernesspoets.com",
+    "bubbleteasupply.com"
+   ],
+   "volume": 12100
+  },
+  {
+   "cluster": "Ube",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "ube pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "culinarico.de",
+    "culinarico.de",
+    "amazon.de"
+   ],
+   "volume": 4400
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "ube powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "tresmariasandson.co.uk",
+    "ebay.co.uk",
+    "organic-ube.co.uk"
+   ],
+   "volume": 1900
+  },
+  {
+   "cluster": "Ube",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "ube poeder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "denotenshop.nl",
+    "theeje.nl",
+    "ah.nl"
+   ],
+   "volume": 1300
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "organic ube powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "wildernesspoets.com",
+    "amazon.com",
+    "ubesuperfood.com"
+   ],
+   "volume": 390
   },
   {
    "cluster": "Ube",
@@ -672,9 +782,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "sunwayfood.com.tw",
-    "yotasteshop.com",
-    "organic-lotus.com"
+    "facebook.com",
+    "easygotofun.com",
+    "shopee.tw"
    ],
    "volume": 70
   },
@@ -685,10 +795,10 @@
    "language_code": "en",
    "keyword": "ube powder bulk",
    "pos_sfp": null,
-   "pos_pmp": 33,
+   "pos_pmp": null,
    "top3": [
-    "bubbleteasupply.biz",
-    "alibaba.com",
+    "wildernesspoets.com",
+    "yoyofoods.fr",
     "amazon.com"
    ],
    "volume": 30
@@ -702,9 +812,9 @@
    "pos_sfp": null,
    "pos_pmp": 33,
    "top3": [
-    "alibaba.com",
-    "wholesale-tea-supplier.com",
-    "imube.com"
+    "amazon.com",
+    "texture-maker.com",
+    "wholesale-tea-supplier.com"
    ],
    "volume": 20
   },
@@ -717,20 +827,125 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "faire.com",
-    "facebook.com",
-    "facebook.com"
+    "wholesale-tea-supplier.com",
+    "bigmoca.nl",
+    "vidafarm.vn"
    ],
    "volume": 10
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "vidafarm.vn",
+    "wholesale-tea-supplier.com",
+    "sacfoodsupplies.com"
+   ],
+   "volume": 10
+  },
+  {
+   "cluster": "Ube brand",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "pure ube partners",
+   "pos_sfp": null,
+   "pos_pmp": 2,
+   "top3": [
+    "uubepure.com",
+    "purematchapartners.com",
+    "m.facebook.com"
+   ],
+   "volume": null
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "what is ube",
+   "pos_sfp": null,
+   "pos_pmp": 10,
+   "top3": [
+    "mccormick.com",
+    "tasteofhome.com",
+    "en.wikipedia.org"
+   ],
+   "volume": 90500
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube vs taro",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bigmoca.nl",
+    "reddit.com",
+    "vovanglobal.de"
+   ],
+   "volume": 14800
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube latte",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "kaldiscoffee.com",
+    "nguyencoffeesupply.com",
+    "reddit.com"
+   ],
+   "volume": 8100
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube vs purple sweet potato",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "youtube.com",
+    "reddit.com",
+    "facebook.com"
+   ],
+   "volume": 1600
+  },
+  {
+   "cluster": "Ube info",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "ube是什麼",
+   "pos_sfp": null,
+   "pos_pmp": 35,
+   "top3": [
+    "reddit.com",
+    "instagram.com",
+    "more-news.tw"
+   ],
+   "volume": 390
   }
  ],
  "ref_domains": {
   "superfoodspartners.com": 1,
   "purematchapartners.com": 1,
   "jadeleafmatcha.com": 30,
-  "matchaful.com": 18,
+  "matchaful.com": 19,
   "keichamatcha.com": 1,
-  "matcha.com": 51
+  "matcha.com": 52
  },
  "prospects": [
   {
