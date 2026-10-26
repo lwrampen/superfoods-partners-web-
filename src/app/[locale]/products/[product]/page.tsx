@@ -96,6 +96,8 @@ export default async function ProductPage({
   } else if (p.forms.includes("Organic")) {
     faqs.push({ q: tf("organicQ", { name: nameLc }), a: tf("organicA", { name: nameLc }) });
   }
+  // Ube buyers often need taro or a blend instead; we match the material to the application.
+  if (base.slug === "ube") faqs.push({ q: tf("ubeRangeQ"), a: tf("ubeRangeA") });
 
   const breadcrumb = {
     "@context": "https://schema.org",

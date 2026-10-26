@@ -1147,8 +1147,9 @@ export const POSTS: InsightPost[] = [
         ],
       },
       {
-        heading: E("How we supply ube"),
+        heading: E("How we supply ube, taro and blends"),
         body: [
+          E("We supply all three routes: ube powder, taro powder and blends. Which one is right depends on the application, so we start from your brief (a vivid violet, a mild creamy base or something in between) and recommend the material, then send samples to approve in your own recipe."),
           E("Our ube powder is milled from mature purple yam (Dioscorea alata). We manage supply at origin in the Philippines and China, offering organic from China and conventional from both, and every batch is screened and documented before it ships with a certificate of analysis and a Verification Record. The specification and application notes are on our ube product page, and the label behind it is Pure Ube Partners, our ube specialist label."),
           E("For the wider picture, our guides cover what ube powder is and how it is used in bakery, ready-to-drink and ice cream."),
         ],
@@ -1192,6 +1193,10 @@ export const POSTS: InsightPost[] = [
       {
         q: E("How do I know a supplier is selling real ube?"),
         a: E("Ask for the botanical name (Dioscorea alata) on the specification and the certificate of analysis, and approve a sample for colour and flavour before ordering."),
+      },
+      {
+        q: E("Do you supply taro powder and blends as well as ube?"),
+        a: E("Yes. Alongside ube powder we supply taro powder and blends, and recommend the right one for your application before you order."),
       },
     ],
     relatedProducts: ["ube"],
