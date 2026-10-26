@@ -16,6 +16,13 @@ const nextConfig: NextConfig = {
       },
       // Old origin slug still indexed by Google — consolidate to the current page.
       { source: "/origins/luzon-ph", destination: "/origins/philippines-ph", permanent: true },
+      // Hojicha now belongs to Pure Matcha Partners (decision 20 Oct 2026); the removed
+      // guide still has inbound links, so send every locale variant to the PMP site.
+      {
+        source: "/:locale(de|es|fr|pl|zh-Hant)?/insights/hojicha-powder-wholesale-buyers-guide",
+        destination: "https://www.purematchapartners.com",
+        permanent: true,
+      },
       // About → Company (Fase 3 IA rename). Permanent (308) so /about keeps its
       // ranking. Cover the default locale and every prefixed locale variant.
       { source: "/about", destination: "/company", permanent: true },
