@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1a",
+    "type": "page_seo",
+    "page_id": "6798bd1e4b234bad93cdaae1",
+    "path": "/",
+    "locale": "en",
+    "before": {
+      "seo_title": "Wholesale Matcha Supplier | Bulk Matcha Powder B2B | Pure Matcha Partners",
+      "seo_description": "Source certified wholesale matcha and bulk matcha powder from Japan and China. Trusted by cafés, food brands and distributors. Lab-tested, supplied from 5 kg."
+    },
+    "after": {
+      "seo_title": "Pure Matcha Partners | Wholesale Matcha & Hojicha Supplier",
+      "seo_description": "B2B supplier of bulk matcha and hojicha powder from Japan and China. Lab-tested organic and conventional grades from 5 kg, with worldwide shipping. Request a sample.",
+      "og_title": "Pure Matcha Partners | Wholesale Matcha & Hojicha Supplier",
+      "og_description": "B2B supplier of bulk matcha and hojicha powder from Japan and China. Lab-tested organic and conventional grades from 5 kg, with worldwide shipping. Request a sample."
+    }
+  },
+  {
+    "id": "1b",
+    "type": "page_schema",
+    "page_id": "6798bd1e4b234bad93cdaae1",
+    "path": "/",
+    "note": "Check first whether the homepage already has Organization JSON-LD; if so, merge areaServed/knowsAbout into it instead of adding a second block. Confirm the areaServed list with Leonard before publishing.",
+    "before": null,
+    "after": {
+      "jsonld": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Pure Matcha Partners",
+        "url": "https://www.purematchapartners.com/",
+        "description": "B2B supplier of bulk matcha and hojicha powder from Japan and China for cafés, food and beverage brands, private label and distributors.",
+        "knowsAbout": ["Matcha", "Ceremonial matcha", "Latte grade matcha", "Culinary matcha", "Hojicha powder", "Private label matcha"],
+        "areaServed": ["Europe", "United States", "Hong Kong"]
+      }
+    }
+  },
+  {
+    "id": "2",
+    "type": "page_seo",
+    "page_id": "67ffaaf430ca209e60d9dea7",
+    "path": "/collections/hojicha",
+    "locale": "en",
+    "before": {
+      "seo_title": "What is Hojicha? | Roasted Green Tea Wholesale | Pure Matcha Partners",
+      "seo_description": "Hojicha is a roasted Japanese green tea with a warm, nutty and low-caffeine profile. Premium hojicha powder for lattes, desserts and specialty drinks. Bulk wholesale for cafés and brands."
+    },
+    "after": {
+      "seo_title": "Hojicha Powder Wholesale | Japanese Roasted Green Tea",
+      "seo_description": "Bulk hojicha powder from Japan, organic and conventional. A warm, nutty roasted green tea for lattes, desserts and drinks. B2B supply from 5 kg. Request a sample.",
+      "og_title": "Hojicha Powder Wholesale | Japanese Roasted Green Tea",
+      "og_description": "Bulk hojicha powder from Japan, organic and conventional. A warm, nutty roasted green tea for lattes, desserts and drinks. B2B supply from 5 kg. Request a sample."
+    }
+  },
+  {
+    "id": "3",
+    "type": "page_seo",
+    "page_id": "698ed39e8999d2a9cf8e7e17",
+    "path": "/bulk-matcha-powder-supplier",
+    "locale": "en",
+    "before": {
+      "seo_title": "Bulk Matcha Powder Supplier | Wholesale Europe from 5 kg",
+      "seo_description": "Source organic and conventional bulk matcha from Japan and China. COA-backed batches, EU fulfilment and wholesale supply from 5 kg."
+    },
+    "after": {
+      "seo_title": "Bulk Matcha Powder Supplier | Worldwide Wholesale from 5 kg",
+      "seo_description": "Organic and conventional bulk matcha from Japan and China. COA-backed batches, EU fulfilment and worldwide shipping, including the USA and Hong Kong. From 5 kg.",
+      "og_title": "Bulk Matcha Powder Supplier | Worldwide Wholesale from 5 kg",
+      "og_description": "Organic and conventional bulk matcha from Japan and China. COA-backed batches, EU fulfilment and worldwide shipping, including the USA and Hong Kong. From 5 kg."
+    }
+  },
+  {
+    "id": "4",
+    "type": "blog_update",
+    "item_id": "69c3183f7fe5c067fc2908c0",
+    "slug": "matcha-ratios-for-cafes-that-even-matcha-connoisseurs-will-approve-of",
+    "note": "Slug unchanged. Fields: name (used as SEO title/H1 by the blog template) and blog-summary (meta description).",
+    "before": {
+      "name": "Matcha Ratio for Cafés: Grams, Water & Milk Guide",
+      "blog-summary": "Use practical matcha ratios for hot and iced café drinks. Compare grams of matcha, water and milk for consistent flavour, texture and drink costs."
+    },
+    "after": {
+      "name": "Matcha Ratio Guide: Grams per Cup, Latte & Iced Drinks",
+      "blog-summary": "How much matcha per cup? Usucha uses about 2 g with 60–80 ml water; a 240–300 ml latte uses 30–50 ml water and 170–220 ml milk. Café-tested ratios for hot and iced drinks."
+    }
+  },
+  {
+    "id": "5",
+    "type": "blog_update",
+    "item_id": "693b8efece5fc82b67a7f46c",
+    "slug": "match-a-making-which-matcha-grade-suits-your-needs",
+    "note": "Title (name) and slug stay unchanged, as Leonard decided on 21 Oct. Only the meta summary changes in this sprint. The content merge from the offline duplicate (item 6a2fdb5e7b0cfbe3167ff4a9, storage tips per grade and 'how to choose a grade') is a separate step for the main session, which can read that draft in Webflow; see the sprint .md.",
+    "before": {
+      "blog-summary": "Compare ceremonial, latte-grade and culinary matcha by flavour, colour and application. Choose the right matcha grade for cafés, products or wholesale supply."
+    },
+    "after": {
+      "blog-summary": "Ceremonial, latte (premium) and culinary matcha compared side by side: flavour, colour, leaf harvest and best uses. Find the right matcha grade for drinking, lattes or baking."
+    }
+  }
+]
