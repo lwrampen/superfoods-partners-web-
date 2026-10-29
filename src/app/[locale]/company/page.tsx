@@ -138,6 +138,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 <div className="h-full rounded-xl border border-stone/15 bg-white p-6">
                   <h3 className="display text-lg text-green">{t("houseRoutePrivTitle")}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-stone/80">{t("houseRoutePrivBody")}</p>
+                  <Link href="/blending" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">{t("houseRoutePrivLink")} →</Link>
                 </div>
               </Reveal>
             </div>

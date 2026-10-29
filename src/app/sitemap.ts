@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
 import { POSTS } from "@/data/insights";
+import { BLENDS } from "@/data/blends";
 import { routing } from "@/i18n/routing";
 import { localizedUrl } from "@/i18n/paths";
 
@@ -32,11 +33,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/insights", 0.7],
     ["/company", 0.8],
     ["/pure-ube-partners", 0.6],
+    ["/blending", 0.8],
+    ["/packaging", 0.7],
     ["/contact", 0.8],
   ];
   return [
     ...staticPaths.map(([p, pr]) => entry(p, pr)),
     ...PRODUCTS.map((p) => entry(`/products/${p.slug}`, 0.7)),
+    ...BLENDS.map((b) => entry(`/blending/${b.slug}`, 0.7)),
     ...ORIGIN_LIST.map((o) => entry(`/origins/${o.slug}`, 0.6)),
     ...POSTS.map((p) => entry(`/insights/${p.slug}`, 0.6, new Date(p.updated ?? p.date))),
   ];

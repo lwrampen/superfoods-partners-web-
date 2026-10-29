@@ -19,7 +19,8 @@
     "allOrigins": "所有產地",
     "specialist": "專門品牌",
     "house": "自家系列",
-    "originsNote": "橫跨 {countries} 國、{origins} 個產地——於產地管理供應。"
+    "originsNote": "橫跨 {countries} 國、{origins} 個產地——於產地管理供應。",
+    "blending": "調配與包裝"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -34,7 +35,9 @@
     "requestQuote": "索取報價 →",
     "copyright": "© 2026 Superfoods Partners B.V.",
     "entities": "註冊公司",
-    "locations": "據點"
+    "locations": "據點",
+    "blending": "調配",
+    "packaging": "包裝"
   },
   "countries": {
     "Japan": "日本",
@@ -324,7 +327,8 @@
     "houseRouteOwnTitle": "以我們的品牌",
     "houseRouteOwnBody": "當我們親自包裝與品牌化——如 Pure Matcha Partners——品牌為原料背書。我們自己的品牌證明它的實力。",
     "houseRoutePrivTitle": "以你的品牌",
-    "houseRoutePrivBody": "自有品牌時，你的品牌印在包裝上，我們在背後背書——證明原料的來源與檢測。"
+    "houseRoutePrivBody": "自有品牌時，你的品牌印在包裝上，我們在背後背書——證明原料的來源與檢測。",
+    "houseRoutePrivLink": "調配與包裝"
   },
   "team": {
     "eyebrow": "團隊",
@@ -579,7 +583,11 @@
     "replyNote": "48 小時內提供實驗室報告與報價",
     "successHeading": "我們收到了。",
     "successBody": "謝謝——我們會以實驗室報告與報價回覆您,通常在 48 小時內。請留意您的收件匣。",
-    "errorText": "傳送您的需求時發生錯誤。請直接來信至"
+    "errorText": "傳送您的需求時發生錯誤。請直接來信至",
+    "prefillBlend": "客製調配",
+    "prefillBlendNamed": "客製調配：{blend}",
+    "prefillPackaging": "客製包裝",
+    "volumePlaceholderService": "例如 250 公斤（100 公斤起）"
   },
   "locationsMap": {
     "role": "營運公司",
@@ -607,5 +615,213 @@
     "guidesHeading": "紫山藥指南",
     "ctaHeading": "正在使用紫山藥？",
     "ctaBody": "告訴我們您的需求量、規格與時程，我們將回覆可選方案、規格書與樣品。"
+  },
+  "blending": {
+    "metaTitle": "客製粉末調配與共同開發 | Superfoods Partners",
+    "metaDescription": "與您共同開發的調配粉：抹茶搭配伯爵茶、茉莉或蛋白質，紫山藥與茶粉調配。有機或常規，{kg} 公斤起。",
+    "eyebrow": "調配與包裝",
+    "heading": "您的配方，與您共同開發。",
+    "lead": "我們將自家粉末調配成您心中的產品：抹茶搭配伯爵茶、茉莉或蛋白質，紫山藥與芋頭調配，各式茶粉組合。從第一份需求說明到有文件記錄、可重複生產的批次，我們全程協助，並依您的銷售方式包裝。",
+    "ctaBrief": "提交調配需求",
+    "ctaPackaging": "包裝選項",
+    "factMoqLabel": "最低訂購量",
+    "factMoq": "每種配方 {kg} 公斤起",
+    "factFormsLabel": "基底",
+    "factForms": "有機或常規",
+    "factDocsLabel": "文件",
+    "factDocs": "每批 COA + Verification Record™",
+    "factPackLabel": "依需求包裝",
+    "factPack": "散裝、罐裝、袋裝或客製",
+    "whatHeading": "我們調配的產品",
+    "whatIntro": "買家最常詢問的三款調配，也歡迎您提出自己的想法。每個比例都依您的需求設定，並在生產前以樣品確認。",
+    "viewBlend": "查看配方",
+    "ownEyebrow": "您的想法",
+    "ownTitle": "有其他想法嗎？",
+    "ownBody": "紫山藥或芋頭調配、茶粉組合、自選蛋白質基底。告訴我們應用情境，我們提出配方建議。",
+    "pmpNote": "在找純抹茶調配或自有品牌抹茶嗎？",
+    "pmpLink": "我們的專門品牌 Pure Matcha Partners",
+    "processEyebrow": "合作流程",
+    "processHeading": "從需求到批次。",
+    "step1T": "需求說明",
+    "step1D": "您提供應用、目標風味與顏色、數量與市場，我們回覆提案。",
+    "step2T": "配方",
+    "step2D": "我們設定比例，並從自有供應中挑選原料，有機或常規。",
+    "step3T": "樣品",
+    "step3D": "您在自己的配方中測試樣品，我們調整到合適為止。",
+    "step4T": "生產",
+    "step4D": "我們調配您的首批訂單，{kg} 公斤起，附該批次的 COA 與 Verification Record™。",
+    "step5T": "包裝與回購",
+    "step5D": "以散裝或您自己的罐裝、袋裝包裝，每次回購都依相同規格重現。",
+    "packHeading": "依您的銷售方式包裝。",
+    "packBody": "除散裝供應外，也提供印有您品牌的罐裝、袋裝或全客製包裝。",
+    "faqHeading": "調配常見問題",
+    "faq": {
+      "moqQ": "客製調配的最低訂購量是多少？",
+      "moqA": "客製調配每種配方 {kg} 公斤起。我們會先寄送樣品，讓您在下單前確認配方。",
+      "organicQ": "調配粉可以是有機的嗎？",
+      "organicA": "可以。依原料、您的市場與標示需求，調配粉可做有機或常規。",
+      "proteinQ": "可以使用哪種蛋白質？",
+      "proteinA": "我們使用多種蛋白質基底，包括乳製與植物性。告訴我們您需要的蛋白質，我們以此為核心調配。",
+      "packQ": "可以包裝成零售商品嗎？",
+      "packA": "可以。我們提供散裝、罐裝、袋裝或印有您品牌的客製包裝，{kg} 公斤起。",
+      "sampleQ": "生產前會寄樣品嗎？",
+      "sampleA": "會。每個客製配方都從樣品開始，您在自己的配方中測試，我們調整比例直到符合需求。"
+    },
+    "parts": {
+      "matcha": "抹茶",
+      "earlGrey": "伯爵茶",
+      "jasmine": "茉莉",
+      "protein": "蛋白質"
+    },
+    "blendEyebrow": "客製調配",
+    "crumb": "調配",
+    "ctaThisBlend": "詢問此配方",
+    "specRatio": "比例",
+    "specRatioV": "依您的需求",
+    "specBase": "基底",
+    "specBaseV": "有機或常規",
+    "specFormat": "包裝",
+    "specFormatV": "散裝、罐裝、袋裝或客製",
+    "specMoq": "最低訂購量",
+    "flavourHeading": "風味",
+    "useHeading": "適用情境",
+    "componentsHeading": "原料組成",
+    "proteinBody": "自選蛋白質基底，乳製或植物性，配合您的配方與標示。",
+    "viewIngredient": "查看原料",
+    "faqHeadingBlend": "{name}常見問題",
+    "otherBlends": "其他配方",
+    "allBlending": "所有調配服務",
+    "pdpEyebrow": "調配與包裝",
+    "pdpBlend": "我們也將其調配成{blend}，並依需求包裝。",
+    "pdpHub": "我們可以將其調配成客製產品並為您包裝。",
+    "pdpCta": "查看調配",
+    "homeEyebrow": "調配與包裝",
+    "homeHeading": "從粉末到產品。",
+    "homeBody": "我們將抹茶與伯爵茶、茉莉或蛋白質調配，開發紫山藥與茶粉配方，並以罐裝、袋裝或客製包裝出貨。{kg} 公斤起。",
+    "homeCtaBlending": "了解調配服務",
+    "blends": {
+      "matcha-protein": {
+        "name": "抹茶蛋白",
+        "tagline": "抹茶搭配自選蛋白質基底，適用於奶昔與機能飲品。",
+        "intro": "抹茶與您選擇的乳製或植物性蛋白質基底調配，製成即沖即飲的粉末，用於奶昔、機能飲品與能量棒。比例、蛋白質與規格依您的需求設定。",
+        "flavour": "抹茶帶來綠色與草本鮮味，蛋白質讓口感更圓潤綿密。比例決定抹茶的主導程度，我們會與您以樣品調整。",
+        "use": "適合運動營養、機能飲品與代餐品牌，以抹茶作為蛋白質產品的風味與色彩。",
+        "applications": [
+          "蛋白奶昔",
+          "即沖粉",
+          "機能飲品",
+          "蛋白棒",
+          "代餐",
+          "冰沙基底"
+        ],
+        "metaTitle": "抹茶蛋白粉 — 客製調配批發",
+        "metaDescription": "客製抹茶蛋白粉：抹茶搭配自選乳製或植物性蛋白質。有機或常規，{kg} 公斤起，依需求包裝。",
+        "faq1Q": "可以為我的品牌製作抹茶蛋白粉嗎？",
+        "faq1A": "可以。我們將抹茶與您選擇的蛋白質基底調配，依需求設定比例，並以散裝、罐裝、袋裝或印有您品牌的客製包裝出貨。",
+        "faq2Q": "蛋白調配使用哪種抹茶等級？",
+        "faq2A": "取決於您想要的風味、顏色與價格。我們通常會以樣品測試不只一種等級，讓您在自己的配方中比較。"
+      },
+      "earl-grey-matcha": {
+        "name": "伯爵抹茶",
+        "base": "常規；有機可依需求提供",
+        "tagline": "抹茶與佛手柑紅茶，合為一種粉末。",
+        "intro": "抹茶與我們的伯爵茶粉（天然佛手柑紅茶）調配成一種粉末，適用於拿鐵、甜點與烘焙。比例依您的需求設定。",
+        "flavour": "伯爵茶帶來佛手柑的柑橘清香與紅茶的深度，抹茶增添綠色與鮮味。依比例不同，可呈現帶佛手柑香氣的抹茶，或更柔和、深色的茶拿鐵。",
+        "use": "非常適合咖啡廳菜單、即飲拿鐵、冰淇淋與烘焙，這兩種風味本就常一起出現。",
+        "applications": [
+          "拿鐵",
+          "即飲",
+          "冰淇淋與義式冰淇淋",
+          "烘焙",
+          "甜點",
+          "零售罐裝"
+        ],
+        "metaTitle": "伯爵抹茶粉 — 客製調配批發",
+        "metaDescription": "依規格調配的伯爵抹茶粉：抹茶搭配佛手柑紅茶粉，適用於拿鐵、甜點與烘焙。{kg} 公斤起，依需求包裝。",
+        "faq1Q": "什麼是伯爵抹茶？",
+        "faq1A": "抹茶與伯爵茶粉（天然佛手柑紅茶）的調配，結合抹茶的色澤與鮮味及伯爵茶的柑橘香氣。",
+        "faq2Q": "可以選擇抹茶與伯爵茶的比例嗎？",
+        "faq2A": "可以。我們依您的需求設定比例，並在生產前以樣品確認，讓調配在您的配方中呈現理想風味。"
+      },
+      "jasmine-matcha": {
+        "name": "茉莉抹茶",
+        "tagline": "抹茶搭配茉莉綠茶粉，花香清新。",
+        "intro": "抹茶與我們的茉莉茶粉（茉莉花香綠茶）調配成一種粉末，適用於拿鐵、冰飲與甜點。比例依您的需求設定。",
+        "flavour": "茉莉為抹茶的草本鮮味增添花香前調，兩者都保持綠色。成品比純抹茶更輕盈、香氣更足。",
+        "use": "適合冰拿鐵、氣泡茶與即飲茶，以及以花香做出差異的甜點。",
+        "applications": [
+          "冰拿鐵",
+          "氣泡茶",
+          "即飲",
+          "甜點",
+          "珍珠奶茶",
+          "零售罐裝"
+        ],
+        "metaTitle": "茉莉抹茶粉 — 客製調配批發",
+        "metaDescription": "依規格調配的茉莉抹茶粉：抹茶搭配茉莉綠茶粉，適用於拿鐵、冰飲與甜點。有機或常規，{kg} 公斤起。",
+        "faq1Q": "什麼是茉莉抹茶？",
+        "faq1A": "抹茶與茉莉茶粉（茉莉花香綠茶）的調配，保留抹茶的綠色並增添花香。",
+        "faq2Q": "茉莉抹茶有有機版本嗎？",
+        "faq2A": "有，可做有機或常規。告訴我們您的市場與標示需求，我們據此指定原料。"
+      }
+    }
+  },
+  "packaging": {
+    "metaTitle": "茶粉客製罐裝與袋裝 | Superfoods Partners",
+    "metaDescription": "抹茶、茶粉與超級食物粉的客製包裝：罐裝、袋裝與印有您品牌的專屬規格，逐批充填並記錄，{kg} 公斤起。",
+    "eyebrow": "客製包裝",
+    "heading": "依您的銷售方式包裝。",
+    "lead": "除散裝供應外，我們也將自家粉末與您的調配充填至罐裝、袋裝或印有您品牌的全客製包裝，讓產品直接上架、進入咖啡廳或網店。",
+    "cta": "詢問包裝選項",
+    "ctaBlending": "調配",
+    "facts": {
+      "moqL": "最低訂購量",
+      "moqV": "{kg} 公斤起",
+      "brandingL": "品牌",
+      "brandingV": "您的設計印於罐裝、袋裝或專屬規格",
+      "documentationL": "文件",
+      "documentationV": "每批 COA + Verification Record™"
+    },
+    "formatsHeading": "包裝規格",
+    "formatsIntro": "選擇適合您通路的規格，我們依粉末與市場建議尺寸與材質。",
+    "formats": {
+      "tins": {
+        "title": "罐裝",
+        "body": "印有您品牌的金屬罐，適合零售與禮品。"
+      },
+      "pouches": {
+        "title": "袋裝",
+        "body": "可重複密封的包裝袋，適合零售、網店與餐飲。"
+      },
+      "custom": {
+        "title": "客製包裝",
+        "body": "圍繞您的品牌與產品設計的專屬規格，歡迎分享您的想法。"
+      },
+      "bulk": {
+        "title": "散裝",
+        "body": "1 公斤鋁箔袋至 25 公斤紙箱與整櫃，供生產與分裝使用。"
+      }
+    },
+    "illustrationNote": "示意圖。成品包裝照片即將補上。",
+    "stepsHeading": "合作流程",
+    "step1T": "選擇產品",
+    "step1D": "我們的粉末或客製調配，有機或常規。",
+    "step2T": "選擇規格",
+    "step2D": "罐裝、袋裝或客製包裝，我們建議尺寸與材質。",
+    "step3T": "您的品牌",
+    "step3D": "我們依您的設計製作，並在正式生產前確認樣品。",
+    "step4T": "充填與出貨",
+    "step4D": "逐批充填並記錄，{kg} 公斤起，寄送給您。",
+    "faqHeading": "包裝常見問題",
+    "faq": {
+      "moqQ": "客製包裝的最低訂購量是多少？",
+      "moqA": "客製包裝以 {kg} 公斤產品起訂。",
+      "brandingQ": "包裝可以印上我們的品牌嗎？",
+      "brandingA": "可以。罐裝、袋裝與專屬規格皆可印上您的品牌，正式生產前會先確認樣品。",
+      "blendQ": "可以包裝客製調配嗎？",
+      "blendA": "可以。我們與您共同開發配方，並在同一張訂單中完成包裝，讓您收到成品。",
+      "organicQ": "包裝產品可以是有機的嗎？",
+      "organicA": "可以。依產品與您的市場，我們可為您包裝有機產品。"
+    }
   }
 }

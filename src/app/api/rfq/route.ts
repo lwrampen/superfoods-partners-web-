@@ -50,6 +50,7 @@ export async function POST(req: Request) {
         ${row("Name", name)}
         ${row("Email", email)}
         ${row("Market", data.market)}
+        ${row("Request", data.service === "blend" ? "Custom blend" : data.service === "packaging" ? "Custom packaging" : undefined)}
         ${row("Product", data.product)}
         ${row("Volume", data.volume)}
       </table>
@@ -62,7 +63,7 @@ export async function POST(req: Request) {
     from,
     to,
     replyTo: email,
-    subject: `RFQ — ${company}${data.product ? ` · ${data.product}` : ""}`,
+    subject: `${data.service === "blend" ? "Blend request" : data.service === "packaging" ? "Packaging request" : "RFQ"} — ${company}${data.product ? ` · ${data.product}` : ""}`,
     html,
   });
 

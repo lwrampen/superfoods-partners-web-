@@ -19,7 +19,8 @@
     "allOrigins": "All origins",
     "specialist": "Specialist label",
     "house": "House range",
-    "originsNote": "{origins} origins across {countries} countries — managed at source."
+    "originsNote": "{origins} origins across {countries} countries — managed at source.",
+    "blending": "Blending & packaging"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -34,7 +35,9 @@
     "requestQuote": "Request a quote →",
     "copyright": "© 2026 Superfoods Partners B.V.",
     "entities": "Registered entities",
-    "locations": "Locations"
+    "locations": "Locations",
+    "blending": "Blending",
+    "packaging": "Packaging"
   },
   "countries": {
     "Japan": "Japan",
@@ -324,7 +327,8 @@
     "houseRouteOwnTitle": "Under our label",
     "houseRouteOwnBody": "When we pack and brand it ourselves — as with Pure Matcha Partners — the label stands behind the material. Our own labels prove what it can do.",
     "houseRoutePrivTitle": "Under your brand",
-    "houseRoutePrivBody": "For private label, your brand goes on the pack and ours stands behind it as an endorsement — proof of where the material came from and how it was tested."
+    "houseRoutePrivBody": "For private label, your brand goes on the pack and ours stands behind it as an endorsement — proof of where the material came from and how it was tested.",
+    "houseRoutePrivLink": "Blending & packaging"
   },
   "team": {
     "eyebrow": "The team",
@@ -579,7 +583,11 @@
     "replyNote": "Lab report & quote within 48h",
     "successHeading": "We've got it.",
     "successBody": "Thanks — we'll come back with a lab report and a quote, usually within 48 hours. Check your inbox.",
-    "errorText": "Something went wrong sending your request. Please email us directly at"
+    "errorText": "Something went wrong sending your request. Please email us directly at",
+    "prefillBlend": "Custom blend",
+    "prefillBlendNamed": "Custom blend: {blend}",
+    "prefillPackaging": "Custom packaging",
+    "volumePlaceholderService": "e.g. 250 kg (from 100 kg)"
   },
   "locationsMap": {
     "role": "Operating entity",
@@ -607,5 +615,213 @@
     "guidesHeading": "Ube guides",
     "ctaHeading": "Working with ube?",
     "ctaBody": "Tell us your volume, format and timing. We come back with options, specs and samples."
+  },
+  "blending": {
+    "metaTitle": "Custom Powder Blending & Co-Development | Superfoods Partners",
+    "metaDescription": "Custom blends developed with you: matcha with earl grey, jasmine or protein, ube and tea powder blends. Organic or conventional, from {kg} kg.",
+    "eyebrow": "Blending & packaging",
+    "heading": "Your blend, developed with you.",
+    "lead": "We blend our powders into the product you have in mind: matcha with earl grey, jasmine or protein, ube and taro blends, tea powder combinations. We think along from the first brief to a documented, repeatable batch, and pack it the way you sell it.",
+    "ctaBrief": "Start a blend brief",
+    "ctaPackaging": "Packaging options",
+    "factMoqLabel": "Minimum order",
+    "factMoq": "From {kg} kg per blend",
+    "factFormsLabel": "Base",
+    "factForms": "Organic or conventional",
+    "factDocsLabel": "Documentation",
+    "factDocs": "COA + Verification Record™ per batch",
+    "factPackLabel": "Packed your way",
+    "factPack": "Bulk, tins, pouches or custom",
+    "whatHeading": "What we blend",
+    "whatIntro": "Three blends buyers ask for most, and room for your own idea. Every ratio is set to your brief and confirmed on samples before production.",
+    "viewBlend": "View blend",
+    "ownEyebrow": "Your idea",
+    "ownTitle": "Something else in mind?",
+    "ownBody": "Ube or taro blends, tea powder combinations, a protein base of your choice. Tell us the application and we propose a formulation.",
+    "pmpNote": "Looking for pure matcha blends or private label matcha?",
+    "pmpLink": "Our specialist label, Pure Matcha Partners",
+    "processEyebrow": "How it works",
+    "processHeading": "From brief to batch.",
+    "step1T": "Brief",
+    "step1D": "You share the application, target flavour and colour, volume and market. We come back with a proposal.",
+    "step2T": "Formulation",
+    "step2D": "We set the ratio and choose the ingredients from our own supply, organic or conventional.",
+    "step3T": "Samples",
+    "step3D": "You test samples in your own recipe. We adjust until it is right.",
+    "step4T": "Production",
+    "step4D": "We blend your first order, from {kg} kg, documented with a COA and Verification Record™ for the batch.",
+    "step5T": "Packing & repeat",
+    "step5D": "Packed in bulk or in your own tins or pouches, and reproduced to the same spec on every reorder.",
+    "packHeading": "Packed the way you sell it.",
+    "packBody": "Tins, pouches or fully custom packaging with your branding, on top of bulk supply.",
+    "faqHeading": "Blending: common questions",
+    "faq": {
+      "moqQ": "What is the minimum order for a custom blend?",
+      "moqA": "Custom blends start from {kg} kg per blend. Samples come first, so you approve the blend before you order.",
+      "organicQ": "Can blends be organic?",
+      "organicA": "Yes. Blends can be made organic or conventional, depending on the ingredients, your market and your label.",
+      "proteinQ": "Which protein can you use?",
+      "proteinA": "We work with a range of protein bases, dairy and plant-based. Tell us the protein you need and we build the blend around it.",
+      "packQ": "Can you pack the blend for retail?",
+      "packA": "Yes. We pack blends in bulk, in tins, in pouches or in custom packaging with your branding, from {kg} kg.",
+      "sampleQ": "Do you send samples before production?",
+      "sampleA": "Yes. Every custom blend starts with samples that you test in your own recipe, and we adjust the ratio until it matches your brief."
+    },
+    "parts": {
+      "matcha": "Matcha",
+      "earlGrey": "Earl grey",
+      "jasmine": "Jasmine",
+      "protein": "Protein"
+    },
+    "blendEyebrow": "Custom blend",
+    "crumb": "Blending",
+    "ctaThisBlend": "Request this blend",
+    "specRatio": "Ratio",
+    "specRatioV": "Set to your brief",
+    "specBase": "Base",
+    "specBaseV": "Organic or conventional",
+    "specFormat": "Packing",
+    "specFormatV": "Bulk, tins, pouches or custom",
+    "specMoq": "Minimum order",
+    "flavourHeading": "Flavour",
+    "useHeading": "Where it works",
+    "componentsHeading": "What goes in",
+    "proteinBody": "A protein base of your choice, dairy or plant-based, matched to your formulation and label.",
+    "viewIngredient": "View ingredient",
+    "faqHeadingBlend": "{name}: common questions",
+    "otherBlends": "Other blends",
+    "allBlending": "All blending",
+    "pdpEyebrow": "Blending & packaging",
+    "pdpBlend": "We also blend this into {blend}, packed your way.",
+    "pdpHub": "We can blend this into a custom product and pack it for you.",
+    "pdpCta": "See blending",
+    "homeEyebrow": "Blending & packaging",
+    "homeHeading": "From powder to product.",
+    "homeBody": "We blend matcha with earl grey, jasmine or protein, develop ube and tea powder blends, and pack them in tins, pouches or custom packaging. From {kg} kg.",
+    "homeCtaBlending": "Explore blending",
+    "blends": {
+      "matcha-protein": {
+        "name": "Matcha Protein",
+        "tagline": "Matcha with a protein base of your choice, for shakes and functional drinks.",
+        "intro": "Matcha blended with a protein base of your choice, dairy or plant-based, into a ready-to-mix powder for shakes, functional drinks and bars. Ratio, protein and format are set to your brief.",
+        "flavour": "Matcha brings its green colour and grassy, umami character; the protein softens it into a rounder, creamier profile. The ratio decides how much the matcha leads, and we tune it on samples with you.",
+        "use": "Built for brands in sports nutrition, functional beverages and meal replacement that want matcha as the flavour and colour of a protein product.",
+        "applications": [
+          "Protein shakes",
+          "Ready-to-mix powders",
+          "Functional drinks",
+          "Protein bars",
+          "Meal replacement",
+          "Smoothie bases"
+        ],
+        "metaTitle": "Matcha Protein Powder — Custom Blends in Bulk",
+        "metaDescription": "Custom matcha protein powder: matcha blended with a dairy or plant-based protein of your choice. Organic or conventional, from {kg} kg, packed your way.",
+        "faq1Q": "Can you make a matcha protein powder for my brand?",
+        "faq1A": "Yes. We blend matcha with the protein base you choose, set the ratio to your brief, and pack it in bulk, tins, pouches or custom packaging under your brand.",
+        "faq2Q": "Which matcha grade goes into a protein blend?",
+        "faq2A": "That depends on the flavour, colour and price point you want. We usually test more than one grade on samples so you can compare them in your own recipe."
+      },
+      "earl-grey-matcha": {
+        "name": "Earl Grey Matcha",
+        "base": "Conventional; organic on request",
+        "tagline": "Matcha and bergamot-scented black tea in one powder.",
+        "intro": "Matcha blended with our earl grey tea powder, black tea with natural bergamot, into one powder for lattes, desserts and bakery. The ratio is set to your brief.",
+        "flavour": "Earl grey brings the citrus lift of bergamot and the depth of black tea; matcha adds green colour and umami. Depending on the ratio, the result reads as a bergamot-scented matcha or a softer, darker tea latte.",
+        "use": "A natural fit for café menus, ready-to-drink lattes, ice cream and bakery, where both flavours already sit side by side.",
+        "applications": [
+          "Lattes",
+          "Ready-to-drink",
+          "Ice cream & gelato",
+          "Bakery",
+          "Desserts",
+          "Retail tins"
+        ],
+        "metaTitle": "Earl Grey Matcha Powder — Custom Blend, Bulk Supply",
+        "metaDescription": "Earl grey matcha powder blended to your spec: matcha with bergamot black tea powder for lattes, desserts and bakery. From {kg} kg, packed your way.",
+        "faq1Q": "What is earl grey matcha?",
+        "faq1A": "A blend of matcha and earl grey tea powder, black tea with natural bergamot. It combines matcha's colour and umami with the citrus aroma of earl grey.",
+        "faq2Q": "Can I choose the ratio of matcha to earl grey?",
+        "faq2A": "Yes. We set the ratio to your brief and confirm it on samples before production, so the blend tastes the way you intend in your own recipe."
+      },
+      "jasmine-matcha": {
+        "name": "Jasmine Matcha",
+        "tagline": "Matcha with jasmine green tea powder, floral and fresh.",
+        "intro": "Matcha blended with our jasmine tea powder, jasmine-scented green tea, into one powder for lattes, iced drinks and desserts. The ratio is set to your brief.",
+        "flavour": "Jasmine adds a floral, fragrant top note to matcha's grassy umami, and both stay green. The result is lighter and more aromatic than straight matcha.",
+        "use": "Made for iced lattes, sparkling and ready-to-drink teas, and desserts where a floral note sets the product apart.",
+        "applications": [
+          "Iced lattes",
+          "Sparkling tea",
+          "Ready-to-drink",
+          "Desserts",
+          "Bubble tea",
+          "Retail tins"
+        ],
+        "metaTitle": "Jasmine Matcha Powder — Custom Blend, Bulk Supply",
+        "metaDescription": "Jasmine matcha powder blended to your spec: matcha with jasmine green tea powder for lattes, iced drinks and desserts. Organic or conventional, from {kg} kg.",
+        "faq1Q": "What is jasmine matcha?",
+        "faq1A": "A blend of matcha and jasmine tea powder, green tea scented with jasmine. It keeps matcha's green colour and adds a floral aroma.",
+        "faq2Q": "Is jasmine matcha available organic?",
+        "faq2A": "Yes. It can be made organic or conventional. Tell us your market and label requirements and we specify the ingredients accordingly."
+      }
+    }
+  },
+  "packaging": {
+    "metaTitle": "Custom Tins & Pouches for Tea Powders | Superfoods Partners",
+    "metaDescription": "Custom packaging for matcha, tea and superfood powders: tins, pouches and bespoke formats with your branding, filled and documented per batch, from {kg} kg.",
+    "eyebrow": "Custom packaging",
+    "heading": "Packed the way you sell it.",
+    "lead": "Beyond bulk supply, we fill our powders and your blends into tins, pouches or fully custom packaging with your branding, so the product arrives ready for your shelf, café or webshop.",
+    "cta": "Request packaging options",
+    "ctaBlending": "Blending",
+    "facts": {
+      "moqL": "Minimum order",
+      "moqV": "From {kg} kg",
+      "brandingL": "Branding",
+      "brandingV": "Your design on tins, pouches or custom formats",
+      "documentationL": "Documentation",
+      "documentationV": "COA + Verification Record™ per batch"
+    },
+    "formatsHeading": "Formats",
+    "formatsIntro": "Choose the format that fits your channel. We advise on size and material for the powder and the market.",
+    "formats": {
+      "tins": {
+        "title": "Tins",
+        "body": "Metal tins for retail and gifting, with your branding."
+      },
+      "pouches": {
+        "title": "Pouches & bags",
+        "body": "Resealable pouches and bags for retail, webshops and foodservice."
+      },
+      "custom": {
+        "title": "Custom packaging",
+        "body": "A format designed around your brand and product. Tell us what you have in mind."
+      },
+      "bulk": {
+        "title": "Bulk",
+        "body": "1 kg (2.2 lb) foil bags to 25 kg (55 lb) cartons and full containers, for production and repacking."
+      }
+    },
+    "illustrationNote": "Illustrations. Photography of finished packaging follows.",
+    "stepsHeading": "How it works",
+    "step1T": "Choose the product",
+    "step1D": "One of our powders or a custom blend, organic or conventional.",
+    "step2T": "Pick the format",
+    "step2D": "Tins, pouches or custom packaging. We advise on size and material.",
+    "step3T": "Your branding",
+    "step3D": "We work with your design and agree a sample before the full run.",
+    "step4T": "Fill & ship",
+    "step4D": "Filled and documented per batch, from {kg} kg, and shipped to you.",
+    "faqHeading": "Packaging: common questions",
+    "faq": {
+      "moqQ": "What is the minimum order for custom packaging?",
+      "moqA": "Custom packaging starts from {kg} kg of product.",
+      "brandingQ": "Can the packaging carry our brand?",
+      "brandingA": "Yes. Tins, pouches and custom formats can carry your branding, and we agree a sample before the full run.",
+      "blendQ": "Can you pack a custom blend?",
+      "blendA": "Yes. We can develop a blend with you and pack it in the same order, so you receive a finished product.",
+      "organicQ": "Can packed products be organic?",
+      "organicA": "Yes. Organic products can be packed for you, depending on the product and your market."
+    }
   }
 }

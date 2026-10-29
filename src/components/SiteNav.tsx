@@ -9,6 +9,7 @@ import { PRODUCTS, LABELS, ORIGIN_LIST, type LabelId } from "@/data/catalog";
 // Products + Origins now live inside the Products mega-menu, so the flat nav
 // carries only the remaining top-level destinations.
 const NAV = [
+  { key: "blending", href: "/blending" },
   { key: "verification", href: "/verification" },
   { key: "insights", href: "/insights" },
   { key: "company", href: "/company" },
