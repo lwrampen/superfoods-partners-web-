@@ -52,6 +52,8 @@ Elke gids linkt naar `/products/ube`. De PDP en de merkpagina linken terug naar 
 7. `/origins/philippines-ph`: een ube-specifieke alinea (herkomst, seizoen, verwerking). Alleen feiten die Leonard aanlevert.
 8. Optioneel na Q1: een NL-locale, als NL-verkeer blijft groeien (nu land #1 op klikken).
 
+**Aanbod (Leonard, 26-10):** naast ube (Dioscorea alata) leveren we ook **taro en blends**, en we kiezen per toepassing het juiste product. Leg de site dus nooit vast op "alleen purple yam". Botanische uitleg (ube ≠ taro ≠ purple sweet potato) mag wel, maar dan altijd met "we adviseren het juiste materiaal". Er komt pas een taro-productpagina als Leonard herkomst, vormen en certificaten aanlevert.
+
 Niet doen: ube-claims verzinnen (organic, certificaten en vormen alleen zoals in `catalog.ts`), gezondheidsclaims, en de merkpagina laten concurreren met `/products/ube`.
 
 **Links:** ongeveer 40% van het linkbudget (€2.000/mnd) gaat naar SFP, met ube voorop. Denk aan de ube-identiteitspitch (`docs/outreach/`), Faire, blogs over Filipijns eten en bakken, en eventueel een ube-marktrapport als data-asset in Q1.
