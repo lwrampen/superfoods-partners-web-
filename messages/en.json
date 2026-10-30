@@ -20,7 +20,13 @@
     "specialist": "Specialist label",
     "house": "House range",
     "originsNote": "{origins} origins across {countries} countries — managed at source.",
-    "blending": "Blending & packaging"
+    "services": "Services",
+    "servicesBlending": "Blending",
+    "servicesBlendingDesc": "Custom blends developed with you, organic or conventional, from {kg} kg.",
+    "servicesBlendingMore": "All blending",
+    "servicesPackaging": "Packaging",
+    "servicesPackagingDesc": "Tins, pouches and custom packaging with your branding.",
+    "servicesPackagingMore": "Packaging options"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -617,7 +623,7 @@
     "ctaBody": "Tell us your volume, format and timing. We come back with options, specs and samples."
   },
   "blending": {
-    "metaTitle": "Custom Powder Blending & Co-Development | Superfoods Partners",
+    "metaTitle": "Custom Tea Blends & Powder Blending | Superfoods Partners",
     "metaDescription": "Custom blends developed with you: matcha with earl grey, jasmine or protein, ube and tea powder blends. Organic or conventional, from {kg} kg.",
     "eyebrow": "Blending & packaging",
     "heading": "Your blend, developed with you.",
@@ -802,7 +808,6 @@
         "body": "1 kg (2.2 lb) foil bags to 25 kg (55 lb) cartons and full containers, for production and repacking."
       }
     },
-    "illustrationNote": "Illustrations. Photography of finished packaging follows.",
     "stepsHeading": "How it works",
     "step1T": "Choose the product",
     "step1D": "One of our powders or a custom blend, organic or conventional.",

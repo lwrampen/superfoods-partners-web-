@@ -117,7 +117,6 @@ export default async function PackagingPage({ params }: { params: Promise<{ loca
               </Reveal>
             ))}
           </div>
-          <p className="mono mt-6 text-[10px] uppercase tracking-widest text-stone/40">{t("illustrationNote")}</p>
         </section>
 
         {/* HOW IT WORKS */}

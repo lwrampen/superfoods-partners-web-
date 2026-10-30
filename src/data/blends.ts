@@ -24,9 +24,8 @@ function part(slug: string, key: string): BlendPart {
   return { product: p.slug, key, color: p.accent, tint: p.tint, img: p.img };
 }
 
-// Protein has no catalogue page or photography yet: the swatch uses the
-// reserved protein brand colour (globals.css --color-protein).
-const PROTEIN: BlendPart = { key: "protein", color: "#1f5a55", tint: "#93c9c2" };
+// Protein has no catalogue page; the swatch uses its own powder macro.
+const PROTEIN: BlendPart = { key: "protein", color: "#e6d6b8", tint: "#fbf3e2", img: "/products/protein.webp" };
 
 export const BLENDS: Blend[] = [
   { slug: "matcha-protein", parts: [part("matcha", "matcha"), PROTEIN] },

@@ -3,13 +3,14 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { MobileMenu } from "@/components/MobileMenu";
 import { ProductsMenu } from "@/components/ProductsMenu";
+import { ServicesMenu, type ServicesCopy } from "@/components/ServicesMenu";
+import { BLENDS, BLEND_MOQ_KG } from "@/data/blends";
 import { LangSwitch } from "@/components/LangSwitch";
 import { PRODUCTS, LABELS, ORIGIN_LIST, type LabelId } from "@/data/catalog";
 
 // Products + Origins now live inside the Products mega-menu, so the flat nav
 // carries only the remaining top-level destinations.
 const NAV = [
-  { key: "blending", href: "/blending" },
   { key: "verification", href: "/verification" },
   { key: "insights", href: "/insights" },
   { key: "company", href: "/company" },
@@ -20,6 +21,18 @@ const LABEL_ORDER: LabelId[] = ["pmp", "pup", "sfp"];
 export function SiteNav() {
   const t = useTranslations("nav");
   const links = NAV.map((l) => ({ label: t(l.key), href: l.href }));
+  const tb = useTranslations("blending");
+  const services: ServicesCopy = {
+    label: t("services"),
+    blending: {
+      title: t("servicesBlending"),
+      desc: t("servicesBlendingDesc", { kg: BLEND_MOQ_KG }),
+      href: "/blending",
+      items: BLENDS.map((b) => ({ name: tb(`blends.${b.slug}.name`), href: `/blending/${b.slug}` })),
+      more: t("servicesBlendingMore"),
+    },
+    packaging: { title: t("servicesPackaging"), desc: t("servicesPackagingDesc"), href: "/packaging", more: t("servicesPackagingMore") },
+  };
 
   // Slim, serialisable data for the (client) menus — the full catalogue never
   // reaches the client bundle.
@@ -50,6 +63,7 @@ export function SiteNav() {
         </Link>
         <div className="hidden items-center gap-8 md:flex">
           <ProductsMenu label={t("products")} groups={productGroups} copy={menuCopy} />
+          <ServicesMenu copy={services} />
           {links.map((l) => (
             <Link key={l.href} href={l.href} className="text-sm text-stone transition-colors hover:text-green">
               {l.label}
@@ -68,6 +82,7 @@ export function SiteNav() {
             originsLabel={t("origins")}
             productGroups={productGroups}
             copy={menuCopy}
+            services={services}
           />
         </div>
       </nav>

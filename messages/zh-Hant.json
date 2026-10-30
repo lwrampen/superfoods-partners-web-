@@ -20,7 +20,13 @@
     "specialist": "專門品牌",
     "house": "自家系列",
     "originsNote": "橫跨 {countries} 國、{origins} 個產地——於產地管理供應。",
-    "blending": "調配與包裝"
+    "services": "服務",
+    "servicesBlending": "調配",
+    "servicesBlendingDesc": "與您共同開發的客製調配，有機或常規，{kg} 公斤起。",
+    "servicesBlendingMore": "所有調配服務",
+    "servicesPackaging": "包裝",
+    "servicesPackagingDesc": "印有您品牌的罐裝、袋裝與客製包裝。",
+    "servicesPackagingMore": "包裝選項"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -617,7 +623,7 @@
     "ctaBody": "告訴我們您的需求量、規格與時程，我們將回覆可選方案、規格書與樣品。"
   },
   "blending": {
-    "metaTitle": "客製粉末調配與共同開發 | Superfoods Partners",
+    "metaTitle": "客製茶粉與粉末調配 | Superfoods Partners",
     "metaDescription": "與您共同開發的調配粉：抹茶搭配伯爵茶、茉莉或蛋白質，紫山藥與茶粉調配。有機或常規，{kg} 公斤起。",
     "eyebrow": "調配與包裝",
     "heading": "您的配方，與您共同開發。",
@@ -802,7 +808,6 @@
         "body": "1 公斤鋁箔袋至 25 公斤紙箱與整櫃，供生產與分裝使用。"
       }
     },
-    "illustrationNote": "示意圖。成品包裝照片即將補上。",
     "stepsHeading": "合作流程",
     "step1T": "選擇產品",
     "step1D": "我們的粉末或客製調配，有機或常規。",
