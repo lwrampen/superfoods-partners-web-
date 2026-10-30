@@ -1,5 +1,4 @@
-// Line drawings of the formats we pack into — illustrative, in the house
-// colours, until we have photography of finished packaging.
+// Line drawings of the formats we pack into, in the house colours.
 const STROKE = "#16240f";
 
 export function TinArt({ className = "" }: { className?: string }) {

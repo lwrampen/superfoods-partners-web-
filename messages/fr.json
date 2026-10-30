@@ -20,7 +20,13 @@
     "specialist": "Marque spécialiste",
     "house": "Gamme maison",
     "originsNote": "{origins} origines dans {countries} pays — géré à la source.",
-    "blending": "Mélanges & emballage"
+    "services": "Services",
+    "servicesBlending": "Mélanges",
+    "servicesBlendingDesc": "Mélanges sur mesure développés avec vous, bio ou conventionnels, dès {kg} kg.",
+    "servicesBlendingMore": "Tout sur les mélanges",
+    "servicesPackaging": "Emballage",
+    "servicesPackagingDesc": "Boîtes, sachets et emballages sur mesure à votre marque.",
+    "servicesPackagingMore": "Options d'emballage"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -617,7 +623,7 @@
     "ctaBody": "Indiquez-nous volume, format et calendrier. Nous revenons avec des options, des spécifications et des échantillons."
   },
   "blending": {
-    "metaTitle": "Mélanges de poudres sur mesure & co-développement | Superfoods Partners",
+    "metaTitle": "Mélanges de thé et de poudres sur mesure | Superfoods Partners",
     "metaDescription": "Des mélanges développés avec vous : matcha avec earl grey, jasmin ou protéine, mélanges d'ube et de thé en poudre. Bio ou conventionnel, dès {kg} kg.",
     "eyebrow": "Mélanges & emballage",
     "heading": "Votre mélange, développé avec vous.",
@@ -802,7 +808,6 @@
         "body": "Sachets aluminium de 1 kg jusqu'aux cartons de 25 kg et conteneurs complets, pour la production et le reconditionnement."
       }
     },
-    "illustrationNote": "Illustrations. Les photos des emballages finis suivront.",
     "stepsHeading": "Comment ça marche",
     "step1T": "Choisir le produit",
     "step1D": "Une de nos poudres ou un mélange sur mesure, bio ou conventionnel.",

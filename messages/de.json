@@ -20,7 +20,13 @@
     "specialist": "Spezialisiertes Label",
     "house": "Haus-Sortiment",
     "originsNote": "{origins} Herkünfte in {countries} Ländern — direkt am Ursprung betreut.",
-    "blending": "Blending & Verpackung"
+    "services": "Services",
+    "servicesBlending": "Blending",
+    "servicesBlendingDesc": "Individuelle Mischungen, gemeinsam entwickelt, bio oder konventionell, ab {kg} kg.",
+    "servicesBlendingMore": "Alles zum Blending",
+    "servicesPackaging": "Verpackung",
+    "servicesPackagingDesc": "Dosen, Beutel und individuelle Verpackung mit Ihrem Branding.",
+    "servicesPackagingMore": "Verpackungsoptionen"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -617,7 +623,7 @@
     "ctaBody": "Nennen Sie uns Volumen, Format und Zeitplan. Wir melden uns mit Optionen, Spezifikationen und Mustern."
   },
   "blending": {
-    "metaTitle": "Individuelle Pulvermischungen & Co-Entwicklung | Superfoods Partners",
+    "metaTitle": "Individuelle Tee- & Pulvermischungen | Superfoods Partners",
     "metaDescription": "Mischungen, gemeinsam mit Ihnen entwickelt: Matcha mit Earl Grey, Jasmin oder Protein, Ube- und Teepulver-Mischungen. Bio oder konventionell, ab {kg} kg.",
     "eyebrow": "Blending & Verpackung",
     "heading": "Ihre Mischung, gemeinsam entwickelt.",
@@ -802,7 +808,6 @@
         "body": "1-kg-Folienbeutel bis 25-kg-Kartons und ganze Container, für Produktion und Umverpackung."
       }
     },
-    "illustrationNote": "Illustrationen. Fotos der fertigen Verpackungen folgen.",
     "stepsHeading": "So funktioniert es",
     "step1T": "Produkt wählen",
     "step1D": "Eines unserer Pulver oder eine individuelle Mischung, bio oder konventionell.",

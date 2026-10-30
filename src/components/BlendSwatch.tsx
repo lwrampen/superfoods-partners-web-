@@ -1,9 +1,8 @@
 import Image from "next/image";
 import type { BlendPart } from "@/data/blends";
 
-// Two powders meeting on a diagonal — the real ingredient photography where we
-// have it, the brand colour where we don't. Stands in for blend photography
-// until we shoot the actual blends.
+// Two powders meeting on a diagonal: the macro photography of each ingredient,
+// or its brand colour for a part without a photo.
 export function BlendSwatch({
   parts,
   labels,
@@ -34,7 +33,7 @@ export function BlendSwatch({
           {p.img ? (
             <Image src={p.img} alt="" fill sizes={sizes} className="object-cover" priority={priority} />
           ) : (
-            // no photography yet: a quiet grain so the flat colour reads as powder
+            // no photo: a quiet grain so the flat colour reads as powder
             <div
               className="absolute inset-0 opacity-30"
               style={{ backgroundImage: `radial-gradient(${p.tint} 1px, transparent 1.4px)`, backgroundSize: "7px 7px" }}

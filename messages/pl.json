@@ -20,7 +20,13 @@
     "specialist": "Marka wyspecjalizowana",
     "house": "Asortyment domu",
     "originsNote": "{origins} miejsc pochodzenia w {countries} krajach — zarządzane u źródła.",
-    "blending": "Mieszanki i opakowania"
+    "services": "Usługi",
+    "servicesBlending": "Mieszanki",
+    "servicesBlendingDesc": "Mieszanki na zamówienie tworzone z Tobą, organiczne lub konwencjonalne, od {kg} kg.",
+    "servicesBlendingMore": "Wszystko o mieszankach",
+    "servicesPackaging": "Opakowania",
+    "servicesPackagingDesc": "Puszki, saszetki i opakowania na zamówienie z Twoją marką.",
+    "servicesPackagingMore": "Opcje opakowań"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -617,7 +623,7 @@
     "ctaBody": "Podaj wolumen, format i termin. Wrócimy z opcjami, specyfikacjami i próbkami."
   },
   "blending": {
-    "metaTitle": "Mieszanki proszków na zamówienie i wspólny rozwój | Superfoods Partners",
+    "metaTitle": "Mieszanki herbat i proszków na zamówienie | Superfoods Partners",
     "metaDescription": "Mieszanki tworzone razem z Tobą: matcha z earl grey, jaśminem lub białkiem, mieszanki ube i herbat w proszku. Organiczne lub konwencjonalne, od {kg} kg.",
     "eyebrow": "Mieszanki i opakowania",
     "heading": "Twoja mieszanka, tworzona razem z Tobą.",
@@ -802,7 +808,6 @@
         "body": "Od 1-kilogramowych worków foliowych po kartony 25 kg i pełne kontenery, do produkcji i przepakowania."
       }
     },
-    "illustrationNote": "Ilustracje. Zdjęcia gotowych opakowań wkrótce.",
     "stepsHeading": "Jak to działa",
     "step1T": "Wybierz produkt",
     "step1D": "Jeden z naszych proszków lub mieszanka na zamówienie, organiczna lub konwencjonalna.",

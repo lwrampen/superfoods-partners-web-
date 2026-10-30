@@ -20,7 +20,13 @@
     "specialist": "Marca especialista",
     "house": "Gama de la casa",
     "originsNote": "{origins} orígenes en {countries} países — gestionado en origen.",
-    "blending": "Mezclas y envasado"
+    "services": "Servicios",
+    "servicesBlending": "Mezclas",
+    "servicesBlendingDesc": "Mezclas a medida desarrolladas con usted, orgánicas o convencionales, desde {kg} kg.",
+    "servicesBlendingMore": "Todo sobre mezclas",
+    "servicesPackaging": "Envasado",
+    "servicesPackagingDesc": "Latas, bolsas y envases a medida con su marca.",
+    "servicesPackagingMore": "Opciones de envasado"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -617,7 +623,7 @@
     "ctaBody": "Cuéntenos volumen, formato y plazos. Le respondemos con opciones, especificaciones y muestras."
   },
   "blending": {
-    "metaTitle": "Mezclas de polvos a medida y codesarrollo | Superfoods Partners",
+    "metaTitle": "Mezclas de té y polvos a medida | Superfoods Partners",
     "metaDescription": "Mezclas desarrolladas con usted: matcha con earl grey, jazmín o proteína, mezclas de ube y de té en polvo. Orgánico o convencional, desde {kg} kg.",
     "eyebrow": "Mezclas y envasado",
     "heading": "Su mezcla, desarrollada con usted.",
@@ -802,7 +808,6 @@
         "body": "Bolsas de aluminio de 1 kg hasta cajas de 25 kg y contenedores completos, para producción y reenvasado."
       }
     },
-    "illustrationNote": "Ilustraciones. Las fotos del envase final llegarán pronto.",
     "stepsHeading": "Cómo funciona",
     "step1T": "Elija el producto",
     "step1D": "Uno de nuestros polvos o una mezcla a medida, orgánico o convencional.",

@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Link } from "@/i18n/navigation";
 import { LangSwitch } from "@/components/LangSwitch";
 import type { MenuGroup, MenuCopy } from "@/components/ProductsMenu";
+import type { ServicesCopy } from "@/components/ServicesMenu";
 
 type NavLink = { label: string; href: string };
 
@@ -15,6 +16,7 @@ export function MobileMenu({
   originsLabel,
   productGroups,
   copy,
+  services,
 }: {
   links: NavLink[];
   cta: string;
@@ -22,9 +24,11 @@ export function MobileMenu({
   originsLabel: string;
   productGroups: MenuGroup[];
   copy: MenuCopy;
+  services: ServicesCopy;
 }) {
   const [open, setOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
 
   // Lock body scroll while the menu is open.
   useEffect(() => {
@@ -157,6 +161,60 @@ export function MobileMenu({
                             {originsLabel} →
                           </Link>
                         </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+
+                {/* Services — blending and packaging */}
+                <button
+                  type="button"
+                  onClick={() => setServicesOpen((v) => !v)}
+                  aria-expanded={servicesOpen}
+                  className="flex items-center justify-between border-b border-stone/10 py-3.5 text-lg text-stone transition-colors hover:text-green"
+                >
+                  {services.label}
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 10 10"
+                    className={`transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`}
+                    aria-hidden
+                  >
+                    <path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                  </svg>
+                </button>
+                <AnimatePresence initial={false}>
+                  {servicesOpen && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+                      className="overflow-hidden border-b border-stone/10"
+                    >
+                      <div className="flex flex-col gap-4 py-4">
+                        <div>
+                          <Link href={services.blending.href} onClick={close} className="display text-sm text-green">
+                            {services.blending.title}
+                          </Link>
+                          <ul className="mt-2 flex flex-col">
+                            {services.blending.items.map((b) => (
+                              <li key={b.href}>
+                                <Link
+                                  href={b.href}
+                                  onClick={close}
+                                  className="block py-1.5 pl-4 text-sm text-stone transition-colors hover:text-green"
+                                >
+                                  {b.name}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        <Link href={services.packaging.href} onClick={close} className="display text-sm text-green">
+                          {services.packaging.title}
+                        </Link>
                       </div>
                     </motion.div>
                   )}
