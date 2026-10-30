@@ -19,7 +19,8 @@
     "allOrigins": "Alle Herkünfte",
     "specialist": "Spezialisiertes Label",
     "house": "Haus-Sortiment",
-    "originsNote": "{origins} Herkünfte in {countries} Ländern — direkt am Ursprung betreut."
+    "originsNote": "{origins} Herkünfte in {countries} Ländern — direkt am Ursprung betreut.",
+    "blending": "Blending & Verpackung"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -34,7 +35,9 @@
     "requestQuote": "Angebot anfragen →",
     "copyright": "© 2026 Superfoods Partners B.V.",
     "entities": "Eingetragene Gesellschaften",
-    "locations": "Standorte"
+    "locations": "Standorte",
+    "blending": "Blending",
+    "packaging": "Verpackung"
   },
   "countries": {
     "Japan": "Japan",
@@ -324,7 +327,8 @@
     "houseRouteOwnTitle": "Unter unserem Label",
     "houseRouteOwnBody": "Wenn wir selbst packen und branden – wie bei Pure Matcha Partners – steht das Label hinter dem Material. Unsere eigenen Labels beweisen, was es kann.",
     "houseRoutePrivTitle": "Unter Ihrer Marke",
-    "houseRoutePrivBody": "Bei Handelsmarke steht Ihre Marke auf der Verpackung und unsere als Endorsement dahinter – Beleg für Herkunft und Prüfung des Materials."
+    "houseRoutePrivBody": "Bei Handelsmarke steht Ihre Marke auf der Verpackung und unsere als Endorsement dahinter – Beleg für Herkunft und Prüfung des Materials.",
+    "houseRoutePrivLink": "Blending & Verpackung"
   },
   "team": {
     "eyebrow": "Das Team",
@@ -579,7 +583,11 @@
     "replyNote": "Laborbericht & Angebot innerhalb von 48 Std.",
     "successHeading": "Wir haben es erhalten.",
     "successBody": "Danke — wir melden uns mit einem Laborbericht und einem Angebot zurück, in der Regel innerhalb von 48 Stunden. Prüfen Sie Ihren Posteingang.",
-    "errorText": "Beim Senden Ihrer Anfrage ist etwas schiefgegangen. Bitte schreiben Sie uns direkt an"
+    "errorText": "Beim Senden Ihrer Anfrage ist etwas schiefgegangen. Bitte schreiben Sie uns direkt an",
+    "prefillBlend": "Individuelle Mischung",
+    "prefillBlendNamed": "Individuelle Mischung: {blend}",
+    "prefillPackaging": "Individuelle Verpackung",
+    "volumePlaceholderService": "z. B. 250 kg (ab 100 kg)"
   },
   "locationsMap": {
     "role": "Operative Gesellschaft",
@@ -607,5 +615,213 @@
     "guidesHeading": "Ube-Ratgeber",
     "ctaHeading": "Sie arbeiten mit Ube?",
     "ctaBody": "Nennen Sie uns Volumen, Format und Zeitplan. Wir melden uns mit Optionen, Spezifikationen und Mustern."
+  },
+  "blending": {
+    "metaTitle": "Individuelle Pulvermischungen & Co-Entwicklung | Superfoods Partners",
+    "metaDescription": "Mischungen, gemeinsam mit Ihnen entwickelt: Matcha mit Earl Grey, Jasmin oder Protein, Ube- und Teepulver-Mischungen. Bio oder konventionell, ab {kg} kg.",
+    "eyebrow": "Blending & Verpackung",
+    "heading": "Ihre Mischung, gemeinsam entwickelt.",
+    "lead": "Wir mischen unsere Pulver zu dem Produkt, das Sie im Kopf haben: Matcha mit Earl Grey, Jasmin oder Protein, Ube- und Taro-Mischungen, Teepulver-Kombinationen. Wir denken mit – vom ersten Briefing bis zur dokumentierten, reproduzierbaren Charge – und verpacken so, wie Sie verkaufen.",
+    "ctaBrief": "Mischungs-Briefing starten",
+    "ctaPackaging": "Verpackungsoptionen",
+    "factMoqLabel": "Mindestmenge",
+    "factMoq": "Ab {kg} kg pro Mischung",
+    "factFormsLabel": "Basis",
+    "factForms": "Bio oder konventionell",
+    "factDocsLabel": "Dokumentation",
+    "factDocs": "COA + Verification Record™ pro Charge",
+    "factPackLabel": "Verpackt nach Wunsch",
+    "factPack": "Bulk, Dosen, Beutel oder individuell",
+    "whatHeading": "Was wir mischen",
+    "whatIntro": "Drei Mischungen, nach denen Einkäufer am häufigsten fragen – und Raum für Ihre eigene Idee. Jedes Verhältnis wird nach Ihrem Briefing festgelegt und vor der Produktion an Mustern bestätigt.",
+    "viewBlend": "Mischung ansehen",
+    "ownEyebrow": "Ihre Idee",
+    "ownTitle": "Etwas anderes im Sinn?",
+    "ownBody": "Ube- oder Taro-Mischungen, Teepulver-Kombinationen, eine Proteinbasis Ihrer Wahl. Nennen Sie uns die Anwendung, wir schlagen eine Rezeptur vor.",
+    "pmpNote": "Sie suchen reine Matcha-Mischungen oder Private-Label-Matcha?",
+    "pmpLink": "Unser Spezial-Label, Pure Matcha Partners",
+    "processEyebrow": "So funktioniert es",
+    "processHeading": "Vom Briefing zur Charge.",
+    "step1T": "Briefing",
+    "step1D": "Sie nennen Anwendung, Zielgeschmack und -farbe, Volumen und Markt. Wir melden uns mit einem Vorschlag.",
+    "step2T": "Rezeptur",
+    "step2D": "Wir legen das Verhältnis fest und wählen die Zutaten aus unserer eigenen Versorgung, bio oder konventionell.",
+    "step3T": "Muster",
+    "step3D": "Sie testen Muster in Ihrer eigenen Rezeptur. Wir passen an, bis es stimmt.",
+    "step4T": "Produktion",
+    "step4D": "Wir mischen Ihren ersten Auftrag ab {kg} kg, dokumentiert mit COA und Verification Record™ für die Charge.",
+    "step5T": "Verpackung & Nachbestellung",
+    "step5D": "Verpackt als Bulk oder in Ihren eigenen Dosen oder Beuteln und bei jeder Nachbestellung nach derselben Spezifikation reproduziert.",
+    "packHeading": "Verpackt, wie Sie verkaufen.",
+    "packBody": "Dosen, Beutel oder vollständig individuelle Verpackung mit Ihrem Branding – zusätzlich zur Bulk-Lieferung.",
+    "faqHeading": "Blending: häufige Fragen",
+    "faq": {
+      "moqQ": "Was ist die Mindestmenge für eine individuelle Mischung?",
+      "moqA": "Individuelle Mischungen beginnen ab {kg} kg pro Mischung. Zuerst kommen Muster, damit Sie die Mischung vor der Bestellung freigeben.",
+      "organicQ": "Können Mischungen bio sein?",
+      "organicA": "Ja. Mischungen sind bio oder konventionell möglich, abhängig von den Zutaten, Ihrem Markt und Ihrem Etikett.",
+      "proteinQ": "Welches Protein können Sie verwenden?",
+      "proteinA": "Wir arbeiten mit verschiedenen Proteinbasen, tierisch und pflanzlich. Nennen Sie uns das gewünschte Protein, wir bauen die Mischung darum herum.",
+      "packQ": "Können Sie die Mischung für den Handel verpacken?",
+      "packA": "Ja. Wir verpacken Mischungen als Bulk, in Dosen, Beuteln oder individueller Verpackung mit Ihrem Branding, ab {kg} kg.",
+      "sampleQ": "Schicken Sie vor der Produktion Muster?",
+      "sampleA": "Ja. Jede individuelle Mischung beginnt mit Mustern, die Sie in Ihrer eigenen Rezeptur testen; wir passen das Verhältnis an, bis es Ihrem Briefing entspricht."
+    },
+    "parts": {
+      "matcha": "Matcha",
+      "earlGrey": "Earl Grey",
+      "jasmine": "Jasmin",
+      "protein": "Protein"
+    },
+    "blendEyebrow": "Individuelle Mischung",
+    "crumb": "Blending",
+    "ctaThisBlend": "Diese Mischung anfragen",
+    "specRatio": "Verhältnis",
+    "specRatioV": "Nach Ihrem Briefing",
+    "specBase": "Basis",
+    "specBaseV": "Bio oder konventionell",
+    "specFormat": "Verpackung",
+    "specFormatV": "Bulk, Dosen, Beutel oder individuell",
+    "specMoq": "Mindestmenge",
+    "flavourHeading": "Geschmack",
+    "useHeading": "Wo es passt",
+    "componentsHeading": "Was drin ist",
+    "proteinBody": "Eine Proteinbasis Ihrer Wahl, tierisch oder pflanzlich, abgestimmt auf Ihre Rezeptur und Ihr Etikett.",
+    "viewIngredient": "Zutat ansehen",
+    "faqHeadingBlend": "{name}: häufige Fragen",
+    "otherBlends": "Weitere Mischungen",
+    "allBlending": "Alles zum Blending",
+    "pdpEyebrow": "Blending & Verpackung",
+    "pdpBlend": "Wir mischen dies auch zu {blend}, verpackt nach Wunsch.",
+    "pdpHub": "Wir können daraus ein individuelles Produkt mischen und für Sie verpacken.",
+    "pdpCta": "Zum Blending",
+    "homeEyebrow": "Blending & Verpackung",
+    "homeHeading": "Vom Pulver zum Produkt.",
+    "homeBody": "Wir mischen Matcha mit Earl Grey, Jasmin oder Protein, entwickeln Ube- und Teepulver-Mischungen und verpacken sie in Dosen, Beuteln oder individueller Verpackung. Ab {kg} kg.",
+    "homeCtaBlending": "Blending entdecken",
+    "blends": {
+      "matcha-protein": {
+        "name": "Matcha Protein",
+        "tagline": "Matcha mit einer Proteinbasis Ihrer Wahl, für Shakes und funktionelle Drinks.",
+        "intro": "Matcha, gemischt mit einer Proteinbasis Ihrer Wahl, tierisch oder pflanzlich, zu einem Instant-Pulver für Shakes, funktionelle Drinks und Riegel. Verhältnis, Protein und Format richten sich nach Ihrem Briefing.",
+        "flavour": "Matcha bringt grüne Farbe und grasigen Umami-Charakter; das Protein macht das Profil runder und cremiger. Das Verhältnis bestimmt, wie stark der Matcha führt – das stimmen wir mit Ihnen an Mustern ab.",
+        "use": "Für Marken in Sporternährung, funktionellen Getränken und Mahlzeitenersatz, die Matcha als Geschmack und Farbe eines Proteinprodukts wollen.",
+        "applications": [
+          "Proteinshakes",
+          "Instant-Pulver",
+          "Funktionelle Drinks",
+          "Proteinriegel",
+          "Mahlzeitenersatz",
+          "Smoothie-Basen"
+        ],
+        "metaTitle": "Matcha-Proteinpulver — individuelle Mischungen in Bulk",
+        "metaDescription": "Individuelles Matcha-Proteinpulver: Matcha mit tierischem oder pflanzlichem Protein Ihrer Wahl. Bio oder konventionell, ab {kg} kg, verpackt nach Wunsch.",
+        "faq1Q": "Können Sie ein Matcha-Proteinpulver für meine Marke herstellen?",
+        "faq1A": "Ja. Wir mischen Matcha mit der Proteinbasis Ihrer Wahl, legen das Verhältnis nach Ihrem Briefing fest und verpacken als Bulk, in Dosen, Beuteln oder individueller Verpackung unter Ihrer Marke.",
+        "faq2Q": "Welche Matcha-Qualität kommt in eine Proteinmischung?",
+        "faq2A": "Das hängt von Geschmack, Farbe und Preisniveau ab. Meist testen wir mehr als eine Qualität an Mustern, damit Sie in Ihrer eigenen Rezeptur vergleichen können."
+      },
+      "earl-grey-matcha": {
+        "name": "Earl Grey Matcha",
+        "base": "Konventionell; bio auf Anfrage",
+        "tagline": "Matcha und Schwarztee mit Bergamotte in einem Pulver.",
+        "intro": "Matcha, gemischt mit unserem Earl-Grey-Teepulver – Schwarztee mit natürlicher Bergamotte – zu einem Pulver für Lattes, Desserts und Backwaren. Das Verhältnis richtet sich nach Ihrem Briefing.",
+        "flavour": "Earl Grey bringt die Zitrusfrische der Bergamotte und die Tiefe von Schwarztee; Matcha ergänzt grüne Farbe und Umami. Je nach Verhältnis wirkt das Ergebnis wie ein Matcha mit Bergamotte-Duft oder wie ein weicher, dunklerer Tee-Latte.",
+        "use": "Passt zu Café-Karten, Ready-to-drink-Lattes, Eis und Backwaren – dort, wo beide Geschmäcker ohnehin nebeneinander stehen.",
+        "applications": [
+          "Lattes",
+          "Ready-to-drink",
+          "Eis & Gelato",
+          "Backwaren",
+          "Desserts",
+          "Dosen für den Handel"
+        ],
+        "metaTitle": "Earl-Grey-Matcha-Pulver — individuelle Mischung, Bulk",
+        "metaDescription": "Earl-Grey-Matcha-Pulver nach Ihrer Spezifikation: Matcha mit Bergamotte-Schwarzteepulver für Lattes, Desserts und Backwaren. Ab {kg} kg, verpackt nach Wunsch.",
+        "faq1Q": "Was ist Earl Grey Matcha?",
+        "faq1A": "Eine Mischung aus Matcha und Earl-Grey-Teepulver, Schwarztee mit natürlicher Bergamotte. Sie verbindet Farbe und Umami des Matcha mit dem Zitrusaroma von Earl Grey.",
+        "faq2Q": "Kann ich das Verhältnis von Matcha zu Earl Grey wählen?",
+        "faq2A": "Ja. Wir legen das Verhältnis nach Ihrem Briefing fest und bestätigen es vor der Produktion an Mustern, damit die Mischung in Ihrer Rezeptur so schmeckt, wie Sie es wollen."
+      },
+      "jasmine-matcha": {
+        "name": "Jasmin Matcha",
+        "tagline": "Matcha mit Jasmin-Grünteepulver, blumig und frisch.",
+        "intro": "Matcha, gemischt mit unserem Jasmin-Teepulver – grüner Tee mit Jasminduft – zu einem Pulver für Lattes, Eisgetränke und Desserts. Das Verhältnis richtet sich nach Ihrem Briefing.",
+        "flavour": "Jasmin legt eine blumige, duftende Kopfnote über das grasige Umami des Matcha, und beide bleiben grün. Das Ergebnis ist leichter und aromatischer als reiner Matcha.",
+        "use": "Für Iced Lattes, Sparkling- und Ready-to-drink-Tees und Desserts, bei denen eine blumige Note das Produkt unterscheidet.",
+        "applications": [
+          "Iced Lattes",
+          "Sparkling Tea",
+          "Ready-to-drink",
+          "Desserts",
+          "Bubble Tea",
+          "Dosen für den Handel"
+        ],
+        "metaTitle": "Jasmin-Matcha-Pulver — individuelle Mischung, Bulk",
+        "metaDescription": "Jasmin-Matcha-Pulver nach Ihrer Spezifikation: Matcha mit Jasmin-Grünteepulver für Lattes, Eisgetränke und Desserts. Bio oder konventionell, ab {kg} kg.",
+        "faq1Q": "Was ist Jasmin Matcha?",
+        "faq1A": "Eine Mischung aus Matcha und Jasmin-Teepulver, grünem Tee mit Jasminduft. Sie behält die grüne Farbe des Matcha und ergänzt ein blumiges Aroma.",
+        "faq2Q": "Gibt es Jasmin Matcha in Bio-Qualität?",
+        "faq2A": "Ja, bio oder konventionell. Nennen Sie uns Ihren Markt und Ihre Etikettanforderungen, wir spezifizieren die Zutaten entsprechend."
+      }
+    }
+  },
+  "packaging": {
+    "metaTitle": "Individuelle Dosen & Beutel für Teepulver | Superfoods Partners",
+    "metaDescription": "Individuelle Verpackung für Matcha-, Tee- und Superfood-Pulver: Dosen, Beutel und eigene Formate mit Ihrem Branding, abgefüllt und dokumentiert, ab {kg} kg.",
+    "eyebrow": "Individuelle Verpackung",
+    "heading": "Verpackt, wie Sie verkaufen.",
+    "lead": "Zusätzlich zur Bulk-Lieferung füllen wir unsere Pulver und Ihre Mischungen in Dosen, Beutel oder vollständig individuelle Verpackung mit Ihrem Branding – damit das Produkt fertig für Regal, Café oder Webshop ankommt.",
+    "cta": "Verpackungsoptionen anfragen",
+    "ctaBlending": "Blending",
+    "facts": {
+      "moqL": "Mindestmenge",
+      "moqV": "Ab {kg} kg",
+      "brandingL": "Branding",
+      "brandingV": "Ihr Design auf Dosen, Beuteln oder eigenen Formaten",
+      "documentationL": "Dokumentation",
+      "documentationV": "COA + Verification Record™ pro Charge"
+    },
+    "formatsHeading": "Formate",
+    "formatsIntro": "Wählen Sie das Format, das zu Ihrem Kanal passt. Wir beraten zu Größe und Material für Pulver und Markt.",
+    "formats": {
+      "tins": {
+        "title": "Dosen",
+        "body": "Metalldosen für Handel und Geschenke, mit Ihrem Branding."
+      },
+      "pouches": {
+        "title": "Beutel & Tüten",
+        "body": "Wiederverschließbare Beutel und Tüten für Handel, Webshops und Gastronomie."
+      },
+      "custom": {
+        "title": "Individuelle Verpackung",
+        "body": "Ein Format, das um Ihre Marke und Ihr Produkt herum entworfen wird. Erzählen Sie uns Ihre Idee."
+      },
+      "bulk": {
+        "title": "Bulk",
+        "body": "1-kg-Folienbeutel bis 25-kg-Kartons und ganze Container, für Produktion und Umverpackung."
+      }
+    },
+    "illustrationNote": "Illustrationen. Fotos der fertigen Verpackungen folgen.",
+    "stepsHeading": "So funktioniert es",
+    "step1T": "Produkt wählen",
+    "step1D": "Eines unserer Pulver oder eine individuelle Mischung, bio oder konventionell.",
+    "step2T": "Format wählen",
+    "step2D": "Dosen, Beutel oder individuelle Verpackung. Wir beraten zu Größe und Material.",
+    "step3T": "Ihr Branding",
+    "step3D": "Wir arbeiten mit Ihrem Design und stimmen vor dem vollen Lauf ein Muster ab.",
+    "step4T": "Abfüllen & Versand",
+    "step4D": "Pro Charge abgefüllt und dokumentiert, ab {kg} kg, und an Sie versendet.",
+    "faqHeading": "Verpackung: häufige Fragen",
+    "faq": {
+      "moqQ": "Was ist die Mindestmenge für individuelle Verpackung?",
+      "moqA": "Individuelle Verpackung beginnt ab {kg} kg Produkt.",
+      "brandingQ": "Kann die Verpackung unsere Marke tragen?",
+      "brandingA": "Ja. Dosen, Beutel und eigene Formate können Ihr Branding tragen; vor dem vollen Lauf stimmen wir ein Muster ab.",
+      "blendQ": "Können Sie eine individuelle Mischung verpacken?",
+      "blendA": "Ja. Wir entwickeln eine Mischung mit Ihnen und verpacken sie im selben Auftrag, sodass Sie ein fertiges Produkt erhalten.",
+      "organicQ": "Können verpackte Produkte bio sein?",
+      "organicA": "Ja. Bio-Produkte können für Sie verpackt werden, abhängig von Produkt und Markt."
+    }
   }
 }

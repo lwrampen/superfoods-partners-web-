@@ -3,6 +3,8 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { TraceABatch } from "@/components/TraceABatch";
 import { Reveal } from "@/components/Reveal";
+import { BlendSwatch } from "@/components/BlendSwatch";
+import { BLENDS, BLEND_MOQ_KG } from "@/data/blends";
 import { CountUp } from "@/components/CountUp";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -54,6 +56,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   setRequestLocale(locale);
   const t = await getTranslations("home");
   const tp = await getTranslations("promises");
+  const tbl = await getTranslations("blending");
 
   const promiseItems = tp.raw("items") as { t: string; d: string }[];
   const peopleItems = t.raw("peopleItems") as { t: string; d: string }[];
@@ -192,6 +195,40 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 </Reveal>
               );
             })}
+          </div>
+        </section>
+
+        {/* BLENDING & PACKAGING — from powder to product */}
+        <section className="bg-forest text-oat">
+          <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-[1fr_1.1fr] md:py-20">
+            <Reveal>
+              <span className="mono text-[11px] uppercase tracking-widest text-lime">{tbl("homeEyebrow")}</span>
+              <h2 className="display mt-4 text-4xl leading-tight md:text-5xl">{tbl("homeHeading")}</h2>
+              <p className="mt-4 max-w-md text-oat/75">{tbl("homeBody", { kg: BLEND_MOQ_KG })}</p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link href="/blending" className="rounded-lg bg-lime px-6 py-3.5 text-sm font-medium text-forest transition-opacity hover:opacity-90">
+                  {tbl("homeCtaBlending")}
+                </Link>
+                <Link href="/packaging" className="rounded-lg border border-oat/25 px-6 py-3.5 text-sm font-medium text-oat transition-colors hover:border-oat">
+                  {tbl("ctaPackaging")} →
+                </Link>
+              </div>
+            </Reveal>
+            <div className="grid grid-cols-3 gap-3">
+              {BLENDS.map((b, i) => (
+                <Reveal key={b.slug} delay={i * 0.06}>
+                  <Link href={`/blending/${b.slug}`} className="group block">
+                    <BlendSwatch
+                      parts={b.parts}
+                      labels={[tbl(`parts.${b.parts[0].key}`), tbl(`parts.${b.parts[1].key}`)]}
+                      sizes="(min-width: 768px) 16vw, 30vw"
+                      className="aspect-[3/4] transition-transform duration-300 group-hover:-translate-y-1"
+                    />
+                    <p className="mt-3 text-sm text-oat">{tbl(`blends.${b.slug}.name`)}</p>
+                  </Link>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </section>
 

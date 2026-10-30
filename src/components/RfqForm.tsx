@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { getProduct } from "@/data/catalog";
 import { localizeProduct } from "@/data/content.i18n";
+import { getBlend } from "@/data/blends";
 
 const FIELD = "w-full rounded-lg border border-stone/25 bg-white px-4 py-2.5 text-sm text-green outline-none transition-colors focus:border-green";
 const LABEL = "mono mb-1.5 block text-[10px] uppercase tracking-wide text-stone/60";
@@ -16,6 +17,21 @@ export function RfqForm() {
   const productSlug = params.get("product");
   const rawProduct = productSlug ? getProduct(productSlug) : undefined;
   const product = rawProduct ? localizeProduct(rawProduct, locale) : undefined;
+  // Blending & packaging requests (?service=blend[&blend=<slug>] / ?service=packaging)
+  const tb = useTranslations("blending");
+  const rawService = params.get("service");
+  const service = rawService === "blend" || rawService === "packaging" ? rawService : undefined;
+  const blendSlug = params.get("blend");
+  const blend = blendSlug ? getBlend(blendSlug) : undefined;
+  const prefill =
+    product?.name ??
+    (service === "blend"
+      ? blend
+        ? t("prefillBlendNamed", { blend: tb(`blends.${blend.slug}.name`) })
+        : t("prefillBlend")
+      : service === "packaging"
+        ? t("prefillPackaging")
+        : "");
 
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
 
@@ -38,6 +54,7 @@ export function RfqForm() {
         gtag?.("event", "generate_lead", {
           form: "rfq",
           product: (data.product as string) || "unspecified",
+          service: (data.service as string) || "supply",
         });
       }
     } catch {
@@ -61,6 +78,7 @@ export function RfqForm() {
     <form onSubmit={onSubmit} className="rounded-xl border border-stone/15 bg-sand p-6 md:p-8">
       {/* honeypot */}
       <input type="text" name="company_website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden />
+      {service && <input type="hidden" name="service" value={service} />}
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
@@ -81,11 +99,11 @@ export function RfqForm() {
         </div>
         <div>
           <label className={LABEL} htmlFor="product">{t("product")}</label>
-          <input id="product" name="product" defaultValue={product?.name ?? ""} placeholder={t("productPlaceholder")} className={FIELD} />
+          <input id="product" name="product" defaultValue={prefill} placeholder={t("productPlaceholder")} className={FIELD} />
         </div>
         <div>
           <label className={LABEL} htmlFor="volume">{t("volume")}</label>
-          <input id="volume" name="volume" placeholder={t("volumePlaceholder")} className={FIELD} />
+          <input id="volume" name="volume" placeholder={service ? t("volumePlaceholderService") : t("volumePlaceholder")} className={FIELD} />
         </div>
       </div>
 

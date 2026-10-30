@@ -15,6 +15,7 @@ import { PRODUCTS, ORIGINS, LABELS, getProduct, originNote, originLabel } from "
 import { toCert } from "@/data/trust";
 import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.i18n";
 import { POSTS, pick } from "@/data/insights";
+import { blendForProduct } from "@/data/blends";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ product: p.slug }));
@@ -69,6 +70,9 @@ export default async function ProductPage({
   // Insight guides about this product — links the PDP into its topic cluster.
   // Not for PMP products: matcha/hojicha guidance lives with Pure Matcha Partners.
   const guides = base.label !== "pmp" ? POSTS.filter((x) => x.relatedProducts?.includes(base.slug)) : [];
+  // Blending service: point the ingredient at the blend built on it (or the hub).
+  const blend = blendForProduct(base.slug);
+  const tb = await getTranslations("blending");
   const sameCat = PRODUCTS.filter((x) => x.category === base.category && x.slug !== p.slug);
   const related = (sameCat.length ? sameCat : PRODUCTS.filter((x) => x.slug !== p.slug)).slice(0, 4);
 
@@ -345,6 +349,20 @@ export default async function ProductPage({
                 <Link href="/products" className="mono mt-4 inline-block text-[11px] uppercase tracking-wide text-green">{t("viewCatalogue")}</Link>
               </div>
             )}
+            <div className="md:col-span-2">
+              <Link
+                href={blend ? `/blending/${blend.slug}` : "/blending"}
+                className="group flex flex-wrap items-center justify-between gap-3 rounded-xl border border-stone/15 bg-sand px-5 py-4 transition-colors hover:border-green"
+              >
+                <span>
+                  <span className="mono block text-[10px] uppercase tracking-widest text-stone/50">{tb("pdpEyebrow")}</span>
+                  <span className="mt-1 block text-sm text-green">
+                    {blend ? tb("pdpBlend", { blend: tb(`blends.${blend.slug}.name`) }) : tb("pdpHub")}
+                  </span>
+                </span>
+                <span className="mono text-[11px] uppercase tracking-wide text-green">{tb("pdpCta")} →</span>
+              </Link>
+            </div>
             {guides.length > 0 && (
               <div className="md:col-span-2">
                 <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("guidesFor", { name: p.name.toLowerCase() })}</h2>

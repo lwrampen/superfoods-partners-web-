@@ -19,7 +19,8 @@
     "allOrigins": "Toutes les origines",
     "specialist": "Marque spécialiste",
     "house": "Gamme maison",
-    "originsNote": "{origins} origines dans {countries} pays — géré à la source."
+    "originsNote": "{origins} origines dans {countries} pays — géré à la source.",
+    "blending": "Mélanges & emballage"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -34,7 +35,9 @@
     "requestQuote": "Demander un devis →",
     "copyright": "© 2026 Superfoods Partners B.V.",
     "entities": "Entités enregistrées",
-    "locations": "Sites"
+    "locations": "Sites",
+    "blending": "Mélanges",
+    "packaging": "Emballage"
   },
   "countries": {
     "Japan": "Japon",
@@ -324,7 +327,8 @@
     "houseRouteOwnTitle": "Sous notre marque",
     "houseRouteOwnBody": "Quand nous conditionnons et marquons nous-mêmes — comme avec Pure Matcha Partners — la marque répond de la matière. Nos marques prouvent ce qu'elle peut faire.",
     "houseRoutePrivTitle": "Sous votre marque",
-    "houseRoutePrivBody": "En marque de distributeur, votre marque figure sur l'emballage et la nôtre derrière, en caution : preuve de l'origine de la matière et de ses analyses."
+    "houseRoutePrivBody": "En marque de distributeur, votre marque figure sur l'emballage et la nôtre derrière, en caution : preuve de l'origine de la matière et de ses analyses.",
+    "houseRoutePrivLink": "Mélanges & emballage"
   },
   "team": {
     "eyebrow": "L'équipe",
@@ -579,7 +583,11 @@
     "replyNote": "Rapport de laboratoire et devis sous 48 h",
     "successHeading": "Nous l'avons bien reçue.",
     "successBody": "Merci — nous reviendrons vers vous avec un rapport de laboratoire et un devis, généralement sous 48 heures. Vérifiez votre boîte de réception.",
-    "errorText": "Une erreur est survenue lors de l'envoi de votre demande. Écrivez-nous directement à"
+    "errorText": "Une erreur est survenue lors de l'envoi de votre demande. Écrivez-nous directement à",
+    "prefillBlend": "Mélange sur mesure",
+    "prefillBlendNamed": "Mélange sur mesure : {blend}",
+    "prefillPackaging": "Emballage sur mesure",
+    "volumePlaceholderService": "ex. 250 kg (à partir de 100 kg)"
   },
   "locationsMap": {
     "role": "Entité opérationnelle",
@@ -607,5 +615,213 @@
     "guidesHeading": "Guides ube",
     "ctaHeading": "Vous travaillez l'ube ?",
     "ctaBody": "Indiquez-nous volume, format et calendrier. Nous revenons avec des options, des spécifications et des échantillons."
+  },
+  "blending": {
+    "metaTitle": "Mélanges de poudres sur mesure & co-développement | Superfoods Partners",
+    "metaDescription": "Des mélanges développés avec vous : matcha avec earl grey, jasmin ou protéine, mélanges d'ube et de thé en poudre. Bio ou conventionnel, dès {kg} kg.",
+    "eyebrow": "Mélanges & emballage",
+    "heading": "Votre mélange, développé avec vous.",
+    "lead": "Nous assemblons nos poudres pour créer le produit que vous imaginez : matcha avec earl grey, jasmin ou protéine, mélanges d'ube et de taro, combinaisons de thés en poudre. Nous vous accompagnons du premier brief jusqu'à un lot documenté et reproductible, et nous l'emballons comme vous le vendez.",
+    "ctaBrief": "Lancer un brief de mélange",
+    "ctaPackaging": "Options d'emballage",
+    "factMoqLabel": "Commande minimale",
+    "factMoq": "À partir de {kg} kg par mélange",
+    "factFormsLabel": "Base",
+    "factForms": "Bio ou conventionnel",
+    "factDocsLabel": "Documentation",
+    "factDocs": "COA + Verification Record™ par lot",
+    "factPackLabel": "Emballé à votre façon",
+    "factPack": "Vrac, boîtes, sachets ou sur mesure",
+    "whatHeading": "Ce que nous mélangeons",
+    "whatIntro": "Les trois mélanges les plus demandés par les acheteurs, et de la place pour votre propre idée. Chaque proportion est définie selon votre brief et validée sur échantillons avant production.",
+    "viewBlend": "Voir le mélange",
+    "ownEyebrow": "Votre idée",
+    "ownTitle": "Une autre idée en tête ?",
+    "ownBody": "Mélanges d'ube ou de taro, combinaisons de thés en poudre, une base protéinée de votre choix. Dites-nous l'application, nous proposons une formulation.",
+    "pmpNote": "Vous cherchez des mélanges de matcha pur ou du matcha en marque blanche ?",
+    "pmpLink": "Notre marque spécialiste, Pure Matcha Partners",
+    "processEyebrow": "Comment ça marche",
+    "processHeading": "Du brief au lot.",
+    "step1T": "Brief",
+    "step1D": "Vous partagez l'application, le goût et la couleur visés, le volume et le marché. Nous revenons avec une proposition.",
+    "step2T": "Formulation",
+    "step2D": "Nous fixons la proportion et choisissons les ingrédients dans notre propre approvisionnement, bio ou conventionnels.",
+    "step3T": "Échantillons",
+    "step3D": "Vous testez les échantillons dans votre propre recette. Nous ajustons jusqu'à ce que ce soit juste.",
+    "step4T": "Production",
+    "step4D": "Nous mélangeons votre première commande, dès {kg} kg, documentée par un COA et un Verification Record™ pour le lot.",
+    "step5T": "Emballage & réassort",
+    "step5D": "Emballé en vrac ou dans vos propres boîtes ou sachets, et reproduit selon la même spécification à chaque réassort.",
+    "packHeading": "Emballé comme vous le vendez.",
+    "packBody": "Boîtes, sachets ou emballage entièrement sur mesure à votre marque, en plus de l'approvisionnement en vrac.",
+    "faqHeading": "Mélanges : questions fréquentes",
+    "faq": {
+      "moqQ": "Quelle est la commande minimale pour un mélange sur mesure ?",
+      "moqA": "Les mélanges sur mesure commencent à {kg} kg par mélange. Les échantillons passent en premier, pour que vous validiez le mélange avant de commander.",
+      "organicQ": "Les mélanges peuvent-ils être bio ?",
+      "organicA": "Oui. Les mélanges peuvent être bio ou conventionnels, selon les ingrédients, votre marché et votre étiquette.",
+      "proteinQ": "Quelle protéine pouvez-vous utiliser ?",
+      "proteinA": "Nous travaillons avec différentes bases protéinées, laitières et végétales. Indiquez-nous la protéine souhaitée et nous construisons le mélange autour.",
+      "packQ": "Pouvez-vous emballer le mélange pour la vente au détail ?",
+      "packA": "Oui. Nous emballons les mélanges en vrac, en boîtes, en sachets ou en emballage sur mesure à votre marque, dès {kg} kg.",
+      "sampleQ": "Envoyez-vous des échantillons avant la production ?",
+      "sampleA": "Oui. Chaque mélange sur mesure commence par des échantillons que vous testez dans votre recette, et nous ajustons la proportion jusqu'à correspondre à votre brief."
+    },
+    "parts": {
+      "matcha": "Matcha",
+      "earlGrey": "Earl grey",
+      "jasmine": "Jasmin",
+      "protein": "Protéine"
+    },
+    "blendEyebrow": "Mélange sur mesure",
+    "crumb": "Mélanges",
+    "ctaThisBlend": "Demander ce mélange",
+    "specRatio": "Proportion",
+    "specRatioV": "Selon votre brief",
+    "specBase": "Base",
+    "specBaseV": "Bio ou conventionnel",
+    "specFormat": "Emballage",
+    "specFormatV": "Vrac, boîtes, sachets ou sur mesure",
+    "specMoq": "Commande minimale",
+    "flavourHeading": "Goût",
+    "useHeading": "Où il fonctionne",
+    "componentsHeading": "Ce qu'il contient",
+    "proteinBody": "Une base protéinée de votre choix, laitière ou végétale, adaptée à votre formulation et à votre étiquette.",
+    "viewIngredient": "Voir l'ingrédient",
+    "faqHeadingBlend": "{name} : questions fréquentes",
+    "otherBlends": "Autres mélanges",
+    "allBlending": "Tout sur les mélanges",
+    "pdpEyebrow": "Mélanges & emballage",
+    "pdpBlend": "Nous l'assemblons aussi en {blend}, emballé à votre façon.",
+    "pdpHub": "Nous pouvons en faire un produit sur mesure et l'emballer pour vous.",
+    "pdpCta": "Voir les mélanges",
+    "homeEyebrow": "Mélanges & emballage",
+    "homeHeading": "De la poudre au produit.",
+    "homeBody": "Nous mélangeons le matcha avec earl grey, jasmin ou protéine, développons des mélanges d'ube et de thé en poudre, et les emballons en boîtes, sachets ou emballage sur mesure. Dès {kg} kg.",
+    "homeCtaBlending": "Découvrir les mélanges",
+    "blends": {
+      "matcha-protein": {
+        "name": "Matcha Protéine",
+        "tagline": "Matcha avec une base protéinée de votre choix, pour shakes et boissons fonctionnelles.",
+        "intro": "Du matcha mélangé à une base protéinée de votre choix, laitière ou végétale, en une poudre prête à mélanger pour shakes, boissons fonctionnelles et barres. Proportion, protéine et format selon votre brief.",
+        "flavour": "Le matcha apporte sa couleur verte et son caractère herbacé et umami ; la protéine l'adoucit vers un profil plus rond et crémeux. La proportion décide de la place du matcha, et nous l'ajustons avec vous sur échantillons.",
+        "use": "Pour les marques de nutrition sportive, de boissons fonctionnelles et de substituts de repas qui veulent le matcha comme goût et couleur d'un produit protéiné.",
+        "applications": [
+          "Shakes protéinés",
+          "Poudres prêtes à mélanger",
+          "Boissons fonctionnelles",
+          "Barres protéinées",
+          "Substituts de repas",
+          "Bases smoothie"
+        ],
+        "metaTitle": "Protéine au matcha en poudre — mélanges sur mesure en vrac",
+        "metaDescription": "Protéine au matcha sur mesure : matcha avec une protéine laitière ou végétale de votre choix. Bio ou conventionnel, dès {kg} kg, emballé à votre façon.",
+        "faq1Q": "Pouvez-vous créer une protéine au matcha pour ma marque ?",
+        "faq1A": "Oui. Nous mélangeons le matcha avec la base protéinée de votre choix, fixons la proportion selon votre brief et l'emballons en vrac, en boîtes, en sachets ou en emballage sur mesure à votre marque.",
+        "faq2Q": "Quel grade de matcha pour un mélange protéiné ?",
+        "faq2A": "Cela dépend du goût, de la couleur et du prix visés. Nous testons généralement plusieurs grades sur échantillons pour que vous puissiez comparer dans votre propre recette."
+      },
+      "earl-grey-matcha": {
+        "name": "Earl Grey Matcha",
+        "base": "Conventionnel ; bio sur demande",
+        "tagline": "Matcha et thé noir à la bergamote en une seule poudre.",
+        "intro": "Du matcha mélangé à notre thé earl grey en poudre, thé noir à la bergamote naturelle, en une seule poudre pour lattes, desserts et boulangerie. La proportion est fixée selon votre brief.",
+        "flavour": "L'earl grey apporte la fraîcheur acidulée de la bergamote et la profondeur du thé noir ; le matcha ajoute couleur verte et umami. Selon la proportion, le résultat évoque un matcha parfumé à la bergamote ou un latte au thé plus doux et plus sombre.",
+        "use": "Idéal pour les cartes de cafés, les lattes prêts à boire, les glaces et la boulangerie, où les deux saveurs se côtoient déjà.",
+        "applications": [
+          "Lattes",
+          "Prêt à boire",
+          "Glaces & gelato",
+          "Boulangerie",
+          "Desserts",
+          "Boîtes pour la vente"
+        ],
+        "metaTitle": "Earl grey matcha en poudre — mélange sur mesure, vrac",
+        "metaDescription": "Earl grey matcha en poudre selon votre cahier des charges : matcha et thé noir à la bergamote pour lattes, desserts et boulangerie. Dès {kg} kg.",
+        "faq1Q": "Qu'est-ce que l'earl grey matcha ?",
+        "faq1A": "Un mélange de matcha et de thé earl grey en poudre, thé noir à la bergamote naturelle. Il associe la couleur et l'umami du matcha à l'arôme acidulé de l'earl grey.",
+        "faq2Q": "Puis-je choisir la proportion de matcha et d'earl grey ?",
+        "faq2A": "Oui. Nous fixons la proportion selon votre brief et la validons sur échantillons avant production, pour que le mélange ait le goût voulu dans votre recette."
+      },
+      "jasmine-matcha": {
+        "name": "Matcha Jasmin",
+        "tagline": "Matcha et thé vert au jasmin en poudre, floral et frais.",
+        "intro": "Du matcha mélangé à notre thé au jasmin en poudre, thé vert parfumé au jasmin, en une seule poudre pour lattes, boissons glacées et desserts. La proportion est fixée selon votre brief.",
+        "flavour": "Le jasmin ajoute une note florale et parfumée à l'umami herbacé du matcha, et l'ensemble reste vert. Le résultat est plus léger et plus aromatique que le matcha seul.",
+        "use": "Pour les iced lattes, les thés pétillants et prêts à boire, et les desserts où une note florale distingue le produit.",
+        "applications": [
+          "Iced lattes",
+          "Thé pétillant",
+          "Prêt à boire",
+          "Desserts",
+          "Bubble tea",
+          "Boîtes pour la vente"
+        ],
+        "metaTitle": "Matcha au jasmin en poudre — mélange sur mesure, vrac",
+        "metaDescription": "Matcha au jasmin en poudre selon votre cahier des charges : matcha et thé vert au jasmin pour lattes, boissons glacées et desserts. Bio ou conventionnel, dès {kg} kg.",
+        "faq1Q": "Qu'est-ce que le matcha au jasmin ?",
+        "faq1A": "Un mélange de matcha et de thé au jasmin en poudre, thé vert parfumé au jasmin. Il garde la couleur verte du matcha et ajoute un arôme floral.",
+        "faq2Q": "Le matcha au jasmin existe-t-il en bio ?",
+        "faq2A": "Oui, en bio ou en conventionnel. Indiquez-nous votre marché et vos exigences d'étiquetage, nous spécifions les ingrédients en conséquence."
+      }
+    }
+  },
+  "packaging": {
+    "metaTitle": "Boîtes et sachets sur mesure pour thés en poudre | Superfoods Partners",
+    "metaDescription": "Emballage sur mesure pour matcha, thés et superaliments en poudre : boîtes, sachets et formats propres à votre marque, remplis et documentés, dès {kg} kg.",
+    "eyebrow": "Emballage sur mesure",
+    "heading": "Emballé comme vous le vendez.",
+    "lead": "En plus de l'approvisionnement en vrac, nous conditionnons nos poudres et vos mélanges en boîtes, sachets ou emballage entièrement sur mesure à votre marque, pour un produit prêt pour votre rayon, votre café ou votre boutique en ligne.",
+    "cta": "Demander les options d'emballage",
+    "ctaBlending": "Mélanges",
+    "facts": {
+      "moqL": "Commande minimale",
+      "moqV": "À partir de {kg} kg",
+      "brandingL": "Marque",
+      "brandingV": "Votre design sur boîtes, sachets ou formats propres",
+      "documentationL": "Documentation",
+      "documentationV": "COA + Verification Record™ par lot"
+    },
+    "formatsHeading": "Formats",
+    "formatsIntro": "Choisissez le format adapté à votre canal. Nous conseillons sur la taille et le matériau selon la poudre et le marché.",
+    "formats": {
+      "tins": {
+        "title": "Boîtes",
+        "body": "Boîtes métalliques pour la vente et le cadeau, à votre marque."
+      },
+      "pouches": {
+        "title": "Sachets",
+        "body": "Sachets refermables pour la vente, l'e-commerce et la restauration."
+      },
+      "custom": {
+        "title": "Emballage sur mesure",
+        "body": "Un format conçu autour de votre marque et de votre produit. Parlez-nous de votre idée."
+      },
+      "bulk": {
+        "title": "Vrac",
+        "body": "Sachets aluminium de 1 kg jusqu'aux cartons de 25 kg et conteneurs complets, pour la production et le reconditionnement."
+      }
+    },
+    "illustrationNote": "Illustrations. Les photos des emballages finis suivront.",
+    "stepsHeading": "Comment ça marche",
+    "step1T": "Choisir le produit",
+    "step1D": "Une de nos poudres ou un mélange sur mesure, bio ou conventionnel.",
+    "step2T": "Choisir le format",
+    "step2D": "Boîtes, sachets ou emballage sur mesure. Nous conseillons sur la taille et le matériau.",
+    "step3T": "Votre marque",
+    "step3D": "Nous travaillons avec votre design et validons un échantillon avant la série complète.",
+    "step4T": "Remplissage & expédition",
+    "step4D": "Rempli et documenté par lot, dès {kg} kg, puis expédié chez vous.",
+    "faqHeading": "Emballage : questions fréquentes",
+    "faq": {
+      "moqQ": "Quelle est la commande minimale pour un emballage sur mesure ?",
+      "moqA": "L'emballage sur mesure commence à {kg} kg de produit.",
+      "brandingQ": "L'emballage peut-il porter notre marque ?",
+      "brandingA": "Oui. Boîtes, sachets et formats propres peuvent porter votre marque, et nous validons un échantillon avant la série complète.",
+      "blendQ": "Pouvez-vous emballer un mélange sur mesure ?",
+      "blendA": "Oui. Nous développons un mélange avec vous et l'emballons dans la même commande, pour que vous receviez un produit fini.",
+      "organicQ": "Les produits emballés peuvent-ils être bio ?",
+      "organicA": "Oui. Nous pouvons emballer des produits bio pour vous, selon le produit et votre marché."
+    }
   }
 }

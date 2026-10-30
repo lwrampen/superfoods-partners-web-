@@ -19,7 +19,8 @@
     "allOrigins": "Wszystkie pochodzenia",
     "specialist": "Marka wyspecjalizowana",
     "house": "Asortyment domu",
-    "originsNote": "{origins} miejsc pochodzenia w {countries} krajach — zarządzane u źródła."
+    "originsNote": "{origins} miejsc pochodzenia w {countries} krajach — zarządzane u źródła.",
+    "blending": "Mieszanki i opakowania"
   },
   "footer": {
     "tagline": "Pure ingredients. Formulated to thrive.",
@@ -34,7 +35,9 @@
     "requestQuote": "Poproś o wycenę →",
     "copyright": "© 2026 Superfoods Partners B.V.",
     "entities": "Zarejestrowane podmioty",
-    "locations": "Lokalizacje"
+    "locations": "Lokalizacje",
+    "blending": "Mieszanki",
+    "packaging": "Opakowania"
   },
   "countries": {
     "Japan": "Japonia",
@@ -324,7 +327,8 @@
     "houseRouteOwnTitle": "Pod naszą marką",
     "houseRouteOwnBody": "Gdy sami pakujemy i markujemy — jak Pure Matcha Partners — marka ręczy za surowiec. Nasze marki pokazują, na co go stać.",
     "houseRoutePrivTitle": "Pod Twoją marką",
-    "houseRoutePrivBody": "W marce własnej Twoja marka trafia na opakowanie, a nasza stoi za nią jako poręczenie — dowód pochodzenia surowca i jego badań."
+    "houseRoutePrivBody": "W marce własnej Twoja marka trafia na opakowanie, a nasza stoi za nią jako poręczenie — dowód pochodzenia surowca i jego badań.",
+    "houseRoutePrivLink": "Mieszanki i opakowania"
   },
   "team": {
     "eyebrow": "Zespół",
@@ -579,7 +583,11 @@
     "replyNote": "Raport z laboratorium i wycena w 48 h",
     "successHeading": "Mamy to.",
     "successBody": "Dziękujemy — wrócimy z raportem z laboratorium i wyceną, zwykle w ciągu 48 godzin. Sprawdź swoją skrzynkę.",
-    "errorText": "Coś poszło nie tak przy wysyłaniu zapytania. Napisz do nas bezpośrednio na"
+    "errorText": "Coś poszło nie tak przy wysyłaniu zapytania. Napisz do nas bezpośrednio na",
+    "prefillBlend": "Mieszanka na zamówienie",
+    "prefillBlendNamed": "Mieszanka na zamówienie: {blend}",
+    "prefillPackaging": "Opakowanie na zamówienie",
+    "volumePlaceholderService": "np. 250 kg (od 100 kg)"
   },
   "locationsMap": {
     "role": "Podmiot operacyjny",
@@ -607,5 +615,213 @@
     "guidesHeading": "Poradniki o ube",
     "ctaHeading": "Pracujesz z ube?",
     "ctaBody": "Podaj wolumen, format i termin. Wrócimy z opcjami, specyfikacjami i próbkami."
+  },
+  "blending": {
+    "metaTitle": "Mieszanki proszków na zamówienie i wspólny rozwój | Superfoods Partners",
+    "metaDescription": "Mieszanki tworzone razem z Tobą: matcha z earl grey, jaśminem lub białkiem, mieszanki ube i herbat w proszku. Organiczne lub konwencjonalne, od {kg} kg.",
+    "eyebrow": "Mieszanki i opakowania",
+    "heading": "Twoja mieszanka, tworzona razem z Tobą.",
+    "lead": "Łączymy nasze proszki w produkt, który masz na myśli: matcha z earl grey, jaśminem lub białkiem, mieszanki ube i taro, połączenia herbat w proszku. Doradzamy od pierwszego briefu do udokumentowanej, powtarzalnej partii i pakujemy tak, jak sprzedajesz.",
+    "ctaBrief": "Rozpocznij brief mieszanki",
+    "ctaPackaging": "Opcje opakowań",
+    "factMoqLabel": "Minimalne zamówienie",
+    "factMoq": "Od {kg} kg na mieszankę",
+    "factFormsLabel": "Baza",
+    "factForms": "Organiczna lub konwencjonalna",
+    "factDocsLabel": "Dokumentacja",
+    "factDocs": "COA + Verification Record™ dla każdej partii",
+    "factPackLabel": "Pakowane po Twojemu",
+    "factPack": "Luzem, puszki, saszetki lub na zamówienie",
+    "whatHeading": "Co mieszamy",
+    "whatIntro": "Trzy mieszanki, o które kupujący pytają najczęściej, i miejsce na Twój pomysł. Każda proporcja jest ustalana według Twojego briefu i potwierdzana na próbkach przed produkcją.",
+    "viewBlend": "Zobacz mieszankę",
+    "ownEyebrow": "Twój pomysł",
+    "ownTitle": "Masz inny pomysł?",
+    "ownBody": "Mieszanki ube lub taro, połączenia herbat w proszku, baza białkowa do wyboru. Opisz zastosowanie, a zaproponujemy recepturę.",
+    "pmpNote": "Szukasz mieszanek czystej matchy lub matchy pod własną marką?",
+    "pmpLink": "Nasza wyspecjalizowana marka, Pure Matcha Partners",
+    "processEyebrow": "Jak to działa",
+    "processHeading": "Od briefu do partii.",
+    "step1T": "Brief",
+    "step1D": "Podajesz zastosowanie, docelowy smak i kolor, wolumen i rynek. Wracamy z propozycją.",
+    "step2T": "Receptura",
+    "step2D": "Ustalamy proporcję i dobieramy składniki z naszych własnych dostaw, organiczne lub konwencjonalne.",
+    "step3T": "Próbki",
+    "step3D": "Testujesz próbki we własnej recepturze. Dopracowujemy, aż będzie dobrze.",
+    "step4T": "Produkcja",
+    "step4D": "Mieszamy Twoje pierwsze zamówienie, od {kg} kg, z COA i Verification Record™ dla partii.",
+    "step5T": "Pakowanie i powtórki",
+    "step5D": "Pakowane luzem lub w Twoje puszki czy saszetki i odtwarzane według tej samej specyfikacji przy każdym zamówieniu.",
+    "packHeading": "Pakowane tak, jak sprzedajesz.",
+    "packBody": "Puszki, saszetki lub w pełni indywidualne opakowania z Twoją marką, obok dostaw luzem.",
+    "faqHeading": "Mieszanki: częste pytania",
+    "faq": {
+      "moqQ": "Jakie jest minimalne zamówienie mieszanki na zamówienie?",
+      "moqA": "Mieszanki na zamówienie zaczynają się od {kg} kg na mieszankę. Najpierw są próbki, abyś zatwierdził mieszankę przed zamówieniem.",
+      "organicQ": "Czy mieszanki mogą być organiczne?",
+      "organicA": "Tak. Mieszanki mogą być organiczne lub konwencjonalne, w zależności od składników, rynku i etykiety.",
+      "proteinQ": "Jakiego białka możecie użyć?",
+      "proteinA": "Pracujemy z różnymi bazami białkowymi, mlecznymi i roślinnymi. Powiedz, jakiego białka potrzebujesz, a zbudujemy wokół niego mieszankę.",
+      "packQ": "Czy możecie zapakować mieszankę do sprzedaży detalicznej?",
+      "packA": "Tak. Pakujemy mieszanki luzem, w puszki, saszetki lub opakowania na zamówienie z Twoją marką, od {kg} kg.",
+      "sampleQ": "Czy wysyłacie próbki przed produkcją?",
+      "sampleA": "Tak. Każda mieszanka na zamówienie zaczyna się od próbek, które testujesz we własnej recepturze, a my dopasowujemy proporcję, aż odpowiada briefowi."
+    },
+    "parts": {
+      "matcha": "Matcha",
+      "earlGrey": "Earl grey",
+      "jasmine": "Jaśmin",
+      "protein": "Białko"
+    },
+    "blendEyebrow": "Mieszanka na zamówienie",
+    "crumb": "Mieszanki",
+    "ctaThisBlend": "Zapytaj o tę mieszankę",
+    "specRatio": "Proporcja",
+    "specRatioV": "Według Twojego briefu",
+    "specBase": "Baza",
+    "specBaseV": "Organiczna lub konwencjonalna",
+    "specFormat": "Pakowanie",
+    "specFormatV": "Luzem, puszki, saszetki lub na zamówienie",
+    "specMoq": "Minimalne zamówienie",
+    "flavourHeading": "Smak",
+    "useHeading": "Gdzie się sprawdza",
+    "componentsHeading": "Co zawiera",
+    "proteinBody": "Baza białkowa do wyboru, mleczna lub roślinna, dopasowana do Twojej receptury i etykiety.",
+    "viewIngredient": "Zobacz składnik",
+    "faqHeadingBlend": "{name}: częste pytania",
+    "otherBlends": "Inne mieszanki",
+    "allBlending": "Wszystko o mieszankach",
+    "pdpEyebrow": "Mieszanki i opakowania",
+    "pdpBlend": "Łączymy to również w {blend}, pakowane po Twojemu.",
+    "pdpHub": "Możemy zrobić z tego produkt na zamówienie i go zapakować.",
+    "pdpCta": "Zobacz mieszanki",
+    "homeEyebrow": "Mieszanki i opakowania",
+    "homeHeading": "Od proszku do produktu.",
+    "homeBody": "Łączymy matchę z earl grey, jaśminem lub białkiem, tworzymy mieszanki ube i herbat w proszku i pakujemy je w puszki, saszetki lub opakowania na zamówienie. Od {kg} kg.",
+    "homeCtaBlending": "Poznaj mieszanki",
+    "blends": {
+      "matcha-protein": {
+        "name": "Matcha Białko",
+        "tagline": "Matcha z bazą białkową do wyboru, do shake'ów i napojów funkcjonalnych.",
+        "intro": "Matcha połączona z wybraną bazą białkową, mleczną lub roślinną, w proszek gotowy do mieszania do shake'ów, napojów funkcjonalnych i batonów. Proporcja, białko i format według Twojego briefu.",
+        "flavour": "Matcha wnosi zielony kolor i trawiasty, umami charakter; białko łagodzi go w bardziej okrągły, kremowy profil. Proporcja decyduje, jak mocno prowadzi matcha, i dopracowujemy ją z Tobą na próbkach.",
+        "use": "Dla marek z branży żywienia sportowego, napojów funkcjonalnych i zamienników posiłków, które chcą matchy jako smaku i koloru produktu białkowego.",
+        "applications": [
+          "Shake'i białkowe",
+          "Proszki do mieszania",
+          "Napoje funkcjonalne",
+          "Batony białkowe",
+          "Zamienniki posiłków",
+          "Bazy do smoothie"
+        ],
+        "metaTitle": "Białko z matchą w proszku — mieszanki na zamówienie hurtowo",
+        "metaDescription": "Białko z matchą na zamówienie: matcha z białkiem mlecznym lub roślinnym do wyboru. Organiczne lub konwencjonalne, od {kg} kg, pakowane po Twojemu.",
+        "faq1Q": "Czy możecie zrobić białko z matchą dla mojej marki?",
+        "faq1A": "Tak. Łączymy matchę z wybraną bazą białkową, ustalamy proporcję według briefu i pakujemy luzem, w puszki, saszetki lub opakowania na zamówienie pod Twoją marką.",
+        "faq2Q": "Jaki gatunek matchy trafia do mieszanki białkowej?",
+        "faq2A": "To zależy od smaku, koloru i poziomu cenowego. Zwykle testujemy więcej niż jeden gatunek na próbkach, abyś mógł porównać je we własnej recepturze."
+      },
+      "earl-grey-matcha": {
+        "name": "Earl Grey Matcha",
+        "base": "Konwencjonalna; organiczna na zapytanie",
+        "tagline": "Matcha i czarna herbata z bergamotką w jednym proszku.",
+        "intro": "Matcha połączona z naszą herbatą earl grey w proszku, czarną herbatą z naturalną bergamotką, w jeden proszek do latte, deserów i wypieków. Proporcja według Twojego briefu.",
+        "flavour": "Earl grey wnosi cytrusową świeżość bergamotki i głębię czarnej herbaty; matcha dodaje zielony kolor i umami. W zależności od proporcji efekt to matcha o zapachu bergamotki albo łagodniejsze, ciemniejsze herbaciane latte.",
+        "use": "Naturalnie pasuje do kart kawiarni, napojów latte gotowych do picia, lodów i wypieków, gdzie oba smaki już występują obok siebie.",
+        "applications": [
+          "Latte",
+          "Gotowe do picia",
+          "Lody i gelato",
+          "Wypieki",
+          "Desery",
+          "Puszki detaliczne"
+        ],
+        "metaTitle": "Earl grey matcha w proszku — mieszanka na zamówienie, hurt",
+        "metaDescription": "Earl grey matcha w proszku według specyfikacji: matcha z czarną herbatą z bergamotką do latte, deserów i wypieków. Od {kg} kg, pakowane po Twojemu.",
+        "faq1Q": "Czym jest earl grey matcha?",
+        "faq1A": "To mieszanka matchy i herbaty earl grey w proszku, czarnej herbaty z naturalną bergamotką. Łączy kolor i umami matchy z cytrusowym aromatem earl grey.",
+        "faq2Q": "Czy mogę wybrać proporcję matchy i earl grey?",
+        "faq2A": "Tak. Ustalamy proporcję według briefu i potwierdzamy ją na próbkach przed produkcją, aby mieszanka smakowała tak, jak chcesz, w Twojej recepturze."
+      },
+      "jasmine-matcha": {
+        "name": "Jaśminowa Matcha",
+        "tagline": "Matcha z jaśminową zieloną herbatą w proszku, kwiatowa i świeża.",
+        "intro": "Matcha połączona z naszą herbatą jaśminową w proszku, zieloną herbatą aromatyzowaną jaśminem, w jeden proszek do latte, napojów na zimno i deserów. Proporcja według Twojego briefu.",
+        "flavour": "Jaśmin dodaje kwiatową, aromatyczną nutę do trawiastego umami matchy, a całość pozostaje zielona. Efekt jest lżejszy i bardziej aromatyczny niż sama matcha.",
+        "use": "Do iced latte, herbat gazowanych i gotowych do picia oraz deserów, w których kwiatowa nuta wyróżnia produkt.",
+        "applications": [
+          "Iced latte",
+          "Herbata gazowana",
+          "Gotowe do picia",
+          "Desery",
+          "Bubble tea",
+          "Puszki detaliczne"
+        ],
+        "metaTitle": "Jaśminowa matcha w proszku — mieszanka na zamówienie, hurt",
+        "metaDescription": "Jaśminowa matcha w proszku według specyfikacji: matcha z jaśminową zieloną herbatą do latte, napojów na zimno i deserów. Organiczna lub konwencjonalna, od {kg} kg.",
+        "faq1Q": "Czym jest jaśminowa matcha?",
+        "faq1A": "To mieszanka matchy i herbaty jaśminowej w proszku, zielonej herbaty aromatyzowanej jaśminem. Zachowuje zielony kolor matchy i dodaje kwiatowy aromat.",
+        "faq2Q": "Czy jaśminowa matcha jest dostępna w wersji organicznej?",
+        "faq2A": "Tak, organicznej lub konwencjonalnej. Podaj rynek i wymagania dotyczące etykiety, a dobierzemy składniki odpowiednio."
+      }
+    }
+  },
+  "packaging": {
+    "metaTitle": "Puszki i saszetki na zamówienie dla herbat w proszku | Superfoods Partners",
+    "metaDescription": "Opakowania na zamówienie dla matchy, herbat i superfoods w proszku: puszki, saszetki i własne formaty z Twoją marką, napełniane i dokumentowane, od {kg} kg.",
+    "eyebrow": "Opakowania na zamówienie",
+    "heading": "Pakowane tak, jak sprzedajesz.",
+    "lead": "Oprócz dostaw luzem napełniamy nasze proszki i Twoje mieszanki w puszki, saszetki lub w pełni indywidualne opakowania z Twoją marką, aby produkt trafił gotowy na półkę, do kawiarni lub sklepu internetowego.",
+    "cta": "Zapytaj o opcje opakowań",
+    "ctaBlending": "Mieszanki",
+    "facts": {
+      "moqL": "Minimalne zamówienie",
+      "moqV": "Od {kg} kg",
+      "brandingL": "Marka",
+      "brandingV": "Twój projekt na puszkach, saszetkach lub własnych formatach",
+      "documentationL": "Dokumentacja",
+      "documentationV": "COA + Verification Record™ dla każdej partii"
+    },
+    "formatsHeading": "Formaty",
+    "formatsIntro": "Wybierz format pasujący do Twojego kanału. Doradzamy w kwestii rozmiaru i materiału dla proszku i rynku.",
+    "formats": {
+      "tins": {
+        "title": "Puszki",
+        "body": "Metalowe puszki do sprzedaży i na prezenty, z Twoją marką."
+      },
+      "pouches": {
+        "title": "Saszetki i torebki",
+        "body": "Wielokrotnie zamykane saszetki i torebki do handlu, e-sklepów i gastronomii."
+      },
+      "custom": {
+        "title": "Opakowanie na zamówienie",
+        "body": "Format zaprojektowany wokół Twojej marki i produktu. Opowiedz nam o swoim pomyśle."
+      },
+      "bulk": {
+        "title": "Luzem",
+        "body": "Od 1-kilogramowych worków foliowych po kartony 25 kg i pełne kontenery, do produkcji i przepakowania."
+      }
+    },
+    "illustrationNote": "Ilustracje. Zdjęcia gotowych opakowań wkrótce.",
+    "stepsHeading": "Jak to działa",
+    "step1T": "Wybierz produkt",
+    "step1D": "Jeden z naszych proszków lub mieszanka na zamówienie, organiczna lub konwencjonalna.",
+    "step2T": "Wybierz format",
+    "step2D": "Puszki, saszetki lub opakowanie na zamówienie. Doradzamy w kwestii rozmiaru i materiału.",
+    "step3T": "Twoja marka",
+    "step3D": "Pracujemy z Twoim projektem i uzgadniamy próbkę przed pełną serią.",
+    "step4T": "Napełnianie i wysyłka",
+    "step4D": "Napełniane i dokumentowane dla każdej partii, od {kg} kg, i wysyłane do Ciebie.",
+    "faqHeading": "Opakowania: częste pytania",
+    "faq": {
+      "moqQ": "Jakie jest minimalne zamówienie opakowań na zamówienie?",
+      "moqA": "Opakowania na zamówienie zaczynają się od {kg} kg produktu.",
+      "brandingQ": "Czy opakowanie może mieć naszą markę?",
+      "brandingA": "Tak. Puszki, saszetki i własne formaty mogą nosić Twoją markę, a przed pełną serią uzgadniamy próbkę.",
+      "blendQ": "Czy możecie zapakować mieszankę na zamówienie?",
+      "blendA": "Tak. Tworzymy mieszankę razem z Tobą i pakujemy ją w tym samym zamówieniu, więc otrzymujesz gotowy produkt.",
+      "organicQ": "Czy pakowane produkty mogą być organiczne?",
+      "organicA": "Tak. Możemy pakować dla Ciebie produkty organiczne, w zależności od produktu i rynku."
+    }
   }
 }

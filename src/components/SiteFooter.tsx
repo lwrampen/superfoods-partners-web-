@@ -74,6 +74,8 @@ export function SiteFooter() {
 
           <div className="flex flex-col gap-2 text-sm">
             <span className="mono text-[10px] uppercase tracking-wide text-oat/40">{t("company")}</span>
+            <Link href="/blending" className="hover:text-oat">{t("blending")}</Link>
+            <Link href="/packaging" className="hover:text-oat">{t("packaging")}</Link>
             <Link href="/verification" className="hover:text-oat">{t("verification")}</Link>
             <Link href="/company" className="hover:text-oat">{t("about")}</Link>
             <Link href="/contact" className="hover:text-oat">{t("contact")}</Link>
