@@ -6,7 +6,7 @@ import sys, json, glob, os
 TARGETS = {  # goal per cluster for the current roadmap horizon, per brand
     "sfp": {"Matcha wholesale": "Naar PMP (besluit 20 okt)", "Private label": "Naar PMP",
             "Ube": "Top-10 US (B2B-termen)", "Hojicha": "Naar PMP", "Hibiscus": "Top-10 US",
-            "Superfood powders": "Top-10 US", "Mushroom powders": "Top-20 US"},
+            "Superfood powders": "Top-10 US", "Mushroom powders": "Top-20 US", "Taro": "Top-20 US"},
     "pmp": {"Matcha wholesale": "Top-3 US/UK", "Matcha Europe": "Top-3 per land", "Private label": "Top-5 US",
             "Hojicha": "Top-10 US", "Café & latte": "Top-3 + meer klikken", "Matcha knowledge": "Top-5"},
 }

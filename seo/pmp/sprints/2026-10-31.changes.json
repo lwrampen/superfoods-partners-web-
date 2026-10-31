@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1",
+    "type": "page_seo",
+    "page_id": "6798bd1e4b234bad93cdaae1",
+    "path": "/",
+    "locale": "en",
+    "before": {
+      "seo_title": "Wholesale Matcha & Hojicha Supplier | Pure Matcha Partners"
+    },
+    "after": {
+      "seo_title": "Wholesale & Bulk Matcha Powder Supplier | Pure Matcha Partners",
+      "og_title": "Wholesale & Bulk Matcha Powder Supplier | Pure Matcha Partners"
+    },
+    "note": "Description unchanged (keeps hojicha). Restores 'bulk matcha powder' to the title: the best-ranking US commercial term ('matcha powder bulk', GSC US avg #11) was dropped from the title on 28-10."
+  },
+  {
+    "id": "2",
+    "type": "page_link",
+    "page_id": "6798bd1e4b234bad93cdaae1",
+    "path": "/",
+    "note": "Check first whether the homepage already links to /bulk-matcha-supplier-usa. If not, add one text link in the section that lists markets/countries (or above the footer CTA).",
+    "after": {
+      "anchor": "Wholesale matcha supplier for the USA",
+      "href": "/bulk-matcha-supplier-usa"
+    }
+  },
+  {
+    "id": "3",
+    "type": "blog_link",
+    "note": "Add the same closing sentence to the 5 posts with the most US impressions (GSC 20–30 Oct). None of them links to /bulk-matcha-supplier-usa today. Place it as the last paragraph before the existing sample/contact CTA; do not change titles, slugs or summaries.",
+    "items": [
+      { "item_id": "69c3183f7fe5c067fc2908c0", "slug": "matcha-ratios-for-cafes-that-even-matcha-connoisseurs-will-approve-of" },
+      { "item_id": "69e94ce256f0ebb51da935f4", "slug": "flavor-pairing-guide-what-works-and-doesnt-with-matcha" },
+      { "item_id": "6a2fdb5e7b0cfbe3167ff4a7", "slug": "best-matcha-powder-for-lattes-tested-ranked" },
+      { "item_id": "6995dddc1a50669e5fcccdaa", "slug": "health-benefits-of-mulberry-leaf-matcha" },
+      { "item_id": "693b8efece5fc82b67a7f46c", "slug": "match-a-making-which-matcha-grade-suits-your-needs" }
+    ],
+    "after": {
+      "paragraph_html": "<p>Sourcing for a café, brand or distributor in the United States? See our <a href=\"/bulk-matcha-supplier-usa\">wholesale matcha supply for the USA</a> — lab-tested batches from 5 kg.</p>"
+    }
+  }
+]

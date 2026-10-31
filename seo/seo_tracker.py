@@ -2,7 +2,7 @@
 """SFP rank tracker: per keyword/market the SERP position of superfoodspartners.com
 (and sister purematchapartners.com), top-3 domains and monthly search volume.
 Usage: python3 seo_tracker.py keywords.csv out.json"""
-import os, sys, csv, json, base64, datetime, urllib.request
+import os, sys, csv, json, time, base64, datetime, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 AUTH = base64.b64encode(f'{os.environ["DATAFORSEO_USERNAME"]}:{os.environ["DATAFORSEO_PASSWORD"]}'.encode()).decode()
@@ -10,10 +10,20 @@ OURS = {"superfoodspartners.com": "sfp", "purematchapartners.com": "pmp"}
 COST = [0.0]
 
 
-def post(path, payload):
+def post(path, payload, attempts=4):
     req = urllib.request.Request("https://api.dataforseo.com" + path, data=json.dumps(payload).encode(),
                                  headers={"Authorization": "Basic " + AUTH, "Content-Type": "application/json"})
-    r = json.load(urllib.request.urlopen(req, timeout=300))
+    # Retry dropped connections (the agent proxy resets long calls now and then);
+    # one reset used to kill the whole run after most SERPs were already paid for.
+    for i in range(attempts):
+        try:
+            r = json.load(urllib.request.urlopen(req, timeout=300))
+            break
+        except OSError as e:  # ConnectionResetError, URLError, timeouts
+            if i == attempts - 1:
+                raise
+            print(f"retry {i + 1} {path}: {type(e).__name__}", file=sys.stderr)
+            time.sleep(2 ** (i + 1))
     COST[0] += r.get("cost", 0) or 0
     return r
 
@@ -53,7 +63,7 @@ def volumes(rows):
 
 def main(kw_csv, out_json):
     rows = list(csv.DictReader(open(kw_csv, encoding="utf-8")))
-    with ThreadPoolExecutor(8) as ex:
+    with ThreadPoolExecutor(4) as ex:
         results = list(ex.map(serp, rows))
     vol = volumes(rows)
     for r in results:
