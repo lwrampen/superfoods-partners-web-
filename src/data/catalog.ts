@@ -464,6 +464,13 @@ export function productsForOrigin(slug: string): Product[] {
   return PRODUCTS.filter((p) => p.originSlugs.includes(slug));
 }
 
+// Origins that supply only Pure Matcha Partners lines (matcha/hojicha) stay
+// reachable but are kept out of the index and sitemap: those topics belong to
+// purematchapartners.com, and the crawl budget goes to SFP's own pages.
+export function isIndexableOrigin(slug: string): boolean {
+  return productsForOrigin(slug).some((p) => p.label !== "pmp");
+}
+
 // Short, product-neutral descriptor per origin — fallback for the Origin Passport.
 export const ORIGIN_BLURB: Record<string, string> = {
   "uji-jp": "Near Kyoto — Japan's historic tea heartland; shaded gardens, deep umami.",

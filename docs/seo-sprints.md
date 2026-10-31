@@ -69,6 +69,18 @@ Het plan staat in `docs/seo/linkbuilding/` op de `seo-tracking`-branch.
 
 ---
 
+## 2026-10-31 — tussendoor: crawlbudget naar SFP-pagina's (thema 1 + 4)
+
+**Aanleiding (meting 30-10):** SFP staat op 0/52 termen in de top-50. Google indexeert maar een deel van de site: `/products/ube` sinds 25-10 wel, maar `/products`, hibiscus, lion's mane en de EN ube-gids staan op *Discovered – not indexed*, en `/de/products/ube` is onbekend. Met 1 echt verwijzend domein krijgt de site weinig crawls, die nu over ~220 URL's verspreid worden.
+
+**Ingreep:** herkomstpagina's die alleen PMP-producten (matcha/hojicha) leveren — Uji, Shizuoka, Kagoshima, Nara, Gifu, Ibaraki, Kyoto, South China — krijgen `noindex, follow`. Ze gaan uit de sitemap en uit de footer, maar blijven bereikbaar via `/origins`. Dat zijn 48 URL's (8 × 6 talen). SFP-herkomsten (Oost-China, Fujian, China, Filipijnen, Egypte) blijven geïndexeerd.
+
+**Verwacht:** Google besteedt meer crawls aan producten, de ube-hub en de gidsen. Het past ook bij het besluit dat matcha van PMP is.
+
+**Volgende meting:** URL Inspection voor `/products`, `/products/hibiscus`, `/products/lions-mane`, `/insights/what-is-ube-powder` en `/de/products/ube`. Klikken uit Search Console op `/origins/*` (nulmeting 28d: ±70 vertoningen, 1 klik).
+
+---
+
 ## 2026-10-21 — Ube-hub: indexering, PDP-meta, ube-identiteit
 
 ### Data-snapshot

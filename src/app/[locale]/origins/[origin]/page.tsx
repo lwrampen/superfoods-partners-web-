@@ -7,7 +7,7 @@ import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { SourcingMap } from "@/components/SourcingMap";
-import { ORIGIN_LIST, getOrigin, productsForOrigin, originLabel, ORIGIN_INTRO } from "@/data/catalog";
+import { ORIGIN_LIST, getOrigin, productsForOrigin, originLabel, ORIGIN_INTRO, isIndexableOrigin } from "@/data/catalog";
 import { localizeOrigin, localizeProduct, localizedIntro } from "@/data/content.i18n";
 
 export function generateStaticParams() {
@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: t("metaTitle", { products, name: o.name, country: o.country }),
     description: t("metaDescription", { products, name: o.name, country: o.country, coords: o.coords }),
     alternates: alternatesFor(locale, `/origins/${raw.slug}`),
+    ...(isIndexableOrigin(raw.slug) ? {} : { robots: { index: false, follow: true } }),
   };
 }
 
