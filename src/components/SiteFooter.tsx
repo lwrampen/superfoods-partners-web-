@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { PRODUCTS, ORIGIN_LIST, LABELS, type LabelId } from "@/data/catalog";
+import { PRODUCTS, ORIGIN_LIST, LABELS, isIndexableOrigin, type LabelId } from "@/data/catalog";
 import { ENTITIES } from "@/data/entities";
 
 // Group origins by country so the footer stays scannable while still exposing
-// a direct crawl link to every origin page.
-const ORIGINS_BY_COUNTRY = ORIGIN_LIST.reduce<Record<string, typeof ORIGIN_LIST>>((acc, o) => {
+// a direct crawl link to every indexable origin page (matcha-only origins are
+// PMP's and stay reachable via /origins).
+const ORIGINS_BY_COUNTRY = ORIGIN_LIST.filter((o) => isIndexableOrigin(o.slug)).reduce<Record<string, typeof ORIGIN_LIST>>((acc, o) => {
   (acc[o.country] ??= []).push(o);
   return acc;
 }, {});

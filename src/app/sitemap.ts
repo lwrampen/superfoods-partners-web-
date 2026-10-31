@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { PRODUCTS, ORIGIN_LIST } from "@/data/catalog";
+import { PRODUCTS, ORIGIN_LIST, isIndexableOrigin } from "@/data/catalog";
 import { POSTS } from "@/data/insights";
 import { BLENDS } from "@/data/blends";
 import { routing } from "@/i18n/routing";
@@ -41,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticPaths.map(([p, pr]) => entry(p, pr)),
     ...PRODUCTS.map((p) => entry(`/products/${p.slug}`, 0.7)),
     ...BLENDS.map((b) => entry(`/blending/${b.slug}`, 0.7)),
-    ...ORIGIN_LIST.map((o) => entry(`/origins/${o.slug}`, 0.6)),
+    ...ORIGIN_LIST.filter((o) => isIndexableOrigin(o.slug)).map((o) => entry(`/origins/${o.slug}`, 0.6)),
     ...POSTS.map((p) => entry(`/insights/${p.slug}`, 0.6, new Date(p.updated ?? p.date))),
   ];
 }
