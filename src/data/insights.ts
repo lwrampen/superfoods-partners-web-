@@ -1201,4 +1201,88 @@ export const POSTS: InsightPost[] = [
     ],
     relatedProducts: ["ube"],
   },
+  {
+    slug: "ube-latte-cafe-menus-formulating-with-ube-powder",
+    date: "2026-11-02",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder, milled for lattes, bakery and ready-to-drink"),
+    category: E("Formulation"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("Ube latte for cafe menus: formulating with ube powder"),
+    metaTitle: E("Ube Latte Formulation — Using Ube Powder in Cafe Menus"),
+    metaDescription: E("How to build an ube latte with ube powder: dispersion, colour, sweetness and sampling, plus what a cafe or beverage brand should ask a supplier before scaling."),
+    dek: E("Ube latte is one of the most searched purple drinks in the world. Here is how to formulate it with powder, and what to settle before it goes on a menu."),
+    lede: E("To make a consistent ube latte, use a finely milled ube powder, disperse it into a smooth paste with a little warm liquid before adding milk, and test colour and sweetness in the exact milk you serve. Ube powder is milled from purple yam (Dioscorea alata) and is naturally violet and caffeine-free, so it works on its own or alongside espresso."),
+    sections: [
+      {
+        heading: E("Why ube latte works on a menu"),
+        body: [
+          E("Ube latte draws roughly 8,100 searches a month in the United States, with ube drink, ube coffee and ube syrup each near 3,600 and ube milk tea around 1,300 (Google Ads keyword data, United States). Customers already know what they want to order; the work for a cafe or beverage brand is delivering it the same way every time."),
+          E("That consistency is the argument for powder. A powder gives you a fixed spec to approve once and reorder against, instead of recipes that change with each batch of home-made purple yam paste."),
+        ],
+      },
+      {
+        heading: E("Start with the powder: fineness and colour"),
+        body: [
+          E("Two properties decide how a powder behaves in a drink: how finely it is milled and how clean its colour is. A fine, even powder disperses smoothly and leaves no grit; a coarse one settles at the bottom of the cup. Our ube powder is milled from mature purple yam (Dioscorea alata) for a clean, naturally violet colour and a soft, vanilla-like sweetness, with no artificial dye."),
+          E("Approve a sample in your own recipe before you commit to volume, and ask that later lots are matched against it. Colour is the first thing customers notice, so compare lot to lot under the same light."),
+        ],
+      },
+      {
+        heading: E("Building the drink: dispersion, milk and heat"),
+        body: [
+          E("The simplest method is to whisk the powder into a smooth paste with a small amount of warm water or milk first, then add the rest of the milk and steam or pour over ice. Adding dry powder straight into a large volume of cold liquid is what causes clumps."),
+          E("Test the powder in every base you plan to serve. Dairy, oat, soy and other plant milks differ in protein, fat and acidity, and those differences can change how a drink looks and feels. Try hot and iced versions separately, and note how the colour holds if a drink sits before it is served."),
+          E("For sweetness, remember that ube already brings its own soft sweetness. Build the recipe from the powder first and add sweetener last, tasting as you go, rather than copying a recipe written for a different ingredient."),
+        ],
+      },
+      {
+        heading: E("Pairing with coffee and tea"),
+        body: [
+          E("Because ube powder is caffeine-free, it can stand alone as a purple latte for guests who avoid caffeine, or be paired with espresso for an ube coffee. If you want a milder, creamier base instead of a vivid violet, taro is the other route, and blends can combine properties. Tell us the drink you are building and we will recommend the right material rather than assume one product fits every menu."),
+        ],
+      },
+      {
+        heading: E("What to ask a supplier before you scale"),
+        body: [
+          E("Ask for the botanical name on the specification (Dioscorea alata), a certificate of analysis for every batch, and the origin of the lot. We manage supply at origin in the Philippines and China, with organic from China and conventional from both, and every batch ships with a certificate of analysis and a Verification Record. Ube powder is packed from 1 kg (2.2 lb) foil bags to 25 kg (55 lb) cartons and full containers, so a single cafe and a national chain can start from the same spec."),
+          E("Details on the powder are on our ube product page, and the label behind it is Pure Ube Partners. For the botanical differences between ube, taro and purple sweet potato, see our guide on telling them apart."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Source"), value: E("Purple yam, Dioscorea alata") },
+      { label: E("Colour and flavour"), value: E("Naturally violet, soft vanilla-like sweetness") },
+      { label: E("Caffeine"), value: E("Caffeine-free") },
+      { label: E("Origins"), value: E("Philippines and China") },
+      { label: E("Grades"), value: E("Organic (China) and conventional") },
+      { label: E("Packaging"), value: E("1 kg (2.2 lb) foil to 25 kg (55 lb) carton to full container") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("How do you make an ube latte with ube powder?"),
+        a: E("Whisk the powder into a smooth paste with a little warm water or milk, then add the rest of the milk and serve hot or over ice. Sweeten last, after tasting, because ube is already lightly sweet."),
+      },
+      {
+        q: E("Does ube powder contain caffeine?"),
+        a: E("No. Ube powder is caffeine-free. It can be served on its own or combined with espresso for an ube coffee."),
+      },
+      {
+        q: E("Can ube powder be used in plant milks?"),
+        a: E("Yes, but test each base you plan to serve, because dairy and plant milks differ and can change colour and texture. Approve a sample in your own recipe before scaling."),
+      },
+      {
+        q: E("Do you only supply ube?"),
+        a: E("No. We also supply taro powder and blends. Tell us the application and we recommend the right material."),
+      },
+      {
+        q: E("Can I get a sample before ordering?"),
+        a: E("Yes. We send samples first so you can approve colour, flavour and mixing behaviour before you commit to volume."),
+      },
+    ],
+    relatedProducts: ["ube"],
+  },
 ];
