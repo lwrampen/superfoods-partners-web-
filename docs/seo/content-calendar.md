@@ -1,40 +1,44 @@
 # Content calendar — Insights (SEO + GEO)
 
-The weekly content Routine reads this file, takes the **first unchecked topic**,
-writes it as a fully-localized post in `src/data/insights.ts` (all six locales,
-FAQ + Article + Breadcrumb JSON-LD come automatically from the template),
-verifies the build, pushes to `main`, then checks the topic off here.
+The weekly content Routine reads this file and `docs/seo-sprints.md` (section
+"Ube-offensief"), takes the **first unchecked topic** in the queue, writes it as
+a post in `src/data/insights.ts`, verifies the build, squash-merges to `main`,
+then checks the topic off here. Skip anything that already exists in `insights.ts`.
 
-**Cadence:** 2 posts/week, published Tuesday & Thursday ~09:00 CEST.
-One post per firing. Keep the voice and depth consistent with the existing
-posts (a real buyer's-guide tone — specific, documented, never fluffy).
+**Cadence:** 1 post per week, Monday. One post per firing. Keep the voice and
+depth consistent with the existing posts (a real buyer's-guide tone — specific,
+documented, never fluffy).
 
-## Queue — Ube cluster (PRIORITY — do these first)
+**Focus (Leonard, 22-10 and 3-11): full focus on ube.** Work the ube queue first;
+only after it, alternate with the other product lines.
 
-Ube is our fastest path to page 1: big informational head terms (ube powder,
-purple yam powder ~9,900/mo each; ube flavor 27,100) on a weak, small-player
-SERP, and we already appear for it. Capture the informational volume and funnel
-B2B buyers to the RFQ.
+**Guardrails for every ube post**
+- `relatedProducts: ["ube"]`; mention `/products/ube` and, where it fits, Pure Ube Partners (`/pure-ube-partners`).
+- Facts only from `src/data/catalog.ts`: no organic or certificate claims that are not there, no health claims.
+- We supply ube (Dioscorea alata), taro and blends and recommend the right material per application. Never write "only purple yam" and never call taro or blends inferior. Botanical explanations are fine, with the message "tell us the application, we advise the right material".
+- No taro specs (origin, certificates, forms) until they are in `catalog.ts`.
 
-- [ ] `buying-ube-powder-wholesale` — How to buy ube powder wholesale: MOQ, colour spec, COA, incoterms.
-- [ ] `ube-powder-natural-colour-clean-label` — Ube as a clean-label natural purple: anthocyanins vs synthetic dye.
+## Queue — Ube cluster (PRIORITY)
+
+Volumes are DataforSEO, US, per month (see `docs/seo-sprints.md` for the full table).
+
+- [ ] `what-is-ube` — Extend toward "what is ube" (90.5k): clear lede for AI extraction, FAQPage. Update `what-is-ube-powder` or write a companion guide, whichever avoids cannibalisation.
+- [ ] `ube-flavor-guide` — What does ube taste like, and how to build the flavour in products (27.1k "ube flavor").
+- [ ] `buying-ube-powder-wholesale` — How to buy ube powder wholesale: spec, colour, COA, origin, packaging (ube powder bulk / wholesale / supplier: low volume, CPC $6–9).
+- [ ] `ube-powder-natural-colour-clean-label` — Ube as a natural violet: colour as an ingredient, what to specify and test. No health claims.
 - [ ] `ube-halaya-to-scale` — From ube halaya to scale: using ube powder in commercial dessert production.
+- [ ] `ube-milk-tea-and-rtd-drinks` — Ube milk tea, ube drink and RTD formulation (ube drink 3.6k, ube milk tea 1.3k, ube coffee 3.6k).
+- [ ] `ube-powder-vs-ube-extract-or-paste` — Which ube format for which job (powder vs fresh/paste), framed as "tell us the application". Only if the formats can be stated from `catalog.ts`.
 
-## Queue — matcha cluster
+## Queue — other product lines (after the ube queue; alternate)
 
-- [ ] `matcha-for-rtd-bakery-supplements` — Formulating with matcha: RTD, bakery & supplements (dosing, colour hold, heat/pH).
-- [ ] `how-to-buy-matcha-wholesale-process` — How B2B matcha ordering works: spec → sample → COA → bulk (MOQ, incoterms, lead times).
-- [ ] `jas-vs-eu-vs-usda-organic-matcha` — Organic certifications compared: JAS vs EU vs USDA (what each means for a buyer).
-- [ ] `bulk-matcha-shelf-life-storage` — Shelf life & storage for bulk matcha (light, heat, oxygen, moisture; COA dating).
-- [ ] `ceremonial-matcha-for-cafes` — Ceremonial matcha for cafés: dosing, cost-per-cup and menu positioning.
-- [ ] `matcha-vs-green-tea-powder` — Matcha vs ordinary green-tea powder for manufacturers.
-
-## Queue — other product lines (expand the engine)
-
-- [ ] `lions-mane-sourcing-formulation` — Lion's mane for nutraceuticals: fruiting-body vs mycelium, forms, formulation.
 - [ ] `hibiscus-grades-acidity-beverages` — Hibiscus: grades, acidity and beverage uses.
-- [ ] `hojicha-roasted-profile-caffeine` — Hojicha: roasted profile, low caffeine and where it fits.
+- [ ] `lions-mane-sourcing-formulation` — Lion's mane for nutraceuticals: fruiting-body vs mycelium, forms, formulation.
 - [ ] `specialty-tea-powders-jasmine-oolong-earl-grey` — Jasmine, oolong & earl grey tea powders for manufacturers.
+
+## Not on SFP — Pure Matcha Partners (decision 20-10)
+
+Matcha and hojicha belong to Pure Matcha Partners. Do **not** write new SFP posts that target matcha or hojicha terms. The earlier matcha topics (formulating with matcha, ordering process, organic certifications, shelf life, cafés, matcha vs green-tea powder) and the hojicha topic are removed from this queue. The existing matcha posts stay as they are.
 
 ## People / team (human voice — builds trust, E-E-A-T + GEO)
 
@@ -61,3 +65,6 @@ person on the live site in six languages. The weekly Routine must SKIP these.
 - [x] `what-is-ube-powder` — Ube hub (2026-07-30)
 - [x] `ube-powder-bakery-rtd-ice-cream` — Ube hub (2026-07-30)
 - [x] `matcha-superfood-wholesale-demand-report-2026` — Data-PR report, EN-first (2026-07-30)
+- [x] `ube-vs-taro-vs-purple-sweet-potato` — Ube cluster, botanical identity (2026-10-26)
+- [x] `ube-latte-cafe-menus-formulating-with-ube-powder` — Ube cluster, café/foodservice (2026-11-02)
+- [removed] `hojicha-powder-wholesale-buyers-guide` — published 2026-10-19, removed 2026-10-26 (hojicha now belongs to Pure Matcha Partners); the URL redirects to purematchapartners.com
