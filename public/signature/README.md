@@ -19,6 +19,8 @@ staan de bestanden hier en niet in Drive.
 | `pmp-logo-forest.png` | **staat er al** | `…/signature/pmp-logo-forest.png` | Pure Matcha Partners, forest-groen |
 | `handtekening-balk.gif` | **jij toevoegen** | `…/signature/handtekening-balk.gif` | 880×70 px, wordt op 440 breed getoond (de animerende balk, bv. "NOW AVAILABLE: UBE POWDER") |
 | `portret-<voornaam>.png` | **jij toevoegen** | `…/signature/portret-<voornaam>.png` | vierkant, minimaal 400×400 px. Bv. `portret-leonard.png` |
+| `handtekening-balk-rond.gif` | **staat er** (handtekening 5B) | `…/signature/handtekening-balk-rond.gif` | 868×70 px, getoond op 434×35; pil-vorm met afgeronde uiteinden op de kaartkleur #FBFFF6 |
+| `portret-leonard-kleur.png` | **staat er** (handtekening 5B) | `…/signature/portret-leonard-kleur.png` | 512×512, kleurportret (rond getoond op 82 px) |
 
 Eén `handtekening-balk.gif` voor iedereen; per teamlid één eigen
 `portret-<voornaam>.png`.
