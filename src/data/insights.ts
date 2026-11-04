@@ -753,7 +753,7 @@ export const POSTS: InsightPost[] = [
       "Ube 是什麼？是紫薯嗎？紫山藥粉風味與用途",
     ),
     metaDescription: L(
-      "Ube is a purple yam (Dioscorea alata) from the Philippines. What ube tastes like, where its natural violet colour comes from, and how manufacturers use ube powder in drinks, bakery and ice cream.",
+      "What is ube? A purple yam (Dioscorea alata): its flavour, natural violet colour and how manufacturers use ube powder in drinks, bakery and ice cream.",
       "Ube ist lila Yamswurzel (Dioscorea alata) — weder Taro noch lila Süßkartoffel. Was Ube-Pulver ist, sein natürliches Violett, der vanilleartige Geschmack und wie Hersteller es verwenden.",
       "El ube es ñame morado (Dioscorea alata) — no es taro ni camote morado. Qué es el ube en polvo, su violeta natural, su sabor tipo vainilla y cómo lo usan los fabricantes.",
       "L'ube est une igname pourpre (Dioscorea alata) — ni taro, ni patate douce violette. Ce qu'est la poudre d'ube, son violet naturel, son goût vanillé et comment les fabricants l'utilisent.",
