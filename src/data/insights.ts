@@ -722,7 +722,7 @@ export const POSTS: InsightPost[] = [
   {
     slug: "what-is-ube-powder",
     date: "2026-07-30",
-    updated: "2026-10-21",
+    updated: "2026-11-04",
     author: "Fannie",
     readingMins: 4,
     hero: "/products/ube.jpg",
@@ -745,7 +745,7 @@ export const POSTS: InsightPost[] = [
       "什麼是 ube 粉？色澤、風味與用法",
     ),
     metaTitle: L(
-      "What Is Ube? Ube Powder vs Taro & Purple Sweet Potato",
+      "What Is Ube? Ube Flavour, Colour & Uses of Ube Powder",
       "Was ist Ube-Pulver? Ube vs. Taro & Süßkartoffel",
       "¿Qué Es el Ube? Ube en Polvo vs Taro y Camote Morado",
       "Qu'est-ce que l'Ube ? Poudre d'Ube vs Taro & Patate Douce",
@@ -753,7 +753,7 @@ export const POSTS: InsightPost[] = [
       "Ube 是什麼？是紫薯嗎？紫山藥粉風味與用途",
     ),
     metaDescription: L(
-      "Ube is purple yam (Dioscorea alata) — not taro, and not purple sweet potato. What ube powder is, its natural violet colour and vanilla-like flavour, and how manufacturers use it.",
+      "Ube is a purple yam (Dioscorea alata) from the Philippines. What ube tastes like, where its natural violet colour comes from, and how manufacturers use ube powder in drinks, bakery and ice cream.",
       "Ube ist lila Yamswurzel (Dioscorea alata) — weder Taro noch lila Süßkartoffel. Was Ube-Pulver ist, sein natürliches Violett, der vanilleartige Geschmack und wie Hersteller es verwenden.",
       "El ube es ñame morado (Dioscorea alata) — no es taro ni camote morado. Qué es el ube en polvo, su violeta natural, su sabor tipo vainilla y cómo lo usan los fabricantes.",
       "L'ube est une igname pourpre (Dioscorea alata) — ni taro, ni patate douce violette. Ce qu'est la poudre d'ube, son violet naturel, son goût vanillé et comment les fabricants l'utilisent.",
@@ -774,7 +774,7 @@ export const POSTS: InsightPost[] = [
       "El ube en polvo es ñame morado seco y molido (Dioscorea alata) — apreciado por un color violeta naturalmente vivo y un dulzor suave tipo vainilla, sin colorante artificial. Ha pasado de las cocinas filipinas a las cartas de todo el mundo, y los fabricantes lo eligen donde un morado natural y limpio vale más que uno sintético.",
       "La poudre d'ube est de l'igname pourpre séchée et moulue (Dioscorea alata) — prisée pour une couleur violette naturellement vive et une douceur vanillée, sans colorant artificiel. Passée des cuisines philippines aux cartes du monde entier, les fabricants la choisissent là où un violet naturel et net vaut mieux qu'un synthétique.",
       "Ube w proszku to suszony, zmielony fioletowy pochrzyn (Dioscorea alata) — ceniony za naturalnie żywy fiolet i łagodną, waniliową słodycz, bez sztucznego barwnika. Przeszedł z filipińskich kuchni do menu na całym świecie, a producenci sięgają po niego tam, gdzie czysty naturalny fiolet jest wart więcej niż syntetyczny.",
-      "Ube 粉是乾燥研磨的紫山藥（Dioscorea alata）——以天然鮮豔的紫色與柔和的香草般甜味著稱，不含人工色素。它已從菲律賓廚房走上世界各地的菜單；當「乾淨的天然紫」比合成色素更有價值時，製造商便會選它。",
+      "Ube 是什麼？Ube 是菲律賓的紫山藥（又稱大薯，Dioscorea alata），不是紫薯，也不是芋頭。Ube 粉則是乾燥研磨的紫山藥——以天然鮮豔的紫色與柔和的香草般甜味著稱，不含人工色素。它已從菲律賓廚房走上世界各地的菜單；當「乾淨的天然紫」比合成色素更有價值時，製造商便會選它。",
     ),
     sections: [
       {
