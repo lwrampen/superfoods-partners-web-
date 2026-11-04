@@ -22,6 +22,7 @@ staan de bestanden hier en niet in Drive.
 | `handtekening-balk-rond.gif` | **staat er** (handtekening 5B) | `…/signature/handtekening-balk-rond.gif` | 868×70 px, getoond op 434×35; pil-vorm met afgeronde uiteinden op de kaartkleur #FBFFF6 |
 | `portret-leonard-kleur.png` | **staat er** (handtekening 5B) | `…/signature/portret-leonard-kleur.png` | 512×512, kleurportret (rond getoond op 82 px) |
 | `portret-leonard-groen-wijd.png` | **staat er** (handtekening 5B, actief) | `…/signature/portret-leonard-groen-wijd.png` | 512×512, portret op limegroen (rond getoond op 92 px) |
+| `portret-jade-groen-wijd.png` | **staat er** (handtekening 5B) | `…/signature/portret-jade-groen-wijd.png` | 512×512, portret op limegroen (rond getoond op 92 px) |
 
 Eén `handtekening-balk.gif` voor iedereen; per teamlid één eigen
 `portret-<voornaam>.png`.
