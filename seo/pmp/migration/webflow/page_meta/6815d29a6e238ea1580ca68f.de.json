@@ -1,0 +1,30 @@
+{
+ "label": "m_6815d29a6e238ea1580ca68f_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6815d29a6e238ea1580ca68f",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Hardware",
+  "slug": "hardware",
+  "createdOn": "2025-05-03T08:23:54.052Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha-Zubehör | Pure Matcha Partners",
+   "description": "Hochwertiges Matcha-Zubehör für die professionelle Zubereitung. Bambusbesensets, Schalen & mehr für Cafés und Baristas."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/collections/hardware",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "label": "m_698d7e34b8a5e1650f0aec28_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "698d7e34b8a5e1650f0aec28",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Product Developers & Co-packers",
+  "slug": "product-developers-co-packers",
+  "createdOn": "2026-02-12T07:16:04.947Z",
+  "lastUpdated": "2026-06-28T15:11:11.728Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Pulver für Hersteller & Co-Packer | Pure Matcha Partners",
+   "description": "Zertifiziertes Matcha-Pulver für Produktentwickler, Hersteller & Co-Packer. Industrielieferung, Private-Label-Support & skalierbare Zutatenprogramme."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/for/product-developers-co-packers",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

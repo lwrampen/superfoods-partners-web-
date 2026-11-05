@@ -1,0 +1,33 @@
+{
+ "note": "301 redirects and robots.txt are only exposed via data_enterprise_tool, which requires an Enterprise hosting plan. This site is not Enterprise, so existing 301 redirects / robots.txt could NOT be exported via API. Export them manually from Webflow Site Settings > Publishing > 301 Redirects, and fetch https://www.purematchapartners.com/robots.txt.",
+ "customDomains": [
+  {
+   "id": "67b6064e3dd3f73ae5470dea",
+   "url": "www.purematchapartners.com",
+   "lastPublished": "2026-11-05T05:58:09.228Z",
+   "fullSiteCompiledAt": "2026-11-05T05:58:09.228Z"
+  },
+  {
+   "id": "67b6064e3dd3f73ae5470de3",
+   "url": "purematchapartners.com",
+   "lastPublished": "2026-11-05T05:58:09.228Z",
+   "fullSiteCompiledAt": "2026-11-05T05:58:09.228Z"
+  }
+ ],
+ "raw": {
+  "redirects": {
+   "label": "redirects",
+   "action": "list_301_redirects",
+   "error": {
+    "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+   }
+  },
+  "robots": {
+   "label": "robots",
+   "action": "get_robots_txt",
+   "error": {
+    "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+   }
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "label": "m_698d9bd9fae33977cec6c44d_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "698d9bd9fae33977cec6c44d",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Cafés & Hospitality",
+  "slug": "wholesale-matcha-for-cafes-hospitality",
+  "createdOn": "2026-02-12T09:22:33.849Z",
+  "lastUpdated": "2026-08-17T19:32:27.299Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Wholesale Matcha for Cafés | EU Supply from 5 kg",
+   "description": "Wholesale matcha for cafés, coffee shops and hospitality groups. Barista-ready organic and conventional grades, supplied from our Dutch EU warehouse from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/for/wholesale-matcha-for-cafes-hospitality",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "label": "m_6a8d5edf7c702abff989baf5_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a8d5edf7c702abff989baf5",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Custom Matcha Blends",
+  "slug": "custom-matcha-blends",
+  "createdOn": "2026-08-25T09:22:39.660Z",
+  "lastUpdated": "2026-09-21T14:01:12.894Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Custom Matcha Blends for Brands & Manufacturers",
+   "description": "Develop a custom matcha or tea powder blend for beverages, food or functional products. Sample development, documented ingredients and scalable B2B supply."
+  },
+  "openGraph": {
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/custom-matcha-blends",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

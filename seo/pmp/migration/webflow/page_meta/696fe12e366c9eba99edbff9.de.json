@@ -1,0 +1,30 @@
+{
+ "label": "m_696fe12e366c9eba99edbff9_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "696fe12e366c9eba99edbff9",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Private Label & White Label",
+  "slug": "private-label-matcha",
+  "createdOn": "2026-01-20T20:10:22.243Z",
+  "lastUpdated": "2026-11-05T06:22:03.054Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Private Label Matcha | Eigenmarke & White Label | Pure Matcha Partners",
+   "description": "Starten Sie Ihre eigene Matcha-Marke mit zertifiziertem Private Label Matcha. Bulk-Lieferungen, OEM-Support & flexible Mengen aus zuverlässiger Quelle."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/for/private-label-matcha",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

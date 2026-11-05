@@ -1,0 +1,13 @@
+{
+ "label": "k_e9bc42f4-b60b-1700-a8f8-e63d19890eca_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "e9bc42f4-b60b-1700-a8f8-e63d19890eca",
+  "nodes": [],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 0
+  }
+ }
+}

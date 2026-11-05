@@ -1,0 +1,43 @@
+{
+ "pageId": "67ffaaf430ca209e60d9dea7",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 3,
+ "nodeCount": 3,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b71",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b72\">Hojicha</span><br data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b74\">Ideal para lattes de hojicha, tés helados, postres y productos horneados: añade un sabor cálido y tostado a cualquier creación.<br data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b76\"></p>",
+    "text": "Hojicha\nIdeal para lattes de hojicha, tés helados, postres y productos horneados: añade un sabor cálido y tostado a cualquier creación.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b8a",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha Orgánico Japón</div>",
+    "text": "Hojicha Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a392704d-e68a-1fd1-fc96-096b28ff1ae1",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha Convencional Japón</div>",
+    "text": "Hojicha Convencional Japón"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 3
+  }
+ ]
+}

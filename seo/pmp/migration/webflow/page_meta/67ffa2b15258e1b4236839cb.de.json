@@ -1,0 +1,30 @@
+{
+ "label": "m_67ffa2b15258e1b4236839cb_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ffa2b15258e1b4236839cb",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Ceremonial Matcha",
+  "slug": "ceremonial-matcha",
+  "createdOn": "2025-04-16T12:29:37.473Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Zeremonial-Matcha – Höchste Qualität | Pure Matcha Partners",
+   "description": "Feinsten Zeremonial-Matcha direkt aus Japan. Lebendige Farbe, reiches Umami, ideal für Spitzen-Cafés & Premium-Getränkemarken."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/collections/ceremonial-matcha",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

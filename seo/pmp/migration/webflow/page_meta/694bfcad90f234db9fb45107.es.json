@@ -1,0 +1,30 @@
+{
+ "label": "m_694bfcad90f234db9fb45107_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "694bfcad90f234db9fb45107",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Specials",
+  "slug": "specials",
+  "createdOn": "2025-12-24T14:46:05.795Z",
+  "lastUpdated": "2026-08-02T15:08:23.993Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Specialty Tea Powders Wholesale | Ube, Mulberry, Oolong & More",
+   "description": "Discover wholesale specialty powders including ube, mulberry matcha, oolong, rooibos and hibiscus. Sourced from Japan and China for B2B buyers from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a14402241eb368ab3cfc853_ube-open-graph.webp",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/collections/specials",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

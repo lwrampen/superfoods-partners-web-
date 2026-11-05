@@ -1,0 +1,828 @@
+{
+ "pageId": "67ff9e333b0c6a5a7ab81f3d",
+ "locale": "de",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 90,
+ "nodeCount": 90,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1db7",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Alle Produkte</h2>",
+    "text": "Alle Produkte"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e7c",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e80",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Zeigt <span data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e82\">0</span> von <span data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e85\">100</span></div>",
+    "text": "Zeigt 0 von 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3326e618-74ab-e81e-379a-9d45a7749fd8",
+   "text": {
+    "html": "<a class=\"text-size-medium-2\" data-wf-link-page-id=\"67ffa2b15258e1b4236839cb\"><span class=\"text-span-12\" data-w-id=\"2699e77b-24ae-03d0-f888-0378dfe922c0\">Matcha für Tee</span><br data-w-id=\"a7146703-4478-bcb2-1b82-db8983410592\">Ideal für die traditionelle Zubereitung mit warmem Wasser, Kaltaufguss oder Matcha auf Eis.</a>",
+    "text": "Matcha für Tee\nIdeal für die traditionelle Zubereitung mit warmem Wasser, Kaltaufguss oder Matcha auf Eis."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "c7a93fe6-b969-2ef6-2cf1-ec5f12a32aa1",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4d736fc74bdbed3ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ce084eaa-bd91-edf8-b8ff-0f120fea01b7",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Bio</div>",
+    "text": "Bio"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c7a93fe6-b969-2ef6-2cf1-ec5f12a32aa3",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Zeremoniell Bio Japan</div>",
+    "text": "Zeremoniell Bio Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ec86203-3bb2-1e63-70ae-2ea952a2d450",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-JP-O</div>",
+    "text": "PMP-M-CE-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f01199c1-0dfc-2e14-a543-9b0cd55dadc5",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e82916d4b1f7ccfd62a39"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "880fbc94-10c0-3b31-07d9-6f7ba2233760",
+   "text": {
+    "html": "<div class=\"text-block-133\">Konventionell</div>",
+    "text": "Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f01199c1-0dfc-2e14-a543-9b0cd55dadc7",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Zeremoniell Konventionell Japan</div>",
+    "text": "Zeremoniell Konventionell Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f01199c1-0dfc-2e14-a543-9b0cd55dadc9",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-JP</div>",
+    "text": "PMP-M-CE-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a15b8f77-00db-f7c6-9ba6-7ba99fc64c7c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4b32ca2d43687994a"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ee8728a-2693-b54b-6d25-71015820da5b",
+   "text": {
+    "html": "<div class=\"text-block-133\">Konventionell</div>",
+    "text": "Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a15b8f77-00db-f7c6-9ba6-7ba99fc64c7e",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\"> Zeremoniell Konventionell China</div>",
+    "text": " Zeremoniell Konventionell China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a15b8f77-00db-f7c6-9ba6-7ba99fc64c80",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-CN</div>",
+    "text": "PMP-M-CE-1KG-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f0513b1f-9cd7-2106-da47-6d3773fdff6a",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"e597a777-1940-81e4-a8c5-49944b81f82a\">Matcha für Mixgetränke</span><br data-w-id=\"3d1e2303-8cf6-22ee-9ba5-d4d23a1b47d3\">Ideal für Matcha-Mixgetränke wie Matcha-Lattes, Cappuccinos, Säfte oder für RTD-Produkte.<br data-w-id=\"ab9fe1cb-a4d3-0ee5-8fc6-e318d53f41d3\"></p>",
+    "text": "Matcha für Mixgetränke\nIdeal für Matcha-Mixgetränke wie Matcha-Lattes, Cappuccinos, Säfte oder für RTD-Produkte.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d62695fe-9d93-0cb7-829a-2f5a52c8195d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e837f3987c636fd3470e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17735e39-59b0-8eda-e72c-b50a1de30a2c",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Bio</div>",
+    "text": "Bio"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d62695fe-9d93-0cb7-829a-2f5a52c8195f",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Bio Japan</div>",
+    "text": "Premium Bio Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d62695fe-9d93-0cb7-829a-2f5a52c81961",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-JP-O</div>",
+    "text": "PMP-M-LA-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "79c4c19b-a574-55a3-2645-9a9604605fa7",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "200f58d3-6df1-9dc7-20bc-b2974547bb3f",
+   "text": {
+    "html": "<div class=\"text-block-133\">Konventionell</div>",
+    "text": "Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "79c4c19b-a574-55a3-2645-9a9604605fa9",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Konventionell Japan</div>",
+    "text": "Premium Konventionell Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "79c4c19b-a574-55a3-2645-9a9604605fab",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-JP</div>",
+    "text": "PMP-M-LA-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "71fc547b-59d3-6b18-c100-ed6d5a429ce6",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2e5071f3-1f57-6c3b-3704-6c92184f4d2f",
+   "text": {
+    "html": "<div class=\"text-block-133\">Konventionell</div>",
+    "text": "Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71fc547b-59d3-6b18-c100-ed6d5a429ce8",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Konventionell China</div>",
+    "text": "Premium Konventionell China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71fc547b-59d3-6b18-c100-ed6d5a429cea",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-CN</div>",
+    "text": "PMP-M-LA-1KG-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8911d2cc-2203-862d-cda8-f01bdc0a6b5e",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"8911d2cc-2203-862d-cda8-f01bdc0a6b5f\">Matcha zum Backen</span><br data-w-id=\"3c97c317-34f4-03c4-c43b-ebce3cc78eca\">Ideal zum Kochen, Backen, für RTD-Produkte und Milchprodukte.<br data-w-id=\"6a8531df-34b5-16ce-e767-7fec2ac5c6b6\"></p>",
+    "text": "Matcha zum Backen\nIdeal zum Kochen, Backen, für RTD-Produkte und Milchprodukte.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "8aacd133-e7fa-365a-0a17-2a34214e7521",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "6d1cb411-6a07-f4f3-c4a6-f632d7484958",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Bio</div>",
+    "text": "Bio"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8aacd133-e7fa-365a-0a17-2a34214e7523",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Kulinarisch Bio Japan</div>",
+    "text": "Kulinarisch Bio Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8aacd133-e7fa-365a-0a17-2a34214e7525",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-JP-O</div>",
+    "text": "PMP-M-CU-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "2faba9f8-3fb9-96e1-f0e8-c00884bb9b8a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e490ae972c9df96eba"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3574019d-8dc3-8b94-045e-d8331d561f5d",
+   "text": {
+    "html": "<div class=\"text-block-133\">Konventionell</div>",
+    "text": "Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2faba9f8-3fb9-96e1-f0e8-c00884bb9b8c",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Kulinarisch Konventionell Japan</div>",
+    "text": "Kulinarisch Konventionell Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2faba9f8-3fb9-96e1-f0e8-c00884bb9b8e",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-JP</div>",
+    "text": "PMP-M-CU-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "3fa223b1-c730-3e51-541a-1a73075d1380",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e490ae972c9df96eba"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a70feaa-dd4c-35ca-1697-2e2ef6a5f933",
+   "text": {
+    "html": "<div class=\"text-block-133\">Konventionell</div>",
+    "text": "Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fa223b1-c730-3e51-541a-1a73075d1382",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Kulinarisch Konventionell China</div>",
+    "text": "Kulinarisch Konventionell China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fa223b1-c730-3e51-541a-1a73075d1384",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-CN</div>",
+    "text": "PMP-M-CU-1KG-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cccd7a63-944f-5740-1fd1-ee3695093112",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"cccd7a63-944f-5740-1fd1-ee3695093113\">Hojicha</span><br data-w-id=\"5aae1c28-63de-615a-6b4f-32f6251bd562\">Perfekt für nussige, koffeinarme Lattes, Eistees und cremige Mischgetränke.<br data-w-id=\"dcea60f8-2a01-5776-c2d6-bdceb952e834\"></p>",
+    "text": "Hojicha\nPerfekt für nussige, koffeinarme Lattes, Eistees und cremige Mischgetränke.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "c91baf71-1408-2c78-6e6d-20171eb62b38",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e425a768e80c125f14"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "505f17d7-7715-4548-fcb4-752eb44d6ef7",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Bio</div>",
+    "text": "Bio"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c91baf71-1408-2c78-6e6d-20171eb62b3a",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha Bio Japan</div>",
+    "text": "Hojicha Bio Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c91baf71-1408-2c78-6e6d-20171eb62b3c",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-H-H-1KG-JP-O</div>",
+    "text": "PMP-H-H-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7d2f35d1-e3ec-bd0d-c6ef-87fc307f0bcc",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e425a768e80c125f14"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "61358232-9448-7163-f27a-695e5bd78e41",
+   "text": {
+    "html": "<div class=\"text-block-133\">Konventionell</div>",
+    "text": "Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d2f35d1-e3ec-bd0d-c6ef-87fc307f0bce",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha konventionell Japan</div>",
+    "text": "Hojicha konventionell Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d2f35d1-e3ec-bd0d-c6ef-87fc307f0bd0",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-H-H-1KG-JP</div>",
+    "text": "PMP-H-H-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0cf1863d-e255-8764-e739-c9b28cac719a",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"0cf1863d-e255-8764-e739-c9b28cac719b\">Spezialitäten</span><br data-w-id=\"f5ab0006-4bbf-4101-b291-56a8132fb00d\">Exklusive Produktlinie aus Japan <br data-w-id=\"768f444d-c211-8eb0-4bb9-dabdb0d7200f\"></p>",
+    "text": "Spezialitäten\nExklusive Produktlinie aus Japan \n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb55",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "694b9ba991b2f1cf81072830"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb56",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Bio</div>",
+    "text": "Bio"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb59",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Asa GO Matcha ohne Schneebesen</div>",
+    "text": "Asa GO Matcha ohne Schneebesen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb5b",
+   "text": {
+    "html": "<div class=\"text-size-small\">ASA-A-G-500G-JP-KA</div>",
+    "text": "ASA-A-G-500G-JP-KA"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb62",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "694b9ba93ed8d26e25d74c45"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "981df7e1-7643-4bab-7eb7-bd3140e09834",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Bio</div>",
+    "text": "Bio"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb66",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Maulbeer-Matcha koffeinfrei</div>",
+    "text": "Maulbeer-Matcha koffeinfrei"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb68",
+   "text": {
+    "html": "<div class=\"text-size-small\">ASA-M-M-1KG-JP-OS</div>",
+    "text": "ASA-M-M-1KG-JP-OS"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb835631-6f87-e86c-a406-a4ea84d61012",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a143bd632ff5ff13d81d430"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb835631-6f87-e86c-a406-a4ea84d61014",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ube-Pulver</div>",
+    "text": "Ube-Pulver"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb835631-6f87-e86c-a406-a4ea84d61016",
+   "text": {
+    "html": "<div class=\"text-size-small-3\">PMP-TP-UBP-500G-CN-EA-C</div>",
+    "text": "PMP-TP-UBP-500G-CN-EA-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "4d5bd17e-60a4-ecb2-0561-1b1f1ff59c87",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a143bd641eb368ab3ce18f2"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "4d5bd17e-60a4-ecb2-0561-1b1f1ff59c89",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Oolong-Teepulver</div>",
+    "text": "Oolong-Teepulver"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "4d5bd17e-60a4-ecb2-0561-1b1f1ff59c8b",
+   "text": {
+    "html": "<div class=\"text-size-small-3\">PMP-TP-OL-500G-CN-EA-C</div>",
+    "text": "PMP-TP-OL-500G-CN-EA-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "887b328e-95e8-fa8c-1c3c-75ecd3596f2e",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Jasminteepulver</div>",
+    "text": "Jasminteepulver"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "887b328e-95e8-fa8c-1c3c-75ecd3596f30",
+   "text": {
+    "html": "<div class=\"text-size-small-3\">PMP-TP-JG-500G-CN-EA-C</div>",
+    "text": "PMP-TP-JG-500G-CN-EA-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ab9868e7-2728-e2a5-f34a-886f9b2c8260",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a143bd6101e2460a79a06be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ab9868e7-2728-e2a5-f34a-886f9b2c8262",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Earl Grey Teepulver</div>",
+    "text": "Earl Grey Teepulver"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ab9868e7-2728-e2a5-f34a-886f9b2c8264",
+   "text": {
+    "html": "<div class=\"text-size-small-3\">PMP-TP-EG-500G-CN-EA-C</div>",
+    "text": "PMP-TP-EG-500G-CN-EA-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "35f860d0-07c8-a773-c343-19ae70188e53",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Rooibos Teepulver</div>",
+    "text": "Rooibos Teepulver"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "35f860d0-07c8-a773-c343-19ae70188e55",
+   "text": {
+    "html": "<div class=\"text-size-small-3\">PMP-TP-RB-500G-CN-EA-C</div>",
+    "text": "PMP-TP-RB-500G-CN-EA-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "160175d1-c796-e6c2-bb76-26a98ddcb649",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a143bd658de6016adfd162e"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "160175d1-c796-e6c2-bb76-26a98ddcb64b",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hibiskus Teepulver</div>",
+    "text": "Hibiskus Teepulver"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "160175d1-c796-e6c2-bb76-26a98ddcb64d",
+   "text": {
+    "html": "<div class=\"text-size-small-3\">PMP-TP-HI-500G-CN-EA-O</div>",
+    "text": "PMP-TP-HI-500G-CN-EA-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "46dc7ed9-fa8f-eea9-67a9-4d2c21ee21ee",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a143bd6b5c430303e06f11b"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "46dc7ed9-fa8f-eea9-67a9-4d2c21ee21f0",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Da Hong Pao Teepulver</div>",
+    "text": "Da Hong Pao Teepulver"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "46dc7ed9-fa8f-eea9-67a9-4d2c21ee21f2",
+   "text": {
+    "html": "<div class=\"text-size-small-3\">PMP-TP-DHP-500G-CN-EA-C</div>",
+    "text": "PMP-TP-DHP-500G-CN-EA-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d2465674-2090-75a1-5764-9a64bba68eb0",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"d2465674-2090-75a1-5764-9a64bba68eb1\">Zubehör<br data-w-id=\"dc8da33f-bb07-b06d-feae-4fea48db8a3b\"></span>Das gesamte benötigte Zubehör, um immer die besten Matcha zuzubereiten.<br data-w-id=\"4f9f9df5-3154-2709-c283-7d0f3f233057\"></p>",
+    "text": "Zubehör\nDas gesamte benötigte Zubehör, um immer die besten Matcha zuzubereiten.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "52990fd2-518b-06ed-3d77-593d5877f8c2",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Bambus-Besen</div>",
+    "text": "Bambus-Besen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "52990fd2-518b-06ed-3d77-593d5877f8c4",
+   "text": {
+    "html": "<div class=\"text-size-small\">ASA-W-B-CN</div>",
+    "text": "ASA-W-B-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70e49b97-c145-9e80-628c-be647cc228f8",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Kunststoff-Besen</div>",
+    "text": "Kunststoff-Besen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70e49b97-c145-9e80-628c-be647cc228fa",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-W-P-CN</div>",
+    "text": "PMP-W-P-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0eca1fda-3383-b401-5346-1cf99320c072",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">1-Gramm-Messlöffel</div>",
+    "text": "1-Gramm-Messlöffel"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0eca1fda-3383-b401-5346-1cf99320c074",
+   "text": {
+    "html": "<div class=\"text-size-small\">ASA-S-P-CN</div>",
+    "text": "ASA-S-P-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ed51b8fa-e4b5-beee-fad4-251828699c1e",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Matcha-Schale</div>",
+    "text": "Matcha-Schale"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ed51b8fa-e4b5-beee-fad4-251828699c20",
+   "text": {
+    "html": "<div class=\"text-size-small\">ASA-B-C-CN</div>",
+    "text": "ASA-B-C-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f8e",
+   "text": {
+    "html": "<div class=\"heading-xsmall-2\">Keine Ergebnisse gefunden.</div>",
+    "text": "Keine Ergebnisse gefunden."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f90",
+   "text": {
+    "html": "<div>Es wurden keine Ergebnisse mit diesen Kriterien gefunden. Versuchen Sie, Ihre Suche zu ändern.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f92\"><br data-w-id=\"5c4736ef-19d7-a3ce-56de-eda34a878ec5\"></a></div>",
+    "text": "Es wurden keine Ergebnisse mit diesen Kriterien gefunden. Versuchen Sie, Ihre Suche zu ändern.\n"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 90
+  }
+ ]
+}

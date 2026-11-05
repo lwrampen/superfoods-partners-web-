@@ -1,0 +1,30 @@
+{
+ "label": "m_68d26a6722c2d3df242931ea_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "68d26a6722c2d3df242931ea",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Premium Matcha - Japan Organic",
+  "slug": "premium-matcha-japan-organic",
+  "createdOn": "2025-09-23T09:37:43.432Z",
+  "lastUpdated": "2026-08-02T15:49:49.045Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Organic Premium Matcha Japan | Wholesale Latte Matcha | Pure Matcha Partners",
+   "description": "Certified organic premium Japanese matcha for smooth lattes and specialty drinks. Vibrant colour and consistent café performance, supplied from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/products/premium-matcha-japan-organic",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

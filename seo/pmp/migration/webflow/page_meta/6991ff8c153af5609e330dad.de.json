@@ -1,0 +1,29 @@
+{
+ "label": "m_6991ff8c153af5609e330dad_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6991ff8c153af5609e330dad",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Bulk Matcha Supplier USA",
+  "slug": "bulk-matcha-supplier-usa",
+  "createdOn": "2026-02-15T17:17:00.413Z",
+  "lastUpdated": "2026-11-05T05:56:46.519Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Lieferant USA | Bulk Matcha Pulver | Pure Matcha Partners",
+   "description": "Zertifizierter Bulk-Matcha-Lieferant für den US-Markt. Matcha-Großhandel für Supplement-Marken, Getränkehersteller & Distributoren mit vollständiger Importdokumentation."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/bulk-matcha-supplier-usa",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

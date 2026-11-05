@@ -1,0 +1,534 @@
+{
+ "pageId": "6a8d5edf7c702abff989baf5",
+ "locale": "en",
+ "lastUpdated": "2026-09-21T14:01:12.917Z",
+ "total": 59,
+ "nodeCount": 59,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "272f1609-cf7f-1040-cbf2-25424b80f2cb",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "b2ed29d2-2749-110d-6edb-ce6d73248474",
+   "text": {
+    "html": "<h1 class=\"heading-7\">Custom Matcha Blends for Scalable Products</h1>",
+    "text": "Custom Matcha Blends for Scalable Products"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b2ed29d2-2749-110d-6edb-ce6d73248477",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Develop a tailored matcha or tea powder blend around your desired flavour, colour and application, with documented ingredients and scalable B2B supply.</p>",
+    "text": "Develop a tailored matcha or tea powder blend around your desired flavour, colour and application, with documented ingredients and scalable B2B supply."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b2ed29d2-2749-110d-6edb-ce6d73248479",
+   "text": {
+    "html": "<a class=\"button-6\" href=\"#custom-blend-brief\">Discuss your blend</a>",
+    "text": "Discuss your blend"
+   },
+   "attributes": {
+    "href": "#custom-blend-brief"
+   }
+  },
+  {
+   "type": "image",
+   "id": "bba70147-5a00-23c2-c274-beb25b8ec0cb",
+   "image": {
+    "alt": "Custom matcha blend development for B2B products",
+    "assetId": "696fe4a5116e7958a5415691"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bea",
+   "text": {
+    "html": "<h2 class=\"heading-12\">What can be tailored in a custom blend?</h2>",
+    "text": "What can be tailored in a custom blend?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bec",
+   "text": {
+    "html": "<div class=\"text-block-155\">The formulation is developed around the intended application and commercial requirements.</div>",
+    "text": "The formulation is developed around the intended application and commercial requirements."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bee",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Taste profile</h3>",
+    "text": "Taste profile"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bf0",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Balance umami, sweetness, bitterness, roast and aroma.</p>",
+    "text": "Balance umami, sweetness, bitterness, roast and aroma."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bf3",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Colour and appearance</h3>",
+    "text": "Colour and appearance"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bf5",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Define the visual profile required for the finished product.</p>",
+    "text": "Define the visual profile required for the finished product."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bf8",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Application performance</h3>",
+    "text": "Application performance"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bfa",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Develop for milk, RTD, dry mixes or food production.</p>",
+    "text": "Develop for milk, RTD, dry mixes or food production."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bfd",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Ingredients and formulation</h3>",
+    "text": "Ingredients and formulation"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "92b009b2-3be6-7b19-1a1a-508789e90bff",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Combine suitable matcha, tea powders or selected ingredients.</p>",
+    "text": "Combine suitable matcha, tea powders or selected ingredients."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e58",
+   "text": {
+    "html": "<h2 class=\"heading-12\">From product brief to recurring supply</h2>",
+    "text": "From product brief to recurring supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e5a",
+   "text": {
+    "html": "<p class=\"paragraph-8\">A structured development route keeps sampling, refinement and commercial production clear.</p>",
+    "text": "A structured development route keeps sampling, refinement and commercial production clear."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e5f",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">1. Product brief</h3>",
+    "text": "1. Product brief"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e61",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Define application, target profile, volume and target price.</p>",
+    "text": "Define application, target profile, volume and target price."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e64",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">2. Ingredient selection</h3>",
+    "text": "2. Ingredient selection"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e66",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Select suitable matcha grades and complementary ingredients.</p>",
+    "text": "Select suitable matcha grades and complementary ingredients."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e69",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">3. Sample and refinement</h3>",
+    "text": "3. Sample and refinement"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e6b",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Evaluate taste, colour and performance before approval.</p>",
+    "text": "Evaluate taste, colour and performance before approval."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e6e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">4. Production and supply</h3>",
+    "text": "4. Production and supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a696c94c-32b9-c493-0e06-7ef11bf99e70",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Finalise specification, documentation and recurring production.</p>",
+    "text": "Finalise specification, documentation and recurring production."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e8626f",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Tell us what you want to develop</h2>",
+    "text": "Tell us what you want to develop"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e86271",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Share the intended application, sensory direction and expected volume. We will assess the right development route.</p>",
+    "text": "Share the intended application, sensory direction and expected volume. We will assess the right development route."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e86276",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label\">Full name*</label>",
+    "text": "Full name*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e86277",
+   "placeholder": "Example text",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e8627a",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label\">Company name*</label>",
+    "text": "Company name*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e8627b",
+   "placeholder": "Example text",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e8627f",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label\">Email*</label>",
+    "text": "Email*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e86280",
+   "placeholder": "Example text",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e86283",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label\">Country*</label>",
+    "text": "Country*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e86284",
+   "placeholder": "Example text",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e86288",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label-copy-copy\">Intended application</label>",
+    "text": "Intended application"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e8629e",
+   "choices": [
+    {
+     "text": "Select application",
+     "value": ""
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862a0",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label-copy-copy\">Expected annual demand</label>",
+    "text": "Expected annual demand"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862b3",
+   "choices": [
+    {
+     "text": "Select annual demand",
+     "value": ""
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862b5",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label-copy-copy\">Preferred next step</label>",
+    "text": "Preferred next step"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862c2",
+   "choices": [
+    {
+     "text": "Select next step",
+     "value": ""
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862c4",
+   "text": {
+    "html": "<label for=\"\" class=\"input-label\">Project brief</label>",
+    "text": "Project brief"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862c5",
+   "placeholder": "Example text",
+   "attributes": {}
+  },
+  {
+   "type": "submit-button",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862c8",
+   "waitingText": "Please wait...",
+   "value": "Submit",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862cc",
+   "text": {
+    "html": "<div>Thank you! Your submission has been received!</div>",
+    "text": "Thank you! Your submission has been received!"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c17cf620-8350-40f9-07b3-8b3ba2e862cf",
+   "text": {
+    "html": "<div>Oops! Something went wrong while submitting the form.</div>",
+    "text": "Oops! Something went wrong while submitting the form."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504107",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Frequently Asked Questions</h2>",
+    "text": "Frequently Asked Questions"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504109",
+   "text": {
+    "html": "<div class=\"faq-q-text\">What is the minimum order for a custom blend?</div>",
+    "text": "What is the minimum order for a custom blend?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f3650410c",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Bulk supply starts from 5 kg. Minimum volumes for custom development depend on the formula, ingredients and production requirements.</p>",
+    "text": "Bulk supply starts from 5 kg. Minimum volumes for custom development depend on the formula, ingredients and production requirements."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f3650410f",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Can you first develop samples?</div>",
+    "text": "Can you first develop samples?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504112",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">For suitable projects, one or more formulations can be prepared for evaluation before commercial production.</p>",
+    "text": "For suitable projects, one or more formulations can be prepared for evaluation before commercial production."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504115",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Can a custom blend be organic?</div>",
+    "text": "Can a custom blend be organic?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504118",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Organic options depend on ingredient availability and the required formulation.</p>",
+    "text": "Organic options depend on ingredient availability and the required formulation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f3650411b",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Can this be combined with private label?</div>",
+    "text": "Can this be combined with private label?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f3650411e",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">A custom formulation can be combined with private-label support for a market-ready product.</p>",
+    "text": "A custom formulation can be combined with private-label support for a market-ready product."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504123",
+   "text": {
+    "html": "<h2>Ready to develop your custom blend?</h2>",
+    "text": "Ready to develop your custom blend?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504126",
+   "text": {
+    "html": "<p>Start with your application, target profile and expected volume.</p>",
+    "text": "Start with your application, target profile and expected volume."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "abeffcf3-60fb-5e4b-16e7-bf4f36504129",
+   "text": {
+    "html": "<a class=\"button-6\" href=\"#custom-blend-brief\">Start your project brief</a>",
+    "text": "Start your project brief"
+   },
+   "attributes": {
+    "href": "#custom-blend-brief"
+   }
+  },
+  {
+   "type": "component-instance",
+   "id": "380176c2-f967-0838-262c-0a9e668ef2bf",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 59
+  }
+ ]
+}

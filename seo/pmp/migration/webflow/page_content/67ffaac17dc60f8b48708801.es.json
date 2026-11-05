@@ -1,0 +1,61 @@
+{
+ "pageId": "67ffaac17dc60f8b48708801",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 5,
+ "nodeCount": 5,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce22402",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Matcha Culinario </h2>",
+    "text": "Matcha Culinario "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce22468",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce22469\">Matcha para repostería</span><br data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce2246b\">Ideal para uso culinario: perfecto para repostería, postres, salsas y otras recetas en las que se necesita un sabor intenso a matcha.<br data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce2246d\"></p>",
+    "text": "Matcha para repostería\nIdeal para uso culinario: perfecto para repostería, postres, salsas y otras recetas en las que se necesita un sabor intenso a matcha.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce22481",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinario Orgánico Japón</div>",
+    "text": "Culinario Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2248c",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinario Convencional Japón</div>",
+    "text": "Culinario Convencional Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bd558ab4-a1dd-d959-b011-0c99b4917f9c",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinario Convencional China</div>",
+    "text": "Culinario Convencional China"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 5
+  }
+ ]
+}

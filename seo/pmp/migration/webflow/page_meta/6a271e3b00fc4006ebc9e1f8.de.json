@@ -1,0 +1,29 @@
+{
+ "label": "m_6a271e3b00fc4006ebc9e1f8_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a271e3b00fc4006ebc9e1f8",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Bulk Matcha Supplier DE",
+  "slug": "bulk-matcha-supplier-de",
+  "createdOn": "2026-06-08T19:55:39.528Z",
+  "lastUpdated": "2026-08-17T20:20:34.529Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Großhandel Deutschland | Lieferant ab 5 kg",
+   "description": "Matcha-Pulver im Großhandel für Deutschland: ab 5 kg, EU-Bio-Optionen, COA und Eurofins-Pestizidberichte, Lieferung aus niederländischem EU-Lager."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/bulk-matcha-supplier-de",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

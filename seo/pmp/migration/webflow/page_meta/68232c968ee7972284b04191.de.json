@@ -1,0 +1,30 @@
+{
+ "label": "m_68232c968ee7972284b04191_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "68232c968ee7972284b04191",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Hojicha - Japan Organic",
+  "slug": "hojicha-japan-organic",
+  "createdOn": "2025-05-13T11:27:18.391Z",
+  "lastUpdated": "2026-08-02T15:50:19.933Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Hojicha 1 kg – Bulk Gerösteter Grüntee | Pure Matcha Partners",
+   "description": "Glatter, aromatischer Hojicha in Bulk-Verpackung. Ideal für Cafés, Konditoreien & Smoothie-Bars. Aus Japan, B2B-Mengen."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/hojicha-japan-organic",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

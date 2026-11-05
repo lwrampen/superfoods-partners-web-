@@ -1,0 +1,30 @@
+{
+ "label": "m_67ffaac17dc60f8b48708801_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ffaac17dc60f8b48708801",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Culinary Matcha",
+  "slug": "culinary-matcha",
+  "createdOn": "2025-04-16T13:04:01.683Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Kulinarischer Matcha | Backen & RTD | Pure Matcha Partners",
+   "description": "Kräftiger, lebendiger kulinarischer Matcha für RTD-Getränke, Produktentwicklung & Backen. Direkt von zertifizierten Farmen, B2B ab 1 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/collections/culinary-matcha",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

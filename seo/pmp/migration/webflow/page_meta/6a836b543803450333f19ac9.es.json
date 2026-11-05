@@ -1,0 +1,29 @@
+{
+ "label": "m_6a836b543803450333f19ac9_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a836b543803450333f19ac9",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Bulk Matcha Supplier Scandinavia",
+  "slug": "bulk-matcha-supplier-scandinavia",
+  "createdOn": "2026-08-17T20:13:08.450Z",
+  "lastUpdated": "2026-08-25T11:02:07.110Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Bulk Matcha Supplier Scandinavia | Wholesale from 5 kg",
+   "description": "Wholesale matcha for Denmark, Sweden, Norway and Finland from 5 kg. Organic options, COA, Eurofins reports and scalable Nordic B2B supply."
+  },
+  "openGraph": {
+   "titleCopied": false,
+   "descriptionCopied": false,
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/bulk-matcha-supplier-scandinavia",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

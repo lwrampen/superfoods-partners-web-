@@ -1,0 +1,25 @@
+{
+ "pageId": "6798bd1e4b234bad93cdab30",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 1,
+ "nodeCount": 1,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "7fe9957d-b815-8ee8-4708-80c20ac53a5f",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Tu blog de <span class=\"text-span-8\" data-w-id=\"7fe9957d-b815-8ee8-4708-80c20ac53a61\">matcha</span></h2>",
+    "text": "Tu blog de matcha"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 1
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "urls": 410,
+ "by_action": {
+  "keep 1:1": 310,
+  "301 to canonical (was 200+canonical)": 24,
+  "301 (keep)": 3,
+  "keep 1:1 (noindex)": 11,
+  "301 suggested (404 now)": 44,
+  "pagination param (keep canonical)": 18
+ },
+ "by_locale_live": {
+  "en": 143,
+  "es": 113,
+  "de": 107
+ },
+ "clicks_16m_total": 9519,
+ "clicks_16m_on_keep": 9155,
+ "top_by_clicks": [
+  [
+   "https://www.purematchapartners.com",
+   5309
+  ],
+  [
+   "https://www.purematchapartners.com/es",
+   872
+  ],
+  [
+   "https://www.purematchapartners.com/blogs/matcha-ratios-for-cafes-that-even-matcha-connoisseurs-will-approve-of",
+   381
+  ],
+  [
+   "https://www.purematchapartners.com/blogs/flavor-pairing-guide-what-works-and-doesnt-with-matcha",
+   229
+  ],
+  [
+   "https://www.purematchapartners.com/blogs/match-a-making-which-matcha-grade-suits-your-needs",
+   213
+  ],
+  [
+   "https://www.purematchapartners.com/blogs/the-art-of-matcha-microfoam-whisking-for-a-silky-finish",
+   210
+  ],
+  [
+   "https://www.purematchapartners.com/about",
+   202
+  ],
+  [
+   "https://www.purematchapartners.com/for/private-label-matcha",
+   185
+  ],
+  [
+   "https://www.purematchapartners.com/blogs/health-benefits-of-mulberry-leaf-matcha",
+   116
+  ],
+  [
+   "https://www.purematchapartners.com/blogs/what-is-mulberry-matcha",
+   103
+  ],
+  [
+   "https://www.purematchapartners.com/de",
+   101
+  ],
+  [
+   "https://www.purematchapartners.com/blogs/matcha-101-terminology",
+   99
+  ],
+  [
+   "https://www.purematchapartners.com/ceremonial-matcha/ceremonial-pmp-1kg",
+   97
+  ],
+  [
+   "https://www.purematchapartners.com/collections/all-products",
+   83
+  ],
+  [
+   "https://www.purematchapartners.com/contact",
+   83
+  ]
+ ]
+}

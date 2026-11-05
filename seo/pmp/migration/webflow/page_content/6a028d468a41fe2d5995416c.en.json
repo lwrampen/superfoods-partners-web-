@@ -1,0 +1,295 @@
+{
+ "pageId": "6a028d468a41fe2d5995416c",
+ "locale": "en",
+ "lastUpdated": "2026-07-26T12:06:41.631Z",
+ "total": 32,
+ "nodeCount": 32,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><span class=\"text-span-62\" data-w-id=\"0c70ba51-0cf5-c662-dbb7-ac250e5daa4c\"><strong data-w-id=\"0c70ba51-0cf5-c662-dbb7-ac250e5daa4d\">Asa Matcha<br data-w-id=\"d57489af-7617-79aa-dc55-c119b3275ef1\"></strong></span><strong data-w-id=\"3745f49e-e7cb-b667-71a5-5e25ffcea656\">Europe's Premium Japanese Matcha Brand</strong><span class=\"text-span-62\" data-w-id=\"3745f49e-e7cb-b667-71a5-5e25ffcea658\"><strong data-w-id=\"3745f49e-e7cb-b667-71a5-5e25ffcea657\"> </strong></span></h1>",
+    "text": "Asa Matcha\nEurope's Premium Japanese Matcha Brand "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">ASA Matcha is the consumer brand born from the same commitment to quality that drives Pure Matcha Partners: the highest-grade Japanese matcha, properly sourced, made genuinely available across Europe.<br data-w-id=\"2aeea8a9-33ad-f753-7ec0-33768c0a4b24\">‍<br data-w-id=\"b565a923-a394-d660-5c24-d548fda91aba\">Where we supply B2B, ASA Matcha supplies the consumer directly.</p>",
+    "text": "ASA Matcha is the consumer brand born from the same commitment to quality that drives Pure Matcha Partners: the highest-grade Japanese matcha, properly sourced, made genuinely available across Europe.\n‍\nWhere we supply B2B, ASA Matcha supplies the consumer directly."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" href=\"https://asa-matcha.com/\">Check out Asa Matcha</a>",
+    "text": "Check out Asa Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6921dd069993963846cc85e4"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\"><strong data-w-id=\"e3de7c50-3b25-682f-8919-26197a9ed9ee\">The </strong><span class=\"text-span-66\" data-w-id=\"8a4918f1-bbaf-9dd9-c2d5-c146f0b32d2b\"><strong data-w-id=\"8a4918f1-bbaf-9dd9-c2d5-c146f0b32d2c\">Asa Matcha </strong></span><strong data-w-id=\"f98f6cf6-462e-77cc-0d0f-58ab3b1c3881\">Range</strong></h2>",
+    "text": "The Asa Matcha Range"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">High quality Japanese powders &amp; accessoires</div>",
+    "text": "High quality Japanese powders & accessoires"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6810d9a4d956d61068d86f41"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Ceremonial Matcha from Uji</h3>",
+    "text": "Ceremonial Matcha from Uji"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b2c75a35-f314-7781-86a5-734679c3bc64",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">First-harvest stone-ground ceremonial matcha from Kyoto's most respected growing region. Deep umami, naturally sweet, no bitterness. The benchmark for Japanese ceremonial-grade matcha.</h3>",
+    "text": "First-harvest stone-ground ceremonial matcha from Kyoto's most respected growing region. Deep umami, naturally sweet, no bitterness. The benchmark for Japanese ceremonial-grade matcha."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6810da3ff4ce3337822b7b78"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Ceremonial Matcha from Kagoshima</h3>",
+    "text": "Ceremonial Matcha from Kagoshima"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bb870738-e038-3323-92a3-6ce2ebc7eeef",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">A single-origin ceremonial matcha with a softer, rounder flavour profile. Sourced from Kagoshima's high-altitude tea gardens.</h3>",
+    "text": "A single-origin ceremonial matcha with a softer, rounder flavour profile. Sourced from Kagoshima's high-altitude tea gardens."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6810eb1c285e24c41bcccf6b"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Hojicha</h3>",
+    "text": "Hojicha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae0e6bce-6d47-5516-0fc5-4961ff141390",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">Roasted Japanese green tea, lower in caffeine, with a warm, toasty flavour. One of the fastest-growing tea categories in Europe.</h3>",
+    "text": "Roasted Japanese green tea, lower in caffeine, with a warm, toasty flavour. One of the fastest-growing tea categories in Europe."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b084",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6921dd069993963846cc85e4"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b085",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">ASA GO</h3>",
+    "text": "ASA GO"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "863f39ff-3d56-279d-53ae-70259428f567",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">The first no-whisk ceremonial matcha in Europe. Dissolves instantly, no equipment needed. Full ceremonial quality, zero compromise on convenience. A genuine innovation for the European market.</h3>",
+    "text": "The first no-whisk ceremonial matcha in Europe. Dissolves instantly, no equipment needed. Full ceremonial quality, zero compromise on convenience. A genuine innovation for the European market."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "482d0934-0ecc-de8a-0931-40fc4d7ae16e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857ff1daae4ad43b03bb845"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "482d0934-0ecc-de8a-0931-40fc4d7ae16f",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Accessories &amp; Gift Sets</h3>",
+    "text": "Accessories & Gift Sets"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "be4ce9e6-0591-e374-bf57-2e7bf32fed5a",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">Bamboo whisk, matcha bowl, scoop, and curated gift sets — everything needed to start or elevate a matcha ritual at home. Perfect as a retail add-on or gifting option.</h3>",
+    "text": "Bamboo whisk, matcha bowl, scoop, and curated gift sets — everything needed to start or elevate a matcha ritual at home. Perfect as a retail add-on or gifting option."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911ac",
+   "text": {
+    "html": "<h2 class=\"heading-15\"><strong data-w-id=\"5aa3c281-e098-c4ce-495b-0b9f4c07591d\">Order ASA Matcha Through <br data-w-id=\"3f0e7faa-b2b9-bdf9-b367-a832e2dde10e\"></strong><span class=\"text-span-69\" data-w-id=\"0c737873-a029-8b3d-d892-f2cac9463940\"><strong data-w-id=\"0c737873-a029-8b3d-d892-f2cac9463941\">Pure Matcha Partners</strong></span></h2>",
+    "text": "Order ASA Matcha Through \nPure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911ae",
+   "text": {
+    "html": "<p class=\"text-size-2\"><em data-w-id=\"3794c11d-8644-a714-f028-1b5c9ab20423\">ASA Matcha is available exclusively to Pure Matcha Partners clients. If you're already working with us, you can add ASA Matcha products to your order directly through the Pure Matcha Partners client portal.<br data-w-id=\"6fe9be4e-79dd-6db4-9134-d9c25318f951\"><br data-w-id=\"487246f7-ac6c-eaa9-87bb-5b6e73efb3d1\">‍</em>Whether you're a café looking for a retail product to recommend to customers, a concept store expanding your wellness offer, or a retailer looking for a brand-ready premium matcha — ASA Matcha is available to you through your existing PMP relationship.<br data-w-id=\"e599b100-2ef1-90f3-63fb-78fa43112e8f\"><br data-w-id=\"55286873-e079-b660-344d-ae3963b48859\">No separate supplier relationship needed. Same quality, same service, same team.<br data-w-id=\"6104c882-c7ad-77e6-d7ae-f1a3b5f6fde5\">‍</p>",
+    "text": "ASA Matcha is available exclusively to Pure Matcha Partners clients. If you're already working with us, you can add ASA Matcha products to your order directly through the Pure Matcha Partners client portal.\n\n‍Whether you're a café looking for a retail product to recommend to customers, a concept store expanding your wellness offer, or a retailer looking for a brand-ready premium matcha — ASA Matcha is available to you through your existing PMP relationship.\n\nNo separate supplier relationship needed. Same quality, same service, same team.\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911fb",
+   "text": {
+    "html": "<a class=\"button-10-usa\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Talk to one of our experts</a>",
+    "text": "Talk to one of our experts"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "e115d068-9ad0-d79d-fa8e-08b338654bbf",
+   "text": {
+    "html": "<h2 class=\"heading-15\"><strong data-w-id=\"8c69883e-5e6e-1779-6b9e-afb59355b6db\">Where Asa Matcha Is Found</strong></h2>",
+    "text": "Where Asa Matcha Is Found"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e115d068-9ad0-d79d-fa8e-08b338654bc1",
+   "text": {
+    "html": "<p class=\"text-size-2\">ASA Matcha is available to consumers across Europe through: <br data-w-id=\"4b7225f2-ba5f-86ee-4c77-999f9ddb98ed\"><br data-w-id=\"af7459df-138d-4de1-d44c-3f68025fbfc2\">- Direct to consumer, <a href=\"#\" data-w-id=\"b52dbe9f-013b-69f4-c9f9-3b724721ed87\">asa-matcha.com<br data-w-id=\"e6f71d4b-03e6-36f2-5887-bce89cae56db\">- </a>De Bijenkorf, &nbsp;the Netherlands' leading premium department store<br data-w-id=\"d035ce13-3f35-169c-4981-51d4f9abba27\">- Premium concept stores and cafés across Europe<br data-w-id=\"e19afcf9-16a4-5fe7-4393-fb43dc7e1704\">‍<br data-w-id=\"45dd97d4-d281-506e-0f35-098fee83113c\"><br data-w-id=\"a9edb920-4541-755e-ed6c-917b4cd0abad\"><strong data-w-id=\"ce09b086-365f-a9a9-64b0-5629b31dcd18\">Why This Partnership Exists<br data-w-id=\"b5c7bb8b-6523-184e-f013-37caf461e29a\">‍</strong>Pure Matcha Partners and ASA Matcha share the same supply chain and the same sourcing standards. When B2B clients ask what consumer brand to recommend to their customers, ASA Matcha is the answer we stand behind.It's the same quality, in a format built for the end consumer.<br data-w-id=\"e115d068-9ad0-d79d-fa8e-08b338654bd3\">‍</p>",
+    "text": "ASA Matcha is available to consumers across Europe through: \n\n- Direct to consumer, asa-matcha.com\n- De Bijenkorf,  the Netherlands' leading premium department store\n- Premium concept stores and cafés across Europe\n‍\n\nWhy This Partnership Exists\n‍Pure Matcha Partners and ASA Matcha share the same supply chain and the same sourcing standards. When B2B clients ask what consumer brand to recommend to their customers, ASA Matcha is the answer we stand behind.It's the same quality, in a format built for the end consumer.\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc004",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e698da34aaa067c68f0e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc005",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6815c666245313106b0209fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc008",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e444f11ae712d286165d1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 32
+  }
+ ]
+}

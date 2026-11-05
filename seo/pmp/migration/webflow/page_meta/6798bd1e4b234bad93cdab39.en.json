@@ -1,0 +1,28 @@
+{
+ "label": "m_6798bd1e4b234bad93cdab39_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab39",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Terms and Conditions",
+  "slug": "terms-and-conditions",
+  "createdOn": "2024-12-15T07:06:25.295Z",
+  "lastUpdated": "2026-08-02T15:08:39.275Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Terms and Conditions | Pure Matcha Partners"
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/terms-and-conditions",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

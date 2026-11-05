@@ -1,0 +1,29 @@
+{
+ "label": "m_698ed39e8999d2a9cf8e7e17_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "698ed39e8999d2a9cf8e7e17",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Bulk Matcha Powder Supplier for Global Brands",
+  "slug": "bulk-matcha-powder-supplier",
+  "createdOn": "2026-02-13T07:32:46.765Z",
+  "lastUpdated": "2026-11-05T05:56:46.372Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Pulver Großhändler | Bulk & Zertifiziert | Pure Matcha Partners",
+   "description": "Zertifizierter Matcha-Pulver-Großhändler für Supplement-Marken, Getränkehersteller & Distributoren. Bio-Optionen, laborgeprüft & skalierbare Großhandelsprogramme."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/bulk-matcha-powder-supplier",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

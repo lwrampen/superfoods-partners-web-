@@ -1,0 +1,30 @@
+{
+ "label": "m_6a2a7190cdf35b02bc152891_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a2a7190cdf35b02bc152891",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Hibiscus Tea Powder",
+  "slug": "hibiscus-tea-powder",
+  "createdOn": "2026-06-11T08:28:00.950Z",
+  "lastUpdated": "2026-08-02T15:48:47.030Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Hibiscus Tea Powder Wholesale | Bulk Hibiscus Powder | Pure Matcha Partners",
+   "description": "Vibrant hibiscus tea powder for cafés, beverage brands and food manufacturers. Naturally tart, colourful and caffeine-free. Wholesale supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a7577bf6f7174541aa6b7_Hibiscus-tea-powder.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/products/hibiscus-tea-powder",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

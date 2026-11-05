@@ -1,0 +1,32 @@
+{
+ "label": "m_681b10aa58a45d24e32f3f2c_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681b10aa58a45d24e32f3f2c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "collectionId": "681b10aa58a45d24e32f3e9d",
+  "title": "Recipes Template",
+  "slug": "detail_recipe",
+  "createdOn": "2025-05-07T07:50:02.996Z",
+  "lastUpdated": "2026-06-08T19:41:56.804Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }} | Pure Matcha Partners",
+   "description": "{{wf {&quot;path&quot;:&quot;short-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}"
+  },
+  "openGraph": {
+   "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }} | Pure Matcha Partners",
+   "titleCopied": false,
+   "description": "{{wf {&quot;path&quot;:&quot;short-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}",
+   "descriptionCopied": false,
+   "imageUrl": "{{wf {&quot;path&quot;:&quot;main-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\\} }}",
+   "imageAssetId": null
+  },
+  "publishedPath": "/recipe",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

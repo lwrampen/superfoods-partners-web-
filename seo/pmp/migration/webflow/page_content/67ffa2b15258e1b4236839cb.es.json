@@ -1,0 +1,61 @@
+{
+ "pageId": "67ffa2b15258e1b4236839cb",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 5,
+ "nodeCount": 5,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "e77bb8cf-86fb-0ffc-2ebd-2badcc47cb48",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Matcha Ceremonial</h2>",
+    "text": "Matcha Ceremonial"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e77bb8cf-86fb-0ffc-2ebd-2badcc47cb5d",
+   "text": {
+    "html": "<a class=\"text-size-medium-2\" href=\"#\"><span class=\"text-span-12\" data-w-id=\"e77bb8cf-86fb-0ffc-2ebd-2badcc47cb5e\">Matcha para Té</span><br data-w-id=\"e77bb8cf-86fb-0ffc-2ebd-2badcc47cb60\">Ideal para la preparación tradicional con agua caliente, la preparación en frío o el matcha con hielo.</a>",
+    "text": "Matcha para Té\nIdeal para la preparación tradicional con agua caliente, la preparación en frío o el matcha con hielo."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e77bb8cf-86fb-0ffc-2ebd-2badcc47cb75",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Orgánico&nbsp;Japón</div>",
+    "text": "Ceremonial Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e77bb8cf-86fb-0ffc-2ebd-2badcc47cb80",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\"> Ceremonial Convencional Japón</div>",
+    "text": " Ceremonial Convencional Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b0bf1d67-77ba-3bfd-bef7-9df6db02b3e7",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Convencional China</div>",
+    "text": "Ceremonial Convencional China"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 5
+  }
+ ]
+}

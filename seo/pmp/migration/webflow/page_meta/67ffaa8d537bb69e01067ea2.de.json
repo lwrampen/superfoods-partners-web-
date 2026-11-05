@@ -1,0 +1,30 @@
+{
+ "label": "m_67ffaa8d537bb69e01067ea2_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ffaa8d537bb69e01067ea2",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Latte Matcha",
+  "slug": "latte-grade-matcha",
+  "createdOn": "2025-04-16T13:03:09.598Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Pulver für Lattes | Latte Grade Großhandel | Pure Matcha Partners",
+   "description": "Premium Latte-Grade Matcha-Pulver für Cafés, Baristas & Getränkemarken. Lebendige Farbe, cremige Textur, einfach in der Zubereitung."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/collections/latte-grade-matcha",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

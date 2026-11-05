@@ -1,0 +1,1743 @@
+{
+ "sm_pages_en": {
+  "label": "sm_pages_en",
+  "action": "list_pages_sitemap_status",
+  "result": {
+   "pages": [
+    {
+     "id": "6a8d5edf7c702abff989baf5",
+     "title": "Custom Matcha Blends",
+     "slug": "custom-matcha-blends",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a836b543803450333f19ac9",
+     "title": "Bulk Matcha Supplier Scandinavia",
+     "slug": "bulk-matcha-supplier-scandinavia",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a836b4c1c385d811f8e83e5",
+     "title": "Bulk Matcha Supplier Switzerland",
+     "slug": "bulk-matcha-supplier-switzerland",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a65faeefec9aa90a34a8422",
+     "title": "Superfoods Partners",
+     "slug": "superfoods-partners",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a71c128629092d04bf944",
+     "title": "Da Hong Pao Tea Powder",
+     "slug": "da-hong-pao-tea-powder",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a7190cdf35b02bc152891",
+     "title": "Hibiscus Tea Powder",
+     "slug": "hibiscus-tea-powder",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a710bf7c069c7b1fc4d8c",
+     "title": "Rooibos Tea Powder",
+     "slug": "rooibos-tea-powder",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a70dc28629092d04b1719",
+     "title": "Earl Grey Powder",
+     "slug": "earl-grey-powder",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a6ffbc6e9e021165272cf",
+     "title": "Jasmine Tea Powder",
+     "slug": "jasmine-tea-powder",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a272c66cb07adfccf65277a",
+     "title": "Matcha Leverancier Nederland",
+     "slug": "matcha-leverancier-nederland",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a271e5346731fe427bdcdfe",
+     "title": "Bulk Matcha Supplier SP",
+     "slug": "bulk-matcha-supplier-sp",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a271e3b00fc4006ebc9e1f8",
+     "title": "Bulk Matcha Supplier DE",
+     "slug": "bulk-matcha-supplier-de",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a1448636a961afae55c6bc6",
+     "title": "Oolong Tea Powder",
+     "slug": "oolong-tea-powder",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a144057c5bf402137c0dce9",
+     "title": "Ube Powder",
+     "slug": "ube-powder",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a028d468a41fe2d5995416c",
+     "title": "Asa Matcha",
+     "slug": "asa-matcha",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6991ff8c153af5609e330dad",
+     "title": "Bulk Matcha Supplier USA",
+     "slug": "bulk-matcha-supplier-usa",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698ed39e8999d2a9cf8e7e17",
+     "title": "Bulk Matcha Powder Supplier for Global Brands",
+     "slug": "bulk-matcha-powder-supplier",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698ec0496e41b2e15740e98f",
+     "title": "Supplement & Nutraceutical Brands",
+     "slug": "bulk-matcha-for-supplements",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698d9bd9fae33977cec6c44d",
+     "title": "Cafés & Hospitality",
+     "slug": "wholesale-matcha-for-cafes-hospitality",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698d7e34b8a5e1650f0aec28",
+     "title": "Product Developers & Co-packers",
+     "slug": "product-developers-co-packers",
+     "includeInSitemap": true
+    },
+    {
+     "id": "697e0b7d2b67cf5427d2f5f3",
+     "title": "Distributors & Foodservice Suppliers",
+     "slug": "distributors-foodservice-suppliers",
+     "includeInSitemap": true
+    },
+    {
+     "id": "696fe12e366c9eba99edbff9",
+     "title": "Private Label & White Label",
+     "slug": "private-label-matcha",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfdcd216eb4c3ab193150",
+     "title": "Mulberry Matcha - Japan organic",
+     "slug": "mulberry-matcha-japan-organic",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfcad90f234db9fb45107",
+     "title": "Specials",
+     "slug": "specials",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfadab6aaf6e33c3c656c",
+     "title": "Asa GO - Japan Organic",
+     "slug": "asa-matcha-japan-organic",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d2710b7ee6c45cd804057e",
+     "title": "Hojicha - Japan Conventional",
+     "slug": "hojicha-japan-conventional",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26ae941cf7c52b1346836",
+     "title": "Culinary Matcha - Japan Organic",
+     "slug": "culinary-matcha-japan-organic",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26a6722c2d3df242931ea",
+     "title": "Premium Matcha - Japan Organic",
+     "slug": "premium-matcha-japan-organic",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26991fd2fb17c7cf70952",
+     "title": "Ceremonial Matcha - Japan Organic",
+     "slug": "ceremonial-matcha-japan-organic",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6892228a6e6bc64e6d77480d",
+     "title": "Complain form",
+     "slug": "complain-form",
+     "includeInSitemap": false
+    },
+    {
+     "id": "687e85011edce777334b1878",
+     "title": "Premium Matcha - Japan Conventional",
+     "slug": "premium-matcha-japan-conventional",
+     "includeInSitemap": true
+    },
+    {
+     "id": "687e840b8f3533b7a0c3810a",
+     "title": "Ceremonial Matcha - China Conventional",
+     "slug": "ceremonial-matcha-china-conventional",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68232c968ee7972284b04191",
+     "title": "Hojicha - Japan Organic",
+     "slug": "hojicha-japan-organic",
+     "includeInSitemap": true
+    },
+    {
+     "id": "682327f0afa036698765ad3c",
+     "title": "Culinary Matcha - China Conventional",
+     "slug": "culinary-matcha-china-conventional",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68232599671eed5da1c758db",
+     "title": "Culinary Matcha - Japan Conventional",
+     "slug": "culinary-matcha-japan-conventional",
+     "includeInSitemap": true
+    },
+    {
+     "id": "682323092576061a3a96d2df",
+     "title": "Premium Matcha - China Conventional",
+     "slug": "premium-matcha-china-conventional",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e17afa8ca29ba3c3c037a",
+     "title": "Retail & gift stores",
+     "slug": "retail-gift-stores",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e1547a27a34da56b4f1ad",
+     "title": "Offices & corporate spaces",
+     "slug": "offices-corporate-spaces",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e146208e6dabd1d351076",
+     "title": "Health & wellness businesses",
+     "slug": "health-wellness-businesses",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681dc746e4efb42760e72831",
+     "title": "Restaurants & foodservice",
+     "slug": "restaurants-foodservice",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681dc53d385ed6f721891ace",
+     "title": "Pricelist request",
+     "slug": "pricelist-request",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681dc311740f2ac581e6271f",
+     "title": "Sample request",
+     "slug": "sample-request",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681dbee490ffeb168bd19d69",
+     "title": "Ceremonial Matcha - Japan Conventional",
+     "slug": "ceremonial-matcha-japan-conventional",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681b2ef9d4977d04b2f60d7c",
+     "title": "Privacy policy",
+     "slug": "privacy",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681b14857918a72a859fd05c",
+     "title": "Recipe",
+     "slug": "recipe",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6815d29a6e238ea1580ca68f",
+     "title": "Hardware",
+     "slug": "hardware",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6800f46a3d42433d270fd462",
+     "title": "Food & Beverage Brands",
+     "slug": "food-and-beverage-brands",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaaf430ca209e60d9dea7",
+     "title": "Hojicha",
+     "slug": "hojicha",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaac17dc60f8b48708801",
+     "title": "Culinary Matcha",
+     "slug": "culinary-matcha",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaa8d537bb69e01067ea2",
+     "title": "Latte Matcha",
+     "slug": "latte-grade-matcha",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffa2b15258e1b4236839cb",
+     "title": "Ceremonial Matcha",
+     "slug": "ceremonial-matcha",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ff9e333b0c6a5a7ab81f3d",
+     "title": "All products",
+     "slug": "all-products",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab39",
+     "title": "Terms and Conditions",
+     "slug": "terms-and-conditions",
+     "includeInSitemap": false
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab34",
+     "title": "Faq",
+     "slug": "faq",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab33",
+     "title": "Contact",
+     "slug": "contact",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab30",
+     "title": "Blogs",
+     "slug": "blogs",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab07",
+     "title": "About",
+     "slug": "about",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdaae1",
+     "title": "Home",
+     "slug": "",
+     "includeInSitemap": true
+    }
+   ],
+   "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 58
+   }
+  }
+ },
+ "sm_pages_es": {
+  "label": "sm_pages_es",
+  "action": "list_pages_sitemap_status",
+  "result": {
+   "pages": [
+    {
+     "id": "6a8d5edf7c702abff989baf5",
+     "title": "Custom Matcha Blends",
+     "slug": "custom-matcha-blends",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a836b543803450333f19ac9",
+     "title": "Bulk Matcha Supplier Scandinavia",
+     "slug": "bulk-matcha-supplier-scandinavia",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a836b4c1c385d811f8e83e5",
+     "title": "Bulk Matcha Supplier Switzerland",
+     "slug": "bulk-matcha-supplier-switzerland",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a65faeefec9aa90a34a8422",
+     "title": "Superfoods Partners",
+     "slug": "superfoods-partners",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a71c128629092d04bf944",
+     "title": "Da Hong Pao Tea Powder",
+     "slug": "da-hong-pao-tea-powder",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a7190cdf35b02bc152891",
+     "title": "Hibiscus Tea Powder",
+     "slug": "hibiscus-tea-powder",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a710bf7c069c7b1fc4d8c",
+     "title": "Rooibos Tea Powder",
+     "slug": "rooibos-tea-powder",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a70dc28629092d04b1719",
+     "title": "Earl Grey Powder",
+     "slug": "earl-grey-powder",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a6ffbc6e9e021165272cf",
+     "title": "Jasmine Tea Powder",
+     "slug": "jasmine-tea-powder",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a272c66cb07adfccf65277a",
+     "title": "Matcha Leverancier Nederland",
+     "slug": "matcha-leverancier-nederland",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a271e5346731fe427bdcdfe",
+     "title": "Bulk Matcha Supplier SP",
+     "slug": "bulk-matcha-supplier-sp",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a271e3b00fc4006ebc9e1f8",
+     "title": "Bulk Matcha Supplier DE",
+     "slug": "bulk-matcha-supplier-de",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a1448636a961afae55c6bc6",
+     "title": "Oolong Tea Powder",
+     "slug": "oolong-tea-powder",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a144057c5bf402137c0dce9",
+     "title": "Ube Powder",
+     "slug": "ube-powder",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a028d468a41fe2d5995416c",
+     "title": "Asa Matcha",
+     "slug": "asa-matcha",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6991ff8c153af5609e330dad",
+     "title": "Bulk Matcha Supplier USA",
+     "slug": "bulk-matcha-supplier-usa",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698ed39e8999d2a9cf8e7e17",
+     "title": "Bulk Matcha Powder Supplier for Global Brands",
+     "slug": "bulk-matcha-powder-supplier",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698ec0496e41b2e15740e98f",
+     "title": "Supplement & Nutraceutical Brands",
+     "slug": "bulk-matcha-for-supplements",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698d9bd9fae33977cec6c44d",
+     "title": "Cafés & Hospitality",
+     "slug": "wholesale-matcha-for-cafes-hospitality",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698d7e34b8a5e1650f0aec28",
+     "title": "Product Developers & Co-packers",
+     "slug": "product-developers-co-packers",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "697e0b7d2b67cf5427d2f5f3",
+     "title": "Distributors & Foodservice Suppliers",
+     "slug": "distributors-foodservice-suppliers",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "696fe12e366c9eba99edbff9",
+     "title": "Private Label & White Label",
+     "slug": "private-label-matcha",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfdcd216eb4c3ab193150",
+     "title": "Mulberry Matcha - Japan organic",
+     "slug": "mulberry-matcha-japan-organic",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfcad90f234db9fb45107",
+     "title": "Specials",
+     "slug": "specials",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfadab6aaf6e33c3c656c",
+     "title": "Asa GO - Japan Organic",
+     "slug": "asa-matcha-japan-organic",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d2710b7ee6c45cd804057e",
+     "title": "Hojicha - Japan Conventional",
+     "slug": "hojicha-japan-conventional",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26ae941cf7c52b1346836",
+     "title": "Culinary Matcha - Japan Organic",
+     "slug": "culinary-matcha-japan-organic",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26a6722c2d3df242931ea",
+     "title": "Premium Matcha - Japan Organic",
+     "slug": "premium-matcha-japan-organic",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26991fd2fb17c7cf70952",
+     "title": "Ceremonial Matcha - Japan Organic",
+     "slug": "ceremonial-matcha-japan-organic",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6892228a6e6bc64e6d77480d",
+     "title": "Complain form",
+     "slug": "complain-form",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": false
+    },
+    {
+     "id": "687e85011edce777334b1878",
+     "title": "Premium Matcha - Japan Conventional",
+     "slug": "premium-matcha-japan-conventional",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "687e840b8f3533b7a0c3810a",
+     "title": "Ceremonial Matcha - China Conventional",
+     "slug": "ceremonial-matcha-china-conventional",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68232c968ee7972284b04191",
+     "title": "Hojicha - Japan Organic",
+     "slug": "hojicha-japan-organic",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "682327f0afa036698765ad3c",
+     "title": "Culinary Matcha - China Conventional",
+     "slug": "culinary-matcha-china-conventional",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68232599671eed5da1c758db",
+     "title": "Culinary Matcha - Japan Conventional",
+     "slug": "culinary-matcha-japan-conventional",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "682323092576061a3a96d2df",
+     "title": "Premium Matcha - China Conventional",
+     "slug": "premium-matcha-china-conventional",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e17afa8ca29ba3c3c037a",
+     "title": "Retail & gift stores",
+     "slug": "retail-gift-stores",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e1547a27a34da56b4f1ad",
+     "title": "Offices & corporate spaces",
+     "slug": "offices-corporate-spaces",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e146208e6dabd1d351076",
+     "title": "Health & wellness businesses",
+     "slug": "health-wellness-businesses",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681dc746e4efb42760e72831",
+     "title": "Restaurants & foodservice",
+     "slug": "restaurants-foodservice",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681dc53d385ed6f721891ace",
+     "title": "Pricelist request",
+     "slug": "pricelist-request",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681dc311740f2ac581e6271f",
+     "title": "Sample request",
+     "slug": "sample-request",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681dbee490ffeb168bd19d69",
+     "title": "Ceremonial Matcha - Japan Conventional",
+     "slug": "ceremonial-matcha-japan-conventional",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681b2ef9d4977d04b2f60d7c",
+     "title": "Privacy policy",
+     "slug": "privacy",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681b14857918a72a859fd05c",
+     "title": "Recipe",
+     "slug": "recipe",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6815d29a6e238ea1580ca68f",
+     "title": "Hardware",
+     "slug": "hardware",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6800f46a3d42433d270fd462",
+     "title": "Food & Beverage Brands",
+     "slug": "food-and-beverage-brands",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaaf430ca209e60d9dea7",
+     "title": "Hojicha",
+     "slug": "hojicha",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaac17dc60f8b48708801",
+     "title": "Culinary Matcha",
+     "slug": "culinary-matcha",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaa8d537bb69e01067ea2",
+     "title": "Latte Matcha",
+     "slug": "latte-grade-matcha",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffa2b15258e1b4236839cb",
+     "title": "Ceremonial Matcha",
+     "slug": "ceremonial-matcha",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ff9e333b0c6a5a7ab81f3d",
+     "title": "All products",
+     "slug": "all-products",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab39",
+     "title": "Terms and Conditions",
+     "slug": "terms-and-conditions",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": false
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab34",
+     "title": "Faq",
+     "slug": "faq",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab33",
+     "title": "Contact",
+     "slug": "contact",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab30",
+     "title": "Blogs",
+     "slug": "blogs",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab07",
+     "title": "About",
+     "slug": "about",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdaae1",
+     "title": "Home",
+     "slug": "",
+     "localeId": "68af780d2a6fcd8ca5933bba",
+     "includeInSitemap": true
+    }
+   ],
+   "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 58
+   }
+  }
+ },
+ "sm_pages_de": {
+  "label": "sm_pages_de",
+  "action": "list_pages_sitemap_status",
+  "result": {
+   "pages": [
+    {
+     "id": "6a8d5edf7c702abff989baf5",
+     "title": "Custom Matcha Blends",
+     "slug": "custom-matcha-blends",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a836b543803450333f19ac9",
+     "title": "Bulk Matcha Supplier Scandinavia",
+     "slug": "bulk-matcha-supplier-scandinavia",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a836b4c1c385d811f8e83e5",
+     "title": "Bulk Matcha Supplier Switzerland",
+     "slug": "bulk-matcha-supplier-switzerland",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a65faeefec9aa90a34a8422",
+     "title": "Superfoods Partners",
+     "slug": "superfoods-partners",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a71c128629092d04bf944",
+     "title": "Da Hong Pao Tea Powder",
+     "slug": "da-hong-pao-tea-powder",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a7190cdf35b02bc152891",
+     "title": "Hibiscus Tea Powder",
+     "slug": "hibiscus-tea-powder",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a710bf7c069c7b1fc4d8c",
+     "title": "Rooibos Tea Powder",
+     "slug": "rooibos-tea-powder",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a70dc28629092d04b1719",
+     "title": "Earl Grey Powder",
+     "slug": "earl-grey-powder",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a2a6ffbc6e9e021165272cf",
+     "title": "Jasmine Tea Powder",
+     "slug": "jasmine-tea-powder",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a272c66cb07adfccf65277a",
+     "title": "Matcha Leverancier Nederland",
+     "slug": "matcha-leverancier-nederland",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a271e5346731fe427bdcdfe",
+     "title": "Bulk Matcha Supplier SP",
+     "slug": "bulk-matcha-supplier-sp",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a271e3b00fc4006ebc9e1f8",
+     "title": "Bulk Matcha Supplier DE",
+     "slug": "bulk-matcha-supplier-de",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a1448636a961afae55c6bc6",
+     "title": "Oolong Tea Powder",
+     "slug": "oolong-tea-powder",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a144057c5bf402137c0dce9",
+     "title": "Ube Powder",
+     "slug": "ube-powder",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6a028d468a41fe2d5995416c",
+     "title": "Asa Matcha",
+     "slug": "asa-matcha",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6991ff8c153af5609e330dad",
+     "title": "Bulk Matcha Supplier USA",
+     "slug": "bulk-matcha-supplier-usa",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698ed39e8999d2a9cf8e7e17",
+     "title": "Bulk Matcha Powder Supplier for Global Brands",
+     "slug": "bulk-matcha-powder-supplier",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698ec0496e41b2e15740e98f",
+     "title": "Supplement & Nutraceutical Brands",
+     "slug": "bulk-matcha-for-supplements",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698d9bd9fae33977cec6c44d",
+     "title": "Cafés & Hospitality",
+     "slug": "wholesale-matcha-for-cafes-hospitality",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "698d7e34b8a5e1650f0aec28",
+     "title": "Product Developers & Co-packers",
+     "slug": "product-developers-co-packers",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "697e0b7d2b67cf5427d2f5f3",
+     "title": "Distributors & Foodservice Suppliers",
+     "slug": "distributors-foodservice-suppliers",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "696fe12e366c9eba99edbff9",
+     "title": "Private Label & White Label",
+     "slug": "private-label-matcha",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfdcd216eb4c3ab193150",
+     "title": "Mulberry Matcha - Japan organic",
+     "slug": "mulberry-matcha-japan-organic",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfcad90f234db9fb45107",
+     "title": "Specials",
+     "slug": "specials",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "694bfadab6aaf6e33c3c656c",
+     "title": "Asa GO - Japan Organic",
+     "slug": "asa-matcha-japan-organic",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d2710b7ee6c45cd804057e",
+     "title": "Hojicha - Japan Conventional",
+     "slug": "hojicha-japan-conventional",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26ae941cf7c52b1346836",
+     "title": "Culinary Matcha - Japan Organic",
+     "slug": "culinary-matcha-japan-organic",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26a6722c2d3df242931ea",
+     "title": "Premium Matcha - Japan Organic",
+     "slug": "premium-matcha-japan-organic",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68d26991fd2fb17c7cf70952",
+     "title": "Ceremonial Matcha - Japan Organic",
+     "slug": "ceremonial-matcha-japan-organic",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6892228a6e6bc64e6d77480d",
+     "title": "Complain form",
+     "slug": "complain-form",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": false
+    },
+    {
+     "id": "687e85011edce777334b1878",
+     "title": "Premium Matcha - Japan Conventional",
+     "slug": "premium-matcha-japan-conventional",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "687e840b8f3533b7a0c3810a",
+     "title": "Ceremonial Matcha - China Conventional",
+     "slug": "ceremonial-matcha-china-conventional",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68232c968ee7972284b04191",
+     "title": "Hojicha - Japan Organic",
+     "slug": "hojicha-japan-organic",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "682327f0afa036698765ad3c",
+     "title": "Culinary Matcha - China Conventional",
+     "slug": "culinary-matcha-china-conventional",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "68232599671eed5da1c758db",
+     "title": "Culinary Matcha - Japan Conventional",
+     "slug": "culinary-matcha-japan-conventional",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "682323092576061a3a96d2df",
+     "title": "Premium Matcha - China Conventional",
+     "slug": "premium-matcha-china-conventional",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e17afa8ca29ba3c3c037a",
+     "title": "Retail & gift stores",
+     "slug": "retail-gift-stores",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e1547a27a34da56b4f1ad",
+     "title": "Offices & corporate spaces",
+     "slug": "offices-corporate-spaces",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681e146208e6dabd1d351076",
+     "title": "Health & wellness businesses",
+     "slug": "health-wellness-businesses",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681dc746e4efb42760e72831",
+     "title": "Restaurants & foodservice",
+     "slug": "restaurants-foodservice",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681dc53d385ed6f721891ace",
+     "title": "Pricelist request",
+     "slug": "pricelist-request",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681dc311740f2ac581e6271f",
+     "title": "Sample request",
+     "slug": "sample-request",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681dbee490ffeb168bd19d69",
+     "title": "Ceremonial Matcha - Japan Conventional",
+     "slug": "ceremonial-matcha-japan-conventional",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "681b2ef9d4977d04b2f60d7c",
+     "title": "Privacy policy",
+     "slug": "privacy",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": false
+    },
+    {
+     "id": "681b14857918a72a859fd05c",
+     "title": "Recipe",
+     "slug": "recipe",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6815d29a6e238ea1580ca68f",
+     "title": "Hardware",
+     "slug": "hardware",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6800f46a3d42433d270fd462",
+     "title": "Food & Beverage Brands",
+     "slug": "food-and-beverage-brands",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaaf430ca209e60d9dea7",
+     "title": "Hojicha",
+     "slug": "hojicha",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaac17dc60f8b48708801",
+     "title": "Culinary Matcha",
+     "slug": "culinary-matcha",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffaa8d537bb69e01067ea2",
+     "title": "Latte Matcha",
+     "slug": "latte-grade-matcha",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ffa2b15258e1b4236839cb",
+     "title": "Ceremonial Matcha",
+     "slug": "ceremonial-matcha",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "67ff9e333b0c6a5a7ab81f3d",
+     "title": "All products",
+     "slug": "all-products",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab39",
+     "title": "Terms and Conditions",
+     "slug": "terms-and-conditions",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": false
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab34",
+     "title": "Faq",
+     "slug": "faq",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab33",
+     "title": "Contact",
+     "slug": "contact",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab30",
+     "title": "Blogs",
+     "slug": "blogs",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdab07",
+     "title": "About",
+     "slug": "about",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    },
+    {
+     "id": "6798bd1e4b234bad93cdaae1",
+     "title": "Home",
+     "slug": "",
+     "localeId": "696f30f0cffe96212029af00",
+     "includeInSitemap": true
+    }
+   ],
+   "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 58
+   }
+  }
+ },
+ "sm_items_blogs_en": {
+  "label": "sm_items_blogs_en",
+  "action": "list_items_sitemap_status",
+  "result": {
+   "items": [
+    {
+     "id": "6a2fdc9e747f24103d8b5feb",
+     "slug": "private-label-matcha-how-it-works-and-is-it-right-for-your-brand",
+     "name": "Private Label Matcha: How It Works (And Is It Right for Your Brand?)",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdc9e747f24103d8b5fe9",
+     "slug": "rooibos-latte-recipe-how-to-make-the-perfect-red-tea-latte",
+     "name": "Rooibos Latte Recipe — How to Make the Perfect Red Tea Latte",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdc45ee3a87250d60d8de",
+     "slug": "jasmine-tea-powder-what-is-it-how-to-use-it-cafe",
+     "name": "Jasmine Tea Powder: What Is It and How to Use It in Your Café",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdc45ee3a87250d60d8dc",
+     "slug": "bulk-matcha-for-cafes-wholesale-matcha-supplier",
+     "name": "Bulk Matcha for Cafés: What to Look for in a Wholesale Matcha Supplier",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdc45ee3a87250d60d8da",
+     "slug": "ube-powder-latte-recipe-how-to-make-a-purple-latte",
+     "name": "Ube Powder Latte Recipe — How to Make a Purple Latte",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdbcd85349c34cf2105c9",
+     "slug": "what-is-ceremonial-grade-matcha-and-who-should-buy-it",
+     "name": "What is Ceremonial Grade Matcha? (And Who Should Buy It)",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdbcd85349c34cf2105c7",
+     "slug": "how-to-make-a-perfect-matcha-latte-cafe-quality-recipe",
+     "name": "How to Make a Perfect Matcha Latte (Café-Quality)",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdbcd85349c34cf2105c5",
+     "slug": "hojicha-vs-matcha-whats-the-difference",
+     "name": "Hojicha vs Matcha: What's the Difference?",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdb5e7b0cfbe3167ff4a9",
+     "slug": "matcha-grades-explained-ceremonial-latte-culinary",
+     "name": "Matcha Grades Explained: Ceremonial, Latte & Culinary",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdb5e7b0cfbe3167ff4a7",
+     "slug": "best-matcha-powder-for-lattes-tested-ranked",
+     "name": "Best Matcha Powder for Lattes — Tested & Ranked",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fdb5e7b0cfbe3167ff4a5",
+     "slug": "what-is-hojicha-everything-you-need-to-know",
+     "name": "What Is Hojicha? Taste, Caffeine & Uses Explained",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a2fd7f1deba4f181d611a91",
+     "slug": "matcha-powder-for-lattes-complete-barista-guide",
+     "name": "Matcha Powder for Lattes: The Complete Barista Guide",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a0b520697d7b2480ac26409",
+     "slug": "now-available-matcha-shaker-for-efficient-matcha-preparation",
+     "name": "Now Available: Matcha Shaker for Efficient Matcha Preparation ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a064a176d0d9e43ada78f35",
+     "slug": "what-is-jasmine-tea-powder",
+     "name": "What Is Jasmine Tea Powder?",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a064928589504713d419791",
+     "slug": "barista-101-top-tips-for-matcha-preparation",
+     "name": "Barista 101: Top Tips for Matcha Preparation",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6a02a774415efb6cdb9e6cc1",
+     "slug": "asa-matcha-what-a-premium-d2c-matcha-brand-looks-like-in-europe",
+     "name": "ASA Matcha: What a Premium D2C Matcha Brand Looks Like in Europe",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69fa7cff59cd32e0fdbd41db",
+     "slug": "the-future-of-matcha-in-global-food-beverage",
+     "name": "The Future of Matcha in Global Food & Beverage",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69fa7c59ced8538b9da57ef7",
+     "slug": "trend-alert-combining-tea-powders",
+     "name": "Trend Alert: Combining Tea Powders ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69e94ce256f0ebb51da935f4",
+     "slug": "flavor-pairing-guide-what-works-and-doesnt-with-matcha",
+     "name": "Flavour Pairing Guide: What Works (and Doesn’t) with Matcha",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69deccda998c79822a6867a3",
+     "slug": "how-to-properly-store-bulk-matcha-in-a-cafe-complete-guide-for-freshness-quality",
+     "name": "How to Properly Store Bulk Matcha in a Café (Complete Guide for Freshness & Quality)",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69decbe7889b736fa766fe4c",
+     "slug": "what-is-hibiscus-powder",
+     "name": "What Is Hibiscus Powder? ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69ce722797d82c8458256f92",
+     "slug": "organic-vs-conventional-matcha-what-color-really-tells-you",
+     "name": "Organic vs Conventional Matcha: What Color Really Tells You",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69ce6fe6775ad3b4b3ce1b78",
+     "slug": "introducing-new-tea-powders",
+     "name": "Introducing New Tea Powders",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69ce6c37df8d8f57f1df9a6e",
+     "slug": "matcha-harvest-seasons-explained",
+     "name": "Matcha Harvest Seasons, Explained",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69c3196909f809d4b3824814",
+     "slug": "is-matcha-more-sustainable-than-coffee",
+     "name": "Is Matcha More Sustainable Than Coffee?",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69c3183f7fe5c067fc2908c0",
+     "slug": "matcha-ratios-for-cafes-that-even-matcha-connoisseurs-will-approve-of",
+     "name": "Matcha Ratio Guide: Grams per Cup, Latte & Iced Drinks",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69c3167dc3a7362722cdead0",
+     "slug": "what-is-ube",
+     "name": "What Is Ube? Taste, Uses & Ube Powder Guide",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69c3159e5b58574fc176ddd7",
+     "slug": "should-you-hand-whisk-matcha-in-your-cafe",
+     "name": "Should You Hand-Whisk Matcha in Your Café?",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69c3141c93fab5ee83ad9f05",
+     "slug": "the-rise-of-low-caffeine-alternatives",
+     "name": "The Rise of Low-Caffeine Alternatives",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69b22409710a5d1e7f90b6af",
+     "slug": "ethical-matcha-supply-chain",
+     "name": "Ethical Matcha Supply Chain",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69a4c4f0d2735fe8333786b9",
+     "slug": "matcha-a-functional-flavour-maker",
+     "name": "Matcha: A Functional Flavour Maker ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69a4c384c9d7380cd6e9f1c8",
+     "slug": "how-the-growing-region-of-matcha-influences-its-flavor-profile",
+     "name": "How the Growing Region of Matcha Influences Its Flavor Profile",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69a4c0be1faa6353748b60d3",
+     "slug": "what-is-the-difference-between-a-single-cultivar-and-a-blend",
+     "name": "What is the Difference between a Single Cultivar and a Blend?",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6995e2c9d762fd4ecb0fd9ef",
+     "slug": "usucha-vs-koicha",
+     "name": "Usucha vs. Koicha",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6995e15398a245521f1d7f86",
+     "slug": "the-art-of-matcha-microfoam-whisking-for-a-silky-finish",
+     "name": "How to Make Matcha Microfoam: Silky Barista Technique",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6995df6968641dec6210305d",
+     "slug": "7-trending-matcha-drinks-2026",
+     "name": "7 Trending Matcha Drinks (2026)",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6995dddc1a50669e5fcccdaa",
+     "slug": "health-benefits-of-mulberry-leaf-matcha",
+     "name": "Mulberry Leaf Matcha Benefits: Nutrition & Uses",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6989a93afe659b6395b8af69",
+     "slug": "how-to-choose-matcha-for-functional-beverages",
+     "name": "How to Choose Matcha for Functional Beverages",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69764513ae707ed49bc261ab",
+     "slug": "what-is-mulberry-matcha",
+     "name": "What Is Mulberry Matcha? Benefits, Taste & Uses",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6971677e546ee3c69f87cd0c",
+     "slug": "how-benevola-in-barcelona-uses-culinary-matcha",
+     "name": "How Benevola in Barcelona uses Culinary Matcha ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "696d69d7e275637c93d26d95",
+     "slug": "matcha-101-terminology",
+     "name": "Matcha 101: Terminology ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "696d6824916191f824899117",
+     "slug": "debunking-matcha-myths",
+     "name": "Debunking Matcha Myths ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "695b087b572345c02f7933f6",
+     "slug": "organic-matcha-key-considerations-for-wholesale-buyers",
+     "name": "Organic Matcha: Key Considerations for Wholesale Buyers",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "695b05f15dd1817fac1cd725",
+     "slug": "how-to-answer-your-customers-frequently-asked-questions-about-matcha",
+     "name": "How to Answer your Customers’ Frequently Asked Questions about Matcha",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6951adc635f4066b9e64b5f6",
+     "slug": "the-origins-of-matcha",
+     "name": "The Origins of Matcha",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6951aaafe0f01b0b9c8f2ad9",
+     "slug": "why-chinese-matcha-is-gaining-global-popularity",
+     "name": "Why Chinese Matcha Is Gaining Global Popularity",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6949db0b703e83f532d7913a",
+     "slug": "the-difference-between-japanese-and-chinese-matcha",
+     "name": "The Difference Between Japanese and Chinese Matcha",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6941c6b7c36633da6c1bd713",
+     "slug": "what-are-matcha-cultivars",
+     "name": "What are Matcha Cultivars? ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6941a546a286a607c558a455",
+     "slug": "how-matcha-is-made",
+     "name": "How Matcha is Made",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693b926ef93ae7d022d9fa2d",
+     "slug": "our-journey-from-passion-to-partnership",
+     "name": "Our Journey from Passion to Partnership",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693b8efece5fc82b67a7f46c",
+     "slug": "match-a-making-which-matcha-grade-suits-your-needs",
+     "name": "Matcha Grades Explained: Ceremonial, Latte & Culinary",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693b8d3a864fc453a7856576",
+     "slug": "new-kid-on-the-block-what-is-hojicha",
+     "name": "New kid on the block: What Is Hojicha?",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693b8c069062fb676617c465",
+     "slug": "asa-matcha-launches-asa-go",
+     "name": "ASA Matcha launches ASA GO",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693b8a85e4dcfce4fd9f4a1d",
+     "slug": "matcha-vs-hojicha",
+     "name": "Matcha vs Hojicha",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693aadd93c234f47ef7b9b49",
+     "slug": "does-matcha-cause-iron-deficiency",
+     "name": "Does Matcha Cause Iron Deficiency?",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693aaa19bf23f4deb04b80eb",
+     "slug": "matcha-vs-coffee",
+     "name": "Matcha vs. Coffee",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    }
+   ],
+   "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 56
+   }
+  }
+ },
+ "sm_items_blogcat_en": {
+  "label": "sm_items_blogcat_en",
+  "action": "list_items_sitemap_status",
+  "result": {
+   "items": [
+    {
+     "id": "69417953925a82af26166ffc",
+     "slug": "news",
+     "name": "News",
+     "includeInSitemap": false,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "694179481cc5dc3b2806c587",
+     "slug": "insights",
+     "name": "Insights",
+     "includeInSitemap": false,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "694179200355d5eaa0ee0ab1",
+     "slug": "customer",
+     "name": "Customer",
+     "includeInSitemap": false,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693ab2060f1f8fee3f36d7f1",
+     "slug": "education",
+     "name": "Education",
+     "includeInSitemap": false,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    }
+   ],
+   "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 4
+   }
+  }
+ },
+ "sm_items_recipes_en": {
+  "label": "sm_items_recipes_en",
+  "action": "list_items_sitemap_status",
+  "result": {
+   "items": [
+    {
+     "id": "69a4c861c191af001590ad8b",
+     "slug": "salted-vanilla-matcha-latte",
+     "name": "Salted Vanilla Matcha Latte ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6988838676e5008c97d74496",
+     "slug": "matcha-lemonade-mist-2",
+     "name": "Matcha Lemonade Mist ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69764072a7431884681c73b6",
+     "slug": "mulberry-matcha-latte",
+     "name": "Mulberry Matcha Latte",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "696d5367f971754b095b84f2",
+     "slug": "lavende-matcha-latte",
+     "name": "Lavender Matcha Latte",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "696d51cfca678be77b5c7feb",
+     "slug": "hojicha-chai-latte",
+     "name": "Hojicha Chai Latte ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6942fc296b76476def766dbd",
+     "slug": "hazelnut-maple-hojicha-latte",
+     "name": "Hazelnut Maple Hojicha Latte ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "6941a3c7d565c20163ab4c8e",
+     "slug": "easy-matcha-christmas-chocolates",
+     "name": "Easy Matcha Christmas Chocolates ",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "69417708d7e162e8bd76b38a",
+     "slug": "merry-matchini",
+     "name": "Merry Matchini",
+     "includeInSitemap": true,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    }
+   ],
+   "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 8
+   }
+  }
+ },
+ "sm_items_writers_en": {
+  "label": "sm_items_writers_en",
+  "action": "list_items_sitemap_status",
+  "result": {
+   "items": [
+    {
+     "id": "693b8994e93d87adb2a0a76a",
+     "slug": "leonard",
+     "name": "Leonard",
+     "includeInSitemap": false,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    },
+    {
+     "id": "693ab355622b62c887be8495",
+     "slug": "judith",
+     "name": "Judith",
+     "includeInSitemap": false,
+     "cmsLocaleId": "6798bd1e4b234bad93cdaae6"
+    }
+   ],
+   "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 2
+   }
+  }
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "pageId": "681e146208e6dabd1d351076",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 25,
+ "nodeCount": 25,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"288e6c23-6d7b-d835-1579-ca256eb9d603\">Matcha para empresas de Salud y Bienestar</strong></h1>",
+    "text": "Matcha para empresas de Salud y Bienestar"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Ofrezca a sus clientes un impulso de energía limpia con matcha japonés de primera calidad, perfecto para batidos, cafés con leche, shots de bienestar y recuperación después del entrenamiento. <br data-w-id=\"d6a555cc-a3e5-6673-ff8f-d1b0c00d07ce\"><br data-w-id=\"0e77755f-3ce2-3f0d-bdbc-a3c6a81cd652\">Tanto si regenta un estudio de yoga, un bar de zumos o una cafetería de bienestar, nuestro matcha de grado ceremonial le ayudará a cumplir su misión: energizar el cuerpo, calmar la mente y fomentar un estilo de vida más saludable.</p>",
+    "text": "Ofrezca a sus clientes un impulso de energía limpia con matcha japonés de primera calidad, perfecto para batidos, cafés con leche, shots de bienestar y recuperación después del entrenamiento. \n\nTanto si regenta un estudio de yoga, un bar de zumos o una cafetería de bienestar, nuestro matcha de grado ceremonial le ayudará a cumplir su misión: energizar el cuerpo, calmar la mente y fomentar un estilo de vida más saludable."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Solicitar precios</a>",
+    "text": "Solicitar precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">El mejor match(a) para</h2>",
+    "text": "El mejor match(a) para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Gimnasios y clubes de fitness</h3>",
+    "text": "Gimnasios y clubes de fitness"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Antes del entrenamiento o después de la clase de yoga</p>",
+    "text": "Antes del entrenamiento o después de la clase de yoga"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Solicitar muestras</a>",
+    "text": "Solicitar muestras"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Bares de batidos</h3>",
+    "text": "Bares de batidos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Mezclas potenciadas para todos los gustos</p>",
+    "text": "Mezclas potenciadas para todos los gustos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551332",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Retiros de bienestar</h3>",
+    "text": "Retiros de bienestar"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Oferta energizante para los huéspedes</p>",
+    "text": "Oferta energizante para los huéspedes"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700212",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Por qué añadir <span class=\"text-span-2\" data-w-id=\"88cf36a3-04af-c82e-b4e2-b67ac6466191\">Matcha </span>a tu menú</h2>",
+    "text": "Por qué añadir Matcha a tu menú"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\">✔️ <strong data-w-id=\"734b5b97-6f2f-4293-fd58-73dcde741b7c\">Energía limpia y natural</strong>: rica en antioxidantes y L-teanina. <br data-w-id=\"1586e058-98aa-29ae-6af6-5b6317c2b70d\">✔️ <strong data-w-id=\"da6401b7-dd3e-1eb6-8c9b-084647d131e4\">Saludable</strong>: vegana, orgánica y acorde con los objetivos de bienestar. <br data-w-id=\"07412c9e-03e5-d6f5-094e-0e6704eaabea\">✔️ V<strong data-w-id=\"8cee3d73-5b93-f78c-4e23-4996ecae35e8\">ersátil y rentable</strong>: ideal para batidos, cuencos, tés y elixires. <br data-w-id=\"8228f624-ad4f-2fc0-ba06-3c0f10477a36\">✔️ <strong data-w-id=\"d4ea19f0-d13c-5da3-e9a1-4f6613b0a303\">Apreciada por tu público</strong>: ideal para consumidores preocupados por su salud.</div>",
+    "text": "✔️ Energía limpia y natural: rica en antioxidantes y L-teanina. \n✔️ Saludable: vegana, orgánica y acorde con los objetivos de bienestar. \n✔️ Versátil y rentable: ideal para batidos, cuencos, tés y elixires. \n✔️ Apreciada por tu público: ideal para consumidores preocupados por su salud."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\">Por qué </span>Pure <span class=\"text-span-2\" data-w-id=\"09ed1faa-f038-8aeb-9737-f67d5cc69b63\">Matcha </span>Partners</h1>",
+    "text": "Por qué Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">✔️ <strong data-w-id=\"298dc76a-b4c8-e7c4-a546-6bf398105f33\">Cuenta con la confianza de los profesionales del bienestar </strong>–suministro fiable y calidad superior. <br data-w-id=\"e871f0e3-41f1-e563-f233-4c865439a357\">✔️ <strong data-w-id=\"7254420e-99bb-a6ea-ed07-ae291f7a7cc2\">Procedencia ética</strong> – directamente de pequeñas granjas de Japón. <br data-w-id=\"20976a56-8083-4602-841d-f7386d9c344e\">✔️ <strong data-w-id=\"ff03a42b-2741-c823-f2e4-2e2ac69e33ac\">Formatos flexibles</strong> – disponible para cafés con leche, batidos y mucho más. <br data-w-id=\"c9aeba61-84e8-a4b1-1a9c-a382b9eae784\">✔️ <strong data-w-id=\"98ad1374-aeaa-1d88-8413-0e28062f6b74\">Respalda los valores de su marca</strong> – limpio, sostenible y auténtico.</div>",
+    "text": "✔️ Cuenta con la confianza de los profesionales del bienestar –suministro fiable y calidad superior. \n✔️ Procedencia ética – directamente de pequeñas granjas de Japón. \n✔️ Formatos flexibles – disponible para cafés con leche, batidos y mucho más. \n✔️ Respalda los valores de su marca – limpio, sostenible y auténtico."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Conectar con ventas</a>",
+    "text": "Conectar con ventas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\">Los mejores productos para <span class=\"text-span-15\" data-w-id=\"4ec0c45c-9ff9-cdbe-e9d9-26e55f039fcf\">Empresas de Salud y Bienestar</span></h2>",
+    "text": "Los mejores productos para Empresas de Salud y Bienestar"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Convencional</div>",
+    "text": "Ceremonial Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Convencional</div>",
+    "text": "Culinary Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Listo para empezar?</div>",
+    "text": "Listo para empezar?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Estamos aquí para guiarte en la elección del mejor matcha para tu marca de bienestar, desde bares de batidos hasta gimnasios. Obtén asesoramiento experto y específico para tu sector y empieza a servir matcha que encantará a tus clientes.</p>",
+    "text": "Estamos aquí para guiarte en la elección del mejor matcha para tu marca de bienestar, desde bares de batidos hasta gimnasios. Obtén asesoramiento experto y específico para tu sector y empieza a servir matcha que encantará a tus clientes."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 25
+  }
+ ]
+}

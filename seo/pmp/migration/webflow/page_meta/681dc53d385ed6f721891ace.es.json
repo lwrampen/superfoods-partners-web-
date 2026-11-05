@@ -1,0 +1,29 @@
+{
+ "label": "m_681dc53d385ed6f721891ace_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681dc53d385ed6f721891ace",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Pricelist request",
+  "slug": "pricelist-request",
+  "createdOn": "2025-05-09T09:05:01.699Z",
+  "lastUpdated": "2026-08-02T15:08:39.265Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Request Wholesale Matcha Pricing | Pure Matcha Partners",
+   "description": "Get our full B2B matcha price list with bulk volumes, packaging formats and grade options. Available for cafés, distributors and food brands worldwide."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/pricelist-request",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

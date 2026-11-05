@@ -1,0 +1,30 @@
+{
+ "label": "m_694bfadab6aaf6e33c3c656c_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "694bfadab6aaf6e33c3c656c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Asa GO - Japan Organic",
+  "slug": "asa-matcha-japan-organic",
+  "createdOn": "2025-12-24T14:38:18.037Z",
+  "lastUpdated": "2026-08-02T15:49:38.663Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Asa GO Matcha Wholesale | No-Whisk Instant Matcha | Pure Matcha Partners",
+   "description": "Premium instant matcha powder from Kagoshima, Japan. No whisk needed — smooth matcha in seconds. Organic, effortless preparation. Perfect for busy cafés. Bulk wholesale from 500g."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/products/asa-matcha-japan-organic",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

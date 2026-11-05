@@ -1,0 +1,565 @@
+{
+ "pageId": "696fe12e366c9eba99edbff9",
+ "locale": "de",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 61,
+ "nodeCount": 61,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"ef41eb75-5d11-3242-2e75-401c00ce54bc\">Private Label Matcha | Eigenmarke &amp; White Label für skalierbare Marken</strong></h1>",
+    "text": "Private Label Matcha | Eigenmarke & White Label für skalierbare Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Starten oder skalieren Sie Ihre eigene <strong data-w-id=\"74616218-0a73-aecc-858b-beae09253182\">Matcha-Eigenmarke</strong> mit zertifiziertem Bulk-Matcha von Pure Matcha Partners. <br data-w-id=\"b35d030e-765c-ba10-fa81-10a58e8d3042\"><br data-w-id=\"698169ec-dae1-c11c-3e95-a1cdc45fa920\">Wir unterstützen Wellness-Brands, Einzelhändler und D2C-Scale-ups mit <strong data-w-id=\"74616218-0a73-aecc-858b-beae09253185\">Private-Label- und White-Label-Matcha</strong> – ab 100 kg/Jahr, mit individueller Beratung zu Qualität, Format und Compliance.<br data-w-id=\"9aa451ff-3680-788a-c129-7520ace37f7c\"><br data-w-id=\"d8e3d674-e4d4-a014-f735-72313ea909bc\">Unser Fokus: B2B-Brands und Scale-ups, die zuverlässige Bulk-Versorgung für ihre Eigenmarke benötigen – kein Endkundengeschäft, volle Aufmerksamkeit für Ihre Anforderungen.</p>",
+    "text": "Starten oder skalieren Sie Ihre eigene Matcha-Eigenmarke mit zertifiziertem Bulk-Matcha von Pure Matcha Partners. \n\nWir unterstützen Wellness-Brands, Einzelhändler und D2C-Scale-ups mit Private-Label- und White-Label-Matcha – ab 100 kg/Jahr, mit individueller Beratung zu Qualität, Format und Compliance.\n\nUnser Fokus: B2B-Brands und Scale-ups, die zuverlässige Bulk-Versorgung für ihre Eigenmarke benötigen – kein Endkundengeschäft, volle Aufmerksamkeit für Ihre Anforderungen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Preise anfragen</a>",
+    "text": "Preise anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\"><strong data-w-id=\"b8d28644-3ddd-e316-bd3f-408ddd1c1194\">Warum Private-Label-Matcha von Pure Matcha Partners?</strong></h2>",
+    "text": "Warum Private-Label-Matcha von Pure Matcha Partners?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">Matcha ist mehr als ein Trend — es ist eine funktionale Zutat mit wachsender globaler Nachfrage. Unser Matcha bietet:</div>",
+    "text": "Matcha ist mehr als ein Trend — es ist eine funktionale Zutat mit wachsender globaler Nachfrage. Unser Matcha bietet:"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Mengen, die mitwachsen</h3>",
+    "text": "Mengen, die mitwachsen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "03656774-6edd-4e56-442b-6e7c5cd8dde5",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Start ab 100 kg/Jahr; Jahresverträge mit stabilen Preisen für etablierte Marken</p>",
+    "text": "Start ab 100 kg/Jahr; Jahresverträge mit stabilen Preisen für etablierte Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Zertifiziert &amp; rückstandsgeprüft</h3>",
+    "text": "Zertifiziert & rückstandsgeprüft"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70346a19-bd73-73d9-da4a-6d863bd308d4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">U-Bio, USDA Organic, Analysezertifikat je Charge – für Ihren Compliance-Nachweis gegenüber Handel und Regulatoren</p>",
+    "text": "U-Bio, USDA Organic, Analysezertifikat je Charge – für Ihren Compliance-Nachweis gegenüber Handel und Regulatoren"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Individuelle Beratung</h3>",
+    "text": "Individuelle Beratung"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ccd8b4d-ed6f-c6d3-d88e-5c197a238728",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Wir empfehlen die passende Qualitätsstufe für Ihren Kanal: Retail, D2C, Foodservice oder Export</p>",
+    "text": "Wir empfehlen die passende Qualitätsstufe für Ihren Kanal: Retail, D2C, Foodservice oder Export"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4d8",
+   "text": {
+    "html": "<h2 class=\"heading-12-new\"><strong data-w-id=\"4700946a-adf1-f346-e5ff-932c9184c109\">Matcha-Qualitäten für Ihre Eigenmarke</strong></h2>",
+    "text": "Matcha-Qualitäten für Ihre Eigenmarke"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4e6",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">euchtend grün, sanfter Umami-Geschmack. Ideal für Premium-Retail-Marken, Tee-Konzepte und Wellness-Ritualprodukte.</p>",
+    "text": "euchtend grün, sanfter Umami-Geschmack. Ideal für Premium-Retail-Marken, Tee-Konzepte und Wellness-Ritualprodukte."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4ed",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Samples</a>",
+    "text": "Samples"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4f8",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Ausgewogenes Geschmacksprofil, hohe Mischbarkeit. Entwickelt für Café-Getränke, D2C-Blends und tägliche Konsumprodukte.</p>",
+    "text": "Ausgewogenes Geschmacksprofil, hohe Mischbarkeit. Entwickelt für Café-Getränke, D2C-Blends und tägliche Konsumprodukte."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae500",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Samples</a>",
+    "text": "Samples"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae50b",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Auf Ihre Zielgruppe zugeschnitten: Energie-Blends, Beauty-Matcha, adaptogene Formeln – auf Anfrage.</p>",
+    "text": "Auf Ihre Zielgruppe zugeschnitten: Energie-Blends, Beauty-Matcha, adaptogene Formeln – auf Anfrage."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae512",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Samples</a>",
+    "text": "Samples"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af0123590698",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\"><strong data-w-id=\"423c101d-892b-e481-b031-fe0d6f87a012\">Für wen eignet sich Private-Label-Matcha?</strong></h2>",
+    "text": "Für wen eignet sich Private-Label-Matcha?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906a6",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8b40a99fbfa503a696ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906a7",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-20\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906a8\">Aufstrebende Wellness- und Functional-Food-Marken</strong></h3>",
+    "text": "Aufstrebende Wellness- und Functional-Food-Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906aa",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Scaling fast with functional blends and strong customer traction, ready for premium matcha SKUs.Schnelles Wachstum mit funktionalen Mischungen und hoher Kundennachfrage – bereit für hochwertige Matcha-SKUs.</p>",
+    "text": "Scaling fast with functional blends and strong customer traction, ready for premium matcha SKUs.Schnelles Wachstum mit funktionalen Mischungen und hoher Kundennachfrage – bereit für hochwertige Matcha-SKUs."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906ad",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6921dd069993963846cc85e4"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906ae",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-21\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906af\">Einzelhändler &amp; Distributoren mit Eigenmarkenstrategie</strong></h3>",
+    "text": "Einzelhändler & Distributoren mit Eigenmarkenstrategie"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906b4",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "693722c5047112c92b0d3322"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906b5",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906b6\">Speziallebensmittelunternehmen im DACH-Raum und Europa</strong></h3>",
+    "text": "Speziallebensmittelunternehmen im DACH-Raum und Europa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906b8",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Auf der Suche nach Clean-Label-Bio-Matcha zur Integration in Produktlinien oder saisonale Produkteinführungen.</p>",
+    "text": "Auf der Suche nach Clean-Label-Bio-Matcha zur Integration in Produktlinien oder saisonale Produkteinführungen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906bb",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "695e4b4485af2964a27c1f64"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906bc",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906bd\">Direct-to-Consumer Scale-ups (E-Commerce, Abonnement)</strong></h3>",
+    "text": "Direct-to-Consumer Scale-ups (E-Commerce, Abonnement)"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906bf",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Erfolgreich im Onlinehandel und auf der Suche nach langfristigen Partnerschaften für die Matcha-Belieferung.</p>",
+    "text": "Erfolgreich im Onlinehandel und auf der Suche nach langfristigen Partnerschaften für die Matcha-Belieferung."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c4609f66-cb5c-2c44-c0d5-300ec0aee402",
+   "text": {
+    "html": "<h2 class=\"heading-8\"><strong data-w-id=\"9582757f-862e-2c9a-a56b-c171c2cd89be\">Möchten Sie eine bestehende Marke verkaufen?</strong></h2>",
+    "text": "Möchten Sie eine bestehende Marke verkaufen?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c4609f66-cb5c-2c44-c0d5-300ec0aee404",
+   "text": {
+    "html": "<div class=\"text-block-152\">Alternativ zur eigenen Marke: <strong data-w-id=\"1176a89d-22ec-8cfb-1dcb-3fc4a533ae8e\">ASA Matcha</strong> ist eine niederländische Premium-Matcha-Marke, die ausschließlich Pure-Matcha-Partners-Kunden als Fertigprodukt zum Wiederverkauf zur Verfügung steht – schlüsselfertig, ohne Eigenentwicklung.</div>",
+    "text": "Alternativ zur eigenen Marke: ASA Matcha ist eine niederländische Premium-Matcha-Marke, die ausschließlich Pure-Matcha-Partners-Kunden als Fertigprodukt zum Wiederverkauf zur Verfügung steht – schlüsselfertig, ohne Eigenentwicklung."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c4609f66-cb5c-2c44-c0d5-300ec0aee416",
+   "text": {
+    "html": "<a class=\"button-2-copy\" href=\"#\">ASA Matcha als Händler anfragen</a>",
+    "text": "ASA Matcha als Händler anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Warum Eigenmarken mit uns zusammenarbeiten</h2>",
+    "text": "Warum Eigenmarken mit uns zusammenarbeiten"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong class=\"bold-text-23\" data-w-id=\"2cb6e866-5581-cd14-7f59-0a7f8ad3f66c\">Wir sind mehr als ein Matcha-Lieferant – wir sind Ihr langfristiger Produktionspartner für den Aufbau erfolgreicher Marken.</strong>‍</div>",
+    "text": "Wir sind mehr als ein Matcha-Lieferant – wir sind Ihr langfristiger Produktionspartner für den Aufbau erfolgreicher Marken.‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "42b9cf20-50a5-3718-d869-84c44f6d21e7",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong data-w-id=\"8414731f-164f-e729-b2fa-70d9de5bc405\">Mindestmengen für Wachstum – </strong>Programme ab 100 kg pro Jahr mit stabilen PreisenMinimums built for scale <br data-w-id=\"671fb13f-3ff0-8d86-c052-26da8bbe1d1d\"><strong data-w-id=\"9a6c1c1c-ada0-cc34-a604-3e0e82aefab7\">Zertifizierte, exportfähige Zutaten – </strong>Einschließlich EU-Bio, USDA, JAS und FSSC 22000Certified, export-ready ingredients<br data-w-id=\"c1f87cec-34e2-4448-b0e5-9ce76785c833\"><strong data-w-id=\"9373176a-1a12-524a-f585-61804727f09c\">Individuelle Beratung – </strong>Zu Verpackungsformaten, Beschaffung und KennzeichnungsanforderungenCustom guidance<br data-w-id=\"f67e002b-1ce2-20be-5214-44d9173a0360\"><strong data-w-id=\"02e4c9ad-485f-3816-2583-5072b1e814f8\">Weltweiter Versand &amp; Support – </strong>Direkt aus Japan oder China bis zu Ihrem Fulfillment-Center</div>",
+    "text": "Mindestmengen für Wachstum – Programme ab 100 kg pro Jahr mit stabilen PreisenMinimums built for scale \nZertifizierte, exportfähige Zutaten – Einschließlich EU-Bio, USDA, JAS und FSSC 22000Certified, export-ready ingredients\nIndividuelle Beratung – Zu Verpackungsformaten, Beschaffung und KennzeichnungsanforderungenCustom guidance\nWeltweiter Versand & Support – Direkt aus Japan oder China bis zu Ihrem Fulfillment-Center"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"67ff9e333b0c6a5a7ab81f3d\">Unsere Produkte entdecken</a>",
+    "text": "Unsere Produkte entdecken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\"><strong class=\"bold-text-18\" data-w-id=\"ab73c94b-57d3-d99d-9372-b3a98762a615\">Warum Matcha ideal für Eigenmarken ist</strong></span></h1>",
+    "text": "Warum Matcha ideal für Eigenmarken ist"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">Matcha ist weit mehr als ein Trend – er ist eine leistungsstarke Zutat für den Aufbau erfolgreicher Produktmarken.<br data-w-id=\"ec1ef17e-49ff-8802-4b55-9509bfacaa18\"><br data-w-id=\"476af4fd-a8f7-fd39-95ec-e63b4b2f25d0\">Von Clean-Label-Produkten bis hin zu starker Regalwirkung schafft Matcha echten Mehrwert im wachsenden Wellness-Markt.<br data-w-id=\"5ede8b7d-a48b-5736-f40b-cc4bc00bc12c\"><br data-w-id=\"7414f696-a73e-70d5-7b06-8fc0f525e2fd\"><strong data-w-id=\"b4ec3f56-336e-99e0-8278-2cf1385b4be6\">Premium-Positionierung </strong>– Wahrgenommen als hochwertiges funktionelles SuperfoodPremium positioning <br data-w-id=\"4d1b1c40-e0da-868b-d901-05dd6fb30494\"><strong data-w-id=\"91a18534-41be-dda9-7e13-cdca78b0a83e\">Natürliche Farbe &amp; Geschmack</strong> – Leuchtend grün mit einem weichen, ausgewogenen AromaNatural color &amp; taste<br data-w-id=\"e4cdc921-3752-1d3b-af89-84bf782b0424\"><strong data-w-id=\"50bf6895-1525-bed7-cbf6-25e0753824c5\">Starke Clean-Label-Wirkung</strong> – 100 % pflanzlich, biologisch und leicht verständlich für VerbraucherLabel appeal <br data-w-id=\"40a65710-8106-99bc-b719-11d454b0a8c1\"><strong data-w-id=\"c7768c73-d42e-059f-7a9c-a9a74a0189cc\">Verbrauchervertrauen </strong>– Verbunden mit natürlicher Energie, Antioxidantien und Achtsamkeit<br data-w-id=\"b79cceb3-9ea6-8e28-ce7f-30afa4b0f0ac\"></div>",
+    "text": "Matcha ist weit mehr als ein Trend – er ist eine leistungsstarke Zutat für den Aufbau erfolgreicher Produktmarken.\n\nVon Clean-Label-Produkten bis hin zu starker Regalwirkung schafft Matcha echten Mehrwert im wachsenden Wellness-Markt.\n\nPremium-Positionierung – Wahrgenommen als hochwertiges funktionelles SuperfoodPremium positioning \nNatürliche Farbe & Geschmack – Leuchtend grün mit einem weichen, ausgewogenen AromaNatural color & taste\nStarke Clean-Label-Wirkung – 100 % pflanzlich, biologisch und leicht verständlich für VerbraucherLabel appeal \nVerbrauchervertrauen – Verbunden mit natürlicher Energie, Antioxidantien und Achtsamkeit\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\"><strong data-w-id=\"f5c84e26-1875-fc32-c5b4-9276682d4973\">Die besten Produkte für Eigenmarken</strong></h2>",
+    "text": "Die besten Produkte für Eigenmarken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c25",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\"><strong data-w-id=\"f84a3ccb-83b0-01ec-1b5a-bd99a242b307\">Häufige Fragen zu Private-Label-Matcha</strong></h2>",
+    "text": "Häufige Fragen zu Private-Label-Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2c",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"bd2fe3cb-4065-e063-3574-3cf330e76328\">Was ist die Mindestbestellmenge für Private-Label-Matcha?</strong></div>",
+    "text": "Was ist die Mindestbestellmenge für Private-Label-Matcha?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2f",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ab 100 kg pro Jahr. Für Marken in der Aufbauphase beraten wir zu sinnvollen Einstiegsmengen.</p>",
+    "text": "Ab 100 kg pro Jahr. Für Marken in der Aufbauphase beraten wir zu sinnvollen Einstiegsmengen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c36",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"02f79e4c-2b25-afc8-d2a4-fd109c696c37\">Übernehmen Sie auch die Verpackung?</strong></div>",
+    "text": "Übernehmen Sie auch die Verpackung?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c3a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Die Konfektionierung empfehlen wir über lokale Co-Packing-Partner – wir beraten Sie bei der Auswahl und Abstimmung.</p>",
+    "text": "Die Konfektionierung empfehlen wir über lokale Co-Packing-Partner – wir beraten Sie bei der Auswahl und Abstimmung."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c41",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"47658726-7155-1d2e-8ebb-fc00c04c3635\">Japan oder China – was ist besser für meine Marke?</strong></div>",
+    "text": "Japan oder China – was ist besser für meine Marke?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c44",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Japanische Qualitäten eignen sich für Premium-Retail und Tee-affine Zielgruppen. Chinesische Qualitäten bieten bessere Skalierbarkeit für Volumenprodukte. Wir beraten Ihre Positionierung.</p>",
+    "text": "Japanische Qualitäten eignen sich für Premium-Retail und Tee-affine Zielgruppen. Chinesische Qualitäten bieten bessere Skalierbarkeit für Volumenprodukte. Wir beraten Ihre Positionierung."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c51",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"72448d32-c94e-0daf-0d5f-e420d281f851\">Welche Zertifizierungen werden mitgeliefert?</strong></div>",
+    "text": "Welche Zertifizierungen werden mitgeliefert?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c54",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">EU-Bio, USDA Organic, COA je Charge (Schwermetalle, Pestizide, Mikrobiologie) – alle Dokumente sind für Ihren Compliance-Nachweis nutzbar.</p>",
+    "text": "EU-Bio, USDA Organic, COA je Charge (Schwermetalle, Pestizide, Mikrobiologie) – alle Dokumente sind für Ihren Compliance-Nachweis nutzbar."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c5e",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"ce950aa2-b73a-1d81-1a5e-4e8bbcd1792f\">Kann ich Matcha aus Japan oder China wählen?</strong></div>",
+    "text": "Kann ich Matcha aus Japan oder China wählen?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c61",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja, selbstverständlich. Wir liefern hochwertigen Matcha sowohl aus <strong data-w-id=\"a73b9b66-c169-8682-d680-dca7c09e4775\">Japan als auch aus China</strong>, abhängig von Ihrem Budget, Ihrem gewünschten Geschmacksprofil und Ihrer Herkunftspräferenz. Gemeinsam finden wir die passende Lösung für Ihr Sortiment.</p>",
+    "text": "Ja, selbstverständlich. Wir liefern hochwertigen Matcha sowohl aus Japan als auch aus China, abhängig von Ihrem Budget, Ihrem gewünschten Geschmacksprofil und Ihrer Herkunftspräferenz. Gemeinsam finden wir die passende Lösung für Ihr Sortiment."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c71",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Welche Zertifizierungen verfügen Ihre Matcha-Zutaten?</div>",
+    "text": "Welche Zertifizierungen verfügen Ihre Matcha-Zutaten?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c74",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ein Teil unseres Matcha ist nach <strong data-w-id=\"ddf87113-fac6-bd05-3937-20c94a0fdcc4\">JAS, EU-Bio und USDA Organic</strong> zertifiziert. Darüber hinaus stellen wir laborgeprüfte COAs für Schwermetalle, Pestizide und mikrobiologische Sicherheit sowohl für Bio- als auch für konventionelle Matcha-Qualitäten bereit.</p>",
+    "text": "Ein Teil unseres Matcha ist nach JAS, EU-Bio und USDA Organic zertifiziert. Darüber hinaus stellen wir laborgeprüfte COAs für Schwermetalle, Pestizide und mikrobiologische Sicherheit sowohl für Bio- als auch für konventionelle Matcha-Qualitäten bereit."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d8103c63-b691-7085-e577-376a29f7e3c2",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Bieten Sie OEM- oder Private-Label-Lösungen für weitere Matcha-Produkte an?</div>",
+    "text": "Bieten Sie OEM- oder Private-Label-Lösungen für weitere Matcha-Produkte an?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d8103c63-b691-7085-e577-376a29f7e3c5",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Unser Matcha eignet sich als Basiszutat für Kapseln, Pulvermischungen und viele weitere Anwendungen. Zwar produzieren wir keine Endprodukte, unterstützen jedoch Ihr <strong data-w-id=\"6e034b32-d9f5-b27d-0d55-2b157ff2915d\">OEM- oder Private-Label-Projekt</strong> mit zertifizierten Matcha-Rohstoffen, die direkt für Mischung und Branding eingesetzt werden können.</p>",
+    "text": "Ja. Unser Matcha eignet sich als Basiszutat für Kapseln, Pulvermischungen und viele weitere Anwendungen. Zwar produzieren wir keine Endprodukte, unterstützen jedoch Ihr OEM- oder Private-Label-Projekt mit zertifizierten Matcha-Rohstoffen, die direkt für Mischung und Branding eingesetzt werden können."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3d9737ba-8aa9-01ae-a12f-efbfdaf09378",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"06a0b6c2-1480-5a0d-ae6f-2c283bea782c\">Kann ich vor einer Private-Label-Partnerschaft Muster anfordern?</strong></div>",
+    "text": "Kann ich vor einer Private-Label-Partnerschaft Muster anfordern?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3d9737ba-8aa9-01ae-a12f-efbfdaf0937b",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Für Marken mit einem jährlichen Bedarf von <strong data-w-id=\"a37b5c9e-1df1-9809-3de9-117e02154d20\">mindestens 100 kg</strong> stellen wir Matcha-Muster zur Qualitätsbewertung bereit. So können Sie Produktqualität und Eignung prüfen, bevor Sie mit Ihrem Lohnhersteller oder Entwicklungspartner starten.</p>",
+    "text": "Ja. Für Marken mit einem jährlichen Bedarf von mindestens 100 kg stellen wir Matcha-Muster zur Qualitätsbewertung bereit. So können Sie Produktqualität und Eignung prüfen, bevor Sie mit Ihrem Lohnhersteller oder Entwicklungspartner starten."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "07748ca3-9e11-73f3-b513-b26d7beed267",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"07748ca3-9e11-73f3-b513-b26d7beed268\">Unterstützen Sie die Private-Label-Produktion im kommerziellen Maßstab?</strong></div>",
+    "text": "Unterstützen Sie die Private-Label-Produktion im kommerziellen Maßstab?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "07748ca3-9e11-73f3-b513-b26d7beed26b",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Als Lieferant von Matcha in Großmengen für Private-Label- und OEM-Partner unterstützen wir Marken mit einer zuverlässigen Beschaffung, flexiblen Liefermengen und Matcha-Qualitäten, die für den Einzelhandel und den Großhandel optimiert sind.</p>",
+    "text": "Ja. Als Lieferant von Matcha in Großmengen für Private-Label- und OEM-Partner unterstützen wir Marken mit einer zuverlässigen Beschaffung, flexiblen Liefermengen und Matcha-Qualitäten, die für den Einzelhandel und den Großhandel optimiert sind."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Wir helfen Ihnen dabei, den passenden Matcha für Ihre Marke, Ihr Unternehmen oder Ihr Private-Label-Projekt zu finden. Erhalten Sie eine persönliche Beratung und entdecken Sie hochwertige Matcha-Lösungen, die zu Ihren Anforderungen passen.</p>",
+    "text": "Wir helfen Ihnen dabei, den passenden Matcha für Ihre Marke, Ihr Unternehmen oder Ihr Private-Label-Projekt zu finden. Erhalten Sie eine persönliche Beratung und entdecken Sie hochwertige Matcha-Lösungen, die zu Ihren Anforderungen passen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Jetzt Kontakt aufnehmen</a>",
+    "text": "Jetzt Kontakt aufnehmen"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 61
+  }
+ ]
+}

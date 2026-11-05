@@ -1,0 +1,875 @@
+{
+ "pageId": "698ec0496e41b2e15740e98f",
+ "locale": "en",
+ "lastUpdated": "2026-02-15T16:19:30.681Z",
+ "total": 96,
+ "nodeCount": 96,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"914844f6-2a4b-ae89-fcd6-8f90070aad72\">Bulk Matcha for </strong><span class=\"text-span-61\" data-w-id=\"d8ee5a6a-ebef-82fe-7784-5bcec0e6615e\"><strong data-w-id=\"d8ee5a6a-ebef-82fe-7784-5bcec0e6615f\">Supplement</strong></span><strong data-w-id=\"d8ee5a6a-ebef-82fe-7784-5bcec0e66160\"> &amp; Nutraceutical Brands</strong></h1>",
+    "text": "Bulk Matcha for Supplement & Nutraceutical Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Pure Matcha Partners supplies bulk matcha powder for supplement brands, nutraceutical companies, and wellness manufacturers across the USA, UK, and international markets, supported by a reliable <a class=\"link-26\" data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"9b0213e2-8105-bbcd-369e-71c6cb835763\">bulk matcha powder supplier</a> model for regulated product categories.<br data-w-id=\"27d16717-4240-f5ac-469c-782eec7b86fb\"><br data-w-id=\"1df39c68-6a44-5ff5-529d-f04396c3904c\">Our ingredient-grade matcha is designed for capsules, powder blends, functional supplements, and nutraceutical formulations, with full laboratory testing and export-ready documentation.<br data-w-id=\"0020bfb1-8f57-4ec1-4030-127c1ae66096\"><br data-w-id=\"2733108f-08cd-4512-4cfc-621bff495551\">Whether you produce capsules, superfood powders, or functional wellness products, we provide certified matcha ingredients built for commercial scale.</p>",
+    "text": "Pure Matcha Partners supplies bulk matcha powder for supplement brands, nutraceutical companies, and wellness manufacturers across the USA, UK, and international markets, supported by a reliable bulk matcha powder supplier model for regulated product categories.\n\nOur ingredient-grade matcha is designed for capsules, powder blends, functional supplements, and nutraceutical formulations, with full laboratory testing and export-ready documentation.\n\nWhether you produce capsules, superfood powders, or functional wellness products, we provide certified matcha ingredients built for commercial scale."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Speak with our ingredient specialists</a>",
+    "text": "Speak with our ingredient specialists"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "698ec16fdaccacaa78d06561"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\"><strong data-w-id=\"e3de7c50-3b25-682f-8919-26197a9ed9ee\">Why Matcha Is a Strategic </strong><span class=\"text-span-58\" data-w-id=\"0b7f6d00-7710-d378-1217-4c80816e86bb\">Nutraceutical Brands</span></h2>",
+    "text": "Why Matcha Is a Strategic Nutraceutical Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">Matcha is increasingly used in supplement formulations due to its natural caffeine content, catechins (EGCG), and antioxidant profile.</div>",
+    "text": "Matcha is increasingly used in supplement formulations due to its natural caffeine content, catechins (EGCG), and antioxidant profile."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "692f369e8422850ed62d2bb9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-28\" data-w-id=\"826838f5-414d-1efc-ef4d-47e1ec2005c9\">Natural energy support</strong></h3>",
+    "text": "Natural energy support"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "03656774-6edd-4e56-442b-6e7c5cd8dde5",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Provides plant-based caffeine with L-theanine synergy.</p>",
+    "text": "Provides plant-based caffeine with L-theanine synergy."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "693722c5047112c92b0d3322"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-27\" data-w-id=\"535b8009-c353-36fc-c84d-12dbe42bd3af\">High antioxidant profile</strong></h3>",
+    "text": "High antioxidant profile"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70346a19-bd73-73d9-da4a-6d863bd308d4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Rich in catechins including EGCG.</p>",
+    "text": "Rich in catechins including EGCG."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "691a14c1b154245d1fe952df"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-26\" data-w-id=\"bbe4c56b-79d1-756d-93e2-5b821ef09ecb\">Clean-label positioning</strong></h3>",
+    "text": "Clean-label positioning"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ccd8b4d-ed6f-c6d3-d88e-5c197a238728",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Single-ingredient, minimally processed green tea powder.</p>",
+    "text": "Single-ingredient, minimally processed green tea powder."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b084",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8b40a99fbfa503a696ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b085",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-25\" data-w-id=\"7967962a-1b2e-00a4-e705-9c0d79d3b3e9\">Functional wellness appeal</strong></h3>",
+    "text": "Functional wellness appeal"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b087",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Supports energy, focus, and metabolism positioning (subject to regulatory compliance).</p>",
+    "text": "Supports energy, focus, and metabolism positioning (subject to regulatory compliance)."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f162",
+   "text": {
+    "html": "<h2 class=\"heading-12-new\">Matcha Grades for <span class=\"text-span-54\" data-w-id=\"1535b799-fb2b-f9ea-b5ca-1c983fc0327f\">Suppelement Applications</span></h2>",
+    "text": "Matcha Grades for Suppelement Applications"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8944b09bf1870855f148"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16c",
+   "text": {
+    "html": "<h2 class=\"heading-17\"><span class=\"text-span-60\" data-w-id=\"836067d2-42e0-5dad-01ed-c05cc9bd0701\">Ingredient-Grade Matcha </span>(Capsules &amp; Tablets)</h2>",
+    "text": "Ingredient-Grade Matcha (Capsules & Tablets)"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f170",
+   "text": {
+    "html": "<p class=\"text-custom-gray\"><strong class=\"bold-text-19\" data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a649\">Fine-milled powder suitable for encapsulation and tablet compression.<br data-w-id=\"60dfa9f0-b054-224b-4c42-46b81dcd4307\"><br data-w-id=\"8bb98a2c-f410-aad4-30ea-48f7bb856398\">Best for:<br data-w-id=\"4325380b-837c-31ba-9d8c-3b1aacd6391f\">- Matcha capsules<br data-w-id=\"d58c37c8-5a45-f2c3-55f7-c03378357536\">- Green tea powder supplements<br data-w-id=\"b1de0a7f-e273-d619-863c-c8795c8b4356\">- Energy &amp; focus formulas<br data-w-id=\"4468302a-eee5-8b7d-6490-9e4d93447d1e\">- Weight management blends<br data-w-id=\"950c752a-590e-58d2-24c2-8a9e2293918d\"><br data-w-id=\"839d24c0-e1a6-b531-e72e-110959ac11a0\">Features:<br data-w-id=\"cadb3987-d4b9-5e17-cad6-8e9b72db9dd4\">- Consistent particle size<br data-w-id=\"b8e0b43b-ec06-c4f7-42d4-292ba3e07133\">- Stable caffeine levels<br data-w-id=\"8d19ac8c-131d-641e-6516-abfe391aa242\">- Lab-tested for heavy metals &amp; pesticides<br data-w-id=\"a93910f7-f35b-92b8-9105-ca78115c1a37\">- COAs available per batch</strong></p>",
+    "text": "Fine-milled powder suitable for encapsulation and tablet compression.\n\nBest for:\n- Matcha capsules\n- Green tea powder supplements\n- Energy & focus formulas\n- Weight management blends\n\nFeatures:\n- Consistent particle size\n- Stable caffeine levels\n- Lab-tested for heavy metals & pesticides\n- COAs available per batch"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f172",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"67ffa2b15258e1b4236839cb\">Request technical specifications</a>",
+    "text": "Request technical specifications"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f177",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "697dcb7ef19535898dacde17"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f179",
+   "text": {
+    "html": "<h2 class=\"heading-18\"><span class=\"text-span-55\" data-w-id=\"63f2e5a4-bdcd-8c19-8e86-a29b50d6ddab\">Organic Matcha </span>for Nutraceutical Brands</h2>",
+    "text": "Organic Matcha for Nutraceutical Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17d",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Certified organic matcha suitable for USDA &amp; EU organic supplement lines.<br data-w-id=\"356327a1-33f5-8686-9731-84e2022ede5e\"><br data-w-id=\"4f49f3f3-499e-7a31-dcdb-6f1e26112c62\">Best for:<br data-w-id=\"63523d2a-92cd-1b93-48f5-ad3c6fe5572b\">- Organic supplement brands<br data-w-id=\"17207619-a42a-9fc5-dc87-ebdb29b4cdae\">- Clean-label formulations<br data-w-id=\"c2400c16-3157-bcf7-57fa-ee7054a0d659\">- Export-focused nutraceutical products<br data-w-id=\"aa3aae88-66d6-3394-9c81-d1c584f992c5\"><br data-w-id=\"ff79dbfc-2e49-7811-4a5c-0f6c64a13eb3\">Certifications available:<br data-w-id=\"4f6f8418-af1d-f0e7-0538-db2c8e142987\">- USDA Organic<br data-w-id=\"4d322d70-17f1-1028-9b1f-1236ee222859\">- EU Organic<br data-w-id=\"81237b72-aaf2-abcb-8eec-a95163109a91\">- JAS<br data-w-id=\"e8233d8c-d05f-13c3-682e-4ce4f4969915\">- HACCPFSSC <br data-w-id=\"cdea49cd-ff9c-5562-3a44-8b5f752e7c03\">- 22000Kosher</p>",
+    "text": "Certified organic matcha suitable for USDA & EU organic supplement lines.\n\nBest for:\n- Organic supplement brands\n- Clean-label formulations\n- Export-focused nutraceutical products\n\nCertifications available:\n- USDA Organic\n- EU Organic\n- JAS\n- HACCPFSSC \n- 22000Kosher"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17f",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Request organic documentation</a>",
+    "text": "Request organic documentation"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f184",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e15c1890d1c3f4775d44d"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f186",
+   "text": {
+    "html": "<h2 class=\"heading-19\"><span class=\"text-span-56\" data-w-id=\"fe182071-3503-3da6-5cdc-5572782abebc\">Bulk Matcha </span>for Powder Blends</h2>",
+    "text": "Bulk Matcha for Powder Blends"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18a",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Ideal for superfood blends and functional drink mixes.<br data-w-id=\"91b52245-9ffb-28cd-75c5-0c819bc76940\"><br data-w-id=\"54bb0cae-d1fa-df49-8d27-40b670b5b1be\">Best for:<br data-w-id=\"f20be9c1-0ada-0791-dc2d-988cb74b38d0\">- Greens powders<br data-w-id=\"6adc8bea-a158-2846-8fe4-6e58821db0c6\">- Protein blends<br data-w-id=\"6ca65a12-e1a5-9006-b1d3-92ed53627d68\">- Adaptogenic mixes<br data-w-id=\"2d0146da-96fc-9911-b8a3-0bbe701cfca7\">- Functional beverage powders<br data-w-id=\"0dd090f2-65a6-d44d-f88e-d0130d66f141\"><br data-w-id=\"0df8780d-8cfb-9183-83a1-48bfd048eb5b\">Features:<br data-w-id=\"e01fade0-79b3-3251-5194-676015d90a73\">- Uniform color consistency<br data-w-id=\"31e275c4-469d-d84a-3d3f-5aaf43fd42e9\">- Stable flavor integration<br data-w-id=\"36f0b2c3-7e66-5c5f-4694-9e479d349bf5\">- Scalable bulk supply programs</p>",
+    "text": "Ideal for superfood blends and functional drink mixes.\n\nBest for:\n- Greens powders\n- Protein blends\n- Adaptogenic mixes\n- Functional beverage powders\n\nFeatures:\n- Uniform color consistency\n- Stable flavor integration\n- Scalable bulk supply programs"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18c",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Discuss bulk supply options</a>",
+    "text": "Discuss bulk supply options"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Trusted by <span class=\"text-span-51\" data-w-id=\"cf866dde-c004-7794-0587-37fce8b2d00e\">Suppelement &amp; Wellness</span> Brands</h2>",
+    "text": "Trusted by Suppelement & Wellness Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "13943303-1a41-511d-1edc-314c897687f2",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "698ec16fdaccacaa78d06561"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-20\" data-w-id=\"be7f2bca-f35f-b6be-5e30-a908b30764b8\">Capsule Manufacturers</strong></h3>",
+    "text": "Capsule Manufacturers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Supplying matcha powder suitable for encapsulation processes.</p>",
+    "text": "Supplying matcha powder suitable for encapsulation processes."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "695e4b4485af2964a27c1f64"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-21\" data-w-id=\"0a91b5e2-8f99-2f48-0f1a-cde0f74738a9\">Powder Blend Producers</strong></h3>",
+    "text": "Powder Blend Producers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Bulk matcha for functional superfood formulations.</p>",
+    "text": "Bulk matcha for functional superfood formulations."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "71f21428-c832-ba46-9e48-80c90470020d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "693722c5047112c92b0d3322"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"6fbeb4d9-7254-1dfb-5cbd-0f3590050d7a\">Nutraceutical Companies</strong></h3>",
+    "text": "Nutraceutical Companies"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Certified matcha ingredient supply with full documentation.</p>",
+    "text": "Certified matcha ingredient supply with full documentation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fc",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "694ffd0fe6db04c47f514a30"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fd",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"1ef759ca-171a-3bb1-be05-1cd016eda3fe\">Private Label Supplement Brands</strong></h3>",
+    "text": "Private Label Supplement Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda400",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Bulk matcha for white label capsule and powder production.</p>",
+    "text": "Bulk matcha for white label capsule and powder production."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-72-copy\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Partner with us</a>",
+    "text": "Partner with us"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Certified &amp; lab-tested matcha ingredient supply</h2>",
+    "text": "Certified & lab-tested matcha ingredient supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong data-w-id=\"977e704a-0496-1817-c8db-0ceb775f2e80\">All bulk matcha powder is tested for:<br data-w-id=\"d9af66d2-7220-f0b3-c2a5-1f6f8b9f7567\"></strong>- Heavy metals<br data-w-id=\"17832dfe-188a-4366-159c-e554640fa699\">- Pesticide residues<br data-w-id=\"f48aed47-49ee-cce9-6a24-31a96029987d\">- Microbiological safety<br data-w-id=\"d022af3d-0288-f219-6792-e9a367c6b3ad\">- Radiation (upon request)<br data-w-id=\"0108bf3e-d2bf-761b-7b2e-34d2b13d0637\">- Allergen compliance<strong data-w-id=\"a03bde5e-ce78-b1cd-ed02-a5620bca6137\"><br data-w-id=\"6fbc3b3e-0de5-2941-7311-99bebd2e7fbc\"><br data-w-id=\"fbfe7e06-4698-6c9f-490f-455c6b3136d6\">Documentation includes:<br data-w-id=\"bf1a794b-4a53-922f-20ac-0ef32fe83ed9\"></strong>- Certificate of Analysis (COA)<br data-w-id=\"1c19d804-a4aa-889e-31d8-0bcb0adb8910\">- Specification sheets<br data-w-id=\"2b5a77bd-14c0-af1f-c3a4-c09e7386f336\">- Export documents<br data-w-id=\"f3e0f80e-39cd-ee0e-8d5a-8704e0705f4a\">- Organic certification copies<br data-w-id=\"44729f4c-0d1e-6fce-d29c-b759f5c5d44d\"><br data-w-id=\"f1f55dd7-28c4-7669-7ec0-84350af72450\">We align with supplement industry quality standards and international trade requirements.</div>",
+    "text": "All bulk matcha powder is tested for:\n- Heavy metals\n- Pesticide residues\n- Microbiological safety\n- Radiation (upon request)\n- Allergen compliance\n\nDocumentation includes:\n- Certificate of Analysis (COA)\n- Specification sheets\n- Export documents\n- Organic certification copies\n\nWe align with supplement industry quality standards and international trade requirements."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"67ff9e333b0c6a5a7ab81f3d\">Check ingredient availability</a>",
+    "text": "Check ingredient availability"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b73",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a0742b9f10e5955e83738"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\"><strong class=\"bold-text-18\" data-w-id=\"ab73c94b-57d3-d99d-9372-b3a98762a615\">Why </strong></span><strong class=\"bold-text-18\" data-w-id=\"afb1e830-0b86-1fc1-d707-29abb52a35ee\">Suppelement Brands</strong><span class=\"text-span-6\" data-w-id=\"afb1e830-0b86-1fc1-d707-29abb52a35f0\"><strong class=\"bold-text-18\" data-w-id=\"afb1e830-0b86-1fc1-d707-29abb52a35ef\"> Work with us</strong></span></h1>",
+    "text": "Why Suppelement Brands Work with us"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\"><strong data-w-id=\"e56920e7-4b00-868b-14c9-079678c654ef\">Ingredient consistency across batches<br data-w-id=\"65575a3b-ee34-d759-c63b-8b356ab8be6f\"></strong>Stable caffeine and catechin profiles.<br data-w-id=\"10f63699-5d0b-4a76-55b2-1a3ce4d5383b\"><strong data-w-id=\"785d110d-3a83-c4f4-13a4-db513adfb472\">‍<br data-w-id=\"f96ce3dd-4468-94ce-791b-6aa2afc15b1e\">Regulatory-ready documentation<br data-w-id=\"65575a3b-ee34-d759-c63b-8b356ab8be74\"></strong>Full traceability and testing documentation.<br data-w-id=\"5b5da9ad-db48-1dc7-38a6-6ad4e5a91f8f\"><strong data-w-id=\"ce0a5504-37b7-957d-63db-fcf825b5ab82\">‍<br data-w-id=\"92f993b9-7630-8889-504c-0557b13b8170\">Flexible annual programs<br data-w-id=\"65575a3b-ee34-d759-c63b-8b356ab8be79\"></strong>Starting from 100kg per year with scalable growth options.<br data-w-id=\"abbe59c9-644a-e8f3-c855-87384a39658c\"><strong data-w-id=\"6660b935-8299-3eec-6eb8-daa8f9876168\"><br data-w-id=\"6bf9917f-0555-4f2c-ba90-5b195e3c85b6\">Global sourcing flexibility<br data-w-id=\"65575a3b-ee34-d759-c63b-8b356ab8be7e\"></strong>Japan and China origin options depending on grade and pricing structure.<br data-w-id=\"f33530da-2f7c-12f8-108e-d582ad8b72a4\"><strong data-w-id=\"0442a4ea-c928-8b84-6f83-fed9f097d2cc\"><br data-w-id=\"9ea7d422-26a8-b339-d09a-638b01f38554\">Long-term supply stability<br data-w-id=\"65575a3b-ee34-d759-c63b-8b356ab8be83\"></strong>Ideal for subscription-based supplement brands.<br data-w-id=\"b79cceb3-9ea6-8e28-ce7f-30afa4b0f0ac\"></div>",
+    "text": "Ingredient consistency across batches\nStable caffeine and catechin profiles.\n‍\nRegulatory-ready documentation\nFull traceability and testing documentation.\n‍\nFlexible annual programs\nStarting from 100kg per year with scalable growth options.\n\nGlobal sourcing flexibility\nJapan and China origin options depending on grade and pricing structure.\n\nLong-term supply stability\nIdeal for subscription-based supplement brands.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact our wholesale team</a>",
+    "text": "Contact our wholesale team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\"><span class=\"text-span-52\" data-w-id=\"d1ff9712-094a-8a0c-4315-6489d262d584\">Best Matcha</span> for <strong data-w-id=\"d3257ec0-8123-abc0-429d-637abd15e9f3\">Suppelement &amp; Nutraceutical brands</strong></h2>",
+    "text": "Best Matcha for Suppelement & Nutraceutical brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa93",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa95",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa97",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa99\">0</span> of <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa9c\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1b",
+   "text": {
+    "html": "<div class=\"heading-xsmall-3\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1d",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb1f\"><strong data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb20\"><br data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb21\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9355",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Matcha</div>",
+    "text": "Culinary Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9359",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-C</div>",
+    "text": "PMP-M-CE-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9360",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha Organic</div>",
+    "text": "Premium Matcha Organic"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9364",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-O</div>",
+    "text": "PMP-M-LA-1KG-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936b",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Matcha Organic </div>",
+    "text": "Culinary Matcha Organic "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936f",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-O</div>",
+    "text": "PMP-M-CU-1KG-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c25",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Frequently Asked Questions</h2>",
+    "text": "Frequently Asked Questions"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2c",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"633b8bdb-f5bb-b199-827b-b68daaa1d85c\">Is your matcha suitable for capsules?</strong></div>",
+    "text": "Is your matcha suitable for capsules?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2f",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — our fine-milled ingredient-grade matcha is suitable for encapsulation and powder formulations.</p>",
+    "text": "Yes — our fine-milled ingredient-grade matcha is suitable for encapsulation and powder formulations."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c36",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"02f79e4c-2b25-afc8-d2a4-fd109c696c37\">Do you provide COAs and lab testing?</strong></div>",
+    "text": "Do you provide COAs and lab testing?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c3a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — each batch includes heavy metal and pesticide testing documentation.</p>",
+    "text": "Yes — each batch includes heavy metal and pesticide testing documentation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c41",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"a1876ad2-e302-c8b9-220a-0d8a8e42730d\">Do you supply organic matcha for supplements?</strong></div>",
+    "text": "Do you supply organic matcha for supplements?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c44",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — USDA and EU organic certified options are available.</p>",
+    "text": "Yes — USDA and EU organic certified options are available."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c51",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"1c30d662-92bf-4e4f-944d-31563ae474e3\">Next to europe do you also ship to the US and UK?</strong></div>",
+    "text": "Next to europe do you also ship to the US and UK?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c54",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — we ship to the US, UK, and other international markets.</p>",
+    "text": "Yes — we ship to the US, UK, and other international markets."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c5e",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"b1c98fda-0a4e-4cbf-b039-5b8a962765b1\">What is the minimum order volume?</strong></div>",
+    "text": "What is the minimum order volume?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c61",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Programs typically start from 100kg annually.</p>",
+    "text": "Programs typically start from 100kg annually."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ecbc48e7-570f-5232-1ec4-ef9889c24599",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"ecbc48e7-570f-5232-1ec4-ef9889c2459a\">Is your matcha suitable for supplement and nutraceutical production at scale?</strong></div>",
+    "text": "Is your matcha suitable for supplement and nutraceutical production at scale?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ecbc48e7-570f-5232-1ec4-ef9889c2459d",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes. Our <a data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"c04e2f99-470e-2566-dcbd-5f66d40ab8be\">scalable bulk matcha supply</a> supports supplement and wellness manufacturers with consistent specifications, batch-level testing, and documentation suitable for international distribution.</p>",
+    "text": "Yes. Our scalable bulk matcha supply supports supplement and wellness manufacturers with consistent specifications, batch-level testing, and documentation suitable for international distribution."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Ready to get <span class=\"text-span-47\" data-w-id=\"af4300d8-917e-1505-83d8-8a5101132418\">started</span>?</div>",
+    "text": "Ready to get started?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today.</p>",
+    "text": "We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Get in touch with our sales team</a>",
+    "text": "Get in touch with our sales team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a26",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a518347c3ed2d8200ede8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a28",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51840e630e2044d647be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183ca567cd974b62e65"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183627011d688ff9aa6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51847545d8c6adfa19a5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a30",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d2578d8cc6f8e7561fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a32",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36af2799da49c0e47c"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a34",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d37af2799da49c0e538"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a36",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d3654de4503d53f89fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a38",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d366cf7308d4d7f2413"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 96
+  }
+ ]
+}

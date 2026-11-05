@@ -1,0 +1,29 @@
+{
+ "label": "m_6798bd1e4b234bad93cdab07_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab07",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "About",
+  "slug": "about",
+  "createdOn": "2024-11-20T07:57:16.859Z",
+  "lastUpdated": "2026-08-04T12:17:03.880Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "About Pure Matcha Partners – Premium B2B Supplier",
+   "description": "Learn more about our mission, sourcing approach & partner farms in Japan. Certified supplier for horeca, wellness & retail."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/about",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

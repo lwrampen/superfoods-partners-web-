@@ -1,0 +1,126 @@
+{
+ "pageId": "67ffaa8d537bb69e01067ea2",
+ "locale": "de",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 12,
+ "nodeCount": 12,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac8e",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Matcha-Pulver für Lattes — Großhandel für Latte-Qualität</h2>",
+    "text": "Matcha-Pulver für Lattes — Großhandel für Latte-Qualität"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac96",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac9a",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Anzeige von <span data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac9c\">0</span> von <span data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac9f\">100</span></div>",
+    "text": "Anzeige von 0 von 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00accb",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00accc\">Matcha für Mixgetränke</span><br data-w-id=\"1edf66bf-6f7e-11ba-9929-8ff4eff0b5ff\">Premium Matcha-Pulver für Lattes, Eistee-Matcha-Getränke und Cappuccinos. Unser Latte-Matcha bietet eine leuchtend grüne Farbe, lässt sich gut mischen und hat einen ausgewogenen Geschmack – ideal für Baristas und den Ausschank großer Mengen.<br data-w-id=\"0316b841-d0a1-f49b-6932-98fcea640e37\"></p>",
+    "text": "Matcha für Mixgetränke\nPremium Matcha-Pulver für Lattes, Eistee-Matcha-Getränke und Cappuccinos. Unser Latte-Matcha bietet eine leuchtend grüne Farbe, lässt sich gut mischen und hat einen ausgewogenen Geschmack – ideal für Baristas und den Ausschank großer Mengen.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00acef",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Bio Japan</div>",
+    "text": "Premium Bio Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00acf1",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-JP-O</div>",
+    "text": "PMP-M-LA-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "37717712-4fdf-2191-54b8-368fcf6e0cc5",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Konventionell Japan</div>",
+    "text": "Premium Konventionell Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "37717712-4fdf-2191-54b8-368fcf6e0cc7",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-JP</div>",
+    "text": "PMP-M-LA-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1aea9bd3-1471-85f8-6f40-826cf27f7944",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Konventionell China</div>",
+    "text": "Premium Konventionell China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1aea9bd3-1471-85f8-6f40-826cf27f7946",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-CN</div>",
+    "text": "PMP-M-LA-1KG-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad3c",
+   "text": {
+    "html": "<div class=\"heading-xsmall-2\">Keine Ergebnisse gefunden.</div>",
+    "text": "Keine Ergebnisse gefunden."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad3e",
+   "text": {
+    "html": "<div>Keine Ergebnisse für diese Kriterien. Versuchen Sie, Ihre Suche zu ändern.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad40\"><br data-w-id=\"e1cf86a5-23bc-c472-e80b-dbb1a47855fb\"></a></div>",
+    "text": "Keine Ergebnisse für diese Kriterien. Versuchen Sie, Ihre Suche zu ändern.\n"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 12
+  }
+ ]
+}

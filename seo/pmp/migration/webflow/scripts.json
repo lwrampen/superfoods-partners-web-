@@ -1,0 +1,1840 @@
+{
+ "site": {
+  "registered_scripts": {
+   "label": "registered_scripts",
+   "action": "get_registered_scripts",
+   "result": {
+    "registeredScripts": [
+     {
+      "id": "localeswitcherjs",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherJS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38f6d3485e02f0365153e6%2Flocaleswitcherjs-1.0.6.js",
+      "createdOn": "2026-06-22T08:48:19.063Z",
+      "version": "1.0.6"
+     },
+     {
+      "id": "localeswitcherjs",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherJS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38f5c2a89f5ba23354466a%2Flocaleswitcherjs-1.0.5.js",
+      "createdOn": "2026-06-22T08:43:46.625Z",
+      "version": "1.0.5"
+     },
+     {
+      "id": "localeswitcherjs",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherJS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38f47a6ee8300f6f9536d6%2Flocaleswitcherjs-1.0.4.js",
+      "createdOn": "2026-06-22T08:38:18.676Z",
+      "version": "1.0.4"
+     },
+     {
+      "id": "localeswitcherjs",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherJS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38f1733ba706406e25ddf1%2Flocaleswitcherjs-1.0.3.js",
+      "createdOn": "2026-06-22T08:25:23.406Z",
+      "version": "1.0.3"
+     },
+     {
+      "id": "localeswitcherjs",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherJS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38efe1aaeb2387838ee9d9%2Flocaleswitcherjs-1.0.2.js",
+      "createdOn": "2026-06-22T08:18:41.038Z",
+      "version": "1.0.2"
+     },
+     {
+      "id": "localeswitchercss",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherCSS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38efda42a8c2ca0bb74470%2Flocaleswitchercss-1.0.2.js",
+      "createdOn": "2026-06-22T08:18:34.215Z",
+      "version": "1.0.2"
+     },
+     {
+      "id": "localeswitcherjs",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherJS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38ed125cd5e86c867a2e00%2Flocaleswitcherjs-1.0.1.js",
+      "createdOn": "2026-06-22T08:06:42.777Z",
+      "version": "1.0.1"
+     },
+     {
+      "id": "localeswitchercss",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherCSS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38ed11f4b71aca5b526791%2Flocaleswitchercss-1.0.1.js",
+      "createdOn": "2026-06-22T08:06:41.968Z",
+      "version": "1.0.1"
+     },
+     {
+      "id": "localeswitcherjs",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherJS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38e9b5d46ef5ff7530f18a%2Flocaleswitcherjs-1.0.0.js",
+      "createdOn": "2026-06-22T07:52:21.525Z",
+      "version": "1.0.0"
+     },
+     {
+      "id": "localeswitchercss",
+      "canCopy": true,
+      "displayName": "LocaleSwitcherCSS",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a38e9adcbee5c9f8b73c6fb%2Flocaleswitchercss-1.0.0.js",
+      "createdOn": "2026-06-22T07:52:13.352Z",
+      "version": "1.0.0"
+     },
+     {
+      "id": "productschemajsonld",
+      "canCopy": true,
+      "displayName": "ProductSchemaJSONLD",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a2fb7f8351f334fbb4ce202%2Fproductschemajsonld-1.0.1.js",
+      "createdOn": "2026-06-15T08:29:44.116Z",
+      "version": "1.0.1"
+     },
+     {
+      "id": "productschemajsonld",
+      "canCopy": true,
+      "displayName": "ProductSchemaJSONLD",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a2fb720a03c430e4c08c5ee%2Fproductschemajsonld-1.0.0.js",
+      "createdOn": "2026-06-15T08:26:08.599Z",
+      "version": "1.0.0"
+     },
+     {
+      "id": "ga4_form_conversion_tracking",
+      "canCopy": true,
+      "displayName": "GA4 Form Conversion Tracking",
+      "hostedLocation": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c%2F689e5ba67671442434f3ca35%2F6a287b2c0a19ae4aea45eecf%2Fga4_form_conversion_tracking-1.0.0.js",
+      "createdOn": "2026-06-09T20:44:28.874Z",
+      "version": "1.0.0"
+     }
+    ],
+    "pagination": {
+     "limit": 100,
+     "offset": 0,
+     "total": 13
+    }
+   }
+  },
+  "applied_site_scripts": {
+   "label": "site_scripts",
+   "action": "get_site_scripts",
+   "result": {
+    "scripts": [
+     {
+      "id": "ga4_form_conversion_tracking",
+      "displayName": "GA4 Form Conversion Tracking",
+      "version": "1.0.0",
+      "location": "footer",
+      "attributes": {}
+     },
+     {
+      "id": "productschemajsonld",
+      "displayName": "ProductSchemaJSONLD",
+      "version": "1.0.1",
+      "location": "footer",
+      "attributes": {}
+     },
+     {
+      "id": "localeswitchercss",
+      "displayName": "LocaleSwitcherCSS",
+      "version": "1.0.2",
+      "location": "header",
+      "attributes": {}
+     },
+     {
+      "id": "localeswitcherjs",
+      "displayName": "LocaleSwitcherJS",
+      "version": "1.0.6",
+      "location": "footer",
+      "attributes": {}
+     }
+    ],
+    "lastUpdated": "2026-06-22T08:48:24.373Z",
+    "createdOn": "2026-06-15T08:26:19.529Z"
+   }
+  },
+  "site_freeform_code": {
+   "label": "site_freeform",
+   "action": "get_site_freeform_code",
+   "result": [
+    {
+     "location": "head",
+     "content": "<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"1304304a-b28d-4f20-aef4-c475ee3d2594\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GCVVK26GTZ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GCVVK26GTZ');\n</script>\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Pure Matcha Partners\",\n  \"url\": \"https://www.purematchapartners.com/\",\n  \"logo\": \"https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6826d4c1f51ea24c62fc30ee_pmp-logo.png\",\n  \"description\": \"Trusted B2B matcha supplier for cafés, restaurants & distributors. Sourced from Japan & China. Bulk capabilities from 100kg+. Certified & consistent quality.\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"De Nieuwe Haven 23b\",\n    \"postalCode\": \"7772BC\",\n    \"addressLocality\": \"Hardenberg\",\n    \"addressCountry\": \"NL\"\n  },\n  \"email\": \"hello@purematchapartners.com\",\n  \"contactPoint\": [{\n    \"@type\": \"ContactPoint\",\n    \"contactType\": \"sales\",\n    \"email\": \"hello@purematchapartners.com\"\n  }],\n  \"areaServed\": \"Worldwide\"\n}\n</script>\n"
+    },
+    {
+     "location": "footer",
+     "content": "<script>\ndocument.addEventListener('DOMContentLoaded', function () {\n  function getFormType(path, form) {\n    var name = ((form && form.getAttribute('name')) || '').toLowerCase();\n    if (path.indexOf('custom-matcha-blends') > -1 || name.indexOf('custom blend') > -1) return 'custom_blend_brief';\n    if (path.indexOf('sample') > -1) return 'sample_request';\n    if (path.indexOf('pricelist') > -1) return 'pricelist_request';\n    return 'contact_form';\n  }\n\n  document.querySelectorAll('.w-form form').forEach(function (form) {\n    var wrapper = form.closest('.w-form');\n    var success = wrapper && wrapper.querySelector('.w-form-done');\n    if (!success) return;\n\n    var observer;\n    var pending = false;\n    var sent = false;\n\n    function trackWhenSuccessful() {\n      if (!pending || sent || typeof gtag === 'undefined') return;\n\n      var isVisible =\n        success.offsetParent !== null &&\n        window.getComputedStyle(success).display !== 'none';\n\n      if (!isVisible) return;\n\n      sent = true;\n      pending = false;\n\n      var path = window.location.pathname;\n      var language =\n        document.documentElement.lang ||\n        (path.indexOf('/es') === 0 ? 'es' : path.indexOf('/de') === 0 ? 'de' : 'en');\n\n      gtag('event', 'form_submission', {\n        form_type: getFormType(path, form),\n        page_path: path,\n        language: language,\n        event_id: 'pmp_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10)\n      });\n\n      if (observer) observer.disconnect();\n    }\n\n    form.addEventListener('submit', function () {\n      pending = true;\n      sent = false;\n\n      if (observer) observer.disconnect();\n\n      observer = new MutationObserver(trackWhenSuccessful);\n      observer.observe(success, {\n        attributes: true,\n        attributeFilter: ['style', 'class']\n      });\n\n      window.setTimeout(trackWhenSuccessful, 0);\n      window.setTimeout(function () {\n        pending = false;\n        if (observer) observer.disconnect();\n      }, 30000);\n    });\n  });\n});\n</script>"
+    }
+   ]
+  }
+ },
+ "pages": {
+  "6a8d5edf7c702abff989baf5": {
+   "applied_scripts": {
+    "label": "ps_6a8d5edf7c702abff989baf5",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a8d5edf7c702abff989baf5",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a836b543803450333f19ac9": {
+   "applied_scripts": {
+    "label": "ps_6a836b543803450333f19ac9",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a836b543803450333f19ac9",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a836b4c1c385d811f8e83e5": {
+   "applied_scripts": {
+    "label": "ps_6a836b4c1c385d811f8e83e5",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a836b4c1c385d811f8e83e5",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a65faeefec9aa90a34a8422": {
+   "applied_scripts": {
+    "label": "ps_6a65faeefec9aa90a34a8422",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a65faeefec9aa90a34a8422",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a2a71c128629092d04bf944": {
+   "applied_scripts": {
+    "label": "ps_6a2a71c128629092d04bf944",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a2a71c128629092d04bf944",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a2a7190cdf35b02bc152891": {
+   "applied_scripts": {
+    "label": "ps_6a2a7190cdf35b02bc152891",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a2a7190cdf35b02bc152891",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a2a710bf7c069c7b1fc4d8c": {
+   "applied_scripts": {
+    "label": "ps_6a2a710bf7c069c7b1fc4d8c",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a2a710bf7c069c7b1fc4d8c",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a2a70dc28629092d04b1719": {
+   "applied_scripts": {
+    "label": "ps_6a2a70dc28629092d04b1719",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a2a70dc28629092d04b1719",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a2a6ffbc6e9e021165272cf": {
+   "applied_scripts": {
+    "label": "ps_6a2a6ffbc6e9e021165272cf",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a2a6ffbc6e9e021165272cf",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a272c66cb07adfccf65277a": {
+   "applied_scripts": {
+    "label": "ps_6a272c66cb07adfccf65277a",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a272c66cb07adfccf65277a",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a271e5346731fe427bdcdfe": {
+   "applied_scripts": {
+    "label": "ps_6a271e5346731fe427bdcdfe",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a271e5346731fe427bdcdfe",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a271e3b00fc4006ebc9e1f8": {
+   "applied_scripts": {
+    "label": "ps_6a271e3b00fc4006ebc9e1f8",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a271e3b00fc4006ebc9e1f8",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a1448636a961afae55c6bc6": {
+   "applied_scripts": {
+    "label": "ps_6a1448636a961afae55c6bc6",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a1448636a961afae55c6bc6",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a144057c5bf402137c0dce9": {
+   "applied_scripts": {
+    "label": "ps_6a144057c5bf402137c0dce9",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a144057c5bf402137c0dce9",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6a028d468a41fe2d5995416c": {
+   "applied_scripts": {
+    "label": "ps_6a028d468a41fe2d5995416c",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6a028d468a41fe2d5995416c",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6991ff8c153af5609e330dad": {
+   "applied_scripts": {
+    "label": "ps_6991ff8c153af5609e330dad",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6991ff8c153af5609e330dad",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "698ed39e8999d2a9cf8e7e17": {
+   "applied_scripts": {
+    "label": "ps_698ed39e8999d2a9cf8e7e17",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_698ed39e8999d2a9cf8e7e17",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "698ec0496e41b2e15740e98f": {
+   "applied_scripts": {
+    "label": "ps_698ec0496e41b2e15740e98f",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_698ec0496e41b2e15740e98f",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "698d9bd9fae33977cec6c44d": {
+   "applied_scripts": {
+    "label": "ps_698d9bd9fae33977cec6c44d",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_698d9bd9fae33977cec6c44d",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "698d7e34b8a5e1650f0aec28": {
+   "applied_scripts": {
+    "label": "ps_698d7e34b8a5e1650f0aec28",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_698d7e34b8a5e1650f0aec28",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "697e0b7d2b67cf5427d2f5f3": {
+   "applied_scripts": {
+    "label": "ps_697e0b7d2b67cf5427d2f5f3",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_697e0b7d2b67cf5427d2f5f3",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "696fe12e366c9eba99edbff9": {
+   "applied_scripts": {
+    "label": "ps_696fe12e366c9eba99edbff9",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_696fe12e366c9eba99edbff9",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "694bfdcd216eb4c3ab193150": {
+   "applied_scripts": {
+    "label": "ps_694bfdcd216eb4c3ab193150",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_694bfdcd216eb4c3ab193150",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "694bfcad90f234db9fb45107": {
+   "applied_scripts": {
+    "label": "ps_694bfcad90f234db9fb45107",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_694bfcad90f234db9fb45107",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "694bfadab6aaf6e33c3c656c": {
+   "applied_scripts": {
+    "label": "ps_694bfadab6aaf6e33c3c656c",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_694bfadab6aaf6e33c3c656c",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "693ab238dc146765ed4923ff": {
+   "applied_scripts": {
+    "label": "ps_693ab238dc146765ed4923ff",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_693ab238dc146765ed4923ff",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "68d2710b7ee6c45cd804057e": {
+   "applied_scripts": {
+    "label": "ps_68d2710b7ee6c45cd804057e",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_68d2710b7ee6c45cd804057e",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "68d26ae941cf7c52b1346836": {
+   "applied_scripts": {
+    "label": "ps_68d26ae941cf7c52b1346836",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_68d26ae941cf7c52b1346836",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "68d26a6722c2d3df242931ea": {
+   "applied_scripts": {
+    "label": "ps_68d26a6722c2d3df242931ea",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_68d26a6722c2d3df242931ea",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "68d26991fd2fb17c7cf70952": {
+   "applied_scripts": {
+    "label": "ps_68d26991fd2fb17c7cf70952",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_68d26991fd2fb17c7cf70952",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6892228a6e6bc64e6d77480d": {
+   "applied_scripts": {
+    "label": "ps_6892228a6e6bc64e6d77480d",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6892228a6e6bc64e6d77480d",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "687e85011edce777334b1878": {
+   "applied_scripts": {
+    "label": "ps_687e85011edce777334b1878",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_687e85011edce777334b1878",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "687e840b8f3533b7a0c3810a": {
+   "applied_scripts": {
+    "label": "ps_687e840b8f3533b7a0c3810a",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_687e840b8f3533b7a0c3810a",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "68232c968ee7972284b04191": {
+   "applied_scripts": {
+    "label": "ps_68232c968ee7972284b04191",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_68232c968ee7972284b04191",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "682327f0afa036698765ad3c": {
+   "applied_scripts": {
+    "label": "ps_682327f0afa036698765ad3c",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_682327f0afa036698765ad3c",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "68232599671eed5da1c758db": {
+   "applied_scripts": {
+    "label": "ps_68232599671eed5da1c758db",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_68232599671eed5da1c758db",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "682323092576061a3a96d2df": {
+   "applied_scripts": {
+    "label": "ps_682323092576061a3a96d2df",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_682323092576061a3a96d2df",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681e17afa8ca29ba3c3c037a": {
+   "applied_scripts": {
+    "label": "ps_681e17afa8ca29ba3c3c037a",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681e17afa8ca29ba3c3c037a",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681e1547a27a34da56b4f1ad": {
+   "applied_scripts": {
+    "label": "ps_681e1547a27a34da56b4f1ad",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681e1547a27a34da56b4f1ad",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681e146208e6dabd1d351076": {
+   "applied_scripts": {
+    "label": "ps_681e146208e6dabd1d351076",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681e146208e6dabd1d351076",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681dc746e4efb42760e72831": {
+   "applied_scripts": {
+    "label": "ps_681dc746e4efb42760e72831",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681dc746e4efb42760e72831",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681dc53d385ed6f721891ace": {
+   "applied_scripts": {
+    "label": "ps_681dc53d385ed6f721891ace",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681dc53d385ed6f721891ace",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const hiddenDateField = document.querySelector('input[name=\"submissionDate\"]');\n  if(hiddenDateField){\n    const now = new Date();\n    hiddenDateField.value = now.toLocaleString(\"nl-NL\", { timeZone: \"Europe/Amsterdam\" });\n  }\n});\n</script>"
+     }
+    ]
+   }
+  },
+  "681dc311740f2ac581e6271f": {
+   "applied_scripts": {
+    "label": "ps_681dc311740f2ac581e6271f",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681dc311740f2ac581e6271f",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const hiddenDateField = document.querySelector('input[name=\"submissionDate\"]');\n  if(hiddenDateField){\n    const now = new Date();\n    hiddenDateField.value = now.toLocaleString(\"nl-NL\", { timeZone: \"Europe/Amsterdam\" });\n  }\n});\n</script>"
+     }
+    ]
+   }
+  },
+  "681dbee490ffeb168bd19d69": {
+   "applied_scripts": {
+    "label": "ps_681dbee490ffeb168bd19d69",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681dbee490ffeb168bd19d69",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681b2ef9d4977d04b2f60d7c": {
+   "applied_scripts": {
+    "label": "ps_681b2ef9d4977d04b2f60d7c",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681b2ef9d4977d04b2f60d7c",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681b14857918a72a859fd05c": {
+   "applied_scripts": {
+    "label": "ps_681b14857918a72a859fd05c",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681b14857918a72a859fd05c",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "681b10aa58a45d24e32f3f2c": {
+   "applied_scripts": {
+    "label": "ps_681b10aa58a45d24e32f3f2c",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_681b10aa58a45d24e32f3f2c",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6815d29a6e238ea1580ca68f": {
+   "applied_scripts": {
+    "label": "ps_6815d29a6e238ea1580ca68f",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6815d29a6e238ea1580ca68f",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6800f46a3d42433d270fd462": {
+   "applied_scripts": {
+    "label": "ps_6800f46a3d42433d270fd462",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6800f46a3d42433d270fd462",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "67ffaaf430ca209e60d9dea7": {
+   "applied_scripts": {
+    "label": "ps_67ffaaf430ca209e60d9dea7",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_67ffaaf430ca209e60d9dea7",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "67ffaac17dc60f8b48708801": {
+   "applied_scripts": {
+    "label": "ps_67ffaac17dc60f8b48708801",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_67ffaac17dc60f8b48708801",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "67ffaa8d537bb69e01067ea2": {
+   "applied_scripts": {
+    "label": "ps_67ffaa8d537bb69e01067ea2",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_67ffaa8d537bb69e01067ea2",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "67ffa2b15258e1b4236839cb": {
+   "applied_scripts": {
+    "label": "ps_67ffa2b15258e1b4236839cb",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_67ffa2b15258e1b4236839cb",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "67ff9e333b0c6a5a7ab81f3d": {
+   "applied_scripts": {
+    "label": "ps_67ff9e333b0c6a5a7ab81f3d",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_67ff9e333b0c6a5a7ab81f3d",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdaba0": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdaba0",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdaba0",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab7b": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab7b",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab7b",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab39": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab39",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab39",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab36": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab36",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab36",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab34": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab34",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab34",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab33": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab33",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab33",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const hiddenDateField = document.querySelector('input[name=\"submissionDate\"]');\n  if(hiddenDateField){\n    const now = new Date();\n    hiddenDateField.value = now.toLocaleString(\"nl-NL\", { timeZone: \"Europe/Amsterdam\" });\n  }\n});\n</script>"
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab31": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab31",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab31",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab30": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab30",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab30",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdab07": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdab07",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdab07",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": ""
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "6798bd1e4b234bad93cdaae1": {
+   "applied_scripts": {
+    "label": "ps_6798bd1e4b234bad93cdaae1",
+    "action": "get_page_scripts",
+    "error": {
+     "name": "Error",
+     "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}",
+     "status": 404,
+     "code": "resource_not_found"
+    }
+   },
+   "freeform_code": {
+    "label": "pf_6798bd1e4b234bad93cdaae1",
+    "action": "get_page_freeform_code",
+    "result": [
+     {
+      "location": "head",
+      "content": "<meta name=\"google-site-verification\" content=\"0qZ3li_6Ia1WIn1V0ZS-M_q7_hbPc29wQ1iL9EPpuvk\" />"
+     },
+     {
+      "location": "footer",
+      "content": ""
+     }
+    ]
+   }
+  }
+ },
+ "notes": "get_page_scripts returned 404 resource_not_found (Custom code block not found) for all 64 pages = no registered scripts applied at page level. get_page_freeform_code read for primary locale only (API only supports primary locale)."
+}

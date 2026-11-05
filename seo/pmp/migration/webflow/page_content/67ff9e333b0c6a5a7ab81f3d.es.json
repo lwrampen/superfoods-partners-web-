@@ -1,0 +1,340 @@
+{
+ "pageId": "67ff9e333b0c6a5a7ab81f3d",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 36,
+ "nodeCount": 36,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1db7",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Todos los productos</h2>",
+    "text": "Todos los productos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3326e618-74ab-e81e-379a-9d45a7749fd8",
+   "text": {
+    "html": "<a class=\"text-size-medium-2\" data-wf-link-page-id=\"67ffa2b15258e1b4236839cb\"><span class=\"text-span-12\" data-w-id=\"2699e77b-24ae-03d0-f888-0378dfe922c0\">Matcha para té</span><br data-w-id=\"0a652237-8d04-f6a2-0ff7-ab14f0f2cbcb\">Ideal para preparar de forma tradicional con agua caliente, cold brew o matcha con hielo.</a>",
+    "text": "Matcha para té\nIdeal para preparar de forma tradicional con agua caliente, cold brew o matcha con hielo."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ce084eaa-bd91-edf8-b8ff-0f120fea01b7",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Orgánico</div>",
+    "text": "Orgánico"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c7a93fe6-b969-2ef6-2cf1-ec5f12a32aa3",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Orgánico Japón</div>",
+    "text": "Ceremonial Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "880fbc94-10c0-3b31-07d9-6f7ba2233760",
+   "text": {
+    "html": "<div class=\"text-block-133\">Convencional</div>",
+    "text": "Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f01199c1-0dfc-2e14-a543-9b0cd55dadc7",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Convencional&nbsp;Japón</div>",
+    "text": "Ceremonial Convencional Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ee8728a-2693-b54b-6d25-71015820da5b",
+   "text": {
+    "html": "<div class=\"text-block-133\">Convencional</div>",
+    "text": "Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a15b8f77-00db-f7c6-9ba6-7ba99fc64c7e",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\"> Ceremonial Convencional China</div>",
+    "text": " Ceremonial Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f0513b1f-9cd7-2106-da47-6d3773fdff6a",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"e597a777-1940-81e4-a8c5-49944b81f82a\">Matcha para bebidas mezcladas</span><br data-w-id=\"38fb84b2-d715-f536-55a4-c469c7fc40f2\">Ideal para lattes de matcha, capuchinos, jugos y batidos.<br data-w-id=\"f0513b1f-9cd7-2106-da47-6d3773fdff6c\"></p>",
+    "text": "Matcha para bebidas mezcladas\nIdeal para lattes de matcha, capuchinos, jugos y batidos.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17735e39-59b0-8eda-e72c-b50a1de30a2c",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Orgánico</div>",
+    "text": "Orgánico"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d62695fe-9d93-0cb7-829a-2f5a52c8195f",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Orgánico Japón</div>",
+    "text": "Premium Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "200f58d3-6df1-9dc7-20bc-b2974547bb3f",
+   "text": {
+    "html": "<div class=\"text-block-133\">Convencional</div>",
+    "text": "Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "79c4c19b-a574-55a3-2645-9a9604605fa9",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Convencional Japón</div>",
+    "text": "Premium Convencional Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2e5071f3-1f57-6c3b-3704-6c92184f4d2f",
+   "text": {
+    "html": "<div class=\"text-block-133\">Convencional</div>",
+    "text": "Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71fc547b-59d3-6b18-c100-ed6d5a429ce8",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Convencional China</div>",
+    "text": "Premium Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8911d2cc-2203-862d-cda8-f01bdc0a6b5e",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"8911d2cc-2203-862d-cda8-f01bdc0a6b5f\">Matcha para repostería</span><br data-w-id=\"8911d2cc-2203-862d-cda8-f01bdc0a6b61\">Perfecto para cocinar, hornear y crear postres y platos con sabor a matcha.<br data-w-id=\"8911d2cc-2203-862d-cda8-f01bdc0a6b63\"></p>",
+    "text": "Matcha para repostería\nPerfecto para cocinar, hornear y crear postres y platos con sabor a matcha.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "6d1cb411-6a07-f4f3-c4a6-f632d7484958",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Orgánico</div>",
+    "text": "Orgánico"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8aacd133-e7fa-365a-0a17-2a34214e7523",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinario Orgánico Japón</div>",
+    "text": "Culinario Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3574019d-8dc3-8b94-045e-d8331d561f5d",
+   "text": {
+    "html": "<div class=\"text-block-133\">Convencional</div>",
+    "text": "Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2faba9f8-3fb9-96e1-f0e8-c00884bb9b8c",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinario Convencional Japón</div>",
+    "text": "Culinario Convencional Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a70feaa-dd4c-35ca-1697-2e2ef6a5f933",
+   "text": {
+    "html": "<div class=\"text-block-133\">Convencional</div>",
+    "text": "Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fa223b1-c730-3e51-541a-1a73075d1382",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinario Convencional China</div>",
+    "text": "Culinario Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cccd7a63-944f-5740-1fd1-ee3695093112",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"cccd7a63-944f-5740-1fd1-ee3695093113\">Hojicha</span><br data-w-id=\"cccd7a63-944f-5740-1fd1-ee3695093115\">Perfecto para lattes con sabor a nuez, bebidas frías y mezclas cremosas con bajo contenido de cafeína.<br data-w-id=\"cccd7a63-944f-5740-1fd1-ee3695093117\"></p>",
+    "text": "Hojicha\nPerfecto para lattes con sabor a nuez, bebidas frías y mezclas cremosas con bajo contenido de cafeína.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "505f17d7-7715-4548-fcb4-752eb44d6ef7",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Orgánico</div>",
+    "text": "Orgánico"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c91baf71-1408-2c78-6e6d-20171eb62b3a",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha Orgánico Japón</div>",
+    "text": "Hojicha Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "61358232-9448-7163-f27a-695e5bd78e41",
+   "text": {
+    "html": "<div class=\"text-block-133\">Convencional</div>",
+    "text": "Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d2f35d1-e3ec-bd0d-c6ef-87fc307f0bce",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha Convencional Japón</div>",
+    "text": "Hojicha Convencional Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0cf1863d-e255-8764-e739-c9b28cac719a",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"0cf1863d-e255-8764-e739-c9b28cac719b\">Especiales</span><br data-w-id=\"0cf1863d-e255-8764-e739-c9b28cac719d\">Línea exclusiva de productos de Japón<br data-w-id=\"0cf1863d-e255-8764-e739-c9b28cac719f\"></p>",
+    "text": "Especiales\nLínea exclusiva de productos de Japón\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb56",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Orgánico</div>",
+    "text": "Orgánico"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb59",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Asa GO Sin Batir Matcha</div>",
+    "text": "Asa GO Sin Batir Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "981df7e1-7643-4bab-7eb7-bd3140e09834",
+   "text": {
+    "html": "<div class=\"text-block-133-copy\">Orgánico</div>",
+    "text": "Orgánico"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8d20014e-5657-32b5-38b3-2c198279fb66",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Morera Sin Cafeína Matcha</div>",
+    "text": "Morera Sin Cafeína Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d2465674-2090-75a1-5764-9a64bba68eb0",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"d2465674-2090-75a1-5764-9a64bba68eb1\">Accesorios<br data-w-id=\"10e393f6-6b9d-2f9c-0cf1-a86b382c7456\"></span>Todos los utensilios necesarios para preparar siempre el mejor matcha.<br data-w-id=\"d2465674-2090-75a1-5764-9a64bba68eb5\"></p>",
+    "text": "Accesorios\nTodos los utensilios necesarios para preparar siempre el mejor matcha.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "52990fd2-518b-06ed-3d77-593d5877f8c2",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Batidor de bambú</div>",
+    "text": "Batidor de bambú"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0eca1fda-3383-b401-5346-1cf99320c072",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Cucharada de 2 gramos</div>",
+    "text": "Cucharada de 2 gramos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ed51b8fa-e4b5-beee-fad4-251828699c1e",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Bol para batir</div>",
+    "text": "Bol para batir"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 36
+  }
+ ]
+}

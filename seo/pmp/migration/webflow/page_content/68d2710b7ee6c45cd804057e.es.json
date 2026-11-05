@@ -1,0 +1,249 @@
+{
+ "pageId": "68d2710b7ee6c45cd804057e",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 26,
+ "nodeCount": 26,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac8d",
+   "text": {
+    "html": "<div><span class=\"text-span-3\" data-w-id=\"3bdc7930-e01f-7916-59c3-00ddb8f9f483\">Productos</span></div>",
+    "text": "Productos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac98",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product-copy text-color-grey\">Japon - Convencional</p>",
+    "text": "Japon - Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "904d01aa-1da4-f4ba-110a-4455367a362f",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product text-color-grey\">1kg bolso</p>",
+    "text": "1kg bolso"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acab",
+   "text": {
+    "html": "<div class=\"text-size-small-2\">(4.8 estrellas) • 57 reseñas</div>",
+    "text": "(4.8 estrellas) • 57 reseñas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acb3",
+   "text": {
+    "html": "<a class=\"button-secondary is-buy-now-button\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b232b5b9-7612-d0a1-acbe-6b98f2f4e7a3",
+   "text": {
+    "html": "<div class=\"text-block-127\">Origen:&nbsp;<span class=\"text-span-19\" data-w-id=\"8dca997a-434d-13ad-ceca-ee05c9766425\">Japon</span></div>",
+    "text": "Origen: Japon"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7f1e0eff-33ad-211a-340f-179132dc602a",
+   "text": {
+    "html": "<div class=\"text-block-127\">Estado:&nbsp;<span class=\"text-span-19-12\" data-w-id=\"7f1e0eff-33ad-211a-340f-179132dc602c\">Fuera de Stock</span></div>",
+    "text": "Estado: Fuera de Stock"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acc7",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Información</div>",
+    "text": "Información"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acca",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Usos recomendados</div>",
+    "text": "Usos recomendados"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e405fa52-1686-92f6-1350-e8fc2b79a5e6",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Perfil</div>",
+    "text": "Perfil"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a2736b41-8e07-69d4-2192-ce7f54e14df8",
+   "text": {
+    "html": "<h6 class=\"heading-xsmall\">Pure Matcha Partners Hojicha is a roasted Japanese green tea powder. <br data-w-id=\"d097aeaa-d7f7-8c01-8c9e-bcc3057625f3\"><br data-w-id=\"cfca3557-e819-9a90-a216-21fc4cb7d3c7\">Con sabores cálidos y a nuez y bajo contenido en cafeína, es ideal para lattes de hojicha, productos horneados y recetas de postres.<br data-w-id=\"1dcaab9a-473d-1c1e-047b-3594f471b25f\"><br data-w-id=\"18f22f08-cf12-78f4-c72f-164cc5fbfa59\">Una excelente opción al por mayor para cafeterías y profesionales culinarios que buscan ingredientes únicos para el té japonés.<br data-w-id=\"063dcedf-f38a-73fa-8c3c-4fdb8cec532f\"><br data-w-id=\"b2292106-57f7-7ad3-4549-a60c51b759d0\">Available through our <a data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"064ff54e-20d0-3a76-922e-bb1017db47f1\">wholesale bulk supply programs</a>.</h6>",
+    "text": "Pure Matcha Partners Hojicha is a roasted Japanese green tea powder. \n\nCon sabores cálidos y a nuez y bajo contenido en cafeína, es ideal para lattes de hojicha, productos horneados y recetas de postres.\n\nUna excelente opción al por mayor para cafeterías y profesionales culinarios que buscan ingredientes únicos para el té japonés.\n\nAvailable through our wholesale bulk supply programs."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acf3",
+   "text": {
+    "html": "<div class=\"rich-text-block\"><p class=\"paragraph-9\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93b0\"><strong class=\"bold-text-6\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93b1\">Entrega Internacional</strong></p><p class=\"paragraph-9\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93b3\">Enviamos paquetes a destinos de todo el mundo, de forma rápida y fiable, para que tu pedido llegue donde lo necesites.<br data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93b5\">‍</p><p class=\"paragraph-10\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93b7\"><strong class=\"bold-text-5\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93b8\">Enviado en un plazo de 48 horas</strong></p><p class=\"paragraph-10\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93ba\">Todos los pedidos se procesan y envían en un plazo de 48 horas, lo que garantiza una tramitación rápida y un tiempo de espera mínimo.</p><p data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93bc\">‍</p><p class=\"paragraph-11\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93be\"><strong class=\"bold-text-3\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93bf\">Opciones de entrega segura</strong></p><p class=\"paragraph-11\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93c1\"><strong class=\"bold-text-3\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93c2\">‍</strong>Elija entre métodos de envío seguros que garantizan la entrega segura y protegida de su paquete.</p><p data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93c5\">‍</p><p class=\"paragraph-12\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93c7\"><strong class=\"bold-text-4\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93c8\">Ayuda</strong><br data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93ca\">Envíenos un correo electrónico a <a href=\"mailto:hello@purematchapartners.com\" data-w-id=\"32b0ff24-f1c8-08e2-ce05-1b4129fd93cc\">hello@purematchapartners.com</a></p></div>"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad40",
+   "text": {
+    "html": "<h2 class=\"heading-medium\">Otros productos que te pueden gustar </h2>",
+    "text": "Otros productos que te pueden gustar "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad4f",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Mulberry Matcha</div>",
+    "text": "Mulberry Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad5c",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Premium Convencional China</div>",
+    "text": "Premium Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad69",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Ceremonial Convencional Japan</div>",
+    "text": "Ceremonial Convencional Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5998d",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">El mejor <span class=\"text-span-16\" data-w-id=\"6ea79bbb-9341-b190-c2d1-55c39f16e5a5\">match(a)</span> para</h2>",
+    "text": "El mejor match(a) para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb59999",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Cafeterías y cafés</h3>",
+    "text": "Cafeterías y cafés"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999b",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para lattes de matcha de alta gama</p>",
+    "text": "Para lattes de matcha de alta gama"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999d",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"6800f46a3d42433d270fd462\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a1",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Restaurantes y servicios de alimentación</h3>",
+    "text": "Restaurantes y servicios de alimentación"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a3",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para bebidas de temporada y especiales</p>",
+    "text": "Para bebidas de temporada y especiales"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a5",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc746e4efb42760e72831\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a9",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Oficinas y espacios corporativos</h3>",
+    "text": "Oficinas y espacios corporativos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ab",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha fácil de preparar para las horas punta</p>",
+    "text": "Matcha fácil de preparar para las horas punta"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ad",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681e1547a27a34da56b4f1ad\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 26
+  }
+ ]
+}

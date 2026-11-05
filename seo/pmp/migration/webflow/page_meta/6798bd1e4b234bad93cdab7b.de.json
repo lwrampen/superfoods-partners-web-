@@ -1,0 +1,28 @@
+{
+ "label": "m_6798bd1e4b234bad93cdab7b_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab7b",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "404",
+  "slug": "404",
+  "createdOn": "2024-12-16T05:53:06.427Z",
+  "lastUpdated": "2025-10-13T21:31:31.362Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Not Found"
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/404",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

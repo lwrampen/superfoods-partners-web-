@@ -1,0 +1,276 @@
+{
+ "pageId": "68d26ae941cf7c52b1346836",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 29,
+ "nodeCount": 29,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac8d",
+   "text": {
+    "html": "<div><span class=\"text-span-3\" data-w-id=\"3bdc7930-e01f-7916-59c3-00ddb8f9f483\">Productos</span></div>",
+    "text": "Productos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac91",
+   "text": {
+    "html": "<div class=\"text-block-63\">Matcha Culinario</div>",
+    "text": "Matcha Culinario"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac95",
+   "text": {
+    "html": "<div class=\"text-block-64\">Matcha Culinario </div>",
+    "text": "Matcha Culinario "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac9b",
+   "text": {
+    "html": "<h1 class=\"heading-xlarge-2-product\">Matcha Culinario </h1>",
+    "text": "Matcha Culinario "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac98",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product-copy text-color-grey\">Japon - Orgánico</p>",
+    "text": "Japon - Orgánico"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "904d01aa-1da4-f4ba-110a-4455367a362f",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product text-color-grey\">1kg bolso</p>",
+    "text": "1kg bolso"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acab",
+   "text": {
+    "html": "<div class=\"text-size-small-2\">(4.2 estrellas) • 18 reseñas</div>",
+    "text": "(4.2 estrellas) • 18 reseñas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acb3",
+   "text": {
+    "html": "<a class=\"button-secondary is-buy-now-button\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b232b5b9-7612-d0a1-acbe-6b98f2f4e7a3",
+   "text": {
+    "html": "<div class=\"text-block-127\">Origen:&nbsp;<span class=\"text-span-19\" data-w-id=\"8dca997a-434d-13ad-ceca-ee05c9766425\">Japon</span></div>",
+    "text": "Origen: Japon"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5780cf8a-bda6-eb6f-7bc6-61d78a33692f",
+   "text": {
+    "html": "<div class=\"text-block-127\">Estado:&nbsp;<span class=\"text-span-19-copy\" data-w-id=\"5780cf8a-bda6-eb6f-7bc6-61d78a336931\">En Stock</span></div>",
+    "text": "Estado: En Stock"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acc7",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Información</div>",
+    "text": "Información"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acca",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Usos recomendados</div>",
+    "text": "Usos recomendados"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e405fa52-1686-92f6-1350-e8fc2b79a5e6",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Perfil</div>",
+    "text": "Perfil"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a2736b41-8e07-69d4-2192-ce7f54e14df8",
+   "text": {
+    "html": "<h6 class=\"heading-xsmall\">Pure Matcha Partners <strong data-w-id=\"0105d67e-dc46-0d8d-6c74-c5fe92ef9ba4\">Culinary Matcha</strong> es la opción orgánica perfecta para cocinar, hornear y preparar postres.<br data-w-id=\"4b3e4d74-e216-89ed-3042-8923a0e29a27\"><br data-w-id=\"3e6ca612-cc3f-0af6-253c-0846120c8ac8\">Cosechado en Japón, ofrece un sabor equilibrado a matcha a un precio competitivo. Diseñado para servicios de restauración, panaderías y fabricantes que compran matcha en polvo al por mayor.</h6>",
+    "text": "Pure Matcha Partners Culinary Matcha es la opción orgánica perfecta para cocinar, hornear y preparar postres.\n\nCosechado en Japón, ofrece un sabor equilibrado a matcha a un precio competitivo. Diseñado para servicios de restauración, panaderías y fabricantes que compran matcha en polvo al por mayor."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acf3",
+   "text": {
+    "html": "<div class=\"rich-text-block\"><p class=\"paragraph-9\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7b6\"><strong class=\"bold-text-6\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7b7\">Entrega Internacional</strong></p><p class=\"paragraph-9\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7b9\">Enviamos paquetes a destinos de todo el mundo, de forma rápida y fiable, para que tu pedido llegue donde lo necesites.<br data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7bb\">‍</p><p class=\"paragraph-10\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7bd\"><strong class=\"bold-text-5\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7be\">Enviado en un plazo de 48 horas</strong></p><p class=\"paragraph-10\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7c0\">Todos los pedidos se procesan y envían en un plazo de 48 horas, lo que garantiza una tramitación rápida y un tiempo de espera mínimo.</p><p data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7c2\">‍</p><p class=\"paragraph-11\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7c4\"><strong class=\"bold-text-3\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7c5\">Opciones de entrega segura</strong></p><p class=\"paragraph-11\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7c7\"><strong class=\"bold-text-3\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7c8\">‍</strong>Elija entre métodos de envío seguros que garantizan la entrega segura y protegida de su paquete.</p><p data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7cb\">‍</p><p class=\"paragraph-12\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7cd\"><strong class=\"bold-text-4\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7ce\">Ayuda</strong><br data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7d0\">Envíenos un correo electrónico a <a href=\"mailto:hello@purematchapartners.com\" data-w-id=\"10f2e6e4-575e-e51f-8001-d2fd5d92a7d2\">hello@purematchapartners.com</a></p></div>"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad40",
+   "text": {
+    "html": "<h2 class=\"heading-medium\">Otros productos que te pueden gustar </h2>",
+    "text": "Otros productos que te pueden gustar "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad4f",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Culinario Convencional Japon</div>",
+    "text": "Culinario Convencional Japon"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad5c",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Premium Convencional China</div>",
+    "text": "Premium Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad69",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Ceremonial Convencional China</div>",
+    "text": "Ceremonial Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5998d",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">El mejor <span class=\"text-span-16\" data-w-id=\"6ea79bbb-9341-b190-c2d1-55c39f16e5a5\">match(a)</span> para</h2>",
+    "text": "El mejor match(a) para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb59999",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Cafeterías y Cafés</h3>",
+    "text": "Cafeterías y Cafés"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999b",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para bebidas de matcha de alta gama</p>",
+    "text": "Para bebidas de matcha de alta gama"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999d",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"6800f46a3d42433d270fd462\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a1",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Restaurantes y servicios de restauración</h3>",
+    "text": "Restaurantes y servicios de restauración"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a3",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para bebidas de temporada y especiales</p>",
+    "text": "Para bebidas de temporada y especiales"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a5",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc746e4efb42760e72831\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a9",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Oficinas y espacios corporativos</h3>",
+    "text": "Oficinas y espacios corporativos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ab",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha fácil de preparar para las horas punta</p>",
+    "text": "Matcha fácil de preparar para las horas punta"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ad",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681e1547a27a34da56b4f1ad\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 29
+  }
+ ]
+}

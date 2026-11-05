@@ -1,0 +1,30 @@
+{
+ "label": "m_6798bd1e4b234bad93cdab36_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab36",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "collectionId": "6798bd1e4b234bad93cdab3d",
+  "title": "Blogs Template",
+  "slug": "detail_blogs",
+  "createdOn": "2024-12-14T06:08:19.004Z",
+  "lastUpdated": "2026-06-08T19:39:46.806Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }} | Pure Matcha Partners",
+   "description": "{{wf {&quot;path&quot;:&quot;blog-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}"
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "{{wf {&quot;path&quot;:&quot;blog-main-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\\} }}",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/blogs",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

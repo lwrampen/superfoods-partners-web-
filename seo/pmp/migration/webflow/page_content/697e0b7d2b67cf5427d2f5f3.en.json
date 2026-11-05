@@ -1,0 +1,925 @@
+{
+ "pageId": "697e0b7d2b67cf5427d2f5f3",
+ "locale": "en",
+ "lastUpdated": "2026-08-03T14:56:59.552Z",
+ "total": 101,
+ "nodeCount": 101,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"914844f6-2a4b-ae89-fcd6-8f90070aad72\">Bulk Matcha for Distributors, Importers &amp; </strong><span class=\"text-span-53\" data-w-id=\"8bb9789f-28b1-6e36-93fa-52e7c6a075d4\"><strong data-w-id=\"8bb9789f-28b1-6e36-93fa-52e7c6a075d5\">Foodservice</strong></span><strong data-w-id=\"8bb9789f-28b1-6e36-93fa-52e7c6a075d6\"> Suppliers</strong></h1>",
+    "text": "Bulk Matcha for Distributors, Importers & Foodservice Suppliers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Pure Matcha Partners supplies certified bulk matcha in formats that work for distributors, importers, and foodservice channels worldwide, supported by flexible <a class=\"link-24\" data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"7be10332-6144-000b-677b-d79a3e84aab1\">wholesale matcha programs</a> built for resale and redistribution.<br data-w-id=\"6ea1c553-53d2-c92a-ddce-12ade47c678c\"><br data-w-id=\"c364006f-5ef7-3259-1532-3b6d190f4517\">From 1 kg bags to pallet-scale bulk shipments, we provide consistent, traceable matcha designed to integrate smoothly into professional supply chains.Whether you're supplying cafés, retail networks, or wholesale foodservice customers, our matcha is selected for reliability, consistency, and operational scalability.</p>",
+    "text": "Pure Matcha Partners supplies certified bulk matcha in formats that work for distributors, importers, and foodservice channels worldwide, supported by flexible wholesale matcha programs built for resale and redistribution.\n\nFrom 1 kg bags to pallet-scale bulk shipments, we provide consistent, traceable matcha designed to integrate smoothly into professional supply chains.Whether you're supplying cafés, retail networks, or wholesale foodservice customers, our matcha is selected for reliability, consistency, and operational scalability."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact our wholesale team</a>",
+    "text": "Contact our wholesale team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "697e12e7dad2f94fefa9d5e9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\"><strong data-w-id=\"e3de7c50-3b25-682f-8919-26197a9ed9ee\">Why Matcha Is a Strategic Ingredient for </strong><span class=\"text-span-49\" data-w-id=\"b491527e-8699-0dc1-454c-0d78dcccbbc6\"><strong data-w-id=\"b491527e-8699-0dc1-454c-0d78dcccbbc7\">Distribution &amp; Foodservice</strong></span></h2>",
+    "text": "Why Matcha Is a Strategic Ingredient for Distribution & Foodservice"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">Matcha continues to grow in global demand, both as a standalone product and as an ingredient across foodservice menus and retail channels. <br data-w-id=\"ced3d4a9-6ed9-8b10-280c-31ec93d5fcf5\">Our matcha delivers benefits that matter to your buyers:</div>",
+    "text": "Matcha continues to grow in global demand, both as a standalone product and as an ingredient across foodservice menus and retail channels. \nOur matcha delivers benefits that matter to your buyers:"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "692f369e8422850ed62d2bb9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Evergreen category demand</h3>",
+    "text": "Evergreen category demand"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "03656774-6edd-4e56-442b-6e7c5cd8dde5",
+   "text": {
+    "html": "<p class=\"paragraph-8\">health‑driven consumers seek matcha daily</p>",
+    "text": "health‑driven consumers seek matcha daily"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8f5d3eaa7499f6870e60"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Versatile applications</h3>",
+    "text": "Versatile applications"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70346a19-bd73-73d9-da4a-6d863bd308d4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">uitable for cafés, RTD bases, bakeries, snack lines</p>",
+    "text": "uitable for cafés, RTD bases, bakeries, snack lines"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941ae8a404997b8f7a73014"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Scalability</h3>",
+    "text": "Scalability"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ccd8b4d-ed6f-c6d3-d88e-5c197a238728",
+   "text": {
+    "html": "<p class=\"paragraph-8\">easy to order from 1 kg bags up to bulk pallets</p>",
+    "text": "easy to order from 1 kg bags up to bulk pallets"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b084",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8b40a99fbfa503a696ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b085",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Premium product perception</h3>",
+    "text": "Premium product perception"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b087",
+   "text": {
+    "html": "<p class=\"paragraph-8\">enhances menus and packaged goods alike</p>",
+    "text": "enhances menus and packaged goods alike"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f162",
+   "text": {
+    "html": "<h2 class=\"heading-12-new\">Bulk Matcha Formats for <span class=\"text-span-54\" data-w-id=\"1535b799-fb2b-f9ea-b5ca-1c983fc0327f\">Wholesale &amp; Foodservice</span></h2>",
+    "text": "Bulk Matcha Formats for Wholesale & Foodservice"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16c",
+   "text": {
+    "html": "<h2 class=\"heading-17\">1kg <span class=\"text-span-50\" data-w-id=\"e0382fdc-94bf-e55c-ecf0-4fd16a3c0607\">Foil Bags</span></h2>",
+    "text": "1kg Foil Bags"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f170",
+   "text": {
+    "html": "<p class=\"text-custom-gray\"><strong class=\"bold-text-19\" data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a649\">Retail-ready, sealed pouches, ideal for B2B resale or internal packaging.<br data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a64b\"><br data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a64c\">‍<em data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a64e\">Best for:</em> Specialty distributors, horeca wholesalers, and retail chains.<br data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a651\"><br data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a652\">All formats meet international food safety and export standards, starting at 100kg per year.</strong></p>",
+    "text": "Retail-ready, sealed pouches, ideal for B2B resale or internal packaging.\n\n‍Best for: Specialty distributors, horeca wholesalers, and retail chains.\n\nAll formats meet international food safety and export standards, starting at 100kg per year."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f172",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Receive samples</a>",
+    "text": "Receive samples"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f177",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941ae8a404997b8f7a73014"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f179",
+   "text": {
+    "html": "<h2 class=\"heading-18\"><span class=\"text-span-55\" data-w-id=\"63f2e5a4-bdcd-8c19-8e86-a29b50d6ddab\">Bulk</span> Multi-Kilo Sacks</h2>",
+    "text": "Bulk Multi-Kilo Sacks"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17d",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Available in different sizes, packed to spec for manufacturing and co-packing workflows.<br data-w-id=\"ef8d95c2-be34-210b-64dd-6216ad8f8fe0\"><br data-w-id=\"c0805856-421b-8cdb-6652-13d8e1a170b0\">Best for: Blenders, co-packers, and industrial operations.</p>",
+    "text": "Available in different sizes, packed to spec for manufacturing and co-packing workflows.\n\nBest for: Blenders, co-packers, and industrial operations."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17f",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Talk to our product experts</a>",
+    "text": "Talk to our product experts"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f184",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941b474a13c9123aab751d0"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f186",
+   "text": {
+    "html": "<h2 class=\"heading-19\"><span class=\"text-span-56\" data-w-id=\"fe182071-3503-3da6-5cdc-5572782abebc\">Pallet-Scale</span> Shipments</h2>",
+    "text": "Pallet-Scale Shipments"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18a",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Custom-packed for global trade, export, or long-term storage.<br data-w-id=\"fcbd16ea-7ad5-a390-9832-dfa695456d56\"><br data-w-id=\"13cfd07a-534b-92b0-4f17-6ec5d28222c9\">Best for: Importers, fulfillment hubs, and international distribution.</p>",
+    "text": "Custom-packed for global trade, export, or long-term storage.\n\nBest for: Importers, fulfillment hubs, and international distribution."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18c",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Discuss your preferences</a>",
+    "text": "Discuss your preferences"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Trusted by <span class=\"text-span-51\" data-w-id=\"cf866dde-c004-7794-0587-37fce8b2d00e\">Wholesale &amp; Distribution</span> Leaders</h2>",
+    "text": "Trusted by Wholesale & Distribution Leaders"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "13943303-1a41-511d-1edc-314c897687f2",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6940a990eb8283766e6b0a19"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-20\" data-w-id=\"be7f2bca-f35f-b6be-5e30-a908b30764b8\">Distributors &amp; Importers</strong></h3>",
+    "text": "Distributors & Importers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Sourcing matcha for B2B resale, horeca networks, and retail chains.</p>",
+    "text": "Sourcing matcha for B2B resale, horeca networks, and retail chains."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "697e12e7dad2f94fefa9d5e9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-21\" data-w-id=\"0a91b5e2-8f99-2f48-0f1a-cde0f74738a9\">Foodservice Wholesalers</strong></h3>",
+    "text": "Foodservice Wholesalers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Supplying cafés, restaurants, hotels, and catering groups.</p>",
+    "text": "Supplying cafés, restaurants, hotels, and catering groups."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "71f21428-c832-ba46-9e48-80c90470020d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "67fbd346f52442df00535fef"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"6fbeb4d9-7254-1dfb-5cbd-0f3590050d7a\">Ingredient Traders &amp; Co-Packers</strong></h3>",
+    "text": "Ingredient Traders & Co-Packers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Blending matcha into beverages, nutrition products, or packaged foods.</p>",
+    "text": "Blending matcha into beverages, nutrition products, or packaged foods."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fc",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941b3f0a653bb896da8752a"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fd",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"1ef759ca-171a-3bb1-be05-1cd016eda3fe\">Global Export &amp; Private Label Networks</strong></h3>",
+    "text": "Global Export & Private Label Networks"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda400",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Requiring certified, traceable matcha with lab-tested consistency.</p>",
+    "text": "Requiring certified, traceable matcha with lab-tested consistency."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-72-copy\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Speak With a Specialist</a>",
+    "text": "Speak With a Specialist"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Why Foodservice &amp; Distribution Brands Work With Us</h2>",
+    "text": "Why Foodservice & Distribution Brands Work With Us"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong class=\"bold-text-23\" data-w-id=\"2cb6e866-5581-cd14-7f59-0a7f8ad3f66c\">Offer high-performing matcha grades trusted by distributors and foodservice buyers.</strong><br data-w-id=\"79842fc0-3e60-336e-5da9-5dbb303d4b27\">‍</div>",
+    "text": "Offer high-performing matcha grades trusted by distributors and foodservice buyers.\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "42b9cf20-50a5-3718-d869-84c44f6d21e7",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong data-w-id=\"8414731f-164f-e729-b2fa-70d9de5bc405\">Flexible Packaging - </strong>1kg bags or bulk sacks, scalable supply<br data-w-id=\"671fb13f-3ff0-8d86-c052-26da8bbe1d1d\"><strong data-w-id=\"9a6c1c1c-ada0-cc34-a604-3e0e82aefab7\">Global Sourcing - </strong>Japan and China origins, multiple regions<strong data-w-id=\"2e91373e-113a-faca-37de-ed13e08f7944\"><br data-w-id=\"10dcd328-355d-6743-fb4b-c17d3a5167e8\">Compliance Support - </strong>Documentation, lab tests, export docs<strong data-w-id=\"5902b928-1749-c53e-8ae3-42c6af803f4a\"><br data-w-id=\"61bd3dab-0778-990b-0eb2-3981320f911c\">Industry Knowledge - </strong>We advise, not just supply<strong data-w-id=\"d7171fb9-3e4b-4eed-056d-b1795093ff2d\"><br data-w-id=\"77630041-fb63-c784-adf9-6fe8e351dc9f\">Minimums That Make Sense - </strong>Starting from 100kg/year<br data-w-id=\"c1f87cec-34e2-4448-b0e5-9ce76785c833\"></div>",
+    "text": "Flexible Packaging - 1kg bags or bulk sacks, scalable supply\nGlobal Sourcing - Japan and China origins, multiple regions\nCompliance Support - Documentation, lab tests, export docs\nIndustry Knowledge - We advise, not just supply\nMinimums That Make Sense - Starting from 100kg/year\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"67ff9e333b0c6a5a7ab81f3d\">Check our products</a>",
+    "text": "Check our products"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b73",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a0742b9f10e5955e83738"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\"><strong class=\"bold-text-18\" data-w-id=\"ab73c94b-57d3-d99d-9372-b3a98762a615\">Why Matcha Works for Distribution &amp; Foodservice Supply</strong></span></h1>",
+    "text": "Why Matcha Works for Distribution & Foodservice Supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">Matcha has evolved into a high-demand category across foodservice, retail, and hospitality channels. For distributors and foodservice suppliers, it offers a scalable, shelf-stable product with strong commercial potential.<br data-w-id=\"f1b7a344-bc5a-1f26-a568-2c3cc0a52c71\"><br data-w-id=\"351a114d-354a-a0b1-a928-dff9fd24ac0e\">‍<strong data-w-id=\"85af625b-286b-99aa-2a8d-3009f5f14e3b\">Reliable wholesale matcha supports distribution success through:</strong><br data-w-id=\"5ede8b7d-a48b-5736-f40b-cc4bc00bc12c\"><br data-w-id=\"7414f696-a73e-70d5-7b06-8fc0f525e2fd\"><strong data-w-id=\"b4ec3f56-336e-99e0-8278-2cf1385b4be6\">Consistent quality &amp; specifications </strong>– uniform color, taste, and performance across batches<strong data-w-id=\"723e76c6-d14c-8e2d-7cd1-88c846756f85\"><br data-w-id=\"856d3fa6-8c16-485a-1509-637a034c48c6\">Clean-label appeal </strong>– single-ingredient, plant-based, and easy to position in premium channels<strong data-w-id=\"e8c1238d-f7c1-539a-ae1e-bd212af0440c\"><br data-w-id=\"81ade995-d332-6949-0274-eeae2e76f726\">Strong market demand </strong>– growing adoption in cafés, restaurants, and retail assortments<strong data-w-id=\"c620d773-3500-1e0f-60ac-f02dbecfd47b\"><br data-w-id=\"0f670489-9c6d-9558-8153-638cf8dd111e\">Logistics-friendly formats</strong> – available in 1kg bags or bulk packaging for efficient handling<strong data-w-id=\"0aaaa93b-616d-1f3d-64fe-9d69a5a44024\"><br data-w-id=\"b974ec47-c133-c3cd-1acc-8c109de36b24\">Versatile applications </strong>– suitable for beverage service, culinary use, and B2B resale<br data-w-id=\"b79cceb3-9ea6-8e28-ce7f-30afa4b0f0ac\"></div>",
+    "text": "Matcha has evolved into a high-demand category across foodservice, retail, and hospitality channels. For distributors and foodservice suppliers, it offers a scalable, shelf-stable product with strong commercial potential.\n\n‍Reliable wholesale matcha supports distribution success through:\n\nConsistent quality & specifications – uniform color, taste, and performance across batches\nClean-label appeal – single-ingredient, plant-based, and easy to position in premium channels\nStrong market demand – growing adoption in cafés, restaurants, and retail assortments\nLogistics-friendly formats – available in 1kg bags or bulk packaging for efficient handling\nVersatile applications – suitable for beverage service, culinary use, and B2B resale\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact our team</a>",
+    "text": "Contact our team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\"><span class=\"text-span-52\" data-w-id=\"d1ff9712-094a-8a0c-4315-6489d262d584\">Best Matcha</span> for <strong data-w-id=\"d3257ec0-8123-abc0-429d-637abd15e9f3\">Distributors, Importers &amp; Foodservice Suppliers</strong></h2>",
+    "text": "Best Matcha for Distributors, Importers & Foodservice Suppliers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa93",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa95",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa97",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa99\">0</span> of <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa9c\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1b",
+   "text": {
+    "html": "<div class=\"heading-xsmall-3\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1d",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb1f\"><strong data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb20\"><br data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb21\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9355",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e82916d4b1f7ccfd62a39"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Matcha</div>",
+    "text": "Ceremonial Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9359",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-C</div>",
+    "text": "PMP-M-CE-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9360",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha</div>",
+    "text": "Premium Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9364",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-C</div>",
+    "text": "PMP-M-LA-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936b",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Matcha </div>",
+    "text": "Culinary Matcha "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936f",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-C</div>",
+    "text": "PMP-M-CU-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c25",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Frequently Asked Questions</h2>",
+    "text": "Frequently Asked Questions"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2c",
+   "text": {
+    "html": "<div class=\"faq-q-text\">What matcha packaging formats are available for wholesale?</div>",
+    "text": "What matcha packaging formats are available for wholesale?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2f",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">We offer different sizes sacks, and full-pallet shipments for distributors.</p>",
+    "text": "We offer different sizes sacks, and full-pallet shipments for distributors."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c36",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"02f79e4c-2b25-afc8-d2a4-fd109c696c37\">What’s the minimum order?</strong></div>",
+    "text": "What’s the minimum order?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c3a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Our program starts from 100kg/year, with flexible batch options.</p>",
+    "text": "Our program starts from 100kg/year, with flexible batch options."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c41",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Can we get lab documentation?</div>",
+    "text": "Can we get lab documentation?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c44",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — COAs, heavy metal reports, and microbiology test results are available.</p>",
+    "text": "Yes — COAs, heavy metal reports, and microbiology test results are available."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c51",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Can you help with co-packing or repackaging?</div>",
+    "text": "Can you help with co-packing or repackaging?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c54",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">We don’t co-pack ourselves, but we advise on how to integrate with a local co-packer efficiently.</p>",
+    "text": "We don’t co-pack ourselves, but we advise on how to integrate with a local co-packer efficiently."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c5e",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Do you support export logistics?</div>",
+    "text": "Do you support export logistics?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c61",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — we regularly ship to North America, Europe, and the Middle East with all required documentation.</p>",
+    "text": "Yes — we regularly ship to North America, Europe, and the Middle East with all required documentation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "447c0859-c953-0918-b00e-374cdecf98cc",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"c533dfc0-553a-5a1c-e4fa-c9e2e36b0bf0\">Is your bulk matcha suitable for redistribution and foodservice supply chains?</strong></div>",
+    "text": "Is your bulk matcha suitable for redistribution and foodservice supply chains?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "447c0859-c953-0918-b00e-374cdecf98cf",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes. Our <a data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"951a10f6-aa7c-647f-32f1-905ec444d49b\">certified matcha ingredient supply</a> is designed for distributors and foodservice suppliers who require consistent quality, traceability, and dependable availability across multiple customers and markets.</p>",
+    "text": "Yes. Our certified matcha ingredient supply is designed for distributors and foodservice suppliers who require consistent quality, traceability, and dependable availability across multiple customers and markets."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Ready to get <span class=\"text-span-47\" data-w-id=\"af4300d8-917e-1505-83d8-8a5101132418\">started</span>?</div>",
+    "text": "Ready to get started?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today.</p>",
+    "text": "We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Get in touch with our sales team</a>",
+    "text": "Get in touch with our sales team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a26",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a518347c3ed2d8200ede8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a28",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51840e630e2044d647be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183ca567cd974b62e65"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183627011d688ff9aa6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51847545d8c6adfa19a5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a30",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d2578d8cc6f8e7561fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a32",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36af2799da49c0e47c"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a34",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d37af2799da49c0e538"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a36",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d3654de4503d53f89fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a38",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d366cf7308d4d7f2413"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2d6d2660-68fa-5a9b-057b-d727ff1b9e5b",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\">Distribution application</div>",
+    "text": "Distribution application"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2d6d2660-68fa-5a9b-057b-d727ff1b9e5d",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">EU distribution supply for Bidfood</h2>",
+    "text": "EU distribution supply for Bidfood"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2d6d2660-68fa-5a9b-057b-d727ff1b9e5f",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Pure Matcha Partners supplies Bidfood through a Dutch EU warehouse. This provides a practical supply route for distributors and foodservice partners purchasing matcha for their professional customer network.</p>",
+    "text": "Pure Matcha Partners supplies Bidfood through a Dutch EU warehouse. This provides a practical supply route for distributors and foodservice partners purchasing matcha for their professional customer network."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2d6d2660-68fa-5a9b-057b-d727ff1b9e66",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><span class=\"text-size-small text-weight-semibold\" data-w-id=\"2d6d2660-68fa-5a9b-057b-d727ff1b9e61\">Dutch EU warehouse  •  </span><span class=\"text-size-small text-weight-semibold\" data-w-id=\"2d6d2660-68fa-5a9b-057b-d727ff1b9e63\">Foodservice distribution  •  </span><span class=\"text-size-small text-weight-semibold\" data-w-id=\"2d6d2660-68fa-5a9b-057b-d727ff1b9e65\">B2B supply</span></div>",
+    "text": "Dutch EU warehouse  •  Foodservice distribution  •  B2B supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 101
+  },
+  {
+   "limit": 100,
+   "offset": 100,
+   "total": 101
+  }
+ ]
+}

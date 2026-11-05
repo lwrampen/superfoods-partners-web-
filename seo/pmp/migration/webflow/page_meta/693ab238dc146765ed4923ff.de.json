@@ -1,0 +1,27 @@
+{
+ "label": "m_693ab238dc146765ed4923ff_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "693ab238dc146765ed4923ff",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "collectionId": "693ab238dc146765ed4923f5",
+  "title": "Blog Writer Details Template",
+  "slug": "detail_blog-writer-detail",
+  "createdOn": "2025-12-11T11:59:52.999Z",
+  "lastUpdated": "2025-12-11T11:59:53.422Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {},
+  "openGraph": {
+   "titleCopied": false,
+   "descriptionCopied": false,
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/blog-writer-detail",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

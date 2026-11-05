@@ -1,0 +1,161 @@
+{
+ "pageId": "6892228a6e6bc64e6d77480d",
+ "locale": "en",
+ "lastUpdated": "2025-11-25T19:40:58.471Z",
+ "total": 19,
+ "nodeCount": 19,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "1268673d-6c30-f8e2-429c-f55739913a71",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a2d",
+   "text": {
+    "html": "<h2 class=\"h2-3\">Complaint <span class=\"text-span-14\" data-w-id=\"8682b878-b662-fbf1-89d0-0df93d327202\">form</span></h2>",
+    "text": "Complaint form"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a30",
+   "text": {
+    "html": "<p class=\"paragraph-13\">Do you have a complaint about on of our products?&nbsp;<br data-w-id=\"3c4475c3-a8f4-59be-b7c6-fc52bf796d28\">Please fill in the form on the right. </p>",
+    "text": "Do you have a complaint about on of our products? \nPlease fill in the form on the right. "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a0b",
+   "text": {
+    "html": "<label for=\"Ful-name\" class=\"input-label\">Full name*</label>",
+    "text": "Full name*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "cf11d346-ce33-184f-0299-06516e902a0d",
+   "placeholder": "First  + last name",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a0f",
+   "text": {
+    "html": "<label for=\"Company-name\" class=\"input-label\">Company name</label>",
+    "text": "Company name"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "cf11d346-ce33-184f-0299-06516e902a11",
+   "placeholder": "Business",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "696c6011-3e24-788b-b772-ab00c9872505",
+   "text": {
+    "html": "<label for=\"Email\" class=\"input-label\">Email*</label>",
+    "text": "Email*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "696c6011-3e24-788b-b772-ab00c9872507",
+   "placeholder": "name@mail.com",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a18",
+   "text": {
+    "html": "<label for=\"Phone\" class=\"input-label\">Phone*</label>",
+    "text": "Phone*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "cf11d346-ce33-184f-0299-06516e902a1a",
+   "placeholder": "+ 31 6 00 00 00 00",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a14",
+   "text": {
+    "html": "<label for=\"Batch-number\" class=\"input-label\">Batch number (starts with pmp-)</label>",
+    "text": "Batch number (starts with pmp-)"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "cf11d346-ce33-184f-0299-06516e902a16",
+   "placeholder": "Batch number",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a21",
+   "text": {
+    "html": "<label for=\"About-there-company\" class=\"input-label\">About the compaint</label>",
+    "text": "About the compaint"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "cf11d346-ce33-184f-0299-06516e902a23",
+   "placeholder": "Describe the complaint",
+   "attributes": {}
+  },
+  {
+   "type": "submit-button",
+   "id": "cf11d346-ce33-184f-0299-06516e902a25",
+   "waitingText": "Please wait...",
+   "value": "Send",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a27",
+   "text": {
+    "html": "<div>Thank you! <br data-w-id=\"d0d8787f-d6c2-827e-7c6b-f36ceaf01595\">Your messages has been received!</div>",
+    "text": "Thank you! \nYour messages has been received!"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a2a",
+   "text": {
+    "html": "<div>Oops! Please try sending again.</div>",
+    "text": "Oops! Please try sending again."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "b755f96b-a291-c21a-6dd7-dfcc50fbaa78",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 19
+  }
+ ]
+}

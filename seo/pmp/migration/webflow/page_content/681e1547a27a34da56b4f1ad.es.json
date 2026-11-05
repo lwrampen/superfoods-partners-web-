@@ -1,0 +1,241 @@
+{
+ "pageId": "681e1547a27a34da56b4f1ad",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 25,
+ "nodeCount": 25,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"288e6c23-6d7b-d835-1579-ca256eb9d603\">Matcha para Oficinas y Espacios Corporativos</strong></h1>",
+    "text": "Matcha para Oficinas y Espacios Corporativos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Mantenga a su equipo lleno de energía, concentrado y saludable con matcha japonés de primera calidad, la mejora perfecta para la oferta de café y té de su oficina. <br data-w-id=\"d9be2629-4049-b99b-7727-1dbf70b20fde\"><br data-w-id=\"b56363f3-6420-eadf-6b08-fc30641c0972\">Desde agencias creativas hasta espacios de coworking, el matcha favorece la productividad con energía limpia y concentración tranquila, sin el bajón de la cafeína.</p>",
+    "text": "Mantenga a su equipo lleno de energía, concentrado y saludable con matcha japonés de primera calidad, la mejora perfecta para la oferta de café y té de su oficina. \n\nDesde agencias creativas hasta espacios de coworking, el matcha favorece la productividad con energía limpia y concentración tranquila, sin el bajón de la cafeína."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios </a>",
+    "text": "Obtener precios "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">El mejor match(a) para</h2>",
+    "text": "El mejor match(a) para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Catering para oficinas</h3>",
+    "text": "Catering para oficinas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha diario junto con café</p>",
+    "text": "Matcha diario junto con café"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Solicitar muestras</a>",
+    "text": "Solicitar muestras"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Cafeterías universitarias</h3>",
+    "text": "Cafeterías universitarias"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Energía saludable para los estudiantes</p>",
+    "text": "Energía saludable para los estudiantes"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551332",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Salas de exposición</h3>",
+    "text": "Salas de exposición"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Experiencia premium para los huéspedes</p>",
+    "text": "Experiencia premium para los huéspedes"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700212",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Por qué añadir <span class=\"text-span-2\" data-w-id=\"88cf36a3-04af-c82e-b4e2-b67ac6466191\">Matcha </span>a tu menú</h2>",
+    "text": "Por qué añadir Matcha a tu menú"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\">✔️ <strong data-w-id=\"c185fc09-a345-55ac-37c9-ea770549c26b\">Aumenta la concentración y el rendimiento</strong>: energía natural con L-teanina para una mayor claridad mental. <br data-w-id=\"72a87e4f-4eaa-c7d6-15a4-ee02a8135bc9\">✔️ <strong data-w-id=\"f11983a7-0384-feba-5ee8-19dab4745fb0\">Beneficio saludable para los empleados</strong>: vegano, rico en antioxidantes y centrado en el bienestar. <br data-w-id=\"3d069213-c560-dbf4-9cd8-b3755755759b\">✔️ <strong data-w-id=\"0456edff-09e2-03f5-6500-a011958528f8\">Moderno e inclusivo</strong>: se adapta a todos los estilos de vida: sin lácteos, sin gluten, a base de plantas. <br data-w-id=\"783393c9-1e3e-1411-b690-dfe43db27b08\">✔️ <strong data-w-id=\"b6ba9466-005d-0598-f40e-398b4cac29fe\">Cultura positiva en la oficina</strong>: demuestre a su equipo que se preocupa por ellos con mejores bebidas.</div>",
+    "text": "✔️ Aumenta la concentración y el rendimiento: energía natural con L-teanina para una mayor claridad mental. \n✔️ Beneficio saludable para los empleados: vegano, rico en antioxidantes y centrado en el bienestar. \n✔️ Moderno e inclusivo: se adapta a todos los estilos de vida: sin lácteos, sin gluten, a base de plantas. \n✔️ Cultura positiva en la oficina: demuestre a su equipo que se preocupa por ellos con mejores bebidas."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\">Por qué </span>Pure <span class=\"text-span-2\" data-w-id=\"09ed1faa-f038-8aeb-9737-f67d5cc69b63\">Matcha </span>Partners</h1>",
+    "text": "Por qué Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">✔️ <strong data-w-id=\"03ff397f-19ec-9e82-13ad-4321f0f3560a\">Matcha premium para profesionales</strong> – alta calidad y fácil de preparar. <br data-w-id=\"caf0f6af-144a-91c2-52e2-962ffde311b5\">✔️ <strong data-w-id=\"03a6c0c7-dba0-b074-b326-dc648accb2bb\">Proveedor B2B de confianza</strong> – soluciones flexibles para oficinas de todos los tamaños. <br data-w-id=\"99da27d2-5d03-f319-ec13-51dd94db0af9\">✔️ <strong data-w-id=\"42f043f8-7c29-d2cb-3635-9f0d08a7cbca\">Cultura laboral más saludable</strong> – favorece la energía, la concentración y el bienestar de los empleados. <br data-w-id=\"3b5e582c-bb7c-34f4-a5bf-84260a0760f2\">✔️ <strong data-w-id=\"10e1fa81-d3e7-3363-95ef-5840ebfe0694\">Configuración sencilla </strong>– te ayudamos a empezar con las herramientas y mezclas adecuadas.</div>",
+    "text": "✔️ Matcha premium para profesionales – alta calidad y fácil de preparar. \n✔️ Proveedor B2B de confianza – soluciones flexibles para oficinas de todos los tamaños. \n✔️ Cultura laboral más saludable – favorece la energía, la concentración y el bienestar de los empleados. \n✔️ Configuración sencilla – te ayudamos a empezar con las herramientas y mezclas adecuadas."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Conectar con ventas</a>",
+    "text": "Conectar con ventas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\">Los mejores productos para <span class=\"text-span-15\" data-w-id=\"4ec0c45c-9ff9-cdbe-e9d9-26e55f039fcf\">Oficinas y Espacios Corporativos</span></h2>",
+    "text": "Los mejores productos para Oficinas y Espacios Corporativos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha Convencional</div>",
+    "text": "Premium Matcha Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Ceremonial Convencional</div>",
+    "text": "Premium Ceremonial Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Listo para empezar?</div>",
+    "text": "Listo para empezar?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Déjenos ayudarle a introducir el matcha en su lugar de trabajo. Tanto si gestiona la sede central de una empresa como una cocina compartida, le recomendaremos la solución de matcha perfecta para dar energía a su equipo y mejorar la oferta de su oficina.</p>",
+    "text": "Déjenos ayudarle a introducir el matcha en su lugar de trabajo. Tanto si gestiona la sede central de una empresa como una cocina compartida, le recomendaremos la solución de matcha perfecta para dar energía a su equipo y mejorar la oferta de su oficina."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 25
+  }
+ ]
+}

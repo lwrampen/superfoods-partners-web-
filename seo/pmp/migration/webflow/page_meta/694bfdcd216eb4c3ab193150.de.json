@@ -1,0 +1,30 @@
+{
+ "label": "m_694bfdcd216eb4c3ab193150_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "694bfdcd216eb4c3ab193150",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Mulberry Matcha - Japan organic",
+  "slug": "mulberry-matcha-japan-organic",
+  "createdOn": "2025-12-24T14:50:53.429Z",
+  "lastUpdated": "2026-08-02T15:49:28.216Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Maulbeere Matcha Pulver Großhandel | Koffeinfrei | Pure Matcha Partners",
+   "description": "Premium Maulbeerblattpulver aus Japan. Von Natur aus koffeinfrei mit weichem, karamelligem Geschmack. B2B Bulk-Versorgung ab 1 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/mulberry-matcha-japan-organic",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

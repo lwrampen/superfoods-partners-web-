@@ -1,0 +1,61 @@
+{
+ "pageId": "6815d29a6e238ea1580ca68f",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 5,
+ "nodeCount": 5,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1db7",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Accesorios</h2>",
+    "text": "Accesorios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d2465674-2090-75a1-5764-9a64bba68eb0",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\">Todos los accesorios necesarios para preparar siempre el mejor matcha.<br data-w-id=\"d2465674-2090-75a1-5764-9a64bba68eb5\"></p>",
+    "text": "Todos los accesorios necesarios para preparar siempre el mejor matcha.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "52990fd2-518b-06ed-3d77-593d5877f8c2",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Batidor</div>",
+    "text": "Batidor"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f77285ca-ee97-3912-02f3-155d8e1e5182",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Cucharada de 2 gramos</div>",
+    "text": "Cucharada de 2 gramos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bd07a405-0157-1d58-721e-4df74d811dfb",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Cuenco</div>",
+    "text": "Cuenco"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 5
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "label": "collection_list",
+ "action": "get_collection_list",
+ "result": {
+  "collections": [
+   {
+    "id": "6798bd1e4b234bad93cdab3d",
+    "displayName": "Blogs",
+    "singularName": "Blog",
+    "slug": "blogs",
+    "createdOn": "2024-12-14T06:08:18.708Z",
+    "lastUpdated": "2025-12-17T03:34:29.240Z"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab7c",
+    "displayName": "Blogs Categories",
+    "singularName": "Blogs Category",
+    "slug": "blog-categories",
+    "createdOn": "2024-12-18T05:41:54.475Z",
+    "lastUpdated": "2025-12-11T11:57:43.258Z"
+   },
+   {
+    "id": "681b10aa58a45d24e32f3e9d",
+    "displayName": "Recipes",
+    "singularName": "Recipe",
+    "slug": "recipe",
+    "createdOn": "2025-05-07T07:50:02.515Z",
+    "lastUpdated": "2025-12-17T03:55:35.111Z"
+   },
+   {
+    "id": "693ab238dc146765ed4923f5",
+    "displayName": "Blog Writer Details",
+    "singularName": "Blog Writer Detail",
+    "slug": "blog-writer-detail",
+    "createdOn": "2025-12-11T11:59:52.773Z",
+    "lastUpdated": "2025-12-11T12:00:16.931Z"
+   }
+  ]
+ }
+}

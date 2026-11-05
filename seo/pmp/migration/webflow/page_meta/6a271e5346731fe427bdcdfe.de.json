@@ -1,0 +1,29 @@
+{
+ "label": "m_6a271e5346731fe427bdcdfe_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a271e5346731fe427bdcdfe",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Bulk Matcha Supplier SP",
+  "slug": "bulk-matcha-supplier-sp",
+  "createdOn": "2026-06-08T19:56:03.538Z",
+  "lastUpdated": "2026-06-09T16:35:55.240Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Proveedor de Matcha al Por Mayor en España | Pure Matcha Partners",
+   "description": "Proveedor certificado de matcha a granel para España. Matcha en polvo para marcas de suplementos, fabricantes de bebidas y distribuidores. Certificado ecológico EU."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/bulk-matcha-supplier-sp",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

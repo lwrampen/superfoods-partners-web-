@@ -1,0 +1,30 @@
+{
+ "label": "m_67ffaaf430ca209e60d9dea7_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ffaaf430ca209e60d9dea7",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Hojicha",
+  "slug": "hojicha",
+  "createdOn": "2025-04-16T13:04:52.487Z",
+  "lastUpdated": "2026-10-29T07:42:43.833Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Hojicha Powder Wholesale | Japanese Roasted Green Tea",
+   "description": "Bulk hojicha powder from Japan, organic and conventional. Warm, nutty roasted green tea for lattes, desserts and drinks. B2B supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/collections/hojicha",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

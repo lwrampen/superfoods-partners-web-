@@ -1,0 +1,95 @@
+{
+ "label": "k_1a834969-357f-5874-547c-66ae3d92c40d_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+  "nodes": [
+   {
+    "type": "text",
+    "id": "1a834969-357f-5874-547c-66ae3d92c40e",
+    "text": {
+     "html": "<h2 class=\"heading-8\">Certified Quality You Can Trust</h2>",
+     "text": "Certified Quality You Can Trust"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "1a834969-357f-5874-547c-66ae3d92c410",
+    "text": {
+     "html": "<div class=\"text-block-152\">Our matcha is trusted by global brands thanks to our rigorous quality control and internationally recognized certifications. Whether you require matcha for beverages, supplements, or food production, we meet the highest industry standards for safety, traceability, and consistency.We source directly from certified producers in Japan and China, ensuring full transparency across the supply chain. Our matcha is tested for heavy metals, pesticides, and microbiological safety, and meets or exceeds global compliance standards.<br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c412\"><br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c413\">‍<strong data-w-id=\"1a834969-357f-5874-547c-66ae3d92c415\">Certifications include:<br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c417\"></strong><span class=\"text-span-41\" data-w-id=\"1a834969-357f-5874-547c-66ae3d92c418\">JAS (Japanese Agricultural Standard)<br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c41a\">EU Organic<br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c41c\">USDA Organic<br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c41e\">HACCP &amp; FSSC 22000<br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c420\">Independent Lab Testing<br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c422\">Kosher Certification</span><br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c424\"><br data-w-id=\"1a834969-357f-5874-547c-66ae3d92c425\">🟢 <a class=\"link-7\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab07\" data-w-id=\"1a834969-357f-5874-547c-66ae3d92c427\">Learn more about our quality process</a> or <a class=\"link-6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\" data-w-id=\"1a834969-357f-5874-547c-66ae3d92c42a\">request lab reports</a> for your compliance needs.</div>",
+     "text": "Our matcha is trusted by global brands thanks to our rigorous quality control and internationally recognized certifications. Whether you require matcha for beverages, supplements, or food production, we meet the highest industry standards for safety, traceability, and consistency.We source directly from certified producers in Japan and China, ensuring full transparency across the supply chain. Our matcha is tested for heavy metals, pesticides, and microbiological safety, and meets or exceeds global compliance standards.\n\n‍Certifications include:\nJAS (Japanese Agricultural Standard)\nEU Organic\nUSDA Organic\nHACCP & FSSC 22000\nIndependent Lab Testing\nKosher Certification\n\n🟢 Learn more about our quality process or request lab reports for your compliance needs."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1a834969-357f-5874-547c-66ae3d92c430",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea21581d4208ec8f17518"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1a834969-357f-5874-547c-66ae3d92c431",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea21598fdd4301d7b1ce1"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1a834969-357f-5874-547c-66ae3d92c432",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea2157bd06c2e84c098b5"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1a834969-357f-5874-547c-66ae3d92c433",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea215ca7a638679f1779d"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1a834969-357f-5874-547c-66ae3d92c434",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea215a21c1593fd09495d"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1a834969-357f-5874-547c-66ae3d92c435",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea259be0208060e99a8d2"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1a834969-357f-5874-547c-66ae3d92c436",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea21538a27a9eb4f50951"
+    },
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 9
+  }
+ }
+}

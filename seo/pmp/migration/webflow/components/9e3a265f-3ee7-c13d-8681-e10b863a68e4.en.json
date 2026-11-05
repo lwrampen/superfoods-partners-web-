@@ -1,0 +1,48 @@
+{
+ "label": "k_9e3a265f-3ee7-c13d-8681-e10b863a68e4_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "9e3a265f-3ee7-c13d-8681-e10b863a68e4",
+  "nodes": [
+   {
+    "type": "image",
+    "id": "9e3a265f-3ee7-c13d-8681-e10b863a68e7",
+    "image": {
+     "alt": "__wf_reserved_decorative"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "9e3a265f-3ee7-c13d-8681-e10b863a68e9",
+    "image": {
+     "alt": "__wf_reserved_decorative"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "9e3a265f-3ee7-c13d-8681-e10b863a68f0",
+    "text": {
+     "html": "<div class=\"button-text\">View Full Story</div>",
+     "text": "View Full Story"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "9e3a265f-3ee7-c13d-8681-e10b863a68f2",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab3f"
+    },
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 4
+  }
+ }
+}

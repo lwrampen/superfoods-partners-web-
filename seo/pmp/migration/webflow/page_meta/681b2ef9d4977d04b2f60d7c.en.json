@@ -1,0 +1,28 @@
+{
+ "label": "m_681b2ef9d4977d04b2f60d7c_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681b2ef9d4977d04b2f60d7c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Privacy policy",
+  "slug": "privacy",
+  "createdOn": "2025-05-07T09:59:21.795Z",
+  "lastUpdated": "2026-08-02T15:08:39.271Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Privacy"
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/privacy",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

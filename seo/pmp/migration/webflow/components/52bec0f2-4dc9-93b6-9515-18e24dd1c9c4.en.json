@@ -1,0 +1,644 @@
+{
+ "label": "k_52bec0f2-4dc9-93b6-9515-18e24dd1c9c4_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+  "nodes": [
+   {
+    "type": "image",
+    "id": "21e8b944-51de-bf91-678c-2df6f958d2e1",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "694bca96da0cff42fc55863b"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6ff1386f-e265-ea68-90ac-b69f9003f1ba",
+    "text": {
+     "html": "<div class=\"text-block-151\">Bulk supply</div>",
+     "text": "Bulk supply"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "406a1a54-e7a1-1949-f805-3416b21045ba",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "694bc98225c85358ea51c58c"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "406a1a54-e7a1-1949-f805-3416b21045bb",
+    "text": {
+     "html": "<div class=\"text-block-151\">Worldwide shipping</div>",
+     "text": "Worldwide shipping"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "fab54a36-1fe2-6e10-879e-5aa8b19c0d72",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "694bc9e6a3156cbb16677fb0"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "fab54a36-1fe2-6e10-879e-5aa8b19c0d73",
+    "text": {
+     "html": "<div class=\"text-block-151\">Lab tested products</div>",
+     "text": "Lab tested products"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337500",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6942ffb7653aeab45d106253"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337510",
+    "text": {
+     "html": "<div class=\"single-menu-item\">Products</div>",
+     "text": "Products"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337512",
+    "text": {
+     "html": "<div class=\"text-block-147\">^</div>",
+     "text": "^"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d5333751b",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6800dffb7d0e252bd38c527e"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d5333751d",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">All products</div>",
+     "text": "All products"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d5333751f",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Full overview of our collection</p>",
+     "text": "Full overview of our collection"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337522",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67ffb391031b467de34d4abb"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337524",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Ceremonial Matcha</div>",
+     "text": "Ceremonial Matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337526",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">The best quality for teas</p>",
+     "text": "The best quality for teas"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337529",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6800e0c74fe995504603f188"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d5333752b",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Latte Matcha</div>",
+     "text": "Latte Matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d5333752d",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">The perfect grade for lattes</p>",
+     "text": "The perfect grade for lattes"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "8734ad29-61c1-045f-7485-f5a6c1d9f505",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6800e18a542eb087d8186384"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8734ad29-61c1-045f-7485-f5a6c1d9f507",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Culinary Matcha</div>",
+     "text": "Culinary Matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8734ad29-61c1-045f-7485-f5a6c1d9f509",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">For baking and cooking</p>",
+     "text": "For baking and cooking"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "253e004c-89cc-3e5e-2641-caf2b230edf6",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67ffb3647e8369e7b26ef8a2"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "253e004c-89cc-3e5e-2641-caf2b230edf8",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Hojicha</div>",
+     "text": "Hojicha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "253e004c-89cc-3e5e-2641-caf2b230edfa",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">The latest trend of tea</p>",
+     "text": "The latest trend of tea"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "d91e245d-ca1a-95bf-3f9a-fe31476c5e87",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6a2a8fce41c27b6e8a0a74b8"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "d91e245d-ca1a-95bf-3f9a-fe31476c5e89",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Specials</div>",
+     "text": "Specials"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "d91e245d-ca1a-95bf-3f9a-fe31476c5e8b",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Ube and other tea powders</p>",
+     "text": "Ube and other tea powders"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "38dd88fc-2c19-ee99-c165-25f16d0b8eec",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6800e2e45cf3046cc1d58bce"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "38dd88fc-2c19-ee99-c165-25f16d0b8eee",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Accessories</div>",
+     "text": "Accessories"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "38dd88fc-2c19-ee99-c165-25f16d0b8ef0",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">All you need to make matcha</p>",
+     "text": "All you need to make matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b51",
+    "text": {
+     "html": "<div class=\"single-menu-item\">Who we serve</div>",
+     "text": "Who we serve"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b53",
+    "text": {
+     "html": "<div class=\"text-block-148\">^</div>",
+     "text": "^"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b5d",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "694ffd0fe6db04c47f514a30"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b5f",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Food &amp; Beverage Brands</div>",
+     "text": "Food & Beverage Brands"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b61",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Bulk Matcha Ingredient Supply</p>",
+     "text": "Bulk Matcha Ingredient Supply"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "fd35f47f-c3a3-d452-32a4-207ffc5762a8",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "698dcb02b12c39ab8e1ba6f3"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "fd35f47f-c3a3-d452-32a4-207ffc5762aa",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Cafés &amp; Hospitality</div>",
+     "text": "Cafés & Hospitality"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "fd35f47f-c3a3-d452-32a4-207ffc5762ac",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Wholesale matcha for coffee / matcha shops</p>",
+     "text": "Wholesale matcha for coffee / matcha shops"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b64",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6921dd069993963846cc85e4"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b66",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Private Label</div>",
+     "text": "Private Label"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b68",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Private Label &amp; White Label Matcha</p>",
+     "text": "Private Label & White Label Matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b6b",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "697e12e7dad2f94fefa9d5e9"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b6d",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Distribution &amp; Foodservice suppliers</div>",
+     "text": "Distribution & Foodservice suppliers"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b6f",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Wholesale &amp; Bulk Matcha Programs</p>",
+     "text": "Wholesale & Bulk Matcha Programs"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b72",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "698d9554ac3bc384e7feb82e"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b74",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Product Developers &amp; Co-packers</div>",
+     "text": "Product Developers & Co-packers"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "0647f936-658a-3100-2b39-6d03885c0b76",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Bulk Matcha for Manufacturing &amp; Formulation</p>",
+     "text": "Bulk Matcha for Manufacturing & Formulation"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "88132a10-092e-5c63-f40e-d67bf80575bf",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "698ec16fdaccacaa78d06561"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "88132a10-092e-5c63-f40e-d67bf80575c1",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Supplement &amp; Nutraceutical Brands</div>",
+     "text": "Supplement & Nutraceutical Brands"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "88132a10-092e-5c63-f40e-d67bf80575c3",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Bulk matcha powder for supplement brands</p>",
+     "text": "Bulk matcha powder for supplement brands"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f3577482",
+    "text": {
+     "html": "<div class=\"single-menu-item\">About</div>",
+     "text": "About"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f3577484",
+    "text": {
+     "html": "<div class=\"text-block-149\">^</div>",
+     "text": "^"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f357748e",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "680b9d36b250f0cac2a1bad6"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f3577490",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Our Story</div>",
+     "text": "Our Story"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f3577492",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Nice to Matcha</p>",
+     "text": "Nice to Matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f3577495",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "680b9d366cf7308d4d7f2413"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f3577497",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Matcha news</div>",
+     "text": "Matcha news"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f3577499",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Follow our blog</p>",
+     "text": "Follow our blog"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f357749c",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "680a51847545d8c6adfa19a5"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f357749e",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Recipes</div>",
+     "text": "Recipes"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f35774a0",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Get inspired</p>",
+     "text": "Get inspired"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f35774a3",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "680b9d2578d8cc6f8e7561fa"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f35774a5",
+    "text": {
+     "html": "<div class=\"text-200 bold color-neutral-800 mg-bottom-8px\">Contact</div>",
+     "text": "Contact"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dd6a65cd-2297-c775-c47c-6f35f35774a7",
+    "text": {
+     "html": "<p class=\"mg-bottom-0\">Let's get in touch</p>",
+     "text": "Let's get in touch"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "febffd16-1557-29fe-361a-747286ddc457",
+    "text": {
+     "html": "<div class=\"single-menu-item\">Bulk supply</div>",
+     "text": "Bulk supply"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d5333755c",
+    "text": {
+     "html": "<a class=\"btn-primary small\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact us</a>",
+     "text": "Contact us"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8b18bb33-2dc7-c660-44c3-9329ae9796a8",
+    "text": {
+     "html": "<div>No enabled locales found.</div>",
+     "text": "No enabled locales found."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "86d5b55c-79d0-f599-7279-a41be8680dff",
+    "text": {
+     "html": "<div>No enabled locales found.</div>",
+     "text": "No enabled locales found."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "8f36be0c-d8fd-3198-41da-8e8d53337562",
+    "text": {
+     "html": "<a class=\"btn-primary small header-btn-hidde-on-mb\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact us</a>",
+     "text": "Contact us"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "33396e9a-4289-27cb-6cff-6543e8ab5b97",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "6798bd1e4b234bad93cdabb6"
+    },
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 70
+  }
+ }
+}

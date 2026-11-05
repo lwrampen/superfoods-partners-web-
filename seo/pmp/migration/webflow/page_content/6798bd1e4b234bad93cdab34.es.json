@@ -1,0 +1,196 @@
+{
+ "pageId": "6798bd1e4b234bad93cdab34",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 20,
+ "nodeCount": 20,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "4c45271f-74c3-64d5-831c-7bcf04784549",
+   "text": {
+    "html": "<h1 class=\"heading-7\">Tenemos respuestas <span class=\"text-span-7\" data-w-id=\"4c45271f-74c3-64d5-831c-7bcf0478454b\">a tus preguntas.</span></h1>",
+    "text": "Tenemos respuestas a tus preguntas."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "4c45271f-74c3-64d5-831c-7bcf0478454d",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">En nuestra sección de preguntas frecuentes encontrará respuestas a las dudas que pueda tener. Si no encuentra respuesta a sus preguntas, no dude en ponerse en contacto con nosotros.<br data-w-id=\"4c45271f-74c3-64d5-831c-7bcf04784552\"></p>",
+    "text": "En nuestra sección de preguntas frecuentes encontrará respuestas a las dudas que pueda tener. Si no encuentra respuesta a sus preguntas, no dude en ponerse en contacto con nosotros.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "4c45271f-74c3-64d5-831c-7bcf04784553",
+   "text": {
+    "html": "<a class=\"button-9\" href=\"#\">Conózcanos 👋</a>",
+    "text": "Conózcanos 👋"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0039",
+   "text": {
+    "html": "<h2>Preguntas <span class=\"text-span-8\" data-w-id=\"af4c60d9-a65c-a2e6-aa8b-7c11c36b8693\">frecuentes</span><br data-w-id=\"d266be53-ace1-3328-1b37-1d11c41d003b\"></h2>",
+    "text": "Preguntas frecuentes\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d003f",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\"><strong data-w-id=\"d266be53-ace1-3328-1b37-1d11c41d0040\">¿De dónde viene tu Matcha?</strong></h4>",
+    "text": "¿De dónde viene tu Matcha?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0045",
+   "text": {
+    "html": "<p class=\"paragraph-14\">Nos abastecemos de matcha directamente de productores certificados de Japón, China y Corea. Solo trabajamos con proveedores que cumplen con nuestros estrictos estándares de calidad y con los que mantenemos relaciones a largo plazo.</p>",
+    "text": "Nos abastecemos de matcha directamente de productores certificados de Japón, China y Corea. Solo trabajamos con proveedores que cumplen con nuestros estrictos estándares de calidad y con los que mantenemos relaciones a largo plazo."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0049",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\"><strong data-w-id=\"d266be53-ace1-3328-1b37-1d11c41d004a\">¿Qué diferencia a Pure Matcha Partners de otros proveedores?</strong></h4>",
+    "text": "¿Qué diferencia a Pure Matcha Partners de otros proveedores?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d004f",
+   "text": {
+    "html": "<p class=\"paragraph-15\">Ofrecemos transparencia, precios justos y un profundo conocimiento del producto. Trabajamos directamente solo con granjas. Nuestro objetivo es ayudarle a encontrar el Matcha que mejor se adapte a sus necesidades.</p>",
+    "text": "Ofrecemos transparencia, precios justos y un profundo conocimiento del producto. Trabajamos directamente solo con granjas. Nuestro objetivo es ayudarle a encontrar el Matcha que mejor se adapte a sus necesidades."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0053",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\"><strong data-w-id=\"d266be53-ace1-3328-1b37-1d11c41d0054\">¿Qué quieres decir con 'transparencia'?</strong></h4>",
+    "text": "¿Qué quieres decir con 'transparencia'?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0059",
+   "text": {
+    "html": "<p class=\"paragraph-16\">Siempre sabrás exactamente lo que estás comprando: el origen, la calidad y el precio de tu Matcha. Sin etiquetas ambiguas ni costes ocultos, solo una comunicación clara y honesta.</p>",
+    "text": "Siempre sabrás exactamente lo que estás comprando: el origen, la calidad y el precio de tu Matcha. Sin etiquetas ambiguas ni costes ocultos, solo una comunicación clara y honesta."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d005d",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\">¿Qué tipos de Matcha ofrecen?<br data-w-id=\"d266be53-ace1-3328-1b37-1d11c41d005f\"></h4>",
+    "text": "¿Qué tipos de Matcha ofrecen?\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0063",
+   "text": {
+    "html": "<p class=\"paragraph-17\">Suministramos una amplia gama de calidades: ceremonial, latte, culinaria y el último producto, Arabiki cha. En función de su aplicación, le orientamos para que encuentre la mejor combinación en términos de sabor, color y precio.</p>",
+    "text": "Suministramos una amplia gama de calidades: ceremonial, latte, culinaria y el último producto, Arabiki cha. En función de su aplicación, le orientamos para que encuentre la mejor combinación en términos de sabor, color y precio."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0067",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\">¿Ofrecéis servicios de marca blanca?<br data-w-id=\"d266be53-ace1-3328-1b37-1d11c41d0069\"></h4>",
+    "text": "¿Ofrecéis servicios de marca blanca?\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d006d",
+   "text": {
+    "html": "<p class=\"paragraph-18\">Sí, ofrecemos soluciones de marca privada para los clientes que desean desarrollar su propia marca. Podemos ayudarles con la selección de productos, el embalaje e incluso con la creación de la marca, si es necesario.</p>",
+    "text": "Sí, ofrecemos soluciones de marca privada para los clientes que desean desarrollar su propia marca. Podemos ayudarles con la selección de productos, el embalaje e incluso con la creación de la marca, si es necesario."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0071",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\">¿En cuánto tiempo pueden realizar la entrega?<br data-w-id=\"d266be53-ace1-3328-1b37-1d11c41d0073\"></h4>",
+    "text": "¿En cuánto tiempo pueden realizar la entrega?\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d266be53-ace1-3328-1b37-1d11c41d0077",
+   "text": {
+    "html": "<p class=\"paragraph-19\">Para los productos estándar, ofrecemos una entrega rápida a través de nuestro almacén europeo. Dentro de los Países Bajos, podemos entregar hasta 3 kg al día siguiente, hasta 30 kg en 48 horas, y los pedidos más grandes o personalizados se suministran directamente y pueden tardar un poco más, dependiendo del volumen y el origen.</p>",
+    "text": "Para los productos estándar, ofrecemos una entrega rápida a través de nuestro almacén europeo. Dentro de los Países Bajos, podemos entregar hasta 3 kg al día siguiente, hasta 30 kg en 48 horas, y los pedidos más grandes o personalizados se suministran directamente y pueden tardar un poco más, dependiendo del volumen y el origen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "84339619-cceb-9076-a2eb-765db5234c7c",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\">¿Puedo recibir primero una muestra?<br data-w-id=\"84339619-cceb-9076-a2eb-765db5234c7e\"></h4>",
+    "text": "¿Puedo recibir primero una muestra?\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "84339619-cceb-9076-a2eb-765db5234c80",
+   "text": {
+    "html": "<p class=\"paragraph-19\">Por supuesto. Creemos en encontrar la combinación perfecta, por lo que estaremos encantados de enviarle muestras de diferentes calidades para que las pruebe, las compare y elija la que más le guste.</p>",
+    "text": "Por supuesto. Creemos en encontrar la combinación perfecta, por lo que estaremos encantados de enviarle muestras de diferentes calidades para que las pruebe, las compare y elija la que más le guste."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c4dbc2cd-9427-228c-6af3-8241fb6b1651",
+   "text": {
+    "html": "<h4 class=\"accordion-heading\">¿Cómo garantizan la calidad de su Matcha?<br data-w-id=\"c4dbc2cd-9427-228c-6af3-8241fb6b1653\"></h4>",
+    "text": "¿Cómo garantizan la calidad de su Matcha?\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c4dbc2cd-9427-228c-6af3-8241fb6b1655",
+   "text": {
+    "html": "<p class=\"paragraph-19\">Solo trabajamos con productores certificados y analizamos regularmente nuestro Matcha para comprobar su color, sabor, aroma y residuos. El control de calidad comienza en el origen y continúa hasta que el producto llega a tus manos.</p>",
+    "text": "Solo trabajamos con productores certificados y analizamos regularmente nuestro Matcha para comprobar su color, sabor, aroma y residuos. El control de calidad comienza en el origen y continúa hasta que el producto llega a tus manos."
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 20
+  }
+ ]
+}

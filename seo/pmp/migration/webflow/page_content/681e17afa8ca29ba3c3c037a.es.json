@@ -1,0 +1,241 @@
+{
+ "pageId": "681e17afa8ca29ba3c3c037a",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 25,
+ "nodeCount": 25,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"288e6c23-6d7b-d835-1579-ca256eb9d603\">Matcha para tiendas minoristas y de regalos</strong></h1>",
+    "text": "Matcha para tiendas minoristas y de regalos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Ofrezca matcha de alta calidad y con un bonito envase que a los clientes les encantará regalar – y quedarse para ellos mismos. <br data-w-id=\"349d3098-136a-858d-85bc-c9e68ed2d652\"><br data-w-id=\"dfc86947-c60e-2d56-e772-e333ce9551d0\">Tanto si tiene una boutique de estilo de vida, una tienda de regalos, su propia marca de matcha o una tienda de productos de bienestar, nuestro matcha será una incorporación destacada a su gama de productos: estético, saludable y de moda entre todos los grupos de edad.</p>",
+    "text": "Ofrezca matcha de alta calidad y con un bonito envase que a los clientes les encantará regalar – y quedarse para ellos mismos. \n\nTanto si tiene una boutique de estilo de vida, una tienda de regalos, su propia marca de matcha o una tienda de productos de bienestar, nuestro matcha será una incorporación destacada a su gama de productos: estético, saludable y de moda entre todos los grupos de edad."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">El mejor match(a) para</h2>",
+    "text": "El mejor match(a) para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Tiendas de té y especialidades</h3>",
+    "text": "Tiendas de té y especialidades"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Amplíe su gama de tés</p>",
+    "text": "Amplíe su gama de tés"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Solicitar muestras</a>",
+    "text": "Solicitar muestras"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Tiendas de regalos y de diseño</h3>",
+    "text": "Tiendas de regalos y de diseño"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Productos de bienestar modernos y de alta calidad.</p>",
+    "text": "Productos de bienestar modernos y de alta calidad."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551332",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Marcas de cajas de regalo</h3>",
+    "text": "Marcas de cajas de regalo"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Lujo sostenible y saludable</p>",
+    "text": "Lujo sostenible y saludable"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700212",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Por qué añadir <span class=\"text-span-2\" data-w-id=\"88cf36a3-04af-c82e-b4e2-b67ac6466191\">Matcha </span>a tu menú</h2>",
+    "text": "Por qué añadir Matcha a tu menú"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\">✔️ <strong data-w-id=\"477da507-700a-5f28-39da-405ec4a01268\">Popular y apto para regalar</strong>: envase atractivo y creciente demanda por parte de los consumidores. <br data-w-id=\"ae14abe3-8857-d6bb-31a2-a5a323e7d299\">✔️ <strong data-w-id=\"28032f0f-d241-47a2-6b40-ca02d38bff2d\">Producto saludable</strong>: orgánico, vegano y rico en antioxidantes. <br data-w-id=\"da491c89-065a-6f21-7aa1-1a43aac0ebfa\">✔️ <strong data-w-id=\"fa076fe3-ca2b-c8a7-10f5-07fcfe060159\">Ideal para compras impulsivas</strong>: precios atractivos y gran atractivo en el lineal. <br data-w-id=\"d35e4d94-f76c-dafa-a1c9-3c4a3994004e\">✔️ <strong data-w-id=\"07cd9e21-98ca-5963-daf3-02fc33ef71bf\">Fácil de vender</strong>: perfecto para packs, sets de regalo y secciones de bienestar.</div>",
+    "text": "✔️ Popular y apto para regalar: envase atractivo y creciente demanda por parte de los consumidores. \n✔️ Producto saludable: orgánico, vegano y rico en antioxidantes. \n✔️ Ideal para compras impulsivas: precios atractivos y gran atractivo en el lineal. \n✔️ Fácil de vender: perfecto para packs, sets de regalo y secciones de bienestar."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\">Por qué </span>Pure <span class=\"text-span-2\" data-w-id=\"09ed1faa-f038-8aeb-9737-f67d5cc69b63\">Matcha </span>Partners</h1>",
+    "text": "Por qué Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">✔️ <strong data-w-id=\"6b3e47c4-1d7e-4bba-3a05-7a04a77047a6\">Diseñado para la venta al por menor</strong> – envases elegantes y formatos listos para exponer en los estantes. <br data-w-id=\"f56e7989-5922-62b9-d555-f9516c4e500f\">✔️ <strong data-w-id=\"c8e63480-ada0-0f9c-187c-d629f402f542\">Lotes pequeños y de primera calidad</strong> – directamente desde Japón, siempre fresco. <br data-w-id=\"96231495-659d-e4fb-9f94-044ceaece89e\">✔️ <strong data-w-id=\"7975d0db-2274-fdc5-794b-59760bcb8d0b\">Opciones de marca propia</strong> – cree su propia línea de matcha con su marca. <br data-w-id=\"e0fa7178-05b6-d116-2cda-13d2820fb9fc\">✔️ <strong data-w-id=\"b8259b40-5117-6bf9-a0d1-e0f7dbe484fe\">Colaboración de apoyo</strong> – mínimos bajos y contenido listo para comercializar.</div>",
+    "text": "✔️ Diseñado para la venta al por menor – envases elegantes y formatos listos para exponer en los estantes. \n✔️ Lotes pequeños y de primera calidad – directamente desde Japón, siempre fresco. \n✔️ Opciones de marca propia – cree su propia línea de matcha con su marca. \n✔️ Colaboración de apoyo – mínimos bajos y contenido listo para comercializar."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Conectar con ventas</a>",
+    "text": "Conectar con ventas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\">Los mejores productos para <span class=\"text-span-15\" data-w-id=\"4ec0c45c-9ff9-cdbe-e9d9-26e55f039fcf\">tiendas minoristas y de regalos</span></h2>",
+    "text": "Los mejores productos para tiendas minoristas y de regalos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Convencional</div>",
+    "text": "Ceremonial Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinario Convencional</div>",
+    "text": "Culinario Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Listo para empezar?</div>",
+    "text": "Listo para empezar?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Te ayudamos a abastecerte de matcha que se venda bien. Tanto si estás preparando una caja de regalo como si estás ampliando tu sección de bienestar, te guiaremos para que encuentres la selección de matcha perfecta para tu tienda.</p>",
+    "text": "Te ayudamos a abastecerte de matcha que se venda bien. Tanto si estás preparando una caja de regalo como si estás ampliando tu sección de bienestar, te guiaremos para que encuentres la selección de matcha perfecta para tu tienda."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 25
+  }
+ ]
+}

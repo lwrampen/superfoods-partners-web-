@@ -1,0 +1,28 @@
+{
+ "label": "m_6798bd1e4b234bad93cdaae1_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdaae1",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Home",
+  "createdOn": "2024-11-20T03:40:54.564Z",
+  "lastUpdated": "2026-11-05T05:57:42.287Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Proveedor de Matcha al por Mayor | Matcha B2B | Pure Matcha Partners",
+   "description": "Matcha certificado al por mayor de Japón y China para cafeterías, marcas y distribuidores. Analizado en laboratorio y disponible desde 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

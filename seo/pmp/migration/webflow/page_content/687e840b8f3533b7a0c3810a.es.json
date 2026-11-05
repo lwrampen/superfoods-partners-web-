@@ -1,0 +1,249 @@
+{
+ "pageId": "687e840b8f3533b7a0c3810a",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 26,
+ "nodeCount": 26,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac8d",
+   "text": {
+    "html": "<div><span class=\"text-span-3\" data-w-id=\"3bdc7930-e01f-7916-59c3-00ddb8f9f483\">Productos</span></div>",
+    "text": "Productos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac91",
+   "text": {
+    "html": "<div class=\"text-block-63\">Matcha Ceremonial</div>",
+    "text": "Matcha Ceremonial"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac98",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product-copy text-color-grey\">China - Convencional</p>",
+    "text": "China - Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "904d01aa-1da4-f4ba-110a-4455367a362f",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product text-color-grey\">1kg bolso</p>",
+    "text": "1kg bolso"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acab",
+   "text": {
+    "html": "<div class=\"text-size-small-2\">(4.5 estrellas) • 59 reseñas</div>",
+    "text": "(4.5 estrellas) • 59 reseñas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b232b5b9-7612-d0a1-acbe-6b98f2f4e7a3",
+   "text": {
+    "html": "<div class=\"text-block-127\">Origen:&nbsp;<span class=\"text-span-21\" data-w-id=\"d44e8778-112c-7737-ee2a-f0ea339ab96a\">China</span></div>",
+    "text": "Origen: China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2bad899c-b4f5-2fb9-7fb6-02f7a8d96cc8",
+   "text": {
+    "html": "<div class=\"text-block-127\">Estado:&nbsp;<span class=\"text-span-19\" data-w-id=\"2bad899c-b4f5-2fb9-7fb6-02f7a8d96cca\">En Stock</span></div>",
+    "text": "Estado: En Stock"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acc7",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Información</div>",
+    "text": "Información"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acca",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Usos Recomendados</div>",
+    "text": "Usos Recomendados"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e405fa52-1686-92f6-1350-e8fc2b79a5e6",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Perfil</div>",
+    "text": "Perfil"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a2736b41-8e07-69d4-2192-ce7f54e14df8",
+   "text": {
+    "html": "<h6 class=\"heading-xsmall\">El <strong data-w-id=\"52c9d2c8-ff48-95ed-4d6d-8075bbe9257e\">Matcha Ceremonial Convencional </strong>es un té verde en polvo de primera calidad procedente del este de China, elaborado para cafeterías y profesionales que buscan un matcha de grado ceremonial asequible. <br data-w-id=\"7c1e58be-55d5-6ae7-370f-6dc2a8c46ca0\"><br data-w-id=\"540f65a3-8a8d-fcb4-8ad4-23765ea9138d\">Con su sabor fresco y carácter auténtico, es una excelente opción para empresas que compran al por mayor. Perfecto para ceremonias tradicionales del té y bebidas de alta calidad.<br data-w-id=\"c53bb5bc-bbe4-5659-5ca7-388a533ff8fc\"></h6>",
+    "text": "El Matcha Ceremonial Convencional es un té verde en polvo de primera calidad procedente del este de China, elaborado para cafeterías y profesionales que buscan un matcha de grado ceremonial asequible. \n\nCon su sabor fresco y carácter auténtico, es una excelente opción para empresas que compran al por mayor. Perfecto para ceremonias tradicionales del té y bebidas de alta calidad.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acf3",
+   "text": {
+    "html": "<div class=\"rich-text-block\"><p class=\"paragraph-9\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec65\"><strong class=\"bold-text-6\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec66\">Entrega Internacional</strong></p><p class=\"paragraph-9\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec68\">Enviamos paquetes a destinos de todo el mundo, de forma rápida y fiable, para que tu pedido llegue donde lo necesites.<br data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec6a\">‍</p><p class=\"paragraph-10\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec6c\"><strong class=\"bold-text-5\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec6d\">Enviado en un plazo de 48 horas</strong></p><p class=\"paragraph-10\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec6f\">Todos los pedidos se procesan y envían en un plazo de 48 horas, lo que garantiza una tramitación rápida y un tiempo de espera mínimo.</p><p data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec71\">‍</p><p class=\"paragraph-11\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec73\"><strong class=\"bold-text-3\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec74\">Opciones de entrega segura</strong></p><p class=\"paragraph-11\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec76\"><strong class=\"bold-text-3\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec77\">‍</strong>Elija entre métodos de envío seguros que garantizan la entrega segura y protegida de su paquete.</p><p data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec7a\">‍</p><p class=\"paragraph-12\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec7c\"><strong class=\"bold-text-4\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec7d\">Ayuda</strong><br data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec7f\">Envíenos un correo electrónico a <a href=\"mailto:hello@purematchapartners.com\" data-w-id=\"4ff0b331-8277-eac3-f505-07d42d9dec81\">hello@purematchapartners.com</a></p></div>"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad40",
+   "text": {
+    "html": "<h2 class=\"heading-medium\">Otros productos que te pueden gustar</h2>",
+    "text": "Otros productos que te pueden gustar"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad4f",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Ceremonial Convencional China</div>",
+    "text": "Ceremonial Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad5c",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Premium Orgánico Japon</div>",
+    "text": "Premium Orgánico Japon"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad69",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Culinario Orgánico Japon</div>",
+    "text": "Culinario Orgánico Japon"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5998d",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">El mejor <span class=\"text-span-16\" data-w-id=\"6ea79bbb-9341-b190-c2d1-55c39f16e5a5\">match(a)</span> para</h2>",
+    "text": "El mejor match(a) para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb59999",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Cafeterías y cafés</h3>",
+    "text": "Cafeterías y cafés"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999b",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para lattes de matcha de alta gama</p>",
+    "text": "Para lattes de matcha de alta gama"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999d",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"6800f46a3d42433d270fd462\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a1",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Empresas de salud y bienestar</h3>",
+    "text": "Empresas de salud y bienestar"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a3",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para bebidas de temporada y especiales</p>",
+    "text": "Para bebidas de temporada y especiales"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a5",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681e146208e6dabd1d351076\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a9",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Puestos de café para llevar</h3>",
+    "text": "Puestos de café para llevar"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ab",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha fácil de preparar para las horas punta</p>",
+    "text": "Matcha fácil de preparar para las horas punta"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ad",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc746e4efb42760e72831\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 26
+  }
+ ]
+}

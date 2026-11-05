@@ -1,0 +1,130 @@
+{
+ "label": "details_681b10aa58a45d24e32f3e9d",
+ "action": "get_collection_details",
+ "result": {
+  "id": "681b10aa58a45d24e32f3e9d",
+  "displayName": "Recipes",
+  "singularName": "Recipe",
+  "slug": "recipe",
+  "createdOn": "2025-05-07T07:50:02.515Z",
+  "lastUpdated": "2025-12-17T03:55:35.111Z",
+  "fields": [
+   {
+    "id": "c8287a89ebc01edd23dbd5c9d184e1d0",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "PlainText",
+    "slug": "short-description",
+    "displayName": "Short Description",
+    "validations": {
+     "singleLine": true
+    }
+   },
+   {
+    "id": "4e4b12d6088eab995480ee1360a0cbd3",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "RichText",
+    "slug": "ingredients",
+    "displayName": "Ingredients"
+   },
+   {
+    "id": "70ac68c06a3a2b27eb28bd9e405cd4db",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "RichText",
+    "slug": "directions",
+    "displayName": "Directions"
+   },
+   {
+    "id": "26183524fd2965b5caa2c923ae24707e",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "RichText",
+    "slug": "recipe-history",
+    "displayName": "Recipe History"
+   },
+   {
+    "id": "3a98eeb903b8270f9c0ba145e9102481",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Image",
+    "slug": "main-image",
+    "displayName": "Main Image"
+   },
+   {
+    "id": "49aa03bcd5d032c7bcc6e13231f12407",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Image",
+    "slug": "thumbnail-image",
+    "displayName": "Thumbnail Image",
+    "helpText": "Used on Recipe list grid"
+   },
+   {
+    "id": "57635e9e87ba00ae71f4fdaafd0128f5",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Switch",
+    "slug": "featured-recipe",
+    "displayName": "Featured Recipe?"
+   },
+   {
+    "id": "911f850cbf3d0ef509e8f64488f4fb62",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Color",
+    "slug": "color",
+    "displayName": "Color",
+    "helpText": "This color will be used for some text and buttons on the Recipe page"
+   },
+   {
+    "id": "e917439c5ce88867dee331fb09989ed8",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Reference",
+    "slug": "writer-name",
+    "displayName": "Writer Name",
+    "validations": {
+     "collectionId": "693ab238dc146765ed4923f5"
+    }
+   },
+   {
+    "id": "c8a894355b27ff4570fbfe8db693113e",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "DateTime",
+    "slug": "recipe-publish-data",
+    "displayName": "Recipe Publish Data"
+   },
+   {
+    "id": "245ed626cdb4060aebb6da6a26002eec",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "name",
+    "displayName": "Name",
+    "validations": {
+     "maxLength": 256
+    }
+   },
+   {
+    "id": "84df1111bbbb26858ba15517890c378e",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "slug",
+    "displayName": "Slug",
+    "validations": {
+     "maxLength": 256,
+     "pattern": {},
+     "messages": {
+      "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+      "maxLength": "Must be less than 256 characters"
+     }
+    }
+   }
+  ],
+  "fieldGroups": []
+ }
+}

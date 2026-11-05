@@ -1,0 +1,30 @@
+{
+ "label": "m_6a028d468a41fe2d5995416c_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a028d468a41fe2d5995416c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6a028ca42f4ef4c910d5f586",
+  "title": "Asa Matcha",
+  "slug": "asa-matcha",
+  "createdOn": "2026-05-12T02:15:34.261Z",
+  "lastUpdated": "2026-07-26T12:06:41.606Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Our Partners - Asa Matcha | Pure Matcha Partners",
+   "description": "ASA Matcha brings certified organic, Japanese ceremonial-grade matcha to\nEuropean consumers. Available exclusively through Pure Matcha Partners for B2B clients. Stocked at\nDe Bijenkorf and premium retailers across Europe."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a028f3f98fe0265f476b768_Matcha%20in%20to%20Bowl.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/partners/asa-matcha",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

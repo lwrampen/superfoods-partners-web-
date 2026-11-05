@@ -1,0 +1,30 @@
+{
+ "label": "m_68d2710b7ee6c45cd804057e_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "68d2710b7ee6c45cd804057e",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Hojicha - Japan Conventional",
+  "slug": "hojicha-japan-conventional",
+  "createdOn": "2025-09-23T10:06:03.410Z",
+  "lastUpdated": "2026-08-02T15:49:38.665Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Hojicha Powder Japan Conventional | Wholesale Roasted Tea | Pure Matcha Partners",
+   "description": "Conventional Japanese hojicha powder with a smooth roasted profile for cafés, pastry and beverage production. Bulk B2B supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/products/hojicha-japan-conventional",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

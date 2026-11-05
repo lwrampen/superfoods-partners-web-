@@ -1,0 +1,32 @@
+{
+ "label": "k_e6856595-c90a-f21a-d8d9-b1be5706a00a_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "e6856595-c90a-f21a-d8d9-b1be5706a00a",
+  "nodes": [
+   {
+    "type": "image",
+    "id": "e6856595-c90a-f21a-d8d9-b1be5706a00d",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab87"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "e6856595-c90a-f21a-d8d9-b1be5706a00e",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab88"
+    },
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 2
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "label": "m_698d9bd9fae33977cec6c44d_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "698d9bd9fae33977cec6c44d",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Cafés & Hospitality",
+  "slug": "wholesale-matcha-for-cafes-hospitality",
+  "createdOn": "2026-02-12T09:22:33.849Z",
+  "lastUpdated": "2026-08-17T19:32:27.299Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Großhandel für Cafés & Gastronomie | Pure Matcha Partners",
+   "description": "Matcha-Pulver in Großmengen für Cafés, Restaurants & Gastronomiegruppen. Zertifiziert, baristatauglich & skalierbare Großhandelslieferung."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/for/wholesale-matcha-for-cafes-hospitality",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

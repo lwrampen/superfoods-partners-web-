@@ -1,0 +1,30 @@
+{
+ "label": "m_6a2a7190cdf35b02bc152891_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a2a7190cdf35b02bc152891",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Hibiscus Tea Powder",
+  "slug": "hibiscus-tea-powder",
+  "createdOn": "2026-06-11T08:28:00.950Z",
+  "lastUpdated": "2026-08-02T15:48:47.030Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Hibiskus Tee Pulver Großhandel | Pure Matcha Partners",
+   "description": "Premium Hibiskus-Tee-Pulver für Cafés & Getränkemarken. Leuchtend rot, fruchtig-säuerlich, reich an Antioxidantien. B2B-Lieferung."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a7577bf6f7174541aa6b7_Hibiscus-tea-powder.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/hibiscus-tea-powder",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

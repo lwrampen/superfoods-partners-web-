@@ -1,0 +1,30 @@
+{
+ "label": "m_68d26991fd2fb17c7cf70952_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "68d26991fd2fb17c7cf70952",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Ceremonial Matcha - Japan Organic",
+  "slug": "ceremonial-matcha-japan-organic",
+  "createdOn": "2025-09-23T09:34:09.987Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Zeremonial Matcha Japan Organisch 1 kg | Pure Matcha Partners",
+   "description": "B2B Zeremonial-Matcha mit sanftem Geschmack & hohen Antioxidantien. Aus japanischen Farmen, bulk ab 1 kg. EU Bio-zertifiziert."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/ceremonial-matcha-japan-organic",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "label": "m_681dbee490ffeb168bd19d69_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681dbee490ffeb168bd19d69",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Ceremonial Matcha - Japan Conventional",
+  "slug": "ceremonial-matcha-japan-conventional",
+  "createdOn": "2025-05-09T08:37:56.809Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Ceremonial Matcha Japan Conventional | Wholesale B2B | Pure Matcha Partners",
+   "description": "Japanese conventional ceremonial matcha for premium tea service and high-end beverages. Traceable, lab-tested and supplied from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/products/ceremonial-matcha-japan-conventional",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

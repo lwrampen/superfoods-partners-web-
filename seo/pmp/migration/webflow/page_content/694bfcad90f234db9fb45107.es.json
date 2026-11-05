@@ -1,0 +1,52 @@
+{
+ "pageId": "694bfcad90f234db9fb45107",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 4,
+ "nodeCount": 4,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48ae2",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Especiales</h2>",
+    "text": "Especiales"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b71",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b72\">Especiales</span><br data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b74\">Línea exclusiva de productos de Japón<br data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b76\"></p>",
+    "text": "Especiales\nLínea exclusiva de productos de Japón\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b8a",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Asa GO Matcha sin batir</div>",
+    "text": "Asa GO Matcha sin batir"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a392704d-e68a-1fd1-fc96-096b28ff1ae1",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Matcha de morera sin cafeína</div>",
+    "text": "Matcha de morera sin cafeína"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 4
+  }
+ ]
+}

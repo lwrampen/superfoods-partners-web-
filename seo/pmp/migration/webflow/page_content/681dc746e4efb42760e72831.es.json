@@ -1,0 +1,241 @@
+{
+ "pageId": "681dc746e4efb42760e72831",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 25,
+ "nodeCount": 25,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\">Matcha para restaurantes y servicios de restauración</h1>",
+    "text": "Matcha para restaurantes y servicios de restauración"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Añada matcha de primera calidad a su menú para crear postres, bebidas y combinaciones modernas que impresionen a sus clientes y aumenten sus ingresos. <br data-w-id=\"72994c54-d856-6713-4fc2-33aad01af4ff\"><br data-w-id=\"6be24cdb-21bb-e7bd-750e-d01e2234a5e2\">Tanto si sirve platos de alta cocina como si elabora cócteles sin alcohol innovadores, nuestro matcha japonés de alta calidad ofrece un sabor suave, un color vibrante y un atractivo saludable, perfecto para los comensales conscientes de hoy en día.</p>",
+    "text": "Añada matcha de primera calidad a su menú para crear postres, bebidas y combinaciones modernas que impresionen a sus clientes y aumenten sus ingresos. \n\nTanto si sirve platos de alta cocina como si elabora cócteles sin alcohol innovadores, nuestro matcha japonés de alta calidad ofrece un sabor suave, un color vibrante y un atractivo saludable, perfecto para los comensales conscientes de hoy en día."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">El mejor match(a) para</h2>",
+    "text": "El mejor match(a) para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Restaurantes y hoteles</h3>",
+    "text": "Restaurantes y hoteles"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Platos creativos, postres, cócteles</p>",
+    "text": "Platos creativos, postres, cócteles"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Solicitar muestras</a>",
+    "text": "Solicitar muestras"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Obradores</h3>",
+    "text": "Obradores"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Postres y panes con un toque de matcha</p>",
+    "text": "Postres y panes con un toque de matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551332",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha fácil de preparar para eventos grandes</p>",
+    "text": "Matcha fácil de preparar para eventos grandes"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700212",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Por qué añadir <span class=\"text-span-2\" data-w-id=\"88cf36a3-04af-c82e-b4e2-b67ac6466191\">Matcha </span>a tu menú</h2>",
+    "text": "Por qué añadir Matcha a tu menú"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\">✔️ <strong data-w-id=\"9ded3388-d1b4-ccbb-6593-9070a46c6add\">Excelentes márgenes de beneficio</strong>: ideal para bebidas y postres de alto margen. <br data-w-id=\"35b73c50-1c75-e0aa-59af-e8712d45906e\">✔️ <strong data-w-id=\"0261f477-7d43-369c-7846-88f916eccf26\">Energía saludable y vegetal</strong>: vegano y rico en antioxidantes. <br data-w-id=\"cecba4ef-e2b6-1221-e8d6-27cd7e7737de\">✔️ <strong data-w-id=\"3b30c777-e179-4487-d840-439c9117adde\">Visualmente llamativo</strong>: su bonito color verde mejora la presentación. <br data-w-id=\"9775d44b-9498-18a8-7d17-9425426ce1a1\">✔️ <strong data-w-id=\"625c7326-fd47-a6c6-1c2d-08179fe44f38\">Ingrediente de moda</strong>: los clientes piden cada vez más opciones a base de matcha.</div>",
+    "text": "✔️ Excelentes márgenes de beneficio: ideal para bebidas y postres de alto margen. \n✔️ Energía saludable y vegetal: vegano y rico en antioxidantes. \n✔️ Visualmente llamativo: su bonito color verde mejora la presentación. \n✔️ Ingrediente de moda: los clientes piden cada vez más opciones a base de matcha."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Ver recetas</a>",
+    "text": "Ver recetas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\">Por qué </span>Pure <span class=\"text-span-2\" data-w-id=\"09ed1faa-f038-8aeb-9737-f67d5cc69b63\">Matcha </span>Partners</h1>",
+    "text": "Por qué Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">✔️ <strong data-w-id=\"4e0188d3-2ab4-7539-a210-e9bb206a7610\">Socio B2B de confianza</strong> – cuenta con la confianza de chefs y profesionales del sector de la restauración. <br data-w-id=\"d1543ced-bbbc-2756-5dad-bbb698c986ca\">✔️ <strong data-w-id=\"79f40d81-27c2-60f0-b9f0-cae6ba1aa829\">Matcha de la mejor calidad</strong> – procedente directamente de las mejores plantaciones de Japón. <br data-w-id=\"e2641735-c302-7b5b-7cc9-36808c1667ea\">✔️ <strong data-w-id=\"8d12cc9a-6fc9-dbd9-d3d5-726cad5b7374\">Excelente relación calidad-precio</strong> – alto rendimiento por gramo y calidad constante. <br data-w-id=\"f3fa620f-33af-8696-37b6-f36a86958565\">✔️ <strong data-w-id=\"7828e7ca-3aba-9ab8-bb5b-4693af56e735\">Apoya la innovación</strong>: desde lattes hasta panna cotta y cócteles.</div>",
+    "text": "✔️ Socio B2B de confianza – cuenta con la confianza de chefs y profesionales del sector de la restauración. \n✔️ Matcha de la mejor calidad – procedente directamente de las mejores plantaciones de Japón. \n✔️ Excelente relación calidad-precio – alto rendimiento por gramo y calidad constante. \n✔️ Apoya la innovación: desde lattes hasta panna cotta y cócteles."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Conectar con ventas</a>",
+    "text": "Conectar con ventas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\">Los mejores productos para <span class=\"text-span-15\" data-w-id=\"4ec0c45c-9ff9-cdbe-e9d9-26e55f039fcf\">Restaurantes y Servicios de Restauración</span></h2>",
+    "text": "Los mejores productos para Restaurantes y Servicios de Restauración"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Convencional</div>",
+    "text": "Culinary Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha Convencional</div>",
+    "text": "Premium Matcha Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Ceremonial Convencional</div>",
+    "text": "Premium Ceremonial Convencional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Listo para empezar?</div>",
+    "text": "Listo para empezar?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Estamos aquí para ayudarte a encontrar el matcha ideal para tu restaurante, hotel o negocio de catering. Obtén asesoramiento experto adaptado a tu concepto y empieza a servir matcha de primera calidad que realzará tu menú.</p>",
+    "text": "Estamos aquí para ayudarte a encontrar el matcha ideal para tu restaurante, hotel o negocio de catering. Obtén asesoramiento experto adaptado a tu concepto y empieza a servir matcha de primera calidad que realzará tu menú."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 25
+  }
+ ]
+}

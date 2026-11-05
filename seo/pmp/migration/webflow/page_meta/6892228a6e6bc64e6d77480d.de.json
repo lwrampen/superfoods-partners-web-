@@ -1,0 +1,29 @@
+{
+ "label": "m_6892228a6e6bc64e6d77480d_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6892228a6e6bc64e6d77480d",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Complain form",
+  "slug": "complain-form",
+  "createdOn": "2025-08-05T15:26:02.880Z",
+  "lastUpdated": "2026-08-02T15:08:39.262Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Submit a Product Complaint | Pure Matcha Partners",
+   "description": "Contact Pure Matcha Partners about a product, order or quality concern. Our team will review your complaint and respond directly."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/complain-form",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

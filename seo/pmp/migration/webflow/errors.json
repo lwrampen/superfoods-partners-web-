@@ -1,0 +1,22 @@
+[
+ {
+  "action": "get_page_scripts",
+  "ids": "all 64 page ids",
+  "message": "404 resource_not_found: Custom code block not found (no page-level registered scripts applied; raw responses kept in scripts.json)"
+ },
+ {
+  "action": "list_301_redirects",
+  "ids": "site 6798bd1e4b234bad93cdaa9c",
+  "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+ },
+ {
+  "action": "get_robots_txt",
+  "ids": "site 6798bd1e4b234bad93cdaa9c",
+  "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+ },
+ {
+  "action": "data_sites_tool get_site",
+  "ids": "site 6798bd1e4b234bad93cdaa9c",
+  "message": "data_sites_tool exposes only list_sites/get_site/publish_site; no redirect data. get_site gives custom domains only (www.purematchapartners.com, purematchapartners.com). No 301 redirect list available via API for non-Enterprise plan."
+ }
+]

@@ -1,0 +1,979 @@
+{
+ "pageId": "696fe12e366c9eba99edbff9",
+ "locale": "en",
+ "lastUpdated": "2026-11-05T06:22:03.080Z",
+ "total": 107,
+ "nodeCount": 107,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\">Private Label &amp; White Label Matcha for <span class=\"text-span-45\" data-w-id=\"dd690485-b8af-af24-d0e2-8c459f3bfb62\">Scalable Brands</span></h1>",
+    "text": "Private Label & White Label Matcha for Scalable Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Partner with Pure Matcha Partners for high-quality private label and OEM matcha solutions, supported by our experience in <a class=\"link-23\" data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"d61e8487-7c31-f94b-404f-6fe4d15f69dc\">scalable bulk matcha supply</a> for growing and established brands.<br data-w-id=\"5684ab52-eaed-c952-d59b-6cb707629a39\"><br data-w-id=\"c284f04a-f03f-a8f2-0968-174fac442000\">We specialize in serving scale-ups and established businesses with orders from 10 kg, offering consistent grades suitable for ready-to-brand packaging and long-term product lines.<br data-w-id=\"1ab6f1d5-5e13-8cb7-d68c-26fdd857c530\"><br data-w-id=\"1bbba22c-eff8-ceea-eff6-3ecab7c99e8e\">Whether you're launching a matcha-focused brand or expanding an existing portfolio, our certified Japanese matcha is designed for reliability, consistency, and smooth commercial scaling.</p>",
+    "text": "Partner with Pure Matcha Partners for high-quality private label and OEM matcha solutions, supported by our experience in scalable bulk matcha supply for growing and established brands.\n\nWe specialize in serving scale-ups and established businesses with orders from 10 kg, offering consistent grades suitable for ready-to-brand packaging and long-term product lines.\n\nWhether you're launching a matcha-focused brand or expanding an existing portfolio, our certified Japanese matcha is designed for reliability, consistency, and smooth commercial scaling."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Request private label pricing</a>",
+    "text": "Request private label pricing"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "696fe4a5116e7958a5415691"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\">Why Choose <span class=\"text-span-46\" data-w-id=\"ff1ed00f-f95d-09bf-a1d1-3f78d8f49e17\">Private Label</span> Matcha?</h2>",
+    "text": "Why Choose Private Label Matcha?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">Matcha is more than a trend — it's a functional ingredient with growing global demand. Our matcha provides:</div>",
+    "text": "Matcha is more than a trend — it's a functional ingredient with growing global demand. Our matcha provides:"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6940a990eb8283766e6b0a19"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Minimums that scale</h3>",
+    "text": "Minimums that scale"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "03656774-6edd-4e56-442b-6e7c5cd8dde5",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Supply starts from 10 kg for committed brands.</p>",
+    "text": "Supply starts from 10 kg for committed brands."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "697dcb7ef19535898dacde17"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Certified &amp; tested</h3>",
+    "text": "Certified & tested"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70346a19-bd73-73d9-da4a-6d863bd308d4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Lab-tested for pesticides, heavy metals &amp; microbiological safety.</p>",
+    "text": "Lab-tested for pesticides, heavy metals & microbiological safety."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "691a14c1b154245d1fe952df"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Custom support</h3>",
+    "text": "Custom support"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ccd8b4d-ed6f-c6d3-d88e-5c197a238728",
+   "text": {
+    "html": "<p class=\"paragraph-8\">From grade selection to format, we advise for your channel and market.</p>",
+    "text": "From grade selection to format, we advise for your channel and market."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4d8",
+   "text": {
+    "html": "<h2 class=\"heading-12-new\">Which formats do we offer?</h2>",
+    "text": "Which formats do we offer?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4e0",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "691a14c1b154245d1fe952df"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4e2",
+   "text": {
+    "html": "<h2 class=\"heading-17\">Ceremonial-Grade Matcha</h2>",
+    "text": "Ceremonial-Grade Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4e6",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Bright color, smooth taste, ideal for premium retail brands, wellness concepts, and daily rituals.</p>",
+    "text": "Bright color, smooth taste, ideal for premium retail brands, wellness concepts, and daily rituals."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4ed",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Receive samples</a>",
+    "text": "Receive samples"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4f2",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "695e4b4485af2964a27c1f64"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4f4",
+   "text": {
+    "html": "<h2 class=\"heading-18\">Latte-Grade Matcha</h2>",
+    "text": "Latte-Grade Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae4f8",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Crafted for café drinks and D2C blends, balanced flavor, easy to mix, excellent in milk-based recipes.</p>",
+    "text": "Crafted for café drinks and D2C blends, balanced flavor, easy to mix, excellent in milk-based recipes."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae500",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Talk to our product experts</a>",
+    "text": "Talk to our product experts"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae505",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "693722c5047112c92b0d3322"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae507",
+   "text": {
+    "html": "<h2 class=\"heading-19\">Custom retail blends</h2>",
+    "text": "Custom retail blends"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae50b",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Tailored to your audience, from energizing blends to beauty-boosting formulas with adaptogens or collagen.</p>",
+    "text": "Tailored to your audience, from energizing blends to beauty-boosting formulas with adaptogens or collagen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a02fdc11-fd5a-9542-9a5d-cf018e9ae512",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Discuss your preferences</a>",
+    "text": "Discuss your preferences"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af0123590698",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Who We <span class=\"text-span-42\" data-w-id=\"90409081-6980-4a65-3fe5-af012359069a\">Work</span> With</h2>",
+    "text": "Who We Work With"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906a6",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8b40a99fbfa503a696ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906a7",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-20\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906a8\">Emerging wellness brands</strong></h3>",
+    "text": "Emerging wellness brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906aa",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Scaling fast with functional blends and strong customer traction, ready for premium matcha SKUs.</p>",
+    "text": "Scaling fast with functional blends and strong customer traction, ready for premium matcha SKUs."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906ad",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6921dd069993963846cc85e4"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906ae",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-21\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906af\">Retailers &amp; distributors</strong></h3>",
+    "text": "Retailers & distributors"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906b1",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Expanding private label offerings with certified, shelf-ready matcha formats.</p>",
+    "text": "Expanding private label offerings with certified, shelf-ready matcha formats."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906b4",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "693722c5047112c92b0d3322"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906b5",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906b6\">Specialty food companies</strong></h3>",
+    "text": "Specialty food companies"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906b8",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Seeking clean-label, organic matcha for integration into product lines or seasonal drops.</p>",
+    "text": "Seeking clean-label, organic matcha for integration into product lines or seasonal drops."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "90409081-6980-4a65-3fe5-af01235906bb",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "695e4b4485af2964a27c1f64"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906bc",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"90409081-6980-4a65-3fe5-af01235906bd\">Direct-to-consumer scale-ups</strong></h3>",
+    "text": "Direct-to-consumer scale-ups"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906bf",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Selling online with traction and seeking long-term matcha supply partnerships.</p>",
+    "text": "Selling online with traction and seeking long-term matcha supply partnerships."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90409081-6980-4a65-3fe5-af01235906c1",
+   "text": {
+    "html": "<a class=\"button-72-copy\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Let’s work together if you’re launching with scale and long-term vision.</a>",
+    "text": "Let’s work together if you’re launching with scale and long-term vision."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "c4609f66-cb5c-2c44-c0d5-300ec0aee402",
+   "text": {
+    "html": "<h2 class=\"heading-8\"><strong data-w-id=\"9582757f-862e-2c9a-a56b-c171c2cd89be\">Looking to Sell an existing Brand?</strong></h2>",
+    "text": "Looking to Sell an existing Brand?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c4609f66-cb5c-2c44-c0d5-300ec0aee404",
+   "text": {
+    "html": "<div class=\"text-block-152\">Private label is the right path for businesses ready to invest in their own matcha identity. <br data-w-id=\"ba0abc00-db84-58eb-09d4-4821ca786ee0\"><br data-w-id=\"de3252ac-8c3f-d862-cf8d-a2d89b4ccb08\">But it's not the only option.If you want to offer a premium, market-ready matcha brand in your space, without the development time, minimum volumes, or branding investment of a private label programme, ASA Matcha is available exclusively to Pure Matcha Partners clients.<br data-w-id=\"a943a7df-7164-6ed8-0520-e6d0f5d63fda\"><br data-w-id=\"08fd60af-9e9e-ff50-c7fb-19b8735ea48f\"><strong data-w-id=\"94afeb7d-5ea0-32e2-81df-f1e1ac51e7cb\">ASA Matcha — Brand-Ready, Available Now<br data-w-id=\"33ae48b7-7765-2b79-8aa9-46f1bf20e451\">‍</strong>ASA Matcha is a Dutch premium matcha brand built around the same Japanese-origin, certified organic matcha we supply in bulk. Designed for the European consumer market, stocked at De Bijenkorf and premium concept stores and cafés across Europe.<br data-w-id=\"085f6657-fb14-17f7-f40c-85dc29415aa5\"><br data-w-id=\"ca59d648-d737-dedc-6289-8e709349c5fe\">For Pure&nbsp;Matcha&nbsp;Partners clients, it means you can offer your customers a finished, branded premium matcha product — without building one yourself.<br data-w-id=\"94afeb7d-5ea0-32e2-81df-f1e1ac51e7d3\"><strong data-w-id=\"94afeb7d-5ea0-32e2-81df-f1e1ac51e7d5\"><br data-w-id=\"ae4d235d-db52-9df0-c133-1b35f972df00\">The range includes:<br data-w-id=\"7b72196c-f930-b40d-03e4-c2e5c06d0292\">‍</strong>Ceremonial Matcha from Uji — stone-ground, first harvest<br data-w-id=\"9a6ed4a0-0897-57a5-8434-557dfae16a46\">Hojicha — roasted Japanese green tea, low caffeine<br data-w-id=\"af24665f-c50d-35a5-5ced-6f2ed9c8f1e7\">ASA GO — the first no-whisk ceremonial matcha in Europe<br data-w-id=\"e4d25f5b-7b2e-1191-fee6-557699e72f66\">Accessories &amp; gift sets — whisk, bowl, scoop, curated starter kits<br data-w-id=\"94afeb7d-5ea0-32e2-81df-f1e1ac51e7e2\"><em data-w-id=\"94afeb7d-5ea0-32e2-81df-f1e1ac51e7e4\"><br data-w-id=\"c913ac0d-669d-10ed-e6ff-7bf3ce3bce58\">ASA Matcha is available exclusively to Pure Matcha Partners clients. No separate supplier relationship needed.</em></div>",
+    "text": "Private label is the right path for businesses ready to invest in their own matcha identity. \n\nBut it's not the only option.If you want to offer a premium, market-ready matcha brand in your space, without the development time, minimum volumes, or branding investment of a private label programme, ASA Matcha is available exclusively to Pure Matcha Partners clients.\n\nASA Matcha — Brand-Ready, Available Now\n‍ASA Matcha is a Dutch premium matcha brand built around the same Japanese-origin, certified organic matcha we supply in bulk. Designed for the European consumer market, stocked at De Bijenkorf and premium concept stores and cafés across Europe.\n\nFor Pure Matcha Partners clients, it means you can offer your customers a finished, branded premium matcha product — without building one yourself.\n\nThe range includes:\n‍Ceremonial Matcha from Uji — stone-ground, first harvest\nHojicha — roasted Japanese green tea, low caffeine\nASA GO — the first no-whisk ceremonial matcha in Europe\nAccessories & gift sets — whisk, bowl, scoop, curated starter kits\n\nASA Matcha is available exclusively to Pure Matcha Partners clients. No separate supplier relationship needed."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c4609f66-cb5c-2c44-c0d5-300ec0aee416",
+   "text": {
+    "html": "<a class=\"button-2-copy\" href=\"#\">Send a request to sell Asa Matcha</a>",
+    "text": "Send a request to sell Asa Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Why Private Label Brands Work With Us</h2>",
+    "text": "Why Private Label Brands Work With Us"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong class=\"bold-text-23\" data-w-id=\"2cb6e866-5581-cd14-7f59-0a7f8ad3f66c\">We’re more than a matcha supplier — we’re a long-term production partner for serious brand builders.</strong><br data-w-id=\"79842fc0-3e60-336e-5da9-5dbb303d4b27\">‍</div>",
+    "text": "We’re more than a matcha supplier — we’re a long-term production partner for serious brand builders.\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "42b9cf20-50a5-3718-d869-84c44f6d21e7",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong data-w-id=\"8414731f-164f-e729-b2fa-70d9de5bc405\">Minimums built for scale </strong>– orders from 10 kg, with stable pricing for recurring programs<br data-w-id=\"671fb13f-3ff0-8d86-c052-26da8bbe1d1d\"><strong data-w-id=\"9a6c1c1c-ada0-cc34-a604-3e0e82aefab7\">Certified, export-ready ingredients</strong> – Including EU Organic, USDA, JAS, FSSC 22000<br data-w-id=\"c1f87cec-34e2-4448-b0e5-9ce76785c833\"><strong data-w-id=\"9373176a-1a12-524a-f585-61804727f09c\">Custom guidance</strong> – On formats, sourcing, and labeling compliance<br data-w-id=\"f67e002b-1ce2-20be-5214-44d9173a0360\"><strong data-w-id=\"02e4c9ad-485f-3816-2583-5072b1e814f8\">Global shipping &amp; support</strong> – From Japan/China origin to your fulfillment center</div>",
+    "text": "Minimums built for scale – orders from 10 kg, with stable pricing for recurring programs\nCertified, export-ready ingredients – Including EU Organic, USDA, JAS, FSSC 22000\nCustom guidance – On formats, sourcing, and labeling compliance\nGlobal shipping & support – From Japan/China origin to your fulfillment center"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"67ff9e333b0c6a5a7ab81f3d\">Check our products</a>",
+    "text": "Check our products"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b73",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a0742b9f10e5955e83738"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\"><strong class=\"bold-text-18\" data-w-id=\"ab73c94b-57d3-d99d-9372-b3a98762a615\">Why Matcha Works for Private Label Product Lines</strong></span></h1>",
+    "text": "Why Matcha Works for Private Label Product Lines"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">Matcha isn’t just trendy, it’s a powerful ingredient for building strong product brands. <br data-w-id=\"e2794162-34e4-8739-5dbc-6d0aab94feed\"><br data-w-id=\"4d5dd011-aa71-2e82-3763-07eb4e79059b\">From clean-label nutrition to visual shelf appeal, matcha drives value in today’s wellness market.<br data-w-id=\"5ede8b7d-a48b-5736-f40b-cc4bc00bc12c\"><br data-w-id=\"7414f696-a73e-70d5-7b06-8fc0f525e2fd\"><strong data-w-id=\"b4ec3f56-336e-99e0-8278-2cf1385b4be6\">Premium positioning</strong> – Seen as a high-value, functional superfood<br data-w-id=\"4d1b1c40-e0da-868b-d901-05dd6fb30494\"><strong data-w-id=\"91a18534-41be-dda9-7e13-cdca78b0a83e\">Natural color &amp; taste</strong> – Bright green with smooth, earthy flavor<br data-w-id=\"e4cdc921-3752-1d3b-af89-84bf782b0424\"><strong data-w-id=\"50bf6895-1525-bed7-cbf6-25e0753824c5\">Label appeal</strong> – 100% plant-based, organic, and recognizable<br data-w-id=\"40a65710-8106-99bc-b719-11d454b0a8c1\"><strong data-w-id=\"c7768c73-d42e-059f-7a9c-a9a74a0189cc\">Consumer trust</strong> – Associated with calm energy, antioxidants, and mindfulness<br data-w-id=\"b79cceb3-9ea6-8e28-ce7f-30afa4b0f0ac\"></div>",
+    "text": "Matcha isn’t just trendy, it’s a powerful ingredient for building strong product brands. \n\nFrom clean-label nutrition to visual shelf appeal, matcha drives value in today’s wellness market.\n\nPremium positioning – Seen as a high-value, functional superfood\nNatural color & taste – Bright green with smooth, earthy flavor\nLabel appeal – 100% plant-based, organic, and recognizable\nConsumer trust – Associated with calm energy, antioxidants, and mindfulness\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact our team</a>",
+    "text": "Contact our team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\">Best products for <span class=\"text-span-15\" data-w-id=\"4ec0c45c-9ff9-cdbe-e9d9-26e55f039fcf\">private label brands</span></h2>",
+    "text": "Best products for private label brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa93",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa95",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa97",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa99\">0</span> of <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa9c\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1b",
+   "text": {
+    "html": "<div class=\"heading-xsmall-3\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1d",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb1f\"><strong data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb20\"><br data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb21\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9355",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e82916d4b1f7ccfd62a39"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Matcha&nbsp;Organic</div>",
+    "text": "Ceremonial Matcha Organic"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9359",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-JP-KA-O</div>",
+    "text": "PMP-M-CE-1KG-JP-KA-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9360",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4d736fc74bdbed3ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Matcha Conventional</div>",
+    "text": "Ceremonial Matcha Conventional"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9364",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-JP-SH</div>",
+    "text": "PMP-M-CE-1KG-JP-SH"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936b",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e837f3987c636fd3470e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha Organic</div>",
+    "text": "Premium Matcha Organic"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936f",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-JP-KA-O</div>",
+    "text": "PMP-M-LA-1KG-JP-KA-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c25",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Frequently Asked Questions</h2>",
+    "text": "Frequently Asked Questions"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2c",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Do you offer private label matcha for new brands?</div>",
+    "text": "Do you offer private label matcha for new brands?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2f",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">We specialize in private label supply for established or scaling brands, with a minimum order of 10 kg. If you're just starting out, we’re happy to advise, but we focus on long-term, scalable partnerships.</p>",
+    "text": "We specialize in private label supply for established or scaling brands, with a minimum order of 10 kg. If you're just starting out, we’re happy to advise, but we focus on long-term, scalable partnerships."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c36",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"02f79e4c-2b25-afc8-d2a4-fd109c696c37\">Do you handle the packaging or labeling?</strong></div>",
+    "text": "Do you handle the packaging or labeling?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c3a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">We don’t offer packaging or labeling in-house. We always recommend working with a <strong data-w-id=\"7c6aa05b-97b0-22f0-3381-a5fc8a6f0efe\">local co-packer</strong> to reduce logistics costs and speed up production. We’re happy to advise you or your team on how to coordinate this smoothly.</p>",
+    "text": "We don’t offer packaging or labeling in-house. We always recommend working with a local co-packer to reduce logistics costs and speed up production. We’re happy to advise you or your team on how to coordinate this smoothly."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c41",
+   "text": {
+    "html": "<div class=\"faq-q-text\">What’s your minimum order for private label matcha?</div>",
+    "text": "What’s your minimum order for private label matcha?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c44",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Our private label program starts at <strong data-w-id=\"8f9fbfcb-8d9e-c046-860c-98a7bad7170e\">10 kg</strong>, with stable supply and batch consistency. We’re set up to support repeat orders and brand growth.</p>",
+    "text": "Our private label program starts at 10 kg, with stable supply and batch consistency. We’re set up to support repeat orders and brand growth."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c51",
+   "text": {
+    "html": "<div class=\"faq-q-text\">What certifications does your matcha carry?</div>",
+    "text": "What certifications does your matcha carry?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c54",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Our matcha can be certified <strong data-w-id=\"aacc8833-d610-97df-d7b4-c5d1df7dfd3b\">USDA Organic, EU Organic, JAS</strong>, and produced under <strong data-w-id=\"aacc8833-d610-97df-d7b4-c5d1df7dfd3e\">HACCP / FSSC 22000</strong> standards. Full lab testing and compliance documents are available.</p>",
+    "text": "Our matcha can be certified USDA Organic, EU Organic, JAS, and produced under HACCP / FSSC 22000 standards. Full lab testing and compliance documents are available."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c5e",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Can I choose matcha from Japan or China?</div>",
+    "text": "Can I choose matcha from Japan or China?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c61",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Absolutely. We supply high-quality matcha from both <strong data-w-id=\"d2187018-fd1b-6c1f-5772-16595a35490f\">Japan and China</strong>, depending on your price point, taste profile, and origin preference. We’ll help you make the right choice.</p>",
+    "text": "Absolutely. We supply high-quality matcha from both Japan and China, depending on your price point, taste profile, and origin preference. We’ll help you make the right choice."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c71",
+   "text": {
+    "html": "<div class=\"faq-q-text\">What certifications do your matcha ingredients carry?</div>",
+    "text": "What certifications do your matcha ingredients carry?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c74",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Some of our matcha is JAS, EU, and USDA Organic certified, and we provide lab-tested COAs for heavy metals, pesticides, and microbial safety for as well organic as conventional matcha grades. </p>",
+    "text": "Some of our matcha is JAS, EU, and USDA Organic certified, and we provide lab-tested COAs for heavy metals, pesticides, and microbial safety for as well organic as conventional matcha grades. "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d8103c63-b691-7085-e577-376a29f7e3c2",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Do you support OEM or white label for other matcha-based products?</div>",
+    "text": "Do you support OEM or white label for other matcha-based products?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d8103c63-b691-7085-e577-376a29f7e3c5",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes, we support matcha as a base ingredient for capsules, powders, and more. While we don’t manufacture final products, we can support your <strong data-w-id=\"d1744b09-7c92-05c9-bcdb-d5fc4ea7fbb6\">OEM supply</strong> with certified bulk matcha ingredients ready for blending and branding.</p>",
+    "text": "Yes, we support matcha as a base ingredient for capsules, powders, and more. While we don’t manufacture final products, we can support your OEM supply with certified bulk matcha ingredients ready for blending and branding."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3d9737ba-8aa9-01ae-a12f-efbfdaf09378",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"06a0b6c2-1480-5a0d-ae6f-2c283bea782c\">Can I request samples before committing to a private label partnership?</strong></div>",
+    "text": "Can I request samples before committing to a private label partnership?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3d9737ba-8aa9-01ae-a12f-efbfdaf0937b",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — for brands meeting our <strong data-w-id=\"471ef48f-50fd-dc8a-c48f-d230d4cc7ac7\">10 kg minimum order</strong>, we offer matcha samples for quality assessment. This helps you validate product fit before moving forward with your co-packer or formulation partner.</p>",
+    "text": "Yes — for brands meeting our 10 kg minimum order, we offer matcha samples for quality assessment. This helps you validate product fit before moving forward with your co-packer or formulation partner."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "07748ca3-9e11-73f3-b513-b26d7beed267",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"07748ca3-9e11-73f3-b513-b26d7beed268\">Do you support private label matcha production at commercial scale?</strong></div>",
+    "text": "Do you support private label matcha production at commercial scale?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "07748ca3-9e11-73f3-b513-b26d7beed26b",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes. As a <a data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"db9b3c63-a500-0bb7-2d4f-b49ba884b08c\"><strong class=\"bold-text-29\" data-w-id=\"db9b3c63-a500-0bb7-2d4f-b49ba884b091\">bulk matcha powder supplier</strong></a> for private label and OEM partners, we support brands with consistent sourcing, flexible volumes, and matcha grades optimized for branded retail and wholesale distribution.</p>",
+    "text": "Yes. As a bulk matcha powder supplier for private label and OEM partners, we support brands with consistent sourcing, flexible volumes, and matcha grades optimized for branded retail and wholesale distribution."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Ready to get <span class=\"text-span-47\" data-w-id=\"af4300d8-917e-1505-83d8-8a5101132418\">started</span>?</div>",
+    "text": "Ready to get started?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today.</p>",
+    "text": "We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Get in touch with our sales team</a>",
+    "text": "Get in touch with our sales team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a26",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a518347c3ed2d8200ede8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a28",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51840e630e2044d647be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183ca567cd974b62e65"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183627011d688ff9aa6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51847545d8c6adfa19a5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a30",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d2578d8cc6f8e7561fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a32",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36af2799da49c0e47c"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a34",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d37af2799da49c0e538"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a36",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d3654de4503d53f89fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a38",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d366cf7308d4d7f2413"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "109c08da-7b9a-98ad-1a06-4254f221c419",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\">Private-label application</div>",
+    "text": "Private-label application"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "109c08da-7b9a-98ad-1a06-4254f221c41b",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">End-to-end private-label support for Skuis</h2>",
+    "text": "End-to-end private-label support for Skuis"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "109c08da-7b9a-98ad-1a06-4254f221c41d",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Pure Matcha Partners supported Skuis from matcha selection and quality requirements through packaging and private-label setup. The same process can be adapted to new product launches and growing B2B volumes.</p>",
+    "text": "Pure Matcha Partners supported Skuis from matcha selection and quality requirements through packaging and private-label setup. The same process can be adapted to new product launches and growing B2B volumes."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "109c08da-7b9a-98ad-1a06-4254f221c424",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><span class=\"text-size-small text-weight-semibold\" data-w-id=\"109c08da-7b9a-98ad-1a06-4254f221c41f\">Matcha selection  •  </span><span class=\"text-size-small text-weight-semibold\" data-w-id=\"109c08da-7b9a-98ad-1a06-4254f221c421\">Packaging support  •  </span><span class=\"text-size-small text-weight-semibold\" data-w-id=\"109c08da-7b9a-98ad-1a06-4254f221c423\">Private-label setup</span></div>",
+    "text": "Matcha selection  •  Packaging support  •  Private-label setup"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 107
+  },
+  {
+   "limit": 100,
+   "offset": 100,
+   "total": 107
+  }
+ ]
+}

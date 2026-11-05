@@ -1,0 +1,30 @@
+{
+ "label": "m_6a2a71c128629092d04bf944_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a2a71c128629092d04bf944",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Da Hong Pao Tea Powder",
+  "slug": "da-hong-pao-tea-powder",
+  "createdOn": "2026-06-11T08:28:49.873Z",
+  "lastUpdated": "2026-08-02T15:48:47.043Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Da Hong Pao Tee Pulver | Oolong Pulver Großhandel | Pure Matcha Partners",
+   "description": "Premium Oolong-Pulver mit weichem, geröstetem Geschmack und natürlichem Energie-Boost. Für cremige Oolong-Lattes, Milchtees & Desserts."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a75cc5aadf01dfd164c6d_Da-Hong-Pao.avif",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/da-hong-pao-tea-powder",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

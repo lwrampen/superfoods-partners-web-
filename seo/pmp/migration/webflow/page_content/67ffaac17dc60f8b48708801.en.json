@@ -1,0 +1,176 @@
+{
+ "pageId": "67ffaac17dc60f8b48708801",
+ "locale": "en",
+ "lastUpdated": "2026-06-16T14:40:44.185Z",
+ "total": 18,
+ "nodeCount": 18,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce22402",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Culinary Matcha</h2>",
+    "text": "Culinary Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2240a",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2240c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2240e",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce22410\">0</span> of <span data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce22413\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce22468",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce22469\">Matcha for Baking</span><br data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce2246b\">Ideal for culinary use, perfect in baking, desserts, RTD&nbsp;purposes, and other recipes where bold matcha flavor is needed.<br data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce2246d\"></p>",
+    "text": "Matcha for Baking\nIdeal for culinary use, perfect in baking, desserts, RTD purposes, and other recipes where bold matcha flavor is needed.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2247f",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce22481",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Organic Japan</div>",
+    "text": "Culinary Organic Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce22483",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-JP-O</div>",
+    "text": "PMP-M-CU-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2248a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e490ae972c9df96eba"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2248c",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Conventional Japan</div>",
+    "text": "Culinary Conventional Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce2248e",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-JP</div>",
+    "text": "PMP-M-CU-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "bd558ab4-a1dd-d959-b011-0c99b4917f9a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e490ae972c9df96eba"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bd558ab4-a1dd-d959-b011-0c99b4917f9c",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Conventional China</div>",
+    "text": "Culinary Conventional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bd558ab4-a1dd-d959-b011-0c99b4917f9e",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-CN</div>",
+    "text": "PMP-M-CU-1KG-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce224b0",
+   "text": {
+    "html": "<div class=\"heading-xsmall-2\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e05ca251-9a36-4e13-9de4-3e7f6ce224b2",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce224b4\"><strong data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce224b5\"><br data-w-id=\"e05ca251-9a36-4e13-9de4-3e7f6ce224b6\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 18
+  }
+ ]
+}

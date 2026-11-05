@@ -1,0 +1,29 @@
+{
+ "label": "m_681dc53d385ed6f721891ace_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681dc53d385ed6f721891ace",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Pricelist request",
+  "slug": "pricelist-request",
+  "createdOn": "2025-05-09T09:05:01.699Z",
+  "lastUpdated": "2026-08-02T15:08:39.265Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Großhandel Preisliste anfragen | Pure Matcha Partners",
+   "description": "Erhalten Sie unsere vollständige B2B-Matcha-Preisliste mit Bulk-Mengen, Verpackungsformaten & Güteklassen. Sofortiger Zugang für qualifizierte Käufer."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/pricelist-request",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

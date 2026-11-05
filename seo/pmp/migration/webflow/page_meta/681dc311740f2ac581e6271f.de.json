@@ -1,0 +1,29 @@
+{
+ "label": "m_681dc311740f2ac581e6271f_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681dc311740f2ac581e6271f",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Sample request",
+  "slug": "sample-request",
+  "createdOn": "2025-05-09T08:55:45.249Z",
+  "lastUpdated": "2026-08-02T15:08:39.269Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Muster anfragen | B2B Probierpaket | Pure Matcha Partners",
+   "description": "Fordern Sie ein personalisiertes Matcha-Musterpaket an. Wir empfehlen die richtigen Güteklassen für Ihr Produkt oder Ihre Marke."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/sample-request",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

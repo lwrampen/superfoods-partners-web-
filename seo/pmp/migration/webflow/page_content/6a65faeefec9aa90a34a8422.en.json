@@ -1,0 +1,295 @@
+{
+ "pageId": "6a65faeefec9aa90a34a8422",
+ "locale": "en",
+ "lastUpdated": "2026-07-26T12:47:56.725Z",
+ "total": 32,
+ "nodeCount": 32,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\">Superfoods Partners</h1>",
+    "text": "Superfoods Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Superfoods Partners is the Hong Kong–based sourcing arm of the Pure Matcha Partners family — supplying bulk matcha, tea and superfoods to B2B buyers worldwide, screened and documented per batch.</p>",
+    "text": "Superfoods Partners is the Hong Kong–based sourcing arm of the Pure Matcha Partners family — supplying bulk matcha, tea and superfoods to B2B buyers worldwide, screened and documented per batch."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" href=\"https://www.superfoodspartners.com/\">Visit Superfoods Partners</a>",
+    "text": "Visit Superfoods Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a6600cfac3bf36679881a83"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\">What Superfoods Partners sources</h2>",
+    "text": "What Superfoods Partners sources"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">High quality Japanese powders &amp; accessoires</div>",
+    "text": "High quality Japanese powders & accessoires"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a66010d78c2488d888da2ae"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Matcha</h3>",
+    "text": "Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b2c75a35-f314-7781-86a5-734679c3bc64",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">Shade-grown, stone-milled matcha from Japan and China, in ceremonial, premium and culinary grades.</h3>",
+    "text": "Shade-grown, stone-milled matcha from Japan and China, in ceremonial, premium and culinary grades."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a66010d62b58733cfc3d0fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Hojicha &amp; specialty tea</h3>",
+    "text": "Hojicha & specialty tea"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bb870738-e038-3323-92a3-6ce2ebc7eeef",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">Roasted hojicha plus jasmine, oolong and earl grey tea powders — for lattes, bakery and RTD.</h3>",
+    "text": "Roasted hojicha plus jasmine, oolong and earl grey tea powders — for lattes, bakery and RTD."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a66010e5c3c7381d131d704"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Superfoods</h3>",
+    "text": "Superfoods"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae0e6bce-6d47-5516-0fc5-4961ff141390",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">Ube, hibiscus and functional mushrooms such as lion's mane — screened and documented per batch.</h3>",
+    "text": "Ube, hibiscus and functional mushrooms such as lion's mane — screened and documented per batch."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b084",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a66010d62b58733cfc3d0fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b085",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Verified at origin</h3>",
+    "text": "Verified at origin"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "863f39ff-3d56-279d-53ae-70259428f567",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">Every batch ships with a Verification Record™ — COA plus pesticide, heavy-metal and microbiology testing.</h3>",
+    "text": "Every batch ships with a Verification Record™ — COA plus pesticide, heavy-metal and microbiology testing."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "482d0934-0ecc-de8a-0931-40fc4d7ae16e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6a6601b4750f530b1316fcc5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "482d0934-0ecc-de8a-0931-40fc4d7ae16f",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Flexible bulk supply</h3>",
+    "text": "Flexible bulk supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "be4ce9e6-0591-e374-bf57-2e7bf32fed5a",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy-copy\">From 1 kg samples to full-container volumes — FOB, CIF or DDP, routed through our Hong Kong hub.</h3>",
+    "text": "From 1 kg samples to full-container volumes — FOB, CIF or DDP, routed through our Hong Kong hub."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911ac",
+   "text": {
+    "html": "<h2 class=\"heading-15\">Work with Superfoods Partners</h2>",
+    "text": "Work with Superfoods Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911ae",
+   "text": {
+    "html": "<p class=\"text-size-2\">Superfoods Partners is our sourcing operation in Hong Kong. If you already work with Pure Matcha Partners, you are already tapping into the same sourcing, screening and documentation. For new B2B buyers, Superfoods Partners supplies bulk matcha, tea and superfoods with full traceability — one pair of hands from farm to freight.</p>",
+    "text": "Superfoods Partners is our sourcing operation in Hong Kong. If you already work with Pure Matcha Partners, you are already tapping into the same sourcing, screening and documentation. For new B2B buyers, Superfoods Partners supplies bulk matcha, tea and superfoods with full traceability — one pair of hands from farm to freight."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911fb",
+   "text": {
+    "html": "<a class=\"button-10-usa\" href=\"https://www.superfoodspartners.com/\">Explore Superfoods Partners</a>",
+    "text": "Explore Superfoods Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "e115d068-9ad0-d79d-fa8e-08b338654bbf",
+   "text": {
+    "html": "<h2 class=\"heading-15\">Part of the Pure Matcha Partners family</h2>",
+    "text": "Part of the Pure Matcha Partners family"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e115d068-9ad0-d79d-fa8e-08b338654bc1",
+   "text": {
+    "html": "<p class=\"text-size-2\">Superfoods Partners and Pure Matcha Partners share the same team, sourcing standards and supply chain. Superfoods Partners is the Hong Kong sourcing hub; Pure Matcha Partners is the European-facing B2B partner. Same quality, same people — closer to origin.</p>",
+    "text": "Superfoods Partners and Pure Matcha Partners share the same team, sourcing standards and supply chain. Superfoods Partners is the Hong Kong sourcing hub; Pure Matcha Partners is the European-facing B2B partner. Same quality, same people — closer to origin."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc004",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e698da34aaa067c68f0e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc005",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6815c666245313106b0209fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc008",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e444f11ae712d286165d1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 32
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "label": "m_67ffa2b15258e1b4236839cb_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ffa2b15258e1b4236839cb",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Ceremonial Matcha",
+  "slug": "ceremonial-matcha",
+  "createdOn": "2025-04-16T12:29:37.473Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Ceremonial Grade Matcha – Top Quality | Pure Matcha Partners",
+   "description": "Finest ceremonial matcha direct from Japan. Vibrant color, rich umami, ideal for tea rituals & premium drinks. B2B supply for horeca & retail."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/collections/ceremonial-matcha",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

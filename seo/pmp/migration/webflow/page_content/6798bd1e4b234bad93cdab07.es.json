@@ -1,0 +1,214 @@
+{
+ "pageId": "6798bd1e4b234bad93cdab07",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 22,
+ "nodeCount": 22,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "5260ed98-0e06-1236-54f0-5afbd449514c",
+   "text": {
+    "html": "<h1 class=\"heading-7\">Somos <span class=\"text-span-7\" data-w-id=\"18b665da-65b8-9b4f-857b-fb3c96a6005f\">Pure Matcha Partners</span></h1>",
+    "text": "Somos Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5260ed98-0e06-1236-54f0-5afbd449514e",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Nuestra misión es expandir el matcha a todos los sectores.<br data-w-id=\"3b26a47b-1e52-03f7-b461-ed0056ebe291\"><br data-w-id=\"9649f713-8be1-c49d-bf5d-052671bb8875\">Transformándolo de un producto especializado a un elemento esencial en la vida cotidiana de las personas. A través de alianzas estratégicas, innovación y educación, estamos dando forma al futuro del matcha a escala global.<br data-w-id=\"5260ed98-0e06-1236-54f0-5afbd4495151\"></p>",
+    "text": "Nuestra misión es expandir el matcha a todos los sectores.\n\nTransformándolo de un producto especializado a un elemento esencial en la vida cotidiana de las personas. A través de alianzas estratégicas, innovación y educación, estamos dando forma al futuro del matcha a escala global.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "fa943497-4645-15e4-726a-1504e55386ff",
+   "text": {
+    "html": "<a class=\"button-9\" href=\"#\">Conózcanos 👋</a>",
+    "text": "Conózcanos 👋"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e789",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Tus partners de <span class=\"text-span-8\" data-w-id=\"69528861-23df-af1f-15be-8f1594a31c4c\">matcha</span> </h2>",
+    "text": "Tus partners de matcha "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "277c8ee8-96c2-8147-654c-340a34b6e81b",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Estrategia digital, ventas y consultoría</p>",
+    "text": "Estrategia digital, ventas y consultoría"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e79f",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Cadena de suministro, estrategia y abastecimiento</p>",
+    "text": "Cadena de suministro, estrategia y abastecimiento"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "fdac7ca8-eefe-b6a5-5dc0-af8da771f4fb",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europa</p>",
+    "text": "Europa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941378",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europa</p>",
+    "text": "Europa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "236c7d5f-4e91-9574-100b-39bbf433c0d2",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europa / Oriente Medio</p>",
+    "text": "Europa / Oriente Medio"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "236c7d5f-4e91-9574-100b-39bbf433c0d4",
+   "text": {
+    "html": "<a class=\"button-7\" href=\"#\">Contácteme</a>",
+    "text": "Contácteme"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e7a7",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Marketing, marca y comunicaciones</p>",
+    "text": "Marketing, marca y comunicaciones"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941388",
+   "text": {
+    "html": "<p class=\"paragraph-8\">EE. UU.&nbsp;/&nbsp;México</p>",
+    "text": "EE. UU. / México"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "14edbdab-4260-52ac-8d50-d7073bee6bb1",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europa</p>",
+    "text": "Europa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7e368f91-8a6f-1d9d-1eef-e2448ce130f4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Países bajos</p>",
+    "text": "Países bajos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d957d2ee-82dd-f963-8af5-b76545b41fc9",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Países bajos</p>",
+    "text": "Países bajos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941380",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europa</p>",
+    "text": "Europa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1fb4a560-67c5-672d-21e3-f673df69a41a",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Somos una empresa <span class=\"text-span-9\" data-w-id=\"0ba8090f-69bd-e410-69da-10bb98566602\">global</span> dedicada al matcha.</h2>",
+    "text": "Somos una empresa global dedicada al matcha."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e71bfbab-98e0-eafa-f48d-1d0aa19ae99a",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"e71bfbab-98e0-eafa-f48d-1d0aa19ae99b\">Nuestro proceso de <br data-w-id=\"d59b8323-6b17-90ce-41f2-4ff1154e52dc\"></span>abastecimiento<span class=\"text-span-6\" data-w-id=\"4b8ba7f3-3a12-31b1-fcdf-c8c77e4131e4\"> de confianza</span></h1>",
+    "text": "Nuestro proceso de \nabastecimiento de confianza"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e71bfbab-98e0-eafa-f48d-1d0aa19ae9a1",
+   "text": {
+    "html": "<div class=\"text-block-75-2\"><strong data-w-id=\"a2b2b2e3-6933-0061-4c14-298f1a132062\">Selección de granjas</strong><br data-w-id=\"8294e211-3e3e-8a33-82bc-9bc01c02879d\">Colaboramos con granjas familiares en las principales regiones productoras de matcha de Japón, centrándonos en un cultivo continuo y sostenible.<br data-w-id=\"d2e8e379-2c7e-12f3-cd82-e409aeb3b209\"><br data-w-id=\"7b42a6a1-26cc-3668-eda8-9eafc8d8c2ac\"><strong data-w-id=\"dac129f0-f5d4-4dbe-bef9-bf024853f5a1\">Optimizar la cadena de suministro<br data-w-id=\"57065b77-7152-0736-a155-48e998bdccfc\">‍</strong>Desde la cosecha hasta el envasado, trabajamos en estrecha colaboración con nuestros socios para optimizar cada paso, garantizando una calidad constante, la trazabilidad y la eficiencia.<br data-w-id=\"34b79a30-c8ec-3468-c0e2-f3a3722457d3\"><br data-w-id=\"fefef6c9-dde9-4a3f-6e17-00e92b818dfc\"><strong data-w-id=\"1ca7d895-c34a-8373-26b9-3688f56d0aa3\">Alianzas sólidas<br data-w-id=\"74d11580-619b-7474-6edd-eca83302e57d\"></strong>Mantenemos relaciones estrechas y directas con nuestros proveedores, fomentando la confianza, garantizando la transparencia y creciendo juntos a largo plazo.<br data-w-id=\"7f11513c-30f0-4154-3a01-8748e8057148\">‍<br data-w-id=\"61d221df-d6ae-9c79-9bb2-6fe7d85af146\">‍</div>",
+    "text": "Selección de granjas\nColaboramos con granjas familiares en las principales regiones productoras de matcha de Japón, centrándonos en un cultivo continuo y sostenible.\n\nOptimizar la cadena de suministro\n‍Desde la cosecha hasta el envasado, trabajamos en estrecha colaboración con nuestros socios para optimizar cada paso, garantizando una calidad constante, la trazabilidad y la eficiencia.\n\nAlianzas sólidas\nMantenemos relaciones estrechas y directas con nuestros proveedores, fomentando la confianza, garantizando la transparencia y creciendo juntos a largo plazo.\n‍\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a319690",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">¿Listo para empezar?</div>",
+    "text": "¿Listo para empezar?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a319693",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Estamos a su disposición para asesorarle sobre el matcha más adecuado para el sector de su empresa.</p>",
+    "text": "Estamos a su disposición para asesorarle sobre el matcha más adecuado para el sector de su empresa."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a319697",
+   "text": {
+    "html": "<div class=\"text-block-76 community\">Empezar 💚</div>",
+    "text": "Empezar 💚"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 22
+  }
+ ]
+}

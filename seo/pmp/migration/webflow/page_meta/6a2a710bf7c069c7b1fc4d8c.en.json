@@ -1,0 +1,30 @@
+{
+ "label": "m_6a2a710bf7c069c7b1fc4d8c_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a2a710bf7c069c7b1fc4d8c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Rooibos Tea Powder",
+  "slug": "rooibos-tea-powder",
+  "createdOn": "2026-06-11T08:25:47.776Z",
+  "lastUpdated": "2026-08-02T15:48:57.360Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Rooibos Tea Powder Wholesale | Caffeine-Free Bulk Powder | Pure Matcha Partners",
+   "description": "Naturally caffeine-free rooibos tea powder for cafés, beverage brands and food production. Smooth, earthy and versatile. Wholesale supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a74d8a1d721d36393bc33_rooibos-tea-powder.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/products/rooibos-tea-powder",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

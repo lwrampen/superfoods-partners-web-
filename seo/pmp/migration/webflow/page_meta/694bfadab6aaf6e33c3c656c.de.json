@@ -1,0 +1,30 @@
+{
+ "label": "m_694bfadab6aaf6e33c3c656c_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "694bfadab6aaf6e33c3c656c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Asa GO - Japan Organic",
+  "slug": "asa-matcha-japan-organic",
+  "createdOn": "2025-12-24T14:38:18.037Z",
+  "lastUpdated": "2026-08-02T15:49:38.663Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Asa GO Matcha Großhandel | Instant Matcha ohne Schneebesen | Pure Matcha Partners",
+   "description": "Premium Instant-Matcha aus Kagoshima, Japan. Kein Schneebesen nötig – glatter Matcha für Lattes & RTD-Getränke. EU Bio-zertifiziert, B2B ab 1 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/asa-matcha-japan-organic",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

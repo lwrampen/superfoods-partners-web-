@@ -1,0 +1,50 @@
+{
+ "label": "details_693ab238dc146765ed4923f5",
+ "action": "get_collection_details",
+ "result": {
+  "id": "693ab238dc146765ed4923f5",
+  "displayName": "Blog Writer Details",
+  "singularName": "Blog Writer Detail",
+  "slug": "blog-writer-detail",
+  "createdOn": "2025-12-11T11:59:52.773Z",
+  "lastUpdated": "2025-12-11T12:00:16.931Z",
+  "fields": [
+   {
+    "id": "e064fc94ade6b4d090ea9ed78905228f",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Image",
+    "slug": "writer-image",
+    "displayName": "Writer Image"
+   },
+   {
+    "id": "436f95ebe8db355db980d348d0d7bd50",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "name",
+    "displayName": "Name",
+    "validations": {
+     "maxLength": 256
+    }
+   },
+   {
+    "id": "c78934cf24b2565c3b2a61715f287dd0",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "slug",
+    "displayName": "Slug",
+    "validations": {
+     "maxLength": 256,
+     "pattern": {},
+     "messages": {
+      "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+      "maxLength": "Must be less than 256 characters"
+     }
+    }
+   }
+  ],
+  "fieldGroups": []
+ }
+}

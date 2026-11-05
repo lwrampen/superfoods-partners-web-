@@ -1,0 +1,30 @@
+{
+ "label": "m_681e146208e6dabd1d351076_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681e146208e6dabd1d351076",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Health & wellness businesses",
+  "slug": "health-wellness-businesses",
+  "createdOn": "2025-05-09T14:42:42.579Z",
+  "lastUpdated": "2026-06-28T15:10:40.805Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha for Gyms, Smoothie Bars & Wellness | Pure Matcha Partners",
+   "description": "Energizing, antioxidant-rich matcha. Great for smoothies, pre-workout blends & retreats. Direct B2B supplier, always in stock."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/for/health-wellness-businesses",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

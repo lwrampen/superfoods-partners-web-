@@ -1,0 +1,875 @@
+{
+ "pageId": "698d7e34b8a5e1650f0aec28",
+ "locale": "en",
+ "lastUpdated": "2026-06-28T15:11:11.751Z",
+ "total": 96,
+ "nodeCount": 96,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"914844f6-2a4b-ae89-fcd6-8f90070aad72\">Bulk Matcha for </strong><span class=\"text-span-57\" data-w-id=\"c5201d14-5710-f8b8-0a30-ec98a92edf94\"><strong data-w-id=\"c5201d14-5710-f8b8-0a30-ec98a92edf95\">Product Developers</strong></span><strong data-w-id=\"c5201d14-5710-f8b8-0a30-ec98a92edf96\"> &amp; Co-packers</strong></h1>",
+    "text": "Bulk Matcha for Product Developers & Co-packers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Pure Matcha Partners supplies bulk matcha powder for manufacturers, product developers, and co-packers across the USA, UK, and international markets, supported by a reliable <a href=\"#\" class=\"link-25\" data-w-id=\"6603b436-44bd-d37f-6277-f0af7f91c5f4\">bulk matcha powder supplier</a> setup for industrial use.<br data-w-id=\"c603a4f6-b9f1-0ab7-aab3-d724bbf24d7c\"><br data-w-id=\"5dc2c576-1bc2-e5fc-ad96-8770946fe681\">From 1 kg foil bags to full pallet-scale shipments, we provide industrial matcha powder designed for beverage manufacturing, supplements, functional foods, and private label production.<br data-w-id=\"415434dd-6b58-08d3-7a88-1c2dbe496d5b\"><br data-w-id=\"488fd503-b2bc-d443-a5c4-8cbb157dfdbc\">Whether you're developing RTD drinks, nutraceutical blends, protein powders, bakery products, or ready-to-mix formulations, we deliver consistent, certified matcha ready for commercial-scale production.</p>",
+    "text": "Pure Matcha Partners supplies bulk matcha powder for manufacturers, product developers, and co-packers across the USA, UK, and international markets, supported by a reliable bulk matcha powder supplier setup for industrial use.\n\nFrom 1 kg foil bags to full pallet-scale shipments, we provide industrial matcha powder designed for beverage manufacturing, supplements, functional foods, and private label production.\n\nWhether you're developing RTD drinks, nutraceutical blends, protein powders, bakery products, or ready-to-mix formulations, we deliver consistent, certified matcha ready for commercial-scale production."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Talk to our ingredient specialists</a>",
+    "text": "Talk to our ingredient specialists"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "698d9554ac3bc384e7feb82e"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\"><strong data-w-id=\"e3de7c50-3b25-682f-8919-26197a9ed9ee\">Why Matcha Is a Strategic Ingredient for </strong><span class=\"text-span-58\" data-w-id=\"0b7f6d00-7710-d378-1217-4c80816e86bb\">Product Developement</span></h2>",
+    "text": "Why Matcha Is a Strategic Ingredient for Product Developement"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">Matcha has become a high-growth ingredient in functional beverages, supplements, and clean-label food innovation. For product developers and contract manufacturers, it offers commercial versatility and strong consumer demand.</div>",
+    "text": "Matcha has become a high-growth ingredient in functional beverages, supplements, and clean-label food innovation. For product developers and contract manufacturers, it offers commercial versatility and strong consumer demand."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "692f369e8422850ed62d2bb9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">High-growth functional ingredient</h3>",
+    "text": "High-growth functional ingredient"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "03656774-6edd-4e56-442b-6e7c5cd8dde5",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha demand continues rising in the across RTD beverages, wellness products, and clean-label foods.</p>",
+    "text": "Matcha demand continues rising in the across RTD beverages, wellness products, and clean-label foods."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8f5d3eaa7499f6870e60"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Formulation versatility</h3>",
+    "text": "Formulation versatility"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70346a19-bd73-73d9-da4a-6d863bd308d4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Suitable for beverage concentrates, powder blends, capsules, protein mixes, bakery applications, dairy alternatives, and snack products.</p>",
+    "text": "Suitable for beverage concentrates, powder blends, capsules, protein mixes, bakery applications, dairy alternatives, and snack products."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941ae8a404997b8f7a73014"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Clean-label appeal</h3>",
+    "text": "Clean-label appeal"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ccd8b4d-ed6f-c6d3-d88e-5c197a238728",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Single-ingredient, plant-based, naturally functional — ideal for premium positioning.</p>",
+    "text": "Single-ingredient, plant-based, naturally functional — ideal for premium positioning."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b084",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8b40a99fbfa503a696ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b085",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Scalable supply formats</h3>",
+    "text": "Scalable supply formats"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b087",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Available in 1kg bags, multi-kilo sacks, and pallet shipments for industrial production.</p>",
+    "text": "Available in 1kg bags, multi-kilo sacks, and pallet shipments for industrial production."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f162",
+   "text": {
+    "html": "<h2 class=\"heading-12-new\">Bulk Matcha Formats for <span class=\"text-span-54\" data-w-id=\"1535b799-fb2b-f9ea-b5ca-1c983fc0327f\">Manufactors &amp; Co-packers</span></h2>",
+    "text": "Bulk Matcha Formats for Manufactors & Co-packers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16c",
+   "text": {
+    "html": "<h2 class=\"heading-17\">1kg Foil Bags <br data-w-id=\"1f2c15fc-3d0c-91bb-8f98-52f857654cc5\">(R&amp;D &amp; Pilot Batches)</h2>",
+    "text": "1kg Foil Bags \n(R&D & Pilot Batches)"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f170",
+   "text": {
+    "html": "<p class=\"text-custom-gray\"><strong class=\"bold-text-19\" data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a649\">Ideal for product testing, pilot production, and formulation development.<br data-w-id=\"6be5a509-b347-3f32-b42a-f4e80e32b5b2\"><br data-w-id=\"fe7ee39d-351d-786d-6228-dfd7fd61aced\">Best for:<br data-w-id=\"ecc91bcf-8423-bc44-4e06-c85b791068a3\">- Product developersInnovation teams<br data-w-id=\"b20186fa-a516-325f-81d0-d15d3a5ed15a\">- Early-stage beverage brands<br data-w-id=\"d46ad59c-e0c5-9711-bcf7-afe124bfaba9\">- Small batch co-packers<br data-w-id=\"21300685-0c34-27b9-5c89-96a22f09d82d\"><br data-w-id=\"6f190292-846c-450c-d816-119ec31e5203\">All matcha is lab-tested and compliant with international export standards.</strong></p>",
+    "text": "Ideal for product testing, pilot production, and formulation development.\n\nBest for:\n- Product developersInnovation teams\n- Early-stage beverage brands\n- Small batch co-packers\n\nAll matcha is lab-tested and compliant with international export standards."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f172",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Request development samples</a>",
+    "text": "Request development samples"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f177",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941ae8a404997b8f7a73014"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f179",
+   "text": {
+    "html": "<h2 class=\"heading-18\"><span class=\"text-span-55\" data-w-id=\"63f2e5a4-bdcd-8c19-8e86-a29b50d6ddab\">Multi-Kilo </span>Industrial Sacks</h2>",
+    "text": "Multi-Kilo Industrial Sacks"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17d",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Designed for blending, co-packing, and scaled production runs.<br data-w-id=\"7be451f7-47e6-3ec9-e55b-56849d3338bd\"><br data-w-id=\"7a5be7ee-bea3-895a-0723-33545de35c6e\">Available in custom-packed sizes depending on your workflow and production requirements.<br data-w-id=\"d45d70e6-b21a-9edb-3d35-daa3cf6c1a12\"><br data-w-id=\"04561c76-3103-27c3-9666-cf1fa5c203c0\">Best for:<br data-w-id=\"7ba82df3-9cb8-fedb-af5c-8c599f87fc63\">- Co-packers<br data-w-id=\"813e41ff-baf3-cc84-d8a4-b1708b685b7d\">- Contract manufacturers<br data-w-id=\"ed7b50b2-b0f7-18e7-4929-6179b7509191\">- Nutraceutical brands<br data-w-id=\"88d59d58-6abc-2270-f30a-d3c36a8501eb\">- RTD beverage producers</p>",
+    "text": "Designed for blending, co-packing, and scaled production runs.\n\nAvailable in custom-packed sizes depending on your workflow and production requirements.\n\nBest for:\n- Co-packers\n- Contract manufacturers\n- Nutraceutical brands\n- RTD beverage producers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17f",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Speak with our technical team</a>",
+    "text": "Speak with our technical team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f184",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941b474a13c9123aab751d0"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f186",
+   "text": {
+    "html": "<h2 class=\"heading-19\"><span class=\"text-span-56\" data-w-id=\"fe182071-3503-3da6-5cdc-5572782abebc\">Pallet-Scale </span>Ingredient Supply</h2>",
+    "text": "Pallet-Scale Ingredient Supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18a",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Custom-packed bulk shipments for global distribution, long-term contracts, and continuous manufacturing supply.<br data-w-id=\"6e5daff5-05b7-8af5-5024-9747271918f0\"><br data-w-id=\"692e0d68-75d5-398c-33a6-ea9e50210701\">Best for:<br data-w-id=\"39d26044-589b-a8ef-cec3-0739765f0d96\">- Large-scale beverage manufacturers<br data-w-id=\"17488ce4-9328-a05c-29ce-7c3c4ba85233\">- Supplement brands<br data-w-id=\"97783963-c2fc-174d-9a50-59273cac1b43\">- Functional food producers<br data-w-id=\"06af77bb-2038-cc0e-fb2c-b3f9973f268c\">- Private label programs</p>",
+    "text": "Custom-packed bulk shipments for global distribution, long-term contracts, and continuous manufacturing supply.\n\nBest for:\n- Large-scale beverage manufacturers\n- Supplement brands\n- Functional food producers\n- Private label programs"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18c",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Discuss your supply program</a>",
+    "text": "Discuss your supply program"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Trusted by <span class=\"text-span-51\" data-w-id=\"cf866dde-c004-7794-0587-37fce8b2d00e\">Wholesale &amp; Distribution</span> Leaders</h2>",
+    "text": "Trusted by Wholesale & Distribution Leaders"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "13943303-1a41-511d-1edc-314c897687f2",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6940a990eb8283766e6b0a19"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-20\" data-w-id=\"be7f2bca-f35f-b6be-5e30-a908b30764b8\">Beverage Manufacturers</strong></h3>",
+    "text": "Beverage Manufacturers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Supplying matcha powder for RTD drinks, concentrates, syrups, and café distribution.</p>",
+    "text": "Supplying matcha powder for RTD drinks, concentrates, syrups, and café distribution."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "697e12e7dad2f94fefa9d5e9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-21\" data-w-id=\"0a91b5e2-8f99-2f48-0f1a-cde0f74738a9\">Nutraceutical &amp; Supplement Brands</strong></h3>",
+    "text": "Nutraceutical & Supplement Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha for capsules, powders, wellness blends, and functional formulations.</p>",
+    "text": "Matcha for capsules, powders, wellness blends, and functional formulations."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "71f21428-c832-ba46-9e48-80c90470020d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "67fbd346f52442df00535fef"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"6fbeb4d9-7254-1dfb-5cbd-0f3590050d7a\">Contract Manufacturers &amp; Co-packers</strong></h3>",
+    "text": "Contract Manufacturers & Co-packers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Reliable bulk ingredient supply aligned with blending and packaging workflows.</p>",
+    "text": "Reliable bulk ingredient supply aligned with blending and packaging workflows."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fc",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941b3f0a653bb896da8752a"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fd",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"1ef759ca-171a-3bb1-be05-1cd016eda3fe\">Private Label &amp; White Label Programs</strong></h3>",
+    "text": "Private Label & White Label Programs"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda400",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Certified matcha for branded retail and export distribution.</p>",
+    "text": "Certified matcha for branded retail and export distribution."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-72-copy\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Speak With a Specialist</a>",
+    "text": "Speak With a Specialist"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Why Product developers &amp; CO-packers Work With Us</h2>",
+    "text": "Why Product developers & CO-packers Work With Us"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong data-w-id=\"977e704a-0496-1817-c8db-0ceb775f2e80\">Ingredient-grade consistency</strong><strong class=\"bold-text-23\" data-w-id=\"16c22970-44b0-f7aa-b547-7e5c8af85db9\"><br data-w-id=\"fff2c247-34f9-971a-0372-2849017e3747\">Uniform color, taste profile, and particle size across batches.Offer high-performing matcha grades trusted by distributors and foodservice buyers.<br data-w-id=\"4ff7f4e6-a59d-0a77-a3c8-d44528ed6677\"><br data-w-id=\"e6a06844-340f-c47c-8e13-3dd34280740d\"></strong><strong data-w-id=\"0ff2d5de-f179-3d6e-c6f0-8a6199938350\">Global sourcing flexibility</strong><strong class=\"bold-text-23\" data-w-id=\"83300280-5818-626f-bff6-511385666bb6\"><br data-w-id=\"05128f1a-552f-75ad-1ae6-60274a3dae3c\">Japan and China origin options, multiple regions available.<br data-w-id=\"f7b176ee-b342-8869-ffd6-dda33117e7dc\"><br data-w-id=\"2c36f4be-3f5c-75aa-e201-89c45dcad087\"></strong><strong data-w-id=\"28919d28-4d54-3ffd-6a3d-988b0e211a8c\">Regulatory documentation support</strong><strong class=\"bold-text-23\" data-w-id=\"6d9dd2d4-7668-0e4c-0639-ad0f30afbfa6\"><br data-w-id=\"05128f1a-552f-75ad-1ae6-60274a3dae41\">COAs, lab testing, export documentation, and compliance guidance.<br data-w-id=\"93c51408-c9cf-4570-2a00-d9b60c74a28a\"><br data-w-id=\"0d4ae865-ddf0-64f1-13a3-8d4f2fe2bc4d\"></strong><strong data-w-id=\"8236e211-998d-8856-0d39-e1cf11dd4dbe\">Flexible minimums</strong><strong class=\"bold-text-23\" data-w-id=\"e758797b-5e52-9096-f408-b4b7b9d86de0\"><br data-w-id=\"05128f1a-552f-75ad-1ae6-60274a3dae46\">Starting from 100kg annually with scalable growth options.<br data-w-id=\"cd8cfba8-6cdf-61ad-623b-f6ba4b3c1b83\"><br data-w-id=\"f3a4beaf-0b62-6766-20e0-78c5f9ac4142\"></strong><strong data-w-id=\"b4de8e13-6aa3-de95-16f2-e5435abef165\">Long-term supply programs</strong><strong class=\"bold-text-23\" data-w-id=\"52463f74-5d5d-c314-83d1-2dec00dd867e\"><br data-w-id=\"05128f1a-552f-75ad-1ae6-60274a3dae4b\">Stable contracts for ongoing production runs.</strong><br data-w-id=\"79842fc0-3e60-336e-5da9-5dbb303d4b27\">‍</div>",
+    "text": "Ingredient-grade consistency\nUniform color, taste profile, and particle size across batches.Offer high-performing matcha grades trusted by distributors and foodservice buyers.\n\nGlobal sourcing flexibility\nJapan and China origin options, multiple regions available.\n\nRegulatory documentation support\nCOAs, lab testing, export documentation, and compliance guidance.\n\nFlexible minimums\nStarting from 100kg annually with scalable growth options.\n\nLong-term supply programs\nStable contracts for ongoing production runs.\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"67ff9e333b0c6a5a7ab81f3d\">Check our products</a>",
+    "text": "Check our products"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b73",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a0742b9f10e5955e83738"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\"><strong class=\"bold-text-18\" data-w-id=\"ab73c94b-57d3-d99d-9372-b3a98762a615\">Why Matcha Works for Manufacturing &amp; Formulation</strong></span></h1>",
+    "text": "Why Matcha Works for Manufacturing & Formulation"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">Matcha performs exceptionally well in:<br data-w-id=\"b9f6d75a-acf5-e872-4ce8-94af4a55e2dc\">- Functional beverages<br data-w-id=\"5c2639b6-b2e3-1a3b-2fe3-b49034fa1cbc\">- Protein powders<br data-w-id=\"d6a47959-947c-3689-d38d-f839bad0e990\">- Greens blends<br data-w-id=\"65c0d869-99c3-584e-7133-0aecfa18c143\">- Dairy alternatives<br data-w-id=\"be9bdd4e-dd5e-8b1a-d74d-43e4051ea734\">- Bakery mixesIce cream &amp; desserts<br data-w-id=\"f3ee7584-f4a2-60ae-e4ee-38f3fa43cff4\">- Nutritional supplements<br data-w-id=\"3ef16bc6-1d09-8c4e-8752-1cf43dfee68e\"><br data-w-id=\"a7085b74-9582-b67d-3445-360d58cb18a0\">Key manufacturing advantages:<br data-w-id=\"e3f656c3-cfcc-32cc-35bf-7c1f99cff5a5\">- Consistent solubility for beverage applications<br data-w-id=\"42e8ca57-d8a2-27c6-7a92-3bf783a18c52\">- Stable color retention in production<br data-w-id=\"42e8ca57-d8a2-27c6-7a92-3bf783a18c55\">- Strong antioxidant positioning for marketing claims<br data-w-id=\"42e8ca57-d8a2-27c6-7a92-3bf783a18c58\">- Premium ingredient perception<br data-w-id=\"42e8ca57-d8a2-27c6-7a92-3bf783a18c5b\">- Shelf-stable powdered format for easy logistics<br data-w-id=\"b79cceb3-9ea6-8e28-ce7f-30afa4b0f0ac\"></div>",
+    "text": "Matcha performs exceptionally well in:\n- Functional beverages\n- Protein powders\n- Greens blends\n- Dairy alternatives\n- Bakery mixesIce cream & desserts\n- Nutritional supplements\n\nKey manufacturing advantages:\n- Consistent solubility for beverage applications\n- Stable color retention in production\n- Strong antioxidant positioning for marketing claims\n- Premium ingredient perception\n- Shelf-stable powdered format for easy logistics\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact our team</a>",
+    "text": "Contact our team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\"><span class=\"text-span-52\" data-w-id=\"d1ff9712-094a-8a0c-4315-6489d262d584\">Best Matcha</span> for <strong data-w-id=\"d3257ec0-8123-abc0-429d-637abd15e9f3\">Product Developers &amp; Co-packers</strong></h2>",
+    "text": "Best Matcha for Product Developers & Co-packers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa93",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa95",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa97",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa99\">0</span> of <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa9c\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1b",
+   "text": {
+    "html": "<div class=\"heading-xsmall-3\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1d",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb1f\"><strong data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb20\"><br data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb21\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9355",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e490ae972c9df96eba"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Matcha</div>",
+    "text": "Culinary Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9359",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-C</div>",
+    "text": "PMP-M-CU-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9360",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha</div>",
+    "text": "Premium Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9364",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-C</div>",
+    "text": "PMP-M-LA-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936b",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Matcha Organic </div>",
+    "text": "Culinary Matcha Organic "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936f",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-O</div>",
+    "text": "PMP-M-CU-1KG-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c25",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Frequently Asked Questions</h2>",
+    "text": "Frequently Asked Questions"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2c",
+   "text": {
+    "html": "<div class=\"faq-q-text\">What matcha grades are best for manufacturing?</div>",
+    "text": "What matcha grades are best for manufacturing?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2f",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Culinary and premium grades are typically used for beverage and food production depending on flavor profile and budget targets.</p>",
+    "text": "Culinary and premium grades are typically used for beverage and food production depending on flavor profile and budget targets."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c36",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"02f79e4c-2b25-afc8-d2a4-fd109c696c37\">Do you supply matcha for RTD beverage manufacturing?</strong></div>",
+    "text": "Do you supply matcha for RTD beverage manufacturing?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c3a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes. We supply bulk matcha powder for ready-to-drink production and concentrate formulation.</p>",
+    "text": "Yes. We supply bulk matcha powder for ready-to-drink production and concentrate formulation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c41",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"a1876ad2-e302-c8b9-220a-0d8a8e42730d\">Can we get COAs and technical specifications?</strong></div>",
+    "text": "Can we get COAs and technical specifications?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c44",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes — full documentation including microbiology, heavy metals, and pesticide testing is available.</p>",
+    "text": "Yes — full documentation including microbiology, heavy metals, and pesticide testing is available."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c51",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"1c30d662-92bf-4e4f-944d-31563ae474e3\">Do you offer private label matcha programs?</strong></div>",
+    "text": "Do you offer private label matcha programs?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c54",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">We support private label and white label programs for brands requiring certified bulk ingredient supply.</p>",
+    "text": "We support private label and white label programs for brands requiring certified bulk ingredient supply."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c5e",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"b1c98fda-0a4e-4cbf-b039-5b8a962765b1\">What is the minimum order for manufacturers?</strong></div>",
+    "text": "What is the minimum order for manufacturers?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c61",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Programs typically start at 100kg per year, with scalable options.</p>",
+    "text": "Programs typically start at 100kg per year, with scalable options."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "659e9fc0-a04e-1c62-2546-4f0bfa4ba387",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"659e9fc0-a04e-1c62-2546-4f0bfa4ba388\">Is your matcha suitable for industrial production and co-packing environments?</strong></div>",
+    "text": "Is your matcha suitable for industrial production and co-packing environments?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "659e9fc0-a04e-1c62-2546-4f0bfa4ba38b",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes. Our <a data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"b1e1e912-fa1a-888b-e652-d3586dcda576\">scalable bulk matcha supply</a> is tailored for manufacturers and co-packers, with consistent specifications, batch traceability, and formats optimized for high-volume processing and repeat production runs.</p>",
+    "text": "Yes. Our scalable bulk matcha supply is tailored for manufacturers and co-packers, with consistent specifications, batch traceability, and formats optimized for high-volume processing and repeat production runs."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Ready to get <span class=\"text-span-47\" data-w-id=\"af4300d8-917e-1505-83d8-8a5101132418\">started</span>?</div>",
+    "text": "Ready to get started?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today.</p>",
+    "text": "We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Get in touch with our sales team</a>",
+    "text": "Get in touch with our sales team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a26",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a518347c3ed2d8200ede8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a28",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51840e630e2044d647be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183ca567cd974b62e65"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183627011d688ff9aa6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51847545d8c6adfa19a5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a30",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d2578d8cc6f8e7561fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a32",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36af2799da49c0e47c"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a34",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d37af2799da49c0e538"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a36",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d3654de4503d53f89fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a38",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d366cf7308d4d7f2413"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 96
+  }
+ ]
+}

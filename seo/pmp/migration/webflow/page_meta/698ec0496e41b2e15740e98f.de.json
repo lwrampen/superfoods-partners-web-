@@ -1,0 +1,30 @@
+{
+ "label": "m_698ec0496e41b2e15740e98f_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "698ec0496e41b2e15740e98f",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Supplement & Nutraceutical Brands",
+  "slug": "bulk-matcha-for-supplements",
+  "createdOn": "2026-02-13T06:10:17.658Z",
+  "lastUpdated": "2026-06-22T07:28:27.510Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Zutat für Supplement-Marken | Pure Matcha Partners",
+   "description": "Matcha-Pulver im Großhandel für Kapseln & Functional Supplements. Zertifiziert, COA-geprüft & in organischer Bulk-Versorgung erhältlich."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/for/bulk-matcha-for-supplements",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

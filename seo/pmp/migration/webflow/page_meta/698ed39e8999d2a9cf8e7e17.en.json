@@ -1,0 +1,29 @@
+{
+ "label": "m_698ed39e8999d2a9cf8e7e17_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "698ed39e8999d2a9cf8e7e17",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Bulk Matcha Powder Supplier for Global Brands",
+  "slug": "bulk-matcha-powder-supplier",
+  "createdOn": "2026-02-13T07:32:46.765Z",
+  "lastUpdated": "2026-11-05T05:56:46.372Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Bulk Matcha Powder Supplier Europe | Wholesale from 5 kg",
+   "description": "Organic and conventional bulk matcha from Japan and China. COA-backed batches and EU fulfilment from our Dutch warehouse. Wholesale supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/bulk-matcha-powder-supplier",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

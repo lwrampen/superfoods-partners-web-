@@ -1,0 +1,30 @@
+{
+ "label": "m_681e17afa8ca29ba3c3c037a_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681e17afa8ca29ba3c3c037a",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Retail & gift stores",
+  "slug": "retail-gift-stores",
+  "createdOn": "2025-05-09T14:56:47.637Z",
+  "lastUpdated": "2026-06-22T07:28:27.754Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha for Retail & Gift Concepts | Pure Matcha Partners",
+   "description": "Retail-ready matcha with stylish packaging. Perfect for tea shops, gift boxes & wellness brands. Private label available."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/for/retail-gift-stores",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

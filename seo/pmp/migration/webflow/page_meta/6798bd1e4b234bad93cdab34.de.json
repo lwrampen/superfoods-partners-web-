@@ -1,0 +1,29 @@
+{
+ "label": "m_6798bd1e4b234bad93cdab34_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab34",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Faq",
+  "slug": "faq",
+  "createdOn": "2024-12-12T16:52:39.497Z",
+  "lastUpdated": "2026-08-02T15:53:13.443Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Großhandel FAQ | Pure Matcha Partners",
+   "description": "Antworten auf häufige Fragen zu Matcha, Lagerung, Haltbarkeit & Versand. Schnelle, praktische Hilfe für unsere B2B-Kunden."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/faq",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

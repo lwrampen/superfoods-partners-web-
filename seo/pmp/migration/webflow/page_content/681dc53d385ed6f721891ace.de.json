@@ -1,0 +1,1294 @@
+{
+ "pageId": "681dc53d385ed6f721891ace",
+ "locale": "de",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 19,
+ "nodeCount": 19,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a2d",
+   "text": {
+    "html": "<h2 class=\"h2-3\">Preislisten <span class=\"text-span-14\" data-w-id=\"8682b878-b662-fbf1-89d0-0df93d327202\">Anfrage</span> 🍵</h2>",
+    "text": "Preislisten Anfrage 🍵"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cf11d346-ce33-184f-0299-06516e902a30",
+   "text": {
+    "html": "<p class=\"paragraph-13\">Nachdem Sie unser Kontaktformular ausgefüllt haben, wird sich einer unserer Vertriebsmitarbeiter mit einer Preisliste, einem passenden Produktangebot und einem Musterset zu Ihrer Anfrage bei Ihnen melden.<br data-w-id=\"1cf06ec4-8d1e-052b-1a33-1482d56048ae\"></p>",
+    "text": "Nachdem Sie unser Kontaktformular ausgefüllt haben, wird sich einer unserer Vertriebsmitarbeiter mit einer Preisliste, einem passenden Produktangebot und einem Musterset zu Ihrer Anfrage bei Ihnen melden.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549952",
+   "text": {
+    "html": "<label for=\"Full-name\" class=\"input-label\">Vollständiger Name*</label>",
+    "text": "Vollständiger Name*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549954",
+   "placeholder": "Vor- + Nachname",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549956",
+   "text": {
+    "html": "<label for=\"Company-name\" class=\"input-label\">Firmenname</label>",
+    "text": "Firmenname"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549958",
+   "placeholder": "Unternehmen",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b42bff-ac49-4110-02d1-dabf8654995b",
+   "text": {
+    "html": "<label for=\"Email\" class=\"input-label\">E-Mail*</label>",
+    "text": "E-Mail*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b42bff-ac49-4110-02d1-dabf8654995f",
+   "text": {
+    "html": "<label for=\"Phone\" class=\"input-label\">Telefon*</label>",
+    "text": "Telefon*"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549962",
+   "choices": [
+    {
+     "text": "Land auswählen",
+     "value": ""
+    },
+    {
+     "text": "Afghanistan",
+     "value": "Afghanistan"
+    },
+    {
+     "text": "Akrotiri",
+     "value": "Akrotiri"
+    },
+    {
+     "text": "Albanien",
+     "value": "Albania"
+    },
+    {
+     "text": "Algerien",
+     "value": "Algeria"
+    },
+    {
+     "text": "Amerikanisch-Samoa",
+     "value": "American Samoa"
+    },
+    {
+     "text": "Andorra",
+     "value": "Andorra"
+    },
+    {
+     "text": "Angola",
+     "value": "Angola"
+    },
+    {
+     "text": "Anguilla",
+     "value": "Anguilla"
+    },
+    {
+     "text": "Antarktis",
+     "value": "Antarctica"
+    },
+    {
+     "text": "Antigua und Barbuda",
+     "value": "Antigua and Barbuda"
+    },
+    {
+     "text": "Argentinien",
+     "value": "Argentina"
+    },
+    {
+     "text": "Armenien",
+     "value": "Armenia"
+    },
+    {
+     "text": "Aruba",
+     "value": "Aruba"
+    },
+    {
+     "text": "Ashmore- und Cartierinseln",
+     "value": "Ashmore and Cartier Islands"
+    },
+    {
+     "text": "Australien",
+     "value": "Australia"
+    },
+    {
+     "text": "Österreich",
+     "value": "Austria"
+    },
+    {
+     "text": "Aserbaidschan",
+     "value": "Azerbaijan"
+    },
+    {
+     "text": "Bahamas",
+     "value": "Bahamas"
+    },
+    {
+     "text": "Bahrain",
+     "value": "Bahrain"
+    },
+    {
+     "text": "Bangladesch",
+     "value": "Bangladesh"
+    },
+    {
+     "text": "Barbados",
+     "value": "Barbados"
+    },
+    {
+     "text": "Bassas da India",
+     "value": "Bassas da India"
+    },
+    {
+     "text": "Belarus",
+     "value": "Belarus"
+    },
+    {
+     "text": "Belgien",
+     "value": "Belgium"
+    },
+    {
+     "text": "Belize",
+     "value": "Belize"
+    },
+    {
+     "text": "Benin",
+     "value": "Benin"
+    },
+    {
+     "text": "Bermuda",
+     "value": "Bermuda"
+    },
+    {
+     "text": "Bhutan",
+     "value": "Bhutan"
+    },
+    {
+     "text": "Bolivien",
+     "value": "Bolivia"
+    },
+    {
+     "text": "Bosnien und Herzegowina",
+     "value": "Bosnia and Herzegovina"
+    },
+    {
+     "text": "Botsuana",
+     "value": "Botswana"
+    },
+    {
+     "text": "Bouvetinsel",
+     "value": "Bouvet Island"
+    },
+    {
+     "text": "Brasilien",
+     "value": "Brazil"
+    },
+    {
+     "text": "Britisches Territorium im Indischen Ozean",
+     "value": "British Indian Ocean Territory"
+    },
+    {
+     "text": "Britische Jungferninseln",
+     "value": "British Virgin Islands"
+    },
+    {
+     "text": "Brunei",
+     "value": "Brunei"
+    },
+    {
+     "text": "Bulgarien",
+     "value": "Bulgaria"
+    },
+    {
+     "text": "Burkina Faso",
+     "value": "Burkina Faso"
+    },
+    {
+     "text": "Birma",
+     "value": "Burma"
+    },
+    {
+     "text": "Burundi",
+     "value": "Burundi"
+    },
+    {
+     "text": "Kambodscha",
+     "value": "Cambodia"
+    },
+    {
+     "text": "Kamerun",
+     "value": "Cameroon"
+    },
+    {
+     "text": "Kanada",
+     "value": "Canada"
+    },
+    {
+     "text": "Kap Verde",
+     "value": "Cape Verde"
+    },
+    {
+     "text": "Kaimaninseln",
+     "value": "Cayman Islands"
+    },
+    {
+     "text": "Zentralafrikanische Republik",
+     "value": "Central African Republic"
+    },
+    {
+     "text": "Tschad",
+     "value": "Chad"
+    },
+    {
+     "text": "Chile",
+     "value": "Chile"
+    },
+    {
+     "text": "China",
+     "value": "China"
+    },
+    {
+     "text": "Weihnachtsinsel",
+     "value": "Christmas Island"
+    },
+    {
+     "text": "Clipperton-Insel",
+     "value": "Clipperton Island"
+    },
+    {
+     "text": "Kokosinseln (Keelinginseln)",
+     "value": "Cocos (Keeling) Islands"
+    },
+    {
+     "text": "Kolumbien",
+     "value": "Colombia"
+    },
+    {
+     "text": "Komoren",
+     "value": "Comoros"
+    },
+    {
+     "text": "Kongo",
+     "value": "Congo"
+    },
+    {
+     "text": "Demokratische Republik Kongo",
+     "value": "Democratic Republic of the Congo"
+    },
+    {
+     "text": "Republik der Cookinseln",
+     "value": "Republic of the Cook Islands"
+    },
+    {
+     "text": "Korallenmeerinseln",
+     "value": "Coral Sea Islands"
+    },
+    {
+     "text": "Costa Rica",
+     "value": "Costa Rica"
+    },
+    {
+     "text": "Côte d'Ivoire",
+     "value": "Cote d'Ivoire"
+    },
+    {
+     "text": "Kroatien",
+     "value": "Croatia"
+    },
+    {
+     "text": "Kuba",
+     "value": "Cuba"
+    },
+    {
+     "text": "Zypern",
+     "value": "Cyprus"
+    },
+    {
+     "text": "Tschechische Republik",
+     "value": "Czech Republic"
+    },
+    {
+     "text": "Dänemark",
+     "value": "Denmark"
+    },
+    {
+     "text": "Dhekelia",
+     "value": "Dhekelia"
+    },
+    {
+     "text": "Dschibuti",
+     "value": "Djibouti"
+    },
+    {
+     "text": "Dominica",
+     "value": "Dominica"
+    },
+    {
+     "text": "Dominikanische Republik",
+     "value": "Dominican Republic"
+    },
+    {
+     "text": "Ecuador",
+     "value": "Ecuador"
+    },
+    {
+     "text": "Ägypten",
+     "value": "Egypt"
+    },
+    {
+     "text": "El Salvador",
+     "value": "El Salvador"
+    },
+    {
+     "text": "Äquatorialguinea",
+     "value": "Equatorial Guinea"
+    },
+    {
+     "text": "Eritrea",
+     "value": "Eritrea"
+    },
+    {
+     "text": "Estland",
+     "value": "Estonia"
+    },
+    {
+     "text": "Äthiopien",
+     "value": "Ethiopia"
+    },
+    {
+     "text": "Europa-Insel",
+     "value": "Europa Island"
+    },
+    {
+     "text": "Falklandinseln (Islas Malvinas)",
+     "value": "Falkland Islands (Islas Malvinas)"
+    },
+    {
+     "text": "Färöer",
+     "value": "Faroe Islands"
+    },
+    {
+     "text": "Fidschi",
+     "value": "Fiji"
+    },
+    {
+     "text": "Finnland",
+     "value": "Finland"
+    },
+    {
+     "text": "Frankreich",
+     "value": "France"
+    },
+    {
+     "text": "Französisch-Guayana",
+     "value": "French Guiana"
+    },
+    {
+     "text": "Französisch-Polynesien",
+     "value": "French Polynesia"
+    },
+    {
+     "text": "Französische Süd- und Antarktisgebiete",
+     "value": "French Southern and Antarctic Lands"
+    },
+    {
+     "text": "Gabun",
+     "value": "Gabon"
+    },
+    {
+     "text": "Gambia",
+     "value": "Gambia"
+    },
+    {
+     "text": "Gazastreifen",
+     "value": "Gaza Strip"
+    },
+    {
+     "text": "Georgien",
+     "value": "Georgia"
+    },
+    {
+     "text": "Deutschland",
+     "value": "Germany"
+    },
+    {
+     "text": "Ghana",
+     "value": "Ghana"
+    },
+    {
+     "text": "Gibraltar",
+     "value": "Gibraltar"
+    },
+    {
+     "text": "Glorioso-Inseln",
+     "value": "Glorioso Islands"
+    },
+    {
+     "text": "Griechenland",
+     "value": "Greece"
+    },
+    {
+     "text": "Grönland",
+     "value": "Greenland"
+    },
+    {
+     "text": "Grenada",
+     "value": "Grenada"
+    },
+    {
+     "text": "Guadeloupe",
+     "value": "Guadeloupe"
+    },
+    {
+     "text": "Guam",
+     "value": "Guam"
+    },
+    {
+     "text": "Guatemala",
+     "value": "Guatemala"
+    },
+    {
+     "text": "Guernsey",
+     "value": "Guernsey"
+    },
+    {
+     "text": "Guinea",
+     "value": "Guinea"
+    },
+    {
+     "text": "Guinea-Bissau",
+     "value": "Guinea-Bissau"
+    },
+    {
+     "text": "Guyana",
+     "value": "Guyana"
+    },
+    {
+     "text": "Haiti",
+     "value": "Haiti"
+    },
+    {
+     "text": "Heard und McDonaldinseln",
+     "value": "Heard Island and McDonald Islands"
+    },
+    {
+     "text": "Heiliger Stuhl (Vatikanstadt)",
+     "value": "Holy See (Vatican City)"
+    },
+    {
+     "text": "Honduras",
+     "value": "Honduras"
+    },
+    {
+     "text": "Hongkong",
+     "value": "Hong Kong"
+    },
+    {
+     "text": "Ungarn",
+     "value": "Hungary"
+    },
+    {
+     "text": "Island",
+     "value": "Iceland"
+    },
+    {
+     "text": "Indien",
+     "value": "India"
+    },
+    {
+     "text": "Indonesien",
+     "value": "Indonesia"
+    },
+    {
+     "text": "Iran",
+     "value": "Iran"
+    },
+    {
+     "text": "Irak",
+     "value": "Iraq"
+    },
+    {
+     "text": "Irland",
+     "value": "Ireland"
+    },
+    {
+     "text": "Isle of Man",
+     "value": "Isle of Man"
+    },
+    {
+     "text": "Israel",
+     "value": "Israel"
+    },
+    {
+     "text": "Italien",
+     "value": "Italy"
+    },
+    {
+     "text": "Jamaika",
+     "value": "Jamaica"
+    },
+    {
+     "text": "Jan Mayen",
+     "value": "Jan Mayen"
+    },
+    {
+     "text": "Japan",
+     "value": "Japan"
+    },
+    {
+     "text": "Jersey",
+     "value": "Jersey"
+    },
+    {
+     "text": "Jordanien",
+     "value": "Jordan"
+    },
+    {
+     "text": "Juan-de-Nova-Insel",
+     "value": "Juan de Nova Island"
+    },
+    {
+     "text": "Kasachstan",
+     "value": "Kazakhstan"
+    },
+    {
+     "text": "Kenia",
+     "value": "Kenya"
+    },
+    {
+     "text": "Kiribati",
+     "value": "Kiribati"
+    },
+    {
+     "text": "Nordkorea",
+     "value": "Korea, North"
+    },
+    {
+     "text": "Südkorea",
+     "value": "Korea, South"
+    },
+    {
+     "text": "Kuwait",
+     "value": "Kuwait"
+    },
+    {
+     "text": "Kirgisistan",
+     "value": "Kyrgyzstan"
+    },
+    {
+     "text": "Laos",
+     "value": "Laos"
+    },
+    {
+     "text": "Lettland",
+     "value": "Latvia"
+    },
+    {
+     "text": "Libanon",
+     "value": "Lebanon"
+    },
+    {
+     "text": "Lesotho",
+     "value": "Lesotho"
+    },
+    {
+     "text": "Liberia",
+     "value": "Liberia"
+    },
+    {
+     "text": "Libyen",
+     "value": "Libya"
+    },
+    {
+     "text": "Liechtenstein",
+     "value": "Liechtenstein"
+    },
+    {
+     "text": "Litauen",
+     "value": "Lithuania"
+    },
+    {
+     "text": "Luxemburg",
+     "value": "Luxembourg"
+    },
+    {
+     "text": "Macau",
+     "value": "Macau"
+    },
+    {
+     "text": "Mazedonien",
+     "value": "Macedonia"
+    },
+    {
+     "text": "Madagaskar",
+     "value": "Madagascar"
+    },
+    {
+     "text": "Malawi",
+     "value": "Malawi"
+    },
+    {
+     "text": "Malaysia",
+     "value": "Malaysia"
+    },
+    {
+     "text": "Malediven",
+     "value": "Maldives"
+    },
+    {
+     "text": "Mali",
+     "value": "Mali"
+    },
+    {
+     "text": "Malta",
+     "value": "Malta"
+    },
+    {
+     "text": "Marshallinseln",
+     "value": "Marshall Islands"
+    },
+    {
+     "text": "Martinique",
+     "value": "Martinique"
+    },
+    {
+     "text": "Mauretanien",
+     "value": "Mauritania"
+    },
+    {
+     "text": "Mauritius",
+     "value": "Mauritius"
+    },
+    {
+     "text": "Mayotte",
+     "value": "Mayotte"
+    },
+    {
+     "text": "Mexiko",
+     "value": "Mexico"
+    },
+    {
+     "text": "Mikronesien",
+     "value": "Micronesia"
+    },
+    {
+     "text": "Moldau",
+     "value": "Moldova"
+    },
+    {
+     "text": "Monaco",
+     "value": "Monaco"
+    },
+    {
+     "text": "Mongolei",
+     "value": "Mongolia"
+    },
+    {
+     "text": "Montenegro",
+     "value": "Montenegro"
+    },
+    {
+     "text": "Montserrat",
+     "value": "Montserrat"
+    },
+    {
+     "text": "Marokko",
+     "value": "Morocco"
+    },
+    {
+     "text": "Mosambik",
+     "value": "Mozambique"
+    },
+    {
+     "text": "Namibia",
+     "value": "Namibia"
+    },
+    {
+     "text": "Nauru",
+     "value": "Nauru"
+    },
+    {
+     "text": "Navassa-Insel",
+     "value": "Navassa Island"
+    },
+    {
+     "text": "Nepal",
+     "value": "Nepal"
+    },
+    {
+     "text": "Niederlande",
+     "value": "Netherlands"
+    },
+    {
+     "text": "Niederländische Antillen",
+     "value": "Netherlands Antilles"
+    },
+    {
+     "text": "Neukaledonien",
+     "value": "New Caledonia"
+    },
+    {
+     "text": "Neuseeland",
+     "value": "New Zealand"
+    },
+    {
+     "text": "Nicaragua",
+     "value": "Nicaragua"
+    },
+    {
+     "text": "Niger",
+     "value": "Niger"
+    },
+    {
+     "text": "Nigeria",
+     "value": "Nigeria"
+    },
+    {
+     "text": "Niue",
+     "value": "Niue"
+    },
+    {
+     "text": "Norfolkinsel",
+     "value": "Norfolk Island"
+    },
+    {
+     "text": "Nördliche Marianen",
+     "value": "Northern Mariana Islands"
+    },
+    {
+     "text": "Norwegen",
+     "value": "Norway"
+    },
+    {
+     "text": "Oman",
+     "value": "Oman"
+    },
+    {
+     "text": "Pakistan",
+     "value": "Pakistan"
+    },
+    {
+     "text": "Palau",
+     "value": "Palau"
+    },
+    {
+     "text": "Panama",
+     "value": "Panama"
+    },
+    {
+     "text": "Papua-Neuguinea",
+     "value": "Papua New Guinea"
+    },
+    {
+     "text": "Paracel-Inseln",
+     "value": "Paracel Islands"
+    },
+    {
+     "text": "Paraguay",
+     "value": "Paraguay"
+    },
+    {
+     "text": "Peru",
+     "value": "Peru"
+    },
+    {
+     "text": "Philippinen",
+     "value": "Philippines"
+    },
+    {
+     "text": "Pitcairninseln",
+     "value": "Pitcairn Islands"
+    },
+    {
+     "text": "Polen",
+     "value": "Poland"
+    },
+    {
+     "text": "Portugal",
+     "value": "Portugal"
+    },
+    {
+     "text": "Puerto Rico",
+     "value": "Puerto Rico"
+    },
+    {
+     "text": "Katar",
+     "value": "Qatar"
+    },
+    {
+     "text": "Réunion",
+     "value": "Reunion"
+    },
+    {
+     "text": "Rumänien",
+     "value": "Romania"
+    },
+    {
+     "text": "Russland",
+     "value": "Russia"
+    },
+    {
+     "text": "Ruanda",
+     "value": "Rwanda"
+    },
+    {
+     "text": "St. Helena",
+     "value": "Saint Helena"
+    },
+    {
+     "text": "St. Kitts und Nevis",
+     "value": "Saint Kitts and Nevis"
+    },
+    {
+     "text": "St. Lucia",
+     "value": "Saint Lucia"
+    },
+    {
+     "text": "St. Pierre und Miquelon",
+     "value": "Saint Pierre and Miquelon"
+    },
+    {
+     "text": "St. Vincent und die Grenadinen",
+     "value": "Saint Vincent and the Grenadines"
+    },
+    {
+     "text": "Samoa",
+     "value": "Samoa"
+    },
+    {
+     "text": "San Marino",
+     "value": "San Marino"
+    },
+    {
+     "text": "São Tomé und Príncipe",
+     "value": "Sao Tome and Principe"
+    },
+    {
+     "text": "Saudi-Arabien",
+     "value": "Saudi Arabia"
+    },
+    {
+     "text": "Senegal",
+     "value": "Senegal"
+    },
+    {
+     "text": "Serbien",
+     "value": "Serbia"
+    },
+    {
+     "text": "Seychellen",
+     "value": "Seychelles"
+    },
+    {
+     "text": "Sierra Leone",
+     "value": "Sierra Leone"
+    },
+    {
+     "text": "Singapur",
+     "value": "Singapore"
+    },
+    {
+     "text": "Slowakei",
+     "value": "Slovakia"
+    },
+    {
+     "text": "Slowenien",
+     "value": "Slovenia"
+    },
+    {
+     "text": "Salomonen",
+     "value": "Solomon Islands"
+    },
+    {
+     "text": "Somalia",
+     "value": "Somalia"
+    },
+    {
+     "text": "Südafrika",
+     "value": "South Africa"
+    },
+    {
+     "text": "Südgeorgien und die Südlichen Sandwichinseln",
+     "value": "South Georgia and the South Sandwich Islands"
+    },
+    {
+     "text": "Spanien",
+     "value": "Spain"
+    },
+    {
+     "text": "Spratly-Inseln",
+     "value": "Spratly Islands"
+    },
+    {
+     "text": "Sri Lanka",
+     "value": "Sri Lanka"
+    },
+    {
+     "text": "Sudan",
+     "value": "Sudan"
+    },
+    {
+     "text": "Suriname",
+     "value": "Suriname"
+    },
+    {
+     "text": "Spitzbergen",
+     "value": "Svalbard"
+    },
+    {
+     "text": "Swasiland",
+     "value": "Swaziland"
+    },
+    {
+     "text": "Schweden",
+     "value": "Sweden"
+    },
+    {
+     "text": "Schweiz",
+     "value": "Switzerland"
+    },
+    {
+     "text": "Syrien",
+     "value": "Syria"
+    },
+    {
+     "text": "Taiwan",
+     "value": "Taiwan"
+    },
+    {
+     "text": "Tadschikistan",
+     "value": "Tajikistan"
+    },
+    {
+     "text": "Tansania",
+     "value": "Tanzania"
+    },
+    {
+     "text": "Thailand",
+     "value": "Thailand"
+    },
+    {
+     "text": "Timor-Leste",
+     "value": "Timor-Leste"
+    },
+    {
+     "text": "Togo",
+     "value": "Togo"
+    },
+    {
+     "text": "Tokelau",
+     "value": "Tokelau"
+    },
+    {
+     "text": "Tonga",
+     "value": "Tonga"
+    },
+    {
+     "text": "Trinidad und Tobago",
+     "value": "Trinidad and Tobago"
+    },
+    {
+     "text": "Insel Tromelin",
+     "value": "Tromelin Island"
+    },
+    {
+     "text": "Tunesien",
+     "value": "Tunisia"
+    },
+    {
+     "text": "Türkei",
+     "value": "Turkey"
+    },
+    {
+     "text": "Turkmenistan",
+     "value": "Turkmenistan"
+    },
+    {
+     "text": "Turks- und Caicosinseln",
+     "value": "Turks and Caicos Islands"
+    },
+    {
+     "text": "Tuvalu",
+     "value": "Tuvalu"
+    },
+    {
+     "text": "Uganda",
+     "value": "Uganda"
+    },
+    {
+     "text": "Ukraine",
+     "value": "Ukraine"
+    },
+    {
+     "text": "Vereinigte Arabische Emirate",
+     "value": "United Arab Emirates"
+    },
+    {
+     "text": "Vereinigtes Königreich",
+     "value": "United Kingdom"
+    },
+    {
+     "text": "Vereinigte Staaten",
+     "value": "United States"
+    },
+    {
+     "text": "Uruguay",
+     "value": "Uruguay"
+    },
+    {
+     "text": "Usbekistan",
+     "value": "Uzbekistan"
+    },
+    {
+     "text": "Vanuatu",
+     "value": "Vanuatu"
+    },
+    {
+     "text": "Venezuela",
+     "value": "Venezuela"
+    },
+    {
+     "text": "Vietnam",
+     "value": "Vietnam"
+    },
+    {
+     "text": "Jungferninseln",
+     "value": "Virgin Islands"
+    },
+    {
+     "text": "Wake Island",
+     "value": "Wake Island"
+    },
+    {
+     "text": "Wallis und Futuna",
+     "value": "Wallis and Futuna"
+    },
+    {
+     "text": "Westjordanland",
+     "value": "West Bank"
+    },
+    {
+     "text": "Westsahara",
+     "value": "Western Sahara"
+    },
+    {
+     "text": "Jemen",
+     "value": "Yemen"
+    },
+    {
+     "text": "Sambia",
+     "value": "Zambia"
+    },
+    {
+     "text": "Simbabwe",
+     "value": "Zimbabwe"
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549963",
+   "text": {
+    "html": "<label for=\"Preferred-communication\" class=\"input-label-copy-copy\">Zusätzliche Informationen</label>",
+    "text": "Zusätzliche Informationen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549965",
+   "choices": [
+    {
+     "text": "Bevorzugte Kommunikation",
+     "value": ""
+    },
+    {
+     "text": "WhatsApp (am schnellsten) ",
+     "value": "Whatsapp"
+    },
+    {
+     "text": "E-Mail",
+     "value": "Email"
+    },
+    {
+     "text": "Telefon",
+     "value": "Phone"
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549966",
+   "choices": [
+    {
+     "text": "Erwarteter Jahresbedarf",
+     "value": ""
+    },
+    {
+     "text": "0-10 KG",
+     "value": "0-10KG"
+    },
+    {
+     "text": "10KG-50KG",
+     "value": "50KG"
+    },
+    {
+     "text": "50KG-100KG",
+     "value": "50KG-100KG"
+    },
+    {
+     "text": "100KG-1.000KG ",
+     "value": "100KG-1.000KG "
+    },
+    {
+     "text": "1.000KG-10.000KG ",
+     "value": "1.000KG-10.000KG "
+    },
+    {
+     "text": "10.000KG +",
+     "value": "10.000KG +"
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "90a985b4-8ea7-c83e-e9fa-361474940854",
+   "text": {
+    "html": "<label for=\"Grade\" class=\"input-label-copy-copy-field1\">*Unsere Mindestbestellmenge (MOQ) pro Bestellung beträgt 20 kg</label>",
+    "text": "*Unsere Mindestbestellmenge (MOQ) pro Bestellung beträgt 20 kg"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549967",
+   "choices": [
+    {
+     "text": "Wählen Sie die gewünschte(n) Qualität(en) aus",
+     "value": ""
+    },
+    {
+     "text": "Zeremoniell",
+     "value": "Ceremonial"
+    },
+    {
+     "text": "Latte / Premium-Qualität",
+     "value": "Latte / Premium grade"
+    },
+    {
+     "text": "Kulinarisch",
+     "value": "Culinary"
+    },
+    {
+     "text": "Ube-Pulver",
+     "value": "Ube Powder"
+    },
+    {
+     "text": "Hibiskuspulver",
+     "value": "Hibiscus Powder"
+    },
+    {
+     "text": "Spezial-Teepulver",
+     "value": "Specialty Tea Powders"
+    },
+    {
+     "text": "Mehrere",
+     "value": "Multiple"
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "select",
+   "id": "9fda57cf-bcd4-141d-5163-d304d88ca571",
+   "choices": [
+    {
+     "text": "Wie möchten Sie vorgehen?",
+     "value": ""
+    },
+    {
+     "text": "Direkter Shop-Zugang",
+     "value": "Direct shop access"
+    },
+    {
+     "text": "Zuerst Beratung",
+     "value": "Advice first"
+    },
+    {
+     "text": "Individuelles Angebot",
+     "value": "Custom quote"
+    }
+   ],
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "23b42bff-ac49-4110-02d1-dabf8654996a",
+   "placeholder": "Zu Ihrem Unternehmen und Ihrer Anfrage",
+   "attributes": {}
+  },
+  {
+   "type": "submit-button",
+   "id": "23b42bff-ac49-4110-02d1-dabf8654996c",
+   "waitingText": "Bitte warten Sie...",
+   "value": "Senden",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b42bff-ac49-4110-02d1-dabf8654996e",
+   "text": {
+    "html": "<div class=\"text-block-131\">Ihre Nachricht ist bei uns eingegangen und wir werden uns so schnell wie möglich bei Ihnen melden.<br data-w-id=\"0a69b07f-29c9-07f0-1f59-5d129ab51d7d\"><br data-w-id=\"b74eb03e-ad3c-5e36-2e03-322575c33389\">Bis bald,<br data-w-id=\"34a46894-d43b-846d-a0a9-5e4d8477a3c8\">Ihr Team <strong data-w-id=\"23b42bff-ac49-4110-02d1-dabf86549975\">Pure Matcha Partners 💚 </strong></div>",
+    "text": "Ihre Nachricht ist bei uns eingegangen und wir werden uns so schnell wie möglich bei Ihnen melden.\n\nBis bald,\nIhr Team Pure Matcha Partners 💚 "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b42bff-ac49-4110-02d1-dabf86549978",
+   "text": {
+    "html": "<div>Hoppla! Bitte versuchen Sie es erneut zu senden.</div>",
+    "text": "Hoppla! Bitte versuchen Sie es erneut zu senden."
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 19
+  }
+ ]
+}

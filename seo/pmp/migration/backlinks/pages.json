@@ -1,0 +1,90 @@
+[
+ {
+  "type": "backlinks_domain_page",
+  "main_domain": "purematchapartners.com",
+  "domain": "purematchapartners.com",
+  "tld": "com",
+  "page": "https://purematchapartners.com/",
+  "ip": "75.2.70.75",
+  "first_visited": "2025-07-31 11:02:06 +00:00",
+  "prev_visited": "2025-09-05 23:20:13 +00:00",
+  "fetch_time": "2025-10-29 02:04:21 +00:00",
+  "status_code": 301,
+  "location": "https://www.purematchapartners.com/",
+  "size": 166,
+  "encoded_size": 166,
+  "content_encoding": null,
+  "media_type": "text/html",
+  "server": null,
+  "meta": {
+   "title": null,
+   "canonical": null,
+   "internal_links_count": 0,
+   "external_links_count": 0,
+   "images_count": 0,
+   "words_count": 0,
+   "page_spam_score": 0,
+   "social_media_tags": null,
+   "h1": null,
+   "h2": null,
+   "h3": null,
+   "images_alt": null,
+   "powered_by": null,
+   "language": null,
+   "charset": null,
+   "platform_type": null,
+   "technologies": null
+  },
+  "page_summary": {
+   "first_seen": "2025-07-31 11:02:06 +00:00",
+   "lost_date": null,
+   "rank": 51,
+   "backlinks": 35,
+   "backlinks_spam_score": 57,
+   "broken_backlinks": 0,
+   "broken_pages": 0,
+   "referring_domains": 33,
+   "referring_domains_nofollow": 7,
+   "referring_main_domains": 31,
+   "referring_main_domains_nofollow": 7,
+   "referring_ips": 28,
+   "referring_subnets": 28,
+   "referring_pages": 34,
+   "referring_pages_nofollow": 8,
+   "referring_links_tld": {
+    "com": 23,
+    "fyi": 2,
+    "shop": 2,
+    "app": 1,
+    "eu": 1,
+    "info": 1,
+    "pro": 1,
+    "us.com": 1,
+    "website": 1,
+    "wiki": 1
+   },
+   "referring_links_types": {
+    "anchor": 34
+   },
+   "referring_links_attributes": {
+    "noopener": 27,
+    "nofollow": 8
+   },
+   "referring_links_platform_types": {
+    "unknown": 32,
+    "blogs": 2,
+    "cms": 2,
+    "organization": 1
+   },
+   "referring_links_semantic_locations": {
+    "": 31,
+    "article": 2,
+    "main": 1
+   },
+   "referring_links_countries": {
+    "": 31,
+    "US": 3
+   }
+  }
+ }
+]

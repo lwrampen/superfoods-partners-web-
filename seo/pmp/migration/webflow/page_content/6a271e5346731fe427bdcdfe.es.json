@@ -1,0 +1,115 @@
+{
+ "pageId": "6a271e5346731fe427bdcdfe",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 11,
+ "nodeCount": 11,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\">Ingredientes de matcha para marcas de alimentos y bebidas</h1>",
+    "text": "Ingredientes de matcha para marcas de alimentos y bebidas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">En Pure Matcha Partners, suministramos matcha listo para su formulación con el fin de impulsar la innovación en productos alimenticios y bebidas. <br data-w-id=\"19e02653-fc0a-3fd7-7cc7-ba93a629ac3a\"><br data-w-id=\"9461d5ea-1dcc-92c8-e4d3-60444dff8892\">Tanto si está creando bebidas listas para tomar, barritas proteicas, snacks saludables o polvos funcionales, nuestros ingredientes de matcha aportan un color vibrante, un atractivo etiquetado limpio y un rendimiento fiable en entornos de procesamiento.</p>",
+    "text": "En Pure Matcha Partners, suministramos matcha listo para su formulación con el fin de impulsar la innovación en productos alimenticios y bebidas. \n\nTanto si está creando bebidas listas para tomar, barritas proteicas, snacks saludables o polvos funcionales, nuestros ingredientes de matcha aportan un color vibrante, un atractivo etiquetado limpio y un rendimiento fiable en entornos de procesamiento."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Solicitar muestras</a>",
+    "text": "Solicitar muestras"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\">¿Por qué utilizar matcha en aplicaciones alimentarias y bebidas?</h2>",
+    "text": "¿Por qué utilizar matcha en aplicaciones alimentarias y bebidas?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">El matcha es más que una moda – es un ingrediente funcional con una demanda global en aumento. Nuestro matcha proporciona:</div>",
+    "text": "El matcha es más que una moda – es un ingrediente funcional con una demanda global en aumento. Nuestro matcha proporciona:"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Marcas de suplementos</h3>",
+    "text": "Marcas de suplementos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Fabricantes de nutracéuticos</h3>",
+    "text": "Fabricantes de nutracéuticos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Verde brillante</h3>",
+    "text": "Verde brillante"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Listo para empezar?</div>",
+    "text": "Listo para empezar?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Estamos aquí para ayudarte a elegir el matcha perfecto para tu cafetería, cafetería, gimnasio u oficina. Obtén asesoramiento experto adaptado a tu sector y empieza a servir matcha de primera calidad hoy mismo.</p>",
+    "text": "Estamos aquí para ayudarte a elegir el matcha perfecto para tu cafetería, cafetería, gimnasio u oficina. Obtén asesoramiento experto adaptado a tu sector y empieza a servir matcha de primera calidad hoy mismo."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 11
+  }
+ ]
+}

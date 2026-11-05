@@ -1,0 +1,30 @@
+{
+ "label": "m_682323092576061a3a96d2df_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "682323092576061a3a96d2df",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Premium Matcha - China Conventional",
+  "slug": "premium-matcha-china-conventional",
+  "createdOn": "2025-05-13T10:46:33.557Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Premium Matcha China Conventional | Wholesale Latte Matcha | Pure Matcha Partners",
+   "description": "Conventional Chinese premium matcha for lattes, blended drinks and beverage production. Consistent quality and scalable B2B supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/products/premium-matcha-china-conventional",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

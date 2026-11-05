@@ -1,0 +1,28 @@
+{
+ "label": "m_6a65faeefec9aa90a34a8422_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a65faeefec9aa90a34a8422",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6a028ca42f4ef4c910d5f586",
+  "title": "Superfoods Partners",
+  "slug": "superfoods-partners",
+  "createdOn": "2026-07-26T12:17:50.443Z",
+  "lastUpdated": "2026-07-26T12:47:56.698Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Our Partners – Superfoods Partners | Pure Matcha Partners",
+   "description": "Superfoods Partners is our Hong Kong–based sourcing partner for bulk matcha, tea and superfoods — screened and documented per batch for B2B buyers worldwide."
+  },
+  "openGraph": {
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/partners/superfoods-partners",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

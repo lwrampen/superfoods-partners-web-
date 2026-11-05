@@ -1,0 +1,480 @@
+{
+ "pageId": "6a836b4c1c385d811f8e83e5",
+ "locale": "en",
+ "lastUpdated": "2026-08-17T20:40:05.963Z",
+ "total": 50,
+ "nodeCount": 50,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "7caff0d8-7721-000e-734a-c257f5508dcd",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cec",
+   "text": {
+    "html": "<h1 class=\"pmp-h1\">Bulk Matcha Supplier for Switzerland</h1>",
+    "text": "Bulk Matcha Supplier for Switzerland"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cee",
+   "text": {
+    "html": "<p class=\"pmp-lead\">Documented matcha supply for Swiss cafés, food and beverage brands, private-label businesses and distributors. Japanese and Chinese grades, organic and conventional options, and B2B orders from 5 kg.</p>",
+    "text": "Documented matcha supply for Swiss cafés, food and beverage brands, private-label businesses and distributors. Japanese and Chinese grades, organic and conventional options, and B2B orders from 5 kg."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cf0",
+   "text": {
+    "html": "<a class=\"pmp-btn\" href=\"https://www.purematchapartners.com/pricelist-request\">Request wholesale pricing</a>",
+    "text": "Request wholesale pricing"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/pricelist-request"
+   }
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cf2",
+   "text": {
+    "html": "<a class=\"pmp-btn pmp-btn-secondary\" href=\"https://www.purematchapartners.com/sample-request\">Request samples</a>",
+    "text": "Request samples"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/sample-request"
+   }
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cf6",
+   "text": {
+    "html": "<h2 class=\"pmp-h2\">Matcha wholesale for Swiss businesses</h2>",
+    "text": "Matcha wholesale for Swiss businesses"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cf8",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Pure Matcha Partners supplies matcha powder to professional buyers throughout Switzerland. We help businesses select a grade based on application, target flavour, colour, required documentation and expected volume—not simply a ceremonial or culinary label.</p>",
+    "text": "Pure Matcha Partners supplies matcha powder to professional buyers throughout Switzerland. We help businesses select a grade based on application, target flavour, colour, required documentation and expected volume—not simply a ceremonial or culinary label."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cfb",
+   "text": {
+    "html": "<h3 class=\"pmp-h3\">Cafés and hospitality</h3>",
+    "text": "Cafés and hospitality"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cfd",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Latte-ready matcha selected for repeatable preparation, milk pairing and consistent colour across hot and iced drinks.</p>",
+    "text": "Latte-ready matcha selected for repeatable preparation, milk pairing and consistent colour across hot and iced drinks."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03cff",
+   "text": {
+    "html": "<a class=\"pmp-link\" href=\"https://www.purematchapartners.com/for/wholesale-matcha-for-cafes-hospitality\">Matcha for cafés</a>",
+    "text": "Matcha for cafés"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/for/wholesale-matcha-for-cafes-hospitality"
+   }
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d02",
+   "text": {
+    "html": "<h3 class=\"pmp-h3\">Food and beverage brands</h3>",
+    "text": "Food and beverage brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d04",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Matcha ingredients for RTD drinks, food products and functional formulations, with support during product evaluation.</p>",
+    "text": "Matcha ingredients for RTD drinks, food products and functional formulations, with support during product evaluation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d06",
+   "text": {
+    "html": "<a class=\"pmp-link\" href=\"https://www.purematchapartners.com/for/food-and-beverage-brands\">Ingredient supply</a>",
+    "text": "Ingredient supply"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/for/food-and-beverage-brands"
+   }
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d09",
+   "text": {
+    "html": "<h3 class=\"pmp-h3\">Private label and distribution</h3>",
+    "text": "Private label and distribution"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d0b",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Scalable supply for branded products, foodservice ranges and distributors requiring repeat orders and documentation.</p>",
+    "text": "Scalable supply for branded products, foodservice ranges and distributors requiring repeat orders and documentation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d0d",
+   "text": {
+    "html": "<a class=\"pmp-link\" href=\"https://www.purematchapartners.com/for/private-label-matcha\">Private-label matcha</a>",
+    "text": "Private-label matcha"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/for/private-label-matcha"
+   }
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d13",
+   "text": {
+    "html": "<h2 class=\"pmp-h2\">Quality documentation for professional buyers</h2>",
+    "text": "Quality documentation for professional buyers"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d15",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Documentation is matched to the selected product and batch. Available files may include a certificate of analysis, independent Eurofins pesticide reporting, organic certification and supporting kosher or IFS Broker documentation.</p>",
+    "text": "Documentation is matched to the selected product and batch. Available files may include a certificate of analysis, independent Eurofins pesticide reporting, organic certification and supporting kosher or IFS Broker documentation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d17",
+   "text": {
+    "html": "<div class=\"pmp-pill\">COA</div>",
+    "text": "COA"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d19",
+   "text": {
+    "html": "<div class=\"pmp-pill\">Eurofins pesticide report</div>",
+    "text": "Eurofins pesticide report"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d1b",
+   "text": {
+    "html": "<div class=\"pmp-pill\">Organic options</div>",
+    "text": "Organic options"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d1d",
+   "text": {
+    "html": "<div class=\"pmp-pill\">Kosher documentation</div>",
+    "text": "Kosher documentation"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d1f",
+   "text": {
+    "html": "<div class=\"pmp-pill\">IFS Broker</div>",
+    "text": "IFS Broker"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d24",
+   "text": {
+    "html": "<h2 class=\"pmp-h2\">Supply routes to Switzerland</h2>",
+    "text": "Supply routes to Switzerland"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d26",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Orders can be supplied from our Dutch EU warehouse or directly from origin, depending on grade, volume and planning. Because Switzerland has its own import procedures, the required commercial and batch documentation is confirmed for each shipment before dispatch.</p>",
+    "text": "Orders can be supplied from our Dutch EU warehouse or directly from origin, depending on grade, volume and planning. Because Switzerland has its own import procedures, the required commercial and batch documentation is confirmed for each shipment before dispatch."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d28",
+   "text": {
+    "html": "<li>B2B orders from 5 kg</li>",
+    "text": "B2B orders from 5 kg"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d2a",
+   "text": {
+    "html": "<li>Japanese and Chinese matcha</li>",
+    "text": "Japanese and Chinese matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d2c",
+   "text": {
+    "html": "<li>Organic and conventional options</li>",
+    "text": "Organic and conventional options"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d2e",
+   "text": {
+    "html": "<li>Recurring and pallet-scale supply</li>",
+    "text": "Recurring and pallet-scale supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d32",
+   "text": {
+    "html": "<h2 class=\"pmp-h2\">Application-led grade selection</h2>",
+    "text": "Application-led grade selection"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d34",
+   "text": {
+    "html": "<p class=\"pmp-copy\">A café latte, an RTD beverage and a dry food formulation do not need the same matcha. Samples can be evaluated for colour, flavour, texture and application performance before a larger order is placed.</p>",
+    "text": "A café latte, an RTD beverage and a dry food formulation do not need the same matcha. Samples can be evaluated for colour, flavour, texture and application performance before a larger order is placed."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d39",
+   "text": {
+    "html": "<p class=\"pmp-copy\">For a broader overview, visit our <a class=\"pmp-link\" href=\"https://www.purematchapartners.com/bulk-matcha-powder-supplier\" data-w-id=\"17360c59-658a-80bc-f81d-1676a9e03d37\">bulk matcha powder supplier page</a>.</p>",
+    "text": "For a broader overview, visit our bulk matcha powder supplier page."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d3f",
+   "text": {
+    "html": "<h2 class=\"pmp-h2\">Frequently asked questions</h2>",
+    "text": "Frequently asked questions"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d41",
+   "text": {
+    "html": "<h3 class=\"pmp-h3\">What is the minimum order for Switzerland?</h3>",
+    "text": "What is the minimum order for Switzerland?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d43",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Our bulk matcha supply starts from 5 kg per order. Samples are available for businesses evaluating grades for a commercial application.</p>",
+    "text": "Our bulk matcha supply starts from 5 kg per order. Samples are available for businesses evaluating grades for a commercial application."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d46",
+   "text": {
+    "html": "<h3 class=\"pmp-h3\">Can you supply organic matcha?</h3>",
+    "text": "Can you supply organic matcha?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d48",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Yes. Organic and conventional options are available. The applicable certification and documentation are confirmed for the chosen product and destination.</p>",
+    "text": "Yes. Organic and conventional options are available. The applicable certification and documentation are confirmed for the chosen product and destination."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d4b",
+   "text": {
+    "html": "<h3 class=\"pmp-h3\">Do you supply both cafés and manufacturers?</h3>",
+    "text": "Do you supply both cafés and manufacturers?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d4d",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Yes. We support cafés, food and beverage brands, private-label projects, product developers and distributors.</p>",
+    "text": "Yes. We support cafés, food and beverage brands, private-label projects, product developers and distributors."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d50",
+   "text": {
+    "html": "<h3 class=\"pmp-h3\">Can you support recurring orders?</h3>",
+    "text": "Can you support recurring orders?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d52",
+   "text": {
+    "html": "<p class=\"pmp-copy\">Yes. Recurring supply and larger volume programmes can be structured around forecast demand, stock planning and the required grade.</p>",
+    "text": "Yes. Recurring supply and larger volume programmes can be structured around forecast demand, stock planning and the required grade."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d57",
+   "text": {
+    "html": "<h2 class=\"pmp-h2 pmp-white\">Compare matcha grades for your Swiss business</h2>",
+    "text": "Compare matcha grades for your Swiss business"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d59",
+   "text": {
+    "html": "<p class=\"pmp-copy pmp-white\">Tell us your application, required certification and expected volume. We will recommend suitable options and the next sampling step.</p>",
+    "text": "Tell us your application, required certification and expected volume. We will recommend suitable options and the next sampling step."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d5b",
+   "text": {
+    "html": "<a class=\"pmp-btn\" href=\"https://www.purematchapartners.com/sample-request\">Request samples</a>",
+    "text": "Request samples"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/sample-request"
+   }
+  },
+  {
+   "type": "text",
+   "id": "17360c59-658a-80bc-f81d-1676a9e03d5d",
+   "text": {
+    "html": "<a class=\"pmp-btn\" href=\"https://www.purematchapartners.com/pricelist-request\">Request pricing</a>",
+    "text": "Request pricing"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/pricelist-request"
+   }
+  },
+  {
+   "type": "text",
+   "id": "9ee0fb3f-5cb9-23b5-2f2b-6c20d682c4e4",
+   "text": {
+    "html": "<h2 class=\"pmp-regions-title\">Explore our European matcha supply</h2>",
+    "text": "Explore our European matcha supply"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9ee0fb3f-5cb9-23b5-2f2b-6c20d682c4e6",
+   "text": {
+    "html": "<a class=\"pmp-region-link\" href=\"https://www.purematchapartners.com/de/bulk-matcha-supplier-de\">Germany</a>",
+    "text": "Germany"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/de/bulk-matcha-supplier-de"
+   }
+  },
+  {
+   "type": "text",
+   "id": "9ee0fb3f-5cb9-23b5-2f2b-6c20d682c4e8",
+   "text": {
+    "html": "<a class=\"pmp-region-link\" href=\"https://www.purematchapartners.com/bulk-matcha-supplier-switzerland\">Switzerland</a>",
+    "text": "Switzerland"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/bulk-matcha-supplier-switzerland"
+   }
+  },
+  {
+   "type": "text",
+   "id": "9ee0fb3f-5cb9-23b5-2f2b-6c20d682c4ea",
+   "text": {
+    "html": "<a class=\"pmp-region-link\" href=\"https://www.purematchapartners.com/bulk-matcha-supplier-scandinavia\">Scandinavia</a>",
+    "text": "Scandinavia"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/bulk-matcha-supplier-scandinavia"
+   }
+  },
+  {
+   "type": "component-instance",
+   "id": "2b53420d-0813-cc7d-eef1-8df615117e9a",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 50
+  }
+ ]
+}

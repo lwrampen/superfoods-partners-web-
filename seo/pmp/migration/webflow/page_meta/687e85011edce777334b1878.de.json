@@ -1,0 +1,30 @@
+{
+ "label": "m_687e85011edce777334b1878_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "687e85011edce777334b1878",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Premium Matcha - Japan Conventional",
+  "slug": "premium-matcha-japan-conventional",
+  "createdOn": "2025-07-21T18:20:49.314Z",
+  "lastUpdated": "2026-08-02T15:52:31.344Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Premium Kagoshima Matcha Konventionell 1 kg | Pure Matcha Partners",
+   "description": "Glatter, lebendiger Latte-Matcha für Cafés & Restaurants. Premium-Kagoshima-Qualität in Bulk-Verpackung, konventionell."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/premium-matcha-japan-conventional",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

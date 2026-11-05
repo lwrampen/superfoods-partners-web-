@@ -1,0 +1,947 @@
+[
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/ceremonial-pmp-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/ceremonial-matcha-japan-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/sample-request",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/sample-request",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/culinary-asa-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/culinary-matcha-japan-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/culinary-japan-conventional-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/culinary-matcha-japan-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/japan-organic",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/ceremonial-matcha-japan-organic",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/japan-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/for/coffee-stores",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/for/food-and-beverage-brands",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/pricelist-request",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/pricelist-request",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/terms-and-conditions",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/terms-and-conditions",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/premium-japan-conventional",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/premium-matcha-japan-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/premium-kagoshima-matcha-conventional-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/premium-matcha-japan-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/ceremonial-china-conventional-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/ceremonial-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/culinary-japan-conventional",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/culinary-matcha-japan-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/premium-china-conventional",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/premium-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/recipes",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/recipe",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/collections/hojicha-arabikicha",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/collections/hojicha",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/privacy",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/privacy",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blog",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/hojicha-japan-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/hojicha-japan-organic",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/premium-china-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/collections/premium-matcha",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/collections/premium-matcha",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/ceremonial-matcha-china-conventional",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/ceremonial-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/hojicha-japan-organic",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/hojicha-japan-organic",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/china-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/partners/superfoods-partners",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/partners/superfoods-partners",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/premium-matcha-conventional",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/premium-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/hojicha-japan-organic",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/recipes/hazelnut-maple-hojicha-latte",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://purematchapartners.com/",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/collections/frontpage",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/collections/samples",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/collections/samples",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-premium-ceremonial-matcha-japan-organic-kagoshima-ro-ma-one-off",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-premium-matcha-wanjin-conventional-shizuoka-iw",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/matcha-grades-explained-ceremonial-latte-culinary",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/ceremonial-eastern-china-conventional-1kg-copy",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/ceremonial-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/culinary-china-conventional",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/culinary-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/culinary-japan-organic",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/culinary-matcha-japan-organic",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/latte-asa-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/premium-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/complain-form",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/complain-form",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/de/sample-request",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/de/sample-request",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/ceremonial-china-conventional-1kg",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/ceremonial-eastern-china-conventional-1kg-copy",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/culinary-japan-organic",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/japan-organic",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/premium-japan-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/premium-japan-organic",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/for/coffee-stores",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/recipe/easy-matcha-christmas-chocolates",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://purematchapartners.com/blogs/matcha-harvest-seasons-explained",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/blogs/matcha-harvest-seasons-explained",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://purematchapartners.com/blogs/matcha-ratios-for-cafes-that-even-matcha-connoisseurs-will-approve-of",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/blogs/matcha-ratios-for-cafes-that-even-matcha-connoisseurs-will-approve-of",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://purematchapartners.com/blogs/what-is-hojicha-everything-you-need-to-know",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/blogs/what-is-hojicha-everything-you-need-to-know",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://purematchapartners.com/es",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/blogs/news",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/blogs/news",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/collections/bundels",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/collections/bundels",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/collections/ceremonial-matcha",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/collections/ceremonial-matcha",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/collections/culinary-matcha",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/collections/culinary-matcha",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/pages/contact",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/pages/contact",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/pages/data-sharing-opt-out",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/pages/data-sharing-opt-out",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/pages/home",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/pages/home",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/pages/pure-matcha-partners-wholesale-signup-form",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/pages/pure-matcha-partners-wholesale-signup-form",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/1-kg-ceremonial-japan-pmp-organic-kagoshima",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/1-kg-ceremonial-japan-pmp-organic-kagoshima?variant=55404855951737",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-asa-mulberry-organic",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-ceremonial-china-pmp-conventional-eastern-china",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-ceremonial-china-pmp-conventional-eastern-china?variant=55500393447801",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-ceremonial-imperial-narra",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-ceremonial-japan-pmp-organic-kagoshima?utm_source=shop_app",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-ceremonial-japan-pmp-organic-uji",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-ceremonial-organic-kagoshima-japan",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-hojicha-japan-organic-kyoto",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-hojicha-japan-pmp-organic-narra-one-off",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-premium-ceremonial-china-conventional-south-china-cdxl",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-premium-matcha-china-conventional-south-china",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-premium-matcha-china-organic-eastern-china-leo-mi",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/10-gram-sample-premium-nagasaki-conventional-nagasaki-one-off-ro-ma?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/10-gram-sample-premium-nagasaki-conventional-nagasaki-one-off-ro-ma",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/20kg-ceremonial-organic-kagoshima-house-blend",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/20kg-ceremonial-organic-kagoshima-house-blend?utm_source=shop_app",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/cafe-starter-bundle-ceremonial?variant=57009964908921",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/ceremonial-asa-organic-uji?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/ceremonial-asa-organic-uji",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/ceremonial-china-conventional-eastern-china-20kg-bulk?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/ceremonial-china-conventional-eastern-china-20kg-bulk",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/ceremonial-organic-china-50-gram?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/ceremonial-organic-china-50-gram",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/culinary-matcha-organic-east-china?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/culinary-matcha-organic-east-china",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/culinary-matcha-organic-kagoshima-d-20kg-bulk?utm_source=shop_app",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/hojicha-japan-pmp-conventional-shizuoka-iw?variant=64364146524537",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/hojicha-japan-pmp-conventional-shizuoka-iw",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/latte-asa-organic-shizuoka?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/latte-asa-organic-shizuoka",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/premium-ceremonial-matcha-organic-kagoshima-h",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/premium-ceremonial-matcha-organic-kagoshima-h",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/premium-ceremonial-matcha-organic-kagoshima-h?variant=64188722741625",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/premium-ceremonial-matcha-organic-kagoshima-h",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/premium-matcha-china-organic-eastern-china-leo-mi",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/premium-matcha-china-organic-eastern-china-leo-mi",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/premium-matcha-wanjin-conventional-shizuoka-iw?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/premium-matcha-wanjin-conventional-shizuoka-iw",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://shop.purematchapartners.com/products/starterkit-asa-matcha?utm_source=shop_app",
+  "status": 200,
+  "location": null,
+  "canonical": "https://shop.purematchapartners.com/products/starterkit-asa-matcha",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/7-Trending-Matcha-Drinks-2026",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/asa-matcha-launches-asa-go-a-new-instantly-dissolving-matcha-variant",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/blog/the-magic-of-seasonal-matcha.html",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/does-matcha-cause-iron-deficiency-",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/flavor-pairing-guide-what-does-matcha-taste-like-flavor-pairing-guide",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/flavor-pairing-guide-what-doesnt-with-matcha",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/flavor-pairing-guide-what-works-and-doesns-with-matcha",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/flavor-pairing-guide-what-works-and-doesnt-with",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/how-is-matcha-made",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/how-to-answer-your-customers-frequently-asked-questions-that-matcha",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/how-to-store-bulk-matcha-in-a-cafe-complete-guide-for-freshness-quality",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/match-a-making-which-matcha-grade-fits-your-needs",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/match-a-making-which-matcha-grade-suits-your-name",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/matcha-ratios-for-cafes-that-even-matcha-connoisseurs-like-us",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/matcha-ratios-for-cafes-that-even-matcha-connoisseurs-well-approve-of",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/blogs/matcha-vs-coffee-2",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/culinary-china-conventional-1kg",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/culinary-matcha-china-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/hojicha-asa-30g",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/hojicha-japan-conventional",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/hojicha-japan-conventional",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/ceremonial-matcha/premium-japan-organic",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/products/premium-matcha-japan-organic",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/collections/accessoires",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/collections/hardware",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/custom-matcha-blends",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/custom-matcha-blends",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/de/custom-matcha-blends",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/de/custom-matcha-blends",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/de/pricelist-request",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/de/pricelist-request",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/de/terms-and-conditions",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/de/terms-and-conditions",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/blog",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/culinary-china-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/culinary-china-conventional-1kg",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/culinary-japan-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/culinary-japan-conventional-1kg",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/hojicha-japan-1kg",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/hojicha-japan-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/premium-kagoshima-matcha-conventional-1kg",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/ceremonial-matcha/premium-matcha-conventional",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/complain-form",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es/complain-form",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/custom-matcha-blends",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es/custom-matcha-blends",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/partners/asa-matcha",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es/partners/asa-matcha",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/pricelist-request",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es/pricelist-request",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/privacy",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es/privacy",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/recipe/easy-matcha-christmas-chocolates",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/recipes",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/recipes/hazelnut-maple-hojicha-latte",
+  "status": 404,
+  "location": null,
+  "canonical": null,
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/sample-request",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es/sample-request",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/es/terms-and-conditions",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/es/terms-and-conditions",
+  "task_status": "Ok."
+ },
+ {
+  "url": "https://www.purematchapartners.com/partners/asa-matcha",
+  "status": 200,
+  "location": null,
+  "canonical": "https://www.purematchapartners.com/partners/asa-matcha",
+  "task_status": "Ok."
+ }
+]

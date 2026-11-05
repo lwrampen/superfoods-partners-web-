@@ -1,0 +1,598 @@
+{
+ "pageId": "6a271e3b00fc4006ebc9e1f8",
+ "locale": "en",
+ "lastUpdated": "2026-08-17T20:20:34.566Z",
+ "total": 65,
+ "nodeCount": 65,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><span class=\"text-span-62\" data-w-id=\"0c70ba51-0cf5-c662-dbb7-ac250e5daa4c\"><strong data-w-id=\"0c70ba51-0cf5-c662-dbb7-ac250e5daa4d\">Bulk Matcha </strong></span><strong data-w-id=\"8e643a46-9d0f-4563-faae-04162535e167\">Pulver Lieferant für</strong><span class=\"text-span-62\" data-w-id=\"8e643a46-9d0f-4563-faae-04162535e169\"><strong data-w-id=\"8e643a46-9d0f-4563-faae-04162535e168\"> Deutschland 🇩🇪</strong></span></h1>",
+    "text": "Bulk Matcha Pulver Lieferant für Deutschland 🇩🇪"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Zertifiziertes Matcha-Pulver in Großmengen für Supplement-Marken, Getränkehersteller, Distributoren und Private-Label-Unternehmen in ganz Deutschland.<br data-w-id=\"8045af2a-cd15-69c9-70f4-57c6d38d3c11\"><br data-w-id=\"67902f97-01e7-53ac-b24e-d376745b3f0d\">Skalierbare Großhandelsprogramme mit vollständiger Importdokumentation und regulatorischer Unterstützung.</p>",
+    "text": "Zertifiziertes Matcha-Pulver in Großmengen für Supplement-Marken, Getränkehersteller, Distributoren und Private-Label-Unternehmen in ganz Deutschland.\n\nSkalierbare Großhandelsprogramme mit vollständiger Importdokumentation und regulatorischer Unterstützung."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Großhandelspreise für Deutschland anfragen</a>",
+    "text": "Großhandelspreise für Deutschland anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "697dcb7ef19535898dacde17"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\"><strong data-w-id=\"e3de7c50-3b25-682f-8919-26197a9ed9ee\">Matcha-Großhandel für </strong><span class=\"text-span-66\" data-w-id=\"8a4918f1-bbaf-9dd9-c2d5-c146f0b32d2b\"><strong data-w-id=\"8a4918f1-bbaf-9dd9-c2d5-c146f0b32d2c\">Deutsche Hersteller &amp; Marken</strong></span></h2>",
+    "text": "Matcha-Großhandel für Deutsche Hersteller & Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">Wir beliefern folgende Unternehmen mit Matcha-Pulver:</div>",
+    "text": "Wir beliefern folgende Unternehmen mit Matcha-Pulver:"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "698ec16fdaccacaa78d06561"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Supplement-Marken</h3>",
+    "text": "Supplement-Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "693722c5047112c92b0d3322"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Nutraceutical-Hersteller</h3>",
+    "text": "Nutraceutical-Hersteller"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "698d9554ac3bc384e7feb82e"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Getränkehersteller</h3>",
+    "text": "Getränkehersteller"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b084",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941b474a13c9123aab751d0"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b085",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Lebensmittel- &amp; Zutaten-Distributoren</h3>",
+    "text": "Lebensmittel- & Zutaten-Distributoren"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "482d0934-0ecc-de8a-0931-40fc4d7ae16e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6921dd069993963846cc85e4"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "482d0934-0ecc-de8a-0931-40fc4d7ae16f",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Private-Label-Anbieter</h3>",
+    "text": "Private-Label-Anbieter"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911ac",
+   "text": {
+    "html": "<h2 class=\"heading-15\">Import &amp; Compliance für den <span class=\"text-span-68\" data-w-id=\"e7623540-eb4a-f52d-f99c-04a4e3a41304\">deutschen</span> Markt</h2>",
+    "text": "Import & Compliance für den deutschen Markt"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911ae",
+   "text": {
+    "html": "<p class=\"text-size-2\">Alle Matcha-Großlieferungen nach Deutschland beinhalten:<br data-w-id=\"b750c377-98ed-60ca-f318-4b4a95c08bb0\"><br data-w-id=\"37f82c31-8dae-617a-51e2-c2e6e4e31935\">- Analysezertifikat (COA)<br data-w-id=\"b2c2ccd2-2b19-46db-9bfc-d9de61abf889\">- Schwermetallanalyse<br data-w-id=\"6ddede99-2227-4eea-328d-e2a641d65945\">- Pestizidrückstandsprüfung<br data-w-id=\"d88b0420-bf94-f88c-6570-a4caa3b2220d\">- Mikrobiologische Berichte<br data-w-id=\"a310faa1-2762-7020-5b85-49563dab24df\">- EU Bio-Zertifizierung (falls zutreffend)<br data-w-id=\"43973af0-cbf7-a527-ce85-7a1441bdcce9\">- Handelsrechnung &amp; Exportdokumentation<br data-w-id=\"8c3d49b0-d95b-027a-0359-6fbcf0b34f84\"><br data-w-id=\"8da02874-ae2a-9b91-efbb-2562cfaeefa7\">Wir stellen chargenspezifische Dokumentation bereit, die auf EU-Anforderungen und relevante deutsche Kennzeichnungspflichten abgestimmt ist.<br data-w-id=\"6104c882-c7ad-77e6-d7ae-f1a3b5f6fde5\">‍</p>",
+    "text": "Alle Matcha-Großlieferungen nach Deutschland beinhalten:\n\n- Analysezertifikat (COA)\n- Schwermetallanalyse\n- Pestizidrückstandsprüfung\n- Mikrobiologische Berichte\n- EU Bio-Zertifizierung (falls zutreffend)\n- Handelsrechnung & Exportdokumentation\n\nWir stellen chargenspezifische Dokumentation bereit, die auf EU-Anforderungen und relevante deutsche Kennzeichnungspflichten abgestimmt ist.\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1b2dbb5b-63d5-acfa-4c8d-df012b44482f",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "68de443975f4871b46f4fdf3"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "85e7c36c-4e89-cf8b-c54d-befb281911fb",
+   "text": {
+    "html": "<a class=\"button-10-usa\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Mit einem unserer Experten sprechen</a>",
+    "text": "Mit einem unserer Experten sprechen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "e115d068-9ad0-d79d-fa8e-08b338654bbf",
+   "text": {
+    "html": "<h2 class=\"heading-15\">Logistik &amp; Lieferung nach Deutschland</h2>",
+    "text": "Logistik & Lieferung nach Deutschland"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e115d068-9ad0-d79d-fa8e-08b338654bc1",
+   "text": {
+    "html": "<p class=\"text-size-2\">Wir strukturieren unsere Matcha-Großhandelsversorgung für Deutschland durch ein hybrides Logistikmodell, das auf Zuverlässigkeit, Flexibilität und Skalierbarkeit ausgelegt ist.<br data-w-id=\"600a6ef4-8926-2e32-f544-c17ce90f80c6\"><br data-w-id=\"2d07168f-0626-371b-5d7f-94f92cecd3ce\"><strong data-w-id=\"172cc133-c0fb-eb28-6241-4e09f6b12b6c\">Direktversand aus dem Ursprungsland</strong><br data-w-id=\"75a7a377-68b8-53b3-1a5d-3b1aa9be65af\">Wir liefern Matcha-Pulver in Bulk direkt von unseren zertifizierten Produktionspartnern in <strong data-w-id=\"2f2582cf-7ec3-19ae-ea90-4c40219e38fc\">Japan und China</strong> nach Deutschland per Luft- oder Seefracht, abhängig von Menge und Dringlichkeit.<br data-w-id=\"b3b989e0-ad84-81b7-cd99-5141b1acfd68\"><br data-w-id=\"832b90e6-b98a-eb81-db87-921b510384cf\">Dies gewährleistet:<br data-w-id=\"89ad5865-2b59-1875-3ee7-0a2e2c3f5225\">- Vollständige Rückverfolgbarkeit ab Ursprung<br data-w-id=\"4c650764-1736-71a4-e3ee-cc23f863b510\">- Chargenspezifische Dokumentation<br data-w-id=\"db97cf55-2a8c-738f-0a1d-d878c6bfa8f3\">- Produktionsfrische Abstimmung<br data-w-id=\"db47d360-885c-4eeb-0763-65c003654526\">- Strukturierte Palettenexportlieferungen<br data-w-id=\"e419060a-aed9-086c-5d50-ca87b469dcd7\"><br data-w-id=\"34b4b8fa-3543-b0fb-162c-b0a499bd51fa\">Alle Exportdokumente und Compliance-Unterlagen sind auf EU- und deutsche Importanforderungen abgestimmt.<br data-w-id=\"6a81c61c-072d-9ae9-e489-023b00a0df27\"><br data-w-id=\"b5fc4b4a-6f89-e546-f71f-d7a81e9c92c2\"><strong data-w-id=\"49114870-d8ab-a1b4-8c7d-2a744846cdb6\">EU-Lager &amp; Lokale Verfügbarkeit</strong><br data-w-id=\"89811335-42f8-8545-05fa-29106aa37123\">Zusätzlich zu direkten internationalen Lieferungen halten wir Lagerbestand in unserem <a href=\"https://fidelityfulfilment.com/\" data-w-id=\"0ab08242-da3b-7720-cfcc-dec47807c0fd\"><strong class=\"bold-text-30\" data-w-id=\"0ab08242-da3b-7720-cfcc-dec47807c0ff\">niederländischen EU-Lager</strong></a>.<br data-w-id=\"88ceac83-f208-1319-771d-02ff378c2682\"><br data-w-id=\"a661fc8f-940c-f1c4-46a4-a788fc7496a2\">Dies ermöglicht:<br data-w-id=\"53d5e302-7c99-1366-efe2-16abe4d7bb94\">- Schnellere Lieferung innerhalb der EU<br data-w-id=\"a027afcf-904a-04cd-ceca-0f8b019318df\">- Kürzere Lieferzeiten<br data-w-id=\"b46e37ae-e4c5-159d-bdb6-2e1fbd29dc50\">- Verbesserte Versorgungskontinuität<br data-w-id=\"3019b773-ba36-31df-2e65-498423e5f955\">- Flexible Nachbestellplanung<br data-w-id=\"a2858323-de61-b6df-d90a-83a63f8d83b8\">- Pufferlagerverfügbarkeit für Stammkunden<br data-w-id=\"2296aacb-e55b-b274-c407-242083095fef\"><br data-w-id=\"c413b07e-66db-3bb8-849d-697f39b4fde8\">Für langfristige Partner strukturieren wir rollende Lagerprogramme innerhalb der EU, um die Versorgungsplanung zu stabilisieren und operationelle Risiken zu reduzieren.<br data-w-id=\"653d5eba-5ad7-d3f2-8444-f0ff0bbabd39\"><br data-w-id=\"25e091f8-0c1c-8d8f-8077-3612ce7e5429\"><strong data-w-id=\"36a14ea5-2b5f-f5ed-7958-30107ba4c318\">Strukturierte Versorgung für deutsche Käufer</strong><br data-w-id=\"c5e456ab-c870-4778-028d-ad0d1c6a6219\">Wir unterstützen:<br data-w-id=\"184b3ab4-4a89-2afe-67ca-c4a16e6d4423\">- Jahresvolumenvereinbarungen<br data-w-id=\"7410b204-3e54-203c-a8f7-07ca041ae591\">- Wiederkehrende Palettenprogramme<br data-w-id=\"7087cc12-1b20-d3a9-f3b2-d7954330dc13\">- Geteilte Lieferungen (Ursprung + EU-Lager)<br data-w-id=\"fd10da21-aa64-38e3-cef1-f44c7de2e030\">- Flexible Nachfüllmodelle<br data-w-id=\"c52efa6b-bdce-78f8-a9fa-d962dd18106e\"><br data-w-id=\"9e7ac0bd-8749-c4ff-ee53-fdc285789f68\">Dieser Dual-Ursprung + EU-Lager-Ansatz sichert die Versorgungssicherheit für:<br data-w-id=\"b2540137-525b-0608-baac-f4f7dbea9555\">- Supplement-Marken<br data-w-id=\"eed14e6e-251c-db79-0e3f-1b02bf1961bc\">- Getränkehersteller<br data-w-id=\"d6ee87d9-41bf-042d-c572-8bb1a179489f\">- Distributoren<br data-w-id=\"1cdba491-b602-e491-aca8-bcb17e8f18c0\">- Private-Label-Anbieter<br data-w-id=\"10bd57e4-0871-4a53-73fa-e8bba71f352d\"><br data-w-id=\"bd716bb3-236a-813a-41a8-b7b684f39c72\"><strong data-w-id=\"5350573a-2bfb-c36f-d51d-7acc95f574b6\">Lieferzeiten<br data-w-id=\"ed85c751-5105-a58d-5462-ff323514c6e2\"></strong>Lieferzeiten variieren je nach Qualitätsstufe, Zertifizierung und Menge:<br data-w-id=\"4b32575d-579f-f809-deda-6a11c1f8f0db\">- EU-Lagerbestand: Expressnachfüllung<br data-w-id=\"103aedad-0184-da2e-0525-15fc39fead33\">- Direkter Luftfracht: schnellere Abwicklung bei dringendem Bedarf<br data-w-id=\"59f8bd71-ade4-aa12-bebc-8fb76d9d7f22\">- Seefracht-Palettenprogramme: kostenoptimiert<br data-w-id=\"30780495-ad6f-b972-245b-e83f54b008c5\"><br data-w-id=\"736e40d8-117f-ef2d-f315-4f5e3b99b7c8\">Unser Team arbeitet mit Einkaufsabteilungen zusammen, um Lieferpläne mit Produktionsplanungszyklen abzustimmen.<br data-w-id=\"e115d068-9ad0-d79d-fa8e-08b338654bd3\">‍</p>",
+    "text": "Wir strukturieren unsere Matcha-Großhandelsversorgung für Deutschland durch ein hybrides Logistikmodell, das auf Zuverlässigkeit, Flexibilität und Skalierbarkeit ausgelegt ist.\n\nDirektversand aus dem Ursprungsland\nWir liefern Matcha-Pulver in Bulk direkt von unseren zertifizierten Produktionspartnern in Japan und China nach Deutschland per Luft- oder Seefracht, abhängig von Menge und Dringlichkeit.\n\nDies gewährleistet:\n- Vollständige Rückverfolgbarkeit ab Ursprung\n- Chargenspezifische Dokumentation\n- Produktionsfrische Abstimmung\n- Strukturierte Palettenexportlieferungen\n\nAlle Exportdokumente und Compliance-Unterlagen sind auf EU- und deutsche Importanforderungen abgestimmt.\n\nEU-Lager & Lokale Verfügbarkeit\nZusätzlich zu direkten internationalen Lieferungen halten wir Lagerbestand in unserem niederländischen EU-Lager.\n\nDies ermöglicht:\n- Schnellere Lieferung innerhalb der EU\n- Kürzere Lieferzeiten\n- Verbesserte Versorgungskontinuität\n- Flexible Nachbestellplanung\n- Pufferlagerverfügbarkeit für Stammkunden\n\nFür langfristige Partner strukturieren wir rollende Lagerprogramme innerhalb der EU, um die Versorgungsplanung zu stabilisieren und operationelle Risiken zu reduzieren.\n\nStrukturierte Versorgung für deutsche Käufer\nWir unterstützen:\n- Jahresvolumenvereinbarungen\n- Wiederkehrende Palettenprogramme\n- Geteilte Lieferungen (Ursprung + EU-Lager)\n- Flexible Nachfüllmodelle\n\nDieser Dual-Ursprung + EU-Lager-Ansatz sichert die Versorgungssicherheit für:\n- Supplement-Marken\n- Getränkehersteller\n- Distributoren\n- Private-Label-Anbieter\n\nLieferzeiten\nLieferzeiten variieren je nach Qualitätsstufe, Zertifizierung und Menge:\n- EU-Lagerbestand: Expressnachfüllung\n- Direkter Luftfracht: schnellere Abwicklung bei dringendem Bedarf\n- Seefracht-Palettenprogramme: kostenoptimiert\n\nUnser Team arbeitet mit Einkaufsabteilungen zusammen, um Lieferpläne mit Produktionsplanungszyklen abzustimmen.\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc004",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e698da34aaa067c68f0e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc006",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e4410ce9dda385e41404b"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc005",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6815c666245313106b0209fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc007",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "68de5911fcd0f2b7b73da9ee"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedc008",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e691427ecafb5ffd0994d"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f5eb2126-8176-cab0-56fb-9a5ceaedbff9",
+   "text": {
+    "html": "<p class=\"paragraph-4\"><a data-wf-link-page-id=\"6798bd1e4b234bad93cdab07\" data-w-id=\"f5eb2126-8176-cab0-56fb-9a5ceaedbffd\"><span class=\"text-span-34\" data-w-id=\"f5eb2126-8176-cab0-56fb-9a5ceaedbffe\">Unsere Experten kennenlernen <strong data-w-id=\"f5eb2126-8176-cab0-56fb-9a5ceaedc000\">→</strong></span></a></p>",
+    "text": "Unsere Experten kennenlernen →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c25",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Häufig gestellte Fragen</h2>",
+    "text": "Häufig gestellte Fragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2c",
+   "text": {
+    "html": "<div class=\"faq-q-text\">Liefern Sie Matcha-Pulver in Bulk direkt nach Deutschland?</div>",
+    "text": "Liefern Sie Matcha-Pulver in Bulk direkt nach Deutschland?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2f",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Wir liefern Matcha-Pulver in Bulk direkt von unseren zertifizierten Produktionspartnern in <strong data-w-id=\"15231b32-cc6d-4555-63f2-97bb7363ae97\">Japan und China</strong> nach Deutschland per Luft- oder Seefracht, abhängig von Dringlichkeit und Menge.<br data-w-id=\"083af127-942e-a583-afd8-5e7511a10341\"><br data-w-id=\"3538baf8-fa11-1a8d-e9a8-089276a434b9\">Alle Lieferungen beinhalten vollständige Exportdokumentation und chargenspezifische Analysezertifikate (COAs).</p>",
+    "text": "Ja. Wir liefern Matcha-Pulver in Bulk direkt von unseren zertifizierten Produktionspartnern in Japan und China nach Deutschland per Luft- oder Seefracht, abhängig von Dringlichkeit und Menge.\n\nAlle Lieferungen beinhalten vollständige Exportdokumentation und chargenspezifische Analysezertifikate (COAs)."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c36",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"02f79e4c-2b25-afc8-d2a4-fd109c696c37\">Haben Sie Matcha-Lagerbestand innerhalb der EU verfügbar?</strong></div>",
+    "text": "Haben Sie Matcha-Lagerbestand innerhalb der EU verfügbar?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c3a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Zusätzlich zu direkten internationalen Lieferungen halten wir Lagerbestand innerhalb der EU bereit — über unseren Logistikpartner <strong data-w-id=\"b6f8052d-ad5a-1f7b-d411-72098d2ab19b\">in den Niederlanden</strong>.<br data-w-id=\"2a966c47-5fb3-9d5d-6a8f-4bff3e48cd23\"><br data-w-id=\"71a03fa1-cbfc-6d77-c47c-bd8d3b32b7b8\">Dies ermöglicht:<br data-w-id=\"a839e9bc-085b-0037-feeb-2e639ff1d4b0\">- Schnellere EU-Lieferung<br data-w-id=\"f13380e4-0bf1-e074-8b7d-ec102bdc7c3a\">- Kürzere Lieferzeiten<br data-w-id=\"aa488d2e-c202-4efc-e69e-3b3c15d62f27\">- Flexible Nachbestellungen<br data-w-id=\"140bf03a-3240-d884-cf7f-5271431702f9\">- Verbesserte Versorgungskontinuität für Stammkunden</p>",
+    "text": "Ja. Zusätzlich zu direkten internationalen Lieferungen halten wir Lagerbestand innerhalb der EU bereit — über unseren Logistikpartner in den Niederlanden.\n\nDies ermöglicht:\n- Schnellere EU-Lieferung\n- Kürzere Lieferzeiten\n- Flexible Nachbestellungen\n- Verbesserte Versorgungskontinuität für Stammkunden"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c41",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"a1876ad2-e302-c8b9-220a-0d8a8e42730d\">Wie sind die typischen Lieferzeiten für deutsche Käufer?</strong></div>",
+    "text": "Wie sind die typischen Lieferzeiten für deutsche Käufer?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c44",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Lieferzeiten hängen vom Versorgungsmodell ab:<br data-w-id=\"78afdcfc-f8d1-6ea8-796a-78071867c1b8\">EU-Lagerbestand → schnelle Lieferung innerhalb der EU<br data-w-id=\"8bdd25b4-f35e-d48b-40cc-e0e441eb95a7\">Direkter Luftfracht aus dem Ursprungsland → schnellere internationale Lieferung<br data-w-id=\"c6107171-c28e-8ab4-026c-8619d4363f5b\">Seefracht-Palettenlieferungen → kostenoptimiert<br data-w-id=\"1d6dd129-776b-4471-c694-26bea5750b96\"><br data-w-id=\"8e0c1e55-8e1a-b3ac-72bd-591faf5fe94c\">Unser Team stimmt die Lieferplanung mit Ihrem Produktionsplanungszyklus ab.</p>",
+    "text": "Lieferzeiten hängen vom Versorgungsmodell ab:\nEU-Lagerbestand → schnelle Lieferung innerhalb der EU\nDirekter Luftfracht aus dem Ursprungsland → schnellere internationale Lieferung\nSeefracht-Palettenlieferungen → kostenoptimiert\n\nUnser Team stimmt die Lieferplanung mit Ihrem Produktionsplanungszyklus ab."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c51",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"1c30d662-92bf-4e4f-944d-31563ae474e3\">Entspricht Ihr Matcha den deutschen und EU-Importanforderungen?</strong></div>",
+    "text": "Entspricht Ihr Matcha den deutschen und EU-Importanforderungen?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c54",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Wir stellen Dokumentation bereit, die den EU-regulatorischen und deutschen Importstandards entspricht:<br data-w-id=\"e6c321f2-f140-801d-2089-b5cc4adf4b70\"><br data-w-id=\"0c54b361-5668-c83b-ab46-af8a7e89ed8b\">- Analysezertifikat (COA)<br data-w-id=\"f882fe32-d0c2-a49c-c0ce-5da96e134f31\">- Schwermetallanalyse<br data-w-id=\"ca62bc4c-02cd-21c2-b9dd-e1dc679b93fa\">- Pestizidrückstandsberichte<br data-w-id=\"cbba6f6a-619a-c8ff-b8a3-65a750dbd5cd\">- Mikrobiologische Tests<br data-w-id=\"f0f087e2-b21f-1508-e6f7-364b4a4c2e71\">- EU Bio-Zertifizierung (falls zutreffend)<br data-w-id=\"b1c67e51-415e-7464-52cb-a4f0d2c9f426\">- Handelsdokumentation &amp; Exportpapiere<br data-w-id=\"f0481f48-f03b-e775-e4c9-cae533d7fd2e\"><br data-w-id=\"ef97caca-db1b-e1a1-bd61-7c6a43b2a657\">Wir beliefern regelmäßig deutsche und europäische Supplement- und Getränkehersteller.</p>",
+    "text": "Ja. Wir stellen Dokumentation bereit, die den EU-regulatorischen und deutschen Importstandards entspricht:\n\n- Analysezertifikat (COA)\n- Schwermetallanalyse\n- Pestizidrückstandsberichte\n- Mikrobiologische Tests\n- EU Bio-Zertifizierung (falls zutreffend)\n- Handelsdokumentation & Exportpapiere\n\nWir beliefern regelmäßig deutsche und europäische Supplement- und Getränkehersteller."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c5e",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"b1c98fda-0a4e-4cbf-b039-5b8a962765b1\">Bieten Sie Bio-Matcha für den deutschen Markt an?</strong></div>",
+    "text": "Bieten Sie Bio-Matcha für den deutschen Markt an?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c61",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Wir bieten <strong data-w-id=\"ae819c9f-edf7-0f30-5dfd-1bdb84242b29\">EU-Bio-zertifizierten Matcha</strong> für Cafés, Getränkemarken, Lebensmittelhersteller, Distributoren und Private-Label-Projekte in Deutschland.<br data-w-id=\"94868e2e-91f3-acfb-9386-b4b38a2b1937\"><br data-w-id=\"5f6c0777-e61a-e2a4-f5e9-26b069b89031\">Bio-Zertifikate und chargenspezifische Dokumentation sind auf Anfrage verfügbar.</p>",
+    "text": "Ja. Wir bieten EU-Bio-zertifizierten Matcha für Cafés, Getränkemarken, Lebensmittelhersteller, Distributoren und Private-Label-Projekte in Deutschland.\n\nBio-Zertifikate und chargenspezifische Dokumentation sind auf Anfrage verfügbar."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bf2bedc4-b2b1-774f-4990-286387356861",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"bf2bedc4-b2b1-774f-4990-286387356862\">Wie hoch ist die Mindestbestellmenge?</strong></div>",
+    "text": "Wie hoch ist die Mindestbestellmenge?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bf2bedc4-b2b1-774f-4990-286387356865",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Unsere Großhandelsprogramme beginnen bei <strong data-w-id=\"f18f844e-c60e-b98a-62d9-8c68021e5afc\">5 kg pro Bestellung</strong>, abhängig von Qualitätsstufe und Zertifizierungsanforderungen.<br data-w-id=\"6b98fdbe-ffc9-efe0-718c-834b53543659\"><br data-w-id=\"cc3ac9d8-9a55-7a33-f6d1-8d29e04de28b\">Für Hersteller und Distributoren strukturieren wir außerdem Palettenprogramme und wiederkehrende Jahresvereinbarungen.</p>",
+    "text": "Unsere Großhandelsprogramme beginnen bei 5 kg pro Bestellung, abhängig von Qualitätsstufe und Zertifizierungsanforderungen.\n\nFür Hersteller und Distributoren strukturieren wir außerdem Palettenprogramme und wiederkehrende Jahresvereinbarungen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7c814a6e-8106-b470-bfa6-ac947f62f026",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"7c814a6e-8106-b470-bfa6-ac947f62f027\">Unterstützen Sie langfristige Lieferverträge?</strong></div>",
+    "text": "Unterstützen Sie langfristige Lieferverträge?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7c814a6e-8106-b470-bfa6-ac947f62f02a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ja. Wir strukturieren:<br data-w-id=\"02c312ce-d989-cc00-e7c9-812882d6dace\"><br data-w-id=\"34698b91-6a03-e129-1a27-51eb0ffc57fc\">- Jahresliefervereinbarungen<br data-w-id=\"9697a87a-2afa-4e93-6a61-a958e3a68c25\">- Wiederkehrende Palettenprogramme<br data-w-id=\"6bcd1aee-ecd6-8972-9972-f0987d2ef35b\">- Rollende Bestandsmodelle über unser niederländisches EU-Lager<br data-w-id=\"67f7c17e-5eb8-e77f-d3d5-1095bf519ff1\">- Geteilte Lieferungen aus dem Ursprungsland und EU-Bestand<br data-w-id=\"72dae878-7a3e-ca97-d314-06f4a09d99a7\"><br data-w-id=\"014228dd-e9d0-1ef9-803c-b202b6b1dfe8\">So unterstützen wir Versorgungssicherheit und planbare Nachbestellungen für langfristige Partner.</p>",
+    "text": "Ja. Wir strukturieren:\n\n- Jahresliefervereinbarungen\n- Wiederkehrende Palettenprogramme\n- Rollende Bestandsmodelle über unser niederländisches EU-Lager\n- Geteilte Lieferungen aus dem Ursprungsland und EU-Bestand\n\nSo unterstützen wir Versorgungssicherheit und planbare Nachbestellungen für langfristige Partner."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e5440804-4e26-bb65-26e1-5e61427fcdc6",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"e5440804-4e26-bb65-26e1-5e61427fcdc7\">Welche Branchen beliefern Sie in Deutschland?</strong></div>",
+    "text": "Welche Branchen beliefern Sie in Deutschland?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e5440804-4e26-bb65-26e1-5e61427fcdca",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Wir liefern Matcha-Pulver in Großmengen an:<br data-w-id=\"216262c9-774e-f725-0884-7011a93df0de\">- <a data-wf-link-page-id=\"698ec0496e41b2e15740e98f\" data-w-id=\"f0c67f7c-9f9d-650d-e360-b111ca47b0f4\">Supplement-Marken</a><br data-w-id=\"083aa06b-eed5-b023-46e5-b24638b340da\">- <a data-wf-link-page-id=\"698ec0496e41b2e15740e98f\" data-w-id=\"514d73f7-d32e-90a9-3d91-a7e4b8f8c35e\">Nutraceutical-Hersteller</a><br data-w-id=\"1110c0be-572b-2f90-8173-dcd5ce351cc8\">- <a data-wf-link-page-id=\"6800f46a3d42433d270fd462\" data-w-id=\"7ebdd8dc-d3ff-e9bf-39e6-c424b51f0075\">Getränkehersteller</a><br data-w-id=\"1bd6e6d6-3b9a-3abd-cac3-6e5bfd9178ca\">- <a data-wf-link-page-id=\"696fe12e366c9eba99edbff9\" data-w-id=\"e44f80c5-5cd2-7bdd-33cc-7ad263eab4f0\">Private-Label-Marken</a><br data-w-id=\"a7533022-d7a6-c88e-497a-3277c484bc57\">- <a data-wf-link-page-id=\"697e0b7d2b67cf5427d2f5f3\" data-w-id=\"6aa4f1f2-be4e-8fd9-ee0e-e0def94b6d69\">Zutaten- und Foodservice-Distributoren</a><br data-w-id=\"a87a1cf2-8cab-bab2-79cd-03233f3f3dad\"><br data-w-id=\"2d9d0392-7dc7-f5d5-30f1-0bb6ebf39d48\">Unsere Lieferstruktur ist auf professionelle B2B-Einkäufer ausgerichtet.</p>",
+    "text": "Wir liefern Matcha-Pulver in Großmengen an:\n- Supplement-Marken\n- Nutraceutical-Hersteller\n- Getränkehersteller\n- Private-Label-Marken\n- Zutaten- und Foodservice-Distributoren\n\nUnsere Lieferstruktur ist auf professionelle B2B-Einkäufer ausgerichtet."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Bereit für den <span class=\"text-span-47\" data-w-id=\"af4300d8-917e-1505-83d8-8a5101132418\">nächsten Schritt</span>?</div>",
+    "text": "Bereit für den nächsten Schritt?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Wir helfen Ihnen, die passende Matcha-Qualität für Ihre Anwendung auszuwählen – mit B2B-Lieferung ab 5 kg, Dokumentation und Versorgung aus unserem niederländischen EU-Lager.</p>",
+    "text": "Wir helfen Ihnen, die passende Matcha-Qualität für Ihre Anwendung auszuwählen – mit B2B-Lieferung ab 5 kg, Dokumentation und Versorgung aus unserem niederländischen EU-Lager."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preise oder Muster anfragen</a>",
+    "text": "Preise oder Muster anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a26",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a518347c3ed2d8200ede8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a28",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51840e630e2044d647be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183ca567cd974b62e65"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183627011d688ff9aa6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51847545d8c6adfa19a5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a30",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d2578d8cc6f8e7561fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a32",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36af2799da49c0e47c"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a34",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d37af2799da49c0e538"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a36",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d3654de4503d53f89fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a38",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d366cf7308d4d7f2413"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3000f8be-8d39-7ac7-6d3d-7f45af9eed0e",
+   "text": {
+    "html": "<h2 class=\"pmp-regions-title\">Unsere Matcha-Lieferregionen in Europa</h2>",
+    "text": "Unsere Matcha-Lieferregionen in Europa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3000f8be-8d39-7ac7-6d3d-7f45af9eed10",
+   "text": {
+    "html": "<a class=\"pmp-region-link\" href=\"https://www.purematchapartners.com/de/bulk-matcha-supplier-de\">Deutschland</a>",
+    "text": "Deutschland"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/de/bulk-matcha-supplier-de"
+   }
+  },
+  {
+   "type": "text",
+   "id": "3000f8be-8d39-7ac7-6d3d-7f45af9eed12",
+   "text": {
+    "html": "<a class=\"pmp-region-link\" href=\"https://www.purematchapartners.com/bulk-matcha-supplier-switzerland\">Schweiz</a>",
+    "text": "Schweiz"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/bulk-matcha-supplier-switzerland"
+   }
+  },
+  {
+   "type": "text",
+   "id": "3000f8be-8d39-7ac7-6d3d-7f45af9eed14",
+   "text": {
+    "html": "<a class=\"pmp-region-link\" href=\"https://www.purematchapartners.com/bulk-matcha-supplier-scandinavia\">Skandinavien</a>",
+    "text": "Skandinavien"
+   },
+   "attributes": {
+    "href": "https://www.purematchapartners.com/bulk-matcha-supplier-scandinavia"
+   }
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 65
+  }
+ ]
+}

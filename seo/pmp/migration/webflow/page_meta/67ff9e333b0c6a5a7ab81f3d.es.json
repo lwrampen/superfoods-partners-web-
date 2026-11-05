@@ -1,0 +1,30 @@
+{
+ "label": "m_67ff9e333b0c6a5a7ab81f3d_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ff9e333b0c6a5a7ab81f3d",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "All products",
+  "slug": "all-products",
+  "createdOn": "2025-04-16T12:10:27.669Z",
+  "lastUpdated": "2026-06-22T07:28:55.064Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Premium Matcha & Specialty Tea Powders | Wholesale B2B | Pure Matcha Partners",
+   "description": "Full range of premium matcha grades, hojicha and specialty tea powders. Ceremonial, latte, culinary and more. Wholesale bulk supply for cafés, brands and distributors worldwide."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/collections/all-products",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

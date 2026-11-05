@@ -1,0 +1,30 @@
+{
+ "label": "m_687e840b8f3533b7a0c3810a_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "687e840b8f3533b7a0c3810a",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Ceremonial Matcha - China Conventional",
+  "slug": "ceremonial-matcha-china-conventional",
+  "createdOn": "2025-07-21T18:16:43.906Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Ceremonial Matcha China Conventional | Wholesale B2B | Pure Matcha Partners",
+   "description": "Chinese conventional ceremonial matcha with smooth flavour and vibrant colour for premium drinks. Lab-tested wholesale supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/products/ceremonial-matcha-china-conventional",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

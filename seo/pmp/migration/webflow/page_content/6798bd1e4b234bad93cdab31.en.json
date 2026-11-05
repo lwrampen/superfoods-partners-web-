@@ -1,0 +1,82 @@
+{
+ "pageId": "6798bd1e4b234bad93cdab31",
+ "locale": "en",
+ "lastUpdated": "2024-11-23T05:09:55.651Z",
+ "total": 8,
+ "nodeCount": 8,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "674163a35582eebfdf07813500000000000b",
+   "text": {
+    "html": "<h1>Search results</h1>",
+    "text": "Search results"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "674163a35582eebfdf07813500000000000e",
+   "text": {
+    "html": "<label for=\"search\">Search</label>",
+    "text": "Search"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text-input",
+   "id": "674163a35582eebfdf078135000000000010",
+   "placeholder": "Search…",
+   "attributes": {}
+  },
+  {
+   "type": "search-button",
+   "id": "674163a35582eebfdf078135000000000011",
+   "value": "Search",
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "674163a35582eebfdf078135000000000015",
+   "text": {
+    "html": "<a href=\"#\"></a>",
+    "text": ""
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "674163a35582eebfdf078135000000000016",
+   "text": {
+    "html": "<div></div>",
+    "text": ""
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "674163a35582eebfdf078135000000000017",
+   "text": {
+    "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "674163a35582eebfdf07813500000000001a",
+   "text": {
+    "html": "<div>No matching results.</div>",
+    "text": "No matching results."
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 8
+  }
+ ]
+}

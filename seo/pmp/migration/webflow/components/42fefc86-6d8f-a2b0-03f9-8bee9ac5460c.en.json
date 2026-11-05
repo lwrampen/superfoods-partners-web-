@@ -1,0 +1,320 @@
+{
+ "label": "k_42fefc86-6d8f-a2b0-03f9-8bee9ac5460c_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+  "nodes": [
+   {
+    "type": "text",
+    "id": "dc3a9686-e6f2-8b72-23c9-647d0244fa88",
+    "text": {
+     "html": "<div class=\"title-link-column-f6\">Collections</div>",
+     "text": "Collections"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dc3a9686-e6f2-8b72-23c9-647d0244fa8a",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"67ff9e333b0c6a5a7ab81f3d\">All products</a>",
+     "text": "All products"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dc3a9686-e6f2-8b72-23c9-647d0244fa8c",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"67ffa2b15258e1b4236839cb\">Ceremonial matcha</a>",
+     "text": "Ceremonial matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dc3a9686-e6f2-8b72-23c9-647d0244fa8e",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"67ffaa8d537bb69e01067ea2\">Latte grade matcha</a>",
+     "text": "Latte grade matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dc3a9686-e6f2-8b72-23c9-647d0244fa90",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"67ffaac17dc60f8b48708801\">Culinary grade matcha</a>",
+     "text": "Culinary grade matcha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "dc3a9686-e6f2-8b72-23c9-647d0244fa92",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"67ffaaf430ca209e60d9dea7\">Hojicha</a>",
+     "text": "Hojicha"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bad",
+    "text": {
+     "html": "<div class=\"title-link-column-f6\">Who we serve</div>",
+     "text": "Who we serve"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816baf",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"698d9bd9fae33977cec6c44d\">Coffee shops &amp; cafés</a>",
+     "text": "Coffee shops & cafés"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bb1",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"681dc746e4efb42760e72831\">Restaurants &amp; foodservice</a>",
+     "text": "Restaurants & foodservice"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bb3",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"681e1547a27a34da56b4f1ad\">Offices &amp; corporate spaces</a>",
+     "text": "Offices & corporate spaces"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "bb8bab54-735a-099c-0201-2ec81d1693c0",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"681e146208e6dabd1d351076\">Health &amp; wellness businesses</a>",
+     "text": "Health & wellness businesses"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "df0e2a6a-f5a4-e570-e17a-e915bf1efca9",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"681e17afa8ca29ba3c3c037a\">Retail &amp; gift stores</a>",
+     "text": "Retail & gift stores"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bb6",
+    "text": {
+     "html": "<div class=\"title-link-column-f6\">about</div>",
+     "text": "about"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bb8",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab30\">Blogs</a>",
+     "text": "Blogs"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bba",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab07\">Our story</a>",
+     "text": "Our story"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "4853478d-1d26-321d-aa04-fbc634d768e2",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Recipes</a>",
+     "text": "Recipes"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "e9944129-3584-befe-22f9-97ae3a16a791",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab34\">FAQ</a>",
+     "text": "FAQ"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "1d6bb8f7-ab0f-c305-7f20-8435391b5710",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact</a>",
+     "text": "Contact"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816ba4",
+    "text": {
+     "html": "<div class=\"title-link-column-f6\">GENERAL</div>",
+     "text": "GENERAL"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816ba6",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\">Wholesale Matcha Supply</a>",
+     "text": "Wholesale Matcha Supply"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "2b72eb0a-f48b-2e06-a9d3-b9757f37d2b4",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6991ff8c153af5609e330dad\">USA Bulk Matcha Supply</a>",
+     "text": "USA Bulk Matcha Supply"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "c07ae28b-015f-dbed-910a-62fc014d6d84",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6a271e3b00fc4006ebc9e1f8\">Germany Bulk Matcha Supply</a>",
+     "text": "Germany Bulk Matcha Supply"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "41148fd2-bf29-8b30-6d3e-89e2cbede4cf",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6a271e5346731fe427bdcdfe\">Spanish Bulk Matcha Supply</a>",
+     "text": "Spanish Bulk Matcha Supply"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "5d58d16c-2e29-ef2f-defe-8dc23c7cf175",
+    "text": {
+     "html": "<a class=\"link-f6\" data-wf-link-page-id=\"6a272c66cb07adfccf65277a\">Café &nbsp;Matcha Netherlands</a>",
+     "text": "Café  Matcha Netherlands"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bc0",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67a5c18d2ef09e8890a140af"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "19e077e0-69e7-0bb7-8798-ac59aaabf820",
+    "text": {
+     "html": "<div class=\"text-block-130\">Organic certified by <a href=\"https://www.skal.nl/\" data-w-id=\"7d02c64c-f0d7-8a54-5e98-8c8419012142\">Skal</a> (NL-BIO-01)<br data-w-id=\"26fae5e5-5d54-98e2-26e7-9ad1fefc3e41\"><a href=\"https://www.fda.gov/\" data-w-id=\"d4f15649-c981-44fc-3998-9a1434f69eeb\">FDA</a> Registered Record &amp; Certified</div>",
+     "text": "Organic certified by Skal (NL-BIO-01)\nFDA Registered Record & Certified"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "9432059e-0e49-276f-eca4-20551a5cb5e9",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "68de443975f4871b46f4fdf3"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "465d3fa5-3f7e-e951-03fd-758d9bc2968e",
+    "image": {
+     "alt": "__wf_reserved_inherit",
+     "assetId": "67fea2157bd06c2e84c098b5"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bcf",
+    "text": {
+     "html": "<div class=\"address-f6\">De Nieuwe Haven 23b, 7772BC Hardenberg</div>",
+     "text": "De Nieuwe Haven 23b, 7772BC Hardenberg"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "eb61e3bc-0e6c-1dd3-7e46-53d1793bc273",
+    "text": {
+     "html": "<a class=\"address-f6\" href=\"#\">hello@purematchapartners.com</a>",
+     "text": "hello@purematchapartners.com"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "4412b5a9-b404-2ee9-565f-d651713bea2c",
+    "text": {
+     "html": "<div class=\"copyright-f6\">Complaints form</div>",
+     "text": "Complaints form"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "3fcee886-3a65-d09d-8e93-18e266816bd1",
+    "text": {
+     "html": "<div class=\"copyright-f6\"><span data-w-id=\"7b6a56ff-4537-ac5c-8d8d-121699776a44\">© Pure Matcha Partners </span></div>",
+     "text": "© Pure Matcha Partners "
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "70c7121a-0fcf-6317-1ac6-d4c83e0c64aa",
+    "text": {
+     "html": "<div class=\"copyright-f6\"><span data-w-id=\"70c7121a-0fcf-6317-1ac6-d4c83e0c64ab\">A Superfoods Partners company</span></div>",
+     "text": "A Superfoods Partners company"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "5ec2a3ab-1ea7-a6b5-eb01-607f2d40da85",
+    "text": {
+     "html": "<div>No enabled locales found.</div>",
+     "text": "No enabled locales found."
+    },
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 34
+  }
+ }
+}

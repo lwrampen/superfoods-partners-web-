@@ -1,0 +1,30 @@
+{
+ "label": "m_6a2a6ffbc6e9e021165272cf_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a2a6ffbc6e9e021165272cf",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Jasmine Tea Powder",
+  "slug": "jasmine-tea-powder",
+  "createdOn": "2026-06-11T08:21:15.040Z",
+  "lastUpdated": "2026-08-02T15:49:07.599Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Jasmine Tea Powder Wholesale | Bulk Floral Tea Powder | Pure Matcha Partners",
+   "description": "Aromatic jasmine tea powder for cafés, beverage brands and desserts. Smooth floral flavour for lattes and product development. Wholesale supply from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a730ff40b5dc9a296ff57_jasmine%20tea%20powder%20.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/products/jasmine-tea-powder",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

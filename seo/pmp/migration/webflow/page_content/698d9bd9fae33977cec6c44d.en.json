@@ -1,0 +1,911 @@
+{
+ "pageId": "698d9bd9fae33977cec6c44d",
+ "locale": "en",
+ "lastUpdated": "2026-08-03T18:15:10.355Z",
+ "total": 100,
+ "nodeCount": 100,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"914844f6-2a4b-ae89-fcd6-8f90070aad72\">Bulk Matcha for </strong><span class=\"text-span-59\" data-w-id=\"449d4a8c-918d-5930-8ba5-eb87544092bc\"><strong data-w-id=\"449d4a8c-918d-5930-8ba5-eb87544092bd\">Cafés</strong></span><strong data-w-id=\"449d4a8c-918d-5930-8ba5-eb87544092be\"> &amp; Hospitality</strong></h1>",
+    "text": "Bulk Matcha for Cafés & Hospitality"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Pure Matcha Partners supplies wholesale matcha powder for cafés, coffee shops, restaurants, and hospitality groups across worldwide markets, supported by flexible <a class=\"link-22\" data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"f6c49536-21c4-513e-bf20-625d641335d1\">wholesale matcha programs</a> tailored to professional beverage service.<br data-w-id=\"f45f565d-25af-723d-f9e1-a8075539ea92\"><br data-w-id=\"85d3fb8d-b054-aa99-04f3-fb250a83e83d\">From 1kg barista-ready bags to pallet-scale supply, we provide premium matcha designed for high-volume beverage preparation, menu consistency, and smooth day-to-day café operations.Whether you're serving matcha lattes, iced matcha drinks, specialty beverages, or seasonal menu innovations, we deliver reliable, food-grade matcha that scales with your business.</p>",
+    "text": "Pure Matcha Partners supplies wholesale matcha powder for cafés, coffee shops, restaurants, and hospitality groups across worldwide markets, supported by flexible wholesale matcha programs tailored to professional beverage service.\n\nFrom 1kg barista-ready bags to pallet-scale supply, we provide premium matcha designed for high-volume beverage preparation, menu consistency, and smooth day-to-day café operations.Whether you're serving matcha lattes, iced matcha drinks, specialty beverages, or seasonal menu innovations, we deliver reliable, food-grade matcha that scales with your business."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Speak with our wholesale team</a>",
+    "text": "Speak with our wholesale team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7730779d-4b4b-5b8d-2b1e-57d4e5ed6e75",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "698dcb02b12c39ab8e1ba6f3"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0da443c5-080d-82fd-0aea-a0197680de9e",
+   "text": {
+    "html": "<h2 class=\"heading-12\"><strong data-w-id=\"e3de7c50-3b25-682f-8919-26197a9ed9ee\">Why Matcha Is a Strategic </strong><span class=\"text-span-58\" data-w-id=\"0b7f6d00-7710-d378-1217-4c80816e86bb\">Menu Categorie</span></h2>",
+    "text": "Why Matcha Is a Strategic Menu Categorie"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "978cc3ed-ba3f-6637-939d-8af267172988",
+   "text": {
+    "html": "<div class=\"text-block-155\">Matcha has become a high-demand beverage category across cafés and hospitality venues worldwide. Health-conscious consumers and specialty coffee drinkers actively seek matcha-based options.<br data-w-id=\"521032c7-ba02-d556-3e4c-3252d091c257\"><br data-w-id=\"0db29c8a-09ef-4e93-ff0c-66b65f9c58ba\"><strong class=\"bold-text-24\" data-w-id=\"bd4ba7e5-600e-8da3-ef28-11e77569103f\">Why cafés add matcha to their menu:</strong></div>",
+    "text": "Matcha has become a high-demand beverage category across cafés and hospitality venues worldwide. Health-conscious consumers and specialty coffee drinkers actively seek matcha-based options.\n\nWhy cafés add matcha to their menu:"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "49665992-630c-a6e9-c289-518ec5175e48",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "692f369e8422850ed62d2bb9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "49665992-630c-a6e9-c289-518ec5175e49",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">High-margin beverage category</h3>",
+    "text": "High-margin beverage category"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "03656774-6edd-4e56-442b-6e7c5cd8dde5",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha lattes and iced matcha drinks offer strong profit margins compared to traditional espresso beverages.</p>",
+    "text": "Matcha lattes and iced matcha drinks offer strong profit margins compared to traditional espresso beverages."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147858",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8f5d3eaa7499f6870e60"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d9456f5a-7f7e-a074-32e3-5cec0f147859",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Growing consumer demand</h3>",
+    "text": "Growing consumer demand"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "70346a19-bd73-73d9-da4a-6d863bd308d4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Plant-based, antioxidant-rich, and clean-label positioning drives repeat purchases.</p>",
+    "text": "Plant-based, antioxidant-rich, and clean-label positioning drives repeat purchases."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e17",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6941ae8a404997b8f7a73014"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a661a014-99ab-807a-d418-81fee93e5e18",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Versatile menu integration</h3>",
+    "text": "Versatile menu integration"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8ccd8b4d-ed6f-c6d3-d88e-5c197a238728",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Hot drinks, iced beverages, frappes, smoothies, dessert toppings, and seasonal specials.</p>",
+    "text": "Hot drinks, iced beverages, frappes, smoothies, dessert toppings, and seasonal specials."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b084",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b8b40a99fbfa503a696ca"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b085",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Premium perception</h3>",
+    "text": "Premium perception"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "133978e9-ae15-8699-e3fe-792b1371b087",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Elevates menu positioning and supports higher price points.</p>",
+    "text": "Elevates menu positioning and supports higher price points."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f162",
+   "text": {
+    "html": "<h2 class=\"heading-12-new\">Wholesale Matcha Grades for <span class=\"text-span-54\" data-w-id=\"1535b799-fb2b-f9ea-b5ca-1c983fc0327f\">Cafes &amp; Food Service</span></h2>",
+    "text": "Wholesale Matcha Grades for Cafes & Food Service"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "694afad753b693508dc36b8a"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f16c",
+   "text": {
+    "html": "<h2 class=\"heading-17\"><span class=\"text-span-60\" data-w-id=\"836067d2-42e0-5dad-01ed-c05cc9bd0701\">Ceremonial Matcha </span>(Signature &amp; Premium Menus)</h2>",
+    "text": "Ceremonial Matcha (Signature & Premium Menus)"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f170",
+   "text": {
+    "html": "<p class=\"text-custom-gray\"><strong class=\"bold-text-19\" data-w-id=\"965cd1f0-3c55-9dd7-776b-1a884a12a649\">Bright green color, smooth umami flavor, and refined finish.<br data-w-id=\"2ce3b023-2082-9a41-f71d-735658c029f0\"><br data-w-id=\"2a9054eb-6782-00f5-9803-41b719228cb5\">Best for:<br data-w-id=\"c7e328f8-3dd1-d2e7-d71f-4bbd7def3ab0\">- Signature matcha lattes<br data-w-id=\"d2a40b56-6ed5-993e-7d24-ec6bed3e4b10\">- Straight matcha (usucha-style)<br data-w-id=\"bd295526-e0ec-4855-7970-f28c05736da5\">- Premium hotel service<br data-w-id=\"9eae72e8-ea9b-d5cd-3aea-bee61940956b\">- High-end café positioning<br data-w-id=\"e760ea39-c815-4d24-3015-a2868eb5ab3f\"><br data-w-id=\"ac9c41f8-4faf-ee2e-5448-c20bffa1da79\">Why cafés choose it:<br data-w-id=\"06792e27-afb3-54e6-3611-671e1257f11d\">- Exceptional color for social media appeal<br data-w-id=\"cab2d1b0-57ed-ca4c-5ba5-944426115b00\">- Smooth taste with minimal bitterness<br data-w-id=\"acf1c919-f5cd-d924-4f30-244163612f58\">- Premium pricing potential</strong></p>",
+    "text": "Bright green color, smooth umami flavor, and refined finish.\n\nBest for:\n- Signature matcha lattes\n- Straight matcha (usucha-style)\n- Premium hotel service\n- High-end café positioning\n\nWhy cafés choose it:\n- Exceptional color for social media appeal\n- Smooth taste with minimal bitterness\n- Premium pricing potential"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f172",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"67ffa2b15258e1b4236839cb\">Explore ceremonial options</a>",
+    "text": "Explore ceremonial options"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f177",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "697dcb7ef19535898dacde17"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f179",
+   "text": {
+    "html": "<h2 class=\"heading-18\"><span class=\"text-span-55\" data-w-id=\"63f2e5a4-bdcd-8c19-8e86-a29b50d6ddab\">Premium Matcha </span>(Balanced for Daily Service)</h2>",
+    "text": "Premium Matcha (Balanced for Daily Service)"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17d",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Our most popular grade for specialty coffee shops.<br data-w-id=\"b7d6f3ab-8dbf-308e-3d39-954c16779cf5\"><br data-w-id=\"ba7468c1-09c5-e2ec-9744-b7ef97ecd18d\">Best for:<br data-w-id=\"22639dce-a964-4e9d-70d9-ecb0dc18978f\">- Matcha lattes (hot &amp; iced)<br data-w-id=\"379ee37f-7b5b-8c7e-101d-ddf6d265e924\">- Oat milk matcha<br data-w-id=\"53310113-dbdc-4d8e-cd75-2d5c780f1fa4\">- Seasonal beverages<br data-w-id=\"24d090b2-9057-519e-f1f5-91234e831f57\">- Flavored matcha drinks<br data-w-id=\"6c6ee94c-a1ab-fec7-66cb-19c28f9e9f5b\"><br data-w-id=\"78bd551e-4863-b0f7-abef-9930ec3cafcd\">Why cafés choose it:<br data-w-id=\"2f09d7e1-e71a-bbfe-35f5-3ba60eebeb7e\">- Strong green color retention<br data-w-id=\"3a9f350f-560f-5907-6378-34eeb7d4e266\">- Excellent blendability<br data-w-id=\"6cd95092-7206-c188-ed70-0d16c74e15be\">- Balanced cost-to-margin ratio<br data-w-id=\"9ad6c56e-2dad-8e3e-9f65-52ec380b4848\">- Reliable daily performance</p>",
+    "text": "Our most popular grade for specialty coffee shops.\n\nBest for:\n- Matcha lattes (hot & iced)\n- Oat milk matcha\n- Seasonal beverages\n- Flavored matcha drinks\n\nWhy cafés choose it:\n- Strong green color retention\n- Excellent blendability\n- Balanced cost-to-margin ratio\n- Reliable daily performance"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f17f",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Request pricing</a>",
+    "text": "Request pricing"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f184",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e15c1890d1c3f4775d44d"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f186",
+   "text": {
+    "html": "<h2 class=\"heading-19\"><span class=\"text-span-56\" data-w-id=\"fe182071-3503-3da6-5cdc-5572782abebc\">Culinary Matcha </span>(High-Volume &amp; Blended Drinks)</h2>",
+    "text": "Culinary Matcha (High-Volume & Blended Drinks)"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18a",
+   "text": {
+    "html": "<p class=\"text-custom-gray\">Designed for cafés focused on high turnover and strong margins.<br data-w-id=\"009d582d-3c98-08de-4c3a-c38050a93a14\"><br data-w-id=\"8410849e-dd32-a452-6be4-678d3667fc13\">Best for:<br data-w-id=\"4ba65e56-b7ed-54a9-ba4c-744af337fe81\">- Frappes &amp; smoothies<br data-w-id=\"90fd7226-9c17-4f3b-fe1e-79a3bdaef6ea\">- Bakery integration<br data-w-id=\"eb579fa1-cf52-9e53-1412-e6af4bb031f1\">- Dessert toppings<br data-w-id=\"60eb7b70-379c-bf2a-5adc-8fa53abd65d1\">- Matcha syrups &amp; concentrates<br data-w-id=\"bdcfbb07-5057-7360-13dd-c3ee722b4882\"><br data-w-id=\"c976e7df-7969-0bd4-774e-c4b4fd8e3de2\">Why cafés choose it:<br data-w-id=\"458cb944-7485-3455-a7f0-0acce259cad0\">- Cost-efficient for volume<br data-w-id=\"b1e928bf-8787-0d83-0bfc-8fde915c968b\">- Stable flavor under sweetened applications<br data-w-id=\"96dbee8d-d832-4552-7ca6-6c8b87e8b6cd\">- Consistent batch quality</p>",
+    "text": "Designed for cafés focused on high turnover and strong margins.\n\nBest for:\n- Frappes & smoothies\n- Bakery integration\n- Dessert toppings\n- Matcha syrups & concentrates\n\nWhy cafés choose it:\n- Cost-efficient for volume\n- Stable flavor under sweetened applications\n- Consistent batch quality"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1be82389-7dd5-0468-91d3-2054bef0f18c",
+   "text": {
+    "html": "<a class=\"button-74\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Discuss your supply program</a>",
+    "text": "Discuss your supply program"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Trusted by <span class=\"text-span-51\" data-w-id=\"cf866dde-c004-7794-0587-37fce8b2d00e\">Cafes &amp; Foodservice</span> Brands</h2>",
+    "text": "Trusted by Cafes & Foodservice Brands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "13943303-1a41-511d-1edc-314c897687f2",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6939fb049197494a76ce49b3"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-20\" data-w-id=\"be7f2bca-f35f-b6be-5e30-a908b30764b8\">Specialty Coffee Shops</strong></h3>",
+    "text": "Specialty Coffee Shops"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Premium matcha powder for daily beverage service.</p>",
+    "text": "Premium matcha powder for daily beverage service."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e16cf08c186cece417a87"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-21\" data-w-id=\"0a91b5e2-8f99-2f48-0f1a-cde0f74738a9\">Matcha Concepts</strong></h3>",
+    "text": "Matcha Concepts"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha-based drinks and culinary integration.</p>",
+    "text": "Matcha-based drinks and culinary integration."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "71f21428-c832-ba46-9e48-80c90470020d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e16cfbe0c058cf9975b40"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"6fbeb4d9-7254-1dfb-5cbd-0f3590050d7a\">Hotel &amp; Resort Groups</strong></h3>",
+    "text": "Hotel & Resort Groups"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Consistent matcha supply for bar, breakfast, and wellness menus.</p>",
+    "text": "Consistent matcha supply for bar, breakfast, and wellness menus."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fc",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6921ca0bc17aff68f374d60a"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda3fd",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\"><strong class=\"bold-text-22\" data-w-id=\"1ef759ca-171a-3bb1-be05-1cd016eda3fe\">Juice Bars &amp; Wellness Cafés</strong></h3>",
+    "text": "Juice Bars & Wellness Cafés"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1ef759ca-171a-3bb1-be05-1cd016eda400",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Certified matcha for branded retail and export distribution.</p>",
+    "text": "Certified matcha for branded retail and export distribution."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-72-copy\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Partner with us</a>",
+    "text": "Partner with us"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "390e49a3-d2fe-b758-b04b-5fe3805029d4",
+   "componentId": "1a834969-357f-5874-547c-66ae3d92c40d",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Why Cafes &amp; Hospitality Work With Us</h2>",
+    "text": "Why Cafes & Hospitality Work With Us"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\"><strong data-w-id=\"977e704a-0496-1817-c8db-0ceb775f2e80\">Barista-friendly performance<br data-w-id=\"c1098773-d819-19b0-be4a-4b5c900e9343\"></strong>Smooth blending and vibrant green color retention.<br data-w-id=\"dcec88d2-b090-85f4-b9cb-c477a4fb03b2\"><strong data-w-id=\"1e4ee851-f966-f2bd-0482-2ef12e276087\"><br data-w-id=\"5bc3551e-1d25-4ab2-0755-5a0259d50f27\">Consistent supply<br data-w-id=\"c1098773-d819-19b0-be4a-4b5c900e9348\"></strong>Uniform quality across batches and seasons.<br data-w-id=\"0a2cc3ad-f9e5-8213-bc63-b8cbca951917\"><strong data-w-id=\"7e277239-32a3-723e-3655-434f443b5df6\"><br data-w-id=\"8d5825b0-b580-a5c5-6c5e-4fd6177610ad\">Flexible wholesale programs<br data-w-id=\"c1098773-d819-19b0-be4a-4b5c900e934d\"></strong>From 100kg/year growth programs to high-volume contracts.<br data-w-id=\"d61d16d5-9035-6596-f2a1-f0662d2fa2cc\"><strong data-w-id=\"3afdc885-1302-769d-243d-0ba958981327\"><br data-w-id=\"b867a7bc-b640-0be8-2093-b65c92849de6\">Global sourcing options<br data-w-id=\"c1098773-d819-19b0-be4a-4b5c900e9352\"></strong>Japan and China origin matcha depending on grade and budget.<br data-w-id=\"3cdc5f73-87d0-ba16-7bbe-ab10a37e5e1b\"><strong data-w-id=\"8950212d-ada5-aadb-db44-84e4b1b037b1\"><br data-w-id=\"0e7b5aca-16a1-d93b-5340-ac0c83f1cc7e\">Scalable growth support<br data-w-id=\"c1098773-d819-19b0-be4a-4b5c900e9357\"></strong>Ideal for expanding café concepts.</div>",
+    "text": "Barista-friendly performance\nSmooth blending and vibrant green color retention.\n\nConsistent supply\nUniform quality across batches and seasons.\n\nFlexible wholesale programs\nFrom 100kg/year growth programs to high-volume contracts.\n\nGlobal sourcing options\nJapan and China origin matcha depending on grade and budget.\n\nScalable growth support\nIdeal for expanding café concepts."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"67ff9e333b0c6a5a7ab81f3d\">Check wholesale options</a>",
+    "text": "Check wholesale options"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b73",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a0742b9f10e5955e83738"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\"><strong class=\"bold-text-18\" data-w-id=\"ab73c94b-57d3-d99d-9372-b3a98762a615\">Why Matcha Works for </strong></span><strong class=\"bold-text-18\" data-w-id=\"059cadbe-9485-7c58-5e86-631bb91b529d\">Cafes &amp; Hospitality</strong></h1>",
+    "text": "Why Matcha Works for Cafes & Hospitality"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\"><strong data-w-id=\"e56920e7-4b00-868b-14c9-079678c654ef\">Matcha supports:</strong><br data-w-id=\"7f1c14d1-8708-22b4-5c0d-11eb6344b58a\">- High-margin signature beverages<br data-w-id=\"75a6f913-7d82-2da6-0f4b-4a55575b17d3\">- Seasonal menu innovation<br data-w-id=\"ddddace4-04e9-a787-dfcb-503339a03b18\">- Plant-based drink offerings<br data-w-id=\"afdf8cbc-b0c5-b12d-8e80-5fa69b577cc5\">- Clean-label positioning<br data-w-id=\"fc390351-ce2e-995c-2147-eb5a0f3829dd\">- Upselling opportunities<br data-w-id=\"b535dcb9-515b-1bff-4f18-22cefa618f06\"><br data-w-id=\"62fe94a8-2b8b-dba9-8cf8-484db1f55c4d\"><strong data-w-id=\"d06e11df-5ae3-79ca-43fa-8a686d996715\">Operational advantages:</strong><br data-w-id=\"bedd8cd0-5acd-b805-50fb-c99ca8cbba8a\">- Powder format = long shelf life<br data-w-id=\"758db448-4b31-671a-cec4-d08717bf0ce6\">- Easy storage<br data-w-id=\"a2f52d96-8222-f1be-95c4-139cd819673a\">- Simple training for baristas<br data-w-id=\"f97b5e1f-7d22-7a27-ee4b-40bfcaef619d\">- Efficient beverage preparation<br data-w-id=\"6318ce1f-a8c4-9c9d-2f2e-4361321978dd\">- Works with dairy &amp; plant-based milks<br data-w-id=\"b79cceb3-9ea6-8e28-ce7f-30afa4b0f0ac\"></div>",
+    "text": "Matcha supports:\n- High-margin signature beverages\n- Seasonal menu innovation\n- Plant-based drink offerings\n- Clean-label positioning\n- Upselling opportunities\n\nOperational advantages:\n- Powder format = long shelf life\n- Easy storage\n- Simple training for baristas\n- Efficient beverage preparation\n- Works with dairy & plant-based milks\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact our wholesale team</a>",
+    "text": "Contact our wholesale team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\"><span class=\"text-span-52\" data-w-id=\"d1ff9712-094a-8a0c-4315-6489d262d584\">Best Matcha</span> for <strong data-w-id=\"d3257ec0-8123-abc0-429d-637abd15e9f3\">Cafes &amp; Food Service</strong></h2>",
+    "text": "Best Matcha for Cafes & Food Service"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa93",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa95",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa97",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa99\">0</span> of <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa9c\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1b",
+   "text": {
+    "html": "<div class=\"heading-xsmall-3\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1d",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb1f\"><strong data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb20\"><br data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb21\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9355",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e82916d4b1f7ccfd62a39"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Ceremonial Matcha</div>",
+    "text": "Ceremonial Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9359",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-C</div>",
+    "text": "PMP-M-CE-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9360",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha</div>",
+    "text": "Premium Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9364",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-C</div>",
+    "text": "PMP-M-LA-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936b",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Culinary Matcha </div>",
+    "text": "Culinary Matcha "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936f",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-C</div>",
+    "text": "PMP-M-CU-1KG-C"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c25",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Frequently Asked Questions</h2>",
+    "text": "Frequently Asked Questions"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2c",
+   "text": {
+    "html": "<div class=\"faq-q-text\">What matcha grade is best for cafés?</div>",
+    "text": "What matcha grade is best for cafés?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c2f",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Ceremonial and premium grades are most commonly used for lattes and iced drinks.</p>",
+    "text": "Ceremonial and premium grades are most commonly used for lattes and iced drinks."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c36",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"02f79e4c-2b25-afc8-d2a4-fd109c696c37\">Do you offer organic wholesale matcha?</strong></div>",
+    "text": "Do you offer organic wholesale matcha?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c3a",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes, EU Organic and USDA Organic certified options are available.</p>",
+    "text": "Yes, EU Organic and USDA Organic certified options are available."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c41",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"a1876ad2-e302-c8b9-220a-0d8a8e42730d\">What is the minimum order for cafés?</strong></div>",
+    "text": "What is the minimum order for cafés?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c44",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">The minimum order is 5 kg per order. We can scale supply and packaging formats as your volume grows.</p>",
+    "text": "The minimum order is 5 kg per order. We can scale supply and packaging formats as your volume grows."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c51",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"1c30d662-92bf-4e4f-944d-31563ae474e3\">Next to europe do you also ship to the US and UK?</strong></div>",
+    "text": "Next to europe do you also ship to the US and UK?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c54",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes, we regularly ship to North America and Europe with full documentation.</p>",
+    "text": "Yes, we regularly ship to North America and Europe with full documentation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c5e",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"b1c98fda-0a4e-4cbf-b039-5b8a962765b1\">Can distributors partner with you?</strong></div>",
+    "text": "Can distributors partner with you?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "02f79e4c-2b25-afc8-d2a4-fd109c696c61",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes, we support foodservice wholesalers and hospitality distributors.</p>",
+    "text": "Yes, we support foodservice wholesalers and hospitality distributors."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d79947c1-fb4d-6ffa-0322-4daae0922dec",
+   "text": {
+    "html": "<div class=\"faq-q-text\"><strong data-w-id=\"d79947c1-fb4d-6ffa-0322-4daae0922ded\">Can you support multi-location cafés or hospitality groups at scale?</strong></div>",
+    "text": "Can you support multi-location cafés or hospitality groups at scale?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d79947c1-fb4d-6ffa-0322-4daae0922df0",
+   "text": {
+    "html": "<p class=\"faq-answer-text\">Yes. Our <a data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"c78c9096-00b1-dd25-c208-40a90a74ee38\">scalable bulk matcha supply</a> supports cafés, restaurant groups, and hospitality brands operating across multiple locations. We offer consistent grades, reliable lead times, and flexible packaging formats to ensure the same taste, color, and performance at every site.</p>",
+    "text": "Yes. Our scalable bulk matcha supply supports cafés, restaurant groups, and hospitality brands operating across multiple locations. We offer consistent grades, reliable lead times, and flexible packaging formats to ensure the same taste, color, and performance at every site."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Ready to get <span class=\"text-span-47\" data-w-id=\"af4300d8-917e-1505-83d8-8a5101132418\">started</span>?</div>",
+    "text": "Ready to get started?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today.</p>",
+    "text": "We're here to help you choose the perfect matcha for your café, coffee shop, gym, or office. Get expert advice tailored to your industry and start serving premium matcha today."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Get in touch with our sales team</a>",
+    "text": "Get in touch with our sales team"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a26",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a518347c3ed2d8200ede8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a28",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51840e630e2044d647be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2a",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183ca567cd974b62e65"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183627011d688ff9aa6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a2e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51847545d8c6adfa19a5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a30",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d2578d8cc6f8e7561fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a32",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36af2799da49c0e47c"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a34",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d37af2799da49c0e538"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a36",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d3654de4503d53f89fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a38",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d366cf7308d4d7f2413"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b1730715-610a-55d9-b825-26d7af15d5be",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\">Foodservice application</div>",
+    "text": "Foodservice application"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b1730715-610a-55d9-b825-26d7af15d5c0",
+   "text": {
+    "html": "<h2 class=\"pricing-h1 faq-h2\">Organic latte-grade matcha selected for Eazie</h2>",
+    "text": "Organic latte-grade matcha selected for Eazie"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b1730715-610a-55d9-b825-26d7af15d5c2",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Pure Matcha Partners selected an organic latte-grade matcha for Eazie. This illustrates how we help multi-location foodservice businesses choose a consistent matcha grade for their menu and supply requirements.</p>",
+    "text": "Pure Matcha Partners selected an organic latte-grade matcha for Eazie. This illustrates how we help multi-location foodservice businesses choose a consistent matcha grade for their menu and supply requirements."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b1730715-610a-55d9-b825-26d7af15d5c9",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><span class=\"text-size-small text-weight-semibold\" data-w-id=\"b1730715-610a-55d9-b825-26d7af15d5c4\">Organic latte grade  •  </span><span class=\"text-size-small text-weight-semibold\" data-w-id=\"b1730715-610a-55d9-b825-26d7af15d5c6\">Multi-location foodservice  •  </span><span class=\"text-size-small text-weight-semibold\" data-w-id=\"b1730715-610a-55d9-b825-26d7af15d5c8\">Supply from 5 kg</span></div>",
+    "text": "Organic latte grade  •  Multi-location foodservice  •  Supply from 5 kg"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 100
+  }
+ ]
+}

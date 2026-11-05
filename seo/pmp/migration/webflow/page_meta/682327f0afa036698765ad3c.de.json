@@ -1,0 +1,30 @@
+{
+ "label": "m_682327f0afa036698765ad3c_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "682327f0afa036698765ad3c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Culinary Matcha - China Conventional",
+  "slug": "culinary-matcha-china-conventional",
+  "createdOn": "2025-05-13T11:07:28.435Z",
+  "lastUpdated": "2026-08-02T15:50:30.307Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "PMP Kulinarischer Matcha 1 kg – Bulk Foodservice | Pure Matcha Partners",
+   "description": "Kostengünstiger Matcha für Kochen & Smoothies. Direkt von der Farm, kräftiger Geschmack, einfach in großen Mengen einsetzbar."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/culinary-matcha-china-conventional",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

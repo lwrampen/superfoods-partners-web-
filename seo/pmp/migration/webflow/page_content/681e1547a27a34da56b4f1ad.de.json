@@ -1,0 +1,369 @@
+{
+ "pageId": "681e1547a27a34da56b4f1ad",
+ "locale": "de",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 39,
+ "nodeCount": 39,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"288e6c23-6d7b-d835-1579-ca256eb9d603\">Matcha für Büros &amp; Unternehmen</strong></h1>",
+    "text": "Matcha für Büros & Unternehmen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Halten Sie Ihr Team energiegeladen, konzentriert und gesund mit hochwertigem japanischem Matcha – der perfekten Ergänzung für Ihr Kaffee- und Teeangebot im Büro. Von Kreativagenturen bis hin zu Co-Working-Spaces unterstützt Matcha die Produktivität mit sauberer Energie und ruhigem Fokus – ganz ohne Koffein-Crash.</p>",
+    "text": "Halten Sie Ihr Team energiegeladen, konzentriert und gesund mit hochwertigem japanischem Matcha – der perfekten Ergänzung für Ihr Kaffee- und Teeangebot im Büro. Von Kreativagenturen bis hin zu Co-Working-Spaces unterstützt Matcha die Produktivität mit sauberer Energie und ruhigem Fokus – ganz ohne Koffein-Crash."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preisliste anfordern</a>",
+    "text": "Preisliste anfordern"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f7969",
+   "text": {
+    "html": "<div>Vielen Dank! Ihre Nachricht ist bei uns eingegangen.</div>",
+    "text": "Vielen Dank! Ihre Nachricht ist bei uns eingegangen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f796c",
+   "text": {
+    "html": "<div>Hoppla! Beim Absenden des Formulars ist ein Fehler aufgetreten.</div>",
+    "text": "Hoppla! Beim Absenden des Formulars ist ein Fehler aufgetreten."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Die perfekte Ergänzung für</h2>",
+    "text": "Die perfekte Ergänzung für"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "13943303-1a41-511d-1edc-314c897687f2",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e16cf08c186cece417a87"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Büro-Catering</h3>",
+    "text": "Büro-Catering"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Täglich Matcha zum Kaffee</p>",
+    "text": "Täglich Matcha zum Kaffee"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Muster anfordern</a>",
+    "text": "Muster anfordern"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e16cf063dedfef8fc0b2f"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Uni-Cafés</h3>",
+    "text": "Uni-Cafés"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\"> Gesunde Energie für Studierende</p>",
+    "text": " Gesunde Energie für Studierende"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551332",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Rezepte ansehen</a>",
+    "text": "Rezepte ansehen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Showrooms</h3>",
+    "text": "Showrooms"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Exklusives Gästeerlebnis</p>",
+    "text": "Exklusives Gästeerlebnis"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700212",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preise anfragen</a>",
+    "text": "Preise anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Warum <span class=\"text-span-2\" data-w-id=\"88cf36a3-04af-c82e-b4e2-b67ac6466191\">Matcha </span>zu Ihrem Angebot hinzufügen</h2>",
+    "text": "Warum Matcha zu Ihrem Angebot hinzufügen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\">✔️ <strong data-w-id=\"b4d22988-ac82-e384-ee81-d962ae948e2a\">Fördert Konzentration &amp; Leistung</strong> – Natürliche Energie mit L-Theanin für mentale Klarheit<br data-w-id=\"4ae25403-8e2d-d4ea-d853-a8dfa3b2c8c8\">✔️ <strong data-w-id=\"0b0da796-c8e1-cc4e-fb02-258c601135f9\">Gesundes Mitarbeiter-Extra</strong> – Vegan, reich an Antioxidantien und auf Wohlbefinden ausgerichtet<br data-w-id=\"61e9d092-8f5b-3ff9-0645-1d244013f7fa\">✔️ <strong data-w-id=\"a4569f13-621b-cc04-fdbb-0d2b402e679f\">Modern &amp; inklusiv</strong> – Passt zu jedem Lebensstil: milchfrei, glutenfrei, pflanzlich<br data-w-id=\"4b262173-0caa-b0b8-74d8-375de1e837b8\">✔️ <strong data-w-id=\"e109df6c-deb1-e72b-b11c-55811e3c5ce5\">Positive Bürokultur</strong> – Zeigen Sie Ihrem Team, dass Sie sich kümmern, mit besseren Getränken</div>",
+    "text": "✔️ Fördert Konzentration & Leistung – Natürliche Energie mit L-Theanin für mentale Klarheit\n✔️ Gesundes Mitarbeiter-Extra – Vegan, reich an Antioxidantien und auf Wohlbefinden ausgerichtet\n✔️ Modern & inklusiv – Passt zu jedem Lebensstil: milchfrei, glutenfrei, pflanzlich\n✔️ Positive Bürokultur – Zeigen Sie Ihrem Team, dass Sie sich kümmern, mit besseren Getränken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Unsere Rezepte ansehen</a>",
+    "text": "Unsere Rezepte ansehen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\">Warum </span>Pure <span class=\"text-span-2\" data-w-id=\"09ed1faa-f038-8aeb-9737-f67d5cc69b63\">Matcha </span>Partners</h1>",
+    "text": "Warum Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">✔️ <strong data-w-id=\"1ba703f3-c532-f4e9-82b1-f901019b7958\">Premium Matcha für Profis</strong> – Hochwertig und einfach zuzubereiten<br data-w-id=\"275a255a-b987-c503-380d-bda9f0228076\">✔️ <strong data-w-id=\"f9424bec-7aab-232f-898b-ee044f2ee43d\">Vertrauenswürdiger B2B-Lieferant</strong> – Flexible Lösungen für Büros jeder Größe<br data-w-id=\"1d4b5c90-75e5-8208-b5d1-80fd68e04703\">✔️ <strong data-w-id=\"8f5d6bf8-7a89-048c-89c4-7504236a43af\">Gesündere Arbeitsplatzkultur</strong> – Fördert Energie, Konzentration und das Wohlbefinden der Mitarbeiter<br data-w-id=\"77cc3b95-3f24-ae81-658b-59ec364e60d9\">✔️ <strong data-w-id=\"e2b345f4-4ab6-6a8a-dd01-9393e9dc2e02\">Einfache Einrichtung</strong> – Wir helfen Ihnen, mit den richtigen Werkzeugen und Mischungen zu starten</div>",
+    "text": "✔️ Premium Matcha für Profis – Hochwertig und einfach zuzubereiten\n✔️ Vertrauenswürdiger B2B-Lieferant – Flexible Lösungen für Büros jeder Größe\n✔️ Gesündere Arbeitsplatzkultur – Fördert Energie, Konzentration und das Wohlbefinden der Mitarbeiter\n✔️ Einfache Einrichtung – Wir helfen Ihnen, mit den richtigen Werkzeugen und Mischungen zu starten"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Vertrieb kontaktieren</a>",
+    "text": "Vertrieb kontaktieren"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\">Beste Produkte für <span class=\"text-span-15\" data-w-id=\"4ec0c45c-9ff9-cdbe-e9d9-26e55f039fcf\">Büros &amp; Unternehmensbereiche</span></h2>",
+    "text": "Beste Produkte für Büros & Unternehmensbereiche"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa93",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa97",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Zeige <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa99\">0</span> von <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa9c\">100</span></div>",
+    "text": "Zeige 0 von 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1b",
+   "text": {
+    "html": "<div class=\"heading-xsmall-3\">Keine Ergebnisse gefunden.</div>",
+    "text": "Keine Ergebnisse gefunden."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1d",
+   "text": {
+    "html": "<div>Es gibt keine Ergebnisse mit diesen Kriterien. Versuchen Sie, Ihre Suche zu ändern.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb1f\"><br data-w-id=\"83531541-11fd-cf04-e262-72222f74a3e8\"></a></div>",
+    "text": "Es gibt keine Ergebnisse mit diesen Kriterien. Versuchen Sie, Ihre Suche zu ändern.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9355",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e425a768e80c125f14"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha</div>",
+    "text": "Hojicha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9359",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-H-H-1KG-JP-SH</div>",
+    "text": "PMP-H-H-1KG-JP-SH"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9360",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Matcha Konventionell</div>",
+    "text": "Premium Matcha Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9364",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-CN-GU</div>",
+    "text": "PMP-M-LA-1KG-CN-GU"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Zeremoniell Konventionell</div>",
+    "text": "Premium Zeremoniell Konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936f",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-CN-GU</div>",
+    "text": "PMP-M-CE-1KG-CN-GU"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Bereit loszulegen?</div>",
+    "text": "Bereit loszulegen?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Wir helfen Ihnen gerne dabei, Matcha in Ihr Unternehmen zu bringen. Egal, ob Sie eine Unternehmenszentrale oder eine Co-Working-Küche leiten, wir empfehlen Ihnen die perfekte Matcha-Lösung, um Ihr Team zu beleben und Ihr Büroangebot aufzuwerten.</p>",
+    "text": "Wir helfen Ihnen gerne dabei, Matcha in Ihr Unternehmen zu bringen. Egal, ob Sie eine Unternehmenszentrale oder eine Co-Working-Küche leiten, wir empfehlen Ihnen die perfekte Matcha-Lösung, um Ihr Team zu beleben und Ihr Büroangebot aufzuwerten."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preisliste anfordern</a>",
+    "text": "Preisliste anfordern"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 39
+  }
+ ]
+}

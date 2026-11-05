@@ -1,0 +1,28 @@
+{
+ "label": "m_6798bd1e4b234bad93cdab31_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab31",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Search Results",
+  "slug": "search",
+  "createdOn": "2024-11-23T05:09:55.627Z",
+  "lastUpdated": "2025-10-13T21:31:31.185Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Search Results"
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/search",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

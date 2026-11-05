@@ -1,0 +1,30 @@
+{
+ "label": "m_67ffaaf430ca209e60d9dea7_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ffaaf430ca209e60d9dea7",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "Hojicha",
+  "slug": "hojicha",
+  "createdOn": "2025-04-16T13:04:52.487Z",
+  "lastUpdated": "2026-10-29T07:42:43.833Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Was ist Hojicha? | Gerösteter Grüntee Großhandel | Pure Matcha Partners",
+   "description": "Hojicha ist ein gerösteter japanischer Grüntee mit warmem, nussigem & koffeinarmem Profil. Ideal für Cafés, Bäckereien & Getränkemarken."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/collections/hojicha",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

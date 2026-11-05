@@ -1,0 +1,61 @@
+{
+ "pageId": "67ffaa8d537bb69e01067ea2",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 5,
+ "nodeCount": 5,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac8e",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Matcha para Latte</h2>",
+    "text": "Matcha para Latte"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00accb",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00accc\">Matcha para bebidas mezcladas</span><br data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00acce\">Ideal para lattes de matcha, capuchinos, jugos y batidos.<br data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00acd0\"></p>",
+    "text": "Matcha para bebidas mezcladas\nIdeal para lattes de matcha, capuchinos, jugos y batidos.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00acef",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Orgánico Japón</div>",
+    "text": "Premium Orgánico Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "37717712-4fdf-2191-54b8-368fcf6e0cc5",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Convencional Japón</div>",
+    "text": "Premium Convencional Japón"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1aea9bd3-1471-85f8-6f40-826cf27f7944",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Convencional China</div>",
+    "text": "Premium Convencional China"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 5
+  }
+ ]
+}

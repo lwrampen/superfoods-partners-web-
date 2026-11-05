@@ -1,0 +1,1643 @@
+{
+ "label": "list_pages_de_0",
+ "action": "list_pages",
+ "result": {
+  "pages": [
+   {
+    "id": "6a8d5edf7c702abff989baf5",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Custom Matcha Blends",
+    "slug": "custom-matcha-blends",
+    "createdOn": "2026-08-25T09:22:39.660Z",
+    "lastUpdated": "2026-09-21T14:01:12.894Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Custom Matcha Blends for Brands & Manufacturers",
+     "description": "Develop a custom matcha or tea powder blend for beverages, food or functional products. Sample development, documented ingredients and scalable B2B supply."
+    },
+    "openGraph": {
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/custom-matcha-blends",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a836b543803450333f19ac9",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Bulk Matcha Supplier Scandinavia",
+    "slug": "bulk-matcha-supplier-scandinavia",
+    "createdOn": "2026-08-17T20:13:08.450Z",
+    "lastUpdated": "2026-08-25T11:02:07.110Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Bulk Matcha Supplier Scandinavia | Wholesale from 5 kg",
+     "description": "Wholesale matcha for Denmark, Sweden, Norway and Finland from 5 kg. Organic options, COA, Eurofins reports and scalable Nordic B2B supply."
+    },
+    "openGraph": {
+     "titleCopied": false,
+     "descriptionCopied": false,
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/bulk-matcha-supplier-scandinavia",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a836b4c1c385d811f8e83e5",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Bulk Matcha Supplier Switzerland",
+    "slug": "bulk-matcha-supplier-switzerland",
+    "createdOn": "2026-08-17T20:13:00.018Z",
+    "lastUpdated": "2026-08-25T11:02:11.926Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Bulk Matcha Supplier Switzerland | Wholesale from 5 kg",
+     "description": "Wholesale matcha for Switzerland from 5 kg. Japanese and Chinese grades, organic options, COA and Eurofins reports, supply via Dutch EU warehouse."
+    },
+    "openGraph": {
+     "titleCopied": false,
+     "descriptionCopied": false,
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/bulk-matcha-supplier-switzerland",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a65faeefec9aa90a34a8422",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6a028ca42f4ef4c910d5f586",
+    "title": "Superfoods Partners",
+    "slug": "superfoods-partners",
+    "createdOn": "2026-07-26T12:17:50.443Z",
+    "lastUpdated": "2026-07-26T12:47:56.698Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Our Partners – Superfoods Partners | Pure Matcha Partners",
+     "description": "Superfoods Partners is our Hong Kong–based sourcing partner for bulk matcha, tea and superfoods — screened and documented per batch for B2B buyers worldwide."
+    },
+    "openGraph": {
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/partners/superfoods-partners",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a2a71c128629092d04bf944",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Da Hong Pao Tea Powder",
+    "slug": "da-hong-pao-tea-powder",
+    "createdOn": "2026-06-11T08:28:49.873Z",
+    "lastUpdated": "2026-08-02T15:48:47.043Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Da Hong Pao Tee Pulver | Oolong Pulver Großhandel | Pure Matcha Partners",
+     "description": "Premium Oolong-Pulver mit weichem, geröstetem Geschmack und natürlichem Energie-Boost. Für cremige Oolong-Lattes, Milchtees & Desserts."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a75cc5aadf01dfd164c6d_Da-Hong-Pao.avif",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/da-hong-pao-tea-powder",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a2a7190cdf35b02bc152891",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Hibiscus Tea Powder",
+    "slug": "hibiscus-tea-powder",
+    "createdOn": "2026-06-11T08:28:00.950Z",
+    "lastUpdated": "2026-08-02T15:48:47.030Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Hibiskus Tee Pulver Großhandel | Pure Matcha Partners",
+     "description": "Premium Hibiskus-Tee-Pulver für Cafés & Getränkemarken. Leuchtend rot, fruchtig-säuerlich, reich an Antioxidantien. B2B-Lieferung."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a7577bf6f7174541aa6b7_Hibiscus-tea-powder.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/hibiscus-tea-powder",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a2a710bf7c069c7b1fc4d8c",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Rooibos Tea Powder",
+    "slug": "rooibos-tea-powder",
+    "createdOn": "2026-06-11T08:25:47.776Z",
+    "lastUpdated": "2026-08-02T15:48:57.360Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Rooibos Tee Pulver Großhandel | Pure Matcha Partners",
+     "description": "Premium Rooibos-Tee-Pulver für Cafés & Getränkemarken. Koffeinfrei, süßlich-nussig. Ideal für Lattes & Backwaren. B2B ab 500 g."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a74d8a1d721d36393bc33_rooibos-tea-powder.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/rooibos-tea-powder",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a2a70dc28629092d04b1719",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Earl Grey Powder",
+    "slug": "earl-grey-powder",
+    "createdOn": "2026-06-11T08:25:00.388Z",
+    "lastUpdated": "2026-08-02T15:48:57.359Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Earl Grey Tee Pulver Großhandel | Bergamotte-Schwarztee | Pure Matcha Partners",
+     "description": "Premium Earl Grey Teepulver mit natürlichem Bergamotte-Öl für Cafés, Bäckereien & Getränkemarken. B2B Bulk von 500 g bis 20 kg+."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a1447edb1448ab2abec251d_oolong-open-graph.avif",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/earl-grey-powder",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a2a6ffbc6e9e021165272cf",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Jasmine Tea Powder",
+    "slug": "jasmine-tea-powder",
+    "createdOn": "2026-06-11T08:21:15.040Z",
+    "lastUpdated": "2026-08-02T15:49:07.599Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Jasmin Tee Pulver Großhandel | Pure Matcha Partners",
+     "description": "Premium Jasmin-Tee-Pulver für Cafés & Getränkemarken. Blumig-aromatisch, aus Grüntee-Basis. B2B Bulk ab 500 g."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a2a730ff40b5dc9a296ff57_jasmine%20tea%20powder%20.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/jasmine-tea-powder",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a272c66cb07adfccf65277a",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Matcha Leverancier Nederland",
+    "slug": "matcha-leverancier-nederland",
+    "createdOn": "2026-06-08T20:56:06.816Z",
+    "lastUpdated": "2026-06-08T21:02:53.877Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Inkopen voor je Café | Nederlandse Leverancier | Pure Matcha Partners",
+     "description": "De Nederlandse matcha leverancier voor cafés en horeca. Snel geleverd vanuit Nederland, Skal bio-gecertificeerd, vertrouwd door tientallen Nederlandse cafés."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/matcha-leverancier-nederland",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a271e5346731fe427bdcdfe",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Bulk Matcha Supplier SP",
+    "slug": "bulk-matcha-supplier-sp",
+    "createdOn": "2026-06-08T19:56:03.538Z",
+    "lastUpdated": "2026-06-09T16:35:55.240Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Proveedor de Matcha al Por Mayor en España | Pure Matcha Partners",
+     "description": "Proveedor certificado de matcha a granel para España. Matcha en polvo para marcas de suplementos, fabricantes de bebidas y distribuidores. Certificado ecológico EU."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/bulk-matcha-supplier-sp",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a271e3b00fc4006ebc9e1f8",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Bulk Matcha Supplier DE",
+    "slug": "bulk-matcha-supplier-de",
+    "createdOn": "2026-06-08T19:55:39.528Z",
+    "lastUpdated": "2026-08-17T20:20:34.529Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Großhandel Deutschland | Lieferant ab 5 kg",
+     "description": "Matcha-Pulver im Großhandel für Deutschland: ab 5 kg, EU-Bio-Optionen, COA und Eurofins-Pestizidberichte, Lieferung aus niederländischem EU-Lager."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/bulk-matcha-supplier-de",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a1448636a961afae55c6bc6",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Oolong Tea Powder",
+    "slug": "oolong-tea-powder",
+    "createdOn": "2026-05-25T13:02:27.154Z",
+    "lastUpdated": "2026-08-02T15:49:17.980Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Oolong Tee Pulver Großhandel | Gerösteter Tee | Pure Matcha Partners",
+     "description": "Premium geröstetes Oolong-Tee-Pulver für Cafés, Getränkemarken & B2B-Käufer. Halbfermentiert, glatt & aromatisch. Bulk ab 500 g."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a1447edb1448ab2abec251d_oolong-open-graph.avif",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/oolong-tea-powder",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a144057c5bf402137c0dce9",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Ube Powder",
+    "slug": "ube-powder",
+    "createdOn": "2026-05-25T12:28:07.983Z",
+    "lastUpdated": "2026-08-02T15:49:17.973Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Ube Pulver Großhandel | Premium Lila Yam Pulver | Pure Matcha Partners",
+     "description": "Premium Ube-Pulver (Lila Yam) für Cafés, Bäckereien & Getränkemarken. Koffeinfrei, lebhafte lila Farbe. B2B Bulk ab 500 g."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a14402241eb368ab3cfc853_ube-open-graph.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/ube-powder",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6a028d468a41fe2d5995416c",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6a028ca42f4ef4c910d5f586",
+    "title": "Asa Matcha",
+    "slug": "asa-matcha",
+    "createdOn": "2026-05-12T02:15:34.261Z",
+    "lastUpdated": "2026-07-26T12:06:41.606Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Unsere Partner – Asa Matcha | Pure Matcha Partners",
+     "description": "ASA Matcha bringt zertifiziert biologischen, japanischen Zeremonial-Matcha nach Europa. Direkt von der Farm in Kagoshima, Japan."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a028f3f98fe0265f476b768_Matcha%20in%20to%20Bowl.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/partners/asa-matcha",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6991ff8c153af5609e330dad",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Bulk Matcha Supplier USA",
+    "slug": "bulk-matcha-supplier-usa",
+    "createdOn": "2026-02-15T17:17:00.413Z",
+    "lastUpdated": "2026-11-05T05:56:46.519Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Lieferant USA | Bulk Matcha Pulver | Pure Matcha Partners",
+     "description": "Zertifizierter Bulk-Matcha-Lieferant für den US-Markt. Matcha-Großhandel für Supplement-Marken, Getränkehersteller & Distributoren mit vollständiger Importdokumentation."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/bulk-matcha-supplier-usa",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "698ed39e8999d2a9cf8e7e17",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Bulk Matcha Powder Supplier for Global Brands",
+    "slug": "bulk-matcha-powder-supplier",
+    "createdOn": "2026-02-13T07:32:46.765Z",
+    "lastUpdated": "2026-11-05T05:56:46.372Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Pulver Großhändler | Bulk & Zertifiziert | Pure Matcha Partners",
+     "description": "Zertifizierter Matcha-Pulver-Großhändler für Supplement-Marken, Getränkehersteller & Distributoren. Bio-Optionen, laborgeprüft & skalierbare Großhandelsprogramme."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/bulk-matcha-powder-supplier",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "698ec0496e41b2e15740e98f",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Supplement & Nutraceutical Brands",
+    "slug": "bulk-matcha-for-supplements",
+    "createdOn": "2026-02-13T06:10:17.658Z",
+    "lastUpdated": "2026-06-22T07:28:27.510Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Zutat für Supplement-Marken | Pure Matcha Partners",
+     "description": "Matcha-Pulver im Großhandel für Kapseln & Functional Supplements. Zertifiziert, COA-geprüft & in organischer Bulk-Versorgung erhältlich."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/bulk-matcha-for-supplements",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "698d9bd9fae33977cec6c44d",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Cafés & Hospitality",
+    "slug": "wholesale-matcha-for-cafes-hospitality",
+    "createdOn": "2026-02-12T09:22:33.849Z",
+    "lastUpdated": "2026-08-17T19:32:27.299Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Großhandel für Cafés & Gastronomie | Pure Matcha Partners",
+     "description": "Matcha-Pulver in Großmengen für Cafés, Restaurants & Gastronomiegruppen. Zertifiziert, baristatauglich & skalierbare Großhandelslieferung."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/wholesale-matcha-for-cafes-hospitality",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "698d7e34b8a5e1650f0aec28",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Product Developers & Co-packers",
+    "slug": "product-developers-co-packers",
+    "createdOn": "2026-02-12T07:16:04.947Z",
+    "lastUpdated": "2026-06-28T15:11:11.728Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Pulver für Hersteller & Co-Packer | Pure Matcha Partners",
+     "description": "Zertifiziertes Matcha-Pulver für Produktentwickler, Hersteller & Co-Packer. Industrielieferung, Private-Label-Support & skalierbare Zutatenprogramme."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/product-developers-co-packers",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "697e0b7d2b67cf5427d2f5f3",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Distributors & Foodservice Suppliers",
+    "slug": "distributors-foodservice-suppliers",
+    "createdOn": "2026-01-31T14:02:37.696Z",
+    "lastUpdated": "2026-08-03T14:56:59.508Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Großhandel für Distributoren & Foodservice | Pure Matcha Partners",
+     "description": "Beliefern Sie Ihr Netzwerk mit Premium-Matcha in 1-kg-Beuteln oder Großgebinden. Vertrauen von globalen Distributoren, Importeuren & Foodservice-Lieferanten."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/distributors-foodservice-suppliers",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "696fe12e366c9eba99edbff9",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Private Label & White Label",
+    "slug": "private-label-matcha",
+    "createdOn": "2026-01-20T20:10:22.243Z",
+    "lastUpdated": "2026-11-05T06:22:03.054Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Private Label Matcha | Eigenmarke & White Label | Pure Matcha Partners",
+     "description": "Starten Sie Ihre eigene Matcha-Marke mit zertifiziertem Private Label Matcha. Bulk-Lieferungen, OEM-Support & flexible Mengen aus zuverlässiger Quelle."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/private-label-matcha",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "694bfdcd216eb4c3ab193150",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Mulberry Matcha - Japan organic",
+    "slug": "mulberry-matcha-japan-organic",
+    "createdOn": "2025-12-24T14:50:53.429Z",
+    "lastUpdated": "2026-08-02T15:49:28.216Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Maulbeere Matcha Pulver Großhandel | Koffeinfrei | Pure Matcha Partners",
+     "description": "Premium Maulbeerblattpulver aus Japan. Von Natur aus koffeinfrei mit weichem, karamelligem Geschmack. B2B Bulk-Versorgung ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/mulberry-matcha-japan-organic",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "694bfcad90f234db9fb45107",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9e891209fc66769ce982",
+    "title": "Specials",
+    "slug": "specials",
+    "createdOn": "2025-12-24T14:46:05.795Z",
+    "lastUpdated": "2026-08-02T15:08:23.993Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Unsere Angebote entdecken | Pure Matcha Partners",
+     "description": "Besondere Matcha-Angebote und limitierte Editionen für B2B-Käufer. Premium-Qualität zu attraktiven Konditionen."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a14402241eb368ab3cfc853_ube-open-graph.webp",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/collections/specials",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "694bfadab6aaf6e33c3c656c",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Asa GO - Japan Organic",
+    "slug": "asa-matcha-japan-organic",
+    "createdOn": "2025-12-24T14:38:18.037Z",
+    "lastUpdated": "2026-08-02T15:49:38.663Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Asa GO Matcha Großhandel | Instant Matcha ohne Schneebesen | Pure Matcha Partners",
+     "description": "Premium Instant-Matcha aus Kagoshima, Japan. Kein Schneebesen nötig – glatter Matcha für Lattes & RTD-Getränke. EU Bio-zertifiziert, B2B ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/asa-matcha-japan-organic",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "693ab238dc146765ed4923ff",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "collectionId": "693ab238dc146765ed4923f5",
+    "title": "Blog Writer Details Template",
+    "slug": "detail_blog-writer-detail",
+    "createdOn": "2025-12-11T11:59:52.999Z",
+    "lastUpdated": "2025-12-11T11:59:53.422Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {},
+    "openGraph": {
+     "titleCopied": false,
+     "descriptionCopied": false,
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/blog-writer-detail",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "68d2710b7ee6c45cd804057e",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Hojicha - Japan Conventional",
+    "slug": "hojicha-japan-conventional",
+    "createdOn": "2025-09-23T10:06:03.410Z",
+    "lastUpdated": "2026-08-02T15:49:38.665Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Hojicha Japan Konventionell 1 kg | Pure Matcha Partners",
+     "description": "Glatter, aromatischer Hojicha in Bulk-Verpackung. Ideal für Cafés, Konditoreien & Snack-Hersteller. Konventionell, B2B ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/hojicha-japan-conventional",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "68d26ae941cf7c52b1346836",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Culinary Matcha - Japan Organic",
+    "slug": "culinary-matcha-japan-organic",
+    "createdOn": "2025-09-23T09:39:53.205Z",
+    "lastUpdated": "2026-08-02T15:49:49.043Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Kulinarischer Matcha Japan Organisch 1 kg | Pure Matcha Partners",
+     "description": "Kräftiger Matcha für Backen, Desserts & Saucen. Leuchtend grüne Farbe & starker Geschmack. EU Bio-zertifiziert, B2B ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/culinary-matcha-japan-organic",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "68d26a6722c2d3df242931ea",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Premium Matcha - Japan Organic",
+    "slug": "premium-matcha-japan-organic",
+    "createdOn": "2025-09-23T09:37:43.432Z",
+    "lastUpdated": "2026-08-02T15:49:49.045Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Premium Matcha Japan Organisch 1 kg | Pure Matcha Partners",
+     "description": "Glatter, lebendiger Latte-Matcha für Cafés & Restaurants. Premium-Qualität in Bulk-Verpackung. Ideal für Lattes & Smoothies. EU Bio-zertifiziert."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/premium-matcha-japan-organic",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "68d26991fd2fb17c7cf70952",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Ceremonial Matcha - Japan Organic",
+    "slug": "ceremonial-matcha-japan-organic",
+    "createdOn": "2025-09-23T09:34:09.987Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Zeremonial Matcha Japan Organisch 1 kg | Pure Matcha Partners",
+     "description": "B2B Zeremonial-Matcha mit sanftem Geschmack & hohen Antioxidantien. Aus japanischen Farmen, bulk ab 1 kg. EU Bio-zertifiziert."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/ceremonial-matcha-japan-organic",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6892228a6e6bc64e6d77480d",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Complain form",
+    "slug": "complain-form",
+    "createdOn": "2025-08-05T15:26:02.880Z",
+    "lastUpdated": "2026-08-02T15:08:39.262Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Submit a Product Complaint | Pure Matcha Partners",
+     "description": "Contact Pure Matcha Partners about a product, order or quality concern. Our team will review your complaint and respond directly."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/complain-form",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "687e85011edce777334b1878",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Premium Matcha - Japan Conventional",
+    "slug": "premium-matcha-japan-conventional",
+    "createdOn": "2025-07-21T18:20:49.314Z",
+    "lastUpdated": "2026-08-02T15:52:31.344Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Premium Kagoshima Matcha Konventionell 1 kg | Pure Matcha Partners",
+     "description": "Glatter, lebendiger Latte-Matcha für Cafés & Restaurants. Premium-Kagoshima-Qualität in Bulk-Verpackung, konventionell."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/premium-matcha-japan-conventional",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "687e840b8f3533b7a0c3810a",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Ceremonial Matcha - China Conventional",
+    "slug": "ceremonial-matcha-china-conventional",
+    "createdOn": "2025-07-21T18:16:43.906Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Zeremonial Matcha China Konventionell 1 kg | Pure Matcha Partners",
+     "description": "B2B Zeremonial-Matcha mit sanftem Geschmack & hohen Antioxidantien. Aus chinesischen Farmen. Konventionell, bulk ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/ceremonial-matcha-china-conventional",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "68232c968ee7972284b04191",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Hojicha - Japan Organic",
+    "slug": "hojicha-japan-organic",
+    "createdOn": "2025-05-13T11:27:18.391Z",
+    "lastUpdated": "2026-08-02T15:50:19.933Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Hojicha 1 kg – Bulk Gerösteter Grüntee | Pure Matcha Partners",
+     "description": "Glatter, aromatischer Hojicha in Bulk-Verpackung. Ideal für Cafés, Konditoreien & Smoothie-Bars. Aus Japan, B2B-Mengen."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/hojicha-japan-organic",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "682327f0afa036698765ad3c",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Culinary Matcha - China Conventional",
+    "slug": "culinary-matcha-china-conventional",
+    "createdOn": "2025-05-13T11:07:28.435Z",
+    "lastUpdated": "2026-08-02T15:50:30.307Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "PMP Kulinarischer Matcha 1 kg – Bulk Foodservice | Pure Matcha Partners",
+     "description": "Kostengünstiger Matcha für Kochen & Smoothies. Direkt von der Farm, kräftiger Geschmack, einfach in großen Mengen einsetzbar."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/culinary-matcha-china-conventional",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "68232599671eed5da1c758db",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Culinary Matcha - Japan Conventional",
+    "slug": "culinary-matcha-japan-conventional",
+    "createdOn": "2025-05-13T10:57:29.845Z",
+    "lastUpdated": "2026-08-02T15:50:30.298Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Asa Kulinarischer Matcha 1 kg – Premium Koch-Güteklasse | Pure Matcha Partners",
+     "description": "Kräftiger Matcha für Backen, Desserts & Saucen. Leuchtend grüne Farbe & starker Geschmack. Konventionell, B2B ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/culinary-matcha-japan-conventional",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "682323092576061a3a96d2df",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Premium Matcha - China Conventional",
+    "slug": "premium-matcha-china-conventional",
+    "createdOn": "2025-05-13T10:46:33.557Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Premium Matcha China 1 kg | Pure Matcha Partners",
+     "description": "Glatter, lebendiger Latte-Matcha für Cafés & Restaurants. Premium-Qualität in Bulk-Verpackung. Aus China, konventionell."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/premium-matcha-china-conventional",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681e17afa8ca29ba3c3c037a",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Retail & gift stores",
+    "slug": "retail-gift-stores",
+    "createdOn": "2025-05-09T14:56:47.637Z",
+    "lastUpdated": "2026-06-22T07:28:27.754Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha für Einzelhandel & Geschenk-Konzepte | Pure Matcha Partners",
+     "description": "Retailfertiger Matcha mit ansprechender Verpackung. Ideal für Teeshops, Geschenkboxen & Boutique-Einzelhändler. Flexible B2B-Mengen."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/retail-gift-stores",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681e1547a27a34da56b4f1ad",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Offices & corporate spaces",
+    "slug": "offices-corporate-spaces",
+    "createdOn": "2025-05-09T14:46:31.649Z",
+    "lastUpdated": "2026-06-28T15:10:30.538Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha für Büros & Betriebskantinen | Pure Matcha Partners",
+     "description": "Gesunder Energie-Boost für Arbeitsplätze & Büros. Sanfter Geschmack, wenig Koffein-Jitter. B2B-Lieferung für Corporate Wellness Programme."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/offices-corporate-spaces",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681e146208e6dabd1d351076",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Health & wellness businesses",
+    "slug": "health-wellness-businesses",
+    "createdOn": "2025-05-09T14:42:42.579Z",
+    "lastUpdated": "2026-06-28T15:10:40.805Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha für Fitnessstudios, Smoothie-Bars & Wellness | Pure Matcha Partners",
+     "description": "Energiereicher, antioxidantienreicher Matcha. Ideal für Smoothies, Pre-Workout-Mischungen & Wellness-Konzepte. Bio-zertifiziert & B2B-lieferbar."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/health-wellness-businesses",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681dc746e4efb42760e72831",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Restaurants & foodservice",
+    "slug": "restaurants-foodservice",
+    "createdOn": "2025-05-09T09:13:42.414Z",
+    "lastUpdated": "2026-06-28T15:11:52.529Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha für Restaurants & Hotels | Pure Matcha Partners",
+     "description": "Premium-Matcha für Anrichten, Desserts & Cocktails. Flexible Bulk-Lieferung direkt von zertifizierten Farmen. B2B-Preise auf Anfrage."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/restaurants-foodservice",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681dc53d385ed6f721891ace",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Pricelist request",
+    "slug": "pricelist-request",
+    "createdOn": "2025-05-09T09:05:01.699Z",
+    "lastUpdated": "2026-08-02T15:08:39.265Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Großhandel Preisliste anfragen | Pure Matcha Partners",
+     "description": "Erhalten Sie unsere vollständige B2B-Matcha-Preisliste mit Bulk-Mengen, Verpackungsformaten & Güteklassen. Sofortiger Zugang für qualifizierte Käufer."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/pricelist-request",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681dc311740f2ac581e6271f",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Sample request",
+    "slug": "sample-request",
+    "createdOn": "2025-05-09T08:55:45.249Z",
+    "lastUpdated": "2026-08-02T15:08:39.269Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Muster anfragen | B2B Probierpaket | Pure Matcha Partners",
+     "description": "Fordern Sie ein personalisiertes Matcha-Musterpaket an. Wir empfehlen die richtigen Güteklassen für Ihr Produkt oder Ihre Marke."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/sample-request",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681dbee490ffeb168bd19d69",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9f06984c173eaac63fca",
+    "title": "Ceremonial Matcha - Japan Conventional",
+    "slug": "ceremonial-matcha-japan-conventional",
+    "createdOn": "2025-05-09T08:37:56.809Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Zeremonial Matcha Japan Konventionell | Pure Matcha Partners",
+     "description": "B2B Zeremonial-Matcha mit sanftem Geschmack & hohen Antioxidantien. Aus japanischen Farmen. Konventionell, bulk ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/products/ceremonial-matcha-japan-conventional",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681b2ef9d4977d04b2f60d7c",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Privacy policy",
+    "slug": "privacy",
+    "createdOn": "2025-05-07T09:59:21.795Z",
+    "lastUpdated": "2026-08-02T15:08:39.271Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Privacy"
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/privacy",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681b14857918a72a859fd05c",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Recipe",
+    "slug": "recipe",
+    "createdOn": "2025-05-07T08:06:29.425Z",
+    "lastUpdated": "2026-06-22T07:28:00.202Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha-Rezepte für Baristas & Köche | Pure Matcha Partners",
+     "description": "Inspiration für Matcha-Getränke, Desserts & Gerichte. Ideal für Cafés, Hotels & Getränkemarken. Professionell getestet, leicht umsetzbar."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/recipe",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "681b10aa58a45d24e32f3f2c",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "collectionId": "681b10aa58a45d24e32f3e9d",
+    "title": "Recipes Template",
+    "slug": "detail_recipe",
+    "createdOn": "2025-05-07T07:50:02.996Z",
+    "lastUpdated": "2026-06-08T19:41:56.804Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }} | Pure Matcha Partners",
+     "description": "{{wf {&quot;path&quot;:&quot;short-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}"
+    },
+    "openGraph": {
+     "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }} | Pure Matcha Partners",
+     "titleCopied": false,
+     "description": "{{wf {&quot;path&quot;:&quot;short-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}",
+     "descriptionCopied": false,
+     "imageUrl": "{{wf {&quot;path&quot;:&quot;main-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\\} }}",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/recipe",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6815d29a6e238ea1580ca68f",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9e891209fc66769ce982",
+    "title": "Hardware",
+    "slug": "hardware",
+    "createdOn": "2025-05-03T08:23:54.052Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha-Zubehör | Pure Matcha Partners",
+     "description": "Hochwertiges Matcha-Zubehör für die professionelle Zubereitung. Bambusbesensets, Schalen & mehr für Cafés und Baristas."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/collections/hardware",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6800f46a3d42433d270fd462",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "6800eb4ee6a75c3e8136821c",
+    "title": "Food & Beverage Brands",
+    "slug": "food-and-beverage-brands",
+    "createdOn": "2025-04-17T12:30:34.349Z",
+    "lastUpdated": "2026-08-17T19:32:26.620Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Zutat für Food & Beverage Marken | Pure Matcha Partners",
+     "description": "Clean-Label Matcha für RTD-Getränke, Snacks & Functional Foods. Formulierungsfertige Matcha-Zutaten für Ihre Food & Beverage Marke."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/for/food-and-beverage-brands",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "67ffaaf430ca209e60d9dea7",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9e891209fc66769ce982",
+    "title": "Hojicha",
+    "slug": "hojicha",
+    "createdOn": "2025-04-16T13:04:52.487Z",
+    "lastUpdated": "2026-10-29T07:42:43.833Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Was ist Hojicha? | Gerösteter Grüntee Großhandel | Pure Matcha Partners",
+     "description": "Hojicha ist ein gerösteter japanischer Grüntee mit warmem, nussigem & koffeinarmem Profil. Ideal für Cafés, Bäckereien & Getränkemarken."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/collections/hojicha",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "67ffaac17dc60f8b48708801",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9e891209fc66769ce982",
+    "title": "Culinary Matcha",
+    "slug": "culinary-matcha",
+    "createdOn": "2025-04-16T13:04:01.683Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Kulinarischer Matcha | Backen & RTD | Pure Matcha Partners",
+     "description": "Kräftiger, lebendiger kulinarischer Matcha für RTD-Getränke, Produktentwicklung & Backen. Direkt von zertifizierten Farmen, B2B ab 1 kg."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/collections/culinary-matcha",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "67ffaa8d537bb69e01067ea2",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9e891209fc66769ce982",
+    "title": "Latte Matcha",
+    "slug": "latte-grade-matcha",
+    "createdOn": "2025-04-16T13:03:09.598Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Pulver für Lattes | Latte Grade Großhandel | Pure Matcha Partners",
+     "description": "Premium Latte-Grade Matcha-Pulver für Cafés, Baristas & Getränkemarken. Lebendige Farbe, cremige Textur, einfach in der Zubereitung."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/collections/latte-grade-matcha",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "67ffa2b15258e1b4236839cb",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9e891209fc66769ce982",
+    "title": "Ceremonial Matcha",
+    "slug": "ceremonial-matcha",
+    "createdOn": "2025-04-16T12:29:37.473Z",
+    "lastUpdated": "2026-08-17T09:57:55.850Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Zeremonial-Matcha – Höchste Qualität | Pure Matcha Partners",
+     "description": "Feinsten Zeremonial-Matcha direkt aus Japan. Lebendige Farbe, reiches Umami, ideal für Spitzen-Cafés & Premium-Getränkemarken."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/collections/ceremonial-matcha",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "67ff9e333b0c6a5a7ab81f3d",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "parentId": "67ff9e891209fc66769ce982",
+    "title": "All products",
+    "slug": "all-products",
+    "createdOn": "2025-04-16T12:10:27.669Z",
+    "lastUpdated": "2026-06-22T07:28:55.064Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Premium Matcha & Spezial-Teepulver | B2B Großhandel | Pure Matcha Partners",
+     "description": "Vollsortiment an Premium-Matcha-Güteklassen, Hojicha & Spezial-Teepulver. Zeremonial, Premium, Kulinarisch & mehr im B2B-Großhandel."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/collections/all-products",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdaba0",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "collectionId": "6798bd1e4b234bad93cdab7c",
+    "title": "Blogs Categories Template",
+    "slug": "detail_blog-categories",
+    "createdOn": "2024-12-18T05:41:54.692Z",
+    "lastUpdated": "2025-12-11T11:57:45.155Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": false,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {},
+    "openGraph": {
+     "titleCopied": false,
+     "descriptionCopied": false,
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/blog-categories",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab7b",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "404",
+    "slug": "404",
+    "createdOn": "2024-12-16T05:53:06.427Z",
+    "lastUpdated": "2025-10-13T21:31:31.362Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Not Found"
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/404",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab39",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Terms and Conditions",
+    "slug": "terms-and-conditions",
+    "createdOn": "2024-12-15T07:06:25.295Z",
+    "lastUpdated": "2026-08-02T15:08:39.275Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Terms and Conditions | Pure Matcha Partners"
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/terms-and-conditions",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab36",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "collectionId": "6798bd1e4b234bad93cdab3d",
+    "title": "Blogs Template",
+    "slug": "detail_blogs",
+    "createdOn": "2024-12-14T06:08:19.004Z",
+    "lastUpdated": "2026-06-08T19:39:46.806Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }} | Pure Matcha Partners",
+     "description": "{{wf {&quot;path&quot;:&quot;blog-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }}"
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "{{wf {&quot;path&quot;:&quot;blog-main-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\\} }}",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/blogs",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab34",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Faq",
+    "slug": "faq",
+    "createdOn": "2024-12-12T16:52:39.497Z",
+    "lastUpdated": "2026-08-02T15:53:13.443Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Großhandel FAQ | Pure Matcha Partners",
+     "description": "Antworten auf häufige Fragen zu Matcha, Lagerung, Haltbarkeit & Versand. Schnelle, praktische Hilfe für unsere B2B-Kunden."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/faq",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab33",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Contact",
+    "slug": "contact",
+    "createdOn": "2024-12-12T06:24:58.567Z",
+    "lastUpdated": "2026-08-02T15:12:25.411Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Kontakt – Matcha Großhandel | Pure Matcha Partners",
+     "description": "Kontaktieren Sie uns für Muster, Preise & Bestellungen. Weltweiter Versand innerhalb von 48 Stunden. Lassen Sie Ihr Unternehmen mit Premium-Matcha wachsen."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/contact",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab31",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Search Results",
+    "slug": "search",
+    "createdOn": "2024-11-23T05:09:55.627Z",
+    "lastUpdated": "2025-10-13T21:31:31.185Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Search Results"
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": null,
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/search",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab30",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Blogs",
+    "slug": "blogs",
+    "createdOn": "2024-11-23T04:45:24.199Z",
+    "lastUpdated": "2026-06-22T07:28:00.077Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Einblicke & Trends | Blog | Pure Matcha Partners",
+     "description": "Aktuelle Matcha-Trends, Rezepte, Beschaffungstipps & B2B-Insights. Für Baristas, Markeninhaber & Großhändler."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/blogs",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdab07",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "About",
+    "slug": "about",
+    "createdOn": "2024-11-20T07:57:16.859Z",
+    "lastUpdated": "2026-08-04T12:17:03.880Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Über Pure Matcha Partners – Premium B2B-Lieferant",
+     "description": "Unsere Mission, Beschaffung & Partnerbetriebe in Japan. Zertifizierter Lieferant für Gastronomie, Wellness & Einzelhandel. Rein. Nachhaltig. Partnerfähig."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/about",
+    "localeId": "696f30f0cffe96212029af00"
+   },
+   {
+    "id": "6798bd1e4b234bad93cdaae1",
+    "siteId": "6798bd1e4b234bad93cdaa9c",
+    "title": "Home",
+    "createdOn": "2024-11-20T03:40:54.564Z",
+    "lastUpdated": "2026-11-05T05:57:42.287Z",
+    "archived": false,
+    "draft": false,
+    "shouldPublish": true,
+    "canBranch": true,
+    "isBranch": false,
+    "seo": {
+     "title": "Matcha Großhändler – Premium B2B Matcha Großhandel | Pure Matcha Partners",
+     "description": "Zertifizierter B2B-Matcha-Lieferant für Cafés, Restaurants und Distributoren. Aus Japan und China, Großhandel ab 5 kg. EU-Bio-zertifiziert und laborgeprüft."
+    },
+    "openGraph": {
+     "titleCopied": true,
+     "descriptionCopied": true,
+     "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+     "imageAssetId": null
+    },
+    "publishedPath": "/de/",
+    "localeId": "696f30f0cffe96212029af00"
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 64
+  }
+ }
+}

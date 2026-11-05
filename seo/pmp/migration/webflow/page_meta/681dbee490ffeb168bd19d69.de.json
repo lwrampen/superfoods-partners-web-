@@ -1,0 +1,30 @@
+{
+ "label": "m_681dbee490ffeb168bd19d69_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681dbee490ffeb168bd19d69",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Ceremonial Matcha - Japan Conventional",
+  "slug": "ceremonial-matcha-japan-conventional",
+  "createdOn": "2025-05-09T08:37:56.809Z",
+  "lastUpdated": "2026-08-17T09:57:55.850Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Zeremonial Matcha Japan Konventionell | Pure Matcha Partners",
+   "description": "B2B Zeremonial-Matcha mit sanftem Geschmack & hohen Antioxidantien. Aus japanischen Farmen. Konventionell, bulk ab 1 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/ceremonial-matcha-japan-conventional",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

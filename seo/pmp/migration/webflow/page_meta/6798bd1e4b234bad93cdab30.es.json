@@ -1,0 +1,29 @@
+{
+ "label": "m_6798bd1e4b234bad93cdab30_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab30",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Blogs",
+  "slug": "blogs",
+  "createdOn": "2024-11-23T04:45:24.199Z",
+  "lastUpdated": "2026-06-22T07:28:00.077Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Insights & Trends | Blog | Pure Matcha Partners",
+   "description": "Stay up to date on matcha trends, recipes, sourcing tips & B2B insights. For baristas, chefs, retailers & wellness pros."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/blogs",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

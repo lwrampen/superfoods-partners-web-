@@ -1,0 +1,30 @@
+{
+ "label": "m_698d7e34b8a5e1650f0aec28_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "698d7e34b8a5e1650f0aec28",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Product Developers & Co-packers",
+  "slug": "product-developers-co-packers",
+  "createdOn": "2026-02-12T07:16:04.947Z",
+  "lastUpdated": "2026-06-28T15:11:11.728Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Bulk Matcha Powder for Manufacturers & Co-Packers",
+   "description": "Certified bulk matcha powder for product developers, manufacturers & co-packers. Industrial supply, private label support & scalable ingredient programs."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/for/product-developers-co-packers",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

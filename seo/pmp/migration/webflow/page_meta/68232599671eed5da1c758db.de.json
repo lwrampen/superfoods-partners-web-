@@ -1,0 +1,30 @@
+{
+ "label": "m_68232599671eed5da1c758db_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "68232599671eed5da1c758db",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Culinary Matcha - Japan Conventional",
+  "slug": "culinary-matcha-japan-conventional",
+  "createdOn": "2025-05-13T10:57:29.845Z",
+  "lastUpdated": "2026-08-02T15:50:30.298Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Asa Kulinarischer Matcha 1 kg – Premium Koch-Güteklasse | Pure Matcha Partners",
+   "description": "Kräftiger Matcha für Backen, Desserts & Saucen. Leuchtend grüne Farbe & starker Geschmack. Konventionell, B2B ab 1 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/culinary-matcha-japan-conventional",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "pageId": "67ffaa8d537bb69e01067ea2",
+ "locale": "en",
+ "lastUpdated": "2026-06-11T09:50:34.969Z",
+ "total": 18,
+ "nodeCount": 18,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac8e",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Matcha Powder for Lattes — Latte Grade Wholesale</h2>",
+    "text": "Matcha Powder for Lattes — Latte Grade Wholesale"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac96",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac98",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac9a",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac9c\">0</span> of <span data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ac9f\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00accb",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00accc\">Matcha for Blended drinks</span><br data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00acce\">Premium matcha powder for lattes, iced matcha drinks and cappuccinos. Our latte grade matcha delivers vibrant green colour, smooth blending and a balanced flavour — ideal for baristas and high-volume beverage service.<br data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00acd0\"></p>",
+    "text": "Matcha for Blended drinks\nPremium matcha powder for lattes, iced matcha drinks and cappuccinos. Our latte grade matcha delivers vibrant green colour, smooth blending and a balanced flavour — ideal for baristas and high-volume beverage service.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00aced",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e837f3987c636fd3470e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00acef",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Organic Japan</div>",
+    "text": "Premium Organic Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00acf1",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-JP-O</div>",
+    "text": "PMP-M-LA-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "37717712-4fdf-2191-54b8-368fcf6e0cc3",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "687e837f3987c636fd3470e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "37717712-4fdf-2191-54b8-368fcf6e0cc5",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Conventional Japan</div>",
+    "text": "Premium Conventional Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "37717712-4fdf-2191-54b8-368fcf6e0cc7",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-JP</div>",
+    "text": "PMP-M-LA-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "1aea9bd3-1471-85f8-6f40-826cf27f7942",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9bb"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1aea9bd3-1471-85f8-6f40-826cf27f7944",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Premium Conventional China</div>",
+    "text": "Premium Conventional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1aea9bd3-1471-85f8-6f40-826cf27f7946",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-LA-1KG-CN</div>",
+    "text": "PMP-M-LA-1KG-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad3c",
+   "text": {
+    "html": "<div class=\"heading-xsmall-2\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad3e",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad40\"><strong data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad41\"><br data-w-id=\"ae3a5e3b-c791-7ac5-1d9d-f3fcac00ad42\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 18
+  }
+ ]
+}

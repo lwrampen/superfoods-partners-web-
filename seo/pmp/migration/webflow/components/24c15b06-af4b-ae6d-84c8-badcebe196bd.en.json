@@ -1,0 +1,230 @@
+{
+ "label": "k_24c15b06-af4b-ae6d-84c8-badcebe196bd_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "24c15b06-af4b-ae6d-84c8-badcebe196bd",
+  "nodes": [
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196c1",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab87"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196c2",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab88"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196c3",
+    "text": {
+     "html": "<div class=\"h4 font-600\">What types of computer issues do you repair?</div>",
+     "text": "What types of computer issues do you repair?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196c6",
+    "text": {
+     "html": "<div class=\"accordion-description\">Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being.</div>",
+     "text": "Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196cb",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab87"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196cc",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab88"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196cd",
+    "text": {
+     "html": "<div class=\"h4 font-600\">What is personalized nutrition counseling?</div>",
+     "text": "What is personalized nutrition counseling?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196d0",
+    "text": {
+     "html": "<div class=\"accordion-description\">Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being.</div>",
+     "text": "Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196d5",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab87"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196d6",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab88"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196d7",
+    "text": {
+     "html": "<div class=\"h4 font-600\">What should I expect during my first consultation?</div>",
+     "text": "What should I expect during my first consultation?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196da",
+    "text": {
+     "html": "<div class=\"accordion-description\">Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being.</div>",
+     "text": "Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196df",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab87"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196e0",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab88"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196e1",
+    "text": {
+     "html": "<div class=\"h4\">How often will I need to meet with my nutritionist?</div>",
+     "text": "How often will I need to meet with my nutritionist?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196e4",
+    "text": {
+     "html": "<div class=\"accordion-description\">Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being.</div>",
+     "text": "Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196e9",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab87"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196ea",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab88"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196eb",
+    "text": {
+     "html": "<div class=\"h4 font-600\">Are the nutrition plans provided by Nutrizen evidence-based?</div>",
+     "text": "Are the nutrition plans provided by Nutrizen evidence-based?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196ee",
+    "text": {
+     "html": "<div class=\"accordion-description\">Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being.</div>",
+     "text": "Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196f3",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab87"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196f4",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab88"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196f5",
+    "text": {
+     "html": "<div class=\"h4 font-600\">Do I need to follow a strict diet plan?</div>",
+     "text": "Do I need to follow a strict diet plan?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "24c15b06-af4b-ae6d-84c8-badcebe196f8",
+    "text": {
+     "html": "<div class=\"accordion-description\">Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being.</div>",
+     "text": "Nutrizen provides tailored nutrition advice and support designed to help you reach your specific health goals, whether it's weight management, increased energy, or improved overall well-being."
+    },
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 24
+  }
+ }
+}

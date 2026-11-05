@@ -1,0 +1,42 @@
+{
+ "label": "details_6798bd1e4b234bad93cdab7c",
+ "action": "get_collection_details",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab7c",
+  "displayName": "Blogs Categories",
+  "singularName": "Blogs Category",
+  "slug": "blog-categories",
+  "createdOn": "2024-12-18T05:41:54.475Z",
+  "lastUpdated": "2025-12-11T11:57:43.258Z",
+  "fields": [
+   {
+    "id": "a77d8a68b6f513bde17af1599b245504",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "name",
+    "displayName": "Name",
+    "validations": {
+     "maxLength": 256
+    }
+   },
+   {
+    "id": "fb8fcce4501c2f3e7951ade44805aa18",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "slug",
+    "displayName": "Slug",
+    "validations": {
+     "maxLength": 256,
+     "pattern": {},
+     "messages": {
+      "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+      "maxLength": "Must be less than 256 characters"
+     }
+    }
+   }
+  ],
+  "fieldGroups": []
+ }
+}

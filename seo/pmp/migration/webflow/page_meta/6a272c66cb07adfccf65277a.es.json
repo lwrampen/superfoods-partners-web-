@@ -1,0 +1,29 @@
+{
+ "label": "m_6a272c66cb07adfccf65277a_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a272c66cb07adfccf65277a",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Matcha Leverancier Nederland",
+  "slug": "matcha-leverancier-nederland",
+  "createdOn": "2026-06-08T20:56:06.816Z",
+  "lastUpdated": "2026-06-08T21:02:53.877Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Inkopen voor je Café | Nederlandse Leverancier | Pure Matcha Partners",
+   "description": "De Nederlandse matcha leverancier voor cafés en horeca. Snel geleverd vanuit Nederland, Skal bio-gecertificeerd, vertrouwd door tientallen Nederlandse cafés."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/matcha-leverancier-nederland",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

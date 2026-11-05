@@ -1,0 +1,29 @@
+{
+ "label": "m_6991ff8c153af5609e330dad_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6991ff8c153af5609e330dad",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Bulk Matcha Supplier USA",
+  "slug": "bulk-matcha-supplier-usa",
+  "createdOn": "2026-02-15T17:17:00.413Z",
+  "lastUpdated": "2026-11-05T05:56:46.519Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Supplier USA | Bulk Matcha from U.S. Stock in 2–4 Days",
+   "description": "Wholesale matcha powder supplier with U.S. stock in Salt Lake City and an office in Los Angeles. Delivery in 2–4 days nationwide. COA, USDA Organic and JAS."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/bulk-matcha-supplier-usa",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "label": "m_67ff9e333b0c6a5a7ab81f3d_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "67ff9e333b0c6a5a7ab81f3d",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9e891209fc66769ce982",
+  "title": "All products",
+  "slug": "all-products",
+  "createdOn": "2025-04-16T12:10:27.669Z",
+  "lastUpdated": "2026-06-22T07:28:55.064Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Premium Matcha & Spezial-Teepulver | B2B Großhandel | Pure Matcha Partners",
+   "description": "Vollsortiment an Premium-Matcha-Güteklassen, Hojicha & Spezial-Teepulver. Zeremonial, Premium, Kulinarisch & mehr im B2B-Großhandel."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/collections/all-products",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

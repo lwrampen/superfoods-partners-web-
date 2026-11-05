@@ -1,0 +1,28 @@
+{
+ "label": "m_6798bd1e4b234bad93cdaae1_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdaae1",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Home",
+  "createdOn": "2024-11-20T03:40:54.564Z",
+  "lastUpdated": "2026-11-05T05:57:42.287Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Großhändler – Premium B2B Matcha Großhandel | Pure Matcha Partners",
+   "description": "Zertifizierter B2B-Matcha-Lieferant für Cafés, Restaurants und Distributoren. Aus Japan und China, Großhandel ab 5 kg. EU-Bio-zertifiziert und laborgeprüft."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/67aa593c7385d8bce42abc17_pure%20matcha%20presentation.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

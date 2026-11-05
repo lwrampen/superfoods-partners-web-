@@ -1,0 +1,149 @@
+{
+ "pageId": "67ffaaf430ca209e60d9dea7",
+ "locale": "en",
+ "lastUpdated": "2026-06-11T09:52:17.299Z",
+ "total": 15,
+ "nodeCount": 15,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48ae2",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">What is Hojicha? — Roasted Green Tea Wholesale</h2>",
+    "text": "What is Hojicha? — Roasted Green Tea Wholesale"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48aea",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48aec",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48aee",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48af0\">0</span> of <span data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48af3\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b71",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b72\">Hojicha</span><br data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b74\">Hojicha is a Japanese roasted green tea with a warm, nutty flavour and naturally low caffeine. Available as wholesale powder — ideal for hojicha lattes, iced teas, desserts and baked goods. A modern café favourite.<br data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b76\"></p>",
+    "text": "Hojicha\nHojicha is a Japanese roasted green tea with a warm, nutty flavour and naturally low caffeine. Available as wholesale powder — ideal for hojicha lattes, iced teas, desserts and baked goods. A modern café favourite.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b88",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e425a768e80c125f14"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b8a",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha Organic Japan</div>",
+    "text": "Hojicha Organic Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b8c",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-H-H-1KG-JP-O</div>",
+    "text": "PMP-H-H-1KG-JP-O"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "a392704d-e68a-1fd1-fc96-096b28ff1adf",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e425a768e80c125f14"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a392704d-e68a-1fd1-fc96-096b28ff1ae1",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha Conventional Japan</div>",
+    "text": "Hojicha Conventional Japan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a392704d-e68a-1fd1-fc96-096b28ff1ae3",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-H-H-1KG-JP</div>",
+    "text": "PMP-H-H-1KG-JP"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b90",
+   "text": {
+    "html": "<div class=\"heading-xsmall-2\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f222c7a5-bca8-cf9a-dd64-7f9de8d48b92",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b94\"><strong data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b95\"><br data-w-id=\"f222c7a5-bca8-cf9a-dd64-7f9de8d48b96\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 15
+  }
+ ]
+}

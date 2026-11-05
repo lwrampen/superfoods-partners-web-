@@ -1,0 +1,203 @@
+{
+ "pageId": "6815d29a6e238ea1580ca68f",
+ "locale": "en",
+ "lastUpdated": "2026-06-08T19:47:33.293Z",
+ "total": 21,
+ "nodeCount": 21,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "9f864d8f-aba9-88fc-6eef-49ce079cdb91",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1db7",
+   "text": {
+    "html": "<h2 class=\"heading-large-products-copy\">Accessoires</h2>",
+    "text": "Accessoires"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e7c",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "image",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e7e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6244257bf98bf01bd1b25feb"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-remove"
+   }
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e80",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Showing <span data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e82\">0</span> of <span data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1e85\">100</span></div>",
+    "text": "Showing 0 of 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d2465674-2090-75a1-5764-9a64bba68eb0",
+   "text": {
+    "html": "<p class=\"text-size-medium-2-copy\"><span class=\"text-span-13\" data-w-id=\"d2465674-2090-75a1-5764-9a64bba68eb1\">Whisk &amp; Starter Set<br data-w-id=\"10e393f6-6b9d-2f9c-0cf1-a86b382c7456\"></span>All the needed accessoires to make the best matcha's, always.<br data-w-id=\"d2465674-2090-75a1-5764-9a64bba68eb5\"></p>",
+    "text": "Whisk & Starter Set\nAll the needed accessoires to make the best matcha's, always.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "52990fd2-518b-06ed-3d77-593d5877f8c0",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "68580d6c25a768e80c1b5235"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "52990fd2-518b-06ed-3d77-593d5877f8c2",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Whisk</div>",
+    "text": "Whisk"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "52990fd2-518b-06ed-3d77-593d5877f8c4",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-W-B-CN</div>",
+    "text": "PMP-W-B-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "e7317b84-8298-b320-2c0d-1d6fde931cdd",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6978b3abbf927d9339cdf342"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e7317b84-8298-b320-2c0d-1d6fde931cdf",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Plastic Whisk</div>",
+    "text": "Plastic Whisk"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e7317b84-8298-b320-2c0d-1d6fde931ce1",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-W-P-CN</div>",
+    "text": "PMP-W-P-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "f77285ca-ee97-3912-02f3-155d8e1e5180",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "68580d9c9d508827021f8aa9"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f77285ca-ee97-3912-02f3-155d8e1e5182",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Scoop 2 grams</div>",
+    "text": "Scoop 2 grams"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f77285ca-ee97-3912-02f3-155d8e1e5184",
+   "text": {
+    "html": "<div class=\"text-size-small\">ASA-S-P-CN</div>",
+    "text": "ASA-S-P-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "bd07a405-0157-1d58-721e-4df74d811df9",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685800098a53fe7148eed2f1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bd07a405-0157-1d58-721e-4df74d811dfb",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Bowl</div>",
+    "text": "Bowl"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bd07a405-0157-1d58-721e-4df74d811dfd",
+   "text": {
+    "html": "<div class=\"text-size-small\">ASA-B-C-CN</div>",
+    "text": "ASA-B-C-CN"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f8e",
+   "text": {
+    "html": "<div class=\"heading-xsmall-2\">No results found.</div>",
+    "text": "No results found."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f90",
+   "text": {
+    "html": "<div>There are no results with this criteria. Try changing your search.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f92\"><strong data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f93\"><br data-w-id=\"a53f6113-ee4a-9d65-0bb4-6f0fbe8b1f94\"></strong></a></div>",
+    "text": "There are no results with this criteria. Try changing your search.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "322727dd-5b75-d7fa-b34a-4a0dc4be118e",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 21
+  }
+ ]
+}

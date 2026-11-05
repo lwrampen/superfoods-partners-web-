@@ -1,0 +1,671 @@
+{
+ "pageId": "6798bd1e4b234bad93cdaae1",
+ "locale": "de",
+ "lastUpdated": "2026-10-18T18:42:26.692Z",
+ "total": 73,
+ "nodeCount": 73,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "a4918bd5-2fa6-f7cd-7b4f-b061edcabc71",
+   "text": {
+    "html": "<h1 class=\"display-1\"><strong data-w-id=\"bc1fb001-2b51-b739-bc9c-dd928c555931\">Zertifizierter </strong><span data-w-id=\"79209b50-166b-ad83-8ebc-234df862fce3\"><strong data-w-id=\"79209b50-166b-ad83-8ebc-234df862fce4\">Matcha-Großhändler</strong></span><strong data-w-id=\"79209b50-166b-ad83-8ebc-234df862fce5\"> für B2B &amp; Gastronomie</strong><br data-w-id=\"db7af180-c229-a222-aaf5-b7d5a13e786c\"></h1>",
+    "text": "Zertifizierter Matcha-Großhändler für B2B & Gastronomie\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8382f47c-aace-916f-c0eb-f3dbbd3d876a",
+   "text": {
+    "html": "<p class=\"text-xl\">Pure Matcha Partners ist Ihr spezialisierter <strong data-w-id=\"17f2c8cb-bd64-1fd7-b549-08ec3495d927\">Matcha-Großhändler für B2B-Kunden</strong> weltweit. <br data-w-id=\"859cfec2-ab43-613b-a375-e0c04bc2b960\">Wir beliefern Cafés, Lebensmittelhersteller, Supplement-Marken und Distributoren mit zertifiziertem Matcha aus Japan und China – ab 5 kg bis 1.000 kg+ monatlich, laborgeprüft und mit vollständiger Exportdokumentation.</p>",
+    "text": "Pure Matcha Partners ist Ihr spezialisierter Matcha-Großhändler für B2B-Kunden weltweit. \nWir beliefern Cafés, Lebensmittelhersteller, Supplement-Marken und Distributoren mit zertifiziertem Matcha aus Japan und China – ab 5 kg bis 1.000 kg+ monatlich, laborgeprüft und mit vollständiger Exportdokumentation."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b7521a6a-284b-92ec-db55-14dff3d95172",
+   "text": {
+    "html": "<a class=\"button-home-sample-request\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Muster anfordern</a>",
+    "text": "Muster anfordern"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3b8457e1-7e24-7fa8-4810-020e36fbcb1b",
+   "text": {
+    "html": "<a class=\"button-home-sample-request-secundary\" data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\">Preisliste anfragen</a>",
+    "text": "Preisliste anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ac1f9548-c893-0e85-ca5c-e8adfffbb7e5",
+   "text": {
+    "html": "<div class=\"text-block-139\">STOLZ AUF DIE ZUSAMMENARBEIT MIT</div>",
+    "text": "STOLZ AUF DIE ZUSAMMENARBEIT MIT"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dbbff203-6376-1415-171d-d8e3c44d3c87",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\"><strong data-w-id=\"95e173d3-ed51-08ca-baa4-6fbce72d42cf\">Warum führende Marken auf unseren Matcha-Großhandel vertrauen</strong></h2>",
+    "text": "Warum führende Marken auf unseren Matcha-Großhandel vertrauen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "55f7c947-87e2-5826-cb70-2205b06a5c1f",
+   "text": {
+    "html": "<h3 class=\"h2-2\"><strong data-w-id=\"a1df7818-dcda-f426-fba1-d658a030266e\">Breites Sortiment an Matcha-Qualitäten</strong></h3>",
+    "text": "Breites Sortiment an Matcha-Qualitäten"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "55f7c947-87e2-5826-cb70-2205b06a5c21",
+   "text": {
+    "html": "<p class=\"paragraph-4\">Von Ceremonial-Grade bis Culinary und Ingredient-Grade: Wir führen alle gängigen Matcha-Qualitäten für den gewerblichen Gebrauch. Direktimport aus zertifizierten Anbaugebieten in Japan (Uji, Kagoshima) und China – mit vollständiger Deklaration und Analysezertifikaten.</p>",
+    "text": "Von Ceremonial-Grade bis Culinary und Ingredient-Grade: Wir führen alle gängigen Matcha-Qualitäten für den gewerblichen Gebrauch. Direktimport aus zertifizierten Anbaugebieten in Japan (Uji, Kagoshima) und China – mit vollständiger Deklaration und Analysezertifikaten."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b2520f-582c-5c39-d55b-4fe994947c91",
+   "text": {
+    "html": "<h3 class=\"h2-2\"><strong data-w-id=\"2723651f-0e44-3ccd-2758-f565249a3721\">Direktpartnerschaften mit Matcha-Farmen</strong></h3>",
+    "text": "Direktpartnerschaften mit Matcha-Farmen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "23b2520f-582c-5c39-d55b-4fe994947c93",
+   "text": {
+    "html": "<p class=\"paragraph-4\">Kein Zwischenhändler. Wir arbeiten direkt mit vertrauenswürdigen Farmen in Japan und China zusammen – für stabile Qualität, gesicherte Liefermengen und vollständige Rückverfolgbarkeit in der Lieferkette.</p>",
+    "text": "Kein Zwischenhändler. Wir arbeiten direkt mit vertrauenswürdigen Farmen in Japan und China zusammen – für stabile Qualität, gesicherte Liefermengen und vollständige Rückverfolgbarkeit in der Lieferkette."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "44de3b25-fdb1-ef2b-9a7d-c25cec9ed184",
+   "text": {
+    "html": "<h3 class=\"h2-2\"><strong data-w-id=\"63890749-ae45-6ac3-24e0-ade52012c377\">Bulk-Liefermengen für jeden Bedarf</strong></h3>",
+    "text": "Bulk-Liefermengen für jeden Bedarf"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "44de3b25-fdb1-ef2b-9a7d-c25cec9ed186",
+   "text": {
+    "html": "<p class=\"paragraph-4\">Ob wachsende Kaffeebar oder internationaler Distributor – wir liefern <strong data-w-id=\"0e2dd224-988e-40e8-4207-593a03fac520\">Matcha in großen Mengen</strong> ab 5 kg bis über 1.000 kg monatlich, mit B2B-optimierter Verpackung und flexiblen Logistiklösungen.</p>",
+    "text": "Ob wachsende Kaffeebar oder internationaler Distributor – wir liefern Matcha in großen Mengen ab 5 kg bis über 1.000 kg monatlich, mit B2B-optimierter Verpackung und flexiblen Logistiklösungen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "44de3b25-fdb1-ef2b-9a7d-c25cec9ed188",
+   "text": {
+    "html": "<a class=\"button-3\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preisliste anfordern</a>",
+    "text": "Preisliste anfordern"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e192be8c-bf6c-2629-eda4-de4f5e6e6741",
+   "text": {
+    "html": "<h3 class=\"h2-2\"><strong data-w-id=\"95946535-ed54-7ced-0341-6e38e867d773\">Zertifizierte Qualität mit lückenloser Dokumentation</strong></h3>",
+    "text": "Zertifizierte Qualität mit lückenloser Dokumentation"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e192be8c-bf6c-2629-eda4-de4f5e6e6743",
+   "text": {
+    "html": "<p class=\"paragraph-4\">Jede Charge wird von unabhängigen Laboren auf Pestizide, Schwermetalle und Mikrobiologie geprüft. Analysezertifikat (COA), Ursprungszertifikat und Qualitätsdokumentation werden mit jeder Lieferung mitgeliefert – konform mit EU-Lebensmittelrecht und internationalen Exportstandards.</p>",
+    "text": "Jede Charge wird von unabhängigen Laboren auf Pestizide, Schwermetalle und Mikrobiologie geprüft. Analysezertifikat (COA), Ursprungszertifikat und Qualitätsdokumentation werden mit jeder Lieferung mitgeliefert – konform mit EU-Lebensmittelrecht und internationalen Exportstandards."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bfcfa47e-9110-9337-8ff5-c62c5c01f407",
+   "text": {
+    "html": "<h2 class=\"h2-2\"><strong data-w-id=\"6ed5e50a-e50e-fece-2abd-3d3349e68b89\">Globale Logistik</strong></h2>",
+    "text": "Globale Logistik"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "bfcfa47e-9110-9337-8ff5-c62c5c01f409",
+   "text": {
+    "html": "<p class=\"paragraph-4\">Schnelle, zuverlässige Lieferung in die EU, nach Deutschland, Österreich, in die Schweiz und weltweit – koordiniert auf Ihre Produktions- und Lagerlogistik, mit vollständiger Sendungsverfolgung und persönlichem Ansprechpartner.<br data-w-id=\"6c962461-f6c0-1ae3-26ae-c2cc91384998\"><br data-w-id=\"2e8d24ef-36fe-42b7-1bed-2b5fd94d8661\">Wir bieten eine schnelle und zuverlässige weltweite Lieferung, abgestimmt auf Ihre logistischen Anforderungen, von unseren Farmen bis zu Ihrem Lager, mit vollständiger Sendungsverfolgung und Support.<br data-w-id=\"adc43776-de26-1aa2-2317-12f4d38fdf49\"><br data-w-id=\"04106fd5-e342-e814-674f-85af309135bc\"><a data-wf-link-page-id=\"6798bd1e4b234bad93cdab07\" data-w-id=\"204e4c4f-7d93-3515-7e8f-1316a1726792\"><span class=\"text-span-34\" data-w-id=\"204e4c4f-7d93-3515-7e8f-1316a1726796\">Treffen Sie unsere Experten <strong data-w-id=\"204e4c4f-7d93-3515-7e8f-1316a1726798\">→</strong></span></a></p>",
+    "text": "Schnelle, zuverlässige Lieferung in die EU, nach Deutschland, Österreich, in die Schweiz und weltweit – koordiniert auf Ihre Produktions- und Lagerlogistik, mit vollständiger Sendungsverfolgung und persönlichem Ansprechpartner.\n\nWir bieten eine schnelle und zuverlässige weltweite Lieferung, abgestimmt auf Ihre logistischen Anforderungen, von unseren Farmen bis zu Ihrem Lager, mit vollständiger Sendungsverfolgung und Support.\n\nTreffen Sie unsere Experten →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ec60f2fa-c93f-9ec4-60b6-b08bead0961a",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\"><strong data-w-id=\"7c33613f-f824-58e6-4b30-7cc6190ab2b8\">Alle Matcha-Qualitäten im Großhandel – für jede Anwendung</strong></h2>",
+    "text": "Alle Matcha-Qualitäten im Großhandel – für jede Anwendung"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0aa389ae-63a8-26de-11ec-92352979d178",
+   "text": {
+    "html": "<div class=\"text-block-138\">Von Premium-Ceremonial für Tee-Connaisseure bis zu stabilem Culinary-Grade für Bäckereien und Softdrinks: Unser <strong data-w-id=\"7688e776-4d67-dc58-2b48-66c669f07a17\">Matcha-Großhandelssortiment</strong> deckt alle gewerblichen Anwendungen ab. Alle Qualitäten sind in Bulk-Formaten erhältlich und werden weltweit versendet.</div>",
+    "text": "Von Premium-Ceremonial für Tee-Connaisseure bis zu stabilem Culinary-Grade für Bäckereien und Softdrinks: Unser Matcha-Großhandelssortiment deckt alle gewerblichen Anwendungen ab. Alle Qualitäten sind in Bulk-Formaten erhältlich und werden weltweit versendet."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "faca4d9c-3c87-5402-60fe-b68c3b850338",
+   "text": {
+    "html": "<p class=\"paragraph-3\"><strong data-w-id=\"8a237b4a-c6d5-0d00-4cce-e3866f9fc0e9\">Perfekt für</strong>: Premium-Teeservice, Retail, Wellness-Rituale<br data-w-id=\"f8d15d77-487c-4508-2fdd-cf7ac4ea34c2\"><strong data-w-id=\"d6e25b2d-5ad7-4494-4f48-4ce020bb2f33\">Profil</strong>: Leuchtend grün, natürlich süß, feines Umami, aus Erstpflück-Blättern (Ichibancha)<br data-w-id=\"e6720581-bd40-668c-4be9-67da365f6cf6\"><strong data-w-id=\"6f220252-7c12-8f39-27b4-c56623eb6b08\">Warum gewerblich relevant</strong>: Höchste Qualitätsstufe für Kunden mit Premium-Positionierung und Endkunden, die echte Matcha-Qualität erwarten.</p>",
+    "text": "Perfekt für: Premium-Teeservice, Retail, Wellness-Rituale\nProfil: Leuchtend grün, natürlich süß, feines Umami, aus Erstpflück-Blättern (Ichibancha)\nWarum gewerblich relevant: Höchste Qualitätsstufe für Kunden mit Premium-Positionierung und Endkunden, die echte Matcha-Qualität erwarten."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "faca4d9c-3c87-5402-60fe-b68c3b85033a",
+   "text": {
+    "html": "<a class=\"button\" data-wf-link-page-id=\"67ffa2b15258e1b4236839cb\">Premium-Tee servieren</a>",
+    "text": "Premium-Tee servieren"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "faca4d9c-3c87-5402-60fe-b68c3b850344",
+   "text": {
+    "html": "<p class=\"paragraph\"><strong data-w-id=\"0be82da2-5393-914b-46a1-fd03b5a81415\">Perfekt für: </strong>Cafés, Kaffeebars, Getränke mit Milch oder pflanzlichen Alternativen<br data-w-id=\"ccc09fa2-b2bf-0680-e0b6-86b563c27845\">‍<strong data-w-id=\"ca7f8d29-c05f-d976-792d-b2a946b5374c\">Profil: </strong>Ausgewogener Geschmack, cremige Textur, hohe Mischbarkeit, stabile Farbe<br data-w-id=\"f5a0c914-f9da-3b7e-0b11-7c7501cd1023\">‍<strong data-w-id=\"47b5dcb4-97c5-f0e3-251e-b2db90f115b4\">Warum gewerblich relevant: </strong>Baristatauglicher Matcha für konsistente Qualität im täglichen Hochvolumenbetrieb – optimales Kosten-Leistungs-Verhältnis.</p>",
+    "text": "Perfekt für: Cafés, Kaffeebars, Getränke mit Milch oder pflanzlichen Alternativen\n‍Profil: Ausgewogener Geschmack, cremige Textur, hohe Mischbarkeit, stabile Farbe\n‍Warum gewerblich relevant: Baristatauglicher Matcha für konsistente Qualität im täglichen Hochvolumenbetrieb – optimales Kosten-Leistungs-Verhältnis."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "faca4d9c-3c87-5402-60fe-b68c3b850346",
+   "text": {
+    "html": "<a class=\"button-latte\" data-wf-link-page-id=\"67ffaa8d537bb69e01067ea2\">Für Getränke einsetzen</a>",
+    "text": "Für Getränke einsetzen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "faca4d9c-3c87-5402-60fe-b68c3b850350",
+   "text": {
+    "html": "<p class=\"paragraph-2-culinar-copy\"><strong data-w-id=\"d0eab5b8-f8f4-820a-b497-c3fb05914241\">Perfekt für:</strong> Lebensmittelproduktion, Bäckereien, Smoothies, Desserts, Saucen<br data-w-id=\"f893974e-6e10-9378-58dc-15684c947b79\"><strong data-w-id=\"834dbb7a-e822-f508-16a4-bc4e902afcc8\">Profil</strong>: Kräftiger, erdiger Geschmack, intensive Farbe, hitzestabil bis 180 °C<br data-w-id=\"6ef3a836-fa5c-e406-60e4-f152997e3519\"><strong data-w-id=\"01688c0d-dac3-45e8-7c7b-4bbc351a5748\">Warum gewerblich relevant:</strong> Maximale Matcha-Intensität bei kosteneffizienter Kalkulation – der Standard für Hersteller und Food-Brands.</p>",
+    "text": "Perfekt für: Lebensmittelproduktion, Bäckereien, Smoothies, Desserts, Saucen\nProfil: Kräftiger, erdiger Geschmack, intensive Farbe, hitzestabil bis 180 °C\nWarum gewerblich relevant: Maximale Matcha-Intensität bei kosteneffizienter Kalkulation – der Standard für Hersteller und Food-Brands."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7c7a2425-9b67-2cce-1b7a-0630fb6a4ca2",
+   "text": {
+    "html": "<h3 class=\"heading-3\">Hojicha </h3>",
+    "text": "Hojicha "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7c7a2425-9b67-2cce-1b7a-0630fb6a4ca4",
+   "text": {
+    "html": "<p class=\"paragraph-2\"><strong data-w-id=\"69d85a37-0f5c-9318-ba8a-ed84082ace26\">Perfekt für: </strong>Spezialgetränke, Dessertmenüs, koffeinreduzierte Tee-Produkte<br data-w-id=\"3bc59fa7-9973-b0cd-3c18-491075840dcc\">‍<strong data-w-id=\"40bdfbcd-bdd6-63d8-612d-0445de1cafb4\">Profil: </strong>Gerösteter Grüntee, nussig-karamellig, warme Bernsteinfarbe, sehr wenig Koffein<br data-w-id=\"a367e2d0-2cc4-f7b5-1130-fc10418ddf6d\"><strong data-w-id=\"e9fc0180-a8d3-db76-a8d7-d06e3a5b914b\">Warum gewerblich relevant:</strong><strong data-w-id=\"6e74cc68-ec8d-755d-ea5d-18f4ced59a66\"> </strong>Differenziert Ihr Sortiment, spricht koffeinempfindliche Kunden an – ideale Ergänzung zum klassischen Matcha-Angebot.</p>",
+    "text": "Perfekt für: Spezialgetränke, Dessertmenüs, koffeinreduzierte Tee-Produkte\n‍Profil: Gerösteter Grüntee, nussig-karamellig, warme Bernsteinfarbe, sehr wenig Koffein\nWarum gewerblich relevant: Differenziert Ihr Sortiment, spricht koffeinempfindliche Kunden an – ideale Ergänzung zum klassischen Matcha-Angebot."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7c7a2425-9b67-2cce-1b7a-0630fb6a4ca6",
+   "text": {
+    "html": "<a class=\"button-hojicha\" data-wf-link-page-id=\"67ffaaf430ca209e60d9dea7\">Hojicha entdecken</a>",
+    "text": "Hojicha entdecken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "22c5b6f4-0587-8f9e-fce6-93a90444670f",
+   "text": {
+    "html": "<p class=\"paragraph-2-copy-spec\"><strong data-w-id=\"22c5b6f4-0587-8f9e-fce6-93a904446710\">Perfekt für: </strong>Saisonale Menüs, Spezialgetränke, Produktinnovation<strong data-w-id=\"e61efe3e-db47-d7b3-2cbd-41a61676c253\"><br data-w-id=\"71608471-776a-fbe2-4a5d-43eac3a017fa\">Profil: </strong>Einzigartige Geschmacksprofile jenseits des Standard-Matcha<strong data-w-id=\"7b36ff2e-ccc9-4f57-cbd7-f044fc28a466\"><br data-w-id=\"91a5d5fb-422c-6237-dfb2-bd3ae16493b4\">Warum gewerblich relevant: </strong>Exklusive Produkte, die Ihr Angebot differenzieren und Neugier beim Endkunden wecken – ideal für Premiumpositionierung.</p>",
+    "text": "Perfekt für: Saisonale Menüs, Spezialgetränke, Produktinnovation\nProfil: Einzigartige Geschmacksprofile jenseits des Standard-Matcha\nWarum gewerblich relevant: Exklusive Produkte, die Ihr Angebot differenzieren und Neugier beim Endkunden wecken – ideal für Premiumpositionierung."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "22c5b6f4-0587-8f9e-fce6-93a90444671b",
+   "text": {
+    "html": "<a class=\"button-specials-copy\" data-wf-link-page-id=\"694bfcad90f234db9fb45107\">Specials entdecken</a>",
+    "text": "Specials entdecken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c535684",
+   "text": {
+    "html": "<div class=\"text-style-allcaps\">Matcha im Großhandel – für jede Branche</div>",
+    "text": "Matcha im Großhandel – für jede Branche"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c535687",
+   "text": {
+    "html": "<h2 class=\"heading-15\"><strong data-w-id=\"46351517-366c-d7df-5ad2-2c507d26ac7f\">Unsere B2B-Kunden im Matcha-Großhandel</strong></h2>",
+    "text": "Unsere B2B-Kunden im Matcha-Großhandel"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c535689",
+   "text": {
+    "html": "<p class=\"text-size-2\">Van kleinen Boutique-Cafés bis hin zu globalen Herstellern – unser Matcha unterstützt Unternehmen jeder Größe. Wir sind darauf spezialisiert, Partner zu beliefern, die konsistenten, zertifizierten Matcha in großem Maßstab benötigen.<a href=\"#\" data-w-id=\"0a216802-eb9e-6f88-2ab1-552794cf04f5\"> Buying in the U.S.? See our wholesale matcha supplier for the USA, with U.S. stock and 2–4 day delivery →</a></p>",
+    "text": "Van kleinen Boutique-Cafés bis hin zu globalen Herstellern – unser Matcha unterstützt Unternehmen jeder Größe. Wir sind darauf spezialisiert, Partner zu beliefern, die konsistenten, zertifizierten Matcha in großem Maßstab benötigen. Buying in the U.S.? See our wholesale matcha supplier for the USA, with U.S. stock and 2–4 day delivery →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c535690",
+   "text": {
+    "html": "<div class=\"text-size-large text-weight-semibold\">Food &amp; Beverage Marken</div>",
+    "text": "Food & Beverage Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c535692",
+   "text": {
+    "html": "<div class=\"text-block\">Matcha als Lebensmittelzutat für RTD-Getränke, Snacks und Functional Foods – konsistent, zertifiziert, skalierbar. </div>",
+    "text": "Matcha als Lebensmittelzutat für RTD-Getränke, Snacks und Functional Foods – konsistent, zertifiziert, skalierbar. "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c535695",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><em data-w-id=\"1813072a-4061-11b0-d94b-d646120ee521\">Mehr erfahren</em> →</div>",
+    "text": "Mehr erfahren →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c53569d",
+   "text": {
+    "html": "<div class=\"text-size-large text-weight-semibold\">Private Label &amp; Eigenmarke</div>",
+    "text": "Private Label & Eigenmarke"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c53569f",
+   "text": {
+    "html": "<div class=\"text-block-2\">Bauen Sie Ihre Matcha-Marke mit zertifiziertem Bulk-Matcha und Co-Packer-fertigen Formaten auf – Großhandelsbestellungen ab 5 kg.</div>",
+    "text": "Bauen Sie Ihre Matcha-Marke mit zertifiziertem Bulk-Matcha und Co-Packer-fertigen Formaten auf – Großhandelsbestellungen ab 5 kg."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "3fffbca6-3089-374c-39de-25d51c5356a2",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><em data-w-id=\"59a07797-bd58-9eb4-0795-f17e86a09b59\">Mehr erfahren</em> →</div>",
+    "text": "Mehr erfahren →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8410c66d-8416-21b9-bcd0-47b1dd96b345",
+   "text": {
+    "html": "<div class=\"text-size-large text-weight-semibold\">Distributoren &amp; Foodservice-Händler</div>",
+    "text": "Distributoren & Foodservice-Händler"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8410c66d-8416-21b9-bcd0-47b1dd96b347",
+   "text": {
+    "html": "<div class=\"text-block-2\">Zuverlässige Großhandelsmengen zertifizierten Matchas für globalen Handel, Foodservice-Distribution und Importkanäle.</div>",
+    "text": "Zuverlässige Großhandelsmengen zertifizierten Matchas für globalen Handel, Foodservice-Distribution und Importkanäle."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8410c66d-8416-21b9-bcd0-47b1dd96b34a",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><em data-w-id=\"121099bd-8d22-c2f4-7326-148992678225\">Mehr erfahren</em> →</div>",
+    "text": "Mehr erfahren →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f69385f1-3e29-30ea-c21d-0b5c2c05b57a",
+   "text": {
+    "html": "<div class=\"text-size-large text-weight-semibold\">Produktentwickler &amp; Co-Packer</div>",
+    "text": "Produktentwickler & Co-Packer"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f69385f1-3e29-30ea-c21d-0b5c2c05b57c",
+   "text": {
+    "html": "<div class=\"text-block-2\">F&amp;E-fähiger Matcha für Formulierung, Lebensmittellabore und Auftragshersteller.</div>",
+    "text": "F&E-fähiger Matcha für Formulierung, Lebensmittellabore und Auftragshersteller."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f69385f1-3e29-30ea-c21d-0b5c2c05b57f",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><em data-w-id=\"574b028a-3ae7-b1b0-5c8b-9112e74d3abd\">Mehr erfahren</em> →</div>",
+    "text": "Mehr erfahren →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "77e29f4a-704b-39c5-1f08-e7d750a06301",
+   "text": {
+    "html": "<div class=\"text-size-large text-weight-semibold\">Cafés &amp; Gastronomie</div>",
+    "text": "Cafés & Gastronomie"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "77e29f4a-704b-39c5-1f08-e7d750a06303",
+   "text": {
+    "html": "<div class=\"text-block-2\">Baristatauglicher Matcha in Großmengen für Kaffeebars, Restaurants und Gastronomiebetriebe</div>",
+    "text": "Baristatauglicher Matcha in Großmengen für Kaffeebars, Restaurants und Gastronomiebetriebe"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "77e29f4a-704b-39c5-1f08-e7d750a06306",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><em data-w-id=\"159dbc9b-d83c-82ed-e46b-e38c421fdc10\">Mehr erfahren</em> →</div>",
+    "text": "Mehr erfahren →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "27c11e8a-cca0-7cff-6c83-0cf36cbcf427",
+   "text": {
+    "html": "<div class=\"text-size-large text-weight-semibold\">Supplement &amp; Nutraceutical Marken</div>",
+    "text": "Supplement & Nutraceutical Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "27c11e8a-cca0-7cff-6c83-0cf36cbcf429",
+   "text": {
+    "html": "<div class=\"text-block-2\">Ingredient-Grade-Matcha für Kapseln, Greens-Blends und Nahrungsergänzungsmittel</div>",
+    "text": "Ingredient-Grade-Matcha für Kapseln, Greens-Blends und Nahrungsergänzungsmittel"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "27c11e8a-cca0-7cff-6c83-0cf36cbcf42c",
+   "text": {
+    "html": "<div class=\"text-size-small text-weight-semibold\"><em data-w-id=\"add99955-74e7-19ba-e778-190c9b8bdc57\">Mehr erfahren</em> →</div>",
+    "text": "Mehr erfahren →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b3d929ad-b88d-ef62-704d-08adec1ccafb",
+   "text": {
+    "html": "<p class=\"text-size-2-copy\">Von der F&amp;E-Musterbestellung bis zum laufenden Jahresvertrag – sprechen Sie mit unserem Team.</p>",
+    "text": "Von der F&E-Musterbestellung bis zum laufenden Jahresvertrag – sprechen Sie mit unserem Team."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "05ba4de8-b069-2558-08ef-ce3afb5b3785",
+   "text": {
+    "html": "<a class=\"button-10\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Mehr erfarhen</a>",
+    "text": "Mehr erfarhen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ed5a79c9-8691-260e-7f25-35b3e4c2c9ad",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\"><strong data-w-id=\"af3fcaf2-7d30-5409-6ef8-d4aeb3e0cf1c\">Jetzt Matcha-Großhandel anfragen</strong></h2>",
+    "text": "Jetzt Matcha-Großhandel anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "17eab09c-3584-01d7-33e9-e96c6224a289",
+   "text": {
+    "html": "<div class=\"text-block-140\">Ob Sie erstmals Matcha in Ihr Sortiment aufnehmen oder Ihre Großhandelslieferung skalieren möchten – unser Team berät Sie zu Qualitätsstufen, Mengen und Preisen.</div>",
+    "text": "Ob Sie erstmals Matcha in Ihr Sortiment aufnehmen oder Ihre Großhandelslieferung skalieren möchten – unser Team berät Sie zu Qualitätsstufen, Mengen und Preisen."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b9770090-9613-c333-7dcd-59bb866bd90d",
+   "text": {
+    "html": "<div class=\"text-block-6\"><strong data-w-id=\"d7c9a13e-0ec2-f704-0d14-dd7885c9d5b8\">Preisliste anfordern →</strong></div>",
+    "text": "Preisliste anfordern →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f5641bab-5152-d58c-84b9-28b0ed178b9b",
+   "text": {
+    "html": "<div class=\"text-block-6-copy\">Vollständige Übersicht aller Matcha-Qualitäten, Verpackungsformate und Großhandelspreise – auf Anfrage per E-Mail oder WhatsApp.</div>",
+    "text": "Vollständige Übersicht aller Matcha-Qualitäten, Verpackungsformate und Großhandelspreise – auf Anfrage per E-Mail oder WhatsApp."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "6cbac547-e31b-69cf-e6a7-1ed62a0a4479",
+   "text": {
+    "html": "<div class=\"text-block-6\"><strong data-w-id=\"6a1a15a6-52d3-4be4-d46e-e08ef4faeee5\">Musterpaket bestellen →</strong></div>",
+    "text": "Musterpaket bestellen →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b03d72f0-e1bd-5dbb-172b-67a2f04ba39b",
+   "text": {
+    "html": "<div class=\"text-block-6-copy\">Teilen Sie uns Ihre Anwendung mit – wir stellen ein passendes Matcha-Musterpaket zusammen und versenden.</div>",
+    "text": "Teilen Sie uns Ihre Anwendung mit – wir stellen ein passendes Matcha-Musterpaket zusammen und versenden."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dbc4f097-98f9-724c-fe87-787e61a2f807",
+   "text": {
+    "html": "<h2 class=\"heading-5-home\"><strong data-w-id=\"5469966e-4e38-9b93-2a22-1b3c8870617c\">Pure Matcha Partners – Ihr globaler </strong><span data-w-id=\"a08d76d5-8834-2b71-9fd6-4a7972569ca9\"><strong data-w-id=\"a08d76d5-8834-2b71-9fd6-4a7972569caa\">Matcha-Großhändler</strong></span></h2>",
+    "text": "Pure Matcha Partners – Ihr globaler Matcha-Großhändler"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8e02f744-df90-6fa6-9200-c1674822b034",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab07\">Mehr über uns erfahren</a>",
+    "text": "Mehr über uns erfahren"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a7f8f62-f830-d7dd-d5dd-92e5541b692a",
+   "text": {
+    "html": "<h2 class=\"heading-6\"><strong data-w-id=\"acee814b-36e6-e1cc-861c-a667d86df3a5\">Das sagen unsere Großhandelskunden</strong></h2>",
+    "text": "Das sagen unsere Großhandelskunden"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a7f8f62-f830-d7dd-d5dd-92e5541b692c",
+   "text": {
+    "html": "<p class=\"paragraph-5\">Unsere Partner reichen von kleinen Kaffeebars bis zu globalen Lebensmittelmarken. Sie arbeiten mit uns, weil unsere Matcha-Qualität konsistent ist, die Dokumentation stimmt – und wir mitdenken, nicht nur liefern.</p>",
+    "text": "Unsere Partner reichen von kleinen Kaffeebars bis zu globalen Lebensmittelmarken. Sie arbeiten mit uns, weil unsere Matcha-Qualität konsistent ist, die Dokumentation stimmt – und wir mitdenken, nicht nur liefern."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "129054d6-03c4-e197-6c9e-e575d6ce9233",
+   "text": {
+    "html": "<a class=\"button-2-ring\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Musterpaket bestellen</a>",
+    "text": "Musterpaket bestellen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7e4f0353-3ce6-b7e1-e9bb-5ebc7a983345",
+   "text": {
+    "html": "<a class=\"button-2\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Contact</a>",
+    "text": "Contact"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "194b0a02-3264-6b91-fc1a-c053baaf0069",
+   "text": {
+    "html": "<h2 class=\"heading-8\"><strong data-w-id=\"8756292c-b420-98d7-b65a-b822e18f0cd2\">Ihr zertifizierter Matcha-Großhändler für den Weltmarkt</strong></h2>",
+    "text": "Ihr zertifizierter Matcha-Großhändler für den Weltmarkt"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "21d1e649-b7ae-5247-abf2-c25b4ad60957",
+   "text": {
+    "html": "<div class=\"text-block-152\">Pure Matcha Partners liefert zertifizierten, rückverfolgbaren Matcha in Großmengen an Unternehmen in Europa, Nordamerika, dem Nahen Osten und Asien. Ob Getränkehersteller, Lebensmittelmarke oder Supplement-Produzent – unser Matcha wird für gleichbleibende Qualität, klares Geschmacksprofil und Compliance mit internationalen Lebensmittelstandards geschätzt. </div>",
+    "text": "Pure Matcha Partners liefert zertifizierten, rückverfolgbaren Matcha in Großmengen an Unternehmen in Europa, Nordamerika, dem Nahen Osten und Asien. Ob Getränkehersteller, Lebensmittelmarke oder Supplement-Produzent – unser Matcha wird für gleichbleibende Qualität, klares Geschmacksprofil und Compliance mit internationalen Lebensmittelstandards geschätzt. "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "8451b992-042b-1936-7da4-046b0abfa168",
+   "text": {
+    "html": "<a class=\"button-2-copy\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Jetzt anfragen</a>",
+    "text": "Jetzt anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5c92ec2f-7903-e4ce-4ceb-5e9f3c881d13",
+   "text": {
+    "html": "<h2 class=\"heading-8\"><strong data-w-id=\"c5b86ca8-3db4-dd19-10eb-ac59da8291d1\">Unser Sortiment</strong></h2>",
+    "text": "Unser Sortiment"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5c92ec2f-7903-e4ce-4ceb-5e9f3c881d15",
+   "text": {
+    "html": "<div class=\"text-block-152\">Unser Sortiment umfasst Ceremonial-, Premium- und Ingredient-Grade-Matcha aus ausgewählten Regionen in <strong data-w-id=\"ce58f002-24fc-7363-40ca-8b16241d6472\">Japan und China</strong>. <br data-w-id=\"f01f9084-295f-ff7d-c64f-3a090144be7e\"><br data-w-id=\"ff30a784-21be-d476-5117-25199e366785\">Für Clean-Label-Produkte, RTD-Getränke oder Wellness-Pulver – Pure Matcha Partners ist Ihr Partner für skalierbare, verlässliche Matcha-Versorgung.</div>",
+    "text": "Unser Sortiment umfasst Ceremonial-, Premium- und Ingredient-Grade-Matcha aus ausgewählten Regionen in Japan und China. \n\nFür Clean-Label-Produkte, RTD-Getränke oder Wellness-Pulver – Pure Matcha Partners ist Ihr Partner für skalierbare, verlässliche Matcha-Versorgung."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aa2c3ea9-083e-bc4d-d62d-04ba7489360a",
+   "text": {
+    "html": "<a class=\"button-3-version2\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Mit dem Vertrieb sprechen</a>",
+    "text": "Mit dem Vertrieb sprechen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "2a8f291f-64be-2094-92fa-4091d4a8453c",
+   "text": {
+    "html": "<h3 class=\"heading-9\"><strong data-w-id=\"ed9a36c8-e62c-a8dc-28e5-78d37d8a9ed8\">Mehr über Matcha im B2B-Großhandel</strong></h3>",
+    "text": "Mehr über Matcha im B2B-Großhandel"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "80378778-c8ed-0893-61e5-129e732a93ef",
+   "text": {
+    "html": "<div class=\"rich-text-block-2\"><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2d1\"><a data-wf-link-page-id=\"698ec0496e41b2e15740e98f\" data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2d2\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2d3\">Formulierungsfertiger Matcha:</strong> Wie unser Matcha für Clean-Label-Formulierungen und funktionale Produkte optimiert ist.</a></li><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2d7\"><a data-wf-link-page-id=\"67ffaac17dc60f8b48708801\" data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2d8\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2d9\">Ingredient-Grade-Matcha:</strong> Matcha für F&amp;E-Teams, Co-Packer und skalierbare Produktionsumgebungen.</a></li><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2dd\"><a data-wf-link-page-id=\"696fe12e366c9eba99edbff9\" data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2de\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2df\">Private Label &amp; Großlieferung:</strong> Starten Sie Ihre eigene Produktlinie oder beziehen Sie Matcha in Bulkmengen mit gleichbleibender Qualität.</a></li><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2e3\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2e4\">Zertifizierungen &amp; Qualitätssicherung:</strong> Wie wir globale Sicherheits- und Qualitätsstandards erfüllen.</li><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2e8\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2e9\">Laborprüfung &amp; Compliance:</strong> Drittanbieter-Labortests, Analysezertifikate und transparente Dokumentation.</li><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2ed\"><a data-wf-link-page-id=\"6800f46a3d42433d270fd462\" data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2ee\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2ef\">Matcha für Food &amp; Beverage Marken:</strong> Lösungen für RTD-Getränke, Snacks, Riegel und mehr.</a></li><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2f3\"><a data-wf-link-page-id=\"698ec0496e41b2e15740e98f\" data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2f4\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2f5\">Matcha für Supplement-Hersteller:</strong> Ingredient-Grade-Matcha für Pulver, Kapseln und Wellness-Blends.</a></li><li data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2f9\"><a data-wf-link-page-id=\"698d9bd9fae33977cec6c44d\" data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2fa\"><strong data-w-id=\"a0c55166-d8e4-963b-db36-b2af204dc2fc\">Matcha für Cafés &amp; Gastronomie:</strong> Premium-Matcha für den professionellen Barbetrieb.</a></li></div>"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "6e246fd3-c962-c05f-02cc-e0dddc9335d5",
+   "image": {
+    "alt": "__wf_reserved_inherit"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 73
+  }
+ ]
+}

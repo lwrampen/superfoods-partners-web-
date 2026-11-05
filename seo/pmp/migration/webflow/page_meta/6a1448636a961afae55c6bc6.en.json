@@ -1,0 +1,30 @@
+{
+ "label": "m_6a1448636a961afae55c6bc6_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a1448636a961afae55c6bc6",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Oolong Tea Powder",
+  "slug": "oolong-tea-powder",
+  "createdOn": "2026-05-25T13:02:27.154Z",
+  "lastUpdated": "2026-08-02T15:49:17.980Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Oolong Tea Powder Wholesale | Roasted Ground Tea | Pure Matcha Partners",
+   "description": "Premium roasted oolong tea powder for cafés, beverage brands and B2B buyers. Semi-oxidized, smooth and aromatic. Perfect for lattes, milk teas and baking. Bulk supply from 500g to 20kg+."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a1447edb1448ab2abec251d_oolong-open-graph.avif",
+   "imageAssetId": null
+  },
+  "publishedPath": "/products/oolong-tea-powder",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

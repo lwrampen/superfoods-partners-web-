@@ -1,0 +1,49 @@
+{
+ "label": "items_693ab238dc146765ed4923f5_es_0",
+ "action": "list_collection_items",
+ "result": {
+  "items": [
+   {
+    "id": "693b8994e93d87adb2a0a76a",
+    "cmsLocaleId": "68af780d2a6fcd8ca5933bbd",
+    "lastPublished": "2025-12-12T04:53:30.778Z",
+    "lastUpdated": "2025-12-12T03:18:48.548Z",
+    "createdOn": "2025-12-12T03:18:44.687Z",
+    "isArchived": false,
+    "isDraft": false,
+    "fieldData": {
+     "writer-image": {
+      "fileId": "693b89901ccc8247726f0220",
+      "url": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdab0c/693b89901ccc8247726f0220_Writer%20image%2002.png",
+      "alt": null
+     },
+     "name": "Leonard",
+     "slug": "leonard"
+    }
+   },
+   {
+    "id": "693ab355622b62c887be8495",
+    "cmsLocaleId": "68af780d2a6fcd8ca5933bbd",
+    "lastPublished": "2025-12-11T12:05:49.130Z",
+    "lastUpdated": "2026-01-25T16:31:21.177Z",
+    "createdOn": "2025-12-11T12:04:37.975Z",
+    "isArchived": false,
+    "isDraft": false,
+    "fieldData": {
+     "writer-image": {
+      "fileId": "693ab35148bdc2a05794bdd2",
+      "url": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdab0c/693ab35148bdc2a05794bdd2_writer%20image%2001.png",
+      "alt": null
+     },
+     "name": "Judith",
+     "slug": "judith"
+    }
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 2
+  }
+ }
+}

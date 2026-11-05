@@ -1,0 +1,65 @@
+{
+ "label": "items_6798bd1e4b234bad93cdab7c_de_0",
+ "action": "list_collection_items",
+ "result": {
+  "items": [
+   {
+    "id": "69417953925a82af26166ffc",
+    "cmsLocaleId": "696f30f0cffe96212029af03",
+    "lastPublished": "2026-06-08T19:33:18.139Z",
+    "lastUpdated": "2026-01-20T07:38:24.188Z",
+    "createdOn": "2026-01-20T07:38:24.188Z",
+    "isArchived": false,
+    "isDraft": false,
+    "fieldData": {
+     "name": "News",
+     "slug": "news"
+    }
+   },
+   {
+    "id": "694179481cc5dc3b2806c587",
+    "cmsLocaleId": "696f30f0cffe96212029af03",
+    "lastPublished": "2026-02-03T09:45:19.484Z",
+    "lastUpdated": "2026-02-03T09:45:19.484Z",
+    "createdOn": "2026-01-20T07:38:24.188Z",
+    "isArchived": false,
+    "isDraft": false,
+    "fieldData": {
+     "name": "Insights",
+     "slug": "insights"
+    }
+   },
+   {
+    "id": "694179200355d5eaa0ee0ab1",
+    "cmsLocaleId": "696f30f0cffe96212029af03",
+    "lastPublished": "2026-06-08T19:33:18.139Z",
+    "lastUpdated": "2026-01-20T07:38:24.188Z",
+    "createdOn": "2026-01-20T07:38:24.188Z",
+    "isArchived": false,
+    "isDraft": false,
+    "fieldData": {
+     "name": "Customer",
+     "slug": "customer"
+    }
+   },
+   {
+    "id": "693ab2060f1f8fee3f36d7f1",
+    "cmsLocaleId": "696f30f0cffe96212029af03",
+    "lastPublished": "2026-06-08T19:33:18.139Z",
+    "lastUpdated": "2026-01-20T07:38:24.184Z",
+    "createdOn": "2026-01-20T07:38:24.184Z",
+    "isArchived": false,
+    "isDraft": false,
+    "fieldData": {
+     "name": "Education",
+     "slug": "education"
+    }
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 4
+  }
+ }
+}

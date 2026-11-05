@@ -1,0 +1,30 @@
+{
+ "label": "m_6a144057c5bf402137c0dce9_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a144057c5bf402137c0dce9",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Ube Powder",
+  "slug": "ube-powder",
+  "createdOn": "2026-05-25T12:28:07.983Z",
+  "lastUpdated": "2026-08-02T15:49:17.973Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Ube Pulver Großhandel | Premium Lila Yam Pulver | Pure Matcha Partners",
+   "description": "Premium Ube-Pulver (Lila Yam) für Cafés, Bäckereien & Getränkemarken. Koffeinfrei, lebhafte lila Farbe. B2B Bulk ab 500 g."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a14402241eb368ab3cfc853_ube-open-graph.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/products/ube-powder",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

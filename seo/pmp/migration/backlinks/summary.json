@@ -1,0 +1,71 @@
+{
+ "target": "purematchapartners.com",
+ "first_seen": "2025-10-29 02:03:51 +00:00",
+ "lost_date": null,
+ "rank": 179,
+ "backlinks": 48,
+ "backlinks_spam_score": 43,
+ "crawled_pages": 1,
+ "info": {
+  "server": null,
+  "cms": null,
+  "platform_type": null,
+  "ip_address": "75.2.70.75",
+  "country": null,
+  "is_ip": false,
+  "target_spam_score": 0
+ },
+ "internal_links_count": 0,
+ "external_links_count": 0,
+ "broken_backlinks": 0,
+ "broken_pages": 0,
+ "referring_domains": 38,
+ "referring_domains_nofollow": 8,
+ "referring_main_domains": 36,
+ "referring_main_domains_nofollow": 8,
+ "referring_ips": 34,
+ "referring_subnets": 33,
+ "referring_pages": 46,
+ "referring_pages_nofollow": 10,
+ "referring_links_tld": {
+  "com": 31,
+  "com.au": 2,
+  "fyi": 2,
+  "shop": 2,
+  "info": 2,
+  "app": 1,
+  "eu": 1,
+  "pro": 1,
+  "us.com": 1,
+  "wiki": 1
+ },
+ "referring_links_types": {
+  "anchor": 45,
+  "image": 1
+ },
+ "referring_links_attributes": {
+  "noopener": 37,
+  "nofollow": 10,
+  "noreferrer": 3
+ },
+ "referring_links_platform_types": {
+  "unknown": 34,
+  "organization": 10,
+  "blogs": 4,
+  "cms": 4,
+  "ecommerce": 1
+ },
+ "referring_links_semantic_locations": {
+  "": 33,
+  "footer": 5,
+  "article": 3,
+  "main": 3,
+  "section": 2
+ },
+ "referring_links_countries": {
+  "": 38,
+  "US": 5,
+  "AU": 2,
+  "RU": 1
+ }
+}

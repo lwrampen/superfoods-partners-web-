@@ -1,0 +1,27 @@
+{
+ "label": "m_6798bd1e4b234bad93cdaba0_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6798bd1e4b234bad93cdaba0",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "collectionId": "6798bd1e4b234bad93cdab7c",
+  "title": "Blogs Categories Template",
+  "slug": "detail_blog-categories",
+  "createdOn": "2024-12-18T05:41:54.692Z",
+  "lastUpdated": "2025-12-11T11:57:45.155Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": false,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {},
+  "openGraph": {
+   "titleCopied": false,
+   "descriptionCopied": false,
+   "imageUrl": null,
+   "imageAssetId": null
+  },
+  "publishedPath": "/blog-categories",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

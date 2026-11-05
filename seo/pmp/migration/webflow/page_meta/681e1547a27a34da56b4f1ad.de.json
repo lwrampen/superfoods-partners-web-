@@ -1,0 +1,30 @@
+{
+ "label": "m_681e1547a27a34da56b4f1ad_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681e1547a27a34da56b4f1ad",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Offices & corporate spaces",
+  "slug": "offices-corporate-spaces",
+  "createdOn": "2025-05-09T14:46:31.649Z",
+  "lastUpdated": "2026-06-28T15:10:30.538Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha für Büros & Betriebskantinen | Pure Matcha Partners",
+   "description": "Gesunder Energie-Boost für Arbeitsplätze & Büros. Sanfter Geschmack, wenig Koffein-Jitter. B2B-Lieferung für Corporate Wellness Programme."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/for/offices-corporate-spaces",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

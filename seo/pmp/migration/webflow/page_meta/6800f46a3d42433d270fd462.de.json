@@ -1,0 +1,30 @@
+{
+ "label": "m_6800f46a3d42433d270fd462_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6800f46a3d42433d270fd462",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Food & Beverage Brands",
+  "slug": "food-and-beverage-brands",
+  "createdOn": "2025-04-17T12:30:34.349Z",
+  "lastUpdated": "2026-08-17T19:32:26.620Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha Zutat für Food & Beverage Marken | Pure Matcha Partners",
+   "description": "Clean-Label Matcha für RTD-Getränke, Snacks & Functional Foods. Formulierungsfertige Matcha-Zutaten für Ihre Food & Beverage Marke."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/for/food-and-beverage-brands",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

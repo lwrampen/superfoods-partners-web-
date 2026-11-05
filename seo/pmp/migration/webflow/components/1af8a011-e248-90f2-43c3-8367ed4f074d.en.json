@@ -1,0 +1,92 @@
+{
+ "label": "k_1af8a011-e248-90f2-43c3-8367ed4f074d_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "1af8a011-e248-90f2-43c3-8367ed4f074d",
+  "nodes": [
+   {
+    "type": "text",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f0754",
+    "text": {
+     "html": "<h2 class=\"display-2 font-berkshire\">Ready to elevate your menu with matcha?</h2>",
+     "text": "Ready to elevate your menu with matcha?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "component-instance",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f0756",
+    "componentId": "e9bc42f4-b60b-1700-a8f8-e63d19890eca",
+    "propertyOverrides": [
+     {
+      "propertyId": "ae109fb8-515d-5983-a886-eb957ca476ae",
+      "type": "Plain Text",
+      "label": "Button Text",
+      "text": {
+       "text": "Let's connect"
+      }
+     }
+    ]
+   },
+   {
+    "type": "image",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f075a",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "679a4c81bac9382441f0e75c"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f075e",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab18"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f0760",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab17"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f0762",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab13"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f0764",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab15"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "image",
+    "id": "1af8a011-e248-90f2-43c3-8367ed4f0766",
+    "image": {
+     "alt": "__wf_reserved_decorative",
+     "assetId": "6798bd1e4b234bad93cdab16"
+    },
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 8
+  }
+ }
+}

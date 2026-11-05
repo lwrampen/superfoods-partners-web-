@@ -1,0 +1,622 @@
+{
+ "pageId": "6798bd1e4b234bad93cdab07",
+ "locale": "en",
+ "lastUpdated": "2026-08-04T12:17:03.909Z",
+ "total": 68,
+ "nodeCount": 68,
+ "nodes": [
+  {
+   "type": "component-instance",
+   "id": "6bd055dc-6d47-a246-de57-5e265b7dc4ad",
+   "componentId": "52bec0f2-4dc9-93b6-9515-18e24dd1c9c4",
+   "propertyOverrides": []
+  },
+  {
+   "type": "text",
+   "id": "5260ed98-0e06-1236-54f0-5afbd449514c",
+   "text": {
+    "html": "<h1 class=\"heading-7\">We are <span class=\"text-span-7\" data-w-id=\"18b665da-65b8-9b4f-857b-fb3c96a6005f\">Pure Matcha Partners</span></h1>",
+    "text": "We are Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5260ed98-0e06-1236-54f0-5afbd449514e",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Our mission is to scale matcha across all industries.<br data-w-id=\"3b26a47b-1e52-03f7-b461-ed0056ebe291\"><br data-w-id=\"9649f713-8be1-c49d-bf5d-052671bb8875\">Transforming it from a specialty product into a daily essential in people’s lives. Through strategic partnerships, innovation and education we are shaping the futureof matcha on a global scale.<br data-w-id=\"5260ed98-0e06-1236-54f0-5afbd4495151\"></p>",
+    "text": "Our mission is to scale matcha across all industries.\n\nTransforming it from a specialty product into a daily essential in people’s lives. Through strategic partnerships, innovation and education we are shaping the futureof matcha on a global scale.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "fa943497-4645-15e4-726a-1504e55386ff",
+   "text": {
+    "html": "<a class=\"button-9\" href=\"#\">Meet us 👋</a>",
+    "text": "Meet us 👋"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "5260ed98-0e06-1236-54f0-5afbd449515e",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681c7fa030de3346cce7548d"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e789",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Your <span class=\"text-span-8\" data-w-id=\"7dbedbb3-86dc-add8-68d7-d1686a0adf72\">matcha</span> partners</h2>",
+    "text": "Your matcha partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "277c8ee8-96c2-8147-654c-340a34b6e818",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e43c262ee533af95adc49"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "277c8ee8-96c2-8147-654c-340a34b6e819",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Robbert-Jan</h3>",
+    "text": "Robbert-Jan"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "277c8ee8-96c2-8147-654c-340a34b6e81b",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Sales, consulting &amp; strategy</p>",
+    "text": "Sales, consulting & strategy"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e79c",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e4410ce9dda385e41404b"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e79d",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Wanjin</h3>",
+    "text": "Wanjin"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e79f",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Supply chain &amp; sourcing</p>",
+    "text": "Supply chain & sourcing"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "316465bd-1d78-20c4-68e6-181a5917a92d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e445b1cee1884a2b8ce4b"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "316465bd-1d78-20c4-68e6-181a5917a92e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Leonard</h3>",
+    "text": "Leonard"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "316465bd-1d78-20c4-68e6-181a5917a930",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Digital strategy &amp; operations</p>",
+    "text": "Digital strategy & operations"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "fdac7ca8-eefe-b6a5-5dc0-af8da771f4f8",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e698da34aaa067c68f0e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "fdac7ca8-eefe-b6a5-5dc0-af8da771f4f9",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Max</h3>",
+    "text": "Max"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "fdac7ca8-eefe-b6a5-5dc0-af8da771f4fb",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Sales &amp; Supply chain</p>",
+    "text": "Sales & Supply chain"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d94135f",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Your <span class=\"text-span-8\" data-w-id=\"7a45e930-de6b-3b15-09b7-0c114d941361\">matcha</span> agents</h2>",
+    "text": "Your matcha agents"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "94d6312d-b5e2-83bf-547a-53f7be1e5d03",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "682de575ed6194c9d0797c36"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "94d6312d-b5e2-83bf-547a-53f7be1e5d04",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Bo Gyi</h3>",
+    "text": "Bo Gyi"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "94d6312d-b5e2-83bf-547a-53f7be1e5d06",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europe</p>",
+    "text": "Europe"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941375",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6815c78e770af1e541d6df05"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941376",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Gino</h3>",
+    "text": "Gino"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941378",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europe</p>",
+    "text": "Europe"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "236c7d5f-4e91-9574-100b-39bbf433c0cf",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e698da34aaa067c68f0e1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "236c7d5f-4e91-9574-100b-39bbf433c0d0",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Max Duijsens </h3>",
+    "text": "Max Duijsens "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "236c7d5f-4e91-9574-100b-39bbf433c0d2",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europe / Middle Easts</p>",
+    "text": "Europe / Middle Easts"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "236c7d5f-4e91-9574-100b-39bbf433c0d4",
+   "text": {
+    "html": "<a class=\"button-7\" href=\"#\">Contact me</a>",
+    "text": "Contact me"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e7a4",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e444f11ae712d286165d1"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e7a5",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Jasmijn</h3>",
+    "text": "Jasmijn"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "5febebec-a98d-752e-47be-e2eeec68e7a7",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Asa&nbsp;Matcha</p>",
+    "text": "Asa Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941385",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6815c8a66a0c98fbfeca3444"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941386",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Oisin</h3>",
+    "text": "Oisin"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941388",
+   "text": {
+    "html": "<p class=\"paragraph-8\">North America</p>",
+    "text": "North America"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "14edbdab-4260-52ac-8d50-d7073bee6bae",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e691427ecafb5ffd0994d"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "14edbdab-4260-52ac-8d50-d7073bee6baf",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Judith</h3>",
+    "text": "Judith"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "14edbdab-4260-52ac-8d50-d7073bee6bb1",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europe</p>",
+    "text": "Europe"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7e368f91-8a6f-1d9d-1eef-e2448ce130f1",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "68aacae4700314ecdf5579ff"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7e368f91-8a6f-1d9d-1eef-e2448ce130f2",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Iris</h3>",
+    "text": "Iris"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7e368f91-8a6f-1d9d-1eef-e2448ce130f4",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Netherlands</p>",
+    "text": "Netherlands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "d957d2ee-82dd-f963-8af5-b76545b41fc6",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "685e695ac990608dc3a07b4b"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d957d2ee-82dd-f963-8af5-b76545b41fc7",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Marieke</h3>",
+    "text": "Marieke"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "d957d2ee-82dd-f963-8af5-b76545b41fc9",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Netherlands</p>",
+    "text": "Netherlands"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d94137d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "682de503f07fdf27f70e8b1f"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d94137e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Nancy</h3>",
+    "text": "Nancy"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7a45e930-de6b-3b15-09b7-0c114d941380",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Europe</p>",
+    "text": "Europe"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "1fb4a560-67c5-672d-21e3-f673df69a41a",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">We are a <span class=\"text-span-9\" data-w-id=\"abd97d4c-d3e0-3278-9013-6050b7e02f79\">global</span> matcha company</h2>",
+    "text": "We are a global matcha company"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "4c022992-c235-00bd-2abc-48c71b7c3264",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680e4756bc8b1fba73c73b4b"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "e71bfbab-98e0-eafa-f48d-1d0aa19ae998",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36b250f0cac2a1bad6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e71bfbab-98e0-eafa-f48d-1d0aa19ae99a",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"e71bfbab-98e0-eafa-f48d-1d0aa19ae99b\">Our trusted <br data-w-id=\"d59b8323-6b17-90ce-41f2-4ff1154e52dc\"></span>sourcing<span class=\"text-span-6\" data-w-id=\"4b8ba7f3-3a12-31b1-fcdf-c8c77e4131e4\"> process</span></h1>",
+    "text": "Our trusted \nsourcing process"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e71bfbab-98e0-eafa-f48d-1d0aa19ae9a1",
+   "text": {
+    "html": "<div class=\"text-block-75-2\"><strong data-w-id=\"a2b2b2e3-6933-0061-4c14-298f1a132062\">Farm selection</strong><br data-w-id=\"8294e211-3e3e-8a33-82bc-9bc01c02879d\">We partner with family-run farms in Japan’s top matcha-growing regions, focusing on continiusly and sustainable cultivation.<br data-w-id=\"d2e8e379-2c7e-12f3-cd82-e409aeb3b209\"><br data-w-id=\"7b42a6a1-26cc-3668-eda8-9eafc8d8c2ac\"><strong data-w-id=\"dac129f0-f5d4-4dbe-bef9-bf024853f5a1\">Streamline the supply chain<br data-w-id=\"1a85b473-6da6-8a6e-30b4-8db8fc26ff07\"></strong>From harvest to packaging, we work closely with our partners to optimize every step — ensuring consistent quality, traceability, and efficiency.<br data-w-id=\"34b79a30-c8ec-3468-c0e2-f3a3722457d3\"><br data-w-id=\"fefef6c9-dde9-4a3f-6e17-00e92b818dfc\"><strong data-w-id=\"1ca7d895-c34a-8373-26b9-3688f56d0aa3\">Strong partnerships<br data-w-id=\"74d11580-619b-7474-6edd-eca83302e57d\"></strong>We maintain close, direct relationships with our suppliers — building trust, ensuring transparency, and growing together for the long term.<br data-w-id=\"7f11513c-30f0-4154-3a01-8748e8057148\">‍<br data-w-id=\"61d221df-d6ae-9c79-9bb2-6fe7d85af146\">‍</div>",
+    "text": "Farm selection\nWe partner with family-run farms in Japan’s top matcha-growing regions, focusing on continiusly and sustainable cultivation.\n\nStreamline the supply chain\nFrom harvest to packaging, we work closely with our partners to optimize every step — ensuring consistent quality, traceability, and efficiency.\n\nStrong partnerships\nWe maintain close, direct relationships with our suppliers — building trust, ensuring transparency, and growing together for the long term.\n‍\n‍"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "83aa51b7-217a-8af2-ae05-6b683c8a5c52",
+   "text": {
+    "html": "<p class=\"text-block-75-2\">Beyond Japan, our group sources specialty crops and consolidates supply through our Hong Kong–based sourcing partner:</p>",
+    "text": "Beyond Japan, our group sources specialty crops and consolidates supply through our Hong Kong–based sourcing partner:"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0aaee4e4-b680-9164-ee9f-b26336aed911",
+   "text": {
+    "html": "<a class=\"text-block-75-2\" href=\"https://www.superfoodspartners.com/\">Superfoods Partners — bulk matcha, tea &amp; superfoods, documented via Hong Kong →</a>",
+    "text": "Superfoods Partners — bulk matcha, tea & superfoods, documented via Hong Kong →"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a319690",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Ready to get started?</div>",
+    "text": "Ready to get started?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a319693",
+   "text": {
+    "html": "<p class=\"text-size-regular\">We are available to give you the best advise on the best matcha for your company's industry</p>",
+    "text": "We are available to give you the best advise on the best matcha for your company's industry"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a319697",
+   "text": {
+    "html": "<div class=\"text-block-76 community\">Get Started 💚</div>",
+    "text": "Get Started 💚"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a31969b",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a518347c3ed2d8200ede8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a31969d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51840e630e2044d647be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a31969f",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183ca567cd974b62e65"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a3196a1",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a5183627011d688ff9aa6"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a3196a3",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a51847545d8c6adfa19a5"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a3196a5",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d2578d8cc6f8e7561fa"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a3196a7",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d36af2799da49c0e47c"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a3196a9",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d37af2799da49c0e538"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a3196ab",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d3654de4503d53f89fd"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "cb51b63c-b7ce-7804-0e12-258f0a3196ad",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680b9d366cf7308d4d7f2413"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "component-instance",
+   "id": "918ce345-54d9-8f8e-ce42-bc4aa42060c2",
+   "componentId": "42fefc86-6d8f-a2b0-03f9-8bee9ac5460c",
+   "propertyOverrides": []
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 68
+  }
+ ]
+}

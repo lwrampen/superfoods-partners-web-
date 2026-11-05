@@ -1,0 +1,126 @@
+{
+ "label": "details_6798bd1e4b234bad93cdab3d",
+ "action": "get_collection_details",
+ "result": {
+  "id": "6798bd1e4b234bad93cdab3d",
+  "displayName": "Blogs",
+  "singularName": "Blog",
+  "slug": "blogs",
+  "createdOn": "2024-12-14T06:08:18.708Z",
+  "lastUpdated": "2025-12-17T03:34:29.240Z",
+  "fields": [
+   {
+    "id": "be57464575e3f9e2fdeb3c414d08a4fe",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "PlainText",
+    "slug": "blog-summary",
+    "displayName": "Blog Summary",
+    "validations": {
+     "singleLine": true
+    }
+   },
+   {
+    "id": "37d64d0376dc463ba0575410f8ea5439",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Image",
+    "slug": "blog-main-image",
+    "displayName": "Blog Main Image"
+   },
+   {
+    "id": "2f8544dc6843de6790efe181b4545321",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Image",
+    "slug": "blog-thumbnail-image",
+    "displayName": "Blog Thumbnail Image"
+   },
+   {
+    "id": "d8d12b61c174bc819c8f49b9f1b282d8",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "RichText",
+    "slug": "blog-post-body",
+    "displayName": "Blog Post Body"
+   },
+   {
+    "id": "33a36a6e10ea46d91c6a1783f4f69fb0",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "PlainText",
+    "slug": "special-code",
+    "displayName": "Special Code",
+    "validations": {
+     "singleLine": true
+    }
+   },
+   {
+    "id": "109c0c5d1a762071b8cfef310b4b2739",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "RichText",
+    "slug": "blog-post-body-two",
+    "displayName": "Blog Post Body Two"
+   },
+   {
+    "id": "783eac650655a6bda46c4aff5ab5d604",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Reference",
+    "slug": "blog-category",
+    "displayName": "Blog Category",
+    "validations": {
+     "collectionId": "6798bd1e4b234bad93cdab7c"
+    }
+   },
+   {
+    "id": "08c991ebb3b3c1737c59df9359ad1adc",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "Reference",
+    "slug": "writer-detail",
+    "displayName": "Writer Detail",
+    "validations": {
+     "collectionId": "693ab238dc146765ed4923f5"
+    }
+   },
+   {
+    "id": "2b97e481f654e533175480902025dba6",
+    "isEditable": true,
+    "isRequired": false,
+    "type": "DateTime",
+    "slug": "blog-date",
+    "displayName": "Blog Date"
+   },
+   {
+    "id": "4480a7f559b062b81094b47e1a0ffcd2",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "name",
+    "displayName": "Blog Title",
+    "validations": {
+     "maxLength": 256
+    }
+   },
+   {
+    "id": "a4579f3ac9c2c604e73bb1d748314e0c",
+    "isEditable": true,
+    "isRequired": true,
+    "type": "PlainText",
+    "slug": "slug",
+    "displayName": "Slug",
+    "validations": {
+     "maxLength": 256,
+     "pattern": {},
+     "messages": {
+      "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+      "maxLength": "Must be less than 256 characters"
+     }
+    }
+   }
+  ],
+  "fieldGroups": []
+ }
+}

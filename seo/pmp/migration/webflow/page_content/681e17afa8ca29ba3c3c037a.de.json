@@ -1,0 +1,405 @@
+{
+ "pageId": "681e17afa8ca29ba3c3c037a",
+ "locale": "de",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 43,
+ "nodeCount": 43,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795a",
+   "text": {
+    "html": "<h1 class=\"heading-7\"><strong data-w-id=\"288e6c23-6d7b-d835-1579-ca256eb9d603\">Matcha für den Einzelhandel &amp; Geschenkläden</strong></h1>",
+    "text": "Matcha für den Einzelhandel & Geschenkläden"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f795c",
+   "text": {
+    "html": "<p class=\"sub-heading-text\">Bieten Sie wunderschön verpackten, hochwertigen Matcha an, den Ihre Kunden gerne verschenken – und auch selbst behalten möchten.<br data-w-id=\"e95c5558-8e97-c2c9-0bda-9ff08d7d69e6\"><br data-w-id=\"cbdb59a2-b5a2-d767-4732-449647f47176\">Egal, ob Sie eine Lifestyle-Boutique, einen Geschenkeladen, Ihre eigene Matcha-Marke oder einen Wellness-Shop führen: Unser Matcha ist eine herausragende Ergänzung für Ihr Produktsortiment – ästhetisch, gesund und bei allen Altersgruppen im Trend.</p>",
+    "text": "Bieten Sie wunderschön verpackten, hochwertigen Matcha an, den Ihre Kunden gerne verschenken – und auch selbst behalten möchten.\n\nEgal, ob Sie eine Lifestyle-Boutique, einen Geschenkeladen, Ihre eigene Matcha-Marke oder einen Wellness-Shop führen: Unser Matcha ist eine herausragende Ergänzung für Ihr Produktsortiment – ästhetisch, gesund und bei allen Altersgruppen im Trend."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "089b0fea-f834-ad09-ddb0-3438de4beb10",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preisliste anfordern</a>",
+    "text": "Preisliste anfordern"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f7969",
+   "text": {
+    "html": "<div>Vielen Dank! Ihre Nachricht ist eingegangen!</div>",
+    "text": "Vielen Dank! Ihre Nachricht ist eingegangen!"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0bc4100a-a7d5-09bb-fa34-d1f1406f796c",
+   "text": {
+    "html": "<div>Hoppla! Beim Absenden des Formulars ist ein Fehler aufgetreten.</div>",
+    "text": "Hoppla! Beim Absenden des Formulars ist ein Fehler aufgetreten."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "f9195a48-3556-9cab-8580-515f4ee73be1",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\">Der beste Matcha für</h2>",
+    "text": "Der beste Matcha für"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "13943303-1a41-511d-1edc-314c897687f2",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e186348f05185211cdcc8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4372",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Tee- &amp; Spezialitätengeschäfte</h3>",
+    "text": "Tee- & Spezialitätengeschäfte"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9249253e-2442-ea7d-7159-8eeb1f7a4374",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Erweitern Sie Ihr Teesortiment</p>",
+    "text": "Erweitern Sie Ihr Teesortiment"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a8ac039b-d748-8ffc-84ae-eea861d9238f",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc311740f2ac581e6271f\">Muster anfragen</a>",
+    "text": "Muster anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e1863605ede779e84cc82"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c55132e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Concept Stores und Geschenkläden</h3>",
+    "text": "Concept Stores und Geschenkläden"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551330",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Trendige Premium-Wellnessprodukte</p>",
+    "text": "Trendige Premium-Wellnessprodukte"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "aed182c7-df70-87d7-c2ef-18fb6c551332",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Rezepte ansehen</a>",
+    "text": "Rezepte ansehen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "71f21428-c832-ba46-9e48-80c90470020d",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "681e18637d0f3a66ab3c9856"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c90470020e",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Geschenkbox-Marken</h3>",
+    "text": "Geschenkbox-Marken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700210",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Nachhaltiger, gesunder Luxus</p>",
+    "text": "Nachhaltiger, gesunder Luxus"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "71f21428-c832-ba46-9e48-80c904700212",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preise anfragen</a>",
+    "text": "Preise anfragen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac646618e",
+   "text": {
+    "html": "<h2 class=\"heading-5\">Warum <span class=\"text-span-2\" data-w-id=\"88cf36a3-04af-c82e-b4e2-b67ac6466191\">Matcha </span>auf Ihre Speisekarte setzen</h2>",
+    "text": "Warum Matcha auf Ihre Speisekarte setzen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "c3edf8cc-566e-7f03-7bc6-d6bbda02a93b",
+   "text": {
+    "html": "<div class=\"text-block-75\">✔️ <strong data-w-id=\"7e6ad228-632d-e214-17a7-204ff855a0cb\">Beliebt &amp; als Geschenk geeignet</strong> – Schöne Verpackung und wachsende Kundennachfrage<br data-w-id=\"05f0520f-f825-0ba9-2282-b045369bb961\">✔️ <strong data-w-id=\"5513197c-3c24-2c86-6175-1aeb1b69e32e\">Gesundheitsbewusstes Produkt</strong> – Bio, vegan und reich an Antioxidantien<br data-w-id=\"18b64b0e-72d9-313d-8993-2309fbe22903\">✔️ <strong data-w-id=\"1a08bae1-5c1a-7ee3-dd78-585262884017\">Ideal für Impulskäufe</strong> – Attraktive Preise und ansprechende Präsentation<br data-w-id=\"04e5c1aa-2264-739f-f062-0e728a618661\">✔️ <strong data-w-id=\"417ae0f2-537b-7b5e-532a-4c196dce8493\">Leicht zu verkaufen</strong> – Perfekt für Bundles, Geschenksets und Wellness-Ecken</div>",
+    "text": "✔️ Beliebt & als Geschenk geeignet – Schöne Verpackung und wachsende Kundennachfrage\n✔️ Gesundheitsbewusstes Produkt – Bio, vegan und reich an Antioxidantien\n✔️ Ideal für Impulskäufe – Attraktive Preise und ansprechende Präsentation\n✔️ Leicht zu verkaufen – Perfekt für Bundles, Geschenksets und Wellness-Ecken"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466195",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"681b14857918a72a859fd05c\">Unsere Rezepte ansehen</a>",
+    "text": "Unsere Rezepte ansehen"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "88cf36a3-04af-c82e-b4e2-b67ac6466197",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6809ff4af675cf7235ebe3be"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b73",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "680a0742b9f10e5955e83738"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b61",
+   "text": {
+    "html": "<h1 class=\"heading-5-2\"><span class=\"text-span-6\" data-w-id=\"6ce76778-945c-bf3d-31f4-60adfde7db6d\">Warum </span>Pure <span class=\"text-span-2\" data-w-id=\"09ed1faa-f038-8aeb-9737-f67d5cc69b63\">Matcha </span>Partners</h1>",
+    "text": "Warum Pure Matcha Partners"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b66",
+   "text": {
+    "html": "<div class=\"text-block-75-2\">✔️ <strong data-w-id=\"f69dbdc2-e2a8-46e8-0363-f3786af2a5e6\">Für den Einzelhandel konzipiert</strong> – Stilvolle Verpackung und verkaufsfertige Formate<br data-w-id=\"c324dcec-5341-7cc7-ef08-f781fd77ba20\">✔️ <strong data-w-id=\"a57daff5-6ac4-281f-7733-9cbe0d0b2736\">Kleinserien &amp; Premiumqualität</strong> – Direkt aus Japan, immer frisch<br data-w-id=\"20410a93-e234-a918-64fe-d978800dbb42\">✔️ <strong data-w-id=\"fff24900-1abb-aff6-6c81-fc5e38416556\">Private-Label-Optionen</strong> – Erstellen Sie Ihre eigene Matcha-Marke<br data-w-id=\"d948390e-245b-e3b2-b709-50a2788ca6be\">✔️ <strong data-w-id=\"20647216-8112-5fab-4ba4-edbdf7addce2\">Unterstützende Partnerschaft</strong> – Niedrige Mindestbestellmengen und marketingbereite Inhalte</div>",
+    "text": "✔️ Für den Einzelhandel konzipiert – Stilvolle Verpackung und verkaufsfertige Formate\n✔️ Kleinserien & Premiumqualität – Direkt aus Japan, immer frisch\n✔️ Private-Label-Optionen – Erstellen Sie Ihre eigene Matcha-Marke\n✔️ Unterstützende Partnerschaft – Niedrige Mindestbestellmengen und marketingbereite Inhalte"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "09ed1faa-f038-8aeb-9737-f67d5cc69b71",
+   "text": {
+    "html": "<a class=\"button-2-we-are\" data-wf-link-page-id=\"6798bd1e4b234bad93cdab33\">Vertrieb kontaktieren</a>",
+    "text": "Vertrieb kontaktieren"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa85",
+   "text": {
+    "html": "<h2 class=\"heading-large-products\">Beste Produkte für <span class=\"text-span-15\" data-w-id=\"4ec0c45c-9ff9-cdbe-e9d9-26e55f039fcf\">Einzelhandel &amp; Geschenkartikelgeschäfte</span></h2>",
+    "text": "Beste Produkte für Einzelhandel & Geschenkartikelgeschäfte"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa93",
+   "text": {
+    "html": "<div>Tag</div>",
+    "text": "Tag"
+   },
+   "attributes": {
+    "fs-cmsfilter-element": "tag-text"
+   }
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fa97",
+   "text": {
+    "html": "<div class=\"filters5_results-text\">Zeige <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa99\">0</span> von <span data-w-id=\"dab5a70a-e970-a098-441d-2914e780fa9c\">100</span></div>",
+    "text": "Zeige 0 von 100"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1b",
+   "text": {
+    "html": "<div class=\"heading-xsmall-3\">Keine Ergebnisse gefunden.</div>",
+    "text": "Keine Ergebnisse gefunden."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "dab5a70a-e970-a098-441d-2914e780fb1d",
+   "text": {
+    "html": "<div>Es wurden keine Ergebnisse mit diesen Kriterien gefunden. Versuchen Sie, Ihre Suche zu ändern.<a href=\"https://library.relume.io/components?elements=video-lightbox&layout=text-align-left%7Ctext-align-center#\" data-w-id=\"dab5a70a-e970-a098-441d-2914e780fb1f\"><br data-w-id=\"72fa0794-9e68-b03f-ee7c-33d309c5bffc\"></a></div>",
+    "text": "Es wurden keine Ergebnisse mit diesen Kriterien gefunden. Versuchen Sie, Ihre Suche zu ändern.\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9355",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4b32ca2d43687994a"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9357",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Zeremoniell konventionell</div>",
+    "text": "Zeremoniell konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9359",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CE-1KG-JP-SH</div>",
+    "text": "PMP-M-CE-1KG-JP-SH"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9360",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e425a768e80c125f14"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9362",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Hojicha</div>",
+    "text": "Hojicha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d9364",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-H-H-1KG-JP-SH</div>",
+    "text": "PMP-H-H-1KG-JP-SH"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "image",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936b",
+   "image": {
+    "alt": "__wf_reserved_inherit",
+    "assetId": "6857f4e4a71bb0fcad13d9b8"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936d",
+   "text": {
+    "html": "<div class=\"text-size-medium-2 text-weight-semibold\">Kulinarisch konventionell</div>",
+    "text": "Kulinarisch konventionell"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "9129c43d-c0fd-9fc0-7f8d-ce82c13d936f",
+   "text": {
+    "html": "<div class=\"text-size-small\">PMP-M-CU-1KG-JP-SH</div>",
+    "text": "PMP-M-CU-1KG-JP-SH"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1b",
+   "text": {
+    "html": "<div class=\"text-size-large-4 text-weight-semibold\">Bereit loszulegen?</div>",
+    "text": "Bereit loszulegen?"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "ea8a1a39-2a44-8ea3-feed-848f29af9a1e",
+   "text": {
+    "html": "<p class=\"text-size-regular\">Wir unterstützen Sie dabei, Matcha anzubieten, der sich gut verkauft. Egal, ob Sie Geschenkboxen zusammenstellen oder Ihr Wellness-Sortiment erweitern, wir finden mit Ihnen die perfekte Matcha-Auswahl für Ihr Geschäft.</p>",
+    "text": "Wir unterstützen Sie dabei, Matcha anzubieten, der sich gut verkauft. Egal, ob Sie Geschenkboxen zusammenstellen oder Ihr Wellness-Sortiment erweitern, wir finden mit Ihnen die perfekte Matcha-Auswahl für Ihr Geschäft."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7d1c9df8-6492-a852-5b12-a720beb7e75a",
+   "text": {
+    "html": "<a class=\"button-6\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Preisliste anfordern</a>",
+    "text": "Preisliste anfordern"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 43
+  }
+ ]
+}

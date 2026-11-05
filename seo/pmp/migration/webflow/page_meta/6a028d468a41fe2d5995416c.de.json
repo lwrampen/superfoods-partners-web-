@@ -1,0 +1,30 @@
+{
+ "label": "m_6a028d468a41fe2d5995416c_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "6a028d468a41fe2d5995416c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6a028ca42f4ef4c910d5f586",
+  "title": "Asa Matcha",
+  "slug": "asa-matcha",
+  "createdOn": "2026-05-12T02:15:34.261Z",
+  "lastUpdated": "2026-07-26T12:06:41.606Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Unsere Partner – Asa Matcha | Pure Matcha Partners",
+   "description": "ASA Matcha bringt zertifiziert biologischen, japanischen Zeremonial-Matcha nach Europa. Direkt von der Farm in Kagoshima, Japan."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/6a028f3f98fe0265f476b768_Matcha%20in%20to%20Bowl.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/partners/asa-matcha",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

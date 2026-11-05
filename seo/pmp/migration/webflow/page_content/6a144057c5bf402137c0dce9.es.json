@@ -1,0 +1,258 @@
+{
+ "pageId": "6a144057c5bf402137c0dce9",
+ "locale": "es",
+ "lastUpdated": "2026-10-18T18:42:26.691Z",
+ "total": 27,
+ "nodeCount": 27,
+ "nodes": [
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac8d",
+   "text": {
+    "html": "<div><span class=\"text-span-3\" data-w-id=\"3bdc7930-e01f-7916-59c3-00ddb8f9f483\">Productos</span></div>",
+    "text": "Productos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac91",
+   "text": {
+    "html": "<div class=\"text-block-63\">Especiales</div>",
+    "text": "Especiales"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac95",
+   "text": {
+    "html": "<div class=\"text-block-64\">Mulberry Matcha</div>",
+    "text": "Mulberry Matcha"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ac98",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product-copy text-color-grey\">Japon - Orgánico - Sin cafeína<br data-w-id=\"a33b54d2-ddff-93ab-7ff1-24abf597fc40\"></p>",
+    "text": "Japon - Orgánico - Sin cafeína\n"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "904d01aa-1da4-f4ba-110a-4455367a362f",
+   "text": {
+    "html": "<p class=\"text-size-large-3-product text-color-grey\">1kg bolso</p>",
+    "text": "1kg bolso"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acab",
+   "text": {
+    "html": "<div class=\"text-size-small-2\">(4.6 estrellas) • 22 reseñas</div>",
+    "text": "(4.6 estrellas) • 22 reseñas"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acb3",
+   "text": {
+    "html": "<a class=\"button-secondary is-buy-now-button\" data-wf-link-page-id=\"681dc53d385ed6f721891ace\">Obtener precios</a>",
+    "text": "Obtener precios"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "b232b5b9-7612-d0a1-acbe-6b98f2f4e7a3",
+   "text": {
+    "html": "<div class=\"text-block-127\">Origen:&nbsp;<span class=\"text-span-19\" data-w-id=\"8dca997a-434d-13ad-ceca-ee05c9766425\">Japon</span></div>",
+    "text": "Origen: Japon"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "7f1e0eff-33ad-211a-340f-179132dc602a",
+   "text": {
+    "html": "<div class=\"text-block-127\">Estado:&nbsp;En Stock</div>",
+    "text": "Estado: En Stock"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acc7",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Información</div>",
+    "text": "Información"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acca",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Usos recomendados</div>",
+    "text": "Usos recomendados"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "e405fa52-1686-92f6-1350-e8fc2b79a5e6",
+   "text": {
+    "html": "<div class=\"text-size-large-3\">Perfil</div>",
+    "text": "Perfil"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "a2736b41-8e07-69d4-2192-ce7f54e14df8",
+   "text": {
+    "html": "<h6 class=\"heading-xsmall\">Un matcha de hoja de morera con un aroma suave y relajante y un sabor suave y meloso. <br data-w-id=\"1cf2305b-76af-24a4-efce-a246d2bc7562\"><br data-w-id=\"a2875d45-ea23-52ec-7d02-b4086007a64b\">Su delicada dulzura y su final limpio y herbáceo revelan el carácter único de las hojas de morera, al tiempo que conservan la elegancia del matcha batido tradicional.</h6>",
+    "text": "Un matcha de hoja de morera con un aroma suave y relajante y un sabor suave y meloso. \n\nSu delicada dulzura y su final limpio y herbáceo revelan el carácter único de las hojas de morera, al tiempo que conservan la elegancia del matcha batido tradicional."
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723acf3",
+   "text": {
+    "html": "<div class=\"rich-text-block\"><p class=\"paragraph-9\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43ec\"><strong class=\"bold-text-6\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43ed\">Entrega Internacional</strong></p><p class=\"paragraph-9\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43ef\">Enviamos paquetes a destinos de todo el mundo, de forma rápida y fiable, para que tu pedido llegue donde lo necesites.<br data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43f1\">‍</p><p class=\"paragraph-10\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43f3\"><strong class=\"bold-text-5\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43f4\">Enviado en un plazo de 48 horas</strong></p><p class=\"paragraph-10\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43f6\">Todos los pedidos se procesan y envían en un plazo de 48 horas, lo que garantiza una tramitación rápida y un tiempo de espera mínimo.</p><p data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43f8\">‍</p><p class=\"paragraph-11\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43fa\"><strong class=\"bold-text-3\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43fb\">Opciones de entrega segura</strong></p><p class=\"paragraph-11\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43fd\"><strong class=\"bold-text-3\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d43fe\">‍</strong>Elija entre métodos de envío seguros que garantizan la entrega segura y protegida de su paquete.</p><p data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d4401\">‍</p><p class=\"paragraph-12\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d4403\"><strong class=\"bold-text-4\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d4404\">Ayuda</strong><br data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d4406\">Envíenos un correo electrónico a <a href=\"mailto:hello@purematchapartners.com\" data-w-id=\"f66743ca-7d9d-af3b-ae4a-d343603d4408\">hello@purematchapartners.com</a></p></div>"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad40",
+   "text": {
+    "html": "<h2 class=\"heading-medium\">Otros productos que te pueden gustar </h2>",
+    "text": "Otros productos que te pueden gustar "
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad4f",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Ceremonial Convencional China</div>",
+    "text": "Ceremonial Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "777a5037-745b-7bc6-2ace-fc9f8723ad5c",
+   "text": {
+    "html": "<div class=\"text-size-medium-3 text-weight-semibold\">Premium Convencional China</div>",
+    "text": "Premium Convencional China"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5998d",
+   "text": {
+    "html": "<h2 class=\"h2 font-600\"> para</h2>",
+    "text": " para"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb59999",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Cafeterías y cafés</h3>",
+    "text": "Cafeterías y cafés"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999b",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para bebidas de matcha de alta gama</p>",
+    "text": "Para bebidas de matcha de alta gama"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb5999d",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"6800f46a3d42433d270fd462\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a1",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Restaurantes y servicios de restauración</h3>",
+    "text": "Restaurantes y servicios de restauración"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a3",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Para bebidas de temporada y especiales</p>",
+    "text": "Para bebidas de temporada y especiales"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a5",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681dc746e4efb42760e72831\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599a9",
+   "text": {
+    "html": "<h3 class=\"heading-style-h5-copy\">Oficinas y espacios corporativos</h3>",
+    "text": "Oficinas y espacios corporativos"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ab",
+   "text": {
+    "html": "<p class=\"paragraph-8\">Matcha fácil de preparar para las horas punta</p>",
+    "text": "Matcha fácil de preparar para las horas punta"
+   },
+   "attributes": {}
+  },
+  {
+   "type": "text",
+   "id": "0fd9a23f-ee84-be9e-1b79-13013eb599ad",
+   "text": {
+    "html": "<a class=\"button-7\" data-wf-link-page-id=\"681e1547a27a34da56b4f1ad\">Ver más</a>",
+    "text": "Ver más"
+   },
+   "attributes": {}
+  }
+ ],
+ "pages_fetched": [
+  {
+   "limit": 100,
+   "offset": 0,
+   "total": 27
+  }
+ ]
+}

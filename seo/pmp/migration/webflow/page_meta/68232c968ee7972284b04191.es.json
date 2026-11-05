@@ -1,0 +1,30 @@
+{
+ "label": "m_68232c968ee7972284b04191_es",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "68232c968ee7972284b04191",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Hojicha - Japan Organic",
+  "slug": "hojicha-japan-organic",
+  "createdOn": "2025-05-13T11:27:18.391Z",
+  "lastUpdated": "2026-08-02T15:50:19.933Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Organic Hojicha Powder Japan | Wholesale Roasted Green Tea | Pure Matcha Partners",
+   "description": "Certified organic Japanese hojicha powder with a warm, nutty profile and low caffeine. For cafés and food brands, supplied from 5 kg."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/es/products/hojicha-japan-organic",
+  "localeId": "68af780d2a6fcd8ca5933bba"
+ }
+}

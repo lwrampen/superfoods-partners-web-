@@ -1,0 +1,30 @@
+{
+ "label": "m_681dc746e4efb42760e72831_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681dc746e4efb42760e72831",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "6800eb4ee6a75c3e8136821c",
+  "title": "Restaurants & foodservice",
+  "slug": "restaurants-foodservice",
+  "createdOn": "2025-05-09T09:13:42.414Z",
+  "lastUpdated": "2026-06-28T15:11:52.529Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha für Restaurants & Hotels | Pure Matcha Partners",
+   "description": "Premium-Matcha für Anrichten, Desserts & Cocktails. Flexible Bulk-Lieferung direkt von zertifizierten Farmen. B2B-Preise auf Anfrage."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/for/restaurants-foodservice",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}

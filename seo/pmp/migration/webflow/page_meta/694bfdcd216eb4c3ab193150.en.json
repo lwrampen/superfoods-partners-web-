@@ -1,0 +1,30 @@
+{
+ "label": "m_694bfdcd216eb4c3ab193150_en",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "694bfdcd216eb4c3ab193150",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "parentId": "67ff9f06984c173eaac63fca",
+  "title": "Mulberry Matcha - Japan organic",
+  "slug": "mulberry-matcha-japan-organic",
+  "createdOn": "2025-12-24T14:50:53.429Z",
+  "lastUpdated": "2026-08-02T15:49:28.216Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Mulberry Matcha Powder Wholesale | Caffeine-Free | Pure Matcha Partners",
+   "description": "Premium mulberry leaf matcha from Japan. Naturally caffeine-free with a soft, calming aroma and smooth mellow flavour. Bulk wholesale from 500g. Lab-tested & certified."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/products/mulberry-matcha-japan-organic",
+  "localeId": "6798bd1e4b234bad93cdaae5"
+ }
+}

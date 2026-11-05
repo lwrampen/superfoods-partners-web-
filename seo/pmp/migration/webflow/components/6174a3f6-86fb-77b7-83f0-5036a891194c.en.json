@@ -1,0 +1,137 @@
+{
+ "label": "k_6174a3f6-86fb-77b7-83f0-5036a891194c_en_0",
+ "action": "get_component_content",
+ "result": {
+  "componentId": "6174a3f6-86fb-77b7-83f0-5036a891194c",
+  "nodes": [
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891194e",
+    "text": {
+     "html": "<h2 class=\"pricing-h1 faq-h2\">Frequently Asked Questions</h2>",
+     "text": "Frequently Asked Questions"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a8911955",
+    "text": {
+     "html": "<div class=\"faq-q-text\">Do you offer matcha in bulk quantities?</div>",
+     "text": "Do you offer matcha in bulk quantities?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a8911958",
+    "text": {
+     "html": "<p class=\"faq-answer-text\">Yes. We supply matcha in volumes ranging from small test packs to full-scale bulk shipments—tailored to your production needs.<br data-w-id=\"e60d9142-7af3-ba44-fa58-ca329a271951\"><a data-wf-link-page-id=\"698ed39e8999d2a9cf8e7e17\" data-w-id=\"cd00b881-6ffb-6cc9-28fb-810c78db04b9\">Learn about our wholesale matcha programs.</a></p>",
+     "text": "Yes. We supply matcha in volumes ranging from small test packs to full-scale bulk shipments—tailored to your production needs.\nLearn about our wholesale matcha programs."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891195f",
+    "text": {
+     "html": "<div class=\"faq-q-text\"><strong data-w-id=\"6174a3f6-86fb-77b7-83f0-5036a8911960\">Can I request samples before ordering?</strong></div>",
+     "text": "Can I request samples before ordering?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a8911963",
+    "text": {
+     "html": "<p class=\"faq-answer-text\">Absolutely. We provide curated samples based on your product goals, application, and quality needs—no generic sample packs.</p>",
+     "text": "Absolutely. We provide curated samples based on your product goals, application, and quality needs—no generic sample packs."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891196a",
+    "text": {
+     "html": "<div class=\"faq-q-text\">Where do you source your matcha from?</div>",
+     "text": "Where do you source your matcha from?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891196d",
+    "text": {
+     "html": "<p class=\"faq-answer-text\">We source directly from <strong data-w-id=\"6174a3f6-86fb-77b7-83f0-5036a891196f\">certified producers</strong> in both <strong data-w-id=\"6174a3f6-86fb-77b7-83f0-5036a8911972\">Japan and China</strong>, across several regions known for high-quality matcha cultivation.</p>",
+     "text": "We source directly from certified producers in both Japan and China, across several regions known for high-quality matcha cultivation."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891197a",
+    "text": {
+     "html": "<div class=\"faq-q-text\">Do you offer private label matcha?</div>",
+     "text": "Do you offer private label matcha?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891197d",
+    "text": {
+     "html": "<p class=\"faq-answer-text\">We focus primarily on <strong data-w-id=\"6174a3f6-86fb-77b7-83f0-5036a891197f\">bulk supply</strong>, but can support private label partners in need of large-volume sourcing.</p>",
+     "text": "We focus primarily on bulk supply, but can support private label partners in need of large-volume sourcing."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a8911987",
+    "text": {
+     "html": "<div class=\"faq-q-text\">What industries do you supply?</div>",
+     "text": "What industries do you supply?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891198a",
+    "text": {
+     "html": "<p class=\"faq-answer-text\">Our clients range from <strong data-w-id=\"6174a3f6-86fb-77b7-83f0-5036a891198c\">FMCG brands, co-packers, and importers</strong> to <strong data-w-id=\"6174a3f6-86fb-77b7-83f0-5036a891198f\">functional food &amp; beverage manufacturers</strong> and <strong data-w-id=\"6174a3f6-86fb-77b7-83f0-5036a8911992\">global distributors</strong>.</p>",
+     "text": "Our clients range from FMCG brands, co-packers, and importers to functional food & beverage manufacturers and global distributors."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891199a",
+    "text": {
+     "html": "<div class=\"faq-q-text\">How fast can you ship internationally?</div>",
+     "text": "How fast can you ship internationally?"
+    },
+    "attributes": {}
+   },
+   {
+    "type": "text",
+    "id": "6174a3f6-86fb-77b7-83f0-5036a891199d",
+    "text": {
+     "html": "<p class=\"faq-answer-text\">We offer fast, reliable international shipping via trusted logistics partners. Lead times vary based on volume and destination.</p>",
+     "text": "We offer fast, reliable international shipping via trusted logistics partners. Lead times vary based on volume and destination."
+    },
+    "attributes": {}
+   },
+   {
+    "type": "html-embed",
+    "id": "e6e5c205-dba9-efd3-5e31-f019f2bb4f4e",
+    "html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer matcha in bulk quantities?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. We supply matcha in volumes ranging from small test packs to full-scale bulk shipments—tailored to your production needs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I request samples before ordering?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely. We provide curated samples based on your product goals, application, and quality needs—no generic sample packs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Where do you source your matcha from?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"We source directly from certified producers in both Japan and China, across several regions known for high-quality matcha cultivation.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer private label matcha?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"We focus primarily on bulk supply, but can support private label partners in need of large-volume sourcing.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What industries do you supply?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Our clients range from FMCG brands, co-packers, and importers to functional food & beverage manufacturers and global distributors.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How fast can you ship internationally?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"We offer fast, reliable international shipping via trusted logistics partners. Lead times vary based on volume and destination.\"\n      }\n    }\n  ]\n}\n</script>",
+    "attributes": {}
+   }
+  ],
+  "pagination": {
+   "limit": 100,
+   "offset": 0,
+   "total": 14
+  }
+ }
+}

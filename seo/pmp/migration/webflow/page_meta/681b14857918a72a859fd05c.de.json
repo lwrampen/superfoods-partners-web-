@@ -1,0 +1,29 @@
+{
+ "label": "m_681b14857918a72a859fd05c_de",
+ "action": "get_page_metadata",
+ "result": {
+  "id": "681b14857918a72a859fd05c",
+  "siteId": "6798bd1e4b234bad93cdaa9c",
+  "title": "Recipe",
+  "slug": "recipe",
+  "createdOn": "2025-05-07T08:06:29.425Z",
+  "lastUpdated": "2026-06-22T07:28:00.202Z",
+  "archived": false,
+  "draft": false,
+  "shouldPublish": true,
+  "canBranch": true,
+  "isBranch": false,
+  "seo": {
+   "title": "Matcha-Rezepte für Baristas & Köche | Pure Matcha Partners",
+   "description": "Inspiration für Matcha-Getränke, Desserts & Gerichte. Ideal für Cafés, Hotels & Getränkemarken. Professionell getestet, leicht umsetzbar."
+  },
+  "openGraph": {
+   "titleCopied": true,
+   "descriptionCopied": true,
+   "imageUrl": "https://cdn.prod.website-files.com/6798bd1e4b234bad93cdaa9c/68235defe35438f4e570d485_pure-matcha-partners-meta-image.png",
+   "imageAssetId": null
+  },
+  "publishedPath": "/de/recipe",
+  "localeId": "696f30f0cffe96212029af00"
+ }
+}
