@@ -1,18 +1,18 @@
 {
  "primary": "pmp",
- "updated": "2026-10-29",
+ "updated": "2026-11-05",
  "gsc": {
   "d28": {
-   "clicks": 989,
-   "impressions": 99897,
-   "ctr": 0.0099,
-   "position": 8.0018
+   "clicks": 986,
+   "impressions": 101675,
+   "ctr": 0.0097,
+   "position": 8.0704
   },
   "d90": {
-   "clicks": 3132,
-   "impressions": 298928,
-   "ctr": 0.0105,
-   "position": 8.663
+   "clicks": 3244,
+   "impressions": 312318,
+   "ctr": 0.0104,
+   "position": 8.5131
   }
  },
  "history": [
@@ -42,6 +42,15 @@
    "pmp_top50": 1,
    "clicks28": 989,
    "ref_sfp": 1
+  },
+  {
+   "date": "2026-11-05",
+   "sfp_top50": 6,
+   "sfp_top10": 3,
+   "sfp_top3": 0,
+   "pmp_top50": 1,
+   "clicks28": 986,
+   "ref_sfp": 1
   }
  ],
  "clusters": [
@@ -56,7 +65,7 @@
    "keywords": 5,
    "sfp_top10": 0,
    "target": "Top-3 + meer klikken",
-   "leader": "copinaco.com"
+   "leader": "google.com"
   },
   {
    "name": "Hojicha",
@@ -64,12 +73,12 @@
     "US"
    ],
    "volume": 12120,
-   "sfp_best": 16,
-   "pmp_best": 23,
+   "sfp_best": 5,
+   "pmp_best": 14,
    "keywords": 4,
    "sfp_top10": 0,
    "target": "Top-10 US",
-   "leader": "hojicha.co"
+   "leader": "wholesale.jadeleafmatcha.com"
   },
   {
    "name": "Matcha wholesale",
@@ -79,11 +88,11 @@
    ],
    "volume": 5920,
    "sfp_best": null,
-   "pmp_best": 4,
+   "pmp_best": 9,
    "keywords": 13,
-   "sfp_top10": 3,
+   "sfp_top10": 1,
    "target": "Top-3 US/UK",
-   "leader": "wholesale.jadeleafmatcha.com"
+   "leader": "google.com"
   },
   {
    "name": "Matcha knowledge",
@@ -92,11 +101,11 @@
    ],
    "volume": 5380,
    "sfp_best": null,
-   "pmp_best": 17,
+   "pmp_best": 5,
    "keywords": 5,
-   "sfp_top10": 0,
+   "sfp_top10": 1,
    "target": "Top-5",
-   "leader": "youtube.com"
+   "leader": "google.com"
   },
   {
    "name": "Matcha Europe",
@@ -112,11 +121,11 @@
    ],
    "volume": 320,
    "sfp_best": null,
-   "pmp_best": 1,
+   "pmp_best": 7,
    "keywords": 12,
-   "sfp_top10": 2,
+   "sfp_top10": 1,
    "target": "Top-3 per land",
-   "leader": "matchaunion.com"
+   "leader": "google.com"
   },
   {
    "name": "Private label",
@@ -125,11 +134,11 @@
    ],
    "volume": 160,
    "sfp_best": null,
-   "pmp_best": 10,
+   "pmp_best": 47,
    "keywords": 5,
-   "sfp_top10": 1,
+   "sfp_top10": 0,
    "target": "Top-5 US",
-   "leader": "bulk.matcha.com"
+   "leader": "google.com"
   }
  ],
  "keywords": [
@@ -142,9 +151,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "copinaco.com",
-    "matcha.com",
-    "reddit.com"
+    "google.com",
+    "junbishop.com",
+    "google.com"
    ],
    "volume": 12100
   },
@@ -157,9 +166,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bevsbymelodi.substack.com",
-    "ippodotea.com",
-    "canalcoffeecompany.com"
+    "google.com",
+    "reddit.com",
+    "google.com"
    ],
    "volume": 1900
   },
@@ -172,9 +181,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bonappetit.com",
-    "reddit.com",
-    "seriouseats.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 1600
   },
@@ -187,9 +196,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bevsbymelodi.substack.com",
-    "instagram.com",
-    "reddit.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 1000
   },
@@ -202,9 +211,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matcha.com",
-    "naokimatcha.com",
-    "naokimatcha.asia"
+    "cuzenmatcha.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 720
   },
@@ -217,9 +226,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "hojicha.co",
-    "artoftea.com",
-    "reddit.com"
+    "wholesale.jadeleafmatcha.com",
+    "camelliard.com",
+    "google.com"
    ],
    "volume": 12100
   },
@@ -229,12 +238,12 @@
    "location_code": "2840",
    "language_code": "en",
    "keyword": "hojicha powder wholesale",
-   "pos_sfp": null,
+   "pos_sfp": 5,
    "pos_pmp": null,
    "top3": [
-    "hojicha.co",
-    "shop.sugimotousa.com",
-    "wholesale.jadeleafmatcha.com"
+    "google.com",
+    "google.com",
+    "senbirdtea.com"
    ],
    "volume": 10
   },
@@ -244,12 +253,12 @@
    "location_code": "2840",
    "language_code": "en",
    "keyword": "hojicha supplier",
-   "pos_sfp": 16,
-   "pos_pmp": 23,
+   "pos_sfp": null,
+   "pos_pmp": 14,
    "top3": [
-    "shop.sugimotousa.com",
-    "kimikuratea.com",
-    "facebook.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 10
   },
@@ -262,9 +271,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "takaokayausa.com",
-    "densteawholesale.com",
-    "keichamatcha.com"
+    "google.com",
+    "reddit.com",
+    "google.com"
    ],
    "volume": null
   },
@@ -275,11 +284,11 @@
    "language_code": "de",
    "keyword": "matcha großhandel",
    "pos_sfp": null,
-   "pos_pmp": 3,
+   "pos_pmp": null,
    "top3": [
-    "matchaunion.com",
-    "faire.com",
-    "purematchapartners.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 110
   },
@@ -292,9 +301,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchafactory.fr",
-    "thesdirect.com",
-    "thesdirect.com"
+    "google.com",
+    "grossiste-boite.com",
+    "google.com"
    ],
    "volume": 90
   },
@@ -305,11 +314,11 @@
    "language_code": "nl",
    "keyword": "matcha groothandel",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 7,
    "top3": [
-    "nl.richingmatcha.com",
-    "reddit.com",
-    "22matcha.com"
+    "google.com",
+    "funkymatcha.com",
+    "shinrintea.nl"
    ],
    "volume": 40
   },
@@ -322,9 +331,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchashop.de",
-    "matchashop.de",
-    "chtmatcha.com"
+    "google.com",
+    "alveus.eu",
+    "google.com"
    ],
    "volume": 20
   },
@@ -337,9 +346,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchaandco.com",
-    "matchaandco.com",
-    "matchamatcha.es"
+    "faire.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 20
   },
@@ -352,9 +361,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchabros.pl",
-    "hurtowniakawyherbaty.pl",
-    "sakuromatcha.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 20
   },
@@ -366,11 +375,7 @@
    "keyword": "bio matcha großhandel",
    "pos_sfp": null,
    "pos_pmp": null,
-   "top3": [
-    "keiko.de",
-    "funkymatcha.com",
-    "de.richingmatcha.com"
-   ],
+   "top3": [],
    "volume": 10
   },
   {
@@ -382,9 +387,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "heymatcha.nl",
-    "vehgroshop.nl",
-    "matchaguide.co.uk"
+    "teabar.nl",
+    "google.com",
+    "google.com"
    ],
    "volume": 10
   },
@@ -395,11 +400,11 @@
    "language_code": "es",
    "keyword": "proveedor de matcha",
    "pos_sfp": null,
-   "pos_pmp": 1,
+   "pos_pmp": null,
    "top3": [
-    "purematchapartners.com",
-    "alveus.eu",
-    "thematchahouse.com"
+    "kyosun.com",
+    "google.com",
+    "instagram.com"
    ],
    "volume": null
   },
@@ -410,11 +415,11 @@
    "language_code": "sv",
    "keyword": "matcha grossist",
    "pos_sfp": null,
-   "pos_pmp": 14,
+   "pos_pmp": null,
    "top3": [
-    "kyosun.com",
-    "health-bar.com",
-    "teasenz.com"
+    "google.com",
+    "matchawholesale.se",
+    "google.com"
    ],
    "volume": null
   },
@@ -427,9 +432,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchacha.dk",
     "perchs.dk",
-    "health-bar.com"
+    "matchafactory.dk",
+    "google.com"
    ],
    "volume": null
   },
@@ -441,7 +446,11 @@
    "keyword": "matcha schweiz grosshandel",
    "pos_sfp": null,
    "pos_pmp": null,
-   "top3": [],
+   "top3": [
+    "drinks.ch",
+    "google.com",
+    "google.com"
+   ],
    "volume": null
   },
   {
@@ -451,11 +460,11 @@
    "language_code": "en",
    "keyword": "how matcha is made",
    "pos_sfp": null,
-   "pos_pmp": 17,
+   "pos_pmp": 21,
    "top3": [
-    "youtube.com",
-    "reddit.com",
-    "marukyu-koyamaen.co.jp"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 2900
   },
@@ -468,9 +477,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "jadeleafmatcha.com",
+    "encha.com",
     "purematcha.com.au",
-    "senchoju.com"
+    "google.com"
    ],
    "volume": 1600
   },
@@ -481,11 +490,11 @@
    "language_code": "en",
    "keyword": "mulberry matcha",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 5,
    "top3": [
-    "instagram.com",
-    "hollandandbarrett.com",
-    "arogya.net"
+    "google.com",
+    "umami-insider.com",
+    "google.com"
    ],
    "volume": 390
   },
@@ -498,9 +507,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "youtube.com",
-    "reddit.com",
-    "ippodotea.com"
+    "tiktok.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 320
   },
@@ -513,9 +522,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "reddit.com",
-    "naokimatcha.com",
-    "fellowproducts.com"
+    "google.com",
+    "google.com",
+    "quora.com"
    ],
    "volume": 170
   },
@@ -528,9 +537,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "wholesale.jadeleafmatcha.com",
-    "heavenlytealeaves.com",
-    "maeda-en.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 1300
   },
@@ -541,11 +550,11 @@
    "language_code": "en",
    "keyword": "matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": 20,
+   "pos_pmp": 9,
    "top3": [
-    "shop.sugimotousa.com",
-    "nipponcha.us",
-    "nipponcha.us"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 1000
   },
@@ -558,9 +567,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
+    "google.com",
     "yokomatcha.com",
-    "wholesale.artoftea.com",
-    "keichamatcha.com"
+    "google.com"
    ],
    "volume": 1000
   },
@@ -571,11 +580,11 @@
    "language_code": "en",
    "keyword": "matcha powder bulk",
    "pos_sfp": null,
-   "pos_pmp": 6,
+   "pos_pmp": null,
    "top3": [
-    "matchasource.com",
-    "bulk.matcha.com",
-    "aiya-america.com"
+    "google.com",
+    "google.com",
+    "akimatcha.com"
    ],
    "volume": 720
   },
@@ -588,9 +597,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "soarorganics.com",
-    "bulk.matcha.com",
-    "keichamatcha.com"
+    "google.com",
+    "kettl.co",
+    "google.com"
    ],
    "volume": 720
   },
@@ -601,11 +610,11 @@
    "language_code": "en",
    "keyword": "matcha supplier",
    "pos_sfp": null,
-   "pos_pmp": 10,
+   "pos_pmp": null,
    "top3": [
-    "kettl.co",
-    "bulk.matcha.com",
-    "reddit.com"
+    "google.com",
+    "nipponcha.us",
+    "google.com"
    ],
    "volume": 590
   },
@@ -618,9 +627,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "nipponcha.us",
-    "nipponcha.us",
-    "bulk.matcha.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 260
   },
@@ -631,11 +640,11 @@
    "language_code": "en",
    "keyword": "ceremonial matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": 13,
+   "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "shop.sugimotousa.com",
-    "reddit.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 140
   },
@@ -648,9 +657,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "kettl.co",
-    "bulk.matcha.com",
-    "reddit.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 70
   },
@@ -661,11 +670,11 @@
    "language_code": "en",
    "keyword": "matcha wholesale uk",
    "pos_sfp": null,
-   "pos_pmp": 40,
+   "pos_pmp": null,
    "top3": [
-    "moyamatcha.co.uk",
-    "matchado.co.uk",
-    "instagram.com"
+    "google.com",
+    "google.com",
+    "matchaandco.co.uk"
    ],
    "volume": 70
   },
@@ -678,9 +687,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "ujimatchatea.com",
-    "seriouseats.com",
-    "matchadirect.kyoto"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 40
   },
@@ -691,11 +700,11 @@
    "language_code": "en",
    "keyword": "organic matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": 4,
+   "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "keichamatcha.com",
-    "wholesale.jadeleafmatcha.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 10
   },
@@ -708,9 +717,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bobabox.co.uk",
-    "bobabox.co.uk",
-    "reddit.com"
+    "matchado.co.uk",
+    "google.com",
+    "grind.co.uk"
    ],
    "volume": null
   },
@@ -721,11 +730,11 @@
    "language_code": "en",
    "keyword": "private label matcha",
    "pos_sfp": null,
-   "pos_pmp": 36,
+   "pos_pmp": 47,
    "top3": [
-    "bulk.matcha.com",
-    "facebook.com",
-    "wonnda.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 70
   },
@@ -736,11 +745,11 @@
    "language_code": "en",
    "keyword": "white label matcha",
    "pos_sfp": null,
-   "pos_pmp": 38,
+   "pos_pmp": null,
    "top3": [
-    "jp-greentea.co.jp",
-    "aiya-europe.com",
-    "facebook.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 40
   },
@@ -753,9 +762,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "aoimatcha.com",
-    "takezawa.jp.net",
-    "aiya-america.com"
+    "google.com",
+    "google.com",
+    "google.com"
    ],
    "volume": 40
   },
@@ -766,11 +775,11 @@
    "language_code": "en",
    "keyword": "matcha b2b",
    "pos_sfp": null,
-   "pos_pmp": 27,
+   "pos_pmp": null,
    "top3": [
     "matcha-dealer.com",
-    "reddit.com",
-    "mafiamatcha.com"
+    "google.com",
+    "google.com"
    ],
    "volume": 10
   },
@@ -781,11 +790,11 @@
    "language_code": "en",
    "keyword": "custom matcha blend",
    "pos_sfp": null,
-   "pos_pmp": 10,
+   "pos_pmp": null,
    "top3": [
     "bulk.matcha.com",
-    "etsy.com",
-    "pureblendtea.com"
+    "google.com",
+    "google.com"
    ],
    "volume": null
   }
@@ -793,8 +802,8 @@
  "ref_domains": {
   "superfoodspartners.com": 1,
   "purematchapartners.com": 1,
-  "jadeleafmatcha.com": 30,
-  "matchaful.com": 20,
+  "jadeleafmatcha.com": 32,
+  "matchaful.com": 21,
   "keichamatcha.com": 1,
   "matcha.com": 53
  },
@@ -802,7 +811,7 @@
   {
    "domain": "matchadb.com",
    "competitors": 3,
-   "rank": 123,
+   "rank": 133,
    "links_to": [
     "jadeleafmatcha.com",
     "matchaful.com",
@@ -813,7 +822,7 @@
   {
    "domain": "teabrands.org",
    "competitors": 3,
-   "rank": 23,
+   "rank": 19,
    "links_to": [
     "jadeleafmatcha.com",
     "matchaful.com",
@@ -920,6 +929,16 @@
    "links_to": [
     "jadeleafmatcha.com",
     "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "knowyourmatcha.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com"
    ],
    "relevant": true
   },
@@ -1044,16 +1063,6 @@
    "relevant": true
   },
   {
-   "domain": "yokomatcha.com",
-   "competitors": 2,
-   "rank": 0,
-   "links_to": [
-    "keichamatcha.com",
-    "matcha.com"
-   ],
-   "relevant": true
-  },
-  {
    "domain": "best-matcha.com",
    "competitors": 2,
    "rank": 0,
@@ -1064,21 +1073,11 @@
    "relevant": true
   },
   {
-   "domain": "booboosbakery.com",
+   "domain": "themanamatcha.com",
    "competitors": 2,
    "rank": 0,
    "links_to": [
-    "matchaful.com",
-    "matcha.com"
-   ],
-   "relevant": true
-  },
-  {
-   "domain": "zentea.dk",
-   "competitors": 2,
-   "rank": 0,
-   "links_to": [
-    "matchaful.com",
+    "keichamatcha.com",
     "matcha.com"
    ],
    "relevant": true
@@ -1104,11 +1103,31 @@
    "relevant": true
   },
   {
-   "domain": "themanamatcha.com",
+   "domain": "booboosbakery.com",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "yokomatcha.com",
    "competitors": 2,
    "rank": 0,
    "links_to": [
     "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": true
+  },
+  {
+   "domain": "zentea.dk",
+   "competitors": 2,
+   "rank": 0,
+   "links_to": [
+    "matchaful.com",
     "matcha.com"
    ],
    "relevant": true
@@ -1122,6 +1141,18 @@
     "matcha.com"
    ],
    "relevant": true
+  },
+  {
+   "domain": "rootz.global",
+   "competitors": 4,
+   "rank": 7,
+   "links_to": [
+    "jadeleafmatcha.com",
+    "matchaful.com",
+    "keichamatcha.com",
+    "matcha.com"
+   ],
+   "relevant": false
   },
   {
    "domain": "siteprice.org",
@@ -1173,7 +1204,7 @@
   {
    "domain": "scrollstash.com",
    "competitors": 3,
-   "rank": 11,
+   "rank": 23,
    "links_to": [
     "jadeleafmatcha.com",
     "matchaful.com",
@@ -1334,18 +1365,7 @@
     "matcha.com"
    ],
    "relevant": false
-  },
-  {
-   "domain": "spoonuniversity.com",
-   "competitors": 3,
-   "rank": 0,
-   "links_to": [
-    "jadeleafmatcha.com",
-    "matchaful.com",
-    "matcha.com"
-   ],
-   "relevant": false
   }
  ],
- "prospects_total": 159
+ "prospects_total": 169
 }
