@@ -48,6 +48,7 @@ Log every euro in `spend.csv`.
 1. **Day 3 of each month (routine):**
    - Claude refreshes the link gap with DataforSEO (matcha set for PMP, ube set for SFP) and updates `prospects.csv`.
    - Claude picks the 15–20 best new prospects and writes `batches/<YYYY-MM>.md` with a tailored angle and a ready-to-send email draft per prospect.
+   - Claude also looks up contact addresses (only addresses published on the site itself) and writes `batches/<YYYY-MM>-outreach-pakket.md`: every email in full, grouped by channel (A email / B form / B2 look up / C profiles), plus follow-ups after 14 days. Leonard uploads it to ChatGPT, which turns it into Gmail drafts.
 2. **Leonard (or a VA) sends the emails.** Claude cannot send email. Mark `status` = `contacted` and the date.
 3. **Weekly (measurement routines):** new referring domains are picked up automatically. Claude marks `status` = `won` with the link URL.
 4. **Quarterly:** Claude drafts the data asset. Leonard supplies the internal data (prices, MOQs, harvest notes), and the PR freelancer pitches it.
