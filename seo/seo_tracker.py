@@ -2,7 +2,7 @@
 """SFP rank tracker: per keyword/market the SERP position of superfoodspartners.com
 (and sister purematchapartners.com), top-3 domains and monthly search volume.
 Usage: python3 seo_tracker.py keywords.csv out.json"""
-import os, sys, csv, json, time, base64, datetime, urllib.request
+import os, sys, csv, json, time, base64, datetime, urllib.request, urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
 AUTH = base64.b64encode(f'{os.environ["DATAFORSEO_USERNAME"]}:{os.environ["DATAFORSEO_PASSWORD"]}'.encode()).decode()
@@ -28,6 +28,17 @@ def post(path, payload, attempts=4):
     return r
 
 
+def domain_of(item):
+    # Since Nov 2026 DataforSEO sometimes returns Google redirect links
+    # (google.com/goto?url=...) as url/domain; the breadcrumb still carries the
+    # real site ("https://example.com › path").
+    dom = (item.get("domain") or "").removeprefix("www.")
+    if dom == "google.com" and (item.get("url") or "").startswith("https://google.com/goto"):
+        crumb = (item.get("breadcrumb") or "").split(" ")[0]
+        dom = (urllib.parse.urlparse(crumb).netloc or dom).removeprefix("www.")
+    return dom
+
+
 def serp(row):
     r = post("/v3/serp/google/organic/live/advanced", [{
         "keyword": row["keyword"], "location_code": int(row["location_code"]),
@@ -36,9 +47,9 @@ def serp(row):
     pos = {"sfp": None, "pmp": None}
     for i in items:
         for dom, key in OURS.items():
-            if i["domain"].endswith(dom) and pos[key] is None:
+            if domain_of(i).endswith(dom) and pos[key] is None:
                 pos[key] = i["rank_group"]
-    top3 = [i["domain"].removeprefix("www.") for i in items[:3]]
+    top3 = [domain_of(i) for i in items[:3]]
     return {**row, "pos_sfp": pos["sfp"], "pos_pmp": pos["pmp"], "top3": top3}
 
 
