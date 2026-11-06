@@ -8,7 +8,7 @@ import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
 import { POSTS, getPost, pick } from "@/data/insights";
-import { getProduct } from "@/data/catalog";
+import { getProduct, LABELS } from "@/data/catalog";
 import { localizeProduct } from "@/data/content.i18n";
 
 export function generateStaticParams() {
@@ -46,6 +46,15 @@ export default async function InsightPost({
     .map((s) => getProduct(s))
     .filter((p): p is NonNullable<typeof p> => Boolean(p))
     .map((p) => localizeProduct(p, locale));
+  // Other guides on the same non-PMP product (e.g. the ube cluster), so each
+  // guide links its siblings; matcha/hojicha guidance belongs to PMP.
+  const clusterProducts = (post.relatedProducts ?? []).filter((s) => {
+    const p = getProduct(s);
+    return p && LABELS[p.label].id !== "pmp";
+  });
+  const moreGuides = POSTS.filter(
+    (x) => x.slug !== post.slug && x.relatedProducts?.some((s) => clusterProducts.includes(s)),
+  );
 
   const url = localizedUrl(locale, `/insights/${slug}`);
   const article = {
@@ -180,6 +189,23 @@ export default async function InsightPost({
             </div>
           ) : null}
         </div>
+
+        {moreGuides.length ? (
+          <section className="border-t border-stone/10">
+            <div className="mx-auto max-w-3xl px-6 py-12">
+              <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("moreGuides")}</h2>
+              <ul className="mt-5 flex flex-col gap-3">
+                {moreGuides.map((g) => (
+                  <li key={g.slug}>
+                    <Link href={`/insights/${g.slug}`} className="text-green underline-offset-4 hover:underline">
+                      {pick(g.title, locale)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        ) : null}
 
         {related.length ? (
           <section className="border-t border-stone/10 bg-sand">
