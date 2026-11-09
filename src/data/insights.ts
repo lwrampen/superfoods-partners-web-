@@ -1285,4 +1285,88 @@ export const POSTS: InsightPost[] = [
     ],
     relatedProducts: ["ube"],
   },
+  {
+    slug: "what-does-ube-taste-like-ube-flavor-guide",
+    date: "2026-11-09",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder, the ingredient behind real ube flavour"),
+    category: E("Ingredient guide"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("What does ube taste like? A flavour guide for product developers"),
+    metaTitle: E("What Does Ube Taste Like? Ube Flavor Guide for B2B"),
+    metaDescription: E("Ube tastes soft, sweet and vanilla-like with a coconut note. How its flavour differs from taro and purple sweet potato, and how to build it into drinks, bakery and desserts."),
+    dek: E("\"Ube flavor\" is searched tens of thousands of times a month, yet the word covers very different things. Here is what the ingredient itself tastes like and how to build it into a product."),
+    lede: E("Ube tastes soft and sweet, with a vanilla-like character and a gentle coconut note, and only a mild earthiness underneath. That is the flavour of ube powder made from purple yam (Dioscorea alata). It is quieter than its colour suggests, which is the main thing a product developer needs to plan for."),
+    sections: [
+      {
+        heading: E("What ube tastes like"),
+        body: [
+          E("The usual description is a soft, rounded sweetness with vanilla-like and nutty tones, sometimes compared to coconut, and a faint earthy base that reminds people it is a root. It is not sharp, fruity or bitter, which is why it sits comfortably in milk-based drinks, custards and baked goods."),
+          E("Interest in the flavour is large. In US search data, \"ube flavor\" draws roughly 27,000 searches a month, \"what does ube taste like\" roughly 14,800 and \"ube extract\" roughly 9,900 (Google Ads keyword data, United States). Many of those people have only met ube as a colour or as a menu name, so a product that tastes the way the name promises has an advantage."),
+        ],
+      },
+      {
+        heading: E("Ube flavour is not one thing"),
+        body: [
+          E("\"Ube flavored\" on a label can mean different things. Some products rely on added flavourings and colours to imitate the idea of ube; others get colour and flavour from the purple yam itself. If your brief is a product that tastes and looks like ube because it contains ube, the specification should name the ingredient, purple yam (Dioscorea alata), and say what form it comes in."),
+          E("We supply ube as a powder milled from the yam. It is a food ingredient with a documented origin, not a flavouring, and the flavour you get depends on how much you use and what you pair it with."),
+        ],
+      },
+      {
+        heading: E("Ube compared with taro and purple sweet potato"),
+        body: [
+          E("The three are often confused, and they taste different. Ube is the sweetest and most vanilla-like of the three. Taro is milder and more starchy, with a subtle nutty flavour. Purple sweet potato tastes like a sweet potato, more earthy and less vanilla-like than ube, and its colour varies by variety."),
+          E("None of this makes one better. It means the right choice follows the brief: a sweet, vanilla-leaning purple points to ube, a mild creamy base can point to taro, and some applications suit a blend. Tell us what you are making and we will recommend the material."),
+        ],
+      },
+      {
+        heading: E("Building the flavour into a product"),
+        body: [
+          E("Plan for the fact that colour and flavour do not scale together. A little ube powder can make a product look strongly purple while the taste stays mild, so judge flavour by tasting, not by colour. Build the recipe around the powder first, and add sweetener last, because ube already brings its own sweetness."),
+          E("Ube pairs naturally with milk, coconut and vanilla, and those partners lift the flavour rather than cover it. Natural colour can shift with acidity, so test in the exact base, whether that is dairy, a plant milk, a batter or a filling, and check how both colour and flavour hold after heat, freezing or storage."),
+        ],
+      },
+      {
+        heading: E("What to specify when you source"),
+        body: [
+          E("Ask for the botanical name (Dioscorea alata), the origin, and a certificate of analysis for each batch, then approve a sample in your own recipe before you scale. We manage supply at origin in the Philippines and China, with organic from China and conventional from both, and every batch ships with a certificate of analysis and a Verification Record."),
+          E("The powder is on our ube product page, and the label behind it is Pure Ube Partners. For lattes, see our guide on formulating an ube latte for cafe menus, and for the botanical differences, our guide to ube, taro and purple sweet potato."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Flavour"), value: E("Soft, sweet, vanilla-like, mild coconut note") },
+      { label: E("Source"), value: E("Purple yam, Dioscorea alata") },
+      { label: E("Colour"), value: E("Naturally violet, no artificial dye") },
+      { label: E("Caffeine"), value: E("Caffeine-free") },
+      { label: E("Pairs with"), value: E("Milk, coconut, vanilla") },
+      { label: E("Origins"), value: E("Philippines and China") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("What does ube taste like?"),
+        a: E("Ube tastes soft and sweet with a vanilla-like character, a gentle coconut note and a mild earthy base. It is quieter than its vivid purple colour suggests."),
+      },
+      {
+        q: E("Does ube taste like taro?"),
+        a: E("No. Ube is sweeter and more vanilla-like; taro is milder, more starchy and subtly nutty. They are different plants."),
+      },
+      {
+        q: E("Does ube taste like purple sweet potato?"),
+        a: E("Not quite. Purple sweet potato tastes like a sweet potato, more earthy; ube is a yam with a softer, more vanilla-like sweetness."),
+      },
+      {
+        q: E("Is ube powder the same as ube flavoring?"),
+        a: E("No. Ube powder is milled from the purple yam itself and gives colour and flavour as a food ingredient. Flavourings are a different product type, so check what a label or spec actually lists."),
+      },
+      {
+        q: E("Which material is right for my product?"),
+        a: E("It depends on the application. We supply ube, taro and blends, so tell us what you are making and we recommend the right material."),
+      },
+    ],
+    relatedProducts: ["ube"],
+  },
 ];
