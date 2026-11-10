@@ -14,14 +14,7 @@ function Silhouette() {
 }
 
 // Group the roster by operating location, in a stable, sensible order.
-const LOCATION_ORDER = [
-  "Hong Kong",
-  "Netherlands",
-  "Europe",
-  "Eastern Europe",
-  "Barcelona",
-  "United States",
-];
+const LOCATION_ORDER = ["Hong Kong", "Europe", "United States"];
 function groupByLocation(members: TeamMember[]): { location: string; members: TeamMember[] }[] {
   const byLoc = new Map<string, TeamMember[]>();
   for (const m of members) {
@@ -70,7 +63,7 @@ export function TeamSection({ members }: { members: TeamMember[] }) {
               {g.members.map((m, i) => (
                 <Reveal key={`${m.name}-${i}`} delay={(i % 4) * 0.05}>
                   <figure className="flex flex-col items-center text-center">
-                    <div className="relative aspect-square w-full max-w-[190px] overflow-hidden rounded-full bg-sand ring-1 ring-stone/10">
+                    <div className="relative aspect-square w-full max-w-[190px] overflow-hidden rounded-lg bg-[#EBEAE4]">
                       {m.photo ? (
                         <Image src={m.photo} alt={m.name} fill className="object-cover" sizes="(min-width: 1024px) 190px, 40vw" />
                       ) : (

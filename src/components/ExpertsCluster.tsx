@@ -53,7 +53,7 @@ export function ExpertsCluster({
                   fill
                   sizes="40px"
                   className="object-cover"
-                  style={{ objectPosition: "50% 16%" }}
+                  style={{ objectPosition: "50% 35%" }}
                 />
               </span>
             );
