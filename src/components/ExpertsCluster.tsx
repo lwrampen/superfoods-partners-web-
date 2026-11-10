@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import type { TeamMember } from "@/data/trust";
 
-// "Real people behind it" cue: a link + an auto-scrolling strip of circular
-// team avatars. About six show at once; the strip scrolls on its own so the
+// "Real people behind it" cue: a link + an auto-scrolling strip of small square
+// team avatars (the portraits' own dark green tile). About six show at once; the strip scrolls on its own so the
 // whole team cycles through without crowding the row. Pure CSS marquee —
 // pauses on hover and freezes under prefers-reduced-motion.
 export function ExpertsCluster({
@@ -45,7 +45,7 @@ export function ExpertsCluster({
                 key={`${m.name}-${i}`}
                 title={dup ? undefined : m.name}
                 aria-hidden={dup || undefined}
-                className={`relative h-10 w-10 shrink-0 overflow-hidden rounded-full bg-sand ring-2 ${ring}`}
+                className={`relative h-10 w-10 shrink-0 overflow-hidden rounded-[22%] bg-[#1C2A1C] ring-2 ${ring}`}
               >
                 <Image
                   src={m.photo!}

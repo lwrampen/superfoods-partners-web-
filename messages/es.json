@@ -367,7 +367,13 @@
     "Sourcing": "Abastecimiento",
     "Partnerships": "Alianzas",
     "Quality control": "Control de calidad",
-    "Hong Kong": "Hong Kong"
+    "Hong Kong": "Hong Kong",
+    "Europe": "Europa",
+    "United States": "Estados Unidos",
+    "Sales": "Ventas",
+    "Sales, consulting & strategy": "Ventas, consultoría y estrategia",
+    "Digital strategy & operations": "Estrategia digital y operaciones",
+    "Sales & supply chain": "Ventas y cadena de suministro"
   },
   "sourcingMap": {
     "aria": "Dónde se abastece Superfoods Partners, fluyendo a nuestra ubicación más cercana"

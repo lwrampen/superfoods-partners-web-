@@ -367,7 +367,13 @@
     "Sourcing": "採購",
     "Partnerships": "夥伴關係",
     "Quality control": "品質管制",
-    "Hong Kong": "香港"
+    "Hong Kong": "香港",
+    "Europe": "歐洲",
+    "United States": "美國",
+    "Sales": "業務",
+    "Sales, consulting & strategy": "業務、顧問與策略",
+    "Digital strategy & operations": "數位策略與營運",
+    "Sales & supply chain": "業務與供應鏈"
   },
   "sourcingMap": {
     "aria": "Superfoods Partners 的採購地,流向我們最近的據點"
