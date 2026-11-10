@@ -373,7 +373,10 @@
     "Sales": "Sales",
     "Sales, consulting & strategy": "Sales, consulting & strategy",
     "Digital strategy & operations": "Digital strategy & operations",
-    "Sales & supply chain": "Sales & supply chain"
+    "Sales & supply chain": "Sales & supply chain",
+    "Food scientist": "Food scientist",
+    "Office manager, Hong Kong": "Office manager, Hong Kong",
+    "Office manager, Amsterdam": "Office manager, Amsterdam"
   },
   "sourcingMap": {
     "aria": "Where Superfoods Partners sources, flowing to our nearest location"

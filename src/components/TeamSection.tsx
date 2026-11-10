@@ -63,9 +63,9 @@ export function TeamSection({ members }: { members: TeamMember[] }) {
               {g.members.map((m, i) => (
                 <Reveal key={`${m.name}-${i}`} delay={(i % 4) * 0.05}>
                   <figure className="flex flex-col items-center text-center">
-                    <div className={`relative aspect-square w-full max-w-[190px] overflow-hidden rounded-[16%] ${m.photo?.endsWith(".webp") ? "" : "bg-sand"}`}>
+                    <div className="relative aspect-square w-full max-w-[190px] overflow-hidden rounded-lg bg-[#EBEAE4]">
                       {m.photo ? (
-                        <Image src={m.photo} alt={m.name} fill className={m.photo.endsWith(".webp") ? "object-contain" : "object-cover"} sizes="(min-width: 1024px) 190px, 40vw" />
+                        <Image src={m.photo} alt={m.name} fill className="object-cover" sizes="(min-width: 1024px) 190px, 40vw" />
                       ) : (
                         <Silhouette />
                       )}
