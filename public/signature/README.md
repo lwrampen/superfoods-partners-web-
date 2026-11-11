@@ -39,3 +39,10 @@ los bestand is en geen HTML.
 Deze map staat in de `public/`-folder, dus zodra de wijziging naar `main` gaat,
 deployt Vercel 'm en zijn de URL's hierboven live. Een nieuwe of overschreven
 `.gif` is na de eerstvolgende deploy zichtbaar.
+
+## Team-handtekeningen (november 2026)
+
+Per teamlid een kopieerpagina `<voornaam>.html` en een portret `portret-<voornaam>.png` (400×400, limegroen,
+rond getoond op 92 px). Allemaal met `sfp-logo.png`, `pmp-logo-forest.png` en `handtekening-balk-rond.gif`:
+bo-gyi, brian, emily, gino, jade, judith, leonard, lucinda, max, oisin, robbert-jan, wanjin.
+Links: `https://superfoodspartners.com/signature/<voornaam>.html`.
