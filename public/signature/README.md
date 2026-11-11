@@ -42,7 +42,8 @@ deployt Vercel 'm en zijn de URL's hierboven live. Een nieuwe of overschreven
 
 ## Team-handtekeningen (november 2026)
 
-Per teamlid een kopieerpagina `<voornaam>.html` en een portret `portret-<voornaam>.png` (400×400, limegroen,
-rond getoond op 92 px). Allemaal met `sfp-logo.png`, `pmp-logo-forest.png` en `handtekening-balk-rond.gif`:
-bo-gyi, brian, emily, gino, jade, judith, leonard, lucinda, max, oisin, robbert-jan, wanjin.
-Links: `https://superfoodspartners.com/signature/<voornaam>.html`.
+Alle handtekeningen staan op één pagina: **https://superfoodspartners.com/signatures** (teamcode 4242, of de
+env-var `SIGNATURE_PIN`). Code: `src/app/signatures/` (`data.ts` = de handtekening per persoon). Per teamlid
+staat hier alleen het portret `portret-<voornaam>.png` (400×400, limegroen, rond getoond op 92 px); de
+handtekeningen gebruiken verder `sfp-logo.png`, `pmp-logo-forest.png` en `handtekening-balk-rond.gif`.
+De losse pagina's per persoon (`leonard.html`, `jade.html`) zijn vervangen door die ene pagina.
