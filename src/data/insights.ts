@@ -1369,4 +1369,88 @@ export const POSTS: InsightPost[] = [
     ],
     relatedProducts: ["ube"],
   },
+  {
+    slug: "ube-milk-tea-boba-ube-powder-for-bubble-tea-shops",
+    date: "2026-11-12",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder for milk tea and boba drinks"),
+    category: E("Formulation"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("Ube milk tea and boba: sourcing ube powder for bubble tea shops"),
+    metaTitle: E("Ube Milk Tea & Boba — Ube Powder for Bubble Tea Shops"),
+    metaDescription: E("How a bubble tea shop or drink brand can source ube powder for ube milk tea and boba: consistency across outlets, formulation, what to test and what documents to ask for."),
+    dek: E("Ube milk tea and ube boba are standing orders on many bubble tea menus. The hard part is making them taste and look the same in every outlet."),
+    lede: E("For ube milk tea and boba, a bubble tea shop needs an ube powder that dissolves cleanly, gives a stable violet colour and tastes the same lot after lot. Our ube powder is milled from purple yam (Dioscorea alata), is naturally violet and caffeine-free, and ships with a certificate of analysis for every batch, so one approved sample can become the standard for every outlet."),
+    sections: [
+      {
+        heading: E("Why ube is on tea-shop menus"),
+        body: [
+          E("Ube is one of the most recognisable purple drinks. In US search data, \"ube boba\" draws roughly 1,600 searches a month, \"ube milk tea\" roughly 1,300 and \"ube bubble tea\" roughly 260, while \"bubble tea supplier\" draws roughly 1,000 (Google Ads keyword data, United States). Customers ask for it by name, and shops and drink brands are looking for a reliable source."),
+          E("A tea shop does not sell a single drink. It sells the same drink at many counters, on many days, made by many people. That is why the supplier question matters as much as the recipe."),
+        ],
+      },
+      {
+        heading: E("Consistency across outlets is the real brief"),
+        body: [
+          E("A powder gives a shop a fixed specification: approve one sample, then reorder against it. Ask that every later lot is matched to the approved sample for colour, flavour and fineness, and compare lots side by side before they reach the outlets."),
+          E("Our ube powder is milled from mature purple yam (Dioscorea alata) for a clean, naturally violet colour and a soft, vanilla-like sweetness, with no artificial dye. We manage supply at origin in the Philippines and China, and every batch is screened and documented before it ships."),
+        ],
+      },
+      {
+        heading: E("Formulating ube milk tea and boba"),
+        body: [
+          E("Dissolution comes first. Test how the powder behaves in your actual process: hot water, cold water, a pre-mixed base, a shaker. Mixing the powder into a smooth paste or base before it meets the rest of the drink is the usual way to avoid clumps, and it is worth confirming on a sample, not a production run."),
+          E("Then test the whole drink. Milk or non-dairy creamer, sweetener and ice all change how ube reads in the cup, and toppings such as tapioca pearls change how sweet the drink needs to be. Because ube already brings its own soft sweetness, add sweetener last and taste as you go."),
+          E("Watch the colour with acidic ingredients. Natural colour can shift with acidity, so if a drink combines ube with fruit or a tart tea, check the shade before and after it sits."),
+        ],
+      },
+      {
+        heading: E("Ube, taro and tea powders on one menu"),
+        body: [
+          E("Many tea shops run more than one purple or creamy flavour. Ube gives a vivid violet with a vanilla-like sweetness; taro gives a milder, creamier base. We supply ube, taro and blends, and we also supply tea powders such as jasmine, oolong and earl grey. Tell us the drink you are building and we will recommend the right material for it, rather than assume one product fits every menu."),
+        ],
+      },
+      {
+        heading: E("What to ask for before you scale"),
+        body: [
+          E("Ask for the botanical name on the specification (Dioscorea alata), the origin of the lot, and a certificate of analysis for each batch. Ours ship with a certificate of analysis and a Verification Record. Ube powder is packed from 1 kg (2.2 lb) foil bags to 25 kg (55 lb) cartons and full containers, with organic from China and conventional from both origins."),
+          E("We send samples first so you can approve flavour, colour and mixing before you commit to volume. You can request one through our contact page. More on the powder is on our ube product page, and the label behind it is Pure Ube Partners."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Source"), value: E("Purple yam, Dioscorea alata") },
+      { label: E("Colour and flavour"), value: E("Naturally violet, soft vanilla-like sweetness") },
+      { label: E("Caffeine"), value: E("Caffeine-free") },
+      { label: E("Origins"), value: E("Philippines and China") },
+      { label: E("Grades"), value: E("Organic (China) and conventional") },
+      { label: E("Packaging"), value: E("1 kg (2.2 lb) foil to 25 kg (55 lb) carton to full container") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("What do I need to make ube milk tea with powder?"),
+        a: E("A finely milled ube powder, a base to disperse it into smoothly, your milk or creamer and sweetener. Add sweetener last, because ube is already lightly sweet, and approve a sample in your own recipe."),
+      },
+      {
+        q: E("Can ube powder be used for ube boba?"),
+        a: E("Yes. Ube powder is used for the drink base. Test it with your toppings and sweetness level, since pearls and other toppings change how sweet the drink needs to be."),
+      },
+      {
+        q: E("How do I keep ube milk tea consistent across outlets?"),
+        a: E("Approve one sample, ask that every later lot is matched to it, and compare lots before they reach outlets. A certificate of analysis for each batch documents what you receive."),
+      },
+      {
+        q: E("Do you only supply ube?"),
+        a: E("No. We also supply taro powder, blends and tea powders such as jasmine, oolong and earl grey. Tell us the drink and we recommend the right material."),
+      },
+      {
+        q: E("How do I request a sample?"),
+        a: E("Use our contact page. We send samples first so you can approve colour, flavour and mixing behaviour before you order volume."),
+      },
+    ],
+    relatedProducts: ["ube", "jasmine-tea-powder", "oolong-tea-powder", "earl-grey-tea-powder"],
+  },
 ];
