@@ -1763,5 +1763,231 @@
    "relevant": false
   }
  ],
- "prospects_total": 170
+ "prospects_total": 170,
+ "ai": {
+  "ao_serps": 0,
+  "ao_ours": 0,
+  "ao_measured": false,
+  "date": "2026-11-12",
+  "mentioned": 0.125,
+  "cited": 0.104,
+  "retrieved": 0.125,
+  "per_engine": {
+   "chat_gpt": {
+    "mentioned": 0.167,
+    "cited": 0.167,
+    "retrieved": 0.333,
+    "answers": 12
+   },
+   "perplexity": {
+    "mentioned": 0.0,
+    "cited": 0.0,
+    "retrieved": 0.0,
+    "answers": 12
+   },
+   "gemini": {
+    "mentioned": 0.167,
+    "cited": 0.083,
+    "retrieved": 0.0,
+    "answers": 12
+   },
+   "claude": {
+    "mentioned": 0.167,
+    "cited": 0.167,
+    "retrieved": 0.167,
+    "answers": 12
+   }
+  },
+  "top_cited": [
+   [
+    "theorganiclabs.com",
+    11
+   ],
+   [
+    "kapsoo-ube.com",
+    7
+   ],
+   [
+    "ube-nolia.com",
+    7
+   ],
+   [
+    "supplier-ube.com",
+    7
+   ],
+   [
+    "vovanglobal.de",
+    6
+   ],
+   [
+    "allreasons.eu",
+    5
+   ],
+   [
+    "bigmoca.nl",
+    5
+   ],
+   [
+    "superfoodspartners.com",
+    5
+   ],
+   [
+    "accio.com",
+    5
+   ],
+   [
+    "faire.com",
+    5
+   ],
+   [
+    "philippineube.com",
+    4
+   ],
+   [
+    "ubesuperfood.com",
+    3
+   ]
+  ],
+  "prompts": [
+   {
+    "prompt": "Where can I buy ube powder wholesale for my bakery or brand?",
+    "market": "US",
+    "cluster": "Ube",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "cited"
+    }
+   },
+   {
+    "prompt": "Who are the best bulk ube powder suppliers? Please name companies and websites.",
+    "market": "US",
+    "cluster": "Ube",
+    "engines": {
+     "chat_gpt": "cited",
+     "perplexity": "none",
+     "gemini": "cited",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Which suppliers sell ube (purple yam) powder in bulk in Europe?",
+    "market": "EU",
+    "cluster": "Ube",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Wo kann ich Ube-Pulver im Großhandel kaufen?",
+    "market": "DE",
+    "cluster": "Ube",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Which B2B suppliers sell superfood powders like ube",
+    "market": "US",
+    "cluster": "Superfood powders",
+    "engines": {
+     "chat_gpt": "cited",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Where can a beverage brand source butterfly pea flower powder wholesale?",
+    "market": "US",
+    "cluster": "Superfood powders",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Who are good wholesale suppliers of hibiscus powder for food and drink manufacturers?",
+    "market": "US",
+    "cluster": "Hibiscus",
+    "engines": {
+     "chat_gpt": "retrieved",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Which suppliers offer private label superfood powder blends for new brands?",
+    "market": "US",
+    "cluster": "Superfood powders",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Where can businesses buy functional mushroom powders in bulk?",
+    "market": "US",
+    "cluster": "Mushroom powders",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Where can I buy taro powder wholesale for a bubble tea shop?",
+    "market": "US",
+    "cluster": "Taro",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "none"
+    }
+   },
+   {
+    "prompt": "Which ingredient suppliers in Europe and Asia sell lab-tested superfood powders in bulk to brands?",
+    "market": "EU",
+    "cluster": "Superfood powders",
+    "engines": {
+     "chat_gpt": "none",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "cited"
+    }
+   },
+   {
+    "prompt": "Gdzie kupić proszek ube hurtowo dla piekarni lub marki?",
+    "market": "PL",
+    "cluster": "Ube",
+    "engines": {
+     "chat_gpt": "retrieved",
+     "perplexity": "none",
+     "gemini": "mentioned",
+     "claude": "none"
+    }
+   }
+  ],
+  "history": [
+   {
+    "date": "2026-11-12",
+    "mentioned": 0.125,
+    "cited": 0.104
+   }
+  ]
+ }
 }
