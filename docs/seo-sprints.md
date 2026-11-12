@@ -69,6 +69,50 @@ Het plan staat in `docs/seo/linkbuilding/` op de `seo-tracking`-branch.
 
 ---
 
+## 2026-11-04 — Ube-cluster: kannibalisatie, cluster-links, merk-schema
+
+### Data-snapshot
+Search Console, 06-10 t/m 02-11 vs. 08-09 t/m 05-10:
+
+| KPI | Nu | Vorige 28d |
+|---|---|---|
+| Klikken | 108 | 73 |
+| Vertoningen | 1.945 | 937 |
+| CTR | 5,6% | 7,8% |
+| Gem. positie | 10,3 | 11,1 |
+| RFQ's (`generate_lead`, alle kanalen) | 16 | 14 |
+| Organische RFQ's | 5 | 4 |
+
+- **12 van de 16 RFQ's komen binnen op `/products/ube`** (5 direct, 4 organisch, 3 via AI-assistenten).
+- `generate_lead` is nog steeds geen key event in GA4 (keyEvents = 0).
+- **Nieuw in GA4:** 150 sessies met het kanaal "Unassigned" (vorige periode 0). Waarschijnlijk tracking of UTM's; Leonard laten nakijken.
+- Vertoningen verdubbeld, vooral door de zh-Hant ube-gids (795 vertoningen, positie 7,7, CTR 1,4%). Veel zoekopdrachten zijn in vereenvoudigd Chinees ("ube是什么", "ube是紫薯吗").
+
+**Effect vorige sprints**
+- `/products/ube` is nu geïndexeerd in **alle 6 locales** (was: alleen EN sinds 25-10). `/products` is ook geïndexeerd. Ube-doel 1 van Q1 is gehaald.
+- `/products/hibiscus`, `/products/lions-mane` en de EN-gids `/insights/what-is-ube-powder` staan nog op *Discovered – not indexed*.
+- zh-Hant ube-gids: vertoningen 313 → 795, maar CTR 2,9% → 1,4% en positie 7,1 → 7,7.
+- `/catalog/ube` (oude URL) heeft nog 131 vertoningen; de 308 naar `/products/ube` blijft staan.
+
+### Ingrepen
+1. **Kannibalisatie opgelost (EN).** De EN-meta van "What is ube powder" ging op 21-10 over "ube vs taro & purple sweet potato", en dat is precies het onderwerp van de nieuwe, wél geïndexeerde vs-gids (#57). De EN-meta mikt nu op "what is ube" (90,5k) en smaak ("ube flavor", 27,1k): "What Is Ube? Ube Flavour, Colour & Uses of Ube Powder". De andere locales houden hun meta, omdat de vs-gids daar alleen in het Engels bestaat.
+2. **Cluster-links tussen gidsen.** Elke insight toont nu "More guides on this ingredient": de andere gidsen over hetzelfde product. Matcha- en hojicha-gidsen zijn uitgesloten (PMP). Zo linken de geïndexeerde vs- en latte-gids naar de nog niet geïndexeerde EN-gids.
+3. **Merk in structured data.** `Product.brand` op de PDP is nu het label waaronder het product valt: ube wordt Pure Ube Partners, matcha en hojicha Pure Matcha Partners, de rest Superfoods Partners. `/pure-ube-partners` krijgt Organization-JSON-LD met `parentOrganization` Superfoods Partners (backlog item 2).
+4. **zh-Hant-gids beantwoordt de vraag in de eerste zin:** "Ube 是什麼？Ube 是菲律賓的紫山藥（又稱大薯）……不是紫薯，也不是芋頭。" Dat is de vraag achter de top-zoekopdrachten.
+5. **Outreach-pakket** voor de ube-latte-gids: `docs/outreach/2026-11-ube-latte-pitch.md` (thema 3).
+
+### Verwacht effect
+- De EN-gids wordt binnen 2–4 weken geïndexeerd en gaat ranken op "what is ube" in plaats van te concurreren met de vs-gids.
+- zh-Hant: positie 7,7 → ≤ 6 en CTR terug naar ≥ 3% (ongeveer +15 klikken per 28 dagen).
+- Rich results en merkherkenning: Google koppelt Pure Ube Partners aan SFP.
+
+### Volgende sprint meten
+- URL Inspection: `/insights/what-is-ube-powder`, `/products/hibiscus`, `/products/lions-mane`.
+- GSC: zh-Hant-gids (nulmeting 795 vertoningen / 1,4% / positie 7,7). Vertoningen van de EN-gids op "what is ube".
+- GA4: RFQ's (nulmeting 16, waarvan 12 op ube; organisch 5). Is het "Unassigned"-kanaal verklaard?
+
+---
+
 ## 2026-10-31 — tussendoor: crawlbudget naar SFP-pagina's (thema 1 + 4)
 
 **Aanleiding (meting 30-10):** SFP staat op 0/52 termen in de top-50. Google indexeert maar een deel van de site: `/products/ube` sinds 25-10 wel, maar `/products`, hibiscus, lion's mane en de EN ube-gids staan op *Discovered – not indexed*, en `/de/products/ube` is onbekend. Met 1 echt verwijzend domein krijgt de site weinig crawls, die nu over ~220 URL's verspreid worden.

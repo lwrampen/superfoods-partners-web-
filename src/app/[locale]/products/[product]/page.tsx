@@ -123,6 +123,7 @@ export default async function ProductPage({
   };
   // Product schema — B2B/quote-based, so no price Offer (avoids invalid
   // merchant-listing markup); brand, category and origins carry the signal.
+  // Brand is the specialist label the product is sold under (e.g. Pure Ube Partners).
   const productLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -131,7 +132,7 @@ export default async function ProductPage({
     category: p.category,
     image: `https://www.superfoodspartners.com${p.img}`,
     url: localizedUrl(locale, `/products/${p.slug}`),
-    brand: { "@type": "Brand", name: "Superfoods Partners" },
+    brand: { "@type": "Brand", name: LABELS[base.label].name },
     countryOfOrigin: [...new Set(origins.map((o) => o.country).filter(Boolean))],
     additionalProperty: [
       { "@type": "PropertyValue", name: "Certifications", value: certs },
