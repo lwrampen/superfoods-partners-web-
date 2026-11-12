@@ -8,7 +8,8 @@ Weekly measurement for the **SFP Search Command** dashboard
 | `keywords.csv` | Tracked keyword universe: cluster, market, DataforSEO location/language |
 | `seo_tracker.py keywords.csv snapshots/rankings-<date>.json` | SERP top-50 position of SFP + PMP, top-3 domains, search volume (~$1/run) |
 | `seo_metrics.py snapshots/metrics-<date>.json [--no-linkgap]` | Search Console 28/90d, quality referring domains vs competitors, competitor link-gap (~$0.20/run) |
-| `build_data.py snapshots dashboard/data.json` | Latest + history → dashboard data |
+| `ai_visibility.py ai_prompts.csv <sfp|pmp> <dir>/ai-<date>.json [--max-cost 4]` | AI-answer visibility: buyer questions to ChatGPT, Perplexity, Gemini, Claude (web search on) → mentioned / cited / retrieved + most-cited competitors + the engines' own search queries (~$2/run PMP, ~$1.3 SFP) |
+| `build_data.py snapshots dashboard/data.json` | Latest + history → dashboard data (incl. `ai`: AI answers + Google AI Overviews from the rankings run) |
 | `make_page.py dashboard/index.html dashboard/data.json <out.html>` | Page with data embedded (only needed when the page itself changes) |
 
 Env: `DATAFORSEO_USERNAME`, `DATAFORSEO_PASSWORD`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`.
@@ -22,8 +23,11 @@ PMP site is Webflow (site id `6798bd1e4b234bad93cdaa9c`), not this repo; this br
 cd seo
 python3 seo_tracker.py pmp/keywords.csv pmp/snapshots/rankings-$D.json
 python3 seo_metrics.py pmp/snapshots/metrics-$D.json --site=pmp [--no-linkgap]
+python3 ai_visibility.py ai_prompts.csv pmp pmp/snapshots/ai-$D.json --max-cost 4
 python3 build_data.py pmp/snapshots pmp/dashboard/data.json pmp
 ```
+SFP: `python3 ai_visibility.py ai_prompts.csv sfp snapshots/ai-$D.json --max-cost 3` before `build_data.py`.
+PMP site moved from Webflow to Next.js on 12 Nov 2026 (repo lwrampen/pure-matcha-partners-web); the Webflow notes below are history.
 `build_data.py <dir> <out> sfp|pmp` sets the primary brand; the dashboard template reads `primary` from data.json.
 
 ### PMP site snapshot (`seo/pmp/site/`)

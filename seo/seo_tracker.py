@@ -50,7 +50,12 @@ def serp(row):
             if domain_of(i).endswith(dom) and pos[key] is None:
                 pos[key] = i["rank_group"]
     top3 = [domain_of(i) for i in items[:3]]
-    return {**row, "pos_sfp": pos["sfp"], "pos_pmp": pos["pmp"], "top3": top3}
+    # Google AI Overview: present on this SERP, and do its sources include us?
+    allitems = (r["tasks"][0]["result"] or [{}])[0].get("items") or []
+    ao = next((i for i in allitems if i.get("type") == "ai_overview"), None)
+    blob = json.dumps(ao or {}).lower()
+    ao_info = {"ai_overview": bool(ao), "ao_sfp": "superfoodspartners.com" in blob, "ao_pmp": "purematchapartners.com" in blob}
+    return {**row, "pos_sfp": pos["sfp"], "pos_pmp": pos["pmp"], "top3": top3, **ao_info}
 
 
 def volumes(rows):

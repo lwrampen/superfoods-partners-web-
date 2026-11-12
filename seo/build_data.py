@@ -19,6 +19,29 @@ def load(pattern):
     return out
 
 
+def ai_block(d, me, kws):
+    """AI answers (ai-*.json from ai_visibility.py) + Google AI Overviews (from the rankings snapshot)."""
+    snaps = [x for x in load(os.path.join(d, "ai-*.json")) if x.get("brand") == me]
+    ao = [k for k in kws if k.get("ai_overview")]
+    block = {"ao_serps": len(ao), "ao_ours": sum(1 for k in ao if k.get("ao_" + me)), "ao_measured": any("ai_overview" in k for k in kws)}
+    if not snaps:
+        return block
+    last = snaps[-1]
+    s = last["summary"]
+    prompts = []
+    for r in last["results"]:
+        if r.get("error"):
+            continue
+        p = next((x for x in prompts if x["prompt"] == r["prompt"]), None)
+        if not p:
+            p = {"prompt": r["prompt"], "market": r.get("market"), "cluster": r.get("cluster"), "engines": {}}
+            prompts.append(p)
+        p["engines"][r["engine"]] = "cited" if r.get("cited") else "mentioned" if r.get("mentioned") else "retrieved" if r.get("retrieved") else "none"
+    return block | {"date": last["date"], "mentioned": s["mentioned"], "cited": s["cited"], "retrieved": s["retrieved"],
+                    "per_engine": s["per_engine"], "top_cited": s["top_cited_domains"][:12], "prompts": prompts,
+                    "history": [{"date": x["date"], "mentioned": x["summary"]["mentioned"], "cited": x["summary"]["cited"]} for x in snaps]}
+
+
 def main(d, out, primary="sfp"):
     me, other = primary, ("pmp" if primary == "sfp" else "sfp")
     my_domain = "superfoodspartners.com" if me == "sfp" else "purematchapartners.com"
@@ -60,7 +83,8 @@ def main(d, out, primary="sfp"):
             "keywords": sorted(kws, key=lambda k: (k["cluster"], -(k.get("volume") or 0))),
             "ref_domains": {k: v["count"] for k, v in (m.get("ref_domains") or {}).items()},
             "prospects": [p for p in gap if p["relevant"]][:60] + [p for p in gap if not p["relevant"]][:20],
-            "prospects_total": len(gap)}
+            "prospects_total": len(gap),
+            "ai": ai_block(d, me, kws)}
     json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("wrote", out, "| clusters", len(data["clusters"]), "| keywords", len(kws), "| prospects", len(data["prospects"]))
 

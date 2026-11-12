@@ -140,6 +140,16 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
     <div class="tablebox"><table id="kw"><thead><tr><th>Zoekterm</th><th>Markt</th><th class="r">Volume</th><th id="k-me">SFP</th><th id="k-ot">PMP</th><th>Top-3 nu</th></tr></thead><tbody></tbody></table></div>
   </section>
 
+  <section aria-labelledby="ai-h">
+    <div class="head">
+      <h2 id="ai-h">AI-zoekmachines</h2>
+      <p class="lede">Worden we aangeraden als een inkoper het aan ChatGPT, Perplexity, Gemini of Claude vraagt? Elke week dezelfde inkoopvragen, met webzoeken aan. <b>Genoemd</b> = merk in het antwoord, <b>bron</b> = onze pagina als link, <b>gelezen</b> = de AI vond onze pagina maar gebruikte hem niet.</p>
+    </div>
+    <div class="kpis" id="ai-kpis"></div>
+    <div class="tablebox"><table id="ai-table"><thead><tr><th>Vraag</th><th>Markt</th><th>ChatGPT</th><th>Perplexity</th><th>Gemini</th><th>Claude</th></tr></thead><tbody></tbody></table></div>
+    <p class="lede" style="font-size:14px" id="ai-top"></p>
+  </section>
+
   <section aria-labelledby="bl-h">
     <div class="head">
       <h2 id="bl-h">Backlinks</h2>
@@ -188,10 +198,10 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
       </article>
     </div>
     <div class="cadence">
-      <div><b>Doel eind Q1 2027</b>SFP top-10 op 10 van de 40 termen</div>
-      <div><b>Doel eind Q1 2027</b>25 echte verwijzende domeinen</div>
-      <div><b>Doel eind Q1 2027</b>500 klikken per 28 dagen uit Google</div>
-      <div><b>Altijd</b>Elke aanvraag (RFQ) via Google gemeten</div>
+      <div><b>Maandag + donderdag</b>2 insights per week, live na build-check</div>
+      <div><b>Woensdag · om de week</b>SFP-sprint als PR, live na jouw "merge"</div>
+      <div><b>Vrijdag</b>Meting: posities, Google-klikken, AI-zoekmachines, links → dit dashboard</div>
+      <div><b>Om de week</b>Linkbuilding-pakket: kansen + mails als Gmail-concept</div>
     </div>
   </section>
 
@@ -287,6 +297,20 @@ footer{font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padd
       <td>${esc(k.keyword)}</td><td class="mono">${k.market}</td><td class="r num">${fmt(k.volume)}</td>
       <td>${posChip(k["pos_"+B.meKey])}</td><td>${posChip(k["pos_"+B.otKey])}</td><td class="top3">${esc((k.top3||[]).join(", "))}</td></tr>`).join("");
 
+
+    const ai=d.ai||{};
+    const pct=v=>v==null?"—":Math.round(v*100)+"%";
+    const eng={chat_gpt:"ChatGPT",perplexity:"Perplexity",gemini:"Gemini",claude:"Claude"};
+    const pe=ai.per_engine||{};
+    $("#ai-kpis").innerHTML=[
+      ["Genoemd in AI-antwoorden",ai.date?pct(ai.mentioned):"—",ai.date?`${Object.entries(pe).map(([k,v])=>eng[k]+" "+pct(v.mentioned)).join(" · ")}`:"Eerste meting volgt"],
+      ["Als bron gelinkt",ai.date?pct(ai.cited):"—","Onze pagina als bronlink in het antwoord"],
+      ["Gelezen, niet gebruikt",ai.date?pct(ai.retrieved):"—","Gevonden door de AI, maar een ander aangeraden"],
+      ["Google AI Overviews",ai.ao_measured?`${ai.ao_ours}<small>/ ${ai.ao_serps}</small>`:"—",ai.ao_measured?"Zoektermen met AI-overzicht waarin wij als bron staan":"Vanaf de volgende meting"]
+    ].map(([l,n,s])=>`<div class="kpi"><span class="eyebrow">${l}</span><span class="num">${n}</span><span class="note">${s}</span></div>`).join("");
+    const cell=v=>v==="cited"?'<span class="pos t3">bron</span>':v==="mentioned"?'<span class="pos t10">genoemd</span>':v==="retrieved"?'<span class="pos">gelezen</span>':v==="none"?'<span class="pos none">—</span>':'';
+    $("#ai-table tbody").innerHTML=(ai.prompts||[]).map(p=>`<tr><td style="font-size:13.5px">${esc(p.prompt)}</td><td class="mono">${esc(p.market||"")}</td>${["chat_gpt","perplexity","gemini","claude"].map(e=>`<td>${cell(p.engines[e])}</td>`).join("")}</tr>`).join("");
+    $("#ai-top").textContent=(ai.top_cited||[]).length?"Meest aangeraden bronnen nu: "+ai.top_cited.slice(0,10).map(([d,n])=>`${d} (${n})`).join(", "):"";
     const order=Object.entries(ref).sort((a,b)=>b[1]-a[1]), max=Math.max(1,...order.map(o=>o[1]));
     $("#bars").innerHTML=order.map(([dom,v])=>`<div class="bar ${dom===B.meDom?"us":""}"><span class="name">${esc(dom)}</span><span class="fill" style="width:${Math.max(1,v/max*100)}%"></span><span class="v">${v}</span></div>`).join("");
 
