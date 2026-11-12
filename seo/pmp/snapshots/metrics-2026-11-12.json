@@ -1,0 +1,146 @@
+{
+ "date": "2026-11-12",
+ "site": "pmp",
+ "gsc": {
+  "d28": {
+   "clicks": 1025,
+   "impressions": 112772,
+   "ctr": 0.0091,
+   "position": 8.0174
+  },
+  "d90": {
+   "clicks": 3353,
+   "impressions": 332323,
+   "ctr": 0.0101,
+   "position": 8.3107
+  }
+ },
+ "ref_domains": {
+  "superfoodspartners.com": {
+   "count": 1,
+   "domains": [
+    "asa-matcha.com"
+   ]
+  },
+  "purematchapartners.com": {
+   "count": 2,
+   "domains": [
+    "matchadb.com",
+    "brdg.app"
+   ]
+  },
+  "jadeleafmatcha.com": {
+   "count": 32,
+   "domains": [
+    "meegs1982.com",
+    "emailsnest.com",
+    "matchadb.com",
+    "sellersnooper.com",
+    "sunrisecoffee.ua",
+    "everydaysift.com",
+    "carman.uno",
+    "gorgias.help",
+    "myjapanesegreentea.com",
+    "thatasianlookingchick.com",
+    "erinrogerspickering.com",
+    "matcharonin.ch",
+    "jadeleaf.com",
+    "stephanie-spring.com",
+    "noneedtothink.com",
+    "morimorimatcha.com",
+    "yurimatcha.com",
+    "treatcue.com",
+    "promizi.com",
+    "thenoodlemagazine.net",
+    "matchaceremonialgrade.com",
+    "communitybazar.com",
+    "clientsbee.com",
+    "clean.coupons",
+    "baywestmarketing.com",
+    "famadillo.com",
+    "scrollstash.com",
+    "me.sh",
+    "clay.earth",
+    "dailydetoxhacks.com",
+    "bestcoffee.reviews",
+    "straitsresearch.com"
+   ]
+  },
+  "matchaful.com": {
+   "count": 19,
+   "domains": [
+    "shopify.com",
+    "kaigaijin.jp",
+    "matchadb.com",
+    "cleantravelclub.com",
+    "oncanal.nyc",
+    "healthbyhaven.com",
+    "fitzenlove.com",
+    "eatchicchocolates.com",
+    "anruibio.com",
+    "ywong.com",
+    "karendillon.me",
+    "myteaexplorer.com",
+    "overshot.io",
+    "promizi.com",
+    "matcha-times.jp",
+    "sashayogawellness.com",
+    "simplyrealhealth.com",
+    "greenrobot.com",
+    "intelmarketresearch.com"
+   ]
+  },
+  "keichamatcha.com": {
+   "count": 1,
+   "domains": [
+    "ikedamatcha.com"
+   ]
+  },
+  "matcha.com": {
+   "count": 53,
+   "domains": [
+    "pinterest.com",
+    "zwdh.com",
+    "betterlife.com",
+    "matchadb.com",
+    "simplecast.com",
+    "lauralivewell.com",
+    "thehouseofumami.in",
+    "matcha-8.myshopify.com",
+    "sunrisecoffee.ua",
+    "searchlabz.com",
+    "avocadoskillet.com",
+    "nilgiristores.in",
+    "budokon.com",
+    "iheart.com",
+    "benable.com",
+    "snipd.com",
+    "categoryhierarchies.com",
+    "matcharonin.ch",
+    "greatkenyanjobs.com",
+    "peptea.com.au",
+    "isbandytireceptai.com",
+    "carefocusdaily.com",
+    "cgfoods.cz",
+    "sourcifychina.com",
+    "jetro.go.jp",
+    "ekucharka.cz",
+    "cookinginstilettos.com",
+    "browzr.net",
+    "storeatlas.cc",
+    "infinity-himalaya.id",
+    "mosbatesabz.com",
+    "goteaworld.com",
+    "webyourself.eu",
+    "kenzierecipes.com",
+    "clientsbee.com",
+    "cikade.lv",
+    "starbucksfaqs.com",
+    "mawduat360.com",
+    "blendnewyork.com",
+    "loveandlemons.com"
+   ]
+  }
+ },
+ "cost_usd": 0.148
+}
