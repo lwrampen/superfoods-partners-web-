@@ -1,0 +1,2542 @@
+{
+ "date": "2026-11-14",
+ "results": [
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "matcha wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "gosupps.com",
+    "bluecart.com",
+    "akimatcha.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1000
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "wholesale matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bluecart.com",
+    "akimatcha.com",
+    "gosupps.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1000
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "bulk matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "matchawholesalesupplier.co.site",
+    "matcha.com",
+    "akimatcha.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1300
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "matcha powder bulk",
+   "pos_sfp": null,
+   "pos_pmp": 6,
+   "top3": [
+    "bulk.matcha.com",
+    "matchasource.com",
+    "bulk.matcha.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 720
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "matcha powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "shop.sugimotousa.com",
+    "bulk.matcha.com",
+    "maeda-en.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 260
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "matcha supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bluecart.com",
+    "richingmatcha.com",
+    "yutea.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 590
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ceremonial matcha wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bulk.matcha.com",
+    "teadogu.com",
+    "bulk.matcha.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 140
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "matcha distributor",
+   "pos_sfp": null,
+   "pos_pmp": 47,
+   "top3": [
+    "bulk.matcha.com",
+    "google.com",
+    "tenzotea.co"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 70
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "japanese matcha supplier",
+   "pos_sfp": null,
+   "pos_pmp": 50,
+   "top3": [
+    "hattori-tea-farm.com",
+    "reddit.com",
+    "keichamatcha.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "bulk organic matcha",
+   "pos_sfp": null,
+   "pos_pmp": 28,
+   "top3": [
+    "shop.sugimotousa.com",
+    "bulk.matcha.com",
+    "google.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 30
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "matcha wholesale uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "faire.com",
+    "awgifts.eu",
+    "teatraders.co.uk"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 70
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "bulk matcha uk",
+   "pos_sfp": null,
+   "pos_pmp": 47,
+   "top3": [
+    "vehgroshop.co.uk",
+    "thesourcebulkfoods.co.uk",
+    "tea2you.co.uk"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "matcha groothandel",
+   "pos_sfp": null,
+   "pos_pmp": 42,
+   "top3": [
+    "microdosebros.com",
+    "nl.richingmatcha.com",
+    "hojichawholesale.eu"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha großhandel",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.de",
+    "de.richingmatcha.com",
+    "reddit.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 110
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "bio matcha großhandel",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "se.matchadeguitea.com",
+    "aromamatcha.fr",
+    "nl.guiteamatcha.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "FR",
+   "location_code": "2250",
+   "language_code": "fr",
+   "keyword": "grossiste matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "alveus.eu",
+    "grossiste-de-the.fr",
+    "it.thesdirect.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "FR",
+   "location_code": "2250",
+   "language_code": "fr",
+   "keyword": "matcha en gros",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "fr.richingmatcha.com",
+    "french.alibaba.com",
+    "de.thesdirect.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "matcha al por mayor",
+   "pos_sfp": null,
+   "pos_pmp": 13,
+   "top3": [
+    "outletexclusivo.es",
+    "matchawholesale.eu",
+    "miravia.es"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 20
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "PL",
+   "location_code": "2616",
+   "language_code": "pl",
+   "keyword": "matcha hurt",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "targroch.pl",
+    "bubbletea.com.pl",
+    "sakuromatcha.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 20
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "抹茶粉 批發",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "matchaand.com",
+    "m.momoshop.com.tw",
+    "shopee.tw"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 30
+  },
+  {
+   "cluster": "Private label",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "private label matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.com",
+    "reddit.com",
+    "sumiye-co.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 50
+  },
+  {
+   "cluster": "Private label",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "matcha manufacturer",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "mizubatea.com",
+    "aoimatcha.com",
+    "naokimatcha.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
+  },
+  {
+   "cluster": "Private label",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "white label matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "richingmatcha.com",
+    "xflavoredtea.com",
+    "reddit.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
+  },
+  {
+   "cluster": "Private label",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "private label superfood powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ebay.com",
+    "gosupps.com",
+    "youtube.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 12100
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "global.ubuy.com",
+    "facebook.com",
+    "alibaba.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 20
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder bulk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "cayman.desertcart.com",
+    "gosupps.com",
+    "global.ubuy.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "facebook.com",
+    "organic-ube.com",
+    "supplyleader.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Ube",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "紫山藥粉",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "shopee.tw",
+    "shopee.tw",
+    "feebee.com.tw"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 70
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "purple yam powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "alphafoodie.com",
+    "amazon.com",
+    "amazon.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 12100
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "organic ube powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.com",
+    "wildernesspoets.com",
+    "ubesuperfood.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 390
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "organic-ube.com",
+    "flavorfrenzy.com",
+    "aogubio.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "ube powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "pabilipostore.co.uk",
+    "organic-ube.co.uk",
+    "blenditlb.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
+  },
+  {
+   "cluster": "Ube",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "ube pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "backfun.de",
+    "de.accio.com",
+    "instagram.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 5400
+  },
+  {
+   "cluster": "Ube",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "ube poeder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "jumbo.com",
+    "ube-latte.nl",
+    "bigmoca.nl"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1300
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "what is ube",
+   "pos_sfp": null,
+   "pos_pmp": 4,
+   "top3": [
+    "uwajimaya.com",
+    "bitesbybianca.com",
+    "eatbreadfruit.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 90500
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube vs taro",
+   "pos_sfp": 13,
+   "pos_pmp": null,
+   "top3": [
+    "bigmoca.nl",
+    "google.com",
+    "vovanglobal.de"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 14800
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube vs purple sweet potato",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "google.com",
+    "reddit.com",
+    "frontpage.fyi"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube latte",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "kaldiscoffee.com",
+    "nguyencoffeesupply.com",
+    "columbuscafe.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 8100
+  },
+  {
+   "cluster": "Ube info",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "ube是什麼",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "brunch.co.kr",
+    "m.blog.naver.com",
+    "m.blog.naver.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 390
+  },
+  {
+   "cluster": "Ube brand",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "pure ube partners",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "hojicha powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "livewirejava.com",
+    "beaniescaffeinecanvas.com",
+    "sandstray.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 9900
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "hojicha powder wholesale",
+   "pos_sfp": 7,
+   "pos_pmp": null,
+   "top3": [
+    "wholesale.obubutea.com",
+    "wholesale.sugimotousa.com",
+    "hojicha.co"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "bulk hojicha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "trinityherbalsandwellnesscenter.com",
+    "thedailydripandsipco.com",
+    "outpostcoffeesupply.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "hojicha supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "heavenlycoffeecreations.com",
+    "axiomcoffeeus.com",
+    "kaffetorst.co"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "hibiscus powder bulk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "walmart.com",
+    "gosupps.com",
+    "gosupps.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "hibiscus powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "adagioxl.com",
+    "dolcesuperfoods.com",
+    "etsy.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "bulk superfood powders",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "supplybulkfoods.com",
+    "faire.com",
+    "vitalabs.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "superfood powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "powderedsuperfoods.com",
+    "prsupplement.com",
+    "herbspro.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "superfood ingredients supplier",
+   "pos_sfp": 27,
+   "pos_pmp": null,
+   "top3": [
+    "superfoodingredients.co.nz",
+    "jeevaorganic.com",
+    "sunfood.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "lion's mane powder bulk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "africaimports.com",
+    "etsy.com",
+    "faire.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 20
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "bulk mushroom powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "etsy.com",
+    "alibaba.com",
+    "revenuebase.ai"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Blending",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "custom tea blends",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "blendbee.com",
+    "brook37.com",
+    "google.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 320
+  },
+  {
+   "cluster": "Blending",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "earl grey matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "instagram.com",
+    "facebook.com",
+    "facebook.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1600
+  },
+  {
+   "cluster": "Blending",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "matcha protein powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "yami.com",
+    "richingmatcha.com",
+    "casadesante.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
+  },
+  {
+   "cluster": "Blending",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "jasmine matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "google.com",
+    "jadeleafmatcha.com",
+    "tea-hut.square.site"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 590
+  },
+  {
+   "cluster": "Packaging",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "private label tea",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "houseofblume.com",
+    "wholesale.tealeaves.com",
+    "youtube.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 260
+  },
+  {
+   "cluster": "Packaging",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "custom tea tins",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "specialtybottle.com",
+    "etsy.com",
+    "contrado.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 90
+  },
+  {
+   "cluster": "Packaging",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "custom tea packaging",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "staysurepackaging.com",
+    "alphaglobalpackaging.com",
+    "pinterest.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 50
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder supplier philippines",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "wholesale-tea-supplier.com",
+    "ube-nolia.com",
+    "hamburgtradingcorp.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Ube",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "ube粉",
+   "pos_sfp": 11,
+   "pos_pmp": 13,
+   "top3": [
+    "shopee.tw",
+    "harpersbazaar.com",
+    "google.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": true,
+   "ao_pmp": false,
+   "volume": 50
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "hibiscus powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "stonecreekhealthessentials.com",
+    "gosupps.com",
+    "ebay.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
+  },
+  {
+   "cluster": "Taro",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "taro powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "facebook.com",
+    "underherb.com",
+    "ubuy.tl"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Taro",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "taro powder bulk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.com",
+    "bobawarehouse.com",
+    "mochaboba.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube purple yam powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ebay.com",
+    "food2live.com",
+    "botanicalcube.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 12100
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube flour",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ebay.com",
+    "youtube.com",
+    "instagram.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 12100
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube extract",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.com",
+    "pabili-po.com",
+    "dolceflav.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 12100
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "purple yam extract",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "walmart.com",
+    "amazon.com",
+    "alphafoodie.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 12100
+  },
+  {
+   "cluster": "Taro",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "taro powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "accio.com",
+    "supplementasia.com",
+    "youtube.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 4400
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "lion's mane powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "downsouthsmokeco.com",
+    "funguykits.com",
+    "erbefarms.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 4400
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "butterfly pea powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ihealthyorganic.com",
+    "therawfoodworld.com",
+    "grocery.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 3600
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "butterfly pea tea powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ihealthyorganic.com",
+    "ihealthyorganic.com",
+    "youtube.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 2900
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "butterfly pea flower powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "selefina.com",
+    "suncorefoods.com",
+    "terrasoul.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 2900
+  },
+  {
+   "cluster": "Taro",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "taro powder for milk tea",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "sacfoodsupplies.com",
+    "lollicupstore.com",
+    "google.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 2400
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "what is ube made of",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "instant-tea-powder.com",
+    "bestsproutshop.com",
+    "newsbytesapp.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1600
+  },
+  {
+   "cluster": "Taro",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "taro milk tea powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bevfoodcorp.com",
+    "bubbletea.org",
+    "youtube.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1300
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube flavor extract",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "apexflavors.com",
+    "ebay.com",
+    "harvestmoondelights.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 880
+  },
+  {
+   "cluster": "Taro",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "taro smoothie powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "mochaboba.com",
+    "google.com",
+    "cafvina.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 720
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "organic lion's mane",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "store.edenfoods.com",
+    "dolcesuperfoods.com",
+    "wholefoodsmarket.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 720
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "what is ube food",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "uwajimaya.com",
+    "allrecipes.com",
+    "finedininglovers.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 480
+  },
+  {
+   "cluster": "Ube info",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "what is purple ube",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bitesbybianca.com",
+    "uwajimaya.com",
+    "foodnetwork.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 390
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder for baking",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "fairirbiotech.com",
+    "fairirbiotech.com",
+    "reddit.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 390
+  },
+  {
+   "cluster": "Ube info",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "what is ube",
+   "pos_sfp": null,
+   "pos_pmp": 2,
+   "top3": [
+    "souschef.co.uk",
+    "purematchapartners.com",
+    "foodandwine.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 22200
+  },
+  {
+   "cluster": "Ube info",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "ube latte",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "kusmitea.com",
+    "coffeefriend.co.uk",
+    "ube-latte.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 2400
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "ube purple yam powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "organic-ube.co.uk",
+    "leezafoods.co.uk",
+    "ebay.co.uk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "ube flour",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "fairirbiotech.com",
+    "youtube.com",
+    "organic-ube.co.uk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "purple yam powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "leezafoods.co.uk",
+    "vigorous-tech.com",
+    "pinterest.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "lion's mane powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "charava.co.uk",
+    "white-pine.co.uk",
+    "silverbackcbd.co.uk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1600
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "ube extract",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.co.uk",
+    "google.com",
+    "starrymart.co.uk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 880
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "purple yam extract",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "alibooster.com",
+    "naturallifeapp.com",
+    "vigorous-tech.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 880
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "pilzpulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "wirtzwellnessprodukte.de",
+    "gourmetkult.de",
+    "neumann-gewuerze.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 720
+  },
+  {
+   "cluster": "Taro",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "taro pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.de",
+    "inspirefoodcompany.com",
+    "amazon.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 480
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "superfoodpulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "en.powerfulhealth.eu",
+    "powerfulhealth.eu",
+    "mylius-apotheke.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 480
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "grünes superfood pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "doppelherz.de",
+    "dm.de",
+    "nature-love.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 390
+  },
+  {
+   "cluster": "Ube",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "ube pulver kaufen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.de",
+    "asia-foodstore.de",
+    "asiafoodland.de"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 320
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "lions mane pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.de",
+    "amazon.de",
+    "vehgroshop.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 170
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "hibiskuspulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bioherba.com",
+    "wolkenseifen.de",
+    "gesund.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 170
+  },
+  {
+   "cluster": "Ube",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "ube en polvo",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.es",
+    "ruiwonutrition.com",
+    "ube-latte.es"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 170
+  },
+  {
+   "cluster": "Taro",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "taro en polvo",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "underfungus.com",
+    "supermarket23.com",
+    "es.guanjiefruit.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 140
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "flor de guisante azul",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "etsy.com",
+    "instagram.com",
+    "oko-oko.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 140
+  },
+  {
+   "cluster": "Ube",
+   "market": "FR",
+   "location_code": "2250",
+   "language_code": "fr",
+   "keyword": "igname violette",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "thes-traditions.com",
+    "fruits-legumes.org",
+    "valebio.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1300
+  },
+  {
+   "cluster": "Ube",
+   "market": "FR",
+   "location_code": "2250",
+   "language_code": "fr",
+   "keyword": "poudre d'ube",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "recettes-ehtymag.com",
+    "ube-origin.fr",
+    "ubelis.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "FR",
+   "location_code": "2250",
+   "language_code": "fr",
+   "keyword": "poudre d'hibiscus",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ecco-verde.fr",
+    "esoternature.net",
+    "baaly.fr"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 390
+  },
+  {
+   "cluster": "Taro",
+   "market": "FR",
+   "location_code": "2250",
+   "language_code": "fr",
+   "keyword": "poudre de taro",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "mybubbletea.eu",
+    "lxfrance.fr",
+    "lebubbles.fr"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 260
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "PL",
+   "location_code": "2616",
+   "language_code": "pl",
+   "keyword": "soplówka jeżowata",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "melisa.pl",
+    "apteline.pl",
+    "swiatleku.pl"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 27100
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "butterfly pea",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "lossetheekopen.nl",
+    "losse-t.nl",
+    "theeje.nl"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 880
+  },
+  {
+   "cluster": "Taro",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "taro poeder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "boboteashop.com",
+    "orientalwebshop.nl",
+    "google.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 260
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "lions mane poeder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "degezondheidslijn.nl",
+    "bol.com",
+    "paddenstoelen.nl"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 210
+  },
+  {
+   "cluster": "Taro",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "芋頭粉",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "taiwon-food.com",
+    "yotasteshop.com",
+    "madamruby.com.tw"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 260
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "蝶豆花粉",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "icook.tw",
+    "madamruby.com.tw",
+    "shop.highteaworld.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 260
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "猴頭菇粉",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "m.momoshop.com.tw",
+    "shopee.tw",
+    "youtube.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 70
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "洛神花粉",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "dancing-tea.com.tw",
+    "cross-country.com.tw",
+    "market.owlting.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 70
+  },
+  {
+   "cluster": "Ube",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "ube 粉",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "kr.pinterest.com",
+    "ruiwoherb.com",
+    "amazon.fr"
+   ],
+   "ai_overview": true,
+   "ao_sfp": true,
+   "ao_pmp": false,
+   "volume": 50
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "butterfly pea powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "farmberry.com",
+    "ubuy.ht",
+    "wellgreenherb.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "butterfly pea powder bulk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "dolcesuperfoods.com",
+    "bubbleteasupply.biz",
+    "wildhibiscus.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "butterfly pea flower powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "terrasoul.com",
+    "selefina.com",
+    "shop.woodlandfoods.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "hibiscus powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.com",
+    "amazon.com",
+    "amazon.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "organic hibiscus powder bulk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "emusasustainable.com",
+    "market.foodsocial.io",
+    "faire.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "lion's mane powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "herbco.com",
+    "herbco.com",
+    "purebulk.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "mushroom powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "dolcesuperfoods.com",
+    "nutricargo.com",
+    "ebay.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 20
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "private label mushroom powder",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "organic ube powder wholesale",
+   "pos_sfp": 14,
+   "pos_pmp": null,
+   "top3": [
+    "ubesuperfood.com",
+    "faire.com",
+    "sacfoodsupplies.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "purple yam powder wholesale",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "whizz.ae",
+    "aruba.desertcart.com",
+    "bermuda.ubuy.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "purple yam powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "organic-ube.com",
+    "simmerlyhome.com",
+    "global.ubuy.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "ube powder manufacturer",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "organic-ube.com",
+    "fairirbiotech.com",
+    "aogubio.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Taro",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "taro powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "bubbleteasupply.com",
+    "sacfoodsupplies.com",
+    "bobasupplyusa.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "superfood powder supplier",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "prsupplement.com",
+    "tropicalfruitsy.com",
+    "bulkpowders.com.au"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "superfood powder private label",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "healthforce.com",
+    "shop.gettinghealthier.com",
+    "wonnda.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Ube",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "ube powder wholesale uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "tresmariasandson.co.uk",
+    "accio.com",
+    "zoamfoods.co.uk"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "butterfly pea powder uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "etsy.com",
+    "npow.co.uk",
+    "amazon.co.uk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "lion's mane powder uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "buywholefoodsonline.co.uk",
+    "baldwins.co.uk",
+    "nottsmushroomfarm.co.uk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 390
+  },
+  {
+   "cluster": "Superfood powders",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "superfood powder wholesale uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "ube pulver großhandel",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "sostherb.com",
+    "backfun.de",
+    "theorganiclabs.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Hibiscus",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "hibiskuspulver großhandel",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "de.ankorstore.com",
+    "de.ankorstore.com",
+    "de.ankorstore.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Mushroom powders",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "pilzpulver großhandel",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "aogubio.com",
+    "chagavital.de",
+    "wlw.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "butterfly pea pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "genuineselection.com",
+    "amazon.de",
+    "autoimmun-lifestyle.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
+  },
+  {
+   "cluster": "Ube",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "ube en polvo al por mayor",
+   "pos_sfp": null,
+   "pos_pmp": 13,
+   "top3": [
+    "ca.greenspringstore.com",
+    "ca.sxytorganic.com",
+    "amazon.es"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "FR",
+   "location_code": "2250",
+   "language_code": "fr",
+   "keyword": "poudre d'ube en gros",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "grossiste-de-the.fr",
+    "yoyofoods.fr",
+    "thesdirect.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "ube poeder kopen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.de",
+    "etsy.com",
+    "bol.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 260
+  },
+  {
+   "cluster": "Ube",
+   "market": "NL",
+   "location_code": "2528",
+   "language_code": "nl",
+   "keyword": "ube poeder groothandel",
+   "pos_sfp": null,
+   "pos_pmp": 3,
+   "top3": [
+    "accio.com",
+    "aogubio.com",
+    "purematchapartners.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Ube",
+   "market": "PL",
+   "location_code": "2616",
+   "language_code": "pl",
+   "keyword": "ube w proszku",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "javacoffee.pl",
+    "coffeedesk.pl",
+    "przyprawa24.pl"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Butterfly pea",
+   "market": "TW",
+   "location_code": "2158",
+   "language_code": "zh-TW",
+   "keyword": "蝶豆花粉 批發",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  }
+ ],
+ "cost_usd": 1.816
+}

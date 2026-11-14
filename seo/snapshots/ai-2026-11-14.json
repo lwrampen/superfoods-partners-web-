@@ -1,0 +1,1052 @@
+{
+ "date": "2026-11-14",
+ "brand": "sfp",
+ "summary": {
+  "answers": 29,
+  "errors": 19,
+  "mentioned": 0.069,
+  "cited": 0.069,
+  "retrieved": 0.103,
+  "per_engine": {
+   "chat_gpt": {
+    "mentioned": 0.0,
+    "cited": 0.0,
+    "retrieved": 0.286,
+    "answers": 7
+   },
+   "perplexity": {
+    "mentioned": 0.0,
+    "cited": 0.0,
+    "retrieved": 0.0,
+    "answers": 9
+   },
+   "gemini": {
+    "mentioned": 0.143,
+    "cited": 0.143,
+    "retrieved": 0.0,
+    "answers": 7
+   },
+   "claude": {
+    "mentioned": 0.167,
+    "cited": 0.167,
+    "retrieved": 0.167,
+    "answers": 6
+   }
+  },
+  "top_cited_domains": [
+   [
+    "theorganiclabs.com",
+    9
+   ],
+   [
+    "medikonda.com",
+    7
+   ],
+   [
+    "supplier-ube.com",
+    5
+   ],
+   [
+    "accio.com",
+    5
+   ],
+   [
+    "kapsoo-ube.com",
+    4
+   ],
+   [
+    "faire.com",
+    4
+   ],
+   [
+    "vovanglobal.de",
+    4
+   ],
+   [
+    "ube-nolia.com",
+    4
+   ],
+   [
+    "alibaba.com",
+    4
+   ],
+   [
+    "tastefilipino.com",
+    3
+   ],
+   [
+    "ubesuperfood.com",
+    3
+   ],
+   [
+    "philippineube.com",
+    3
+   ],
+   [
+    "bigmoca.nl",
+    3
+   ],
+   [
+    "trueubepowder.com",
+    2
+   ],
+   [
+    "npnutra.com",
+    2
+   ],
+   [
+    "allreasons.eu",
+    2
+   ],
+   [
+    "superfoodspartners.com",
+    2
+   ],
+   [
+    "chewco.co",
+    2
+   ],
+   [
+    "vidafarm.vn",
+    2
+   ],
+   [
+    "sacfoodsupplies.com",
+    2
+   ],
+   [
+    "greenjeeva.com",
+    2
+   ],
+   [
+    "intotherainforest.com",
+    2
+   ],
+   [
+    "herbco.com",
+    2
+   ],
+   [
+    "europages.co.uk",
+    2
+   ],
+   [
+    "made-in-china.com",
+    2
+   ]
+  ],
+  "cost_usd": 0.734
+ },
+ "results": [
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy ube powder wholesale for my bakery or brand?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "ubeafoods.com",
+    "kapsoo-ube.com",
+    "trueubepowder.com",
+    "secretpantryla.com",
+    "tastefilipino.com",
+    "avalontr.com"
+   ],
+   "fan_out": [
+    "wholesale ube powder bulk supplier USA bakery",
+    "ube powder wholesale foodservice supplier bulk",
+    "bulk purple yam powder wholesale supplier ube powder"
+   ],
+   "chars": 2119
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy ube powder wholesale for my bakery or brand?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "npnutra.com",
+    "ubesuperfood.com",
+    "theorganiclabs.com",
+    "faire.com",
+    "vovanglobal.de",
+    "kapsoo-ube.com",
+    "allreasons.eu"
+   ],
+   "fan_out": [],
+   "chars": 1754
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy ube powder wholesale for my bakery or brand?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "ube-nolia.com",
+    "allreasons.eu",
+    "vovanglobal.de",
+    "superfoodspartners.com",
+    "faire.com"
+   ],
+   "fan_out": [
+    "bulk purple yam powder wholesale supplier bakery",
+    "buy wholesale ube powder bakery suppliers"
+   ],
+   "chars": 3711
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy ube powder wholesale for my bakery or brand?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "philippineube.com",
+    "ubesuperfood.com",
+    "chewco.co",
+    "vidafarm.vn",
+    "supplier-ube.com",
+    "ube-nolia.com",
+    "bigmoca.nl",
+    "accio.com"
+   ],
+   "fan_out": [
+    "ube powder wholesale supplier bulk",
+    "buy bulk ube powder for bakery food manufacturers"
+   ],
+   "chars": 2531
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are the best bulk ube powder suppliers? Please name companies and websites.",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "kapsoo-ube.com",
+    "supplier-ube.com",
+    "phytovale.com",
+    "npnutra.com",
+    "medikonda.com",
+    "trueubepowder.com",
+    "sacfoodsupplies.com"
+   ],
+   "fan_out": [
+    "bulk ube powder supplier wholesale official",
+    "wholesale purple yam powder ube supplier bulk company",
+    "bulk ube powder foodservice supplier USA"
+   ],
+   "chars": 2763
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are the best bulk ube powder suppliers? Please name companies and websites.",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "accio.com",
+    "medikonda.com",
+    "theorganiclabs.com",
+    "chewco.co"
+   ],
+   "fan_out": [],
+   "chars": 2880
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are the best bulk ube powder suppliers? Please name companies and websites.",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are the best bulk ube powder suppliers? Please name companies and websites.",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which suppliers sell ube (purple yam) powder in bulk in Europe?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which suppliers sell ube (purple yam) powder in bulk in Europe?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which suppliers sell ube (purple yam) powder in bulk in Europe?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which suppliers sell ube (purple yam) powder in bulk in Europe?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Ube-Pulver im Großhandel kaufen?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Ube-Pulver im Großhandel kaufen?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Ube-Pulver im Großhandel kaufen?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "Ube powder b2b europe",
+    "Ube Pulver Großhandel Deutschland",
+    "purple yam powder wholesale Europe"
+   ],
+   "chars": 2470
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Ube-Pulver im Großhandel kaufen?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "ubekaufen.de",
+    "iyorafood.com",
+    "vovanglobal.de",
+    "ankorstore.com",
+    "m.german.alibaba.com",
+    "bioube.de"
+   ],
+   "fan_out": [
+    "Ube Pulver Großhandel kaufen",
+    "ube powder wholesale supplier Europe"
+   ],
+   "chars": 2161
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which B2B suppliers sell superfood powders like ube",
+   "null": [
+    " butterfly pea and hibiscus in bulk?"
+   ],
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "kapsoo-ube.com",
+    "supplier-ube.com",
+    "tastefilipino.com",
+    "medikonda.com",
+    "gather.tracegains.com",
+    "extractaherbarum.com",
+    "theorganiclabs.com"
+   ],
+   "fan_out": [
+    "B2B wholesale ube powder supplier bulk foodservice",
+    "wholesale superfood powder supplier ube powder private label bulk",
+    "B2B ube powder ingredient supplier USA wholesale"
+   ],
+   "chars": 2222
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which B2B suppliers sell superfood powders like ube",
+   "null": [
+    " butterfly pea and hibiscus in bulk?"
+   ],
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "vovanglobal.de",
+    "accio.com",
+    "theorganiclabs.com",
+    "alibaba.com",
+    "kxan.com"
+   ],
+   "fan_out": [],
+   "chars": 2140
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which B2B suppliers sell superfood powders like ube",
+   "null": [
+    " butterfly pea and hibiscus in bulk?"
+   ],
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which B2B suppliers sell superfood powders like ube",
+   "null": [
+    " butterfly pea and hibiscus in bulk?"
+   ],
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can a beverage brand source butterfly pea flower powder wholesale?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can a beverage brand source butterfly pea flower powder wholesale?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "yanggebiotech.com",
+    "thewholesaler.eu",
+    "greenjeeva.com",
+    "theorganiclabs.com",
+    "herbsbio.com",
+    "adagioxl.com",
+    "alibaba.com"
+   ],
+   "fan_out": [],
+   "chars": 2035
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can a beverage brand source butterfly pea flower powder wholesale?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "wholesale butterfly pea flower powder beverage grade bulk supplier",
+    "butterfly pea flower extract water soluble wholesale beverage supplier"
+   ],
+   "chars": 4356
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can a beverage brand source butterfly pea flower powder wholesale?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "medikonda.com",
+    "goodandsuper.com",
+    "ihealthyorganic.com",
+    "greenjeeva.com",
+    "ingredientsonline.com",
+    "waycoonutritions.com",
+    "naturallifeworth.com",
+    "organicingredient8.com",
+    "binmei-color.com"
+   ],
+   "fan_out": [
+    "butterfly pea flower powder wholesale supplier bulk",
+    "butterfly pea flower powder manufacturer Thailand India beverage ingredient"
+   ],
+   "chars": 3452
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Hibiscus",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are good wholesale suppliers of hibiscus powder for food and drink manufacturers?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "hibiscusproducts.com",
+    "rooibosna.com",
+    "intotherainforest.com",
+    "herbco.com",
+    "medikonda.com"
+   ],
+   "fan_out": [
+    "bulk wholesale hibiscus powder food grade supplier manufacturers USA",
+    "organic hibiscus powder wholesale ingredient supplier food beverage",
+    "hibiscus powder bulk supplier COA food grade B2B"
+   ],
+   "chars": 2775
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Hibiscus",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are good wholesale suppliers of hibiscus powder for food and drink manufacturers?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "europages.co.uk",
+    "accio.com",
+    "made-in-china.com",
+    "angelbiology.com",
+    "medikonda.com",
+    "olivenation.com",
+    "nutrada.com",
+    "alibaba.com",
+    "m.made-in-china.com"
+   ],
+   "fan_out": [],
+   "chars": 2387
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Hibiscus",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are good wholesale suppliers of hibiscus powder for food and drink manufacturers?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "wholesale hibiscus powder food grade suppliers",
+    "hibiscus powder bulk manufacturer b2b food beverage"
+   ],
+   "chars": 4330
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Hibiscus",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who are good wholesale suppliers of hibiscus powder for food and drink manufacturers?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which suppliers offer private label superfood powder blends for new brands?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which suppliers offer private label superfood powder blends for new brands?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which suppliers offer private label superfood powder blends for new brands?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which suppliers offer private label superfood powder blends for new brands?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy functional mushroom powders in bulk?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "hamiltonsmushrooms.com",
+    "pacificbotanicals.com",
+    "wholesalefungi.com",
+    "goasupply.com",
+    "morefungi.com",
+    "gulfspore.com"
+   ],
+   "fan_out": [
+    "bulk functional mushroom powders wholesale supplier business lion's mane reishi official",
+    "functional mushroom extract powders wholesale bulk manufacturer US official",
+    "bulk mushroom powder private label wholesale supplier official",
+    "site:nammex.com bulk mushroom extract ingredients wholesale manufacturers",
+    "site:real mushrooms.com wholesale bulk mushroom extract powder business",
+    "site:mycelia.be mushroom extract powders bulk ingredients wholesale"
+   ],
+   "chars": 2027
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy functional mushroom powders in bulk?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "musheez.eu",
+    "naturalinbio.com",
+    "herbco.com",
+    "mushroomplenty.com",
+    "mycotrition.com",
+    "whyz.com"
+   ],
+   "fan_out": [],
+   "chars": 2055
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy functional mushroom powders in bulk?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "wholesale bulk functional mushroom powder suppliers B2B",
+    "top bulk mushroom powder manufacturers suppliers"
+   ],
+   "chars": 4203
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Mushroom powders",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy functional mushroom powders in bulk?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "medikonda.com",
+    "bulkwholesalemushrooms.com",
+    "longevitybotanicals.com",
+    "intotherainforest.com",
+    "americaninternationalfoods.com",
+    "botanicalsuppliers.com",
+    "laybioherb.com",
+    "biosaninternational.com"
+   ],
+   "fan_out": [
+    "bulk functional mushroom powder suppliers wholesale",
+    "how to choose organic mushroom extract powder manufacturer B2B"
+   ],
+   "chars": 3308
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Taro",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy taro powder wholesale for a bubble tea shop?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bubbleteasupply.com",
+    "bobasupplyusa.com",
+    "sacfoodsupplies.com",
+    "shop.fresh2.co",
+    "onestopsupplyco.com",
+    "webstaurantstore.com"
+   ],
+   "fan_out": [
+    "wholesale taro powder bubble tea supplier USA foodservice",
+    "taro powder wholesale bubble tea shop case bulk US distributor",
+    "official wholesale taro powder bubble tea supplier"
+   ],
+   "chars": 1744
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Taro",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy taro powder wholesale for a bubble tea shop?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bubbleteasupply.com",
+    "made-in-china.com",
+    "zonegoingfood.com",
+    "alibaba.com",
+    "faire.com",
+    "accio.com",
+    "amazon.com"
+   ],
+   "fan_out": [],
+   "chars": 1379
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Taro",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy taro powder wholesale for a bubble tea shop?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Taro",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy taro powder wholesale for a bubble tea shop?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which ingredient suppliers in Europe and Asia sell lab-tested superfood powders in bulk to brands?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "error": "Internal Error."
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which ingredient suppliers in Europe and Asia sell lab-tested superfood powders in bulk to brands?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "abbottblackstone.eu",
+    "theorganiclabs.com",
+    "baobabfoods.com",
+    "wonnda.com",
+    "cactusbotanics.com",
+    "nutrada.com",
+    "europages.co.uk"
+   ],
+   "fan_out": [],
+   "chars": 3169
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which ingredient suppliers in Europe and Asia sell lab-tested superfood powders in bulk to brands?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "bulk organic superfood powder suppliers Europe COA lab tested",
+    "bulk superfood powder suppliers Asia GMP lab tested"
+   ],
+   "chars": 5970
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Superfood powders",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which ingredient suppliers in Europe and Asia sell lab-tested superfood powders in bulk to brands?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "theorganiclabs.com",
+    "supernutrients.co.uk",
+    "abbottblackstone.eu",
+    "wonnda.com",
+    "superfoodspartners.com",
+    "jibiology.com"
+   ],
+   "fan_out": [
+    "bulk superfood powder suppliers Europe B2B lab tested",
+    "bulk superfood powder manufacturers Asia private label certificate of analysis"
+   ],
+   "chars": 3040
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "PL",
+   "lang": "pl",
+   "prompt": "Gdzie kupić proszek ube hurtowo dla piekarni lub marki?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "theorganiclabs.com",
+    "ube-nolia.com",
+    "tastefilipino.com",
+    "philippineube.com"
+   ],
+   "fan_out": [
+    "bulk ube powder wholesale supplier food grade Philippines export",
+    "ube powder wholesale supplier USA food grade bulk",
+    "proszek ube hurtowo dostawca Polska"
+   ],
+   "chars": 1731
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "PL",
+   "lang": "pl",
+   "prompt": "Gdzie kupić proszek ube hurtowo dla piekarni lub marki?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "avelor.eu",
+    "theorganiclabs.com",
+    "supplier-ube.com",
+    "faire.com",
+    "herbalista.cy",
+    "ube-nolia.com",
+    "bigmoca.nl",
+    "baktotaal.de"
+   ],
+   "fan_out": [],
+   "chars": 1657
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "PL",
+   "lang": "pl",
+   "prompt": "Gdzie kupić proszek ube hurtowo dla piekarni lub marki?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "ube powder wholesale Europe",
+    "purple yam powder bulk bakery supplier Europe Poland"
+   ],
+   "chars": 3926
+  },
+  {
+   "brand": "sfp",
+   "cluster": "Ube",
+   "market": "PL",
+   "lang": "pl",
+   "prompt": "Gdzie kupić proszek ube hurtowo dla piekarni lub marki?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bigmoca.nl",
+    "wholesale-tea-supplier.com",
+    "supplier-ube.com",
+    "philippineube.com",
+    "vidafarm.vn",
+    "botanicalsuppliers.com",
+    "ubesuperfood.com"
+   ],
+   "fan_out": [
+    "ube powder wholesale bulk supplier",
+    "proszek ube hurt Polska"
+   ],
+   "chars": 3389
+  }
+ ]
+}
