@@ -22,6 +22,7 @@ staan de bestanden hier en niet in Drive.
 | `handtekening-balk-rond.gif` | **staat er** (handtekening 5B) | `…/signature/handtekening-balk-rond.gif` | 868×70 px, getoond op 434×35; pil-vorm met afgeronde uiteinden op de kaartkleur #FBFFF6 |
 | `portret-leonard-kleur.png` | **staat er** (handtekening 5B) | `…/signature/portret-leonard-kleur.png` | 512×512, kleurportret (rond getoond op 82 px) |
 | `portret-leonard-groen-wijd.png` | **staat er** (handtekening 5B, actief) | `…/signature/portret-leonard-groen-wijd.png` | 512×512, portret op limegroen (rond getoond op 92 px) |
+| `portret-jade-groen-wijd.png` | **staat er** (handtekening 5B) | `…/signature/portret-jade-groen-wijd.png` | 512×512, portret op limegroen (rond getoond op 92 px) |
 
 Eén `handtekening-balk.gif` voor iedereen; per teamlid één eigen
 `portret-<voornaam>.png`.
@@ -38,3 +39,11 @@ los bestand is en geen HTML.
 Deze map staat in de `public/`-folder, dus zodra de wijziging naar `main` gaat,
 deployt Vercel 'm en zijn de URL's hierboven live. Een nieuwe of overschreven
 `.gif` is na de eerstvolgende deploy zichtbaar.
+
+## Team-handtekeningen (november 2026)
+
+Alle handtekeningen staan op één pagina: **https://superfoodspartners.com/signatures** (teamcode 4242, of de
+env-var `SIGNATURE_PIN`). Code: `src/app/signatures/` (`data.ts` = de handtekening per persoon). Per teamlid
+staat hier alleen het portret `portret-<voornaam>.png` (400×400, limegroen, rond getoond op 92 px); de
+handtekeningen gebruiken verder `sfp-logo.png`, `pmp-logo-forest.png` en `handtekening-balk-rond.gif`.
+De losse pagina's per persoon (`leonard.html`, `jade.html`) zijn vervangen door die ene pagina.

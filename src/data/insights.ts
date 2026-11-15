@@ -1285,4 +1285,172 @@ export const POSTS: InsightPost[] = [
     ],
     relatedProducts: ["ube"],
   },
+  {
+    slug: "what-does-ube-taste-like-ube-flavor-guide",
+    date: "2026-11-09",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder, the ingredient behind real ube flavour"),
+    category: E("Ingredient guide"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("What does ube taste like? A flavour guide for product developers"),
+    metaTitle: E("What Does Ube Taste Like? Ube Flavor Guide for B2B"),
+    metaDescription: E("Ube tastes soft, sweet and vanilla-like with a coconut note. How its flavour differs from taro and purple sweet potato, and how to build it into drinks, bakery and desserts."),
+    dek: E("\"Ube flavor\" is searched tens of thousands of times a month, yet the word covers very different things. Here is what the ingredient itself tastes like and how to build it into a product."),
+    lede: E("Ube tastes soft and sweet, with a vanilla-like character and a gentle coconut note, and only a mild earthiness underneath. That is the flavour of ube powder made from purple yam (Dioscorea alata). It is quieter than its colour suggests, which is the main thing a product developer needs to plan for."),
+    sections: [
+      {
+        heading: E("What ube tastes like"),
+        body: [
+          E("The usual description is a soft, rounded sweetness with vanilla-like and nutty tones, sometimes compared to coconut, and a faint earthy base that reminds people it is a root. It is not sharp, fruity or bitter, which is why it sits comfortably in milk-based drinks, custards and baked goods."),
+          E("Interest in the flavour is large. In US search data, \"ube flavor\" draws roughly 27,000 searches a month, \"what does ube taste like\" roughly 14,800 and \"ube extract\" roughly 9,900 (Google Ads keyword data, United States). Many of those people have only met ube as a colour or as a menu name, so a product that tastes the way the name promises has an advantage."),
+        ],
+      },
+      {
+        heading: E("Ube flavour is not one thing"),
+        body: [
+          E("\"Ube flavored\" on a label can mean different things. Some products rely on added flavourings and colours to imitate the idea of ube; others get colour and flavour from the purple yam itself. If your brief is a product that tastes and looks like ube because it contains ube, the specification should name the ingredient, purple yam (Dioscorea alata), and say what form it comes in."),
+          E("We supply ube as a powder milled from the yam. It is a food ingredient with a documented origin, not a flavouring, and the flavour you get depends on how much you use and what you pair it with."),
+        ],
+      },
+      {
+        heading: E("Ube compared with taro and purple sweet potato"),
+        body: [
+          E("The three are often confused, and they taste different. Ube is the sweetest and most vanilla-like of the three. Taro is milder and more starchy, with a subtle nutty flavour. Purple sweet potato tastes like a sweet potato, more earthy and less vanilla-like than ube, and its colour varies by variety."),
+          E("None of this makes one better. It means the right choice follows the brief: a sweet, vanilla-leaning purple points to ube, a mild creamy base can point to taro, and some applications suit a blend. Tell us what you are making and we will recommend the material."),
+        ],
+      },
+      {
+        heading: E("Building the flavour into a product"),
+        body: [
+          E("Plan for the fact that colour and flavour do not scale together. A little ube powder can make a product look strongly purple while the taste stays mild, so judge flavour by tasting, not by colour. Build the recipe around the powder first, and add sweetener last, because ube already brings its own sweetness."),
+          E("Ube pairs naturally with milk, coconut and vanilla, and those partners lift the flavour rather than cover it. Natural colour can shift with acidity, so test in the exact base, whether that is dairy, a plant milk, a batter or a filling, and check how both colour and flavour hold after heat, freezing or storage."),
+        ],
+      },
+      {
+        heading: E("What to specify when you source"),
+        body: [
+          E("Ask for the botanical name (Dioscorea alata), the origin, and a certificate of analysis for each batch, then approve a sample in your own recipe before you scale. We manage supply at origin in the Philippines and China, with organic from China and conventional from both, and every batch ships with a certificate of analysis and a Verification Record."),
+          E("The powder is on our ube product page, and the label behind it is Pure Ube Partners. For lattes, see our guide on formulating an ube latte for cafe menus, and for the botanical differences, our guide to ube, taro and purple sweet potato."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Flavour"), value: E("Soft, sweet, vanilla-like, mild coconut note") },
+      { label: E("Source"), value: E("Purple yam, Dioscorea alata") },
+      { label: E("Colour"), value: E("Naturally violet, no artificial dye") },
+      { label: E("Caffeine"), value: E("Caffeine-free") },
+      { label: E("Pairs with"), value: E("Milk, coconut, vanilla") },
+      { label: E("Origins"), value: E("Philippines and China") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("What does ube taste like?"),
+        a: E("Ube tastes soft and sweet with a vanilla-like character, a gentle coconut note and a mild earthy base. It is quieter than its vivid purple colour suggests."),
+      },
+      {
+        q: E("Does ube taste like taro?"),
+        a: E("No. Ube is sweeter and more vanilla-like; taro is milder, more starchy and subtly nutty. They are different plants."),
+      },
+      {
+        q: E("Does ube taste like purple sweet potato?"),
+        a: E("Not quite. Purple sweet potato tastes like a sweet potato, more earthy; ube is a yam with a softer, more vanilla-like sweetness."),
+      },
+      {
+        q: E("Is ube powder the same as ube flavoring?"),
+        a: E("No. Ube powder is milled from the purple yam itself and gives colour and flavour as a food ingredient. Flavourings are a different product type, so check what a label or spec actually lists."),
+      },
+      {
+        q: E("Which material is right for my product?"),
+        a: E("It depends on the application. We supply ube, taro and blends, so tell us what you are making and we recommend the right material."),
+      },
+    ],
+    relatedProducts: ["ube"],
+  },
+  {
+    slug: "ube-milk-tea-boba-ube-powder-for-bubble-tea-shops",
+    date: "2026-11-12",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder for milk tea and boba drinks"),
+    category: E("Formulation"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("Ube milk tea and boba: sourcing ube powder for bubble tea shops"),
+    metaTitle: E("Ube Milk Tea & Boba — Ube Powder for Bubble Tea Shops"),
+    metaDescription: E("How a bubble tea shop or drink brand can source ube powder for ube milk tea and boba: consistency across outlets, formulation, what to test and what documents to ask for."),
+    dek: E("Ube milk tea and ube boba are standing orders on many bubble tea menus. The hard part is making them taste and look the same in every outlet."),
+    lede: E("For ube milk tea and boba, a bubble tea shop needs an ube powder that dissolves cleanly, gives a stable violet colour and tastes the same lot after lot. Our ube powder is milled from purple yam (Dioscorea alata), is naturally violet and caffeine-free, and ships with a certificate of analysis for every batch, so one approved sample can become the standard for every outlet."),
+    sections: [
+      {
+        heading: E("Why ube is on tea-shop menus"),
+        body: [
+          E("Ube is one of the most recognisable purple drinks. In US search data, \"ube boba\" draws roughly 1,600 searches a month, \"ube milk tea\" roughly 1,300 and \"ube bubble tea\" roughly 260, while \"bubble tea supplier\" draws roughly 1,000 (Google Ads keyword data, United States). Customers ask for it by name, and shops and drink brands are looking for a reliable source."),
+          E("A tea shop does not sell a single drink. It sells the same drink at many counters, on many days, made by many people. That is why the supplier question matters as much as the recipe."),
+        ],
+      },
+      {
+        heading: E("Consistency across outlets is the real brief"),
+        body: [
+          E("A powder gives a shop a fixed specification: approve one sample, then reorder against it. Ask that every later lot is matched to the approved sample for colour, flavour and fineness, and compare lots side by side before they reach the outlets."),
+          E("Our ube powder is milled from mature purple yam (Dioscorea alata) for a clean, naturally violet colour and a soft, vanilla-like sweetness, with no artificial dye. We manage supply at origin in the Philippines and China, and every batch is screened and documented before it ships."),
+        ],
+      },
+      {
+        heading: E("Formulating ube milk tea and boba"),
+        body: [
+          E("Dissolution comes first. Test how the powder behaves in your actual process: hot water, cold water, a pre-mixed base, a shaker. Mixing the powder into a smooth paste or base before it meets the rest of the drink is the usual way to avoid clumps, and it is worth confirming on a sample, not a production run."),
+          E("Then test the whole drink. Milk or non-dairy creamer, sweetener and ice all change how ube reads in the cup, and toppings such as tapioca pearls change how sweet the drink needs to be. Because ube already brings its own soft sweetness, add sweetener last and taste as you go."),
+          E("Watch the colour with acidic ingredients. Natural colour can shift with acidity, so if a drink combines ube with fruit or a tart tea, check the shade before and after it sits."),
+        ],
+      },
+      {
+        heading: E("Ube, taro and tea powders on one menu"),
+        body: [
+          E("Many tea shops run more than one purple or creamy flavour. Ube gives a vivid violet with a vanilla-like sweetness; taro gives a milder, creamier base. We supply ube, taro and blends, and we also supply tea powders such as jasmine, oolong and earl grey. Tell us the drink you are building and we will recommend the right material for it, rather than assume one product fits every menu."),
+        ],
+      },
+      {
+        heading: E("What to ask for before you scale"),
+        body: [
+          E("Ask for the botanical name on the specification (Dioscorea alata), the origin of the lot, and a certificate of analysis for each batch. Ours ship with a certificate of analysis and a Verification Record. Ube powder is packed from 1 kg (2.2 lb) foil bags to 25 kg (55 lb) cartons and full containers, with organic from China and conventional from both origins."),
+          E("We send samples first so you can approve flavour, colour and mixing before you commit to volume. You can request one through our contact page. More on the powder is on our ube product page, and the label behind it is Pure Ube Partners."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Source"), value: E("Purple yam, Dioscorea alata") },
+      { label: E("Colour and flavour"), value: E("Naturally violet, soft vanilla-like sweetness") },
+      { label: E("Caffeine"), value: E("Caffeine-free") },
+      { label: E("Origins"), value: E("Philippines and China") },
+      { label: E("Grades"), value: E("Organic (China) and conventional") },
+      { label: E("Packaging"), value: E("1 kg (2.2 lb) foil to 25 kg (55 lb) carton to full container") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("What do I need to make ube milk tea with powder?"),
+        a: E("A finely milled ube powder, a base to disperse it into smoothly, your milk or creamer and sweetener. Add sweetener last, because ube is already lightly sweet, and approve a sample in your own recipe."),
+      },
+      {
+        q: E("Can ube powder be used for ube boba?"),
+        a: E("Yes. Ube powder is used for the drink base. Test it with your toppings and sweetness level, since pearls and other toppings change how sweet the drink needs to be."),
+      },
+      {
+        q: E("How do I keep ube milk tea consistent across outlets?"),
+        a: E("Approve one sample, ask that every later lot is matched to it, and compare lots before they reach outlets. A certificate of analysis for each batch documents what you receive."),
+      },
+      {
+        q: E("Do you only supply ube?"),
+        a: E("No. We also supply taro powder, blends and tea powders such as jasmine, oolong and earl grey. Tell us the drink and we recommend the right material."),
+      },
+      {
+        q: E("How do I request a sample?"),
+        a: E("Use our contact page. We send samples first so you can approve colour, flavour and mixing behaviour before you order volume."),
+      },
+    ],
+    relatedProducts: ["ube", "jasmine-tea-powder", "oolong-tea-powder", "earl-grey-tea-powder"],
+  },
 ];

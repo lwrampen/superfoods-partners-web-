@@ -27,27 +27,25 @@ export type Cert = {
 // until a photo is set). Roles/locations are localised via the `roles` message
 // namespace when a matching key exists, else shown verbatim.
 export const TEAM: TeamMember[] = [
-  { name: "Wanjin", role: "Supply chain & sourcing", photo: "/team/wanjin.jpg", location: "Hong Kong" },
-  { name: "Fannie", role: "Sourcing", photo: "/team/fannie.jpg", location: "Hong Kong" },
-  { name: "Candy", role: "Partnerships", photo: "/team/candy.jpg", location: "Hong Kong" },
-  { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.jpg", location: "Hong Kong" },
-  { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.jpg", location: "Netherlands" },
-  { name: "Leonard", role: "Digital strategy & operations", photo: "/team/leonard.jpg", location: "Netherlands" },
-  { name: "Max", role: "Sales & supply chain", photo: "/team/max.jpg", location: "Netherlands" },
-  { name: "Iris", role: "Sales", photo: "/team/iris.jpg", location: "Netherlands" },
-  { name: "Marieke", role: "Sales", photo: "/team/marieke.jpg", location: "Netherlands" },
-  { name: "Bo Gyi", role: "Sales", photo: "/team/bo-gyi.jpg", location: "Europe" },
-  { name: "Nancy", role: "Sales", photo: "/team/nancy.jpg", location: "Europe" },
-  { name: "Gino", role: "Sales", photo: "/team/gino.jpg", location: "Eastern Europe" },
-  { name: "Judith", role: "Sales", photo: "/team/judith.jpg", location: "Barcelona" },
-  { name: "Oisin", role: "Sales", photo: "/team/oisin.jpg", location: "United States" },
-  // Jasmijn (Asa Matcha) is held pending confirmation whether she belongs on
-  // the SFP team page. Sales-team roles are placeholders ("Sales") pending
-  // real titles.
-  //
-  // All portraits share one treatment: cut out and placed on brand sand, with
-  // face size and eye-line normalised, so the roster reads as one set. The
-  // section groups by `location`; LOCATION_ORDER in TeamSection sets the order.
+  { name: "Wanjin", role: "Supply chain & sourcing", photo: "/team/wanjin.webp", location: "Hong Kong" },
+  { name: "Fannie", role: "Sourcing", photo: "/team/fannie.webp", location: "Hong Kong" },
+  { name: "Candy", role: "Partnerships", photo: "/team/candy.webp", location: "Hong Kong" },
+  { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.webp", location: "Hong Kong" },
+  { name: "Emily", role: "Sales", photo: "/team/emily.webp", location: "Hong Kong" },
+  { name: "Brian", role: "Office manager, Hong Kong", photo: "/team/brian.webp", location: "Hong Kong" },
+  { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.webp", location: "Europe" },
+  { name: "Leonard", role: "Digital strategy & operations", photo: "/team/leonard.webp", location: "Europe" },
+  { name: "Max", role: "Sales & supply chain", photo: "/team/max.webp", location: "Europe" },
+  { name: "Dina", role: "Office manager, Amsterdam", location: "Europe" },
+  { name: "Jade", role: "Food scientist", photo: "/team/jade.webp", location: "Europe" },
+  { name: "Bo Gyi", role: "Sales", photo: "/team/bo-gyi.webp", location: "Europe" },
+  { name: "Gino", role: "Sales", photo: "/team/gino.webp", location: "Europe" },
+  { name: "Judith", role: "Sales", photo: "/team/judith.webp", location: "Europe" },
+  { name: "Oisin", role: "Sales", photo: "/team/oisin.webp", location: "United States" },
+  // Portraits (Nov 2026): one set, cut out and placed on the same light studio backdrop with the same face size and
+  // eye line (made with the PMP site's scripts/frame_team_portraits.py). Dina shows the silhouette until her photo
+  // arrives. Europe is one group (Leonard, 10 Nov 2026); Iris, Marieke and Nancy have left. Jasmijn and Noor (Asa
+  // Matcha) are on the PMP site only. Sales-team roles are placeholders ("Sales") pending real titles.
 ];
 
 // Certifications — official marks supplied by SFP.
