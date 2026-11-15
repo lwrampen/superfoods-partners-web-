@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { alternatesFor } from "@/i18n/paths";
+import { alternatesFor, localizedUrl, SITE } from "@/i18n/paths";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
@@ -51,10 +51,24 @@ export default async function PureUbePartnersPage({ params }: { params: Promise<
   const origins = base.originSlugs.map((s) => localizeOrigin(ORIGINS[s], locale));
   const guides = POSTS.filter((x) => x.relatedProducts?.includes("ube"));
 
+  // The label as an Organization under the Superfoods Partners group (whose node
+  // the layout emits as #organization), so search engines tie the brand to SFP.
+  const brandLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE}${PATH}#organization`,
+    name: LABEL.name,
+    url: localizedUrl(locale, PATH),
+    description: t("metaDescription"),
+    parentOrganization: { "@id": `${SITE}/#organization` },
+    knowsAbout: ["Ube", "Ube powder", "Purple yam (Dioscorea alata)"],
+  };
+
   return (
     <>
       <SiteNav />
       <main className="flex-1">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(brandLd) }} />
         {/* HERO */}
         <section className="mx-auto grid max-w-6xl items-center gap-12 px-6 pt-16 pb-16 md:grid-cols-[1.1fr_0.9fr] md:pt-24 md:pb-20">
           <Reveal>
