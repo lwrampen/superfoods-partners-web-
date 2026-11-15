@@ -745,7 +745,7 @@ export const POSTS: InsightPost[] = [
       "什麼是 ube 粉？色澤、風味與用法",
     ),
     metaTitle: L(
-      "What Is Ube? Ube Flavour, Colour & Uses of Ube Powder",
+      "What Is Ube? Ube Powder Explained: Colour, Uses & Sourcing",
       "Was ist Ube-Pulver? Ube vs. Taro & Süßkartoffel",
       "¿Qué Es el Ube? Ube en Polvo vs Taro y Camote Morado",
       "Qu'est-ce que l'Ube ? Poudre d'Ube vs Taro & Patate Douce",
@@ -753,7 +753,7 @@ export const POSTS: InsightPost[] = [
       "Ube 是什麼？是紫薯嗎？紫山藥粉風味與用途",
     ),
     metaDescription: L(
-      "What is ube? A purple yam (Dioscorea alata): its flavour, natural violet colour and how manufacturers use ube powder in drinks, bakery and ice cream.",
+      "What is ube? A purple yam (Dioscorea alata) with a natural violet colour. What ube powder is and how manufacturers use it in drinks, bakery and ice cream.",
       "Ube ist lila Yamswurzel (Dioscorea alata) — weder Taro noch lila Süßkartoffel. Was Ube-Pulver ist, sein natürliches Violett, der vanilleartige Geschmack und wie Hersteller es verwenden.",
       "El ube es ñame morado (Dioscorea alata) — no es taro ni camote morado. Qué es el ube en polvo, su violeta natural, su sabor tipo vainilla y cómo lo usan los fabricantes.",
       "L'ube est une igname pourpre (Dioscorea alata) — ni taro, ni patate douce violette. Ce qu'est la poudre d'ube, son violet naturel, son goût vanillé et comment les fabricants l'utilisent.",
