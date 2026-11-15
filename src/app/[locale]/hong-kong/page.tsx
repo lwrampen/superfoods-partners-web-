@@ -13,7 +13,9 @@ import { getPost, pick } from "@/data/insights";
 // Hong Kong buyers: ube powder stocked in Tsuen Wan, wider range via SFP,
 // Pure Matcha Partners for matcha. Facts come from the owner's brief only.
 const PATH = "/hong-kong";
-const PMP_HOME = "https://www.purematchapartners.com";
+const PMP_BASE = "https://www.purematchapartners.com";
+const pmpHk = (locale: string) =>
+  `${PMP_BASE}${locale === "es" || locale === "de" ? "/" + locale : ""}/matcha-supplier-hong-kong`;
 const ADDRESS = { street: "491 Castle Peak Road", locality: "Tsuen Wan", country: "Hong Kong" };
 const GUIDE_SLUGS = [
   "ube-milk-tea-boba-ube-powder-for-bubble-tea-shops",
@@ -154,7 +156,7 @@ export default async function HongKongPage({ params }: { params: Promise<{ local
                   <p className="mono text-[10px] uppercase tracking-widest text-stone/60">{t("pmpBrand")}</p>
                   <h3 className="display mt-3 text-2xl text-green">{t("pmpTitle")}</h3>
                   <p className="mt-3 leading-relaxed text-stone">{t("pmpBody")}</p>
-                  <a href={PMP_HOME} target="_blank" rel="noopener" className="mt-5 inline-block text-sm font-medium text-green underline-offset-4 hover:underline">
+                  <a href={pmpHk(locale)} target="_blank" rel="noopener" className="mt-5 inline-block text-sm font-medium text-green underline-offset-4 hover:underline">
                     {t("pmpLink")} ↗
                   </a>
                 </div>
