@@ -68,6 +68,17 @@ Angles:
 
 The full ube roadmap is in `docs/seo-sprints.md` on `main`.
 
+## Hong Kong (growth market, Leonard 15 Nov 2026)
+
+Target about **20% of each package** at Hong Kong prospects:
+- HK café, F&B and bubble-tea guides and media;
+- HK business and food-trade directories;
+- HK chambers and associations;
+- Google Business Profile at the Tsuen Wan address (491 Castle Peak Road).
+
+Matcha and hojicha links go to the PMP HK page (https://www.purematchapartners.com/matcha-supplier-hong-kong), ube links to
+SFP `/hong-kong` (https://www.superfoodspartners.com/hong-kong). Facts: `docs/markets/hong-kong.md` in the PMP repo.
+
 ## Month 1 (Nov 2026)
 
 - **Free foundation links (P0 in `../authority-checklist.md`):**
