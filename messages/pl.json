@@ -632,6 +632,84 @@
     "ctaHeading": "Pracujesz z ube?",
     "ctaBody": "Podaj wolumen, format i termin. Wrócimy z opcjami, specyfikacjami i próbkami."
   },
+  "hongKong": {
+    "metaTitle": "Proszek ube Hongkong, dostawca | Superfoods Partners",
+    "metaDescription": "Proszek ube na stanie w Tsuen Wan w Hongkongu dla piekarni, lodziarni i cukierni, marek bubble tea i napojów oraz producentów żywności. Reszta oferty przez SFP.",
+    "breadcrumbHome": "Strona główna",
+    "breadcrumbName": "Hongkong",
+    "eyebrow": "Hongkong",
+    "heading": "Dostawca proszku ube w Hongkongu",
+    "lead": "Proszek ube Superfoods Partners na stanie w naszym biurze w Tsuen Wan, dla piekarni, punktów z deserami, marek bubble tea i napojów oraz producentów żywności. Pozostałe superfoods w proszku są dostępne przez SFP.",
+    "ctaPrimary": "Poproś o wycenę",
+    "ctaSecondary": "Zobacz proszek ube",
+    "imgCaption": "Proszek ube, na stanie w Tsuen Wan",
+    "stockEyebrow": "Lokalnie na stanie",
+    "stockHeading": "Magazyn i biuro w Tsuen Wan.",
+    "addressLabel": "Adres",
+    "ubeBrand": "Superfoods Partners (SFP)",
+    "ubeTitle": "Proszek ube",
+    "ubeBody": "Proszek z fioletowego pochrzynu (Dioscorea alata), udokumentowany dla każdej partii. Na stanie w Hongkongu.",
+    "ubeLink": "Szczegóły proszku ube",
+    "pmpBrand": "Pure Matcha Partners (PMP)",
+    "pmpTitle": "Matcha, hojicha i matcha morwowa",
+    "pmpBody": "Również na stanie pod tym samym adresem, pod naszą siostrzaną marką Pure Matcha Partners.",
+    "pmpLink": "Odwiedź Pure Matcha Partners",
+    "whoEyebrow": "Komu dostarczamy",
+    "whoHeading": "Ube dla producentów żywności i napojów w Hongkongu.",
+    "who": [
+      {
+        "t": "Piekarnie",
+        "d": "Pieczywo i wypieki, sernik i desery, naleśniki i gofry."
+      },
+      {
+        "t": "Punkty z deserami",
+        "d": "Lody i gelato, wyroby cukiernicze i nadzienia, desery."
+      },
+      {
+        "t": "Marki bubble tea i napojów",
+        "d": "Latte i napoje RTD, w tym herbata mleczna z ube."
+      },
+      {
+        "t": "Producenci żywności i napojów",
+        "d": "Ube w większych ilościach do własnego produktu, z dokumentacją dla Twojego działu jakości."
+      }
+    ],
+    "rangeHeading": "Więcej superfoods w proszku przez SFP",
+    "rangeBody": "Poza ube oferta Superfoods Partners obejmuje proszki takie jak hibiskus, soplówka jeżowata, taro i herbaty w proszku. Są sprowadzane przez SFP i dostępne na zapytanie, nie ma ich na stanie w Hongkongu.",
+    "rangeLink": "Zobacz całą ofertę",
+    "qualityHeading": "Jakość i dokumentacja",
+    "qualityBody": "Każda partia jest badana i dokumentowana przed wysyłką, a do każdej dostawy dołączamy COA i Verification Record™. Ten sam standard dotyczy proszku ube, który mamy na stanie w Hongkongu.",
+    "qualityLink": "Jak weryfikujemy każdą partię",
+    "teamEyebrow": "Sprzedaż Hongkong",
+    "teamHeading": "Porozmawiaj z zespołem sprzedaży w Hongkongu.",
+    "teamLead": "Podaj produkt, zastosowanie i wolumen, a wrócimy z opcjami.",
+    "roleSales": "Sprzedaż, Hongkong",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "guidesHeading": "Poradniki o ube",
+    "faqHeading": "Częste pytania",
+    "faq": [
+      {
+        "q": "Czy macie proszek ube na stanie w Hongkongu?",
+        "a": "Tak. Proszek ube Superfoods Partners jest na stanie w naszym biurze przy 491 Castle Peak Road, Tsuen Wan, Hongkong. O dostępność zapytaj zespół sprzedaży w Hongkongu."
+      },
+      {
+        "q": "Czy mogę zamówić próbki w Hongkongu?",
+        "a": "Tak. Prześlij produkt i zastosowanie przez formularz wyceny albo napisz do zespołu sprzedaży w Hongkongu. Dostarczamy od ilości próbnych po pełne kontenery."
+      },
+      {
+        "q": "Gdzie kupić matchę w Hongkongu?",
+        "a": "Matcha, hojicha i matcha morwowa są na stanie pod tym samym adresem, pod naszą siostrzaną marką Pure Matcha Partners. W sprawie matchy skontaktuj się z Pure Matcha Partners."
+      },
+      {
+        "q": "Czy dostanę w Hongkongu inne superfoods w proszku?",
+        "a": "Tak, na zapytanie. Proszki z naszego katalogu, takie jak hibiskus, taro czy proszki z grzybów, można sprowadzić przez Superfoods Partners. Nie ma ich na stanie w Hongkongu."
+      }
+    ],
+    "ctaHeading": "Szukasz proszku ube w Hongkongu?",
+    "ctaBody": "Podaj produkt, wolumen i termin. Zespół sprzedaży w Hongkongu odpowie z opcjami i próbkami.",
+    "ldName": "Superfoods Partners Hongkong"
+  },
   "blending": {
     "metaTitle": "Mieszanki herbat i proszków na zamówienie | Superfoods Partners",
     "metaDescription": "Mieszanki tworzone razem z Tobą: matcha z earl grey, jaśminem lub białkiem, mieszanki ube i herbat w proszku. Organiczne lub konwencjonalne, od {kg} kg.",

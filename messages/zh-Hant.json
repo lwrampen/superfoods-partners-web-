@@ -632,6 +632,84 @@
     "ctaHeading": "正在使用紫山藥？",
     "ctaBody": "告訴我們您的需求量、規格與時程，我們將回覆可選方案、規格書與樣品。"
   },
+  "hongKong": {
+    "metaTitle": "香港紫山藥粉 (Ube) 供應商 | Superfoods Partners",
+    "metaDescription": "紫山藥粉 (Ube) 現貨存放於香港荃灣，供應烘焙店、甜品店、珍珠奶茶及飲品品牌與食品製造商。更多超級食物粉可經 SFP 採購。",
+    "breadcrumbHome": "首頁",
+    "breadcrumbName": "香港",
+    "eyebrow": "香港",
+    "heading": "香港紫山藥粉 (Ube) 供應商",
+    "lead": "Superfoods Partners 的紫山藥粉 (Ube) 現貨存放於我們荃灣辦公室，供應烘焙店、甜品店、珍珠奶茶及飲品品牌與食品製造商。其他超級食物粉亦可經 SFP 採購。",
+    "ctaPrimary": "索取報價",
+    "ctaSecondary": "查看紫山藥粉",
+    "imgCaption": "紫山藥粉，荃灣現貨",
+    "stockEyebrow": "本地現貨",
+    "stockHeading": "荃灣辦公室與貨倉。",
+    "addressLabel": "地址",
+    "ubeBrand": "Superfoods Partners (SFP)",
+    "ubeTitle": "紫山藥粉 (Ube)",
+    "ubeBody": "紫山藥粉 (Dioscorea alata)，每批次皆有文件記錄。香港現貨。",
+    "ubeLink": "紫山藥粉詳情",
+    "pmpBrand": "Pure Matcha Partners (PMP)",
+    "pmpTitle": "抹茶、焙茶及桑葚抹茶",
+    "pmpBody": "同一地址亦有現貨，由我們的姊妹品牌 Pure Matcha Partners 供應。",
+    "pmpLink": "前往 Pure Matcha Partners",
+    "whoEyebrow": "供應對象",
+    "whoHeading": "為香港餐飲業者而設的紫山藥粉。",
+    "who": [
+      {
+        "t": "烘焙店",
+        "d": "麵包與維也納酥點、芝士蛋糕與甜品、班戟與窩夫。"
+      },
+      {
+        "t": "甜品店",
+        "d": "雪糕與意式雪糕、糖果與內餡、甜品。"
+      },
+      {
+        "t": "珍珠奶茶及飲品品牌",
+        "d": "拿鐵與即飲飲品,包括紫山藥奶茶。"
+      },
+      {
+        "t": "食品及飲品製造商",
+        "d": "為自家產品提供大量紫山藥粉,並附文件供品保團隊查核。"
+      }
+    ],
+    "rangeHeading": "更多超級食物粉,經 SFP 採購",
+    "rangeBody": "除紫山藥外,Superfoods Partners 的產品系列還包括洛神花、猴頭菇、芋頭及茶粉等。這些產品經 SFP 採購,可按要求供應,並非香港現貨。",
+    "rangeLink": "查看完整產品系列",
+    "qualityHeading": "品質與文件",
+    "qualityBody": "每一批次出貨前皆經篩檢並記錄,每次出貨均附 COA 與 Verification Record™。我們存放於香港的紫山藥粉同樣依此標準。",
+    "qualityLink": "我們如何驗證每一批次",
+    "teamEyebrow": "香港銷售團隊",
+    "teamHeading": "聯絡香港銷售團隊。",
+    "teamLead": "告訴我們您的產品、應用與用量,我們會回覆合適的選擇。",
+    "roleSales": "銷售,香港",
+    "emailLabel": "電郵",
+    "phoneLabel": "電話",
+    "guidesHeading": "紫山藥指南",
+    "faqHeading": "常見問題",
+    "faq": [
+      {
+        "q": "你們在香港有紫山藥粉現貨嗎?",
+        "a": "有。Superfoods Partners 的紫山藥粉現貨存放於我們位於香港荃灣青山公路 491 號 (491 Castle Peak Road, Tsuen Wan) 的辦公室。現貨情況請聯絡香港銷售團隊。"
+      },
+      {
+        "q": "在香港可以索取樣品嗎?",
+        "a": "可以。請透過報價表格提交您的產品與應用,或直接聯絡香港銷售團隊。我們供應由樣品數量至整櫃的貨量。"
+      },
+      {
+        "q": "在香港哪裡可以買到抹茶?",
+        "a": "抹茶、焙茶及桑葚抹茶存放於同一地址,由我們的姊妹品牌 Pure Matcha Partners 供應。抹茶請聯絡 Pure Matcha Partners。"
+      },
+      {
+        "q": "香港可以買到其他超級食物粉嗎?",
+        "a": "可按要求供應。我們產品目錄中的粉類,例如洛神花、芋頭及菇類粉,可經 Superfoods Partners 採購,並非香港現貨。"
+      }
+    ],
+    "ctaHeading": "在香港尋找紫山藥粉?",
+    "ctaBody": "告訴我們您的產品、用量與時間。香港銷售團隊會回覆選擇與樣品。",
+    "ldName": "Superfoods Partners 香港"
+  },
   "blending": {
     "metaTitle": "客製茶粉與粉末調配 | Superfoods Partners",
     "metaDescription": "與您共同開發的調配粉：抹茶搭配伯爵茶、茉莉或蛋白質，紫山藥與茶粉調配。有機或常規，{kg} 公斤起。",

@@ -632,6 +632,84 @@
     "ctaHeading": "¿Trabaja con ube?",
     "ctaBody": "Cuéntenos volumen, formato y plazos. Le respondemos con opciones, especificaciones y muestras."
   },
+  "hongKong": {
+    "metaTitle": "Proveedor de ube en polvo en Hong Kong | Superfoods Partners",
+    "metaDescription": "Ube en polvo en stock en Tsuen Wan, Hong Kong, para panaderías, tiendas de postres, marcas de bubble tea y bebidas y fabricantes de alimentos. Más gama vía SFP.",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbName": "Hong Kong",
+    "eyebrow": "Hong Kong",
+    "heading": "Proveedor de ube en polvo en Hong Kong",
+    "lead": "Ube en polvo de Superfoods Partners, con stock en nuestra oficina de Tsuen Wan para panaderías, tiendas de postres, marcas de bubble tea y bebidas y fabricantes de alimentos y bebidas. El resto de la gama de superalimentos está disponible a través de SFP.",
+    "ctaPrimary": "Solicitar presupuesto",
+    "ctaSecondary": "Ver ube en polvo",
+    "imgCaption": "Ube en polvo, en stock en Tsuen Wan",
+    "stockEyebrow": "Stock local",
+    "stockHeading": "Stock y oficina en Tsuen Wan.",
+    "addressLabel": "Dirección",
+    "ubeBrand": "Superfoods Partners (SFP)",
+    "ubeTitle": "Ube en polvo",
+    "ubeBody": "Ñame morado en polvo (Dioscorea alata), documentado por lote. En stock en Hong Kong.",
+    "ubeLink": "Detalles del ube en polvo",
+    "pmpBrand": "Pure Matcha Partners (PMP)",
+    "pmpTitle": "Matcha, hojicha y matcha de morera",
+    "pmpBody": "También en stock en la misma dirección, bajo nuestra marca hermana Pure Matcha Partners.",
+    "pmpLink": "Visitar Pure Matcha Partners",
+    "whoEyebrow": "A quién suministramos",
+    "whoHeading": "Ube para fabricantes de alimentos y bebidas de Hong Kong.",
+    "who": [
+      {
+        "t": "Panaderías",
+        "d": "Panadería y bollería, tarta de queso y postres, tortitas y gofres."
+      },
+      {
+        "t": "Tiendas de postres",
+        "d": "Helado y gelato, confitería y rellenos, postres."
+      },
+      {
+        "t": "Marcas de bubble tea y bebidas",
+        "d": "Lattes y bebidas RTD, incluido el té con leche de ube."
+      },
+      {
+        "t": "Fabricantes de alimentos y bebidas",
+        "d": "Ube en volumen para su propio producto, con documentación para su equipo de calidad."
+      }
+    ],
+    "rangeHeading": "Más superalimentos en polvo a través de SFP",
+    "rangeBody": "Además del ube, la gama de Superfoods Partners incluye polvos como hibisco, melena de león, taro y tés en polvo. Se obtienen a través de SFP y están disponibles bajo petición, no hay stock de ellos en Hong Kong.",
+    "rangeLink": "Ver toda la gama",
+    "qualityHeading": "Calidad y documentación",
+    "qualityBody": "Cada lote se analiza y documenta antes de salir, y cada envío incluye un COA y un Verification Record™. El mismo estándar se aplica al ube en polvo que tenemos en Hong Kong.",
+    "qualityLink": "Cómo verificamos cada lote",
+    "teamEyebrow": "Ventas Hong Kong",
+    "teamHeading": "Hable con el equipo de ventas de Hong Kong.",
+    "teamLead": "Cuéntenos su producto, aplicación y volumen, y le respondemos con opciones.",
+    "roleSales": "Ventas, Hong Kong",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono",
+    "guidesHeading": "Guías sobre el ube",
+    "faqHeading": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Tienen stock de ube en polvo en Hong Kong?",
+        "a": "Sí. El ube en polvo de Superfoods Partners está en stock en nuestra oficina de 491 Castle Peak Road, Tsuen Wan, Hong Kong. Consulte la disponibilidad con el equipo de ventas de Hong Kong."
+      },
+      {
+        "q": "¿Puedo pedir muestras en Hong Kong?",
+        "a": "Sí. Envíenos su producto y aplicación a través del formulario de presupuesto o escriba al equipo de ventas de Hong Kong. Suministramos desde cantidades de muestra hasta contenedores completos."
+      },
+      {
+        "q": "¿Dónde compro matcha en Hong Kong?",
+        "a": "El matcha, el hojicha y el matcha de morera están en stock en la misma dirección, bajo nuestra marca hermana Pure Matcha Partners. Para matcha, contacte con Pure Matcha Partners."
+      },
+      {
+        "q": "¿Puedo conseguir otros superalimentos en polvo en Hong Kong?",
+        "a": "Sí, bajo petición. Los polvos de nuestro catálogo, como hibisco, taro o setas, se pueden obtener a través de Superfoods Partners. No hay stock de ellos en Hong Kong."
+      }
+    ],
+    "ctaHeading": "¿Busca ube en polvo en Hong Kong?",
+    "ctaBody": "Cuéntenos su producto, volumen y plazos. El equipo de ventas de Hong Kong responde con opciones y muestras.",
+    "ldName": "Superfoods Partners Hong Kong"
+  },
   "blending": {
     "metaTitle": "Mezclas de té y polvos a medida | Superfoods Partners",
     "metaDescription": "Mezclas desarrolladas con usted: matcha con earl grey, jazmín o proteína, mezclas de ube y de té en polvo. Orgánico o convencional, desde {kg} kg.",
