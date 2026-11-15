@@ -632,6 +632,84 @@
     "ctaHeading": "Vous travaillez l'ube ?",
     "ctaBody": "Indiquez-nous volume, format et calendrier. Nous revenons avec des options, des spécifications et des échantillons."
   },
+  "hongKong": {
+    "metaTitle": "Fournisseur de poudre d'ube à Hong Kong | Superfoods Partners",
+    "metaDescription": "Poudre d'ube en stock à Tsuen Wan, Hong Kong, pour boulangeries, boutiques de desserts, marques de bubble tea et boissons et fabricants. Gamme via SFP.",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbName": "Hong Kong",
+    "eyebrow": "Hong Kong",
+    "heading": "Fournisseur de poudre d'ube à Hong Kong",
+    "lead": "Poudre d'ube de Superfoods Partners, en stock dans notre bureau de Tsuen Wan pour les boulangeries, boutiques de desserts, marques de bubble tea et de boissons et fabricants agroalimentaires. Le reste de la gamme de superaliments est disponible via SFP.",
+    "ctaPrimary": "Demander un devis",
+    "ctaSecondary": "Voir la poudre d'ube",
+    "imgCaption": "Poudre d'ube, en stock à Tsuen Wan",
+    "stockEyebrow": "Stock local",
+    "stockHeading": "Stock et bureau à Tsuen Wan.",
+    "addressLabel": "Adresse",
+    "ubeBrand": "Superfoods Partners (SFP)",
+    "ubeTitle": "Poudre d'ube",
+    "ubeBody": "Poudre d'igname pourpre (Dioscorea alata), documentée par lot. En stock à Hong Kong.",
+    "ubeLink": "Détails de la poudre d'ube",
+    "pmpBrand": "Pure Matcha Partners (PMP)",
+    "pmpTitle": "Matcha, hojicha et matcha de mûrier",
+    "pmpBody": "Également en stock à la même adresse, sous notre marque sœur Pure Matcha Partners.",
+    "pmpLink": "Visiter Pure Matcha Partners",
+    "whoEyebrow": "Qui nous fournissons",
+    "whoHeading": "De l'ube pour les professionnels de l'alimentation et des boissons de Hong Kong.",
+    "who": [
+      {
+        "t": "Boulangeries",
+        "d": "Boulangerie et viennoiserie, cheesecake et desserts, pancakes et gaufres."
+      },
+      {
+        "t": "Boutiques de desserts",
+        "d": "Glaces et gelato, confiserie et garnitures, desserts."
+      },
+      {
+        "t": "Marques de bubble tea et de boissons",
+        "d": "Lattes et boissons RTD, dont le thé au lait à l'ube."
+      },
+      {
+        "t": "Fabricants agroalimentaires",
+        "d": "De l'ube en volume pour votre propre produit, avec la documentation pour votre équipe qualité."
+      }
+    ],
+    "rangeHeading": "Plus de poudres de superaliments via SFP",
+    "rangeBody": "Outre l'ube, la gamme Superfoods Partners comprend des poudres comme l'hibiscus, la crinière de lion, le taro et des poudres de thé. Elles sont approvisionnées via SFP et disponibles sur demande, elles ne sont pas en stock à Hong Kong.",
+    "rangeLink": "Voir toute la gamme",
+    "qualityHeading": "Qualité et documentation",
+    "qualityBody": "Chaque lot est contrôlé et documenté avant l'expédition, et chaque envoi est accompagné d'un COA et d'un Verification Record™. Le même standard s'applique à la poudre d'ube que nous gardons à Hong Kong.",
+    "qualityLink": "Comment nous vérifions chaque lot",
+    "teamEyebrow": "Ventes Hong Kong",
+    "teamHeading": "Parlez à l'équipe commerciale de Hong Kong.",
+    "teamLead": "Indiquez-nous votre produit, votre application et votre volume, nous revenons avec des options.",
+    "roleSales": "Ventes, Hong Kong",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "guidesHeading": "Guides sur l'ube",
+    "faqHeading": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Avez-vous de la poudre d'ube en stock à Hong Kong ?",
+        "a": "Oui. La poudre d'ube de Superfoods Partners est en stock dans notre bureau au 491 Castle Peak Road, Tsuen Wan, Hong Kong. Contactez l'équipe commerciale de Hong Kong pour connaître les disponibilités."
+      },
+      {
+        "q": "Puis-je demander des échantillons à Hong Kong ?",
+        "a": "Oui. Envoyez votre produit et votre application via le formulaire de devis ou écrivez à l'équipe commerciale de Hong Kong. Nous livrons de quantités d'échantillon jusqu'à des conteneurs complets."
+      },
+      {
+        "q": "Où acheter du matcha à Hong Kong ?",
+        "a": "Le matcha, le hojicha et le matcha de mûrier sont en stock à la même adresse, sous notre marque sœur Pure Matcha Partners. Pour le matcha, contactez Pure Matcha Partners."
+      },
+      {
+        "q": "Puis-je obtenir d'autres poudres de superaliments à Hong Kong ?",
+        "a": "Oui, sur demande. Les poudres de notre catalogue, comme l'hibiscus, le taro ou les champignons, peuvent être approvisionnées via Superfoods Partners. Elles ne sont pas en stock à Hong Kong."
+      }
+    ],
+    "ctaHeading": "Vous cherchez de la poudre d'ube à Hong Kong ?",
+    "ctaBody": "Indiquez-nous votre produit, votre volume et vos délais. L'équipe commerciale de Hong Kong répond avec des options et des échantillons.",
+    "ldName": "Superfoods Partners Hong Kong"
+  },
   "blending": {
     "metaTitle": "Mélanges de thé et de poudres sur mesure | Superfoods Partners",
     "metaDescription": "Des mélanges développés avec vous : matcha avec earl grey, jasmin ou protéine, mélanges d'ube et de thé en poudre. Bio ou conventionnel, dès {kg} kg.",

@@ -632,6 +632,84 @@
     "ctaHeading": "Sie arbeiten mit Ube?",
     "ctaBody": "Nennen Sie uns Volumen, Format und Zeitplan. Wir melden uns mit Optionen, Spezifikationen und Mustern."
   },
+  "hongKong": {
+    "metaTitle": "Ube-Pulver Lieferant Hongkong | Superfoods Partners",
+    "metaDescription": "Ube-Pulver auf Lager in Tsuen Wan, Hongkong, für Bäckereien, Dessertläden, Bubble-Tea- und Getränkemarken und Lebensmittelhersteller. Mehr über SFP.",
+    "breadcrumbHome": "Startseite",
+    "breadcrumbName": "Hongkong",
+    "eyebrow": "Hongkong",
+    "heading": "Ube-Pulver Lieferant in Hongkong",
+    "lead": "Ube-Pulver von Superfoods Partners, vorrätig in unserem Büro in Tsuen Wan, für Bäckereien, Dessertläden, Bubble-Tea- und Getränkemarken und Lebensmittelhersteller. Das weitere Superfood-Sortiment ist über SFP erhältlich.",
+    "ctaPrimary": "Angebot anfragen",
+    "ctaSecondary": "Ube-Pulver ansehen",
+    "imgCaption": "Ube-Pulver, auf Lager in Tsuen Wan",
+    "stockEyebrow": "Lokal auf Lager",
+    "stockHeading": "Lager und Büro in Tsuen Wan.",
+    "addressLabel": "Adresse",
+    "ubeBrand": "Superfoods Partners (SFP)",
+    "ubeTitle": "Ube-Pulver",
+    "ubeBody": "Pulver aus Purpuryam (Dioscorea alata), pro Charge dokumentiert. In Hongkong auf Lager.",
+    "ubeLink": "Details zum Ube-Pulver",
+    "pmpBrand": "Pure Matcha Partners (PMP)",
+    "pmpTitle": "Matcha, Hojicha und Mulberry-Matcha",
+    "pmpBody": "Ebenfalls unter derselben Adresse auf Lager, über unsere Schwestermarke Pure Matcha Partners.",
+    "pmpLink": "Pure Matcha Partners besuchen",
+    "whoEyebrow": "Wen wir beliefern",
+    "whoHeading": "Ube für Hongkongs Food- und Getränkehersteller.",
+    "who": [
+      {
+        "t": "Bäckereien",
+        "d": "Backwaren und Feingebäck, Käsekuchen und Desserts, Pancakes und Waffeln."
+      },
+      {
+        "t": "Dessertläden",
+        "d": "Eiscreme und Gelato, Konfekt und Füllungen, Desserts."
+      },
+      {
+        "t": "Bubble-Tea- und Getränkemarken",
+        "d": "Lattes und RTD-Getränke, auch Ube-Milchtee."
+      },
+      {
+        "t": "Lebensmittelhersteller",
+        "d": "Ube in größeren Mengen für Ihr eigenes Produkt, mit Dokumentation für Ihre QS."
+      }
+    ],
+    "rangeHeading": "Weitere Superfood-Pulver über SFP",
+    "rangeBody": "Neben Ube umfasst das Sortiment von Superfoods Partners Pulver wie Hibiskus, Löwenmähne, Taro und Teepulver. Sie werden über SFP beschafft und sind auf Anfrage erhältlich, sie liegen nicht in Hongkong auf Lager.",
+    "rangeLink": "Gesamtes Sortiment ansehen",
+    "qualityHeading": "Qualität und Dokumentation",
+    "qualityBody": "Jede Charge wird vor dem Versand geprüft und dokumentiert, und jede Lieferung enthält ein COA und einen Verification Record™. Derselbe Standard gilt für das Ube-Pulver, das wir in Hongkong vorrätig haben.",
+    "qualityLink": "Wie wir jede Charge verifizieren",
+    "teamEyebrow": "Vertrieb Hongkong",
+    "teamHeading": "Sprechen Sie mit dem Vertrieb in Hongkong.",
+    "teamLead": "Nennen Sie uns Produkt, Anwendung und Menge, wir melden uns mit Optionen.",
+    "roleSales": "Vertrieb, Hongkong",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "guidesHeading": "Ube-Ratgeber",
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Haben Sie Ube-Pulver in Hongkong auf Lager?",
+        "a": "Ja. Ube-Pulver von Superfoods Partners ist in unserem Büro in 491 Castle Peak Road, Tsuen Wan, Hongkong, vorrätig. Was verfügbar ist, erfahren Sie beim Vertrieb in Hongkong."
+      },
+      {
+        "q": "Kann ich in Hongkong Muster anfordern?",
+        "a": "Ja. Senden Sie Produkt und Anwendung über das Angebotsformular oder schreiben Sie dem Vertrieb in Hongkong. Wir liefern von Mustermengen bis zu ganzen Containern."
+      },
+      {
+        "q": "Wo kaufe ich Matcha in Hongkong?",
+        "a": "Matcha, Hojicha und Mulberry-Matcha liegen unter derselben Adresse auf Lager, über unsere Schwestermarke Pure Matcha Partners. Für Matcha wenden Sie sich bitte an Pure Matcha Partners."
+      },
+      {
+        "q": "Bekomme ich in Hongkong andere Superfood-Pulver?",
+        "a": "Ja, auf Anfrage. Pulver aus unserem Katalog, etwa Hibiskus-, Taro- und Pilzpulver, können über Superfoods Partners beschafft werden. Sie liegen nicht in Hongkong auf Lager."
+      }
+    ],
+    "ctaHeading": "Ube-Pulver in Hongkong gesucht?",
+    "ctaBody": "Nennen Sie uns Produkt, Menge und Zeitplan. Der Vertrieb in Hongkong antwortet mit Optionen und Mustern.",
+    "ldName": "Superfoods Partners Hongkong"
+  },
   "blending": {
     "metaTitle": "Individuelle Tee- & Pulvermischungen | Superfoods Partners",
     "metaDescription": "Mischungen, gemeinsam mit Ihnen entwickelt: Matcha mit Earl Grey, Jasmin oder Protein, Ube- und Teepulver-Mischungen. Bio oder konventionell, ab {kg} kg.",

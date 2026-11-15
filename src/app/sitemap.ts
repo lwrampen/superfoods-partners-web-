@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/insights", 0.7],
     ["/company", 0.8],
     ["/pure-ube-partners", 0.6],
+    ["/hong-kong", 0.7],
     ["/blending", 0.8],
     ["/packaging", 0.7],
     ["/contact", 0.8],

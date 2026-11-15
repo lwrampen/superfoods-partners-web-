@@ -632,6 +632,84 @@
     "ctaHeading": "Working with ube?",
     "ctaBody": "Tell us your volume, format and timing. We come back with options, specs and samples."
   },
+  "hongKong": {
+    "metaTitle": "Ube Powder Supplier Hong Kong | Superfoods Partners",
+    "metaDescription": "Ube powder in stock in Tsuen Wan, Hong Kong, for bakeries, dessert shops, bubble tea and drinks brands and F&B manufacturers. Wider range via SFP.",
+    "breadcrumbHome": "Home",
+    "breadcrumbName": "Hong Kong",
+    "eyebrow": "Hong Kong",
+    "heading": "Ube powder supplier in Hong Kong",
+    "lead": "Ube powder from Superfoods Partners, held in stock at our office in Tsuen Wan for bakeries, dessert shops, bubble tea and drinks brands and F&B manufacturers. The wider superfood range is available through SFP.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "View ube powder",
+    "imgCaption": "Ube powder, in stock in Tsuen Wan",
+    "stockEyebrow": "In stock locally",
+    "stockHeading": "Stock and office in Tsuen Wan.",
+    "addressLabel": "Address",
+    "ubeBrand": "Superfoods Partners (SFP)",
+    "ubeTitle": "Ube powder",
+    "ubeBody": "Purple yam powder (Dioscorea alata), documented per batch. Held in stock in Hong Kong.",
+    "ubeLink": "Ube powder details",
+    "pmpBrand": "Pure Matcha Partners (PMP)",
+    "pmpTitle": "Matcha, hojicha and mulberry matcha",
+    "pmpBody": "Also in stock at the same address, under our sister brand Pure Matcha Partners.",
+    "pmpLink": "Visit Pure Matcha Partners",
+    "whoEyebrow": "Who we supply",
+    "whoHeading": "Ube for Hong Kong food and drink makers.",
+    "who": [
+      {
+        "t": "Bakeries",
+        "d": "Bakery and viennoiserie, cheesecake and desserts, pancakes and waffles."
+      },
+      {
+        "t": "Dessert shops",
+        "d": "Ice cream and gelato, confectionery and fillings, desserts."
+      },
+      {
+        "t": "Bubble tea and drinks brands",
+        "d": "Lattes and RTD beverages, including ube milk tea."
+      },
+      {
+        "t": "F&B manufacturers",
+        "d": "Ube in volume for your own product, with documentation for your QA team."
+      }
+    ],
+    "rangeHeading": "More superfood powders through SFP",
+    "rangeBody": "Beyond ube, the Superfoods Partners range includes powders such as hibiscus, lion's mane, taro and tea powders. These are sourced through SFP and available on request, they are not held in stock in Hong Kong.",
+    "rangeLink": "See the full range",
+    "qualityHeading": "Quality and documentation",
+    "qualityBody": "Every batch is screened and documented before it ships, and each shipment comes with a COA and a Verification Record™. The same standard applies to the ube powder we hold in Hong Kong.",
+    "qualityLink": "How we verify every batch",
+    "teamEyebrow": "Sales team Hong Kong",
+    "teamHeading": "Talk to the Hong Kong sales team.",
+    "teamLead": "Tell us your product, application and volume, and we come back with options.",
+    "roleSales": "Sales, Hong Kong",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "guidesHeading": "Ube guides",
+    "faqHeading": "Common questions",
+    "faq": [
+      {
+        "q": "Do you hold ube powder stock in Hong Kong?",
+        "a": "Yes. Ube powder from Superfoods Partners is in stock at our office at 491 Castle Peak Road, Tsuen Wan, Hong Kong. Contact the Hong Kong sales team for what is available."
+      },
+      {
+        "q": "Can I request samples in Hong Kong?",
+        "a": "Yes. Send your product and application through the quote form or write to the Hong Kong sales team. We supply from sample quantities up to full containers."
+      },
+      {
+        "q": "Where do I buy matcha in Hong Kong?",
+        "a": "Matcha, hojicha and mulberry matcha are in stock at the same address under our sister brand Pure Matcha Partners. Please contact Pure Matcha Partners for matcha."
+      },
+      {
+        "q": "Can I get other superfood powders in Hong Kong?",
+        "a": "Yes, on request. Powders from our catalogue, such as hibiscus, taro and mushroom powders, can be sourced through Superfoods Partners. They are not held in stock in Hong Kong."
+      }
+    ],
+    "ctaHeading": "Looking for ube powder in Hong Kong?",
+    "ctaBody": "Tell us your product, volume and timing. The Hong Kong sales team replies with options and samples.",
+    "ldName": "Superfoods Partners Hong Kong"
+  },
   "blending": {
     "metaTitle": "Custom Tea Blends & Powder Blending | Superfoods Partners",
     "metaDescription": "Custom blends developed with you: matcha with earl grey, jasmine or protein, ube and tea powder blends. Organic or conventional, from {kg} kg.",
