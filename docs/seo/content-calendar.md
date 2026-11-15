@@ -30,6 +30,15 @@ Volumes are DataforSEO, US, per month (see `docs/seo-sprints.md` for the full ta
 - [ ] `ube-milk-tea-and-rtd-drinks` — Ube milk tea, ube drink and RTD formulation (ube drink 3.6k, ube milk tea 1.3k, ube coffee 3.6k).
 - [ ] `ube-powder-vs-ube-extract-or-paste` — Which ube format for which job (powder vs fresh/paste), framed as "tell us the application". Only if the formats can be stated from `catalog.ts`.
 
+## Queue — Hong Kong (growth market, Leonard 15-11)
+
+Hong Kong is a growth market: ube is in stock in Hong Kong (office and stock in Tsuen Wan). Every post links to `/hong-kong`
+(6 locales) and `/products/ube`, and gets a zh-Hant angle (Hong Kong usage). Alternate with the ube queue, about one per month.
+
+- [ ] `ube-powder-hong-kong-bakeries-dessert-shops` — Ube powder for Hong Kong bakeries and dessert shops. zh-Hant angle: 香港烘焙店及甜品店用紫薯/紫山藥粉 (ube).
+- [ ] `ube-bubble-tea-hong-kong` — Ube for bubble tea in Hong Kong. zh-Hant angle: 香港珍珠奶茶店的香芋/紫薯飲品.
+- [ ] `sourcing-superfood-powders-hong-kong-local-ube-stock` — Sourcing superfood powders in Hong Kong with local ube stock. zh-Hant angle: 香港超級食物粉批發及本地庫存.
+
 ## Queue — other product lines (after the ube queue; alternate)
 
 - [ ] `hibiscus-grades-acidity-beverages` — Hibiscus: grades, acidity and beverage uses.

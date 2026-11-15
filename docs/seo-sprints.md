@@ -1,6 +1,13 @@
 # SEO-sprints — superfoodspartners.com
 
 Tweewekelijks log (elke sprint één PR ter review). Nieuwste entry bovenaan.
+
+## Prioriteiten vanaf 15 nov 2026
+
+Hong Kong is een groeimarkt (Leonard, 15-11): kantoor en voorraad in Hong Kong (ube op voorraad). Pagina `/hong-kong` staat live in 6 talen
+(incl. zh-Hant). HK-tracking (zoekwoorden en + zh-TW, locatie 2344, HK-vragen in de AI-meting) start met de metingen van 20 nov.
+Elke sprint: controleer HK-rankings en -vertoningen en de zh-Hant-pagina's. Zie ook `docs/seo/content-calendar.md` (HK-onderwerpen).
+
 Roadmap Q4 2026 – Q1 2027 (besluit Leonard, 20-10):
 1. Ube-hub + SFP-categorieën (hibiscus, theepoeders, lion's mane)
 2. Europa eerst (voor de SFP-categorieën)
