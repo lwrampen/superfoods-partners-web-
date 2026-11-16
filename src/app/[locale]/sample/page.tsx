@@ -26,11 +26,11 @@ const RULE = ["#8cc541", "#b24a18", "#ae1d49", "#5a338c"];
 
 // Range cards. `slug` only where a product page exists in the site's routes.
 const RANGE = [
-  { key: "matcha", color: "#1c4b0c", slug: "matcha" },
-  { key: "hojicha", color: "#b24a18", slug: "hojicha" },
-  { key: "ube", color: "#5a338c", slug: "ube" },
-  { key: "earlGrey", color: "#3e5a78", slug: "earl-grey-tea-powder" },
-  { key: "hibiscus", color: "#ae1d49", slug: "hibiscus" },
+  { key: "matcha", color: "#1c4b0c", slug: "matcha", img: "/products/matcha.jpg" },
+  { key: "hojicha", color: "#b24a18", slug: "hojicha", img: "/products/hojicha.webp" },
+  { key: "ube", color: "#5a338c", slug: "ube", img: "/products/ube.jpg" },
+  { key: "earlGrey", color: "#3e5a78", slug: "earl-grey-tea-powder", img: "/products/earl-grey-tea-powder.webp" },
+  { key: "hibiscus", color: "#ae1d49", slug: "hibiscus", img: "/products/hibiscus.webp" },
   { key: "mulberry", color: "#5f7f1c" },
   { key: "rooibos", color: "#c0562a" },
 ] as const;
@@ -384,25 +384,25 @@ export default async function SamplePage({ params }: { params: Promise<{ locale:
                           className={`relative w-full overflow-hidden ${featured ? "aspect-[16/9] md:aspect-[2.4/1]" : "aspect-[16/9] md:aspect-[16/8]"}`}
                           style={{ backgroundColor: r.color }}
                         >
-                          {featured ? (
+                          {"img" in r && (
                             <Image
-                              src="/sample/tea-hedges.webp"
-                              alt={t("range.items.matcha.alt")}
+                              src={r.img}
+                              alt={t(`range.items.${r.key}.alt`)}
                               fill
-                              sizes="(min-width: 768px) 66vw, 82vw"
+                              sizes={featured ? "(min-width: 768px) 66vw, 82vw" : "(min-width: 768px) 33vw, 82vw"}
                               className="object-cover"
                             />
-                          ) : (
-                            <>
-                              <div aria-hidden className="absolute inset-0 bg-gradient-to-br from-white/[0.14] via-transparent to-black/25" />
-                              <span aria-hidden className="display absolute -bottom-4 right-3 select-none text-[8rem] leading-none text-white/[0.16]">
-                                {String(i + 1).padStart(2, "0")}
-                              </span>
-                              <span className="mono absolute left-6 top-5 text-[10px] uppercase tracking-[0.22em] text-white/80">
-                                {String(i + 1).padStart(2, "0")} / {String(RANGE.length).padStart(2, "0")}
-                              </span>
-                            </>
                           )}
+                          <div
+                            aria-hidden
+                            className={`absolute inset-0 ${"img" in r ? "bg-gradient-to-br from-black/30 via-black/0 to-black/45" : "bg-gradient-to-br from-white/[0.14] via-transparent to-black/25"}`}
+                          />
+                          <span aria-hidden className={`display absolute -bottom-4 right-3 select-none leading-none ${featured ? "text-[10rem]" : "text-[8rem]"} ${"img" in r ? "text-white/[0.32]" : "text-white/[0.16]"}`}>
+                            {String(i + 1).padStart(2, "0")}
+                          </span>
+                          <span className="mono absolute left-6 top-5 text-[10px] uppercase tracking-[0.22em] text-white/90 [text-shadow:0_1px_3px_rgba(0,0,0,.45)]">
+                            {String(i + 1).padStart(2, "0")} / {String(RANGE.length).padStart(2, "0")}
+                          </span>
                         </div>
                         <div className="flex flex-1 flex-col p-6">
                           <p className="mono text-[10px] uppercase tracking-[0.18em]" style={{ color: r.color }}>
