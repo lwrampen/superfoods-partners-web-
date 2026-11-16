@@ -26,13 +26,13 @@ const RULE = ["#8cc541", "#b24a18", "#ae1d49", "#5a338c"];
 
 // Range cards. `slug` only where a product page exists in the site's routes.
 const RANGE = [
-  { key: "matcha", img: "/sample/matcha.webp", color: "#1c4b0c", slug: "matcha" },
-  { key: "hojicha", img: "/sample/hojicha.webp", color: "#b24a18", slug: "hojicha" },
-  { key: "ube", img: "/sample/ube.webp", color: "#5a338c", slug: "ube" },
-  { key: "earlGrey", img: "/sample/earl-grey.webp", color: "#3e5a78", slug: "earl-grey-tea-powder" },
-  { key: "hibiscus", img: "/sample/hibiscus.webp", color: "#ae1d49", slug: "hibiscus" },
-  { key: "mulberry", img: "/sample/mulberry.webp", color: "#5f7f1c" },
-  { key: "rooibos", img: "/sample/rooibos.webp", color: "#c0562a" },
+  { key: "matcha", color: "#1c4b0c", slug: "matcha" },
+  { key: "hojicha", color: "#b24a18", slug: "hojicha" },
+  { key: "ube", color: "#5a338c", slug: "ube" },
+  { key: "earlGrey", color: "#3e5a78", slug: "earl-grey-tea-powder" },
+  { key: "hibiscus", color: "#ae1d49", slug: "hibiscus" },
+  { key: "mulberry", color: "#5f7f1c" },
+  { key: "rooibos", color: "#c0562a" },
 ] as const;
 
 // "A science-led route" — the deck's five pastel cards.
@@ -380,14 +380,29 @@ export default async function SamplePage({ params }: { params: Promise<{ locale:
                   >
                     <Reveal delay={(i % 3) * 0.05} className="h-full">
                       <article className="flex h-full flex-col border-t-4 bg-white" style={{ borderColor: r.color }}>
-                        <div className={`relative w-full overflow-hidden ${featured ? "aspect-[4/3] md:aspect-[2.1/1]" : "aspect-[4/3]"}`}>
-                          <Image
-                            src={r.img}
-                            alt={t(`range.items.${r.key}.alt`)}
-                            fill
-                            sizes={featured ? "(min-width: 768px) 66vw, 82vw" : "(min-width: 768px) 33vw, 82vw"}
-                            className="object-cover"
-                          />
+                        <div
+                          className={`relative w-full overflow-hidden ${featured ? "aspect-[16/9] md:aspect-[2.4/1]" : "aspect-[16/9] md:aspect-[16/8]"}`}
+                          style={{ backgroundColor: r.color }}
+                        >
+                          {featured ? (
+                            <Image
+                              src="/sample/tea-hedges.webp"
+                              alt={t("range.items.matcha.alt")}
+                              fill
+                              sizes="(min-width: 768px) 66vw, 82vw"
+                              className="object-cover"
+                            />
+                          ) : (
+                            <>
+                              <div aria-hidden className="absolute inset-0 bg-gradient-to-br from-white/[0.14] via-transparent to-black/25" />
+                              <span aria-hidden className="display absolute -bottom-4 right-3 select-none text-[8rem] leading-none text-white/[0.16]">
+                                {String(i + 1).padStart(2, "0")}
+                              </span>
+                              <span className="mono absolute left-6 top-5 text-[10px] uppercase tracking-[0.22em] text-white/80">
+                                {String(i + 1).padStart(2, "0")} / {String(RANGE.length).padStart(2, "0")}
+                              </span>
+                            </>
+                          )}
                         </div>
                         <div className="flex flex-1 flex-col p-6">
                           <p className="mono text-[10px] uppercase tracking-[0.18em]" style={{ color: r.color }}>
@@ -492,7 +507,7 @@ export default async function SamplePage({ params }: { params: Promise<{ locale:
                 <article className="grid h-full overflow-hidden bg-sand md:grid-cols-[0.9fr_1.1fr]">
                   <div className="relative aspect-[16/10] md:aspect-auto">
                     <Image
-                      src="/sample/matcha-whisk.webp"
+                      src="/sample/leaf-sacks.webp"
                       alt={t("work.whiskAlt")}
                       fill
                       sizes="(min-width: 1024px) 28vw, (min-width: 768px) 45vw, 100vw"
