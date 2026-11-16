@@ -918,131 +918,333 @@
     }
   },
   "sample": {
-    "metaTitle": "Twoja próbka, cała historia | Superfoods Partners",
-    "metaDescription": "Kim jesteśmy, skąd pochodzi Twoja próbka i jak przejść od próbki do zamówienia próbnego z Superfoods Partners, zespołem stojącym za Pure Matcha Partners.",
-    "eyebrow": "Dziękujemy za wypróbowanie",
-    "heading": "Twoja próbka, cała historia",
-    "lead": "Właśnie spróbowałeś próbki od Superfoods Partners. Oto kim jesteśmy, skąd pochodzi i jak przejść od tego pudełka do zamówienia próbnego.",
-    "imgAlt": "Herbaciane ogrody uprawiane w cieniu",
-    "imgCaption": "Herbaciane ogrody, pozyskiwane u źródła",
-    "ctaPrimary": "Poproś o wycenę / zamówienie próbne",
-    "ctaSecondary": "Porozmawiaj z naszym zespołem",
-    "whoEyebrow": "Kim jesteśmy",
-    "whoHeading": "Dom składników stojący za Pure Matcha Partners.",
-    "whoBody": "Superfoods Partners pracuje bezpośrednio u źródła z producentami herbaty w Japonii i Chinach i kontroluje łańcuch od zbiorów do palety. Dostarczamy produkty markom, producentom i na rynek private label.",
-    "pmpLink": "Odwiedź Pure Matcha Partners",
-    "locEyebrow": "Gdzie działamy",
-    "locations": [
-      "Holandia",
-      "Stany Zjednoczone",
-      "Hongkong"
-    ],
-    "hkLink": "Nasza strona Hongkong",
-    "stats": [
-      "gatunków matchy, od ceremonialnej po kulinarną",
-      "kg rocznej zdolności od I kwartału 2028",
-      "obsługiwanych krajów"
-    ],
-    "originsEyebrow": "Pochodzenie",
-    "originsHeading": "Pozyskiwane u źródła w Japonii, Chinach i na Filipinach.",
-    "origins": [
-      {
-        "c": "Japonia",
-        "p": "Uji, Kagoshima, Shizuoka",
-        "n": "Ekologiczna i konwencjonalna"
-      },
-      {
-        "c": "Chiny",
-        "p": "Hubei, Syczuan, Kuejczou",
-        "n": ""
-      },
-      {
-        "c": "Filipiny",
-        "p": "Luzon",
-        "n": "Ube"
-      }
-    ],
-    "originsLink": "Poznaj nasze pochodzenie",
-    "howEyebrow": "Jak pracujemy",
-    "howHeading": "Blisko plantacji, dokładnie przy każdej partii.",
-    "how": [
-      {
-        "t": "Inwestycje w plantacje, nie pośrednictwo",
-        "d": "Inwestujemy razem z lokalnymi producentami herbaty w plantacje, zakłady, jakość i długoterminowe moce."
-      },
-      {
-        "t": "Japonia i Chiny, dopasowane do Ciebie",
-        "d": "Łączymy japońską i chińską matchę zgodnie z Twoją ceną docelową, kolorem i smakiem."
-      },
-      {
-        "t": "Badane partia po partii",
-        "d": "Każda partia jest badana, zgodna z limitami MRL USA i UE oraz niezależnie weryfikowana przez Eurofins."
-      },
-      {
-        "t": "Certyfikowane",
-        "d": "USDA i EU Organic, JAS, HACCP, FSSC 22000 oraz Rainforest Alliance."
-      }
-    ],
-    "rangeEyebrow": "Asortyment",
-    "rangeHeading": "Jeden dom składników, siedem linii.",
-    "range": {
-      "matcha": "Matcha",
-      "hojicha": "Hojicha",
-      "ube": "Ube",
-      "hibiscus": "Hibiskus",
-      "mulberry": "Morwa",
-      "rooibos": "Rooibos",
-      "earlGrey": "Earl Grey"
+    "metaTitle": "Dziękujemy za wypróbowanie | Superfoods Partners",
+    "metaDescription": "Historia Twojej próbki: kim jesteśmy, nasze regiony pochodzenia, asortyment i droga od próbki do zamówienia próbnego z Superfoods Partners.",
+    "hero": {
+      "eyebrow": "Dziękujemy za wypróbowanie",
+      "lead": "Pozyskujemy składnik i za niego odpowiadamy.",
+      "body": "Trzymasz w rękach jedną z naszych próbek. Zobacz, co za nią stoi: kim jesteśmy, skąd pochodzi, pełny asortyment i jak przejść od degustacji do produkcji.",
+      "ctaPrimary": "Poproś o wycenę lub zamówienie próbne",
+      "ctaSecondary": "Poznaj asortyment",
+      "footer": "Superfoods Partners · NL · US · HK",
+      "imgAlt": "Widok z lotu ptaka na maszynę do zbioru herbaty z pełnymi workami między rzędami krzewów herbacianych",
+      "imgCaption": "Zbiór herbaty · Japonia"
     },
-    "rangeLink": "Zobacz cały asortyment",
-    "pathEyebrow": "Od próbki do produkcji",
-    "pathHeading": "Cztery kroki od tego pudełka do pierwszego zamówienia.",
-    "steps": [
-      {
-        "t": "Spróbuj i przetestuj próbkę",
-        "d": "Wypróbuj ją we własnej aplikacji i własnym procesie."
-      },
-      {
-        "t": "Podziel się opinią",
-        "d": "Powiedz nam, jaki smak, kolor, zastosowanie i wolumen Cię interesują."
-      },
-      {
-        "t": "Dopasowujemy lub dopracowujemy",
-        "d": "Dopasowujemy lub dopracowujemy gatunek albo mieszankę i wysyłamy Ci specyfikacje oraz dokumenty, w tym kartę specyfikacji i CoA."
-      },
-      {
-        "t": "Zamówienie próbne, potem skalowanie",
-        "d": "Zacznij od zamówienia próbnego. Gdy się sprawdzi, skalujemy razem z Tobą."
+    "who": {
+      "eyebrow": "Wprowadzenie",
+      "heading": "Kim jesteśmy: marka i dom",
+      "labelTag": "Marka",
+      "labelBody": "Wyspecjalizowany partner hurtowy i handlowy, który dostarcza matchę premium bezpośrednio z rodzinnych plantacji u źródła. Nasza misja: zmienić matchę z produktu niszowego w codzienny wybór, dzięki partnerstwom, innowacjom i edukacji.",
+      "houseTag": "Dom",
+      "houseBody": "Dom składników stojący za marką: pozyskiwanie u źródła, kontrola łańcucha od plantacji do palety oraz dostawy matchy, hojichy, hibiskusa, ube i innych dla marek, producentów i marek własnych.",
+      "endorse": "Pure Matcha Partners — marka Superfoods Partners",
+      "teamAlt": "Nasz zespół z pracownikami plantacji herbaty przed workami zebranej herbaty w Japonii",
+      "teamCaption": "Osobiście odwiedzamy naszych partnerów u źródła. Tutaj u producenta herbaty w Japonii.",
+      "countries": "Holandia · Stany Zjednoczone · Hongkong",
+      "locations": "Międzynarodowa firma w trzech lokalizacjach; pozyskiwanie i kontrola jakości w Azji są prowadzone z Hongkongu."
+    },
+    "global": {
+      "eyebrow": "Wprowadzenie",
+      "heading": "Twój globalny partner w dostawach",
+      "stats": [
+        {
+          "n": "Gatunki",
+          "l": "Gatunki matchy, od ceremonialnej po kulinarną"
+        },
+        {
+          "n": "Moce",
+          "l": "Roczne moce (od I kw. 2028)"
+        },
+        {
+          "n": "Zasięg",
+          "l": "Obsługiwane kraje"
+        }
+      ],
+      "imgAlt": "Dłonie zbierające świeże liście herbaty w ciepłym wieczornym świetle",
+      "imgCaption": "Świeży liść · Japonia",
+      "originsLabel": "Regiony pochodzenia",
+      "origins": [
+        {
+          "c": "Japonia",
+          "n": "Uji",
+          "d": "Ekologiczna i konwencjonalna"
+        },
+        {
+          "c": "Japonia",
+          "n": "Kagoshima",
+          "d": "Ekologiczna i konwencjonalna"
+        },
+        {
+          "c": "Japonia",
+          "n": "Shizuoka",
+          "d": "Ekologiczna i konwencjonalna"
+        },
+        {
+          "c": "Chiny",
+          "n": "Chiny Wschodnie",
+          "d": "Hubei · Syczuan · Kuejczou"
+        },
+        {
+          "c": "Filipiny",
+          "n": "Luzon",
+          "d": "Ube"
+        },
+        {
+          "c": "Nie tylko matcha",
+          "n": "Asortyment",
+          "d": "Hibiskus · Morwa · Rooibos · Hojicha"
+        }
+      ],
+      "chinaAlt": "Młode pędy herbaty na tle zamglonych gór w Chinach",
+      "chinaCaption": "Ogród herbaciany · Chiny",
+      "note": "<b>Najpierw pochodzenie.</b> Matcha od ceremonialnej po kulinarną z pięciu regionów, a <b>handel tenchą i planowane przejęcia plantacji</b> jeszcze wzmacniają kontrolę u źródła."
+    },
+    "model": {
+      "eyebrow": "Wprowadzenie",
+      "heading": "Nasz model",
+      "intro": "Blisko plantacji, niezależnie weryfikowani i sprawdzeni na dużą skalę. Sześć rzeczy, które stoją za każdą wysyłaną przez nas próbką.",
+      "items": [
+        {
+          "t": "Inwestycje w plantacje, nie pośrednictwo",
+          "d": "Inwestujemy razem z lokalnymi producentami herbaty: surowce, zgodność z przepisami, kwestie prawne, infrastruktura, kontrola jakości i zarządzanie projektami."
+        },
+        {
+          "t": "Wiele regionów: mieszanki Japonia + Chiny",
+          "d": "Jedna z niewielu firm oferujących w pełni przejrzyste dostawy mieszanek japońsko-chińskich: stała jakość na dużą skalę."
+        },
+        {
+          "t": "Trzy lokalizacje · NL · US · HK",
+          "d": "Międzynarodowa firma; pozyskiwanie, kontrola jakości, logistyka i zgodność w Azji są prowadzone z naszej bazy w Hongkongu, z lokalnymi zespołami w Japonii, Chinach i na Filipinach."
+        },
+        {
+          "t": "Weryfikacja Eurofins",
+          "d": "Zgodność z limitami MRL USA i UE, niezależnie weryfikowana przez Eurofins, wiodące na świecie laboratorium badań żywności."
+        },
+        {
+          "t": "Certyfikaty",
+          "d": "USDA i EU Organic, JAS, HACCP, FSSC 22000, Rainforest Alliance: kompletny zestaw bezpieczeństwa żywności."
+        },
+        {
+          "t": "Doświadczenie w gastronomii · certyfikat IFS",
+          "d": "Sprawdzeni na dużą skalę z jednymi z największych sieci kawiarni na świecie: zgodność, jakość i wolumen już potwierdzone."
+        }
+      ]
+    },
+    "route": {
+      "eyebrow": "Nasz model operacyjny",
+      "heading": "Oparta na nauce droga od surowca do produktu gotowego na rynek.",
+      "items": [
+        {
+          "t": "Pure Ingredients.",
+          "d": "Bezpośredni dostęp do naszych certyfikowanych plantacji i wielu regionów pochodzenia."
+        },
+        {
+          "t": "Stała jakość",
+          "d": "Przetwarzanie i mieszanie oparte na nauce zapewniają bezpieczeństwo żywności i wyrównują naturalną zmienność."
+        },
+        {
+          "t": "Formulated to Thrive.",
+          "d": "Wsparcie w zakresie smaku, funkcjonalności i receptury, aż po co-packing."
+        },
+        {
+          "t": "Wiedza rynkowa",
+          "d": "Doświadczenie produktowe z ponad 35 rynków w gastronomii, handlu detalicznym, FMCG i przemyśle spożywczym."
+        },
+        {
+          "t": "Niezawodny globalny łańcuch dostaw",
+          "d": "Koordynowany przez nasze biura w Amsterdamie, Hongkongu i Los Angeles."
+        }
+      ]
+    },
+    "range": {
+      "eyebrow": "Nie tylko matcha",
+      "heading": "Asortyment",
+      "intro": "Matcha w centrum, a obok niej rosnąca gama proszków herbacianych i superfoods. Każdy dostępny jako próbka, w mieszance i na dużą skalę.",
+      "appsLabel": "Typowe zastosowania",
+      "view": "Zobacz produkt",
+      "all": "Zobacz wszystkie produkty",
+      "swipe": "Przesuń, aby zobaczyć cały asortyment →",
+      "ctaHeading": "Inna linia lub mieszanka?",
+      "ctaBody": "Poproś o próbkę innego proszku lub połączenia takiego jak Earl Grey × Matcha, Jaśmin × Matcha czy Hojicha × Rooibos.",
+      "items": {
+        "matcha": {
+          "name": "Matcha",
+          "tag": "Od ceremonialnej po kulinarną",
+          "body": "Ponad 75 gatunków z Uji, Kagoshimy, Shizuoki i Chin Wschodnich, z jednego regionu lub mieszanych pod Twoją docelową cenę, kolor i profil smakowy.",
+          "apps": "Latte, napoje gazowane i funkcjonalne, lody, czekolada, nadzienia, ciastka i ciasta",
+          "alt": "Proszek matcha z bambusową miotełką i łyżeczką na drewnianym stole"
+        },
+        "hojicha": {
+          "name": "Hojicha",
+          "tag": "Prażona · tostowa · mało kofeiny",
+          "body": "Prażona japońska zielona herbata, orzechowa i otulająca. Nasza hojicha ma aromat przywodzący na myśl kakao.",
+          "apps": "Latte, maślane ciastka, czekolada, mochi, sernik, lody",
+          "alt": "Mrożone hojicha latte obok bambusowej miotełki"
+        },
+        "ube": {
+          "name": "Ube",
+          "tag": "Intensywny · fotogeniczny · roślinny",
+          "body": "Fioletowy pochrzyn ceniony za uderzający naturalny kolor i łagodny, słodki smak z gładkimi nutami wanilii i orzechów.",
+          "apps": "Latte, czekolada, mochi i daifuku, lody i gelato, torty naleśnikowe, mieszanki do pancake'ów i gofrów",
+          "alt": "Plastry fioletowego pochrzynu ube"
+        },
+        "earlGrey": {
+          "name": "Earl Grey",
+          "tag": "Wyrafinowany · kochany na całym świecie",
+          "body": "Proszek z czarnej herbaty z bergamotką, który wsypuje się prosto do latte i frappé. Jasny, cytrusowo-kwiatowy aromat na słodowej bazie.",
+          "apps": "Latte (London Fog), herbata z mlekiem, maślane ciastka, sernik, czekolada, lody włoskie",
+          "alt": "Liście herbaty Earl Grey z niebieskimi płatkami chabra na łyżce"
+        },
+        "hibiscus": {
+          "name": "Hibiskus",
+          "tag": "Intensywny karmin · słodko-kwaśny",
+          "body": "Drobno zmielone suszone kwiaty hibiskusa: intensywny karmin o jasnym, kwaskowym i owocowym profilu oraz dużym efekcie wizualnym.",
+          "apps": "Żelki i cukierki, makaroniki, sorbety i lody na patyku, lemoniada, sernik, czekolada",
+          "alt": "Miska proszku z hibiskusa otoczona suszonymi kwiatami hibiskusa"
+        },
+        "mulberry": {
+          "name": "Liść morwy",
+          "tag": "Czysty · trawiasty · bez kofeiny",
+          "body": "Proszek z liści morwy: gładki, podobny do zielonej herbaty i naturalnie bezkofeinowy, o łagodnym, czystym smaku i łatwo się miesza.",
+          "apps": "Latte, lody, granola i batony energetyczne, galaretka owocowa, lemoniada",
+          "alt": "Filiżanka herbaty z liści morwy obok gałązki morwy"
+        },
+        "rooibos": {
+          "name": "Rooibos",
+          "tag": "Ciepły · czerwony · bez kofeiny",
+          "body": "Naturalnie słodki południowoafrykański czerwonokrzew: drzewny i miodowy, z niską goryczką, ciepłym kolorem i na każdą porę dnia.",
+          "apps": "Chai latte, kruche ciastka, tabliczki czekolady, financiers z masłem brązowym, lody",
+          "alt": "Miska sypkiej herbaty rooibos"
+        }
       }
-    ],
-    "quoteEyebrow": "Następny krok",
-    "quoteHeading": "Poproś o wycenę lub zamówienie próbne.",
-    "quoteLead": "Opowiedz nam o swoim produkcie, zastosowaniu i wolumenie. Nasz zespół wróci z propozycjami.",
-    "teamEyebrow": "Twoje kontakty",
-    "teamHeading": "Albo porozmawiaj bezpośrednio z naszym zespołem.",
-    "roleSalesEurope": "Sprzedaż, Europa",
-    "roleSalesHk": "Sprzedaż, Hongkong",
-    "emailLabel": "E-mail",
-    "phoneLabel": "Telefon",
-    "faqHeading": "Pytania po wypróbowaniu próbki",
-    "faq": [
-      {
-        "q": "Czy mogę dostać inny gatunek lub mieszankę niż w próbce?",
-        "a": "Tak. Powiedz nam, jaki smak, kolor, zastosowanie i wolumen Cię interesują. Dopasowujemy lub dopracowujemy gatunek albo mieszankę, także mieszanki japońskiej i chińskiej matchy, i wysyłamy specyfikacje oraz dokumenty."
-      },
-      {
-        "q": "Jakie dokumenty otrzymam?",
-        "a": "Razem ze specyfikacjami wysyłamy kartę specyfikacji i CoA. Każda partia jest badana, zgodna z limitami MRL USA i UE oraz niezależnie weryfikowana przez Eurofins."
-      },
-      {
-        "q": "Jakie macie certyfikaty?",
-        "a": "USDA Organic, EU Organic, JAS, HACCP, FSSC 22000 i Rainforest Alliance. Matcha z Japonii jest dostępna w wersji ekologicznej i konwencjonalnej."
-      },
-      {
-        "q": "Jak rozpocząć zamówienie próbne?",
-        "a": "Skorzystaj z formularza wyceny na tej stronie lub napisz do naszego zespołu. Podaj smak, kolor, zastosowanie i wolumen, a wrócimy z propozycjami."
-      }
-    ],
-    "slogan": "Pure ingredients. Formulated to thrive."
+    },
+    "work": {
+      "chapter": "Współpraca z nami",
+      "heading": "Współpraca z Superfoods Partners",
+      "intro": "Możliwości i zastosowania: mieszanie, innowacje i identyfikowalność, od pierwszej próbki po produkt na półce.",
+      "imgAlt": "Widok z lotu ptaka na rzędy krzewów herbacianych",
+      "adv": [
+        {
+          "tag": "Mieszanie",
+          "t": "Mieszanie gatunków i profili",
+          "d": "Premium dopasowane do docelowej ceny, koloru i profilu smakowego, stałe na dużą skalę. Premium Japonia × Chiny z krótkim czasem realizacji.",
+          "x": "Rolnicy → producenci herbaty → kontrola jakości → wiele regionów"
+        },
+        {
+          "tag": "Innowacje",
+          "t": "Nowe połączenia smaków",
+          "d": "Earl Grey × Matcha, Jaśmin × Matcha, Hojicha × Rooibos: nowe kombinacje do Twojej dyspozycji.",
+          "x": "Opracowane przez zespół doktorów"
+        },
+        {
+          "tag": "Identyfikowalność",
+          "t": "Handel tenchą i joint venture",
+          "d": "Handel tenchą i wieloregionalne joint venture wzmacniają kontrolę i identyfikowalność u źródła.",
+          "x": "Poprawa identyfikowalności → cel 100%"
+        }
+      ],
+      "appsEyebrow": "Możliwości i zastosowania",
+      "appsHeading": "Gdzie pracują nasze składniki",
+      "category": "Kategoria",
+      "apps": [
+        {
+          "t": "Napoje i nabiał",
+          "d": "Latte, napoje gazowane, funkcjonalne i gotowe do picia, lody. Cząstki w zawiesinie, żywy kolor i świeży smak przez cały okres przydatności."
+        },
+        {
+          "t": "Czekolada i słodycze",
+          "d": "Biała, mleczna i gorzka czekolada, roślinne dodatki z ube, hibiskusem i morwą, batony funkcjonalne. Z uwagą na lepkość, temperowanie, kolor i dyspersję."
+        },
+        {
+          "t": "Piekarnictwo i cukiernictwo",
+          "d": "Gotowe nadzienia, kremy, glazury i dodatki, ciastka i ciasta. Kolor, smak i funkcja, które przetrwają pieczenie."
+        },
+        {
+          "t": "Inne zastosowania",
+          "d": "Koncentrat matchy dla gastronomii i produkcji, kosmetyki i pielęgnacja oraz funkcjonalne mieszanki proszków na zamówienie."
+        }
+      ],
+      "whiskAlt": "Bambusowa miotełka w świeżo ubitej matchy",
+      "rdEyebrow": "Laboratoria R&D",
+      "rdHeading": "Wspólny rozwój, ramię w ramię",
+      "rdBody": "Długoterminowe partnerstwo, które zaczyna się od innowacji, a potem komercjalizuje na dużą skalę w czekoladzie, piekarnictwie, napojach gotowych do picia i nabiale.",
+      "rdSteps": [
+        {
+          "t": "Wskazujemy i dostarczamy koncepcje",
+          "d": "mieszamy najlepsze gatunki pod Twój profil smakowy i docelową cenę oraz wnosimy innowacje, takie jak Earl Grey × Matcha."
+        },
+        {
+          "t": "Tworzenie receptur",
+          "d": "Twój zespół opracowuje recepturę, z naszym wsparciem w zakresie smaku i funkcjonalności."
+        },
+        {
+          "t": "Komercjalizacja",
+          "d": "skalowanie, w tym marka własna i co-packing."
+        }
+      ],
+      "procEyebrow": "Przetwarzanie",
+      "procHeading": "Wspieramy Twój dział R&D",
+      "procBody": "Matcha jest wrażliwa na światło, powietrze, ciepło, twardość wody i kwasowość, dlatego surowiec, przetwarzanie i opakowanie trzeba rozważać razem. Dzielimy się naszą wiedzą.",
+      "procItems": [
+        "Stabilność i trwałość",
+        "Dyspersja",
+        "Obchodzenie się ze składnikiem",
+        "Łączenie smaków"
+      ],
+      "procNote": "Opowiedz nam o swoim procesie, przekazując opinię o próbce."
+    },
+    "path": {
+      "eyebrow": "Od próbki do produkcji",
+      "heading": "Cztery kroki od próbki do pierwszego zamówienia",
+      "steps": [
+        {
+          "t": "Spróbuj i przetestuj próbkę",
+          "d": "Wypróbuj ją we własnym zastosowaniu i we własnym procesie."
+        },
+        {
+          "t": "Podziel się opinią",
+          "d": "Podaj docelowy smak, kolor, zastosowanie i wolumen."
+        },
+        {
+          "t": "Dopasowujemy lub dopracowujemy",
+          "d": "Dopasowujemy lub dopracowujemy gatunek albo mieszankę i wysyłamy kartę specyfikacji oraz CoA."
+        },
+        {
+          "t": "Zamówienie próbne, potem skala",
+          "d": "Zacznij od zamówienia próbnego. Gdy się sprawdzi, rośniemy razem z Tobą."
+        }
+      ],
+      "imgAlt": "Maszyna do zbioru herbaty z workami świeżych liści o zmierzchu",
+      "imgCaption": "Prosto z pola · Japonia"
+    },
+    "quote": {
+      "eyebrow": "Następny krok",
+      "heading": "Poproś o wycenę lub zamówienie próbne",
+      "lead": "Napisz, którą próbkę testujesz, do jakiego zastosowania i w jakim wolumenie. Nasz zespół wróci z propozycjami.",
+      "talk": "Wolisz najpierw porozmawiać?",
+      "talkLink": "Porozmawiaj z naszym zespołem"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "heading": "Pytania po degustacji",
+      "items": [
+        {
+          "q": "Czy mogę dostać inny gatunek lub mieszankę niż moja próbka?",
+          "a": "Tak. Pracujemy z ponad 75 gatunkami matchy, od ceremonialnej po kulinarną, i mieszamy matchę japońską i chińską pod docelową cenę, kolor i smak. Podaj docelowy smak, kolor, zastosowanie i wolumen, a my to dopasujemy lub dopracujemy."
+        },
+        {
+          "q": "Jakie dokumenty otrzymam?",
+          "a": "Do dopasowanego gatunku lub mieszanki wysyłamy kartę specyfikacji i CoA. Nasza matcha jest zgodna z limitami MRL USA i UE, niezależnie weryfikowana przez Eurofins."
+        },
+        {
+          "q": "Jakie macie certyfikaty?",
+          "a": "USDA i EU Organic, JAS, HACCP, FSSC 22000 i Rainforest Alliance, a także certyfikat IFS. Matcha japońska jest dostępna w wersji ekologicznej i konwencjonalnej."
+        },
+        {
+          "q": "Czy dostarczacie do mojego kraju?",
+          "a": "Obsługujemy ponad 60 krajów, z koordynacją z naszych biur w Amsterdamie, Hongkongu i Los Angeles, i dostarczamy markom, producentom oraz markom własnym."
+        }
+      ]
+    }
   }
 }
