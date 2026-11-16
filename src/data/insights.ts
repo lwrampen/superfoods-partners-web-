@@ -1453,4 +1453,88 @@ export const POSTS: InsightPost[] = [
     ],
     relatedProducts: ["ube", "jasmine-tea-powder", "oolong-tea-powder", "earl-grey-tea-powder"],
   },
+  {
+    slug: "buying-ube-powder-wholesale-buyers-checklist",
+    date: "2026-11-16",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder, supplied in bulk with documentation per batch"),
+    category: E("Buyer's guide"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("How to buy ube powder wholesale: a buyer's checklist"),
+    metaTitle: E("Buy Ube Powder Wholesale — B2B Buyer's Checklist"),
+    metaDescription: E("What to specify, ask for and check when buying ube powder in bulk: botanical name, origin and grade, certificate of analysis, packaging, samples, lead time and Incoterms."),
+    dek: E("Ube powder is easy to find and hard to compare. This is the short list a manufacturer or brand should settle before ordering in bulk."),
+    lede: E("To buy ube powder wholesale, specify the botanical name (Dioscorea alata), the origin and grade, and the packaging, ask for a certificate of analysis for every batch, and approve a sample in your own recipe before ordering volume. A reliable supplier can state all of this in writing, ship from a 1 kg sample to a full container, and quote lead time and Incoterms upfront."),
+    sections: [
+      {
+        heading: E("Who searches for this, and what they need"),
+        body: [
+          E("Wholesale searches for ube powder are specific rather than large. In US data, \"ube powder bulk\" draws roughly 40 searches a month, \"ube powder wholesale\" roughly 20 and \"ube powder supplier\" roughly 10, yet the advertising cost for those terms is among the highest in the category (Google Ads keyword data, United States). The people typing them are buyers: bakeries, drink brands, ice cream and dessert manufacturers who already know they want ube."),
+          E("What they need is a supplier who answers the practical questions before they are asked: what exactly is in the bag, where it was grown, how it is documented, and how it ships."),
+        ],
+      },
+      {
+        heading: E("Write the specification first"),
+        body: [
+          E("Start with the plant. A specification for ube powder should name purple yam, Dioscorea alata, as the source, because \"purple yam\", \"purple potato\" and \"taro\" are used loosely and describe different plants. Then state the form (a fine powder), the colour you expect (a clean, naturally violet shade with no added dye) and the grade you need, organic or conventional."),
+          E("Our ube powder is milled from mature purple yam with a soft, vanilla-like sweetness, and is caffeine-free. Specify fineness for how you will use it: a drink needs a powder that disperses smoothly, while a filling or batter has different needs. Approve a sample in your own recipe and ask that later lots are matched to it."),
+        ],
+      },
+      {
+        heading: E("Origin and grade"),
+        body: [
+          E("We manage supply at origin in the Philippines and China. Organic ube comes from China, conventional ube from both origins, so the grade you choose tells you where it is grown. Ask which origin your lot comes from and write it into the purchase terms, so that a change of origin is a conversation and not a surprise."),
+          E("Our ube range carries JAS Organic, EU Organic, USDA Organic, Rainforest Alliance, HACCP and FSSC 22000 certifications, as listed on the product page. Which of these applies depends on the grade and origin of the lot, so ask for the certificate that matches the lot you are buying."),
+        ],
+      },
+      {
+        heading: E("Documents, samples and shipping"),
+        body: [
+          E("Ask for a certificate of analysis for every batch, not a single generic document. Every batch of ours is screened and documented before it ships, with a certificate of analysis and a Verification Record. Check that the batch number on the document matches the bag."),
+          E("Ordering runs from a 1 kg (2.2 lb) foil bag to 25 kg (55 lb) cartons and full containers, so a pilot and a production run can use the same spec. Lead time is typically 2 to 4 weeks, on FOB, CIF or DDP terms, and a lab report and quote usually follow within 48 hours of your request. Buyers in Hong Kong can also source ube powder from local stock in Tsuen Wan; details are on our Hong Kong page."),
+        ],
+      },
+      {
+        heading: E("Red flags, and when ube is not the answer"),
+        body: [
+          E("Be cautious of a quote that does not name the botanical species, cannot say where the powder was grown, offers no batch-level documentation, or promises a violet that comes from added colour rather than the yam. Any of these is a reason to ask more questions before you order."),
+          E("Ube is also not the only purple or creamy option. We supply taro and blends too, and we recommend the material that fits the application. Tell us what you are making and we will advise. More detail on the powder is on our ube product page, and the label behind it is Pure Ube Partners."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Source"), value: E("Purple yam, Dioscorea alata") },
+      { label: E("Origins"), value: E("Philippines and China") },
+      { label: E("Grades"), value: E("Organic (China) and conventional (both)") },
+      { label: E("Packaging"), value: E("1 kg (2.2 lb) foil to 25 kg (55 lb) carton to full container") },
+      { label: E("Lead time"), value: E("2 to 4 weeks, typically") },
+      { label: E("Incoterms"), value: E("FOB, CIF or DDP") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("What should be on an ube powder specification?"),
+        a: E("The botanical name (Dioscorea alata), the form, colour, fineness, grade (organic or conventional), origin and packaging, plus the documents that come with each batch."),
+      },
+      {
+        q: E("Where does your ube powder come from?"),
+        a: E("The Philippines and China. Organic ube comes from China; conventional ube is available from both origins."),
+      },
+      {
+        q: E("What documents come with each batch?"),
+        a: E("A certificate of analysis and a Verification Record, and every batch is screened before it ships."),
+      },
+      {
+        q: E("How is ube powder packed and shipped?"),
+        a: E("From 1 kg (2.2 lb) foil bags to 25 kg (55 lb) cartons and full containers. Lead time is typically 2 to 4 weeks, on FOB, CIF or DDP terms."),
+      },
+      {
+        q: E("Can I try a sample before ordering in bulk?"),
+        a: E("Yes. We send samples first so you can approve colour, flavour and mixing behaviour before you commit to volume."),
+      },
+    ],
+    relatedProducts: ["ube"],
+  },
 ];
