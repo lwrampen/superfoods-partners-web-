@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Anton, Archivo, IBM_Plex_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -8,27 +8,35 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 
 // Display — Anton, UPPERCASE only (v4.0: headlines, chapter titles, product names)
-const anton = Anton({
+const anton = localFont({
   variable: "--font-anton",
-  subsets: ["latin"],
-  weight: ["400"],
   display: "swap",
+  adjustFontFallback: "Arial",
+  src: [{ path: "../../fonts/anton-latin-400-normal.woff2", weight: "400", style: "normal" }],
 });
 
 // Text — Archivo (v4.0: body, labels, buttons, tables)
-const archivo = Archivo({
+const archivo = localFont({
   variable: "--font-archivo",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
+  adjustFontFallback: "Arial",
+  src: [
+    { path: "../../fonts/archivo-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../../fonts/archivo-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../../fonts/archivo-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "../../fonts/archivo-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
 });
 
 // Mono — labels, SKUs, coordinates (documentation tone)
-const plexMono = IBM_Plex_Mono({
+const plexMono = localFont({
   variable: "--font-plex-mono",
-  subsets: ["latin"],
-  weight: ["400", "500"],
   display: "swap",
+  adjustFontFallback: false,
+  src: [
+    { path: "../../fonts/ibm-plex-mono-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../../fonts/ibm-plex-mono-latin-500-normal.woff2", weight: "500", style: "normal" },
+  ],
 });
 
 export function generateStaticParams() {
