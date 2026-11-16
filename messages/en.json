@@ -918,131 +918,333 @@
     }
   },
   "sample": {
-    "metaTitle": "Your Sample, the Full Story | Superfoods Partners",
-    "metaDescription": "Who we are, where your sample comes from and how to go from sample to trial order with Superfoods Partners, the team behind Pure Matcha Partners.",
-    "eyebrow": "Thank you for sampling",
-    "heading": "Your sample, the full story",
-    "lead": "You have just tasted a sample from Superfoods Partners. Here is who we are, where it comes from and how to take the next step from this box to a trial order.",
-    "imgAlt": "Shade-grown tea gardens",
-    "imgCaption": "Tea gardens, sourced at origin",
-    "ctaPrimary": "Request a quote / trial order",
-    "ctaSecondary": "Talk to our team",
-    "whoEyebrow": "Who we are",
-    "whoHeading": "The ingredient house behind Pure Matcha Partners.",
-    "whoBody": "Superfoods Partners works directly at source with tea makers in Japan and China and controls the chain from harvest to pallet. We supply brands, manufacturers and private label.",
-    "pmpLink": "Visit Pure Matcha Partners",
-    "locEyebrow": "Where we work",
-    "locations": [
-      "Netherlands",
-      "United States",
-      "Hong Kong"
-    ],
-    "hkLink": "Our Hong Kong page",
-    "stats": [
-      "matcha grades, ceremonial to culinary",
-      "kg annual capacity from Q1 2028",
-      "countries served"
-    ],
-    "originsEyebrow": "Origins",
-    "originsHeading": "Sourced at origin in Japan, China and the Philippines.",
-    "origins": [
-      {
-        "c": "Japan",
-        "p": "Uji, Kagoshima, Shizuoka",
-        "n": "Organic and conventional"
-      },
-      {
-        "c": "China",
-        "p": "Hubei, Sichuan, Guizhou",
-        "n": ""
-      },
-      {
-        "c": "Philippines",
-        "p": "Luzon",
-        "n": "Ube"
-      }
-    ],
-    "originsLink": "Explore our origins",
-    "howEyebrow": "How we work",
-    "howHeading": "Close to the farm, careful with every lot.",
-    "how": [
-      {
-        "t": "Farm investment, not brokerage",
-        "d": "We invest alongside local tea makers in farms, facilities, quality and long-term capacity."
-      },
-      {
-        "t": "Japan and China, matched to you",
-        "d": "We blend Japanese and Chinese matcha to match your target price, colour and flavour."
-      },
-      {
-        "t": "Tested per lot",
-        "d": "Every lot is tested, compliant with US and EU MRLs and independently verified by Eurofins."
-      },
-      {
-        "t": "Certified",
-        "d": "USDA and EU Organic, JAS, HACCP, FSSC 22000 and Rainforest Alliance."
-      }
-    ],
-    "rangeEyebrow": "The range",
-    "rangeHeading": "One ingredient house, seven lines.",
-    "range": {
-      "matcha": "Matcha",
-      "hojicha": "Hojicha",
-      "ube": "Ube",
-      "hibiscus": "Hibiscus",
-      "mulberry": "Mulberry",
-      "rooibos": "Rooibos",
-      "earlGrey": "Earl Grey"
+    "metaTitle": "Thank You for Sampling | Superfoods Partners",
+    "metaDescription": "The story behind your sample: who we are, our origins, the range and how to go from sample to trial order with Superfoods Partners.",
+    "hero": {
+      "eyebrow": "Thank you for sampling",
+      "lead": "We source the ingredient, and we stand behind it.",
+      "body": "You are holding one of our samples. Explore what is behind it: who we are, where it comes from, the full range and how to get from tasting to production.",
+      "ctaPrimary": "Request a quote or trial order",
+      "ctaSecondary": "Explore the range",
+      "footer": "Superfoods Partners · NL · US · HK",
+      "imgAlt": "Aerial view of a tea harvester with full sacks moving between rows of tea bushes",
+      "imgCaption": "Tea harvest · Japan"
     },
-    "rangeLink": "See the full range",
-    "pathEyebrow": "From sample to production",
-    "pathHeading": "Four steps from this box to your first order.",
-    "steps": [
-      {
-        "t": "Taste and test your sample",
-        "d": "Try it in your own application, in your own process."
-      },
-      {
-        "t": "Share your feedback",
-        "d": "Tell us your target taste, colour, application and volume."
-      },
-      {
-        "t": "We match or fine-tune",
-        "d": "We match or fine-tune the grade or blend and send you specs and documents, including the spec sheet and CoA."
-      },
-      {
-        "t": "Trial order, then scale",
-        "d": "Start with a trial order. When it works, we scale with you."
+    "who": {
+      "eyebrow": "Introduction",
+      "heading": "Who we are: the label and the house",
+      "labelTag": "The label",
+      "labelBody": "A specialist wholesale and trading partner delivering premium matcha directly from family-run farms at source. Our mission: transform matcha from a niche product into a daily essential, through partnerships, innovation and education.",
+      "houseTag": "The house",
+      "houseBody": "The ingredient house behind the label: sourcing at origin, controlling the chain from farm to pallet, and supplying brands, manufacturers and private label with matcha, hojicha, hibiscus, ube and more.",
+      "endorse": "Pure Matcha Partners — a Superfoods Partners brand",
+      "teamAlt": "Our team with tea farm staff in front of harvested tea sacks in Japan",
+      "teamCaption": "We visit our partners at origin in person. Here with a tea-making partner in Japan.",
+      "countries": "Netherlands · United States · Hong Kong",
+      "locations": "An international company across three locations, with Asia sourcing and QC run from Hong Kong."
+    },
+    "global": {
+      "eyebrow": "Introduction",
+      "heading": "Your global supply partner",
+      "stats": [
+        {
+          "n": "Grades",
+          "l": "Matcha grades, ceremonial to culinary"
+        },
+        {
+          "n": "Capacity",
+          "l": "Annual capacity (from Q1 2028)"
+        },
+        {
+          "n": "Reach",
+          "l": "Countries served"
+        }
+      ],
+      "imgAlt": "Hands picking fresh tea leaves in warm evening light",
+      "imgCaption": "Fresh leaf · Japan",
+      "originsLabel": "Origins",
+      "origins": [
+        {
+          "c": "Japan",
+          "n": "Uji",
+          "d": "Organic & conventional"
+        },
+        {
+          "c": "Japan",
+          "n": "Kagoshima",
+          "d": "Organic & conventional"
+        },
+        {
+          "c": "Japan",
+          "n": "Shizuoka",
+          "d": "Organic & conventional"
+        },
+        {
+          "c": "China",
+          "n": "East China",
+          "d": "Hubei · Sichuan · Guizhou"
+        },
+        {
+          "c": "Philippines",
+          "n": "Luzon",
+          "d": "Ube"
+        },
+        {
+          "c": "Beyond matcha",
+          "n": "The range",
+          "d": "Hibiscus · Mulberry · Rooibos · Hojicha"
+        }
+      ],
+      "chinaAlt": "Young tea shoots in front of misty mountains in China",
+      "chinaCaption": "Tea garden · China",
+      "note": "<b>Origin, first.</b> Ceremonial to culinary matcha across five origins, with <b>tencha trading and farm-acquisition plans underway</b> to deepen control at source."
+    },
+    "model": {
+      "eyebrow": "Introduction",
+      "heading": "Our core model",
+      "intro": "Close to the farm, independently verified and proven at scale. Six things that sit behind every sample we send.",
+      "items": [
+        {
+          "t": "Farm investment, not brokerage",
+          "d": "We invest alongside local tea makers: raw materials, compliance, legal, facilities, QC and project management."
+        },
+        {
+          "t": "Multi-origin: Japan + China blends",
+          "d": "One of the only companies offering fully transparent Japan/China blended supply: consistent quality at scale."
+        },
+        {
+          "t": "Three locations · NL · US · HK",
+          "d": "An international company; sourcing, QC, logistics and compliance across Asia run from our Hong Kong base, with local teams in Japan, China and the Philippines."
+        },
+        {
+          "t": "Eurofins verified",
+          "d": "US & EU MRL compliant, independently verified by Eurofins, the world's leading food-testing lab."
+        },
+        {
+          "t": "Certifications",
+          "d": "USDA & EU Organic, JAS, HACCP, FSSC 22000, Rainforest Alliance: a complete food-safety set."
+        },
+        {
+          "t": "Food-service track record · IFS certified",
+          "d": "Proven at enterprise scale with some of the world's largest coffee chains: compliance, quality and volume already validated."
+        }
+      ]
+    },
+    "route": {
+      "eyebrow": "Our operating model",
+      "heading": "A science-led route from raw material to market-ready product.",
+      "items": [
+        {
+          "t": "Pure Ingredients.",
+          "d": "Direct access to our certified farms and multiple origins."
+        },
+        {
+          "t": "Consistent Performance",
+          "d": "Science-led processing and blending ensure food safety and even out natural variation."
+        },
+        {
+          "t": "Formulated to Thrive.",
+          "d": "Support with flavour, functionality and formulation, through to co-packing."
+        },
+        {
+          "t": "Market Intelligence",
+          "d": "Insights from product experience across 35+ markets in foodservice, retail, FMCG and food manufacturing."
+        },
+        {
+          "t": "Reliable Global Supply Chain",
+          "d": "Coordinated via our offices in Amsterdam, Hong Kong and Los Angeles."
+        }
+      ]
+    },
+    "range": {
+      "eyebrow": "Beyond matcha",
+      "heading": "The range",
+      "intro": "Matcha at the core, with a growing range of tea and superfood powders beside it. Each one available to sample, blend and scale.",
+      "appsLabel": "Typical applications",
+      "view": "View product",
+      "all": "See all products",
+      "swipe": "Swipe for the full range →",
+      "ctaHeading": "Another line, or a blend?",
+      "ctaBody": "Ask for a sample of another powder, or a crossover such as Earl Grey × Matcha, Jasmine × Matcha or Hojicha × Rooibos.",
+      "items": {
+        "matcha": {
+          "name": "Matcha",
+          "tag": "Ceremonial to culinary",
+          "body": "75+ grades from Uji, Kagoshima, Shizuoka and East China, single origin or blended to hit your target price, colour and flavour profile.",
+          "apps": "Lattes, sparkling and functional drinks, ice cream, chocolate, fillings, cookies and cakes",
+          "alt": "Matcha powder with a bamboo whisk and spoon on a wooden table"
+        },
+        "hojicha": {
+          "name": "Hojicha",
+          "tag": "Roasted · toasty · low-caffeine",
+          "body": "Roasted Japanese green tea, nutty and comforting. Our hojicha has an aroma reminiscent of cacao.",
+          "apps": "Lattes, butter cookies, chocolate, mochi, cheesecake, ice cream",
+          "alt": "Iced hojicha latte next to a bamboo whisk"
+        },
+        "ube": {
+          "name": "Ube",
+          "tag": "Vibrant · photogenic · plant-based",
+          "body": "Purple yam prized for its striking natural colour and mellow, sweet flavour, with smooth, vanilla-like and nutty notes.",
+          "apps": "Lattes, chocolate, mochi and daifuku, ice cream and gelato, crêpe cakes, pancake and waffle mixes",
+          "alt": "Sliced purple ube yam"
+        },
+        "earlGrey": {
+          "name": "Earl Grey",
+          "tag": "Sophisticated · beloved globally",
+          "body": "Bergamot-infused black tea powder that pours straight into lattes and frappés. Bright citrus-floral aroma over a malty base.",
+          "apps": "Lattes (London Fog), milk tea, butter cookies, cheesecake, chocolate, soft serve",
+          "alt": "Earl Grey tea leaves with blue cornflower petals on a spoon"
+        },
+        "hibiscus": {
+          "name": "Hibiscus",
+          "tag": "Bold crimson · tart-sweet",
+          "body": "Finely ground dried hibiscus flowers: a bold crimson colour with a bright, tart and fruity profile and high visual impact.",
+          "apps": "Gummies and candy, macarons, sorbet and popsicles, lemonade, cheesecake, chocolate",
+          "alt": "Bowl of hibiscus powder surrounded by dried hibiscus flowers"
+        },
+        "mulberry": {
+          "name": "Mulberry leaf",
+          "tag": "Clean · grassy · caffeine-free",
+          "body": "Mulberry leaf powder: smooth, green-tea-like and naturally caffeine-free, with a mild, clean taste that mixes easily.",
+          "apps": "Lattes, ice cream, granola and energy bars, fruit jelly, lemonade",
+          "alt": "Cup of mulberry leaf tea next to a mulberry branch"
+        },
+        "rooibos": {
+          "name": "Rooibos",
+          "tag": "Warm · rooibos-red · caffeine-free",
+          "body": "Naturally sweet South African red bush: woody and honey-like with low bitterness, a warm colour and all-day appeal.",
+          "apps": "Chai lattes, shortbread, chocolate bars, brown butter financiers, ice cream",
+          "alt": "Bowl of loose rooibos tea"
+        }
       }
-    ],
-    "quoteEyebrow": "Next step",
-    "quoteHeading": "Request a quote or trial order.",
-    "quoteLead": "Tell us about your product, application and volume. Our team comes back with options.",
-    "teamEyebrow": "Your contacts",
-    "teamHeading": "Or talk to our team directly.",
-    "roleSalesEurope": "Sales, Europe",
-    "roleSalesHk": "Sales, Hong Kong",
-    "emailLabel": "Email",
-    "phoneLabel": "Phone",
-    "faqHeading": "Questions after sampling",
-    "faq": [
-      {
-        "q": "Can I get a different grade or blend than my sample?",
-        "a": "Yes. Tell us your target taste, colour, application and volume. We match or fine-tune the grade or blend, including blends of Japanese and Chinese matcha, and send you specs and documents."
-      },
-      {
-        "q": "Which documents do I receive?",
-        "a": "With the specs we send the spec sheet and CoA. Every lot is tested, compliant with US and EU MRLs and independently verified by Eurofins."
-      },
-      {
-        "q": "Which certifications do you hold?",
-        "a": "USDA Organic, EU Organic, JAS, HACCP, FSSC 22000 and Rainforest Alliance. Matcha from Japan is available as organic and conventional."
-      },
-      {
-        "q": "How do I start a trial order?",
-        "a": "Use the quote form on this page or email our team. Share your target taste, colour, application and volume, and we come back with options."
-      }
-    ],
-    "slogan": "Pure ingredients. Formulated to thrive."
+    },
+    "work": {
+      "chapter": "Working with us",
+      "heading": "Working with Superfoods Partners",
+      "intro": "Opportunities and applications: blending, innovation and traceability, from the first sample to products on shelf.",
+      "imgAlt": "Aerial view of rows of tea bushes",
+      "adv": [
+        {
+          "tag": "Blending",
+          "t": "Grade & profile blending",
+          "d": "Premium to hit a target price, target colour and target flavour profile, consistent at scale. Japan × China premium with short lead times.",
+          "x": "Farmers → tea makers → quality control → multi-origin"
+        },
+        {
+          "tag": "Innovations",
+          "t": "New flavour crossovers",
+          "d": "Earl Grey × Matcha, Jasmine × Matcha, Hojicha × Rooibos: new combinations brought to the table.",
+          "x": "Developed by a team of PhD graduates"
+        },
+        {
+          "tag": "Traceability",
+          "t": "Tencha trading & JV",
+          "d": "Tencha trading and a multi-origin joint venture, deepening control and traceability at source.",
+          "x": "Improving traceability → aiming for 100%"
+        }
+      ],
+      "appsEyebrow": "Opportunities & applications",
+      "appsHeading": "Where our ingredients go to work",
+      "category": "Category",
+      "apps": [
+        {
+          "t": "Beverages & dairy",
+          "d": "Lattes, sparkling, functional and ready-to-drink formats, ice cream. Keeping particles suspended, colour vibrant and flavour fresh through shelf life."
+        },
+        {
+          "t": "Chocolate & confectionery",
+          "d": "White, milk and dark chocolate, botanical inclusions with ube, hibiscus and mulberry, functional bars. Managing viscosity, tempering, colour and dispersion."
+        },
+        {
+          "t": "Bakery & pastry",
+          "d": "Ready-to-use fillings, creams, glazes and inclusions, cookies and cakes. Colour, flavour and function that hold through baking."
+        },
+        {
+          "t": "Alternative applications",
+          "d": "Matcha concentrate for foodservice and manufacturing, personal care and beauty, and custom functional powder blends."
+        }
+      ],
+      "whiskAlt": "Bamboo whisk in freshly whisked matcha",
+      "rdEyebrow": "R&D labs",
+      "rdHeading": "Co-development, side by side",
+      "rdBody": "A long-term partnership that starts with innovation, then commercialises at scale across chocolate, bakery, ready-to-drink and dairy.",
+      "rdSteps": [
+        {
+          "t": "Identify & supply concepts",
+          "d": "we blend the best grades to match your taste profile and price target, and bring innovations such as Earl Grey × Matcha."
+        },
+        {
+          "t": "Create formulations",
+          "d": "your team formulates, with our support on flavour and functionality."
+        },
+        {
+          "t": "Commercialise",
+          "d": "scale up, including private label and co-packing."
+        }
+      ],
+      "procEyebrow": "Processing",
+      "procHeading": "We support your R&D",
+      "procBody": "Matcha is sensitive to light, air, heat, water hardness and acidity, so raw material, processing and packaging have to be considered together. We share what we know.",
+      "procItems": [
+        "Stability & shelf life",
+        "Dispersion",
+        "Ingredient handling",
+        "Flavour pairing"
+      ],
+      "procNote": "Tell us about your process when you share your feedback on the sample."
+    },
+    "path": {
+      "eyebrow": "From sample to production",
+      "heading": "Four steps from your sample to your first order",
+      "steps": [
+        {
+          "t": "Taste & test your sample",
+          "d": "Try it in your own application, in your own process."
+        },
+        {
+          "t": "Share your feedback",
+          "d": "Tell us your target taste, colour, application and volume."
+        },
+        {
+          "t": "We match or fine-tune",
+          "d": "We match or fine-tune the grade or blend and send you the spec sheet and CoA."
+        },
+        {
+          "t": "Trial order, then scale",
+          "d": "Start with a trial order. When it works, we scale with you."
+        }
+      ],
+      "imgAlt": "Tea harvester loaded with sacks of fresh leaf at dusk",
+      "imgCaption": "From the field · Japan"
+    },
+    "quote": {
+      "eyebrow": "Next step",
+      "heading": "Request a quote or trial order",
+      "lead": "Tell us which sample you tried, your application and your volume. Our team comes back with options.",
+      "talk": "Prefer to talk it through first?",
+      "talkLink": "Talk to our team"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "heading": "Questions after sampling",
+      "items": [
+        {
+          "q": "Can I get a different grade or blend than my sample?",
+          "a": "Yes. We work with 75+ matcha grades, ceremonial to culinary, and blend Japanese and Chinese matcha to hit a target price, colour and flavour. Share your target taste, colour, application and volume and we match or fine-tune it."
+        },
+        {
+          "q": "Which documents do I receive?",
+          "a": "With a matched grade or blend we send the spec sheet and CoA. Our matcha is US & EU MRL compliant, independently verified by Eurofins."
+        },
+        {
+          "q": "Which certifications do you hold?",
+          "a": "USDA & EU Organic, JAS, HACCP, FSSC 22000 and Rainforest Alliance, and we are IFS certified. Japanese matcha is available organic and conventional."
+        },
+        {
+          "q": "Do you supply my country?",
+          "a": "We serve 60+ countries, coordinated from our offices in Amsterdam, Hong Kong and Los Angeles, and supply brands, manufacturers and private label."
+        }
+      ]
+    }
   }
 }

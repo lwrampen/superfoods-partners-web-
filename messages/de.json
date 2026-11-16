@@ -918,131 +918,333 @@
     }
   },
   "sample": {
-    "metaTitle": "Ihr Muster, die ganze Geschichte | Superfoods Partners",
-    "metaDescription": "Wer wir sind, woher Ihr Muster stammt und wie Sie vom Muster zur Testbestellung kommen, mit Superfoods Partners, dem Team hinter Pure Matcha Partners.",
-    "eyebrow": "Danke fürs Probieren",
-    "heading": "Ihr Muster, die ganze Geschichte",
-    "lead": "Sie haben gerade ein Muster von Superfoods Partners probiert. Hier erfahren Sie, wer wir sind, woher es stammt und wie Sie von dieser Box zur Testbestellung kommen.",
-    "imgAlt": "Im Schatten angebaute Teegärten",
-    "imgCaption": "Teegärten, direkt am Ursprung bezogen",
-    "ctaPrimary": "Angebot / Testbestellung anfragen",
-    "ctaSecondary": "Sprechen Sie mit unserem Team",
-    "whoEyebrow": "Wer wir sind",
-    "whoHeading": "Das Ingredient-Haus hinter Pure Matcha Partners.",
-    "whoBody": "Superfoods Partners arbeitet direkt am Ursprung mit Teebauern in Japan und China und steuert die Kette von der Ernte bis zur Palette. Wir beliefern Marken, Hersteller und Private Label.",
-    "pmpLink": "Pure Matcha Partners besuchen",
-    "locEyebrow": "Wo wir arbeiten",
-    "locations": [
-      "Niederlande",
-      "USA",
-      "Hongkong"
-    ],
-    "hkLink": "Unsere Hongkong-Seite",
-    "stats": [
-      "Matcha-Qualitäten, von Ceremonial bis Culinary",
-      "kg Jahreskapazität ab Q1 2028",
-      "belieferte Länder"
-    ],
-    "originsEyebrow": "Ursprünge",
-    "originsHeading": "Direkt am Ursprung in Japan, China und auf den Philippinen bezogen.",
-    "origins": [
-      {
-        "c": "Japan",
-        "p": "Uji, Kagoshima, Shizuoka",
-        "n": "Bio und konventionell"
-      },
-      {
-        "c": "China",
-        "p": "Hubei, Sichuan, Guizhou",
-        "n": ""
-      },
-      {
-        "c": "Philippinen",
-        "p": "Luzon",
-        "n": "Ube"
-      }
-    ],
-    "originsLink": "Unsere Ursprünge entdecken",
-    "howEyebrow": "Wie wir arbeiten",
-    "howHeading": "Nah an der Farm, sorgfältig bei jeder Charge.",
-    "how": [
-      {
-        "t": "Investition in Farmen, kein Zwischenhandel",
-        "d": "Wir investieren gemeinsam mit lokalen Teebauern in Farmen, Anlagen, Qualität und langfristige Kapazität."
-      },
-      {
-        "t": "Japan und China, passend für Sie",
-        "d": "Wir mischen japanischen und chinesischen Matcha passend zu Ihrem Zielpreis, Ihrer Farbe und Ihrem Geschmack."
-      },
-      {
-        "t": "Jede Charge geprüft",
-        "d": "Jede Charge wird geprüft, erfüllt die MRL-Vorgaben der USA und der EU und ist unabhängig von Eurofins verifiziert."
-      },
-      {
-        "t": "Zertifiziert",
-        "d": "USDA und EU Organic, JAS, HACCP, FSSC 22000 und Rainforest Alliance."
-      }
-    ],
-    "rangeEyebrow": "Das Sortiment",
-    "rangeHeading": "Ein Ingredient-Haus, sieben Linien.",
-    "range": {
-      "matcha": "Matcha",
-      "hojicha": "Hojicha",
-      "ube": "Ube",
-      "hibiscus": "Hibiskus",
-      "mulberry": "Maulbeere",
-      "rooibos": "Rooibos",
-      "earlGrey": "Earl Grey"
+    "metaTitle": "Danke fürs Probieren | Superfoods Partners",
+    "metaDescription": "Die Geschichte hinter Ihrem Muster: wer wir sind, unsere Ursprünge, das Sortiment und der Weg vom Muster zur Testbestellung mit Superfoods Partners.",
+    "hero": {
+      "eyebrow": "Danke fürs Probieren",
+      "lead": "Wir beschaffen die Zutat, und wir stehen dafür ein.",
+      "body": "Sie halten eines unserer Muster in der Hand. Entdecken Sie, was dahintersteckt: wer wir sind, woher es kommt, das ganze Sortiment und der Weg von der Verkostung zur Produktion.",
+      "ctaPrimary": "Angebot oder Testbestellung anfragen",
+      "ctaSecondary": "Sortiment entdecken",
+      "footer": "Superfoods Partners · NL · US · HK",
+      "imgAlt": "Luftaufnahme einer Teeerntemaschine mit vollen Säcken zwischen Reihen von Teesträuchern",
+      "imgCaption": "Teeernte · Japan"
     },
-    "rangeLink": "Gesamtes Sortiment ansehen",
-    "pathEyebrow": "Vom Muster zur Produktion",
-    "pathHeading": "Vier Schritte von dieser Box zu Ihrer ersten Bestellung.",
-    "steps": [
-      {
-        "t": "Muster probieren und testen",
-        "d": "Testen Sie es in Ihrer eigenen Anwendung und Ihrem eigenen Prozess."
-      },
-      {
-        "t": "Feedback teilen",
-        "d": "Sagen Sie uns Ihren Zielgeschmack, Ihre Farbe, Anwendung und Menge."
-      },
-      {
-        "t": "Wir passen an oder justieren nach",
-        "d": "Wir passen Qualität oder Mischung an oder justieren sie nach und senden Ihnen Spezifikationen und Dokumente, darunter Spec Sheet und CoA."
-      },
-      {
-        "t": "Testbestellung, dann Skalierung",
-        "d": "Starten Sie mit einer Testbestellung. Wenn sie passt, skalieren wir gemeinsam mit Ihnen."
+    "who": {
+      "eyebrow": "Einführung",
+      "heading": "Wer wir sind: die Marke und das Haus",
+      "labelTag": "Die Marke",
+      "labelBody": "Ein spezialisierter Großhandels- und Handelspartner, der Premium-Matcha direkt von familiengeführten Farmen am Ursprung liefert. Unsere Mission: Matcha vom Nischenprodukt zum täglichen Begleiter machen, durch Partnerschaften, Innovation und Wissen.",
+      "houseTag": "Das Haus",
+      "houseBody": "Das Ingredient-Haus hinter der Marke: Beschaffung am Ursprung, Kontrolle der Kette von der Farm bis zur Palette und Belieferung von Marken, Herstellern und Private Label mit Matcha, Hojicha, Hibiskus, Ube und mehr.",
+      "endorse": "Pure Matcha Partners — eine Marke von Superfoods Partners",
+      "teamAlt": "Unser Team mit Mitarbeitenden einer Teefarm vor geernteten Teesäcken in Japan",
+      "teamCaption": "Wir besuchen unsere Partner am Ursprung persönlich. Hier bei einem Teehersteller in Japan.",
+      "countries": "Niederlande · USA · Hongkong",
+      "locations": "Ein internationales Unternehmen an drei Standorten; Beschaffung und Qualitätskontrolle in Asien werden von Hongkong aus gesteuert."
+    },
+    "global": {
+      "eyebrow": "Einführung",
+      "heading": "Ihr globaler Lieferpartner",
+      "stats": [
+        {
+          "n": "Qualitäten",
+          "l": "Matcha-Qualitäten, von Ceremonial bis Culinary"
+        },
+        {
+          "n": "Kapazität",
+          "l": "Jahreskapazität (ab Q1 2028)"
+        },
+        {
+          "n": "Reichweite",
+          "l": "Belieferte Länder"
+        }
+      ],
+      "imgAlt": "Hände pflücken frische Teeblätter im warmen Abendlicht",
+      "imgCaption": "Frisches Blatt · Japan",
+      "originsLabel": "Ursprünge",
+      "origins": [
+        {
+          "c": "Japan",
+          "n": "Uji",
+          "d": "Bio & konventionell"
+        },
+        {
+          "c": "Japan",
+          "n": "Kagoshima",
+          "d": "Bio & konventionell"
+        },
+        {
+          "c": "Japan",
+          "n": "Shizuoka",
+          "d": "Bio & konventionell"
+        },
+        {
+          "c": "China",
+          "n": "Ostchina",
+          "d": "Hubei · Sichuan · Guizhou"
+        },
+        {
+          "c": "Philippinen",
+          "n": "Luzon",
+          "d": "Ube"
+        },
+        {
+          "c": "Mehr als Matcha",
+          "n": "Das Sortiment",
+          "d": "Hibiskus · Maulbeere · Rooibos · Hojicha"
+        }
+      ],
+      "chinaAlt": "Junge Teetriebe vor nebligen Bergen in China",
+      "chinaCaption": "Teegarten · China",
+      "note": "<b>Der Ursprung zuerst.</b> Matcha von Ceremonial bis Culinary aus fünf Ursprüngen, mit <b>Tencha-Handel und geplanten Farmübernahmen</b>, um die Kontrolle am Ursprung weiter zu vertiefen."
+    },
+    "model": {
+      "eyebrow": "Einführung",
+      "heading": "Unser Kernmodell",
+      "intro": "Nah an der Farm, unabhängig verifiziert und im großen Maßstab bewährt. Sechs Punkte, die hinter jedem Muster stehen, das wir versenden.",
+      "items": [
+        {
+          "t": "Investition in Farmen, keine Vermittlung",
+          "d": "Wir investieren gemeinsam mit lokalen Teeherstellern: Rohstoffe, Compliance, Recht, Anlagen, Qualitätskontrolle und Projektmanagement."
+        },
+        {
+          "t": "Multi-Origin: Blends aus Japan + China",
+          "d": "Eines der wenigen Unternehmen mit voll transparenter Japan/China-Blend-Versorgung: gleichbleibende Qualität in großen Mengen."
+        },
+        {
+          "t": "Drei Standorte · NL · US · HK",
+          "d": "Ein internationales Unternehmen; Beschaffung, Qualitätskontrolle, Logistik und Compliance in Asien laufen über unsere Basis in Hongkong, mit lokalen Teams in Japan, China und auf den Philippinen."
+        },
+        {
+          "t": "Von Eurofins verifiziert",
+          "d": "Konform mit den MRL der USA und der EU, unabhängig verifiziert von Eurofins, dem weltweit führenden Labor für Lebensmittelanalytik."
+        },
+        {
+          "t": "Zertifizierungen",
+          "d": "USDA & EU Bio, JAS, HACCP, FSSC 22000, Rainforest Alliance: ein vollständiges Lebensmittelsicherheits-Set."
+        },
+        {
+          "t": "Erfahrung im Foodservice · IFS-zertifiziert",
+          "d": "Im großen Maßstab bewährt mit einigen der größten Kaffeeketten der Welt: Compliance, Qualität und Volumen bereits bestätigt."
+        }
+      ]
+    },
+    "route": {
+      "eyebrow": "Unser Betriebsmodell",
+      "heading": "Ein wissenschaftlich geführter Weg vom Rohstoff zum marktreifen Produkt.",
+      "items": [
+        {
+          "t": "Pure Ingredients.",
+          "d": "Direkter Zugang zu unseren zertifizierten Farmen und mehreren Ursprüngen."
+        },
+        {
+          "t": "Gleichbleibende Leistung",
+          "d": "Wissenschaftlich geführte Verarbeitung und Blending sichern Lebensmittelsicherheit und gleichen natürliche Schwankungen aus."
+        },
+        {
+          "t": "Formulated to Thrive.",
+          "d": "Unterstützung bei Geschmack, Funktionalität und Rezeptur, bis hin zum Co-Packing."
+        },
+        {
+          "t": "Marktkenntnis",
+          "d": "Erkenntnisse aus Produkterfahrung in über 35 Märkten in Foodservice, Einzelhandel, FMCG und Lebensmittelherstellung."
+        },
+        {
+          "t": "Zuverlässige globale Lieferkette",
+          "d": "Koordiniert über unsere Büros in Amsterdam, Hongkong und Los Angeles."
+        }
+      ]
+    },
+    "range": {
+      "eyebrow": "Mehr als Matcha",
+      "heading": "Das Sortiment",
+      "intro": "Matcha im Mittelpunkt, daneben ein wachsendes Sortiment an Tee- und Superfood-Pulvern. Jedes davon als Muster, im Blend und in großen Mengen erhältlich.",
+      "appsLabel": "Typische Anwendungen",
+      "view": "Zum Produkt",
+      "all": "Alle Produkte ansehen",
+      "swipe": "Wischen Sie für das ganze Sortiment →",
+      "ctaHeading": "Eine andere Linie oder ein Blend?",
+      "ctaBody": "Fragen Sie ein Muster eines anderen Pulvers an oder eine Kombination wie Earl Grey × Matcha, Jasmin × Matcha oder Hojicha × Rooibos.",
+      "items": {
+        "matcha": {
+          "name": "Matcha",
+          "tag": "Von Ceremonial bis Culinary",
+          "body": "Über 75 Qualitäten aus Uji, Kagoshima, Shizuoka und Ostchina, Single Origin oder geblendet auf Ihren Zielpreis, Ihre Zielfarbe und Ihr Geschmacksprofil.",
+          "apps": "Lattes, Sparkling- und funktionale Getränke, Eiscreme, Schokolade, Füllungen, Kekse und Kuchen",
+          "alt": "Matcha-Pulver mit Bambusbesen und Löffel auf einem Holztisch"
+        },
+        "hojicha": {
+          "name": "Hojicha",
+          "tag": "Geröstet · würzig · koffeinarm",
+          "body": "Gerösteter japanischer Grüntee, nussig und wohltuend. Unser Hojicha hat ein Aroma, das an Kakao erinnert.",
+          "apps": "Lattes, Butterkekse, Schokolade, Mochi, Cheesecake, Eiscreme",
+          "alt": "Eisgekühlter Hojicha Latte neben einem Bambusbesen"
+        },
+        "ube": {
+          "name": "Ube",
+          "tag": "Leuchtend · fotogen · pflanzlich",
+          "body": "Violette Yamswurzel, geschätzt für ihre auffallende natürliche Farbe und ihren milden, süßen Geschmack mit sanften, vanilleartigen und nussigen Noten.",
+          "apps": "Lattes, Schokolade, Mochi und Daifuku, Eiscreme und Gelato, Crêpe-Torten, Pancake- und Waffelmischungen",
+          "alt": "Geschnittene violette Ube-Yamswurzel"
+        },
+        "earlGrey": {
+          "name": "Earl Grey",
+          "tag": "Raffiniert · weltweit beliebt",
+          "body": "Schwarzteepulver mit Bergamotte, das sich direkt in Lattes und Frappés einrühren lässt. Helles, zitrisch-blumiges Aroma über einer malzigen Basis.",
+          "apps": "Lattes (London Fog), Milchtee, Butterkekse, Cheesecake, Schokolade, Softeis",
+          "alt": "Earl-Grey-Teeblätter mit blauen Kornblumenblüten auf einem Löffel"
+        },
+        "hibiscus": {
+          "name": "Hibiskus",
+          "tag": "Kräftiges Karminrot · süß-säuerlich",
+          "body": "Fein gemahlene getrocknete Hibiskusblüten: kräftiges Karminrot mit hellem, säuerlich-fruchtigem Profil und starker optischer Wirkung.",
+          "apps": "Fruchtgummis und Bonbons, Macarons, Sorbet und Eis am Stiel, Limonade, Cheesecake, Schokolade",
+          "alt": "Schale mit Hibiskuspulver, umgeben von getrockneten Hibiskusblüten"
+        },
+        "mulberry": {
+          "name": "Maulbeerblatt",
+          "tag": "Klar · grasig · koffeinfrei",
+          "body": "Maulbeerblattpulver: sanft, grünteeähnlich und von Natur aus koffeinfrei, mit mildem, klarem Geschmack, das sich leicht einrühren lässt.",
+          "apps": "Lattes, Eiscreme, Granola und Energieriegel, Fruchtgelee, Limonade",
+          "alt": "Tasse Maulbeerblatttee neben einem Maulbeerzweig"
+        },
+        "rooibos": {
+          "name": "Rooibos",
+          "tag": "Warm · rooibosrot · koffeinfrei",
+          "body": "Von Natur aus süßer südafrikanischer Rotbusch: holzig und honigartig mit geringer Bitterkeit, warmer Farbe und Genuss rund um die Uhr.",
+          "apps": "Chai Lattes, Shortbread, Schokoladentafeln, Financiers mit brauner Butter, Eiscreme",
+          "alt": "Schale mit losem Rooibos-Tee"
+        }
       }
-    ],
-    "quoteEyebrow": "Nächster Schritt",
-    "quoteHeading": "Angebot oder Testbestellung anfragen.",
-    "quoteLead": "Erzählen Sie uns von Ihrem Produkt, Ihrer Anwendung und Ihrer Menge. Unser Team meldet sich mit Optionen.",
-    "teamEyebrow": "Ihre Ansprechpartner",
-    "teamHeading": "Oder sprechen Sie direkt mit unserem Team.",
-    "roleSalesEurope": "Vertrieb, Europa",
-    "roleSalesHk": "Vertrieb, Hongkong",
-    "emailLabel": "E-Mail",
-    "phoneLabel": "Telefon",
-    "faqHeading": "Fragen nach dem Probieren",
-    "faq": [
-      {
-        "q": "Kann ich eine andere Qualität oder Mischung als mein Muster bekommen?",
-        "a": "Ja. Sagen Sie uns Ihren Zielgeschmack, Ihre Farbe, Anwendung und Menge. Wir passen Qualität oder Mischung an oder justieren sie nach, auch Mischungen aus japanischem und chinesischem Matcha, und senden Ihnen Spezifikationen und Dokumente."
-      },
-      {
-        "q": "Welche Dokumente erhalte ich?",
-        "a": "Zusammen mit den Spezifikationen senden wir Spec Sheet und CoA. Jede Charge wird geprüft, erfüllt die MRL-Vorgaben der USA und der EU und ist unabhängig von Eurofins verifiziert."
-      },
-      {
-        "q": "Welche Zertifizierungen haben Sie?",
-        "a": "USDA Organic, EU Organic, JAS, HACCP, FSSC 22000 und Rainforest Alliance. Matcha aus Japan ist in Bio und konventionell erhältlich."
-      },
-      {
-        "q": "Wie starte ich eine Testbestellung?",
-        "a": "Nutzen Sie das Anfrageformular auf dieser Seite oder schreiben Sie unserem Team. Nennen Sie Zielgeschmack, Farbe, Anwendung und Menge, dann melden wir uns mit Optionen."
-      }
-    ],
-    "slogan": "Pure ingredients. Formulated to thrive."
+    },
+    "work": {
+      "chapter": "Zusammenarbeit",
+      "heading": "Zusammenarbeit mit Superfoods Partners",
+      "intro": "Chancen und Anwendungen: Blending, Innovation und Rückverfolgbarkeit, vom ersten Muster bis zum Produkt im Regal.",
+      "imgAlt": "Luftaufnahme von Reihen aus Teesträuchern",
+      "adv": [
+        {
+          "tag": "Blending",
+          "t": "Blending nach Qualität & Profil",
+          "d": "Premium auf Zielpreis, Zielfarbe und Ziel-Geschmacksprofil abgestimmt, gleichbleibend in großen Mengen. Premium aus Japan × China mit kurzen Lieferzeiten.",
+          "x": "Farmer → Teehersteller → Qualitätskontrolle → Multi-Origin"
+        },
+        {
+          "tag": "Innovationen",
+          "t": "Neue Geschmackskombinationen",
+          "d": "Earl Grey × Matcha, Jasmin × Matcha, Hojicha × Rooibos: neue Kombinationen für Ihre Entwicklung.",
+          "x": "Entwickelt von einem Team mit Promotion"
+        },
+        {
+          "tag": "Rückverfolgbarkeit",
+          "t": "Tencha-Handel & Joint Venture",
+          "d": "Tencha-Handel und ein Multi-Origin-Joint-Venture vertiefen Kontrolle und Rückverfolgbarkeit am Ursprung.",
+          "x": "Rückverfolgbarkeit verbessern → Ziel 100 %"
+        }
+      ],
+      "appsEyebrow": "Chancen & Anwendungen",
+      "appsHeading": "Wo unsere Zutaten zum Einsatz kommen",
+      "category": "Kategorie",
+      "apps": [
+        {
+          "t": "Getränke & Molkerei",
+          "d": "Lattes, Sparkling, funktionale und Ready-to-Drink-Formate, Eiscreme. Partikel in Schwebe halten, Farbe leuchtend und Geschmack frisch über die gesamte Haltbarkeit."
+        },
+        {
+          "t": "Schokolade & Süßwaren",
+          "d": "Weiße, Milch- und Zartbitterschokolade, botanische Einschlüsse mit Ube, Hibiskus und Maulbeere, funktionale Riegel. Mit Blick auf Viskosität, Temperierung, Farbe und Dispersion."
+        },
+        {
+          "t": "Backwaren & Patisserie",
+          "d": "Gebrauchsfertige Füllungen, Cremes, Glasuren und Einschlüsse, Kekse und Kuchen. Farbe, Geschmack und Funktion, die das Backen überstehen."
+        },
+        {
+          "t": "Weitere Anwendungen",
+          "d": "Matcha-Konzentrat für Foodservice und Herstellung, Körperpflege und Beauty sowie individuelle funktionale Pulvermischungen."
+        }
+      ],
+      "whiskAlt": "Bambusbesen in frisch aufgeschlagenem Matcha",
+      "rdEyebrow": "F&E-Labore",
+      "rdHeading": "Gemeinsam entwickeln",
+      "rdBody": "Eine langfristige Partnerschaft, die mit Innovation beginnt und dann in großem Maßstab kommerzialisiert wird: in Schokolade, Backwaren, Ready-to-Drink und Molkereiprodukten.",
+      "rdSteps": [
+        {
+          "t": "Konzepte finden & liefern",
+          "d": "wir blenden die besten Qualitäten passend zu Ihrem Geschmacksprofil und Zielpreis und bringen Innovationen wie Earl Grey × Matcha ein."
+        },
+        {
+          "t": "Rezepturen entwickeln",
+          "d": "Ihr Team formuliert, mit unserer Unterstützung bei Geschmack und Funktionalität."
+        },
+        {
+          "t": "Kommerzialisieren",
+          "d": "Hochskalieren, inklusive Private Label und Co-Packing."
+        }
+      ],
+      "procEyebrow": "Verarbeitung",
+      "procHeading": "Wir unterstützen Ihre Entwicklung",
+      "procBody": "Matcha reagiert empfindlich auf Licht, Luft, Hitze, Wasserhärte und Säure. Rohstoff, Verarbeitung und Verpackung müssen daher zusammen betrachtet werden. Wir teilen unser Wissen.",
+      "procItems": [
+        "Stabilität & Haltbarkeit",
+        "Dispersion",
+        "Handhabung",
+        "Geschmacks­kombinationen"
+      ],
+      "procNote": "Erzählen Sie uns von Ihrem Prozess, wenn Sie uns Feedback zum Muster geben."
+    },
+    "path": {
+      "eyebrow": "Vom Muster zur Produktion",
+      "heading": "Vier Schritte vom Muster zur ersten Bestellung",
+      "steps": [
+        {
+          "t": "Muster verkosten & testen",
+          "d": "Probieren Sie es in Ihrer eigenen Anwendung und in Ihrem eigenen Prozess."
+        },
+        {
+          "t": "Feedback geben",
+          "d": "Nennen Sie uns Zielgeschmack, Farbe, Anwendung und Volumen."
+        },
+        {
+          "t": "Wir passen an oder verfeinern",
+          "d": "Wir treffen oder verfeinern die Qualität bzw. den Blend und senden Ihnen Spezifikation und CoA."
+        },
+        {
+          "t": "Testbestellung, dann skalieren",
+          "d": "Starten Sie mit einer Testbestellung. Wenn es passt, wachsen wir mit Ihnen."
+        }
+      ],
+      "imgAlt": "Teeerntemaschine, beladen mit Säcken voller frischer Blätter in der Abenddämmerung",
+      "imgCaption": "Vom Feld · Japan"
+    },
+    "quote": {
+      "eyebrow": "Nächster Schritt",
+      "heading": "Angebot oder Testbestellung anfragen",
+      "lead": "Sagen Sie uns, welches Muster Sie probiert haben, Ihre Anwendung und Ihr Volumen. Unser Team meldet sich mit Optionen.",
+      "talk": "Lieber zuerst darüber sprechen?",
+      "talkLink": "Mit unserem Team sprechen"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "heading": "Fragen nach dem Probieren",
+      "items": [
+        {
+          "q": "Kann ich eine andere Qualität oder einen anderen Blend als mein Muster bekommen?",
+          "a": "Ja. Wir arbeiten mit über 75 Matcha-Qualitäten von Ceremonial bis Culinary und blenden japanischen und chinesischen Matcha auf Zielpreis, Farbe und Geschmack. Nennen Sie uns Zielgeschmack, Farbe, Anwendung und Volumen, und wir treffen oder verfeinern es."
+        },
+        {
+          "q": "Welche Dokumente erhalte ich?",
+          "a": "Zur passenden Qualität oder zum Blend senden wir Spezifikation und CoA. Unser Matcha ist konform mit den MRL der USA und der EU, unabhängig verifiziert von Eurofins."
+        },
+        {
+          "q": "Welche Zertifizierungen haben Sie?",
+          "a": "USDA & EU Bio, JAS, HACCP, FSSC 22000 und Rainforest Alliance, außerdem sind wir IFS-zertifiziert. Japanischer Matcha ist in Bio- und konventioneller Qualität erhältlich."
+        },
+        {
+          "q": "Beliefern Sie mein Land?",
+          "a": "Wir beliefern über 60 Länder, koordiniert über unsere Büros in Amsterdam, Hongkong und Los Angeles, und versorgen Marken, Hersteller und Private Label."
+        }
+      ]
+    }
   }
 }
