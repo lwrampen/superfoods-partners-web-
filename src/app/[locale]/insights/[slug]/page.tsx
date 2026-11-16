@@ -10,6 +10,8 @@ import { Reveal } from "@/components/Reveal";
 import { POSTS, getPost, pick } from "@/data/insights";
 import { getProduct, LABELS } from "@/data/catalog";
 import { localizeProduct } from "@/data/content.i18n";
+import { Inline, InsightBlocks } from "@/components/InsightBlocks";
+import { stripInline } from "@/lib/studio/inline";
 
 export function generateStaticParams() {
   return POSTS.map((p) => ({ slug: p.slug }));
@@ -90,7 +92,7 @@ export default async function InsightPost({
         mainEntity: post.faqs.map((f) => ({
           "@type": "Question",
           name: pick(f.q, locale),
-          acceptedAnswer: { "@type": "Answer", text: pick(f.a, locale) },
+          acceptedAnswer: { "@type": "Answer", text: post.blocks ? stripInline(pick(f.a, locale)) : pick(f.a, locale) },
         })),
       }
     : null;
@@ -123,7 +125,9 @@ export default async function InsightPost({
         )}
 
         <div className="mx-auto max-w-3xl px-6 py-12">
-          <p className="text-xl leading-relaxed text-green">{pick(post.lede, locale)}</p>
+          <p className="text-xl leading-relaxed text-green">{post.blocks ? <Inline text={pick(post.lede, locale)} /> : pick(post.lede, locale)}</p>
+
+          {post.blocks ? <InsightBlocks blocks={post.blocks[locale] ?? post.blocks.en ?? []} /> : null}
 
           {post.sections.map((s, i) => (
             <Reveal key={i} className="mt-12">
@@ -182,7 +186,7 @@ export default async function InsightPost({
                 {post.faqs.map((f, i) => (
                   <div key={i} className="py-5">
                     <h3 className="font-medium text-green">{pick(f.q, locale)}</h3>
-                    <p className="mt-2 leading-relaxed text-stone">{pick(f.a, locale)}</p>
+                    <p className="mt-2 leading-relaxed text-stone">{post.blocks ? <Inline text={pick(f.a, locale)} /> : pick(f.a, locale)}</p>
                   </div>
                 ))}
               </div>

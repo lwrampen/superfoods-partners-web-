@@ -6,6 +6,8 @@
 // split localized bodies into insights.<locale>.ts on the content.i18n pattern.
 
 import { routing } from "@/i18n/routing";
+import type { Block } from "@/lib/studio/types";
+import { jsonPosts } from "./insightsJson";
 
 export type Loc = Record<string, string>;
 export type Section = { heading: Loc; body: Loc[] };
@@ -34,6 +36,12 @@ export type InsightPost = {
   tables?: DataTable[]; // optional data tables (reports)
   faqs?: Faq[];
   relatedProducts?: string[]; // product slugs
+  // Posts written in Blog Studio (content/insights/<slug>.json): the body is structured blocks per locale instead of
+  // `sections`; text fields in blocks/FAQs may carry **bold**, *italic* and [label](/path).
+  blocks?: Record<string, Block[]>;
+  heroSize?: { width: number; height: number };
+  primaryKeyword?: string;
+  studioId?: string;
 };
 
 export function pick(l: Loc | undefined, locale: string): string {
@@ -59,7 +67,8 @@ const L = (en: string, de: string, es: string, fr: string, pl: string, zh: strin
 // pick() falls back to English on every other locale.
 const E = (en: string): Loc => ({ en });
 
-export const POSTS: InsightPost[] = [
+// Hand-written posts (TypeScript). Studio posts (JSON) are appended in POSTS at the end of this file.
+export const STATIC_POSTS: InsightPost[] = [
   {
     slug: "matcha-wholesale-buyers-guide",
     date: "2026-07-29",
@@ -1538,3 +1547,6 @@ export const POSTS: InsightPost[] = [
     relatedProducts: ["ube"],
   },
 ];
+
+// Every post: the hand-written ones above + Blog Studio posts from content/insights/*.json (existing slugs win).
+export const POSTS: InsightPost[] = [...STATIC_POSTS, ...jsonPosts().filter((p) => !STATIC_POSTS.some((x) => x.slug === p.slug))];
