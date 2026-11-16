@@ -916,5 +916,133 @@
       "organicQ": "¿Los productos envasados pueden ser orgánicos?",
       "organicA": "Sí. Podemos envasar productos orgánicos para usted, según el producto y su mercado."
     }
+  },
+  "sample": {
+    "metaTitle": "Tu muestra, la historia completa | Superfoods Partners",
+    "metaDescription": "Quiénes somos, de dónde viene tu muestra y cómo pasar de la muestra al pedido de prueba con Superfoods Partners, el equipo detrás de Pure Matcha Partners.",
+    "eyebrow": "Gracias por probar",
+    "heading": "Tu muestra, la historia completa",
+    "lead": "Acabas de probar una muestra de Superfoods Partners. Aquí te contamos quiénes somos, de dónde viene y cómo dar el siguiente paso de esta caja a un pedido de prueba.",
+    "imgAlt": "Jardines de té cultivados a la sombra",
+    "imgCaption": "Jardines de té, con abastecimiento en origen",
+    "ctaPrimary": "Solicita presupuesto / pedido de prueba",
+    "ctaSecondary": "Habla con nuestro equipo",
+    "whoEyebrow": "Quiénes somos",
+    "whoHeading": "La casa de ingredientes detrás de Pure Matcha Partners.",
+    "whoBody": "Superfoods Partners trabaja directamente en origen con productores de té en Japón y China y controla la cadena desde la cosecha hasta el palé. Suministramos a marcas, fabricantes y marca blanca.",
+    "pmpLink": "Visita Pure Matcha Partners",
+    "locEyebrow": "Dónde trabajamos",
+    "locations": [
+      "Países Bajos",
+      "Estados Unidos",
+      "Hong Kong"
+    ],
+    "hkLink": "Nuestra página de Hong Kong",
+    "stats": [
+      "calidades de matcha, de ceremonial a culinaria",
+      "kg de capacidad anual desde el 1.er trimestre de 2028",
+      "países atendidos"
+    ],
+    "originsEyebrow": "Orígenes",
+    "originsHeading": "Abastecimiento en origen en Japón, China y Filipinas.",
+    "origins": [
+      {
+        "c": "Japón",
+        "p": "Uji, Kagoshima, Shizuoka",
+        "n": "Ecológico y convencional"
+      },
+      {
+        "c": "China",
+        "p": "Hubei, Sichuan, Guizhou",
+        "n": ""
+      },
+      {
+        "c": "Filipinas",
+        "p": "Luzón",
+        "n": "Ube"
+      }
+    ],
+    "originsLink": "Descubre nuestros orígenes",
+    "howEyebrow": "Cómo trabajamos",
+    "howHeading": "Cerca de la finca, cuidadosos con cada lote.",
+    "how": [
+      {
+        "t": "Inversión en fincas, no intermediación",
+        "d": "Invertimos junto a los productores locales de té en fincas, instalaciones, calidad y capacidad a largo plazo."
+      },
+      {
+        "t": "Japón y China, a tu medida",
+        "d": "Mezclamos matcha japonés y chino para ajustarnos a tu precio objetivo, color y sabor."
+      },
+      {
+        "t": "Analizado lote a lote",
+        "d": "Cada lote se analiza, cumple los LMR de EE. UU. y la UE y está verificado de forma independiente por Eurofins."
+      },
+      {
+        "t": "Certificado",
+        "d": "USDA y EU Organic, JAS, HACCP, FSSC 22000 y Rainforest Alliance."
+      }
+    ],
+    "rangeEyebrow": "La gama",
+    "rangeHeading": "Una casa de ingredientes, siete líneas.",
+    "range": {
+      "matcha": "Matcha",
+      "hojicha": "Hojicha",
+      "ube": "Ube",
+      "hibiscus": "Hibisco",
+      "mulberry": "Morera",
+      "rooibos": "Rooibos",
+      "earlGrey": "Earl Grey"
+    },
+    "rangeLink": "Ver toda la gama",
+    "pathEyebrow": "De la muestra a la producción",
+    "pathHeading": "Cuatro pasos de esta caja a tu primer pedido.",
+    "steps": [
+      {
+        "t": "Prueba y testea tu muestra",
+        "d": "Pruébala en tu propia aplicación y en tu propio proceso."
+      },
+      {
+        "t": "Comparte tu opinión",
+        "d": "Cuéntanos el sabor, el color, la aplicación y el volumen que buscas."
+      },
+      {
+        "t": "Lo ajustamos a tu medida",
+        "d": "Ajustamos o afinamos la calidad o la mezcla y te enviamos especificaciones y documentos, incluidos la ficha técnica y el CoA."
+      },
+      {
+        "t": "Pedido de prueba y después escalamos",
+        "d": "Empieza con un pedido de prueba. Cuando funcione, escalamos contigo."
+      }
+    ],
+    "quoteEyebrow": "Siguiente paso",
+    "quoteHeading": "Solicita un presupuesto o un pedido de prueba.",
+    "quoteLead": "Cuéntanos tu producto, aplicación y volumen. Nuestro equipo te responde con opciones.",
+    "teamEyebrow": "Tus contactos",
+    "teamHeading": "O habla directamente con nuestro equipo.",
+    "roleSalesEurope": "Ventas, Europa",
+    "roleSalesHk": "Ventas, Hong Kong",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono",
+    "faqHeading": "Preguntas tras la muestra",
+    "faq": [
+      {
+        "q": "¿Puedo conseguir otra calidad o mezcla distinta de mi muestra?",
+        "a": "Sí. Cuéntanos el sabor, el color, la aplicación y el volumen que buscas. Ajustamos o afinamos la calidad o la mezcla, también mezclas de matcha japonés y chino, y te enviamos especificaciones y documentos."
+      },
+      {
+        "q": "¿Qué documentos recibo?",
+        "a": "Junto con las especificaciones te enviamos la ficha técnica y el CoA. Cada lote se analiza, cumple los LMR de EE. UU. y la UE y está verificado de forma independiente por Eurofins."
+      },
+      {
+        "q": "¿Qué certificaciones tenéis?",
+        "a": "USDA Organic, EU Organic, JAS, HACCP, FSSC 22000 y Rainforest Alliance. El matcha de Japón está disponible en ecológico y convencional."
+      },
+      {
+        "q": "¿Cómo empiezo un pedido de prueba?",
+        "a": "Usa el formulario de esta página o escribe a nuestro equipo. Indícanos el sabor, el color, la aplicación y el volumen que buscas y te respondemos con opciones."
+      }
+    ],
+    "slogan": "Pure ingredients. Formulated to thrive."
   }
 }
