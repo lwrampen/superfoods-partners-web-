@@ -916,5 +916,133 @@
       "organicQ": "Czy pakowane produkty mogą być organiczne?",
       "organicA": "Tak. Możemy pakować dla Ciebie produkty organiczne, w zależności od produktu i rynku."
     }
+  },
+  "sample": {
+    "metaTitle": "Twoja próbka, cała historia | Superfoods Partners",
+    "metaDescription": "Kim jesteśmy, skąd pochodzi Twoja próbka i jak przejść od próbki do zamówienia próbnego z Superfoods Partners, zespołem stojącym za Pure Matcha Partners.",
+    "eyebrow": "Dziękujemy za wypróbowanie",
+    "heading": "Twoja próbka, cała historia",
+    "lead": "Właśnie spróbowałeś próbki od Superfoods Partners. Oto kim jesteśmy, skąd pochodzi i jak przejść od tego pudełka do zamówienia próbnego.",
+    "imgAlt": "Herbaciane ogrody uprawiane w cieniu",
+    "imgCaption": "Herbaciane ogrody, pozyskiwane u źródła",
+    "ctaPrimary": "Poproś o wycenę / zamówienie próbne",
+    "ctaSecondary": "Porozmawiaj z naszym zespołem",
+    "whoEyebrow": "Kim jesteśmy",
+    "whoHeading": "Dom składników stojący za Pure Matcha Partners.",
+    "whoBody": "Superfoods Partners pracuje bezpośrednio u źródła z producentami herbaty w Japonii i Chinach i kontroluje łańcuch od zbiorów do palety. Dostarczamy produkty markom, producentom i na rynek private label.",
+    "pmpLink": "Odwiedź Pure Matcha Partners",
+    "locEyebrow": "Gdzie działamy",
+    "locations": [
+      "Holandia",
+      "Stany Zjednoczone",
+      "Hongkong"
+    ],
+    "hkLink": "Nasza strona Hongkong",
+    "stats": [
+      "gatunków matchy, od ceremonialnej po kulinarną",
+      "kg rocznej zdolności od I kwartału 2028",
+      "obsługiwanych krajów"
+    ],
+    "originsEyebrow": "Pochodzenie",
+    "originsHeading": "Pozyskiwane u źródła w Japonii, Chinach i na Filipinach.",
+    "origins": [
+      {
+        "c": "Japonia",
+        "p": "Uji, Kagoshima, Shizuoka",
+        "n": "Ekologiczna i konwencjonalna"
+      },
+      {
+        "c": "Chiny",
+        "p": "Hubei, Syczuan, Kuejczou",
+        "n": ""
+      },
+      {
+        "c": "Filipiny",
+        "p": "Luzon",
+        "n": "Ube"
+      }
+    ],
+    "originsLink": "Poznaj nasze pochodzenie",
+    "howEyebrow": "Jak pracujemy",
+    "howHeading": "Blisko plantacji, dokładnie przy każdej partii.",
+    "how": [
+      {
+        "t": "Inwestycje w plantacje, nie pośrednictwo",
+        "d": "Inwestujemy razem z lokalnymi producentami herbaty w plantacje, zakłady, jakość i długoterminowe moce."
+      },
+      {
+        "t": "Japonia i Chiny, dopasowane do Ciebie",
+        "d": "Łączymy japońską i chińską matchę zgodnie z Twoją ceną docelową, kolorem i smakiem."
+      },
+      {
+        "t": "Badane partia po partii",
+        "d": "Każda partia jest badana, zgodna z limitami MRL USA i UE oraz niezależnie weryfikowana przez Eurofins."
+      },
+      {
+        "t": "Certyfikowane",
+        "d": "USDA i EU Organic, JAS, HACCP, FSSC 22000 oraz Rainforest Alliance."
+      }
+    ],
+    "rangeEyebrow": "Asortyment",
+    "rangeHeading": "Jeden dom składników, siedem linii.",
+    "range": {
+      "matcha": "Matcha",
+      "hojicha": "Hojicha",
+      "ube": "Ube",
+      "hibiscus": "Hibiskus",
+      "mulberry": "Morwa",
+      "rooibos": "Rooibos",
+      "earlGrey": "Earl Grey"
+    },
+    "rangeLink": "Zobacz cały asortyment",
+    "pathEyebrow": "Od próbki do produkcji",
+    "pathHeading": "Cztery kroki od tego pudełka do pierwszego zamówienia.",
+    "steps": [
+      {
+        "t": "Spróbuj i przetestuj próbkę",
+        "d": "Wypróbuj ją we własnej aplikacji i własnym procesie."
+      },
+      {
+        "t": "Podziel się opinią",
+        "d": "Powiedz nam, jaki smak, kolor, zastosowanie i wolumen Cię interesują."
+      },
+      {
+        "t": "Dopasowujemy lub dopracowujemy",
+        "d": "Dopasowujemy lub dopracowujemy gatunek albo mieszankę i wysyłamy Ci specyfikacje oraz dokumenty, w tym kartę specyfikacji i CoA."
+      },
+      {
+        "t": "Zamówienie próbne, potem skalowanie",
+        "d": "Zacznij od zamówienia próbnego. Gdy się sprawdzi, skalujemy razem z Tobą."
+      }
+    ],
+    "quoteEyebrow": "Następny krok",
+    "quoteHeading": "Poproś o wycenę lub zamówienie próbne.",
+    "quoteLead": "Opowiedz nam o swoim produkcie, zastosowaniu i wolumenie. Nasz zespół wróci z propozycjami.",
+    "teamEyebrow": "Twoje kontakty",
+    "teamHeading": "Albo porozmawiaj bezpośrednio z naszym zespołem.",
+    "roleSalesEurope": "Sprzedaż, Europa",
+    "roleSalesHk": "Sprzedaż, Hongkong",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "faqHeading": "Pytania po wypróbowaniu próbki",
+    "faq": [
+      {
+        "q": "Czy mogę dostać inny gatunek lub mieszankę niż w próbce?",
+        "a": "Tak. Powiedz nam, jaki smak, kolor, zastosowanie i wolumen Cię interesują. Dopasowujemy lub dopracowujemy gatunek albo mieszankę, także mieszanki japońskiej i chińskiej matchy, i wysyłamy specyfikacje oraz dokumenty."
+      },
+      {
+        "q": "Jakie dokumenty otrzymam?",
+        "a": "Razem ze specyfikacjami wysyłamy kartę specyfikacji i CoA. Każda partia jest badana, zgodna z limitami MRL USA i UE oraz niezależnie weryfikowana przez Eurofins."
+      },
+      {
+        "q": "Jakie macie certyfikaty?",
+        "a": "USDA Organic, EU Organic, JAS, HACCP, FSSC 22000 i Rainforest Alliance. Matcha z Japonii jest dostępna w wersji ekologicznej i konwencjonalnej."
+      },
+      {
+        "q": "Jak rozpocząć zamówienie próbne?",
+        "a": "Skorzystaj z formularza wyceny na tej stronie lub napisz do naszego zespołu. Podaj smak, kolor, zastosowanie i wolumen, a wrócimy z propozycjami."
+      }
+    ],
+    "slogan": "Pure ingredients. Formulated to thrive."
   }
 }

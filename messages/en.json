@@ -916,5 +916,133 @@
       "organicQ": "Can packed products be organic?",
       "organicA": "Yes. Organic products can be packed for you, depending on the product and your market."
     }
+  },
+  "sample": {
+    "metaTitle": "Your Sample, the Full Story | Superfoods Partners",
+    "metaDescription": "Who we are, where your sample comes from and how to go from sample to trial order with Superfoods Partners, the team behind Pure Matcha Partners.",
+    "eyebrow": "Thank you for sampling",
+    "heading": "Your sample, the full story",
+    "lead": "You have just tasted a sample from Superfoods Partners. Here is who we are, where it comes from and how to take the next step from this box to a trial order.",
+    "imgAlt": "Shade-grown tea gardens",
+    "imgCaption": "Tea gardens, sourced at origin",
+    "ctaPrimary": "Request a quote / trial order",
+    "ctaSecondary": "Talk to our team",
+    "whoEyebrow": "Who we are",
+    "whoHeading": "The ingredient house behind Pure Matcha Partners.",
+    "whoBody": "Superfoods Partners works directly at source with tea makers in Japan and China and controls the chain from harvest to pallet. We supply brands, manufacturers and private label.",
+    "pmpLink": "Visit Pure Matcha Partners",
+    "locEyebrow": "Where we work",
+    "locations": [
+      "Netherlands",
+      "United States",
+      "Hong Kong"
+    ],
+    "hkLink": "Our Hong Kong page",
+    "stats": [
+      "matcha grades, ceremonial to culinary",
+      "kg annual capacity from Q1 2028",
+      "countries served"
+    ],
+    "originsEyebrow": "Origins",
+    "originsHeading": "Sourced at origin in Japan, China and the Philippines.",
+    "origins": [
+      {
+        "c": "Japan",
+        "p": "Uji, Kagoshima, Shizuoka",
+        "n": "Organic and conventional"
+      },
+      {
+        "c": "China",
+        "p": "Hubei, Sichuan, Guizhou",
+        "n": ""
+      },
+      {
+        "c": "Philippines",
+        "p": "Luzon",
+        "n": "Ube"
+      }
+    ],
+    "originsLink": "Explore our origins",
+    "howEyebrow": "How we work",
+    "howHeading": "Close to the farm, careful with every lot.",
+    "how": [
+      {
+        "t": "Farm investment, not brokerage",
+        "d": "We invest alongside local tea makers in farms, facilities, quality and long-term capacity."
+      },
+      {
+        "t": "Japan and China, matched to you",
+        "d": "We blend Japanese and Chinese matcha to match your target price, colour and flavour."
+      },
+      {
+        "t": "Tested per lot",
+        "d": "Every lot is tested, compliant with US and EU MRLs and independently verified by Eurofins."
+      },
+      {
+        "t": "Certified",
+        "d": "USDA and EU Organic, JAS, HACCP, FSSC 22000 and Rainforest Alliance."
+      }
+    ],
+    "rangeEyebrow": "The range",
+    "rangeHeading": "One ingredient house, seven lines.",
+    "range": {
+      "matcha": "Matcha",
+      "hojicha": "Hojicha",
+      "ube": "Ube",
+      "hibiscus": "Hibiscus",
+      "mulberry": "Mulberry",
+      "rooibos": "Rooibos",
+      "earlGrey": "Earl Grey"
+    },
+    "rangeLink": "See the full range",
+    "pathEyebrow": "From sample to production",
+    "pathHeading": "Four steps from this box to your first order.",
+    "steps": [
+      {
+        "t": "Taste and test your sample",
+        "d": "Try it in your own application, in your own process."
+      },
+      {
+        "t": "Share your feedback",
+        "d": "Tell us your target taste, colour, application and volume."
+      },
+      {
+        "t": "We match or fine-tune",
+        "d": "We match or fine-tune the grade or blend and send you specs and documents, including the spec sheet and CoA."
+      },
+      {
+        "t": "Trial order, then scale",
+        "d": "Start with a trial order. When it works, we scale with you."
+      }
+    ],
+    "quoteEyebrow": "Next step",
+    "quoteHeading": "Request a quote or trial order.",
+    "quoteLead": "Tell us about your product, application and volume. Our team comes back with options.",
+    "teamEyebrow": "Your contacts",
+    "teamHeading": "Or talk to our team directly.",
+    "roleSalesEurope": "Sales, Europe",
+    "roleSalesHk": "Sales, Hong Kong",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "faqHeading": "Questions after sampling",
+    "faq": [
+      {
+        "q": "Can I get a different grade or blend than my sample?",
+        "a": "Yes. Tell us your target taste, colour, application and volume. We match or fine-tune the grade or blend, including blends of Japanese and Chinese matcha, and send you specs and documents."
+      },
+      {
+        "q": "Which documents do I receive?",
+        "a": "With the specs we send the spec sheet and CoA. Every lot is tested, compliant with US and EU MRLs and independently verified by Eurofins."
+      },
+      {
+        "q": "Which certifications do you hold?",
+        "a": "USDA Organic, EU Organic, JAS, HACCP, FSSC 22000 and Rainforest Alliance. Matcha from Japan is available as organic and conventional."
+      },
+      {
+        "q": "How do I start a trial order?",
+        "a": "Use the quote form on this page or email our team. Share your target taste, colour, application and volume, and we come back with options."
+      }
+    ],
+    "slogan": "Pure ingredients. Formulated to thrive."
   }
 }
