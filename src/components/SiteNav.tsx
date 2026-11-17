@@ -16,6 +16,9 @@ const NAV = [
   { key: "company", href: "/company" },
 ] as const;
 
+// Client portal (Shopify) shared with Pure Matcha Partners
+const SHOP_URL = "https://shop.purematchapartners.com";
+
 const LABEL_ORDER: LabelId[] = ["pmp", "pup", "sfp"];
 
 export function SiteNav() {
@@ -72,12 +75,20 @@ export function SiteNav() {
         </div>
         <div className="flex items-center gap-4">
           <LangSwitch className="hidden sm:flex" />
+          <a href={SHOP_URL} className="hidden items-center gap-1.5 text-sm text-stone transition-colors hover:text-green md:inline-flex">
+            <svg aria-hidden viewBox="0 0 16 16" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <circle cx="8" cy="5.5" r="2.75" />
+              <path d="M2.75 14c.6-2.6 2.7-4.25 5.25-4.25s4.65 1.65 5.25 4.25" strokeLinecap="round" />
+            </svg>
+            {t("login")}
+          </a>
           <Link href="/contact" className="hidden rounded-lg bg-green px-4 py-2 text-sm font-medium text-oat transition-opacity hover:opacity-90 md:inline-block">
             {t("requestVolume")}
           </Link>
           <MobileMenu
             links={links}
             cta={t("requestVolume")}
+            login={{ href: SHOP_URL, label: t("login") }}
             productsLabel={t("products")}
             originsLabel={t("origins")}
             productGroups={productGroups}
