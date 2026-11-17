@@ -2,6 +2,18 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
+  // Blog Studio (internal): never indexed, on www and on studio.superfoodspartners.com.
+  async headers() {
+    const noindex = [{ key: "X-Robots-Tag", value: "noindex, nofollow" }];
+    return [
+      { source: "/studio", headers: noindex },
+      { source: "/studio/:path*", headers: noindex },
+      { source: "/api/studio/:path*", headers: noindex },
+      { source: "/:path*", has: [{ type: "host", value: "studio\\.superfoodspartners\\.com" }], headers: noindex },
+    ];
+  },
+  // Insights written in Blog Studio are JSON files read at build time.
+  outputFileTracingIncludes: { "/[locale]/insights/**": ["./content/insights/**/*.json"] },
   async redirects() {
     return [
       // pureubepartners.com (brand/print domain, bought Oct 2026) → the Pure Ube
