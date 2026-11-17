@@ -12,6 +12,7 @@ type NavLink = { label: string; href: string };
 export function MobileMenu({
   links,
   cta,
+  login,
   productsLabel,
   originsLabel,
   productGroups,
@@ -20,6 +21,7 @@ export function MobileMenu({
 }: {
   links: NavLink[];
   cta: string;
+  login?: { href: string; label: string };
   productsLabel: string;
   originsLabel: string;
   productGroups: MenuGroup[];
@@ -237,6 +239,15 @@ export function MobileMenu({
                 >
                   {cta}
                 </Link>
+                {login && (
+                  <a
+                    href={login.href}
+                    onClick={close}
+                    className="mt-2 rounded-lg border border-green px-4 py-3 text-center text-sm font-medium text-green transition-colors hover:bg-green/5"
+                  >
+                    {login.label} <span aria-hidden>↗</span>
+                  </a>
+                )}
                 <div className="mt-5 border-t border-stone/10 pt-4" onClick={close}>
                   <LangSwitch variant="inline" />
                 </div>
