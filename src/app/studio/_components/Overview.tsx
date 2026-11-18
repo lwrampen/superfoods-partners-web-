@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import type { OverviewRow, PostStatus, SiteId } from "@/lib/studio/types";
+import type { OverviewRow, PostKind, PostStatus, SiteId, StudioPost } from "@/lib/studio/types";
 import { api } from "./api";
 import { StatusChip, SiteBadge, fmtDate, fmtDateTime } from "./ui";
 
@@ -16,6 +17,10 @@ const STATUSES: { id: PostStatus | "all"; label: string }[] = [
   { id: "live", label: "Live" },
   { id: "needs_attention", label: "Needs attention" },
 ];
+
+function KindBadge({ kind }: { kind?: PostKind }) {
+  return kind === "recipe" ? <span className="mono ml-2 rounded bg-[#f3ead8] px-1.5 py-0.5 align-middle text-[10px] uppercase text-[#7a5a12]">Recipe</span> : null;
+}
 
 function Visits({ v, gsc }: { v: OverviewRow["visits"]; gsc: Data["gsc"] }) {
   if (gsc === "missing") return <span className="text-xs text-stone/60">—</span>;
@@ -35,6 +40,21 @@ export function Overview({ integrations }: { integrations: Integrations }) {
   const [site, setSite] = useState<SiteId | "all">("all");
   const [status, setStatus] = useState<PostStatus | "all">("all");
   const [q, setQ] = useState("");
+  const [kind, setKind] = useState<PostKind | "all">("all");
+  const [importing, setImporting] = useState<string | null>(null);
+  const router = useRouter();
+  // "Edit in Studio": take over a recipe that is already on the site
+  const takeOver = async (r: OverviewRow) => {
+    setImporting(r.key);
+    setError(null);
+    try {
+      const { post } = await api<{ post: StudioPost }>("/api/studio/import", { body: { site: r.site, slug: r.slug } });
+      router.push(`/studio/posts/${post.id}`);
+    } catch (e) {
+      setError((e as Error).message);
+      setImporting(null);
+    }
+  };
 
   const load = useCallback(async () => {
     try {
@@ -70,10 +90,11 @@ export function Overview({ integrations }: { integrations: Integrations }) {
     return (data?.rows ?? []).filter(
       (r) =>
         (site === "all" || r.site === site) &&
+        (kind === "all" || (r.kind ?? "post") === kind) &&
         (status === "all" || r.status === status) &&
         (!needle || `${r.title} ${r.slug} ${r.author} ${r.primaryKeyword ?? ""}`.toLowerCase().includes(needle)),
     );
-  }, [data, site, status, q]);
+  }, [data, site, status, q, kind]);
 
   const counts = useMemo(() => {
     const c: Record<string, number> = {};
@@ -94,11 +115,16 @@ export function Overview({ integrations }: { integrations: Integrations }) {
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="eyebrow">Both websites</p>
-          <h1 className="display mt-1 text-[40px] leading-none sm:text-[52px]">Posts</h1>
+          <h1 className="display mt-1 text-[40px] leading-none sm:text-[52px]">Posts & recipes</h1>
         </div>
-        <Link href="/studio/new" className="btn btn-lime">
-          + New post
-        </Link>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/studio/new?kind=recipe" className="btn btn-ghost">
+            + New recipe
+          </Link>
+          <Link href="/studio/new" className="btn btn-lime">
+            + New post
+          </Link>
+        </div>
       </div>
 
       {missing.length || integrations.mocks ? (
@@ -126,6 +152,13 @@ export function Overview({ integrations }: { integrations: Integrations }) {
           {(["all", "pmp", "sfp"] as const).map((s) => (
             <button key={s} onClick={() => setSite(s)} className={`mono rounded-lg px-3 py-1.5 text-[11px] uppercase ${site === s ? "bg-forest text-offwhite" : "text-stone hover:text-forest"}`}>
               {s === "all" ? "Both sites" : s.toUpperCase()}
+            </button>
+          ))}
+        </div>
+        <div className="flex rounded-xl border border-[#dcdcd2] bg-white p-1">
+          {(["all", "post", "recipe"] as const).map((k) => (
+            <button key={k} onClick={() => setKind(k)} className={`mono rounded-lg px-3 py-1.5 text-[11px] uppercase ${kind === k ? "bg-forest text-offwhite" : "text-stone hover:text-forest"}`}>
+              {k === "all" ? "All types" : k === "post" ? "Blogs" : "Recipes"}
             </button>
           ))}
         </div>
@@ -184,6 +217,12 @@ export function Overview({ integrations }: { integrations: Integrations }) {
                       ) : (
                         <span className="font-medium text-forest">{r.title}</span>
                       )}
+                      <KindBadge kind={r.kind} />
+                      {r.source === "repo" && r.kind === "recipe" ? (
+                        <button onClick={() => takeOver(r)} disabled={!!importing} className="ml-2 text-xs text-forest underline disabled:opacity-50">
+                          {importing === r.key ? "Opening…" : "Edit in Studio"}
+                        </button>
+                      ) : null}
                       <div className="mt-0.5 truncate text-xs text-stone">
                         {r.url ? (
                           <a href={r.url} target="_blank" rel="noreferrer" className="hover:text-forest hover:underline">
@@ -234,6 +273,16 @@ export function Overview({ integrations }: { integrations: Integrations }) {
                     {r.title}
                   </a>
                 )}
+                {r.kind === "recipe" ? (
+                  <div className="mt-1">
+                    <KindBadge kind={r.kind} />
+                    {r.source === "repo" ? (
+                      <button onClick={() => takeOver(r)} disabled={!!importing} className="ml-2 text-xs text-forest underline disabled:opacity-50">
+                        {importing === r.key ? "Opening…" : "Edit in Studio"}
+                      </button>
+                    ) : null}
+                  </div>
+                ) : null}
                 <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs text-stone">
                   <span>{r.author}</span>
                   {r.primaryKeyword ? <span>Keyword: {r.primaryKeyword}</span> : null}

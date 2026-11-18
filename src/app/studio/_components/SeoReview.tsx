@@ -1,6 +1,31 @@
 "use client";
 import { useState } from "react";
 import type { Faq, LocaleCopy, StudioPost } from "@/lib/studio/types";
+import { stripInline } from "@/lib/studio/inline";
+
+function RecipePreview({ c }: { c: LocaleCopy }) {
+  return (
+    <div className="mb-4 space-y-3 border-b border-[#efefe8] pb-4 text-sm text-stone">
+      {c.yield ? <p className="text-xs">Yield: {c.yield}</p> : null}
+      {(c.ingredients ?? []).map((g, i) => (
+        <div key={i}>
+          {g.heading ? <p className="font-medium text-forest">{g.heading}</p> : null}
+          <ul className="list-disc pl-5">
+            {g.items.map((x, j) => (
+              <li key={j}>{stripInline(x)}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      <ol className="list-decimal pl-5">
+        {(c.steps ?? []).map((x, j) => (
+          <li key={j}>{stripInline(x)}</li>
+        ))}
+      </ol>
+      {c.tips?.length ? <p className="text-xs">Tips: {c.tips.map(stripInline).join(" · ")}</p> : null}
+    </div>
+  );
+}
 import { BlocksPreview } from "./BlocksPreview";
 import { Counter } from "./ui";
 
@@ -134,15 +159,17 @@ export function SeoReview({ post, onApply, onDismiss }: { post: StudioPost; onAp
         <div className="px-5 py-4">
           <label className="flex items-center gap-2">
             <input type="checkbox" checked={!!use.body} onChange={() => toggle("body")} className="h-4 w-4 accent-[#16240f]" />
-            <span className="eyebrow !text-[10px]">Article text — headings, wording, internal links, image texts</span>
+            <span className="eyebrow !text-[10px]">{post.kind === "recipe" ? "Recipe text — ingredients, method, tips, story, internal links" : "Article text — headings, wording, internal links, image texts"}</span>
           </label>
           <div className="mt-3 grid gap-4 md:grid-cols-2">
             <div className="rounded-xl border border-[#efefe8] p-4">
               <span className="mono mb-2 block text-[10px] uppercase text-stone/60">Yours</span>
+              {post.kind === "recipe" ? <RecipePreview c={en} /> : null}
               <BlocksPreview blocks={en.blocks} />
             </div>
             <div className="rounded-xl border border-lime/60 bg-[#fbfdf7] p-4">
               <span className="mono mb-2 block text-[10px] uppercase text-stone/60">Suggestion — you can edit it in the editor after applying</span>
+              {post.kind === "recipe" ? <RecipePreview c={sug.copy} /> : null}
               <BlocksPreview blocks={sug.copy.blocks} />
             </div>
           </div>
@@ -184,7 +211,15 @@ export function applySuggestion(post: StudioPost, a: Accepted): { en: LocaleCopy
   const sug = post.suggestion!.copy;
   const en = { ...post.locales.en };
   for (const k of ["title", "metaTitle", "metaDescription", "summary", "lede", "headerAlt"] as const) if (a[k] !== undefined) en[k] = a[k]!;
-  if (a.body) en.blocks = sug.blocks;
+  if (a.body) {
+    en.blocks = sug.blocks;
+    if (post.kind === "recipe" && (sug.steps?.length || sug.ingredients?.length)) {
+      en.ingredients = sug.ingredients ?? en.ingredients;
+      en.steps = sug.steps ?? en.steps;
+      en.tips = sug.tips ?? en.tips;
+      if (sug.yield !== undefined) en.yield = sug.yield;
+    }
+  }
   if (a.faqs) en.faqs = a.faqs;
   return { en, slug: a.slug ?? post.slug, galleryTexts: !!a.body };
 }

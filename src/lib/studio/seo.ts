@@ -8,6 +8,7 @@ import { z } from "zod";
 import { LOCALE_NAMES, SITES, productsFor, slugify } from "./config";
 import type { Block, ImageRef, Keyword, LocaleCopy, SeoData, StudioPost } from "./types";
 import { devMocks } from "./env";
+import { isRecipe } from "./recipe";
 import { stripInline } from "./inline";
 
 export const MODEL = "claude-sonnet-5-5";
@@ -163,10 +164,26 @@ const CopyOut = z.object({
   videoTitle: z.string(),
   internalLinks: z.array(z.object({ path: z.string(), anchor: z.string() })).describe("the internal links you placed in the text"),
   notes: z.array(z.string()).describe("short notes for the writer: what changed and anything they should check; empty if nothing"),
+  // recipes only — for blog posts return "" and empty arrays
+  yield: z.string().describe("recipes: yield text such as \"2 lattes\"; empty when the draft has none or for blog posts"),
+  ingredients: z
+    .array(z.object({ heading: z.string().describe("group heading, empty for none"), items: z.array(z.string()) }))
+    .describe("recipes: ingredient groups in the draft's order; empty array for blog posts"),
+  steps: z.array(z.string()).describe("recipes: method steps in order; empty array for blog posts"),
+  tips: z.array(z.string()).describe("recipes: tips; empty array when none or for blog posts"),
 });
 type CopyOutT = z.infer<typeof CopyOut>;
 
-function systemPrompt(site: StudioPost["site"]) {
+const RECIPE_RULES = `
+This piece is a RECIPE, not an article. Extra rules:
+- Ingredients: keep every ingredient with its exact quantity and unit, in the same order and groups. Never add, drop or change an ingredient or amount. You may only tidy wording and add one link per selected product on the ingredient that uses it, e.g. "3 g [ube powder](/products/ube)".
+- Steps: keep the same steps in the same order with the same temperatures, times and amounts; improve clarity only. One action per step where the draft allows.
+- Tips: keep them; improve wording only. Yield: keep as in the draft (translate the words only).
+- No nutrition, calorie or health statements, no "healthy", "guilt-free", "energy boost" or similar.
+- The lede says in 2–3 sentences what the recipe is, who it is for (café, bakery, brand) and the key ingredient. FAQs (2–4) answer practical questions (substitutions, storage, scaling up, serving) from the draft's facts only.
+- blocks (optional story/background) stay as the writer wrote them; return them unchanged if there are none to improve.`;
+
+function systemPrompt(site: StudioPost["site"], recipe = false) {
   const s = SITES[site];
   return `You are the SEO editor for ${s.name} (${s.host}), a B2B ingredient supplier. Writers on the team draft blog posts; you optimise them for Google and for AI answer engines while keeping them recognisably the writer's own article.
 
@@ -187,7 +204,7 @@ Rules — never break these:
 - metaTitle ≤ 60 characters, primary keyword first. metaDescription ≤ 155 characters, answers the query and invites the click.
 - FAQs: 3–5 real questions buyers search for, answered briefly from the article's facts only.
 
-Return only the JSON object described by the schema.`;
+Return only the JSON object described by the schema.${recipe ? RECIPE_RULES : ""}`;
 }
 
 function draftPayload(p: StudioPost, c: LocaleCopy) {
@@ -212,6 +229,14 @@ function draftPayload(p: StudioPost, c: LocaleCopy) {
       headerAlt: c.headerAlt || p.header?.alt || "",
       gallery: p.gallery.map((g, i) => ({ alt: c.gallery?.[i]?.alt ?? g.alt ?? "", caption: c.gallery?.[i]?.caption ?? g.caption ?? "" })),
       videoTitle: c.videoTitle ?? "",
+      ...(isRecipe(p)
+        ? {
+            yield: c.yield ?? "",
+            ingredients: (c.ingredients ?? []).map((g) => ({ heading: g.heading ?? "", items: g.items })),
+            steps: c.steps ?? [],
+            tips: c.tips ?? [],
+          }
+        : {}),
     },
   };
 }
@@ -244,6 +269,14 @@ function toCopy(out: CopyOutT, images: ImageRef[]): LocaleCopy {
     headerAlt: out.headerAlt,
     gallery: out.gallery.map((g) => ({ alt: g.alt, ...(g.caption ? { caption: g.caption } : {}) })),
     videoTitle: out.videoTitle || undefined,
+    ...(out.steps?.length || out.ingredients?.length
+      ? {
+          yield: out.yield || undefined,
+          ingredients: out.ingredients.map((g) => ({ ...(g.heading.trim() ? { heading: g.heading.trim() } : {}), items: g.items.filter((x) => x.trim()) })).filter((g) => g.items.length),
+          steps: out.steps.filter((x) => x.trim()),
+          tips: out.tips.filter((x) => x.trim()),
+        }
+      : {}),
   };
 }
 
@@ -284,7 +317,8 @@ export async function optimise(p: StudioPost): Promise<Suggestion> {
     return { ...mockOptimise(p, payload, images, seo, links), seo: { ...seo, mocked: true, notes: [...(seo.notes ?? []), "Mocked AI suggestion (local test mode)."] } };
   }
 
-  const user = `Site: ${s.name} — blog path ${s.blogPath}/<slug>
+  const recipe = isRecipe(p);
+  const user = `Site: ${s.name} — ${recipe ? `recipe path ${s.recipePath}` : `blog path ${s.blogPath}`}/<slug>
 Primary keyword: ${seo.primary ? `${seo.primary.keyword}${seo.primary.volume != null ? ` (${seo.primary.volume}/month)` : ""}` : "(none — pick the most natural search phrase from the draft)"}
 Secondary keywords: ${seo.secondary.map((k) => `${k.keyword}${k.volume != null ? ` (${k.volume})` : ""}`).join("; ") || "(none)"}
 Selected products/pages to link: ${JSON.stringify(links)}
@@ -294,7 +328,7 @@ Use the primary keyword in the slug, title, metaTitle, lede and one H2, and the 
 
 Draft (JSON):
 ${JSON.stringify(payload, null, 1)}`;
-  const out = await callClaude(systemPrompt(p.site), user);
+  const out = await callClaude(systemPrompt(p.site, recipe), user);
   return {
     slug: slugify(out.slug || out.title),
     copy: toCopy(out, images),
@@ -322,7 +356,8 @@ export async function translate(p: StudioPost, locale: string): Promise<LocaleCo
     return mockTranslate(payload, images, locale);
   }
   const keywords = p.seo?.primary ? [p.seo.primary, ...p.seo.secondary].map((k) => k.keyword) : [];
-  const user = `Translate this ${s.name} blog post from English into ${LOCALE_NAMES[locale]} (${locale}).
+  const recipe = isRecipe(p);
+  const user = `Translate this ${s.name} ${recipe ? "recipe" : "blog post"} from English into ${LOCALE_NAMES[locale]} (${locale}).
 
 Language rules: ${LOCALE_RULES[locale] ?? ""}
 - Translate naturally for B2B buyers in that market, as a native SEO copywriter would: use the search terms buyers in that language actually use for the English keywords (${keywords.join("; ") || "see the text"}), in the title, metaTitle, lede and one heading.
@@ -331,11 +366,11 @@ Language rules: ${LOCALE_RULES[locale] ?? ""}
 - Keep link paths exactly as they are (English paths) and translate only the anchor text: [translated label](/same/path).
 - Keep **bold** / *italic* markup on the matching words. Keep numbers, units and product names as in the English text.
 - Same rules as the English article: no prices, no health or medical claims, never "we buy", no farm names, no new facts.
-- slug: return the English slug unchanged ("${p.slug}"). internalLinks: the links in your translation. notes: anything the writer should check.
+${recipe ? "- Recipe: translate every ingredient, step, tip and the yield; keep every quantity and unit exactly (convert nothing), keep groups and order.\n" : ""}- slug: return the English slug unchanged ("${p.slug}"). internalLinks: the links in your translation. notes: anything the writer should check.
 
-English post (JSON):
+English ${recipe ? "recipe" : "post"} (JSON):
 ${JSON.stringify(payload, null, 1)}`;
-  const out = await callClaude(systemPrompt(p.site), user);
+  const out = await callClaude(systemPrompt(p.site, recipe), user);
   return toCopy(out, images);
 }
 
@@ -385,6 +420,10 @@ function mockOptimise(p: StudioPost, payload: ReturnType<typeof draftPayload>["p
     videoTitle: payload.videoTitle,
     internalLinks: productsFor(p.site, p.products).slice(0, 1).map((x) => ({ path: x.path, anchor: x.name })),
     notes: ["Mock suggestion: keyword added to the title and the first heading, one internal link added."],
+    yield: (payload as { yield?: string }).yield ?? "",
+    ingredients: (payload as { ingredients?: { heading: string; items: string[] }[] }).ingredients ?? [],
+    steps: (payload as { steps?: string[] }).steps ?? [],
+    tips: (payload as { tips?: string[] }).tips ?? [],
   };
   return { slug: out.slug, copy: toCopy(out, images), seo };
 }
@@ -408,5 +447,16 @@ function mockTranslate(payload: ReturnType<typeof draftPayload>["payload"], imag
     headerAlt: t(payload.headerAlt),
     gallery: payload.gallery.map((g) => ({ alt: t(g.alt), caption: t(g.caption) })),
     videoTitle: payload.videoTitle ? t(payload.videoTitle) : undefined,
+    ...("steps" in payload
+      ? (() => {
+          const r = payload as unknown as { yield: string; ingredients: { heading: string; items: string[] }[]; steps: string[]; tips: string[] };
+          return {
+            yield: r.yield ? t(r.yield) : undefined,
+            ingredients: r.ingredients.map((g) => ({ ...(g.heading ? { heading: t(g.heading) } : {}), items: g.items.map(t) })),
+            steps: r.steps.map(t),
+            tips: r.tips.map(t),
+          };
+        })()
+      : {}),
   };
 }

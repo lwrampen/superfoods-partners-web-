@@ -1,7 +1,7 @@
 // Blog Studio — the two target sites. Everything that differs per site lives here: repo, languages, URL shape,
 // product/page checklist, search markets and the content guardrails the SEO step must respect.
 import { PRODUCTS } from "@/data/catalog";
-import type { SiteId } from "./types";
+import type { PostKind, SiteId } from "./types";
 
 export type StudioProduct = { id: string; name: string; path: string; kind: "product" | "group" | "page"; seed: string };
 
@@ -20,6 +20,8 @@ export type SiteConfig = {
   gscSite: string; // Search Console property
   indexNowKey: string; // public key file at /<key>.txt (not a secret)
   categories: string[];
+  recipeDir: string; // repo path for recipe JSON
+  recipePath: string; // "/recipe" (PMP, as on Webflow) or "/recipes" (SFP)
   guardrail: string; // what this brand must not compete on
   forbiddenKeyword: RegExp; // keyword ideas that belong to the sister brand
 };
@@ -69,6 +71,8 @@ export const SITES: Record<SiteId, SiteConfig> = {
     gscSite: "sc-domain:purematchapartners.com",
     indexNowKey: "7be0a2339efada56c4b1f588273648b4",
     categories: ["Insights", "Education", "Business", "Recipes"],
+    recipeDir: "content/recipes",
+    recipePath: "/recipe",
     guardrail:
       "Pure Matcha Partners covers matcha, hojicha and mulberry/tea powders. Ube and the other superfood powders belong to Superfoods Partners (superfoodspartners.com): never target or promote them here.",
     forbiddenKeyword: /\b(ube|superfood|lion'?s mane|hibiscus|butterfly pea|purple yam|taro)\b/i,
@@ -90,6 +94,8 @@ export const SITES: Record<SiteId, SiteConfig> = {
     gscSite: "sc-domain:superfoodspartners.com",
     indexNowKey: "13f6fbf51950dde4000e2d43d7ba6854",
     categories: ["Buyer's guide", "Ingredient guide", "Market report", "Company"],
+    recipeDir: "content/recipes",
+    recipePath: "/recipes",
     guardrail:
       "Superfoods Partners covers ube and the other superfood powders. Matcha and hojicha belong to Pure Matcha Partners (purematchapartners.com): never target matcha or hojicha terms here.",
     forbiddenKeyword: /\b(matcha|hojicha|houjicha)\b/i,
@@ -99,10 +105,14 @@ export const SITES: Record<SiteId, SiteConfig> = {
 export const SITE_IDS: SiteId[] = ["pmp", "sfp"];
 export const AUTHORS = ["Leonard", "Judith", "Emily"];
 
-export function postUrl(site: SiteId, slug: string, locale = "en") {
+export function postUrl(site: SiteId, slug: string, locale = "en", kind: PostKind = "post") {
   const s = SITES[site];
-  return `${s.host}${locale === "en" ? "" : `/${locale}`}${s.blogPath}/${slug}`;
+  return `${s.host}${locale === "en" ? "" : `/${locale}`}${kind === "recipe" ? s.recipePath : s.blogPath}/${slug}`;
 }
+
+// Recipes: the same categories on both sites (the site pages translate them)
+export const RECIPE_CATEGORIES = ["Drinks", "Bakery", "Desserts", "Frozen", "Snacks"];
+export const categoriesFor = (site: SiteId, kind: PostKind = "post") => (kind === "recipe" ? RECIPE_CATEGORIES : SITES[site].categories);
 
 export const LOCALE_NAMES: Record<string, string> = {
   en: "English",

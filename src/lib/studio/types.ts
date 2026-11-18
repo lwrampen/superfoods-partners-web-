@@ -25,6 +25,11 @@ export type Block =
 
 export type Faq = { q: string; a: string };
 
+export type PostKind = "post" | "recipe";
+export type IngredientGroup = { heading?: string; items: string[] };
+export type Difficulty = "easy" | "medium" | "advanced";
+export type RecipeMeta = { servings?: number; prepMins?: number; cookMins?: number; difficulty?: Difficulty };
+
 // One locale's copy of a post.
 export type LocaleCopy = {
   title: string;
@@ -37,6 +42,11 @@ export type LocaleCopy = {
   headerAlt?: string;
   gallery?: { alt: string; caption?: string }[]; // per extra photo, same order as post.gallery
   videoTitle?: string;
+  // recipes only (kind "recipe"); text fields carry the same inline markup
+  yield?: string; // e.g. "2 lattes"; empty = "Serves {servings}"
+  ingredients?: IngredientGroup[];
+  steps?: string[];
+  tips?: string[];
   sourceHash?: string; // translations: hash of the English copy they were made from (shows "English changed")
 };
 
@@ -72,6 +82,10 @@ export type PublishState = {
 
 export type StudioPost = {
   id: string;
+  kind?: PostKind; // absent = "post"
+  recipe?: RecipeMeta | null; // recipes: servings, times, difficulty (same in every language)
+  imported?: boolean; // taken over from a file already in the repo ("Edit in Studio"); may overwrite that file
+  importedExtra?: Record<string, unknown>; // top-level fields of that file the Studio does not edit (written back unchanged)
   site: SiteId;
   slug: string;
   status: PostStatus;
@@ -98,6 +112,7 @@ export type StudioPost = {
 export type OverviewRow = {
   key: string;
   site: SiteId;
+  kind?: PostKind;
   slug: string;
   title: string;
   author: string;

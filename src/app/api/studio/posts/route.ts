@@ -1,7 +1,7 @@
 import { requireUser } from "@/lib/studio/auth";
 import { listPosts, newId, savePost, StorageNotConfigured } from "@/lib/studio/store";
-import { AUTHORS, SITES } from "@/lib/studio/config";
-import type { SiteId, StudioPost } from "@/lib/studio/types";
+import { AUTHORS, RECIPE_CATEGORIES, SITES } from "@/lib/studio/config";
+import type { PostKind, SiteId, StudioPost } from "@/lib/studio/types";
 
 export const dynamic = "force-dynamic";
 
@@ -20,23 +20,25 @@ export async function GET() {
 export async function POST(req: Request) {
   const a = await requireUser();
   if ("response" in a) return a.response;
-  const { site } = (await req.json().catch(() => ({}))) as { site?: SiteId };
+  const { site, kind: k } = (await req.json().catch(() => ({}))) as { site?: SiteId; kind?: PostKind };
+  const kind: PostKind = k === "recipe" ? "recipe" : "post";
   if (site !== "pmp" && site !== "sfp") return Response.json({ error: "Choose a website." }, { status: 400 });
   const now = new Date().toISOString();
   const post: StudioPost = {
     id: newId(),
+    ...(kind === "recipe" ? { kind, recipe: { servings: 1, prepMins: 5 } } : {}),
     site,
     slug: "",
     status: "draft",
     author: AUTHORS.includes(a.user) ? a.user : a.user,
     createdAt: now,
     updatedAt: now,
-    category: SITES[site].categories[0],
+    category: kind === "recipe" ? RECIPE_CATEGORIES[0] : SITES[site].categories[0],
     header: null,
     gallery: [],
     video: null,
     products: [],
-    locales: { en: { title: "", metaTitle: "", metaDescription: "", summary: "", lede: "", blocks: [], faqs: [] } },
+    locales: { en: { title: "", metaTitle: "", metaDescription: "", summary: "", lede: "", blocks: [], faqs: [], ...(kind === "recipe" ? { ingredients: [], steps: [], tips: [] } : {}) } },
     seo: null,
     publish: null,
   };

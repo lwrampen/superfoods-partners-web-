@@ -3,14 +3,15 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Editor as TEditor } from "@tiptap/react";
-import { AUTHORS, LOCALE_NAMES, SITES, embedUrl, postUrl, slugify, videoFromUrl } from "@/lib/studio/config";
-import type { LocaleCopy, SiteId, StudioPost } from "@/lib/studio/types";
+import { AUTHORS, LOCALE_NAMES, SITES, categoriesFor, embedUrl, postUrl, slugify, videoFromUrl } from "@/lib/studio/config";
+import type { Difficulty, LocaleCopy, RecipeMeta, SiteId, StudioPost } from "@/lib/studio/types";
 import { blocksToTiptap, copyHash, tiptapToBlocks, type TNode } from "@/lib/studio/blocks";
 import { validateForPublish } from "@/lib/studio/validate";
 import { api } from "./api";
 import { RichText } from "./RichText";
 import { SeoReview, applySuggestion, type Accepted } from "./SeoReview";
 import { LocaleEditor } from "./LocaleEditor";
+import { RecipeFields } from "./RecipeFields";
 import { uploadImage } from "./images";
 import { Counter, Label, Notice, StatusChip, amsterdamToUtc, fmtDateTime, utcToAmsterdam } from "./ui";
 
@@ -40,6 +41,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
   const [tr, setTr] = useState<Record<string, TState>>({});
   const [tab, setTab] = useState<string>(SITES[initial.site].locales[1]);
   const [uploading, setUploading] = useState<string | null>(null);
+  const [rev, setRev] = useState(0); // bumps when copy is replaced from outside (translation, SEO) so text areas reload
   const [schedOpen, setSchedOpen] = useState(false);
   const [sched, setSched] = useState(() => (initial.scheduledAt ? utcToAmsterdam(initial.scheduledAt) : utcToAmsterdam(new Date(Date.now() + 86400_000).toISOString().slice(0, 11) + "07:00:00Z")));
   const editorRef = useRef<TEditor | null>(null);
@@ -52,6 +54,11 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
   }, [post]);
 
   const site = SITES[post.site];
+  const recipe = post.kind === "recipe";
+  const noun = recipe ? "recipe" : "post";
+  // images already on the site (taken-over recipes) have a site path; show them from that site
+  const shown = (src: string) => (src.startsWith("/") && !src.startsWith("/api/studio/") ? `${site.host}${src}` : src);
+  const num = (v: string) => (v.trim() === "" ? undefined : Math.max(0, Math.round(Number(v))) || undefined);
   const en = post.locales.en ?? emptyCopy();
   const locked = post.status === "publishing";
   const published = !!post.publishedAt;
@@ -65,6 +72,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
     setDirty(true);
   }, []);
   const setEn = (patch: Partial<LocaleCopy>) => update((p) => ({ ...p, locales: { ...p.locales, en: { ...(p.locales.en ?? emptyCopy()), ...patch } } }));
+  const setRecipe = (patch: Partial<RecipeMeta>) => update((p) => ({ ...p, recipe: { ...(p.recipe ?? {}), ...patch } }));
   const fromServer = (p: StudioPost, keepLocalEdits = false) => {
     setPost((cur) => (keepLocalEdits ? { ...cur, status: p.status, scheduledAt: p.scheduledAt, publish: p.publish, error: p.error, liveUrl: p.liveUrl, publishedAt: p.publishedAt, slug: p.slug } : p));
   };
@@ -76,7 +84,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
     try {
       const { post: saved } = await api<{ post: StudioPost }>(`/api/studio/posts/${p.id}`, {
         method: "PUT",
-        body: { slug: p.slug, author: p.author, category: p.category, header: p.header, gallery: p.gallery, video: p.video, products: p.products, editorDoc: p.editorDoc, locales: p.locales, seo: p.seo, suggestion: p.suggestion, site: p.site },
+        body: { slug: p.slug, author: p.author, category: p.category, header: p.header, gallery: p.gallery, video: p.video, products: p.products, editorDoc: p.editorDoc, locales: p.locales, seo: p.seo, suggestion: p.suggestion, site: p.site, ...(p.kind === "recipe" ? { recipe: p.recipe ?? null } : {}) },
       });
       // keep what was typed meanwhile; take over server-side fields
       setPost((cur) => ({ ...cur, slug: saved.slug, status: saved.status, updatedAt: saved.updatedAt, video: saved.video }));
@@ -159,6 +167,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
         try {
           const r = await api<{ copy: LocaleCopy }>("/api/studio/translate", { body: { id: post.id, locale: l } });
           setPost((p) => ({ ...p, locales: { ...p.locales, [l]: r.copy } }));
+          setRev((x) => x + 1);
           setDirty(true);
           setTr((t) => ({ ...t, [l]: "done" }));
           ok++;
@@ -202,6 +211,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
       locales: { ...p.locales, en: next },
       suggestion: null,
     }));
+    setRev((x) => x + 1);
     setMsg({ kind: "ok", text: `Applied. Translating into ${otherLocales.map((l) => LOCALE_NAMES[l]).join(", ")}…` });
     setTimeout(() => translateAll(), 50);
   };
@@ -221,7 +231,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
   };
   const publishNow = async () => {
     setMsg(null);
-    if (!window.confirm(`Publish “${en.title}” on ${site.name} now?\n\nBlog Studio opens a PR, waits for a green preview, merges and waits for the live site.`)) return;
+    if (!window.confirm(`Publish the ${noun} “${en.title}” on ${site.name} now?\n\nBlog Studio opens a PR, waits for a green preview, merges and waits for the live site.`)) return;
     if (!(await save())) return;
     try {
       const { post: p } = await api<{ post: StudioPost }>(`/api/studio/posts/${post.id}/publish`, { body: {} });
@@ -238,8 +248,8 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
 
   const changeSite = (s: SiteId) => {
     if (s === post.site || published) return;
-    if (!window.confirm(`Move this post to ${SITES[s].name}? Linked products and translations for the other site are cleared.`)) return;
-    update((p) => ({ ...p, site: s, products: [], category: SITES[s].categories[0], locales: { en: p.locales.en }, seo: null, suggestion: null }));
+    if (!window.confirm(`Move this ${noun} to ${SITES[s].name}? Linked products and translations for the other site are cleared.`)) return;
+    update((p) => ({ ...p, site: s, products: [], category: categoriesFor(s, p.kind)[0], locales: { en: p.locales.en }, seo: null, suggestion: null }));
     setTab(SITES[s].locales[1]);
   };
 
@@ -315,7 +325,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
               value={en.title}
               onChange={(e) => setEn({ title: e.target.value.replace(/\n/g, " ") })}
               onBlur={() => !post.slug && en.title && !published && update((p) => ({ ...p, slug: slugify(p.locales.en.title) }))}
-              placeholder="Title of the post"
+              placeholder={recipe ? "Name of the recipe" : "Title of the post"}
               rows={2}
               disabled={locked}
               className="display w-full resize-none bg-transparent text-[34px] leading-[1.02] text-forest outline-none placeholder:text-stone/40 sm:text-[46px]"
@@ -323,8 +333,16 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
           </label>
           <label className="mt-3 block">
             <Label hint="Answer the reader's question directly — Google and AI answers quote this">Opening paragraph</Label>
-            <textarea value={en.lede} onChange={(e) => setEn({ lede: e.target.value })} rows={4} disabled={locked} className="field mt-1.5 text-[16px]" placeholder="In two to four sentences: the answer, then what the article covers." />
+            <textarea value={en.lede} onChange={(e) => setEn({ lede: e.target.value })} rows={4} disabled={locked} className="field mt-1.5 text-[16px]" placeholder={recipe ? "In two or three sentences: what it is, who it is for, the key ingredient." : "In two to four sentences: the answer, then what the article covers."} />
           </label>
+
+          {recipe ? (
+            <section className="card mt-5 p-4 sm:p-5" aria-label="Recipe">
+              <h2 className="eyebrow mb-3 !text-forest">Recipe</h2>
+              <RecipeFields key={`en:${rev}`} copy={en} onChange={setEn} disabled={locked} source />
+            </section>
+          ) : null}
+          {recipe ? <p className="mt-6 text-xs text-stone">Story — optional: background, serving ideas or where the recipe comes from. Shown under the method.</p> : null}
 
           <div className="mt-5">
             <RichText initial={initialDoc} onChange={onDoc} onEditor={onEditor} onInsertImage={() => inlineInput.current?.click()} linkTargets={linkTargets} />
@@ -404,7 +422,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
                         {tr[tab] === "busy" ? "Translating…" : `Re-translate ${LOCALE_NAMES[tab]}`}
                       </button>
                     </div>
-                    <LocaleEditor post={post} locale={tab} copy={c} onChange={(copy) => update((p) => ({ ...p, locales: { ...p.locales, [tab]: copy } }))} />
+                    <LocaleEditor key={`${tab}:${rev}`} post={post} locale={tab} copy={c} onChange={(copy) => update((p) => ({ ...p, locales: { ...p.locales, [tab]: copy } }))} />
                   </>
                 );
               })()}
@@ -477,7 +495,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
           <Card title="Header image" hint="max 15 MB · resized to 2400 px">
             {post.header ? (
               <div>
-                <img src={post.header.src} alt="" className="aspect-[16/9] w-full rounded-xl object-cover" />
+                <img src={shown(post.header.src)} alt="" className="aspect-[16/9] w-full rounded-xl object-cover" />
                 <input
                   value={en.headerAlt ?? post.header.alt ?? ""}
                   onChange={(e) => update((p) => ({ ...p, header: p.header ? { ...p.header, alt: e.target.value } : null, locales: { ...p.locales, en: { ...p.locales.en, headerAlt: e.target.value } } }))}
@@ -596,16 +614,41 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
                 <label className="block">
                   <Label>Category</Label>
                   <select value={post.category} onChange={(e) => update((p) => ({ ...p, category: e.target.value }))} className="field mt-1.5 text-sm" disabled={locked}>
-                    {[...new Set([...site.categories, post.category])].map((c) => (
+                    {[...new Set([...categoriesFor(post.site, post.kind), post.category])].map((c) => (
                       <option key={c}>{c}</option>
                     ))}
                   </select>
                 </label>
               </div>
+              {recipe ? (
+                <div className="grid grid-cols-2 gap-2">
+                  <label className="block">
+                    <Label>Servings</Label>
+                    <input type="number" min={1} inputMode="numeric" value={post.recipe?.servings ?? ""} onChange={(e) => setRecipe({ servings: num(e.target.value) })} className="field mt-1.5 text-sm" disabled={locked} />
+                  </label>
+                  <label className="block">
+                    <Label>Difficulty</Label>
+                    <select value={post.recipe?.difficulty ?? ""} onChange={(e) => setRecipe({ difficulty: (e.target.value || undefined) as Difficulty | undefined })} className="field mt-1.5 text-sm" disabled={locked}>
+                      <option value="">—</option>
+                      <option value="easy">Easy</option>
+                      <option value="medium">Medium</option>
+                      <option value="advanced">Advanced</option>
+                    </select>
+                  </label>
+                  <label className="block">
+                    <Label>Prep (min)</Label>
+                    <input type="number" min={0} inputMode="numeric" value={post.recipe?.prepMins ?? ""} onChange={(e) => setRecipe({ prepMins: num(e.target.value) })} className="field mt-1.5 text-sm" disabled={locked} />
+                  </label>
+                  <label className="block">
+                    <Label>Cook / bake (min)</Label>
+                    <input type="number" min={0} inputMode="numeric" value={post.recipe?.cookMins ?? ""} onChange={(e) => setRecipe({ cookMins: num(e.target.value) })} className="field mt-1.5 text-sm" disabled={locked} />
+                  </label>
+                </div>
+              ) : null}
               <label className="block">
                 <Label hint={published ? "fixed after publishing" : undefined}>URL slug</Label>
                 <input value={post.slug} onChange={(e) => update((p) => ({ ...p, slug: e.target.value.toLowerCase().replace(/[^a-z0-9-]/g, "-") }))} onBlur={() => update((p) => ({ ...p, slug: slugify(p.slug) }))} className="field mono mt-1.5 text-xs" disabled={locked || published} />
-                <span className="mt-1 block truncate text-[11px] text-stone">{postUrl(post.site, post.slug || "…")}</span>
+                <span className="mt-1 block truncate text-[11px] text-stone">{postUrl(post.site, post.slug || "…", "en", post.kind)}</span>
               </label>
               <label className="block">
                 <Label right={<Counter value={en.metaTitle} max={60} />}>Meta title</Label>
@@ -617,7 +660,7 @@ export function Editor({ initial, integrations }: { initial: StudioPost; integra
               </label>
               <label className="block">
                 <Label>Summary</Label>
-                <textarea value={en.summary} onChange={(e) => setEn({ summary: e.target.value })} rows={2} className="field mt-1.5 text-sm" placeholder="1–2 sentences for the blog overview" disabled={locked} />
+                <textarea value={en.summary} onChange={(e) => setEn({ summary: e.target.value })} rows={2} className="field mt-1.5 text-sm" placeholder={recipe ? "1–2 sentences for the recipe overview" : "1–2 sentences for the blog overview"} disabled={locked} />
               </label>
               {post.status === "draft" || post.status === "needs_attention" ? (
                 <button className="mt-1 justify-self-start text-xs text-stone underline hover:text-[#b24a18]" onClick={remove}>

@@ -7,12 +7,13 @@ import { NewPost } from "../_components/NewPost";
 export const dynamic = "force-dynamic";
 export const metadata = { title: "New post" };
 
-export default async function NewPage() {
+export default async function NewPage({ searchParams }: { searchParams: Promise<{ kind?: string }> }) {
+  const { kind } = await searchParams;
   const user = await currentUser();
   if (!user) redirect("/studio/login");
   return (
     <Shell user={user} active="new">
-      <NewPost storage={integrations().storage} />
+      <NewPost storage={integrations().storage} kind={kind === "recipe" ? "recipe" : "post"} />
     </Shell>
   );
 }

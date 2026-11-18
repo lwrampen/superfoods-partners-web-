@@ -14,7 +14,7 @@ export async function GET(_req: Request, { params }: Ctx) {
 }
 
 // Editable fields only; status changes go through /schedule and /publish.
-const EDITABLE = ["slug", "author", "category", "header", "gallery", "video", "products", "editorDoc", "locales", "seo", "suggestion", "site"] as const;
+const EDITABLE = ["slug", "author", "category", "header", "gallery", "video", "products", "editorDoc", "locales", "seo", "suggestion", "site", "recipe"] as const;
 
 export async function PUT(req: Request, { params }: Ctx) {
   const a = await requireUser();
