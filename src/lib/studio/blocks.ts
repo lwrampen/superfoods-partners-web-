@@ -104,7 +104,9 @@ export function wordCount(blocks: Block[], extra: string[] = []) {
 /** short hash of the English copy, to tell when a translation is out of date */
 export function copyHash(c: LocaleCopy | undefined) {
   if (!c) return "";
-  const s = JSON.stringify([c.title, c.metaTitle, c.metaDescription, c.summary, c.lede, c.blocks, c.faqs, c.headerAlt ?? "", c.gallery ?? []]);
+  const base = [c.title, c.metaTitle, c.metaDescription, c.summary, c.lede, c.blocks, c.faqs, c.headerAlt ?? "", c.gallery ?? []];
+  // recipe fields only when present, so the hashes of blog posts stay as they were
+  const s = JSON.stringify(c.steps || c.ingredients ? [...base, c.yield ?? "", c.ingredients ?? [], c.steps ?? [], c.tips ?? []] : base);
   let h = 5381;
   for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
   return (h >>> 0).toString(36);

@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Block, LocaleCopy, StudioPost } from "@/lib/studio/types";
 import { Counter, Label } from "./ui";
+import { RecipeFields } from "./RecipeFields";
 
 // Edit one translation: every text field and every block, in the same structure as the English post.
 export function LocaleEditor({ post, locale, copy, onChange }: { post: StudioPost; locale: string; copy: LocaleCopy; onChange: (c: LocaleCopy) => void }) {
@@ -37,8 +38,14 @@ export function LocaleEditor({ post, locale, copy, onChange }: { post: StudioPos
         </label>
       </div>
 
+      {post.kind === "recipe" ? (
+        <div className="rounded-xl border border-[#e3e3da] bg-[#fafaf7] p-4">
+          <RecipeFields key={`${locale}:${copy.sourceHash ?? ""}`} copy={copy} onChange={(patch) => onChange({ ...copy, ...patch })} />
+        </div>
+      ) : null}
+
       <div>
-        <Label hint="Same blocks as the English article. Keep [link text](/path) and **bold** markers.">Article</Label>
+        <Label hint={post.kind === "recipe" ? "Optional story under the method. Keep [link text](/path) and **bold** markers." : "Same blocks as the English article. Keep [link text](/path) and **bold** markers."}>{post.kind === "recipe" ? "Story" : "Article"}</Label>
         <div className="mt-2 space-y-2">
           {copy.blocks.map((b, i) => (
             <div key={i} className="grid gap-2 sm:grid-cols-[64px_minmax(0,1fr)]">

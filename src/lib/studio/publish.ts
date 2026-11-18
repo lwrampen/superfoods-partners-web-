@@ -28,6 +28,21 @@ async function fail(id: string, reason: string) {
 
 async function slugTaken(p: StudioPost): Promise<string | null> {
   const s = SITES[p.site];
+  if (p.kind === "recipe") {
+    const own = await readText(p.site, `${s.recipeDir}/${p.slug}.json`);
+    if (own) {
+      let id: string | undefined;
+      try {
+        id = (JSON.parse(own) as { studio?: { id?: string } }).studio?.id;
+      } catch {
+        return "A recipe file with this slug already exists on the site.";
+      }
+      // a file taken over with "Edit in Studio" has no Studio id yet (or this post's id)
+      if (id ? id !== p.id : !p.imported) return "A different recipe with this slug already exists on the site.";
+    }
+    if (p.site === "pmp" && !own && (await fileExists("pmp", `content/snapshot/en/recipe__${p.slug}.json`))) return "An existing recipe already uses this slug.";
+    return null;
+  }
   const own = await readText(p.site, `${s.postDir}/${p.slug}.json`);
   if (own) {
     try {
@@ -67,7 +82,7 @@ export async function startPublish(id: string, user?: string): Promise<StudioPos
     let branch = `studio/${post.slug}`;
     if (await branchExists(post.site, branch)) branch = `studio/${post.slug}-${Date.now().toString(36)}`;
     const title = post.locales.en.title;
-    const sha = await commitToNewBranch(post.site, branch, `Blog Studio: ${title}\n\nPost ${post.slug} by ${post.author}, published from Blog Studio.`, files);
+    const sha = await commitToNewBranch(post.site, branch, `Blog Studio: ${title}\n\n${post.kind === "recipe" ? "Recipe" : "Post"} ${post.slug} by ${post.author}, published from Blog Studio.`, files);
     const pr = await gh<{ number: number; html_url: string }>(post.site, "/pulls", {
       method: "POST",
       body: {
@@ -77,7 +92,7 @@ export async function startPublish(id: string, user?: string): Promise<StudioPos
         body: [
           `New post from Blog Studio by **${post.author}**.`,
           "",
-          `- URL after merge: ${postUrl(post.site, post.slug)}`,
+          `- URL after merge: ${postUrl(post.site, post.slug, "en", post.kind)}`,
           `- Languages: ${s.locales.join(", ")}`,
           `- Files: ${files.map((f) => `\`${f.path}\``).join(", ")}`,
           post.seo?.primary ? `- Primary keyword: ${post.seo.primary.keyword}${post.seo.primary.volume != null ? ` (${post.seo.primary.volume}/mo)` : ""}` : "",
@@ -109,7 +124,7 @@ export async function startPublish(id: string, user?: string): Promise<StudioPos
 async function indexNow(p: StudioPost) {
   const s = SITES[p.site];
   const host = new URL(s.host).host;
-  const urlList = s.locales.map((l) => postUrl(p.site, p.slug, l));
+  const urlList = s.locales.map((l) => postUrl(p.site, p.slug, l, p.kind));
   const res = await fetch("https://api.indexnow.org/indexnow", {
     method: "POST",
     headers: { "Content-Type": "application/json; charset=utf-8" },
@@ -168,7 +183,7 @@ export async function advance(id: string): Promise<StudioPost | null> {
       return unlock({ phase: "verify", phaseStartedAt: now() }, "Production deploy green");
     }
     if (st.phase === "verify") {
-      const url = postUrl(post.site, post.slug);
+      const url = postUrl(post.site, post.slug, "en", post.kind);
       const res = await fetch(url, { method: "GET", cache: "no-store", redirect: "manual" }).catch(() => null);
       if (!res || res.status !== 200) {
         if (since > VERIFY_TIMEOUT) return fail(id, `${url} does not answer 200 (got ${res?.status ?? "no response"}).`);

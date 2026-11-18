@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { SITES } from "@/lib/studio/config";
-import type { SiteId } from "@/lib/studio/types";
+import type { PostKind, SiteId } from "@/lib/studio/types";
 import { api } from "./api";
 
 const LOOK: Record<SiteId, { bg: string; ink: string; note: string }> = {
@@ -10,7 +10,8 @@ const LOOK: Record<SiteId, { bg: string; ink: string; note: string }> = {
   sfp: { bg: "#16240f", ink: "#f6f6f3", note: "Ube & superfood powders · English + 5 languages" },
 };
 
-export function NewPost({ storage }: { storage: boolean }) {
+export function NewPost({ storage, kind: initialKind = "post" }: { storage: boolean; kind?: PostKind }) {
+  const [kind, setKind] = useState<PostKind>(initialKind);
   const router = useRouter();
   const [busy, setBusy] = useState<SiteId | null>(null);
   const [error, setError] = useState<string | null>(storage ? null : "Draft storage is not configured yet (Vercel Blob). Leonard connects a Blob store to the project.");
@@ -18,7 +19,7 @@ export function NewPost({ storage }: { storage: boolean }) {
     setBusy(site);
     setError(null);
     try {
-      const { post } = await api<{ post: { id: string } }>("/api/studio/posts", { body: { site } });
+      const { post } = await api<{ post: { id: string } }>("/api/studio/posts", { body: { site, kind } });
       router.push(`/studio/posts/${post.id}`);
     } catch (e) {
       setError((e as Error).message);
@@ -27,9 +28,20 @@ export function NewPost({ storage }: { storage: boolean }) {
   };
   return (
     <main className="mx-auto max-w-[960px] px-4 py-10 sm:px-6 sm:py-14">
-      <p className="eyebrow">New post · step 1</p>
+      <p className="eyebrow">New {kind === "recipe" ? "recipe" : "post"} · step 1</p>
       <h1 className="display mt-2 text-[40px] leading-none sm:text-[56px]">Which website?</h1>
-      <p className="mt-4 max-w-xl text-stone">Each post is written for exactly one site. The products you can link, the languages and the place it is published follow from this choice.</p>
+      <div className="mt-5 flex w-fit rounded-xl border border-[#dcdcd2] bg-white p-1" role="radiogroup" aria-label="Type">
+        {(["post", "recipe"] as const).map((k) => (
+          <button key={k} role="radio" aria-checked={kind === k} onClick={() => setKind(k)} className={`mono rounded-lg px-4 py-2 text-[11px] uppercase ${kind === k ? "bg-forest text-offwhite" : "text-stone hover:text-forest"}`}>
+            {k === "post" ? "Blog post" : "Recipe"}
+          </button>
+        ))}
+      </div>
+      <p className="mt-4 max-w-xl text-stone">
+        {kind === "recipe"
+          ? "Each recipe is written for exactly one site: Pure Matcha Partners for matcha, hojicha and mulberry; Superfoods Partners for ube and the other superfood powders."
+          : "Each post is written for exactly one site. The products you can link, the languages and the place it is published follow from this choice."}
+      </p>
       {error ? <p className="mt-6 rounded-lg bg-[#fbeee6] px-4 py-3 text-sm text-[#8a3a12]">{error}</p> : null}
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
         {(Object.keys(SITES) as SiteId[]).map((id) => {

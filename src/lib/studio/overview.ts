@@ -7,6 +7,7 @@ import { devMocks } from "./env";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { POSTS as SFP_POSTS, pick } from "@/data/insights";
+import { allRecipes } from "@/data/recipes";
 
 type Visits = NonNullable<OverviewRow["visits"]>;
 const cache = new Map<string, { at: number; value: unknown }>();
@@ -29,6 +30,44 @@ const listDir = async (p: string) =>
   localRepo()
     ? (await fs.readdir(path.join(localRepo()!, p)).catch(() => [] as string[])).map((name) => ({ name, type: "file" }))
     : gh<{ name: string; type: string }[]>("pmp", `/contents/${p}?ref=main`).catch(() => []);
+
+type RecipeFile = { slug: string; date: string; author: string; en?: { title?: string }; keywords?: { primary?: { keyword: string } }; studio?: { id: string } };
+const recipeKey = (site: SiteId, slug: string) => `${site}:recipe:${slug}`;
+
+// PMP recipes written as JSON (content/recipes — the Studio and the migrated Webflow recipes)
+async function pmpRecipes(): Promise<OverviewRow[]> {
+  if (!githubConfigured() && !localRepo()) return [];
+  return cached("pmp-recipes", 10 * 60_000, async () => {
+    const files = (await listDir("content/recipes")).filter((f) => f.type === "file" && f.name.endsWith(".json"));
+    const raws = await Promise.all(files.map((f) => readText("pmp", `content/recipes/${f.name}`).catch(() => null)));
+    const rows: OverviewRow[] = [];
+    for (const raw of raws) {
+      if (!raw) continue;
+      try {
+        const r = JSON.parse(raw) as RecipeFile;
+        rows.push({ key: recipeKey("pmp", r.slug), site: "pmp", kind: "recipe", slug: r.slug, title: r.en?.title?.trim() ?? r.slug, author: r.author, status: "live", source: "repo", date: r.date?.slice(0, 10), url: postUrl("pmp", r.slug, "en", "recipe"), primaryKeyword: r.keywords?.primary?.keyword ?? null, id: r.studio?.id });
+      } catch {}
+    }
+    return rows;
+  });
+}
+
+function sfpRecipes(): OverviewRow[] {
+  return allRecipes().map((r) => ({
+    key: recipeKey("sfp", r.slug),
+    site: "sfp" as SiteId,
+    kind: "recipe" as const,
+    slug: r.slug,
+    title: pick(r.title, "en"),
+    author: r.author,
+    status: "live" as const,
+    source: "repo" as const,
+    date: r.date.slice(0, 10),
+    url: postUrl("sfp", r.slug, "en", "recipe"),
+    primaryKeyword: r.keywords?.primary?.keyword ?? null,
+    id: r.studio?.id,
+  }));
+}
 
 async function pmpExisting(): Promise<OverviewRow[]> {
   if (!githubConfigured() && !localRepo()) return [];
@@ -142,11 +181,16 @@ export async function overview(studio: StudioPost[]) {
     return [] as OverviewRow[];
   });
   if (!githubConfigured() && !localRepo()) warnings.push("GitHub is not connected yet (STUDIO_GITHUB_TOKEN): existing PMP posts are not listed.");
-  const repoRows = [...pmp, ...sfpExisting()];
+  const pmpR = await pmpRecipes().catch((e) => {
+    warnings.push(`Could not read the PMP recipes: ${(e as Error).message}`);
+    return [] as OverviewRow[];
+  });
+  const repoRows = [...pmp, ...pmpR, ...sfpExisting(), ...sfpRecipes()];
 
   const studioRows: OverviewRow[] = studio.map((p) => ({
-    key: `${p.site}:${p.slug || p.id}`,
+    key: p.kind === "recipe" ? recipeKey(p.site, p.slug || p.id) : `${p.site}:${p.slug || p.id}`,
     site: p.site,
+    kind: p.kind ?? "post",
     slug: p.slug,
     title: p.locales.en?.title || "(untitled draft)",
     author: p.author,
@@ -170,6 +214,7 @@ export async function overview(studio: StudioPost[]) {
     try {
       const [a, b] = await Promise.all([gscVisits("pmp"), gscVisits("sfp")]);
       for (const r of rows) {
+        if (r.kind === "recipe") continue; // Search Console numbers are matched on blog paths only
         const m = (r.site === "pmp" ? a : b).get(r.slug);
         r.visits = m ?? (r.status === "live" ? { clicks: 0, impressions: 0, position: null } : null);
       }
