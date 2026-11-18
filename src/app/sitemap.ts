@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { PRODUCTS, ORIGIN_LIST, isIndexableOrigin } from "@/data/catalog";
-import { POSTS } from "@/data/insights";
+import { POSTS, postLocales } from "@/data/insights";
 import { BLENDS } from "@/data/blends";
 import { routing } from "@/i18n/routing";
 import { localizedUrl } from "@/i18n/paths";
@@ -12,9 +12,14 @@ const LAST_UPDATED = new Date("2026-10-21");
 // Every URL is listed once (at the default locale) with hreflang `alternates`
 // pointing at all language versions — the Google-recommended sitemap shape for
 // multilingual sites.
-function entry(path: string, priority: number, lastModified: Date = LAST_UPDATED): MetadataRoute.Sitemap[number] {
+function entry(
+  path: string,
+  priority: number,
+  lastModified: Date = LAST_UPDATED,
+  locales: readonly string[] = routing.locales,
+): MetadataRoute.Sitemap[number] {
   const languages: Record<string, string> = {};
-  for (const l of routing.locales) languages[l] = localizedUrl(l, path);
+  for (const l of locales) languages[l] = localizedUrl(l, path);
   return {
     url: localizedUrl(routing.defaultLocale, path),
     lastModified,
@@ -43,6 +48,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...PRODUCTS.map((p) => entry(`/products/${p.slug}`, 0.7)),
     ...BLENDS.map((b) => entry(`/blending/${b.slug}`, 0.7)),
     ...ORIGIN_LIST.filter((o) => isIndexableOrigin(o.slug)).map((o) => entry(`/origins/${o.slug}`, 0.6)),
-    ...POSTS.map((p) => entry(`/insights/${p.slug}`, 0.6, new Date(p.updated ?? p.date))),
+    ...POSTS.map((p) => entry(`/insights/${p.slug}`, 0.6, new Date(p.updated ?? p.date), postLocales(p))),
   ];
 }

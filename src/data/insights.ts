@@ -49,6 +49,11 @@ export function pick(l: Loc | undefined, locale: string): string {
   return l[locale] ?? l[routing.defaultLocale] ?? Object.values(l)[0] ?? "";
 }
 
+// Locales in which a post has its own (translated) title; the English copy is shown on the others.
+export function postLocales(post: InsightPost): string[] {
+  return routing.locales.filter((l) => l === routing.defaultLocale || Boolean(post.title[l]));
+}
+
 export function getPost(slug: string): InsightPost | undefined {
   return POSTS.find((p) => p.slug === slug);
 }
@@ -759,7 +764,7 @@ export const STATIC_POSTS: InsightPost[] = [
       "¿Qué Es el Ube? Ube en Polvo vs Taro y Camote Morado",
       "Qu'est-ce que l'Ube ? Poudre d'Ube vs Taro & Patate Douce",
       "Czym Jest Ube? Ube w Proszku a Taro i Batat",
-      "Ube 是什麼？是紫薯嗎？紫山藥粉風味與用途",
+      "Ube 是什麼？紫山藥，不是紫薯也不是芋頭｜Ube 粉指南",
     ),
     metaDescription: L(
       "What is ube? A purple yam (Dioscorea alata) with a natural violet colour. What ube powder is and how manufacturers use it in drinks, bakery and ice cream.",
@@ -767,7 +772,7 @@ export const STATIC_POSTS: InsightPost[] = [
       "El ube es ñame morado (Dioscorea alata) — no es taro ni camote morado. Qué es el ube en polvo, su violeta natural, su sabor tipo vainilla y cómo lo usan los fabricantes.",
       "L'ube est une igname pourpre (Dioscorea alata) — ni taro, ni patate douce violette. Ce qu'est la poudre d'ube, son violet naturel, son goût vanillé et comment les fabricants l'utilisent.",
       "Ube to fioletowy pochrzyn (Dioscorea alata) — ani taro, ani fioletowy batat. Czym jest ube w proszku, jego naturalny fiolet, waniliowy smak i jak używają go producenci.",
-      "Ube 是菲律賓紫山藥（Dioscorea alata），不是紫薯，也不是芋頭。了解 ube 粉的天然紫色、香草般風味，以及飲品、烘焙與冰淇淋的用法。",
+      "Ube 是什麼？Ube 是菲律賓的紫山藥（Dioscorea alata），不是紫薯，也不是芋頭。一次看懂 ube 粉的天然紫色、香草般風味，以及飲品、烘焙與冰淇淋的用法與採購重點。",
     ),
     dek: L(
       "The vivid purple yam powder behind lattes, bakery and ice cream — what it is, how it tastes, and what to know before you buy at volume.",

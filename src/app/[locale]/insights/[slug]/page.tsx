@@ -3,11 +3,11 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { alternatesFor, localizedUrl, SITE } from "@/i18n/paths";
+import { alternatesForLocales, localizedUrl, SITE } from "@/i18n/paths";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Reveal } from "@/components/Reveal";
-import { POSTS, getPost, pick } from "@/data/insights";
+import { POSTS, getPost, pick, postLocales } from "@/data/insights";
 import { getProduct, LABELS } from "@/data/catalog";
 import { localizeProduct } from "@/data/content.i18n";
 import { Inline, InsightBlocks } from "@/components/InsightBlocks";
@@ -28,7 +28,7 @@ export async function generateMetadata({
   return {
     title: pick(post.metaTitle, locale),
     description: pick(post.metaDescription, locale),
-    alternates: alternatesFor(locale, `/insights/${slug}`),
+    alternates: alternatesForLocales(locale, `/insights/${slug}`, postLocales(post)),
   };
 }
 
