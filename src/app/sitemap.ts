@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { PRODUCTS, ORIGIN_LIST, isIndexableOrigin } from "@/data/catalog";
 import { POSTS } from "@/data/insights";
+import { allRecipes } from "@/data/recipes";
 import { BLENDS } from "@/data/blends";
 import { routing } from "@/i18n/routing";
 import { localizedUrl } from "@/i18n/paths";
@@ -44,5 +45,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...BLENDS.map((b) => entry(`/blending/${b.slug}`, 0.7)),
     ...ORIGIN_LIST.filter((o) => isIndexableOrigin(o.slug)).map((o) => entry(`/origins/${o.slug}`, 0.6)),
     ...POSTS.map((p) => entry(`/insights/${p.slug}`, 0.6, new Date(p.updated ?? p.date))),
+    // the recipe overview only once there is a recipe (until then it is noindex)
+    ...(allRecipes().length ? [entry("/recipes", 0.6)] : []),
+    ...allRecipes().map((r) => entry(`/recipes/${r.slug}`, 0.6, new Date(r.updated ?? r.date))),
   ];
 }

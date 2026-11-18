@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { PRODUCTS, ORIGIN_LIST, LABELS, isIndexableOrigin, type LabelId } from "@/data/catalog";
 import { ENTITIES } from "@/data/entities";
+import { allRecipes } from "@/data/recipes";
 
 // Group origins by country so the footer stays scannable while still exposing
 // a direct crawl link to every indexable origin page (matcha-only origins are
@@ -77,6 +78,7 @@ export function SiteFooter() {
             <span className="mono text-[10px] uppercase tracking-wide text-oat/40">{t("company")}</span>
             <Link href="/blending" className="hover:text-oat">{t("blending")}</Link>
             <Link href="/packaging" className="hover:text-oat">{t("packaging")}</Link>
+            {allRecipes().length ? <Link href="/recipes" className="hover:text-oat">{t("recipes")}</Link> : null}
             <Link href="/verification" className="hover:text-oat">{t("verification")}</Link>
             <Link href="/company" className="hover:text-oat">{t("about")}</Link>
             <Link href="/contact" className="hover:text-oat">{t("contact")}</Link>
