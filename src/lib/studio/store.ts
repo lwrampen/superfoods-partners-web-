@@ -6,7 +6,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { randomBytes } from "node:crypto";
-import { get, list, put, del, BlobPreconditionFailedError } from "@vercel/blob";
+import { get, head, list, put, del, BlobNotFoundError, BlobPreconditionFailedError } from "@vercel/blob";
 import type { StudioPost } from "./types";
 import { devMocks } from "./env";
 
@@ -32,12 +32,26 @@ async function streamToBuffer(s: ReadableStream<Uint8Array>) {
   return Buffer.from(await new Response(s).arrayBuffer());
 }
 
-async function readRaw(pathname: string): Promise<{ body: Buffer; etag?: string; contentType?: string } | null> {
+// withEtag: also return the stored ETag for a conditional write. It comes from head() (the Blob API), not from the
+// download response: larger JSON files are served compressed and then carry a different (weak) ETag, which never
+// matches on put({ ifMatch }) — every save of a longer post failed as "changed by someone else". head() runs before
+// get(), so a write in between leaves us with the older ETag and the conditional write retries instead of
+// overwriting.
+async function readRaw(pathname: string, withEtag = false): Promise<{ body: Buffer; etag?: string; contentType?: string } | null> {
   ensure();
   if (blobMode()) {
+    let etag: string | undefined;
+    if (withEtag) {
+      try {
+        etag = (await head(pathname)).etag;
+      } catch (e) {
+        if (e instanceof BlobNotFoundError) return null;
+        throw e;
+      }
+    }
     const r = await get(pathname, { access: access(), useCache: false });
     if (!r || r.statusCode !== 200) return null;
-    return { body: await streamToBuffer(r.stream), etag: r.blob.etag, contentType: r.blob.contentType };
+    return { body: await streamToBuffer(r.stream), etag, contentType: r.blob.contentType };
   }
   try {
     return { body: await fs.readFile(path.join(LOCAL, pathname)) };
@@ -90,7 +104,7 @@ export function updatePost(id: string, fn: (p: StudioPost) => StudioPost | Promi
 async function updateOnce(id: string, fn: (p: StudioPost) => StudioPost | Promise<StudioPost>): Promise<StudioPost | null> {
   for (let attempt = 0; attempt < 4; attempt++) {
     if (!safeId(id)) return null;
-    const r = await readRaw(`${POSTS}${id}.json`);
+    const r = await readRaw(`${POSTS}${id}.json`, true);
     if (!r) return null;
     const next = await fn(JSON.parse(r.body.toString("utf8")) as StudioPost);
     next.updatedAt = new Date().toISOString();
