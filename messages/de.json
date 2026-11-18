@@ -44,7 +44,8 @@
     "entities": "Eingetragene Gesellschaften",
     "locations": "Standorte",
     "blending": "Blending",
-    "packaging": "Verpackung"
+    "packaging": "Verpackung",
+    "recipes": "Rezepte"
   },
   "countries": {
     "Japan": "Japan",
@@ -425,7 +426,8 @@
         "title": "Hibiskuspulver Großhandel — Hibiscus sabdariffa",
         "description": "Hibiskuspulver im Großhandel aus Blütenkelchen von Hibiscus sabdariffa, aus Ägypten und Ostchina — tiefes Rubinrot, frische Säure. Jede Charge laborgeprüft (COA + Verification Record). Angebot anfordern."
       }
-    }
+    },
+    "recipesFor": "Rezepte mit {name}"
   },
   "faq": {
     "moqQ": "Liefern Sie {name} in kg oder lb, und in welchen Mengen?",
@@ -1246,6 +1248,44 @@
           "a": "Wir beliefern über 60 Länder, koordiniert über unsere Büros in Amsterdam, Hongkong und Los Angeles, und versorgen Marken, Hersteller und Private Label."
         }
       ]
+    }
+  },
+  "recipes": {
+    "eyebrow": "Rezepte",
+    "heading": "Rezepte mit unseren Zutaten",
+    "intro": "Erprobte Rezepte für Cafés, Bäckereien und Produktentwickler, zubereitet mit den Pulvern, die wir liefern.",
+    "metaTitle": "Rezepte mit Ube und Superfood-Pulvern",
+    "metaDescription": "Rezepte für Cafés, Bäckereien und Lebensmittelmarken mit Ube und anderen Superfood-Pulvern von Superfoods Partners: Zutaten, Zubereitung und Tipps.",
+    "empty": "Die ersten Rezepte sind in Vorbereitung.",
+    "totalTime": "{mins} Min.",
+    "serves": "Für {n} Portionen",
+    "minutes": "{mins} Min.",
+    "prep": "Vorbereitung",
+    "cook": "Garzeit",
+    "total": "Gesamt",
+    "yield": "Ergibt",
+    "difficulty": "Schwierigkeit",
+    "ingredients": "Zutaten",
+    "method": "Zubereitung",
+    "tips": "Tipps",
+    "faqHeading": "Häufige Fragen",
+    "madeWith": "Zubereitet mit",
+    "by": "Von",
+    "back": "← Alle Rezepte",
+    "crumb": "Rezepte",
+    "ctaHeading": "Möchten Sie diese Zutat in Ihren Produkten verwenden?",
+    "ctaButton": "Angebot anfordern",
+    "categories": {
+      "Drinks": "Getränke",
+      "Bakery": "Backwaren",
+      "Desserts": "Desserts",
+      "Frozen": "Eis & Gefrorenes",
+      "Snacks": "Snacks"
+    },
+    "levels": {
+      "easy": "Einfach",
+      "medium": "Mittel",
+      "advanced": "Anspruchsvoll"
     }
   }
 }

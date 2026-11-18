@@ -15,6 +15,7 @@ import { PRODUCTS, ORIGINS, LABELS, getProduct, originNote, originLabel } from "
 import { toCert } from "@/data/trust";
 import { localizeProduct, localizeOrigin, localizedBlurb, formLabel } from "@/data/content.i18n";
 import { POSTS, pick } from "@/data/insights";
+import { recipesFor, recipeCopy } from "@/data/recipes";
 import { blendForProduct } from "@/data/blends";
 
 export function generateStaticParams() {
@@ -70,6 +71,7 @@ export default async function ProductPage({
   // Insight guides about this product — links the PDP into its topic cluster.
   // Not for PMP products: matcha/hojicha guidance lives with Pure Matcha Partners.
   const guides = base.label !== "pmp" ? POSTS.filter((x) => x.relatedProducts?.includes(base.slug)) : [];
+  const recipes = base.label !== "pmp" ? recipesFor(base.slug) : [];
   // Blending service: point the ingredient at the blend built on it (or the hub).
   const blend = blendForProduct(base.slug);
   const tb = await getTranslations("blending");
@@ -364,6 +366,20 @@ export default async function ProductPage({
                 <span className="mono text-[11px] uppercase tracking-wide text-green">{tb("pdpCta")} →</span>
               </Link>
             </div>
+            {recipes.length > 0 && (
+              <div className="md:col-span-2">
+                <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("recipesFor", { name: p.name.toLowerCase() })}</h2>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {recipes.map((r) => (
+                    <li key={r.slug}>
+                      <Link href={`/recipes/${r.slug}`} className="inline-block rounded-lg border border-stone/20 px-3 py-1.5 text-sm text-stone transition-colors hover:border-green hover:text-green">
+                        {recipeCopy(r, locale).title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             {guides.length > 0 && (
               <div className="md:col-span-2">
                 <h2 className="mono text-[11px] uppercase tracking-wide text-stone/50">{t("guidesFor", { name: p.name.toLowerCase() })}</h2>

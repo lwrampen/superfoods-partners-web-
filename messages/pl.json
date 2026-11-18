@@ -44,7 +44,8 @@
     "entities": "Zarejestrowane podmioty",
     "locations": "Lokalizacje",
     "blending": "Mieszanki",
-    "packaging": "Opakowania"
+    "packaging": "Opakowania",
+    "recipes": "Przepisy"
   },
   "countries": {
     "Japan": "Japonia",
@@ -425,7 +426,8 @@
         "title": "Hibiskus w proszku hurt — Hibiscus sabdariffa",
         "description": "Hibiskus w proszku hurtowo, z kielichów Hibiscus sabdariffa z Egiptu i wschodnich Chin — głęboka rubinowa barwa, wyrazista kwasowość. Każda partia badana laboratoryjnie (COA + Verification Record). Poproś o wycenę."
       }
-    }
+    },
+    "recipesFor": "Przepisy z {name}"
   },
   "faq": {
     "moqQ": "Czy dostarczacie {name} w kg lub lb, i w jakich ilościach?",
@@ -1246,6 +1248,44 @@
           "a": "Obsługujemy ponad 60 krajów, z koordynacją z naszych biur w Amsterdamie, Hongkongu i Los Angeles, i dostarczamy markom, producentom oraz markom własnym."
         }
       ]
+    }
+  },
+  "recipes": {
+    "eyebrow": "Przepisy",
+    "heading": "Przepisy z naszymi składnikami",
+    "intro": "Sprawdzone przepisy dla kawiarni, piekarni i działów rozwoju produktu, przygotowane z proszków, które dostarczamy.",
+    "metaTitle": "Przepisy z ube i proszkami superfood",
+    "metaDescription": "Przepisy dla kawiarni, piekarni i marek spożywczych z ube i innymi proszkami od Superfoods Partners: składniki, przygotowanie i wskazówki.",
+    "empty": "Pierwsze przepisy są w przygotowaniu.",
+    "totalTime": "{mins} min",
+    "serves": "Porcje: {n}",
+    "minutes": "{mins} min",
+    "prep": "Przygotowanie",
+    "cook": "Gotowanie",
+    "total": "Razem",
+    "yield": "Wydajność",
+    "difficulty": "Trudność",
+    "ingredients": "Składniki",
+    "method": "Sposób przygotowania",
+    "tips": "Wskazówki",
+    "faqHeading": "Najczęstsze pytania",
+    "madeWith": "Przygotowano z",
+    "by": "Autor:",
+    "back": "← Wszystkie przepisy",
+    "crumb": "Przepisy",
+    "ctaHeading": "Chcą Państwo użyć tego składnika w swoich produktach?",
+    "ctaButton": "Zapytaj o ofertę",
+    "categories": {
+      "Drinks": "Napoje",
+      "Bakery": "Pieczywo i wypieki",
+      "Desserts": "Desery",
+      "Frozen": "Lody",
+      "Snacks": "Przekąski"
+    },
+    "levels": {
+      "easy": "Łatwy",
+      "medium": "Średni",
+      "advanced": "Zaawansowany"
     }
   }
 }

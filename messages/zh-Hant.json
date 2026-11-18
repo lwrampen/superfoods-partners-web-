@@ -44,7 +44,8 @@
     "entities": "註冊公司",
     "locations": "據點",
     "blending": "調配",
-    "packaging": "包裝"
+    "packaging": "包裝",
+    "recipes": "食譜"
   },
   "countries": {
     "Japan": "日本",
@@ -425,7 +426,8 @@
         "title": "洛神花粉批發 — 埃及與華東產地",
         "description": "洛神花粉批發，取自埃及與華東產地的洛神花萼（Hibiscus sabdariffa）——深紅寶石色、明亮酸味。每批經實驗室檢驗（COA + Verification Record）。歡迎索取報價。"
       }
-    }
+    },
+    "recipesFor": "{name}食譜"
   },
   "faq": {
     "moqQ": "你們的{name}可以用公斤或磅供應嗎？可供應多大的量？",
@@ -1246,6 +1248,44 @@
           "a": "我們供應超過 60 個國家，由阿姆斯特丹、香港與洛杉磯的辦公室統籌，服務品牌、製造商與自有品牌。"
         }
       ]
+    }
+  },
+  "recipes": {
+    "eyebrow": "食譜",
+    "heading": "使用我們原料的食譜",
+    "intro": "為咖啡店、烘焙店及產品開發人員設計的實測食譜，使用我們供應的粉末製作。",
+    "metaTitle": "紫山藥粉及超級食物粉食譜",
+    "metaDescription": "為咖啡店、烘焙店及食品品牌而設的食譜，使用 Superfoods Partners 的紫山藥粉及其他超級食物粉：材料、做法及小貼士。",
+    "empty": "首批食譜即將推出。",
+    "totalTime": "{mins} 分鐘",
+    "serves": "{n} 人份",
+    "minutes": "{mins} 分鐘",
+    "prep": "準備",
+    "cook": "烹調",
+    "total": "總時間",
+    "yield": "份量",
+    "difficulty": "難度",
+    "ingredients": "材料",
+    "method": "做法",
+    "tips": "小貼士",
+    "faqHeading": "常見問題",
+    "madeWith": "使用原料",
+    "by": "作者",
+    "back": "← 所有食譜",
+    "crumb": "食譜",
+    "ctaHeading": "想在您的產品中使用這款原料？",
+    "ctaButton": "索取報價",
+    "categories": {
+      "Drinks": "飲品",
+      "Bakery": "烘焙",
+      "Desserts": "甜品",
+      "Frozen": "冰品",
+      "Snacks": "小食"
+    },
+    "levels": {
+      "easy": "簡單",
+      "medium": "中等",
+      "advanced": "進階"
     }
   }
 }

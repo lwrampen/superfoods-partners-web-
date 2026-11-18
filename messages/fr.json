@@ -44,7 +44,8 @@
     "entities": "Entités enregistrées",
     "locations": "Sites",
     "blending": "Mélanges",
-    "packaging": "Emballage"
+    "packaging": "Emballage",
+    "recipes": "Recettes"
   },
   "countries": {
     "Japan": "Japon",
@@ -425,7 +426,8 @@
         "title": "Poudre d'hibiscus en gros — Hibiscus sabdariffa",
         "description": "Poudre d'hibiscus en gros, issue de calices d'Hibiscus sabdariffa d'Égypte et de Chine orientale — rouge rubis profond, acidité vive. Chaque lot testé en laboratoire (COA + Verification Record). Demandez un devis."
       }
-    }
+    },
+    "recipesFor": "Recettes avec {name}"
   },
   "faq": {
     "moqQ": "Pouvez-vous fournir le {name} en kg ou lb, et dans quels volumes ?",
@@ -1246,6 +1248,44 @@
           "a": "Nous servons plus de 60 pays, avec une coordination depuis nos bureaux d'Amsterdam, de Hong Kong et de Los Angeles, et approvisionnons marques, fabricants et marques de distributeur."
         }
       ]
+    }
+  },
+  "recipes": {
+    "eyebrow": "Recettes",
+    "heading": "Recettes avec nos ingrédients",
+    "intro": "Des recettes testées pour les cafés, les boulangeries et les développeurs de produits, réalisées avec les poudres que nous fournissons.",
+    "metaTitle": "Recettes à l'ube et aux poudres superaliments",
+    "metaDescription": "Recettes pour cafés, boulangeries et marques alimentaires avec l'ube et d'autres poudres de Superfoods Partners : ingrédients, préparation et conseils.",
+    "empty": "Les premières recettes arrivent bientôt.",
+    "totalTime": "{mins} min",
+    "serves": "Pour {n} personnes",
+    "minutes": "{mins} min",
+    "prep": "Préparation",
+    "cook": "Cuisson",
+    "total": "Total",
+    "yield": "Quantité",
+    "difficulty": "Difficulté",
+    "ingredients": "Ingrédients",
+    "method": "Préparation",
+    "tips": "Conseils",
+    "faqHeading": "Questions fréquentes",
+    "madeWith": "Réalisé avec",
+    "by": "Par",
+    "back": "← Toutes les recettes",
+    "crumb": "Recettes",
+    "ctaHeading": "Vous souhaitez utiliser cet ingrédient dans vos produits ?",
+    "ctaButton": "Demander un devis",
+    "categories": {
+      "Drinks": "Boissons",
+      "Bakery": "Boulangerie",
+      "Desserts": "Desserts",
+      "Frozen": "Glaces",
+      "Snacks": "Snacks"
+    },
+    "levels": {
+      "easy": "Facile",
+      "medium": "Moyen",
+      "advanced": "Avancé"
     }
   }
 }

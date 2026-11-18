@@ -44,7 +44,8 @@
     "entities": "Entidades registradas",
     "locations": "Ubicaciones",
     "blending": "Mezclas",
-    "packaging": "Envasado"
+    "packaging": "Envasado",
+    "recipes": "Recetas"
   },
   "countries": {
     "Japan": "Japón",
@@ -425,7 +426,8 @@
         "title": "Hibisco en polvo al por mayor — Hibiscus sabdariffa",
         "description": "Hibisco en polvo al por mayor, de cálices de Hibiscus sabdariffa de Egipto y el este de China — rojo rubí intenso, acidez viva. Cada lote analizado en laboratorio (COA + Verification Record). Solicita presupuesto."
       }
-    }
+    },
+    "recipesFor": "Recetas con {name}"
   },
   "faq": {
     "moqQ": "¿Pueden suministrar {name} en kg o lb, y en qué volúmenes?",
@@ -1246,6 +1248,44 @@
           "a": "Atendemos a más de 60 países, con coordinación desde nuestras oficinas en Ámsterdam, Hong Kong y Los Ángeles, y suministramos a marcas, fabricantes y marca blanca."
         }
       ]
+    }
+  },
+  "recipes": {
+    "eyebrow": "Recetas",
+    "heading": "Recetas con nuestros ingredientes",
+    "intro": "Recetas probadas para cafeterías, panaderías y desarrolladores de producto, hechas con los polvos que suministramos.",
+    "metaTitle": "Recetas con ube y polvos superalimento",
+    "metaDescription": "Recetas para cafeterías, panaderías y marcas de alimentación con ube y otros polvos de Superfoods Partners: ingredientes, preparación y consejos.",
+    "empty": "Las primeras recetas llegarán pronto.",
+    "totalTime": "{mins} min",
+    "serves": "Para {n} personas",
+    "minutes": "{mins} min",
+    "prep": "Preparación",
+    "cook": "Cocción",
+    "total": "Total",
+    "yield": "Rinde",
+    "difficulty": "Dificultad",
+    "ingredients": "Ingredientes",
+    "method": "Preparación paso a paso",
+    "tips": "Consejos",
+    "faqHeading": "Preguntas frecuentes",
+    "madeWith": "Hecho con",
+    "by": "Por",
+    "back": "← Todas las recetas",
+    "crumb": "Recetas",
+    "ctaHeading": "¿Quieres usar este ingrediente en tus productos?",
+    "ctaButton": "Solicitar presupuesto",
+    "categories": {
+      "Drinks": "Bebidas",
+      "Bakery": "Panadería",
+      "Desserts": "Postres",
+      "Frozen": "Helados",
+      "Snacks": "Snacks"
+    },
+    "levels": {
+      "easy": "Fácil",
+      "medium": "Media",
+      "advanced": "Avanzada"
     }
   }
 }
