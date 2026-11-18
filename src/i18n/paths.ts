@@ -17,3 +17,14 @@ export function alternatesFor(locale: string, path: string) {
   languages["x-default"] = localizedUrl(routing.defaultLocale, path);
   return { canonical: localizedUrl(locale, path), languages };
 }
+
+// Insights that only exist in some locales (the rest would be English copies under a /de, /zh-Hant ... URL): the
+// translated locales list each other as hreflang alternatives; an untranslated locale canonicals to the English page
+// so Google consolidates the duplicates instead of indexing six copies of the same English text.
+export function alternatesForLocales(locale: string, path: string, available: readonly string[]) {
+  if (!available.includes(locale)) return { canonical: localizedUrl(routing.defaultLocale, path) };
+  const languages: Record<string, string> = {};
+  for (const l of available) languages[l] = localizedUrl(l, path);
+  languages["x-default"] = localizedUrl(routing.defaultLocale, path);
+  return { canonical: localizedUrl(locale, path), languages };
+}

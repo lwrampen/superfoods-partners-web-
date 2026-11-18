@@ -76,6 +76,56 @@ Het plan staat in `docs/seo/linkbuilding/` op de `seo-tracking`-branch.
 
 ---
 
+## 2026-11-18 — Duplicaten van EN-gidsen opruimen, zh-Hant "what is ube"-meta
+
+### Data-snapshot
+Search Console (sc-domain), 19-10 t/m 15-11 vs. 21-09 t/m 18-10:
+
+| KPI | Nu | Vorige 28d |
+|---|---|---|
+| Klikken | 118 | 100 |
+| Vertoningen | 3.786 | 1.112 |
+| CTR | 3,1% | 9,0% |
+| Gem. positie | 12,2 | 9,8 |
+| RFQ's (`generate_lead`, GA4, alle kanalen) | 17 | 17 |
+| Organische RFQ's | 7 | 5 |
+
+- Vertoningen ×3,4, maar bijna alles komt van één pagina: de zh-Hant-gids "what is ube powder" (1.318 vertoningen, 5 klikken, CTR 0,4%, positie 8,0). De zoekopdrachten zijn "ube是什么", "ube 是什麼", "ube" en "ube是紫薯吗". CTR en positie dalen dus mee met de groei: veel vertoningen, nauwelijks klikken.
+- Overige pagina's (vertoningen / klikken / positie): `/products/ube` 323 / 12 / 13,5; `/` 304 / 65 / 7,1; `/insights/ube-vs-taro-vs-purple-sweet-potato` 262 / 1 / 14,7; `/zh-Hant/products/ube` 156 / 10 / 6,6; `/products` 123 / 1 / 11,2.
+- Hong Kong: 275 vertoningen, 25 klikken (vooral merkzoekopdrachten naar de homepage); Taiwan: 421 vertoningen, 11 klikken. De HK-pagina's staan nog niet in de top-20 van de pagina's.
+- GA4-sessies per landingspagina (28d): `/` 209, `/pure-ube-partners` 159, `/products/ube` 69. `generate_lead` is nog steeds geen key event (keyEvents = 0 in de rapportage).
+- DataforSEO (maandvolume): what is ube 90,5k (US); ube vs taro 14,8k; is ube a sweet potato 590; "ube" 2,4k (HK, zh-TW); ube 中文 260; 紫山藥 110; "ube 是什麼" 30; DE: ube pulver 5,4k, was ist ube 4,4k, ube geschmack 880.
+
+**Effect vorige sprint (04-11)**
+- Kannibalisatie opgelost: de EN-meta mikt op "what is ube", maar `/insights/what-is-ube-powder` is nog steeds *URL is unknown to Google*. De EN-gids is dus niet geïndexeerd; het effect is nog niet te meten.
+- URL Inspection nu: `/products/ube` en `/de/products/ube` geïndexeerd (laatste crawl 16 en 17-11); `/products/lions-mane` geïndexeerd (was: Discovered); `/products/hibiscus` en `/insights/ube-latte-cafe-menus-formulating-with-ube-powder` nog *Discovered – not indexed*; de nieuwe koperschecklist (16-11) is nog onbekend.
+- zh-Hant-gids: 795 → 1.318 vertoningen, positie 7,7 → 8,0 en CTR 1,4% → 0,4%. De eerste-zin-ingreep van 04-11 heeft de CTR niet verbeterd; de titel was het zwakke punt (zie ingreep 2).
+
+### Ingrepen
+1. **Duplicaten van EN-only gidsen (technisch, alle locales).** Zes gidsen bestaan alleen in het Engels (`ube-vs-taro`, ube-latte, ube-flavor, ube-milk-tea, koperschecklist en het matcha-rapport), maar werden onder 5 locale-URL's uitgeleverd met Engelse tekst en een eigen canonical + hreflang naar zichzelf: 30 bijna-identieke URL's. Dat verdunt het crawlbudget van een site met 1 echt verwijzend domein (een mogelijke reden voor *Discovered – not indexed*). Nu: een locale zonder eigen vertaling krijgt een canonical naar de EN-pagina, de hreflang en de sitemap-alternates bevatten alleen echt vertaalde locales (`postLocales()` in `src/data/insights.ts`, `alternatesForLocales()` in `src/i18n/paths.ts`). Zodra een gids een titel in een locale krijgt, gaat die locale vanzelf weer mee. Gidsen die in alle 6 locales bestaan, zijn ongewijzigd.
+2. **zh-Hant-meta van "what is ube powder".** Titel: "Ube 是什麼？紫山藥，不是紫薯也不是芋頭｜Ube 粉指南" (antwoord in de titel, ook de kernzin van de lede); beschrijving begint met de vraag en noemt de botanische naam en toepassingen. Alleen zh-Hant: de andere locales hebben geen vergelijkbaar signaal.
+
+### Verwacht effect
+- Minder duplicaten en een duidelijkere EN-canonical: de EN-gidsen (`what-is-ube-powder`, vs-taro, koperschecklist, latte) worden binnen 2–4 weken vaker gecrawld; doel is dat de EN-gids "what is ube" geïndexeerd is.
+- zh-Hant-gids: CTR van 0,4% naar ≥ 1,5% bij gelijke positie (≈ +12 klikken per 28 dagen).
+- Geen risico voor bestaande rankings met omzet: de EN-pagina's en de PDP's zijn niet aangeraakt.
+
+### Risico's
+- De zh-Hant- en DE-kopieën van `ube-vs-taro` en de smaakgids (113 en 95 vertoningen, 1 klik) verdwijnen uit de index; hun signalen gaan naar de EN-pagina. Dat is bedoeld.
+- Een canonical is een hint, geen bevel: Google mag er in uitzonderingen van afwijken.
+
+### Volgende sprint meten
+- URL Inspection: `/insights/what-is-ube-powder`, de koperschecklist, ube-latte, `/products/hibiscus`.
+- GSC: zh-Hant-gids (nulmeting 1.318 vertoningen / 0,4% CTR / positie 8,0).
+- Search Console, Pagina's: dalen de vertoningen van `/de|/zh-Hant/insights/…` (EN-only) naar nul, en stijgt de EN-pagina?
+- GA4: RFQ's (nulmeting 17, waarvan organisch 7). `generate_lead` als key event instellen (Leonard, GA4-beheer).
+
+### Kandidaten voor volgende sprint (niet uitgevoerd)
+- Vertaal `ube-vs-taro` naar zh-Hant ("ube 中文" 260/mnd in HK, de pagina had 113 vertoningen op positie ~9) en de smaakgids naar DE ("ube geschmack" 880/mnd).
+- DE: "ube pulver" (5,4k) en "was ist ube" (4,4k): de DE-gids en `/de/products/ube` met meta/FAQ in natuurlijk Duits aanscherpen, zodra de DE-pagina's vertoningen laten zien.
+
+---
+
 ## 2026-11-04 — Ube-cluster: kannibalisatie, cluster-links, merk-schema
 
 ### Data-snapshot
