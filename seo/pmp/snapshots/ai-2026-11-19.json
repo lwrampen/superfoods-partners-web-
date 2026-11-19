@@ -1,0 +1,2323 @@
+{
+ "date": "2026-11-19",
+ "brand": "pmp",
+ "summary": {
+  "answers": 88,
+  "errors": 0,
+  "mentioned": 0.341,
+  "cited": 0.25,
+  "retrieved": 0.307,
+  "per_engine": {
+   "chat_gpt": {
+    "mentioned": 0.182,
+    "cited": 0.182,
+    "retrieved": 0.409,
+    "answers": 22
+   },
+   "perplexity": {
+    "mentioned": 0.318,
+    "cited": 0.364,
+    "retrieved": 0.364,
+    "answers": 22
+   },
+   "gemini": {
+    "mentioned": 0.409,
+    "cited": 0.045,
+    "retrieved": 0.0,
+    "answers": 22
+   },
+   "claude": {
+    "mentioned": 0.455,
+    "cited": 0.409,
+    "retrieved": 0.455,
+    "answers": 22
+   }
+  },
+  "top_cited_domains": [
+   [
+    "purematchapartners.com",
+    22
+   ],
+   [
+    "bulk.matcha.com",
+    14
+   ],
+   [
+    "matchadb.com",
+    13
+   ],
+   [
+    "japanomars.com",
+    13
+   ],
+   [
+    "accio.com",
+    8
+   ],
+   [
+    "b2b.yumimatcha.com",
+    8
+   ],
+   [
+    "issamatcha.com",
+    8
+   ],
+   [
+    "aoimatcha.com",
+    7
+   ],
+   [
+    "jadeleafmatcha.com",
+    7
+   ],
+   [
+    "akimatcha.com",
+    6
+   ],
+   [
+    "aiya-europe.com",
+    6
+   ],
+   [
+    "matcha-wakaba.com",
+    6
+   ],
+   [
+    "bemytea.com.hk",
+    6
+   ],
+   [
+    "wholesale.sugimotousa.com",
+    5
+   ],
+   [
+    "chtmatcha.com",
+    5
+   ],
+   [
+    "theorganiclabs.com",
+    5
+   ],
+   [
+    "matchia.us",
+    5
+   ],
+   [
+    "bigmoca.nl",
+    5
+   ],
+   [
+    "aiya-america.com",
+    4
+   ],
+   [
+    "ujichamatcha.com",
+    4
+   ],
+   [
+    "matcha-magic.de",
+    4
+   ],
+   [
+    "adagioxl.com",
+    4
+   ],
+   [
+    "kyosun.com",
+    4
+   ],
+   [
+    "avelor.eu",
+    4
+   ],
+   [
+    "born2matcha.com",
+    4
+   ]
+  ],
+  "cost_usd": 2.402
+ },
+ "results": [
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What are the best wholesale matcha suppliers for businesses? Please name specific companies and their websites.",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "wholesale.sugimotousa.com",
+    "bulk.matcha.com",
+    "aiya-america.com",
+    "aoimatcha.com",
+    "matchaful.com",
+    "tenzotea.co",
+    "highland-matcha.com"
+   ],
+   "fan_out": [
+    "wholesale matcha supplier business bulk official wholesale matcha USA",
+    "wholesale matcha bulk supplier private label official company",
+    "ceremonial matcha wholesale supplier official US business",
+    "site:aiya-america.com wholesale matcha",
+    "site:aoimatcha.com wholesale matcha bulk",
+    "site:tenzotea.co wholesale matcha business"
+   ],
+   "chars": 2149
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What are the best wholesale matcha suppliers for businesses? Please name specific companies and their websites.",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matchadb.com",
+    "japanomars.com",
+    "newbyteas.com",
+    "accio.com",
+    "shop.matchaeologist.com",
+    "akimatcha.com",
+    "greensoulmatcha.com",
+    "aiya-america.com",
+    "rishi-tea.com",
+    "jadeleafmatcha.com",
+    "matcha.com",
+    "first-agri.com",
+    "midorispring.com",
+    "ippodo-tea.co.jp",
+    "kettl.co"
+   ],
+   "fan_out": [],
+   "chars": 3300
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What are the best wholesale matcha suppliers for businesses? Please name specific companies and their websites.",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "aiya-america.com",
+    "aiya-europe.com",
+    "sugimotousa.com",
+    "itoen.com",
+    "mizubatea.com",
+    "matcha.com",
+    "jadeleafmatcha.com",
+    "ujichamatcha.com",
+    "matcha-magic.de",
+    "matcha-wakaba.com"
+   ],
+   "fan_out": [
+    "wholesale matcha suppliers for businesses website list",
+    "best wholesale matcha suppliers Japan USA cafe"
+   ],
+   "chars": 5171
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What are the best wholesale matcha suppliers for businesses? Please name specific companies and their websites.",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "tenzotea.co",
+    "jadeleafmatcha.com",
+    "japanomars.com",
+    "aoimatcha.com",
+    "chtmatcha.com",
+    "isshikimatcha.com",
+    "onewithtea.com"
+   ],
+   "fan_out": [
+    "best wholesale matcha suppliers for businesses",
+    "bulk matcha wholesale cafes Japan suppliers 2026"
+   ],
+   "chars": 3558
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy bulk matcha powder for my business at wholesale volumes?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "jadeleafmatcha.com",
+    "bulk.matcha.com",
+    "wholesale.sugimotousa.com",
+    "highland-matcha.com",
+    "matchaoutlet.com",
+    "webstaurantstore.com"
+   ],
+   "fan_out": [
+    "bulk matcha powder wholesale business supplier USA wholesale matcha official",
+    "wholesale matcha powder bulk foodservice supplier USA",
+    "matcha wholesale private label bulk supplier official"
+   ],
+   "chars": 2510
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy bulk matcha powder for my business at wholesale volumes?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bulk.matcha.com",
+    "adagioxl.com",
+    "akimatcha.com",
+    "purematchapartners.com",
+    "matchadb.com",
+    "teasenz.com",
+    "accio.com",
+    "keichamatcha.com",
+    "jadeleafmatcha.com"
+   ],
+   "fan_out": [],
+   "chars": 2192
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy bulk matcha powder for my business at wholesale volumes?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "bulk matcha wholesale distributors cafe food service",
+    "wholesale bulk matcha suppliers B2B"
+   ],
+   "chars": 4266
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can I buy bulk matcha powder for my business at wholesale volumes?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "opusmatcha.com",
+    "aoimatcha.com",
+    "jadeleafmatcha.com",
+    "elementmatcha.com",
+    "purematchapartners.com",
+    "tangmistmatcha.com",
+    "bulk.matcha.com",
+    "azmatcha.com",
+    "richingmatcha.com"
+   ],
+   "fan_out": [
+    "wholesale bulk matcha powder suppliers for business"
+   ],
+   "chars": 2978
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which wholesale matcha suppliers in Europe would you recommend for a café chain? List the best options with their websites.",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matcha-wakaba.com",
+    "matchab2b.com",
+    "b2bmatcha.eu",
+    "europeanmatchasupplier.com",
+    "thematchapro.eu",
+    "moriitea.eu",
+    "aiya-europe.com"
+   ],
+   "fan_out": [
+    "wholesale matcha supplier Europe foodservice cafe bulk official",
+    "European matcha supplier wholesale cafes organic bulk official",
+    "matcha wholesale Europe B2B private label supplier official",
+    "site:aiya-europe.com matcha foodservice wholesale Europe",
+    "site:kyosun.com wholesale matcha Europe B2B",
+    "site:matcha-wakaba.com wholesale matcha Europe organic certifications",
+    "site:matchaandco.com wholesale matcha B2B Europe cafes"
+   ],
+   "chars": 2418
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which wholesale matcha suppliers in Europe would you recommend for a café chain? List the best options with their websites.",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "japanomars.com",
+    "matchadb.com",
+    "omma.world",
+    "abbottblackstone.eu",
+    "theorganiclabs.com",
+    "aiya-europe.com",
+    "matchaoishii.com",
+    "wakaba-matcha.com",
+    "kyosun.com",
+    "europeanmatchasupplier.com"
+   ],
+   "fan_out": [],
+   "chars": 3751
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which wholesale matcha suppliers in Europe would you recommend for a café chain? List the best options with their websites.",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "aiya-europe.com",
+    "matcha-magic.de",
+    "thematchapro.eu",
+    "avelor.eu",
+    "matchasome.com",
+    "born2matcha.com"
+   ],
+   "fan_out": [
+    "best bulk matcha suppliers Europe b2b",
+    "wholesale matcha supplier Europe cafe"
+   ],
+   "chars": 4543
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "Which wholesale matcha suppliers in Europe would you recommend for a café chain? List the best options with their websites.",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "theorganiclabs.com",
+    "matchawholesale.eu",
+    "ouramatcha.com",
+    "matcha-wakaba.com",
+    "born2matcha.com",
+    "niwamatcha.co",
+    "allreasons.eu"
+   ],
+   "fan_out": [
+    "wholesale matcha supplier Europe café",
+    "best bulk matcha suppliers for cafés Europe B2B"
+   ],
+   "chars": 3755
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "lang": "en",
+   "prompt": "Who are reliable matcha suppliers for cafés in the UK?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "thematchamerchant.com",
+    "moicha.com",
+    "matchawholesale.co.uk",
+    "falconsales.co.uk",
+    "matchado.co.uk"
+   ],
+   "fan_out": [
+    "UK wholesale matcha supplier cafe wholesale matcha UK",
+    "matcha wholesale UK cafes supplier official",
+    "UK café matcha wholesale supplier ceremonial culinary"
+   ],
+   "chars": 2130
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "lang": "en",
+   "prompt": "Who are reliable matcha suppliers for cafés in the UK?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "impactfoods.co.uk",
+    "bruttea.com",
+    "avantcha.co.uk",
+    "perfectted.com",
+    "avantcha.com",
+    "rekki.com",
+    "linkedin.com"
+   ],
+   "fan_out": [],
+   "chars": 2116
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "lang": "en",
+   "prompt": "Who are reliable matcha suppliers for cafés in the UK?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "best matcha suppliers for cafes UK",
+    "UK wholesale matcha suppliers specialty cafe"
+   ],
+   "chars": 4178
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "lang": "en",
+   "prompt": "Who are reliable matcha suppliers for cafés in the UK?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "moicha.com",
+    "bruttea.com",
+    "matchawholesale.co.uk",
+    "ghostmatcha.com",
+    "matchi.info",
+    "ukmatchawholesale.co.uk",
+    "nutriextracts.co.uk",
+    "matchaandbeyond.com",
+    "falconsales.co.uk"
+   ],
+   "fan_out": [
+    "wholesale matcha suppliers UK cafés",
+    "best ceremonial and culinary matcha for cafes UK wholesale 2026"
+   ],
+   "chars": 3274
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "I'm opening a coffee shop. Which matcha supplier should I use for matcha lattes?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "danexgen.com",
+    "bulk.matcha.com"
+   ],
+   "fan_out": [
+    "US wholesale matcha supplier cafe latte bulk official",
+    "matcha wholesale cafe latte culinary grade USA official supplier",
+    "wholesale matcha cafe foodservice latte supplier US",
+    "site:aito-en.com wholesale matcha cafe USA foodservice",
+    "Aiya America wholesale matcha cafes official bulk",
+    "site:bulk.matcha.com cafe matcha food service pricing Japanese"
+   ],
+   "chars": 1433
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "I'm opening a coffee shop. Which matcha supplier should I use for matcha lattes?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "b2b.yumimatcha.com",
+    "purematchapartners.com",
+    "matcha-times.jp",
+    "thebrewingdiary.com",
+    "japanomars.com",
+    "meguri-group.co.jp",
+    "harney.com",
+    "matchajp.net"
+   ],
+   "fan_out": [],
+   "chars": 1499
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "I'm opening a coffee shop. Which matcha supplier should I use for matcha lattes?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [],
+   "chars": 4983
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "I'm opening a coffee shop. Which matcha supplier should I use for matcha lattes?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "japanomars.com",
+    "bulk.matcha.com",
+    "und-ny.com",
+    "matchaoutlet.com",
+    "ujichamatcha.com"
+   ],
+   "fan_out": [
+    "best wholesale matcha suppliers for coffee shops",
+    "matcha supply shortage prices cafes 2026"
+   ],
+   "chars": 2832
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What is the best latte-grade matcha for cafés buying in bulk?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "danexgen.com"
+   ],
+   "fan_out": [
+    "best wholesale matcha latte grade cafes bulk supplier ceremonial culinary matcha wholesale USA",
+    "cafe wholesale matcha powder latte grade bulk supplier official",
+    "wholesale matcha cafe latte blend foodservice official supplier USA"
+   ],
+   "chars": 972
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What is the best latte-grade matcha for cafés buying in bulk?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "best-matcha.com",
+    "umujapan.com",
+    "nipponmatcha.com",
+    "tealefy.com",
+    "matcha-matsu.com",
+    "meguri-group.co.jp",
+    "seriouseats.com",
+    "japanomars.com",
+    "bestteabags.com"
+   ],
+   "fan_out": [],
+   "chars": 1637
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What is the best latte-grade matcha for cafés buying in bulk?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "best bulk matcha for cafes latte grade",
+    "best wholesale matcha powder for coffee shops"
+   ],
+   "chars": 4514
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Café & latte",
+   "market": "US",
+   "lang": "en",
+   "prompt": "What is the best latte-grade matcha for cafés buying in bulk?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "first-agri.jp",
+    "japanomars.com",
+    "wakokoro-tea.com",
+    "ujimatchatea.com",
+    "adagioxl.com",
+    "bygmatcha.com",
+    "importmatcha.com",
+    "purematchapartners.com"
+   ],
+   "fan_out": [
+    "best latte grade matcha wholesale for cafés bulk",
+    "café matcha supplier comparison 2026 culinary grade bulk"
+   ],
+   "chars": 3225
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which companies offer private label or white label matcha for a new brand?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bulk.matcha.com",
+    "thesantecompany.com",
+    "aoimatcha.com",
+    "ujichamatcha.com",
+    "tezumi.com",
+    "tayleaf.com",
+    "horaico.com",
+    "issamatcha.com",
+    "matchia.us"
+   ],
+   "fan_out": [
+    "private label matcha manufacturer wholesale official",
+    "white label matcha private label official company",
+    "private label matcha USA supplier official"
+   ],
+   "chars": 3061
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which companies offer private label or white label matcha for a new brand?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "tezumi.com",
+    "purematchapartners.com",
+    "bulk.matcha.com",
+    "matchadb.com",
+    "accio.com",
+    "matchaandbeyond.com",
+    "matchab2b.com",
+    "mymatchalife.com"
+   ],
+   "fan_out": [],
+   "chars": 2365
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which companies offer private label or white label matcha for a new brand?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "private label matcha wholesale suppliers companies",
+    "best white label matcha manufacturers suppliers"
+   ],
+   "chars": 4346
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which companies offer private label or white label matcha for a new brand?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "en.wikipedia.org",
+    "bulk.matcha.com",
+    "mymatchalife.com",
+    "chtmatcha.com",
+    "aoimatcha.com",
+    "wagyuninja.tokyo",
+    "matchaandbeyond.com",
+    "zeekei.com"
+   ],
+   "fan_out": [
+    "private label white label matcha suppliers",
+    "custom matcha manufacturer private label low MOQ Japan"
+   ],
+   "chars": 3264
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "I want to launch my own matcha brand in Europe. Which private label matcha manufacturers can I work with?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "aiya-europe.com",
+    "kyosun.com",
+    "umujapan.com",
+    "thematchahouse.com",
+    "bigmoca.nl",
+    "matchawholesale.co.uk"
+   ],
+   "fan_out": [
+    "private label matcha manufacturer Europe OEM matcha official",
+    "private label matcha supplier Europe wholesale own label official",
+    "matcha private label manufacturing Japan Europe official brand",
+    "private label matcha UK Europe manufacturer private label"
+   ],
+   "chars": 3944
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "I want to launch my own matcha brand in Europe. Which private label matcha manufacturers can I work with?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "aiya-europe.com",
+    "bigmoca.nl",
+    "purematchapartners.com",
+    "wonnda.com",
+    "matchawholesale.eu",
+    "health-bar.com"
+   ],
+   "fan_out": [],
+   "chars": 3058
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "I want to launch my own matcha brand in Europe. Which private label matcha manufacturers can I work with?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "OEM matcha supplier Europe EU",
+    "private label matcha manufacturer europe"
+   ],
+   "chars": 5079
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Private label",
+   "market": "EU",
+   "lang": "en",
+   "prompt": "I want to launch my own matcha brand in Europe. Which private label matcha manufacturers can I work with?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "usetorg.com",
+    "kyosun.com",
+    "wonnda.com",
+    "bigmoca.nl",
+    "born2matcha.com"
+   ],
+   "fan_out": [
+    "private label matcha manufacturers Europe",
+    "white label matcha supplier Japan organic EU private label"
+   ],
+   "chars": 3523
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who supplies ceremonial grade matcha in bulk to brands and retailers?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "wholesale.sugimotousa.com",
+    "matchadb.com",
+    "issamatcha.com",
+    "matchia.us",
+    "hinomarucha.com",
+    "riverandstonetea.com",
+    "theatlantic.com"
+   ],
+   "fan_out": [
+    "bulk ceremonial grade matcha wholesale supplier brands retailers USA",
+    "ceremonial matcha private label wholesale supplier bulk official",
+    "matcha wholesale ceremonial grade bulk supplier Japan official"
+   ],
+   "chars": 2516
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who supplies ceremonial grade matcha in bulk to brands and retailers?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "asarumi.com",
+    "cincinnati.com",
+    "builder.bookipi.com",
+    "und-ny.com",
+    "brewnova.com",
+    "matchadb.com",
+    "wakokoro-tea.com",
+    "japonity.com"
+   ],
+   "fan_out": [],
+   "chars": 1915
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who supplies ceremonial grade matcha in bulk to brands and retailers?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "wholesale ceremonial grade matcha suppliers bulk private label",
+    "bulk ceremonial matcha suppliers to brands retailers"
+   ],
+   "chars": 4262
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha wholesale",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who supplies ceremonial grade matcha in bulk to brands and retailers?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "tenzotea.co",
+    "bulk.matcha.com",
+    "matchia.us",
+    "yokomatcha.com",
+    "isshikimatcha.com",
+    "adagioxl.com",
+    "azmatcha.com",
+    "purematchapartners.com",
+    "chtmatcha.com"
+   ],
+   "fan_out": [
+    "bulk ceremonial grade matcha wholesale supplier",
+    "private label matcha manufacturer Japan wholesale"
+   ],
+   "chars": 2820
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Food & beverage",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which matcha supplier is best for food and beverage manufacturers that need culinary matcha in large volumes?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "aiya-america.com",
+    "aoimatcha.com"
+   ],
+   "fan_out": [
+    "bulk culinary matcha supplier food beverage manufacturers wholesale large volume USA",
+    "matcha ingredient supplier industrial bulk food beverage manufacturers culinary matcha",
+    "official bulk matcha supplier food manufacturers culinary matcha wholesale"
+   ],
+   "chars": 998
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Food & beverage",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which matcha supplier is best for food and beverage manufacturers that need culinary matcha in large volumes?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "desmoinesregister.com",
+    "japanomars.com",
+    "builder.bookipi.com",
+    "matchadb.com",
+    "accio.com",
+    "umujapan.com",
+    "akimatcha.com",
+    "adagioxl.com",
+    "kametani-tea.com"
+   ],
+   "fan_out": [],
+   "chars": 1479
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Food & beverage",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which matcha supplier is best for food and beverage manufacturers that need culinary matcha in large volumes?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "best wholesale bulk matcha suppliers food beverage manufacturers",
+    "bulk culinary matcha supplier F&B commercial volume"
+   ],
+   "chars": 4210
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Food & beverage",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Which matcha supplier is best for food and beverage manufacturers that need culinary matcha in large volumes?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "keichamatcha.com",
+    "bulk.matcha.com",
+    "yuminagafoods.com",
+    "purematchapartners.com",
+    "matchasourcing.com",
+    "tangmistmatcha.com",
+    "matchia.us"
+   ],
+   "fan_out": [
+    "bulk culinary matcha supplier food beverage manufacturers",
+    "best wholesale matcha supplier industrial volume ingredient 2026"
+   ],
+   "chars": 3038
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Hojicha",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy hojicha powder wholesale?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "wholesale.sugimotousa.com",
+    "business.tryaladdin.com",
+    "hojicha.co",
+    "hojichapowder.com",
+    "matchia.us",
+    "soarorganics.com",
+    "shopyamaze.com"
+   ],
+   "fan_out": [
+    "wholesale hojicha powder supplier USA foodservice",
+    "bulk hojicha powder wholesale supplier USA",
+    "hojicha powder wholesale official supplier"
+   ],
+   "chars": 2296
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Hojicha",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy hojicha powder wholesale?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "hojicha.co",
+    "faire.com",
+    "accio.com",
+    "tea-sanrokuen.com",
+    "akimatcha.com",
+    "japonity.com",
+    "ujimatchatea.com",
+    "lilikutea.com",
+    "alibaba.com"
+   ],
+   "fan_out": [],
+   "chars": 1664
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Hojicha",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy hojicha powder wholesale?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "buy hojicha powder wholesale suppliers",
+    "bulk hojicha powder suppliers cafe wholesale"
+   ],
+   "chars": 3474
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Hojicha",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Where can businesses buy hojicha powder wholesale?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bulk.matcha.com",
+    "bobaguru.com",
+    "faire.com",
+    "yugen-kyoto.com",
+    "yokomatcha.com",
+    "organiclink.jp",
+    "chutokokusaikogyo.com",
+    "hojichawholesale.eu",
+    "purematchapartners.com"
+   ],
+   "fan_out": [
+    "hojicha powder wholesale suppliers",
+    "buy bulk hojicha powder for business"
+   ],
+   "chars": 2653
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Mulberry",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who sells mulberry leaf matcha powder in bulk?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "purematchapartners.com",
+    "yedoensis.com",
+    "wholesale.sugimotousa.com",
+    "shimaneorganicfarm.com",
+    "shiningseasingredients.com"
+   ],
+   "fan_out": [
+    "bulk mulberry leaf matcha powder wholesale supplier",
+    "mulberry leaf powder bulk wholesale food grade",
+    "mulberry matcha powder bulk supplier US"
+   ],
+   "chars": 1485
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Mulberry",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who sells mulberry leaf matcha powder in bulk?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "alibaba.com",
+    "made-in-china.com"
+   ],
+   "fan_out": [],
+   "chars": 1464
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Mulberry",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who sells mulberry leaf matcha powder in bulk?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "organic mulberry leaf powder bulk wholesale supplier",
+    "mulberry leaf matcha bulk supplier wholesale"
+   ],
+   "chars": 3398
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Mulberry",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Who sells mulberry leaf matcha powder in bulk?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "muso-intl.com",
+    "purematchapartners.com",
+    "carwaristore.com",
+    "greenjeeva.com",
+    "medikonda.com",
+    "accio.com"
+   ],
+   "fan_out": [
+    "mulberry leaf matcha powder bulk supplier",
+    "organic mulberry leaf powder wholesale manufacturer"
+   ],
+   "chars": 2245
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Cuáles son los mejores proveedores de matcha al por mayor para cafeterías en España?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "b2b.yumimatcha.com",
+    "matchacolors.com",
+    "matchapro.es",
+    "matchamatcha.es",
+    "coffeetech.com",
+    "cameastore.com",
+    "ceremoniamatcha.es"
+   ],
+   "fan_out": [
+    "proveedor matcha al por mayor cafeterías España matcha horeca",
+    "matcha wholesale Spain horeca supplier cafe",
+    "distribuidor matcha profesional hostelería España",
+    "site:matchaandco.com profesionales hostelería matcha al por mayor España",
+    "site:matchamatcha.es mayorista matcha granel 1 kg profesionales",
+    "site:matchapro.es/pages/distribuidor-matcha precio mínimo mayorista"
+   ],
+   "chars": 2807
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Cuáles son los mejores proveedores de matcha al por mayor para cafeterías en España?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "linkedin.com",
+    "teamatchazen.com",
+    "matchadb.com",
+    "theorganiclabs.com",
+    "europages.co.uk",
+    "best-matcha.com",
+    "coffeetech.com",
+    "purematchapartners.com",
+    "teasenz.com",
+    "proveedores.com"
+   ],
+   "fan_out": [],
+   "chars": 2128
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Cuáles son los mejores proveedores de matcha al por mayor para cafeterías en España?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "comprar matcha b2b hosteleria espana",
+    "proveedores matcha al por mayor cafeterias espana"
+   ],
+   "chars": 3565
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Cuáles son los mejores proveedores de matcha al por mayor para cafeterías en España?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matchamatcha.es",
+    "ceremonity.com",
+    "granadateacompany.com",
+    "coffeetech.com",
+    "viorange.es",
+    "teasenz.com"
+   ],
+   "fan_out": [
+    "proveedores matcha al por mayor cafeterías España",
+    "matcha ceremonial wholesale España distribuidor HORECA"
+   ],
+   "chars": 2476
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Dónde puedo comprar matcha a granel para mi negocio en Europa?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "moriitea.eu",
+    "b2bmatcha.eu",
+    "thematchapro.eu",
+    "wholesale-matcha.eu",
+    "matcha-wakaba.com"
+   ],
+   "fan_out": [
+    "matcha wholesale bulk Europe B2B supplier official",
+    "EU matcha tea wholesale supplier bulk organic official",
+    "Japanese matcha wholesale Europe B2B MOQ supplier"
+   ],
+   "chars": 2186
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Dónde puedo comprar matcha a granel para mi negocio en Europa?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "abbottblackstone.eu",
+    "europeanmatchasupplier.com",
+    "b2b.yumimatcha.com",
+    "matchadb.com",
+    "theorganiclabs.com",
+    "avelor.eu",
+    "alveus.eu",
+    "matcha-magic.de"
+   ],
+   "fan_out": [],
+   "chars": 1972
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Dónde puedo comprar matcha a granel para mi negocio en Europa?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "proveedores matcha a granel B2B Europa Espana",
+    "wholesale bulk matcha suppliers Europe"
+   ],
+   "chars": 4060
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "lang": "es",
+   "prompt": "¿Dónde puedo comprar matcha a granel para mi negocio en Europa?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "thematchahouse.com",
+    "kyosun.com",
+    "matchamatcha.es",
+    "europages.es",
+    "es.richingmatcha.com",
+    "en.wikipedia.org"
+   ],
+   "fan_out": [
+    "proveedores matcha a granel mayorista Europa",
+    "wholesale matcha supplier Europe bulk B2B"
+   ],
+   "chars": 2752
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Welche Matcha-Großhändler in Deutschland empfehlen Sie für Cafés und Gastronomie?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matcha-wakaba.com",
+    "matchashock.de",
+    "matcha-magic.de",
+    "maora-matcha.de",
+    "matchoya.de"
+   ],
+   "fan_out": [
+    "Matcha Großhandel Deutschland Gastronomie Café B2B Matcha",
+    "Matcha für Gastronomie Großhandel Deutschland Händler Café",
+    "site:*.de Matcha B2B Gastronomie Großhandel Deutschland"
+   ],
+   "chars": 2593
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Welche Matcha-Großhändler in Deutschland empfehlen Sie für Cafés und Gastronomie?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matchadb.com",
+    "wlw.com",
+    "matcha-karu.com",
+    "unearthed-gallery.com",
+    "health-bar.com",
+    "b2b.yumimatcha.com"
+   ],
+   "fan_out": [],
+   "chars": 2424
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Welche Matcha-Großhändler in Deutschland empfehlen Sie für Cafés und Gastronomie?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "Matcha Cafe B2B Lieferant Deutschland",
+    "Matcha Grosshandel Gastronomie Deutschland B2B"
+   ],
+   "chars": 3664
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Welche Matcha-Großhändler in Deutschland empfehlen Sie für Cafés und Gastronomie?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "mrmatcha.de",
+    "matchashock.de",
+    "dailymatcha.de",
+    "eliradrops.de",
+    "unearthed-gallery.com",
+    "mindfulmatcha.de",
+    "intronestor.com",
+    "werkmatcha.github.io"
+   ],
+   "fan_out": [
+    "Matcha Großhandel Deutschland Gastronomie Cafés",
+    "Matcha B2B Lieferant Gastronomie Bio Zeremoniell Barista"
+   ],
+   "chars": 3162
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Matcha-Pulver in großen Mengen für mein Unternehmen kaufen?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matcha-wakaba.com",
+    "raw-elements.de",
+    "kissatea.com",
+    "purematchapartners.com",
+    "bulk.matcha.com"
+   ],
+   "fan_out": [
+    "Matcha Pulver Großhandel B2B Deutschland Großgebinde Hersteller",
+    "Matcha wholesale bulk supplier USA business ceremonial culinary official"
+   ],
+   "chars": 1487
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Matcha-Pulver in großen Mengen für mein Unternehmen kaufen?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "akimatcha.com",
+    "accio.com",
+    "theorganiclabs.com",
+    "brewnova.com",
+    "jadeleafmatcha.com",
+    "made-in-china.com",
+    "matcha-matsu.com",
+    "matchakonomi.com",
+    "merkandi.us"
+   ],
+   "fan_out": [],
+   "chars": 2401
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Matcha-Pulver in großen Mengen für mein Unternehmen kaufen?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "matcha großhandel b2b deutschland lieferanten",
+    "matcha pulver bulk b2b deutschland"
+   ],
+   "chars": 3690
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "lang": "de",
+   "prompt": "Wo kann ich Matcha-Pulver in großen Mengen für mein Unternehmen kaufen?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "purematchapartners.com",
+    "wlw.de",
+    "allreasons.eu",
+    "faire.com",
+    "ebay.de"
+   ],
+   "fan_out": [
+    "Matcha Pulver Großhandel B2B kaufen",
+    "Bio Matcha Großhandel Deutschland Gastronomie Großpackung"
+   ],
+   "chars": 2357
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "NL",
+   "lang": "nl",
+   "prompt": "Wat zijn goede matcha leveranciers voor horeca in Nederland?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "nomu-amsterdam.nl",
+    "thematchaman.nl",
+    "refinedsociety.nl",
+    "bigmoca.nl",
+    "yehtea.com",
+    "matcha-matcha.nl"
+   ],
+   "fan_out": [
+    "matcha groothandel horeca Nederland leverancier matcha",
+    "matcha B2B horeca Nederland ceremonial matcha groothandel",
+    "matcha leverancier restaurants cafes Nederland groothandel"
+   ],
+   "chars": 2532
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "NL",
+   "lang": "nl",
+   "prompt": "Wat zijn goede matcha leveranciers voor horeca in Nederland?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "purematchapartners.com",
+    "japanomars.com",
+    "issamatcha.com",
+    "tsteas.com",
+    "unmatched-matcha.com",
+    "best-matcha.com",
+    "linkedin.com",
+    "b2b.yumimatcha.com",
+    "wonnda.com"
+   ],
+   "fan_out": [],
+   "chars": 1942
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "NL",
+   "lang": "nl",
+   "prompt": "Wat zijn goede matcha leveranciers voor horeca in Nederland?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "matcha leverancier horeca nederland",
+    "groothandel matcha horeca nederland"
+   ],
+   "chars": 3983
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "NL",
+   "lang": "nl",
+   "prompt": "Wat zijn goede matcha leveranciers voor horeca in Nederland?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "heymatcha.nl",
+    "bigmoca.nl",
+    "purematchapartners.com",
+    "shinrintea.nl",
+    "thematchaman.nl",
+    "yumesai.nl",
+    "matcha-matcha.nl",
+    "ayuhouse.com"
+   ],
+   "fan_out": [
+    "matcha leverancier horeca Nederland",
+    "matcha groothandel B2B cafés restaurants Nederland"
+   ],
+   "chars": 2848
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "FR",
+   "lang": "fr",
+   "prompt": "Quels sont les meilleurs fournisseurs de matcha en gros pour les cafés en France ?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matchamatcha.fr",
+    "kumikomatcha.fr",
+    "kiji.paris",
+    "chae-matcha.com",
+    "matchabotanicals.fr",
+    "grossistematcha.fr"
+   ],
+   "fan_out": [
+    "fournisseur matcha professionnel grossiste France café matcha B2B",
+    "matcha wholesale France professional horeca fournisseur matcha bio",
+    "grossiste matcha France horeca café marque distributeur"
+   ],
+   "chars": 2985
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "FR",
+   "lang": "fr",
+   "prompt": "Quels sont les meilleurs fournisseurs de matcha en gros pour les cafés en France ?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "issamatcha.com",
+    "matchadb.com",
+    "b2b.yumimatcha.com",
+    "tsukimatcha.com",
+    "japanomars.com",
+    "kumikomatcha.fr",
+    "avelor.eu"
+   ],
+   "fan_out": [],
+   "chars": 3077
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "FR",
+   "lang": "fr",
+   "prompt": "Quels sont les meilleurs fournisseurs de matcha en gros pour les cafés en France ?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "meilleur matcha b2b coffee shop france grossiste",
+    "fournisseur matcha pro b2b grossiste cafe france"
+   ],
+   "chars": 3817
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "FR",
+   "lang": "fr",
+   "prompt": "Quels sont les meilleurs fournisseurs de matcha en gros pour les cafés en France ?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "kumikomatcha.eu",
+    "matchamatcha.fr",
+    "born2matcha.com",
+    "melimatcha.com",
+    "domaineduthe.com",
+    "grossiste-de-the.fr",
+    "fr.richingmatcha.com",
+    "roda-matcha.com"
+   ],
+   "fan_out": [
+    "fournisseur matcha en gros professionnels cafés France",
+    "matcha grade cérémonie wholesale coffee shop France B2B"
+   ],
+   "chars": 3252
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "IT",
+   "lang": "it",
+   "prompt": "Quali sono i migliori fornitori di matcha all'ingrosso per bar e caffetterie in Italia?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "akiramatchalab.com"
+   ],
+   "fan_out": [
+    "matcha all'ingrosso Italia fornitori horeca bar caffetterie",
+    "fornitore matcha cerimoniale wholesale Italia B2B",
+    "matcha for horeca Italy wholesale supplier"
+   ],
+   "chars": 2668
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "IT",
+   "lang": "it",
+   "prompt": "Quali sono i migliori fornitori di matcha all'ingrosso per bar e caffetterie in Italia?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "avelor.eu",
+    "b2b.yumimatcha.com",
+    "omma.world",
+    "matchadb.com",
+    "matcha-karu.com",
+    "einpresswire.com",
+    "naturalebio.com",
+    "harney.com"
+   ],
+   "fan_out": [],
+   "chars": 2237
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "IT",
+   "lang": "it",
+   "prompt": "Quali sono i migliori fornitori di matcha all'ingrosso per bar e caffetterie in Italia?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [
+    "fornitori matcha ingrosso bar caffetterie italia",
+    "matcha b2b ho re ca italia"
+   ],
+   "chars": 4061
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Europe",
+   "market": "IT",
+   "lang": "it",
+   "prompt": "Quali sono i migliori fornitori di matcha all'ingrosso per bar e caffetterie in Italia?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matcha-matcha.it",
+    "moyamatcha.it",
+    "matchafactory.it",
+    "matchafactory.net",
+    "blifesrl.it",
+    "europages.it",
+    "it.richingmatcha.com"
+   ],
+   "fan_out": [
+    "fornitori matcha all'ingrosso bar caffetterie Italia",
+    "matcha wholesale Italy cafes B2B supplier"
+   ],
+   "chars": 3066
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha knowledge",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Japanese vs Chinese matcha for a café menu: which should a business buy and from whom?",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "apnews.com",
+    "hisamatcha.com",
+    "bulk.matcha.com",
+    "ujichamatcha.com",
+    "fda.gov"
+   ],
+   "fan_out": [
+    "matcha Japan export production official statistics 2025 matcha supply shortage",
+    "US wholesale Japanese matcha cafe bulk supplier official wholesale",
+    "Chinese matcha wholesale food service supplier organic USDA matcha official",
+    "US FDA imported tea matcha food safety import requirements official"
+   ],
+   "chars": 3033
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha knowledge",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Japanese vs Chinese matcha for a café menu: which should a business buy and from whom?",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matcha-times.jp",
+    "japanomars.com",
+    "b2b.yumimatcha.com",
+    "matcha-matsu.com"
+   ],
+   "fan_out": [],
+   "chars": 3497
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha knowledge",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Japanese vs Chinese matcha for a café menu: which should a business buy and from whom?",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [],
+   "fan_out": [],
+   "chars": 5706
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha knowledge",
+   "market": "US",
+   "lang": "en",
+   "prompt": "Japanese vs Chinese matcha for a café menu: which should a business buy and from whom?",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matchawholesale.co.uk",
+    "japanomars.com",
+    "chtmatcha.com",
+    "akimatcha.com",
+    "matchasourcing.com",
+    "terramatcha.com"
+   ],
+   "fan_out": [
+    "Japanese vs Chinese matcha café wholesale quality differences",
+    "matcha shortage price wholesale suppliers cafés 2026",
+    "matcha wholesale suppliers for cafés Ippodo Marukyu Koyamaen Aiya"
+   ],
+   "chars": 4391
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "en",
+   "prompt": "Which matcha suppliers in Hong Kong can supply cafés and bubble tea shops with bulk matcha? Please name companies and websites.",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bemytea.com.hk",
+    "teambonbonhk.com",
+    "purematchapartners.com",
+    "matchali.com",
+    "thenaturaltea.co"
+   ],
+   "fan_out": [
+    "Hong Kong wholesale matcha supplier cafe bulk matcha supplier",
+    "Hong Kong matcha wholesale cafe bubble tea supplier company",
+    "Hong Kong tea supplier matcha wholesale food service"
+   ],
+   "chars": 1855
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "en",
+   "prompt": "Which matcha suppliers in Hong Kong can supply cafés and bubble tea shops with bulk matcha? Please name companies and websites.",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "purematchapartners.com",
+    "accio.com",
+    "issamatcha.com",
+    "japanomars.com",
+    "made-in-china.com",
+    "matcha-spot.com",
+    "matchadb.com",
+    "sourcing.hktdc.com",
+    "sourceready.com"
+   ],
+   "fan_out": [],
+   "chars": 1527
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "en",
+   "prompt": "Which matcha suppliers in Hong Kong can supply cafés and bubble tea shops with bulk matcha? Please name companies and websites.",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "purematchapartners.com",
+    "bemytea.com.hk",
+    "matchaeasy.com",
+    "senchamatcha.com",
+    "matchali.com",
+    "issamatcha.com"
+   ],
+   "fan_out": [
+    "wholesale matcha supplier hong kong cafe bubble tea",
+    "bulk matcha powder supplier hong kong"
+   ],
+   "chars": 3417
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "en",
+   "prompt": "Which matcha suppliers in Hong Kong can supply cafés and bubble tea shops with bulk matcha? Please name companies and websites.",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": true,
+   "cited_domains": [
+    "bemytea.com.hk",
+    "purematchapartners.com",
+    "issamatcha.com",
+    "aoimatcha.com",
+    "matcha-matsu.com",
+    "richingmatcha.com",
+    "chtmatcha.com",
+    "matchasourcing.com"
+   ],
+   "fan_out": [
+    "bulk matcha wholesale supplier Hong Kong cafés",
+    "matcha powder supplier Hong Kong bubble tea shop wholesale"
+   ],
+   "chars": 3362
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "zh-TW",
+   "prompt": "香港有哪些抹茶粉批發供應商適合咖啡店？請列出公司名稱和網站。",
+   "engine": "chat_gpt",
+   "model": "gpt-6-luna",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bemytea.com.hk",
+    "teambonbonhk.com",
+    "matchaeasy.com",
+    "tsukimixjapan.com",
+    "purematchapartners.com",
+    "zenfood.com.hk"
+   ],
+   "fan_out": [
+    "香港 抹茶粉 批發 咖啡店 供應商",
+    "Hong Kong wholesale matcha powder supplier cafe matcha",
+    "香港 宇治抹茶 批發 食品材料供應商"
+   ],
+   "chars": 1415
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "zh-TW",
+   "prompt": "香港有哪些抹茶粉批發供應商適合咖啡店？請列出公司名稱和網站。",
+   "engine": "perplexity",
+   "model": "sonar",
+   "mentioned": true,
+   "cited": true,
+   "retrieved": true,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "purematchapartners.com",
+    "shop.price.com.hk",
+    "issamatcha.com",
+    "sourcing.hktdc.com",
+    "greenqueen.com.hk"
+   ],
+   "fan_out": [],
+   "chars": 942
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "zh-TW",
+   "prompt": "香港有哪些抹茶粉批發供應商適合咖啡店？請列出公司名稱和網站。",
+   "engine": "gemini",
+   "model": "gemini-3.8-flash",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "matchaeasy.com",
+    "bemytea.com.hk",
+    "matchali.com",
+    "matsu-cha.com",
+    "teambonbon.com.hk",
+    "kaorisabo.jimdofree.com"
+   ],
+   "fan_out": [
+    "hong kong matcha wholesale cafe supplier",
+    "香港 抹茶粉 批發 咖啡店",
+    "香港 日本抹茶 批發 供應商"
+   ],
+   "chars": 1689
+  },
+  {
+   "brand": "pmp",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "lang": "zh-TW",
+   "prompt": "香港有哪些抹茶粉批發供應商適合咖啡店？請列出公司名稱和網站。",
+   "engine": "claude",
+   "model": "claude-sonnet-5-5",
+   "mentioned": false,
+   "cited": false,
+   "retrieved": false,
+   "sister_mentioned": false,
+   "cited_domains": [
+    "bemytea.com.hk",
+    "kaorisabohk.com",
+    "zenfood.com.hk",
+    "longoent.com",
+    "proonect.com"
+   ],
+   "fan_out": [
+    "香港 抹茶粉 批發 咖啡店 供應商",
+    "Hong Kong matcha powder wholesale supplier cafe"
+   ],
+   "chars": 927
+  }
+ ]
+}

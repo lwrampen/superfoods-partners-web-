@@ -1,18 +1,18 @@
 {
  "primary": "pmp",
- "updated": "2026-11-12",
+ "updated": "2026-11-19",
  "gsc": {
   "d28": {
-   "clicks": 1025,
-   "impressions": 112772,
-   "ctr": 0.0091,
-   "position": 8.0174
+   "clicks": 1075,
+   "impressions": 122209,
+   "ctr": 0.0088,
+   "position": 7.909
   },
   "d90": {
-   "clicks": 3353,
-   "impressions": 332323,
-   "ctr": 0.0101,
-   "position": 8.3107
+   "clicks": 3396,
+   "impressions": 348916,
+   "ctr": 0.0097,
+   "position": 8.1671
   }
  },
  "history": [
@@ -60,6 +60,15 @@
    "pmp_top50": 3,
    "clicks28": 1025,
    "ref_sfp": 2
+  },
+  {
+   "date": "2026-11-19",
+   "sfp_top50": 17,
+   "sfp_top10": 3,
+   "sfp_top3": 1,
+   "pmp_top50": 3,
+   "clicks28": 1075,
+   "ref_sfp": 2
   }
  ],
  "clusters": [
@@ -75,13 +84,13 @@
     "SE",
     "US"
    ],
-   "volume": 188950,
+   "volume": 218060,
    "sfp_best": null,
-   "pmp_best": 4,
+   "pmp_best": 12,
    "keywords": 25,
-   "sfp_top10": 4,
+   "sfp_top10": 0,
    "target": "Top-3 + meer klikken",
-   "leader": "google.com"
+   "leader": "youtube.com"
   },
   {
    "name": "Matcha knowledge",
@@ -90,11 +99,11 @@
    ],
    "volume": 136170,
    "sfp_best": null,
-   "pmp_best": 8,
+   "pmp_best": 14,
    "keywords": 13,
-   "sfp_top10": 1,
+   "sfp_top10": 0,
    "target": "Top-5",
-   "leader": "naokimatcha.com"
+   "leader": "herbalgoodnessco.com"
   },
   {
    "name": "Hojicha",
@@ -109,27 +118,13 @@
     "UK",
     "US"
    ],
-   "volume": 41750,
-   "sfp_best": 5,
-   "pmp_best": 12,
+   "volume": 41920,
+   "sfp_best": 32,
+   "pmp_best": 33,
    "keywords": 24,
    "sfp_top10": 0,
    "target": "Top-10 US",
-   "leader": "jadeleafmatcha.com"
-  },
-  {
-   "name": "Matcha wholesale",
-   "markets": [
-    "UK",
-    "US"
-   ],
-   "volume": 12720,
-   "sfp_best": null,
-   "pmp_best": 4,
-   "keywords": 27,
-   "sfp_top10": 5,
-   "target": "Top-3 US/UK",
-   "leader": "wholesale.jadeleafmatcha.com"
+   "leader": "hojicha.co"
   },
   {
    "name": "Matcha Europe",
@@ -144,13 +139,27 @@
     "PL",
     "SE"
    ],
-   "volume": 5050,
-   "sfp_best": null,
-   "pmp_best": 3,
+   "volume": 17970,
+   "sfp_best": 17,
+   "pmp_best": 8,
    "keywords": 43,
    "sfp_top10": 1,
    "target": "Top-3 per land",
-   "leader": "vehgroshop.nl"
+   "leader": "meds.se"
+  },
+  {
+   "name": "Matcha wholesale",
+   "markets": [
+    "UK",
+    "US"
+   ],
+   "volume": 12830,
+   "sfp_best": null,
+   "pmp_best": 14,
+   "keywords": 27,
+   "sfp_top10": 0,
+   "target": "Top-3 US/UK",
+   "leader": "matcha.com"
   },
   {
    "name": "Food & beverage",
@@ -163,7 +172,20 @@
    "keywords": 6,
    "sfp_top10": 0,
    "target": "",
-   "leader": "shop.sugimotousa.com"
+   "leader": "in-tea.net"
+  },
+  {
+   "name": "Matcha Hong Kong",
+   "markets": [
+    "HK"
+   ],
+   "volume": 820,
+   "sfp_best": 22,
+   "pmp_best": 6,
+   "keywords": 10,
+   "sfp_top10": 1,
+   "target": "",
+   "leader": "zhidao.baidu.com"
   },
   {
    "name": "Mulberry",
@@ -172,11 +194,11 @@
    ],
    "volume": 400,
    "sfp_best": null,
-   "pmp_best": null,
+   "pmp_best": 2,
    "keywords": 2,
-   "sfp_top10": 0,
+   "sfp_top10": 1,
    "target": "",
-   "leader": "shop.sugimotousa.com"
+   "leader": "reddit.com"
   },
   {
    "name": "Private label",
@@ -185,11 +207,11 @@
    ],
    "volume": 210,
    "sfp_best": null,
-   "pmp_best": 1,
+   "pmp_best": 12,
    "keywords": 7,
-   "sfp_top10": 3,
+   "sfp_top10": 0,
    "target": "Top-5 US",
-   "leader": "jp-greentea.co.jp"
+   "leader": "google.com"
   }
  ],
  "keywords": [
@@ -202,14 +224,32 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
+    "youtube.com",
     "google.com",
-    "google.com",
-    "canalcoffeecompany.com"
+    "nioteas.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 90500
+  },
+  {
+   "cluster": "Café & latte",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha latte",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "1mal1japan.de",
+    "teezeit-germering.de",
+    "gimber.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 33100
   },
   {
    "cluster": "Café & latte",
@@ -220,9 +260,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchandco.fr",
-    "aroma-zone.com",
-    "pandatea.fr"
+    "matchamatcha.fr",
+    "latelierdelapolandaise.com",
+    "paperblog.fr"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -238,9 +278,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "alveus.eu",
-    "teashop.com",
-    "pasqualiniilcaffe.it"
+    "lacucinaitaliana.it",
+    "ricette.giallozafferano.it",
+    "sedicibrunch.it"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -256,11 +296,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "google.com",
-    "ujichamatcha.com",
-    "junbishop.com"
+    "inpursuitoftea.com",
+    "bulk.matcha.com",
+    "google.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 12100
@@ -276,30 +316,12 @@
    "top3": [
     "starbucks.com",
     "acozykitchen.com",
-    "naokimatcha.com"
+    "smithtea.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 12100
-  },
-  {
-   "cluster": "Café & latte",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "matcha latte",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "cooltea.es",
-    "theteamatcha.com",
-    "google.com"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": 9900
   },
   {
    "cluster": "Café & latte",
@@ -310,9 +332,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "wmf.pl",
-    "matchaandco.pl",
-    "swiezopalona.pl"
+    "lediplomate.pl",
+    "streetkitchen.hu",
+    "wiadomoscispozywcze.pl"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -328,9 +350,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "joyofmatcha.com",
-    "en.wikipedia.org",
-    "heymatcha.nl"
+    "nl.richingmatcha.com",
+    "yuice.nl",
+    "joybuy.nl"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -339,16 +361,34 @@
   },
   {
    "cluster": "Café & latte",
+   "market": "SE",
+   "location_code": "2752",
+   "language_code": "sv",
+   "keyword": "matcha latte",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "nioteas.se",
+    "sv.richingmatcha.com",
+    "bobatea.se"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 4400
+  },
+  {
+   "cluster": "Café & latte",
    "market": "US",
    "location_code": "2840",
    "language_code": "en",
    "keyword": "matcha powder for matcha latte",
    "pos_sfp": null,
-   "pos_pmp": 7,
+   "pos_pmp": null,
    "top3": [
-    "ohhowcivilized.com",
-    "spoonuniversity.com",
-    "google.com"
+    "lemon8-app.com",
+    "reddit.com",
+    "lemon8-app.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -362,15 +402,15 @@
    "language_code": "en",
    "keyword": "matcha ratio",
    "pos_sfp": null,
-   "pos_pmp": 5,
+   "pos_pmp": null,
    "top3": [
     "google.com",
-    "hugotea.com",
-    "sorate.co"
+    "google.com",
+    "toomatcha.com.au"
    ],
    "ai_overview": true,
    "ao_sfp": false,
-   "ao_pmp": false,
+   "ao_pmp": true,
    "volume": 1900
   },
   {
@@ -382,11 +422,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bonappetit.com",
-    "google.com",
-    "seriouseats.com"
+    "lemon8-app.com",
+    "richingmatcha.com",
+    "richingmatcha.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 1600
@@ -398,11 +438,11 @@
    "language_code": "en",
    "keyword": "matcha latte ratio",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 12,
    "top3": [
     "google.com",
-    "google.com",
-    "shopyamaze.com"
+    "richingmatcha.com",
+    "strayandsavor.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -416,13 +456,13 @@
    "language_code": "en",
    "keyword": "matcha latte powder",
    "pos_sfp": null,
-   "pos_pmp": 10,
+   "pos_pmp": null,
    "top3": [
-    "fromgreatorigins.com",
-    "somage.com",
-    "proportionalplate.com"
+    "richingmatcha.com",
+    "majestycoffeeschool.com",
+    "thespecialtycoffeebeans.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 1300
@@ -436,11 +476,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "smithtea.com",
-    "jadeleafmatcha.com",
+    "matchaoutlet.com",
+    "walmart.com",
     "amazon.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 1300
@@ -454,11 +494,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "sporked.com",
-    "tastingtable.com",
-    "google.com"
+    "shop.tiktok.com",
+    "weaverscoffee.com",
+    "sweetyhigh.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 880
@@ -473,7 +513,7 @@
    "pos_pmp": null,
    "top3": [
     "google.com",
-    "google.com",
+    "thematchayaad.com",
     "google.com"
    ],
    "ai_overview": true,
@@ -488,13 +528,49 @@
    "language_code": "en",
    "keyword": "how many grams of matcha per latte",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 15,
    "top3": [
-    "naokimatcha.asia",
-    "justonecookbook.com",
-    "lunamatcha.com"
+    "amazon.com",
+    "matcha.com",
+    "google.com"
    ],
    "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 720
+  },
+  {
+   "cluster": "Café & latte",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha latte pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.de",
+    "taste-market.de",
+    "amazon.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 720
+  },
+  {
+   "cluster": "Café & latte",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "bio matcha latte",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "naturitas.de",
+    "victorianhouse-shop.de",
+    "nutritienda.com"
+   ],
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 720
@@ -508,9 +584,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "maison-theerie.fr",
-    "ma-tchatcha.com",
-    "davidstea.com"
+    "irasshai.co",
+    "anatae.fr",
+    "irasshai.co"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -526,86 +602,14 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "miliamatcha.com",
-    "miliamatcha.com",
-    "fattoincasadabenedetta.it"
+    "mondodieutepia.com",
+    "teasoul.store",
+    "caffeaiello.it"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 320
-  },
-  {
-   "cluster": "Café & latte",
-   "market": "US",
-   "location_code": "2840",
-   "language_code": "en",
-   "keyword": "culinary matcha for lattes",
-   "pos_sfp": null,
-   "pos_pmp": 4,
-   "top3": [
-    "foodandwine.com",
-    "google.com",
-    "google.com"
-   ],
-   "ai_overview": true,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": 30
-  },
-  {
-   "cluster": "Café & latte",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "matcha latte",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "1mal1japan.de",
-    "matcha-karu.com",
-    "matcha-karu.com"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Café & latte",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "matcha latte pulver",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "frogcoffee.de",
-    "teeladen-herzberg.de",
-    "roastmarket.de"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Café & latte",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "bio matcha latte",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "matchashop.de",
-    "b2-biomarkt.de",
-    "aldi-nord.de"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
   },
   {
    "cluster": "Café & latte",
@@ -616,27 +620,45 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "althaustea.de",
-    "palaisdesthes.com",
-    "1mal1japan.de"
+    "matchaland.de",
+    "royaltcs.com",
+    "rujoly.de"
    ],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": null
+   "volume": 70
   },
   {
    "cluster": "Café & latte",
-   "market": "SE",
-   "location_code": "2752",
-   "language_code": "sv",
+   "market": "US",
+   "location_code": "2840",
+   "language_code": "en",
+   "keyword": "culinary matcha for lattes",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "google.com",
+    "seriouseats.com",
+    "teaism.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 30
+  },
+  {
+   "cluster": "Café & latte",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
    "keyword": "matcha latte",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "apohem.se",
-    "health-bar.com",
-    "koket.se"
+    "matchate.es",
+    "matchaandco.com",
+    "nioteas.es"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -652,9 +674,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "shop.sugimotousa.com",
-    "mizubatea.com",
-    "google.com"
+    "in-tea.net",
+    "teamatchazen.com",
+    "majestealeaf.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -670,9 +692,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "jadeleafmatcha.com",
-    "harney.com",
-    "aiya-america.com"
+    "culinaryteas.com",
+    "bulk.matcha.com",
+    "wholesale.jadeleafmatcha.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -688,9 +710,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "culinaryteas.com",
-    "amazon.com",
-    "matcha.com"
+    "richingmatcha.com",
+    "matchaoutlet.com",
+    "myteashack.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -706,11 +728,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "butteredsideupblog.com",
-    "tastingtable.com",
+    "benbumatcha.com",
+    "adorohumatcha.com",
     "google.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 30
@@ -724,9 +746,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "flyingbirdbotanicals.com",
-    "aiya-america.com",
-    "artfultea.com"
+    "brandclub.com",
+    "beta.brandclub.com",
+    "azzentea.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -743,10 +765,10 @@
    "pos_pmp": null,
    "top3": [
     "thematchabowl.com",
-    "eyesandhour.com",
-    "facebook.com"
+    "ujichamatcha.com",
+    "google.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 30
@@ -760,9 +782,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "jadeleafmatcha.com",
-    "kimikuratea.com",
-    "rishi-tea.com"
+    "hojicha.co",
+    "ochaandco.com",
+    "google.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -778,11 +800,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "anatae.fr",
-    "fr.wikipedia.org",
-    "anatae.fr"
+    "plaisirsdesthes.fr",
+    "boutiquemaisonsakura.fr",
+    "boutiquemaisonsakura.fr"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 9900
@@ -796,9 +818,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "eherbata.pl",
-    "mymatcha.pl",
-    "eherbata.pl"
+    "allegro.pl",
+    "manutea.pl",
+    "facebook.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -814,32 +836,14 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "nl.pit-pit.com",
-    "matchaoishii.com",
-    "evansnwatson.nl"
+    "nioteas.nl",
+    "manutea.nl",
+    "teainmotion.nl"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 5400
-  },
-  {
-   "cluster": "Hojicha",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "hojicha",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "es.wikipedia.org",
-    "mistelanea.com",
-    "teashop.com"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": 2400
   },
   {
    "cluster": "Hojicha",
@@ -850,9 +854,27 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "dhyanatea.com",
-    "moyamatcha.it",
-    "teasoul.store"
+    "goodtea.it",
+    "matchaandco.it",
+    "dolcevitaonline.it"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1600
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "SE",
+   "location_code": "2752",
+   "language_code": "sv",
+   "keyword": "hojicha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "tecentralen.se",
+    "inthemoodfortea.se",
+    "sv.wikipedia.org"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -868,14 +890,32 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "threeleaftea.com",
-    "beannbeancoffee.com",
-    "haki-tea.co.uk"
+    "sencha-tea.com",
+    "richingmatcha.com",
+    "facebook.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 880
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "hojicha pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "teequartier.de",
+    "tushita.eu",
+    "teequartier.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 720
   },
   {
    "cluster": "Hojicha",
@@ -886,9 +926,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "google.com",
-    "google.com",
-    "google.com"
+    "beyondmatcha.com",
+    "serenityscoffee.com",
+    "anchorandwatchcoffee.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -904,9 +944,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "kusmitea.com",
-    "anatae.fr",
-    "pandatea.fr"
+    "unamitea.com",
+    "blog.hisparis.com",
+    "lautrethe.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -922,14 +962,32 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "vehgroshop.nl",
-    "simonlevelt.nl",
-    "simonlevelt.nl"
+    "matchaoishii.com",
+    "gezonderwinkelen.nl",
+    "teainmotion.nl"
    ],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 260
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "SE",
+   "location_code": "2752",
+   "language_code": "sv",
+   "keyword": "hojicha te",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "pricerunner.se",
+    "tantensgrona.se",
+    "health-bar.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 170
   },
   {
    "cluster": "Hojicha",
@@ -940,11 +998,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "jadeleafmatcha.com",
-    "denstea.com",
-    "mizubatea.com"
+    "eliteabar.com",
+    "teatelltruth.com",
+    "google.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 140
@@ -958,8 +1016,8 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "kagoshimatea.com",
-    "methodicalcoffee.com",
+    "ochaandco.com",
+    "midorispring.com",
     "jadeleafmatcha.com"
    ],
    "ai_overview": false,
@@ -976,8 +1034,8 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "naokimatcha.com",
-    "foodandwine.com",
+    "google.com",
+    "google.com",
     "google.com"
    ],
    "ai_overview": true,
@@ -994,9 +1052,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "shopnanasgreentea.com",
-    "tinroofteas.com",
-    "cooklikeanerd.com"
+    "google.com",
+    "hojicha.co",
+    "kyotoyamasan-onlinestore.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -1005,21 +1063,39 @@
   },
   {
    "cluster": "Hojicha",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "hojicha beneficios",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "hojicha powder uk",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "casaperris.com",
-    "matchaandco.com",
-    "tetere.com"
+    "sutratea.com",
+    "naturaleuphoria.co.uk",
+    "buywholefoodsonline.co.uk"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": 40
+   "volume": 70
+  },
+  {
+   "cluster": "Hojicha",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "hojicha uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "japannakama.co.uk",
+    "thewasabicompany.co.uk",
+    "siocolat.uk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 50
   },
   {
    "cluster": "Hojicha",
@@ -1030,9 +1106,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "toulousesakeclub.com",
-    "toulousesakeclub.com",
-    "destination-bio.com"
+    "palaisdesthes.com",
+    "greenma.fr",
+    "nunshen.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -1045,12 +1121,12 @@
    "location_code": "2840",
    "language_code": "en",
    "keyword": "hojicha powder wholesale",
-   "pos_sfp": 5,
-   "pos_pmp": null,
+   "pos_sfp": null,
+   "pos_pmp": 33,
    "top3": [
-    "wholesale.sugimotousa.com",
-    "kurasu.kyoto",
-    "en.houjicha-maruyoshi.com"
+    "und-ny.com",
+    "inpursuitoftea.com",
+    "japan-food.jetro.go.jp"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1063,14 +1139,14 @@
    "location_code": "2840",
    "language_code": "en",
    "keyword": "hojicha supplier",
-   "pos_sfp": 8,
-   "pos_pmp": 12,
+   "pos_sfp": null,
+   "pos_pmp": null,
    "top3": [
-    "shop.sugimotousa.com",
-    "hojicha.co",
-    "en.houjicha-maruyoshi.com"
+    "wholesale.sugimotousa.com",
+    "ujichamatcha.com",
+    "google.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 10
@@ -1081,30 +1157,12 @@
    "location_code": "2840",
    "language_code": "en",
    "keyword": "bulk hojicha",
-   "pos_sfp": 42,
+   "pos_sfp": 32,
    "pos_pmp": null,
    "top3": [
-    "keichamatcha.com",
-    "densteawholesale.com",
-    "google.com"
-   ],
-   "ai_overview": true,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Hojicha",
-   "market": "UK",
-   "location_code": "2826",
-   "language_code": "en",
-   "keyword": "hojicha powder uk",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "perfectted.com",
-    "haki-tea.co.uk",
-    "hojichalab.co.uk"
+    "hojicha.co",
+    "google.com",
+    "shop.sugimotousa.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1113,52 +1171,16 @@
   },
   {
    "cluster": "Hojicha",
-   "market": "UK",
-   "location_code": "2826",
-   "language_code": "en",
-   "keyword": "hojicha uk",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "tea-direct.co.uk",
-    "amazon.co.uk",
-    "matchado.co.uk"
-   ],
-   "ai_overview": true,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Hojicha",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "hojicha pulver",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "teegschwendner.de",
-    "retail.companiontea.com",
-    "verymatcha.de"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Hojicha",
-   "market": "SE",
-   "location_code": "2752",
-   "language_code": "sv",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
    "keyword": "hojicha",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "prisjakt.nu",
-    "faire.com",
-    "valleyoftea.com"
+    "terzaluna.com",
+    "teapedia.org",
+    "worldteainstitute.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1167,21 +1189,75 @@
   },
   {
    "cluster": "Hojicha",
-   "market": "SE",
-   "location_code": "2752",
-   "language_code": "sv",
-   "keyword": "hojicha te",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "hojicha beneficios",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
+    "beyondmatcha.com",
+    "pt.richingmatcha.com",
+    "snapcalorie.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "SE",
+   "location_code": "2752",
+   "language_code": "sv",
+   "keyword": "matcha pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "meds.se",
     "tecentralen.se",
-    "sv.wikipedia.org",
-    "matgeek.se"
+    "meds.se"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 6600
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha kaufen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ebay.de",
+    "amazon.de",
+    "etsy.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": null
+   "volume": 3600
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha tee kaufen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "noelker-noelker.de",
+    "teeverliebt.de",
+    "noelker-noelker.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1900
   },
   {
    "cluster": "Matcha Europe",
@@ -1192,14 +1268,32 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "vehgroshop.nl",
-    "moyamatcha.nl",
-    "detheebaron.nl"
+    "grandbazaarist.com",
+    "fleurdecafe.nl",
+    "microdosebros.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 1600
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha pulver kaufen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "hsnstore.de",
+    "kusmitea.com",
+    "hsnstore.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 1000
   },
   {
    "cluster": "Matcha Europe",
@@ -1210,32 +1304,32 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "detheebaron.nl",
-    "teabar.nl",
-    "voordeelkruiden.nl"
+    "amazon.nl",
+    "microdosebros.com",
+    "detheespecialist.nl"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 590
   },
   {
    "cluster": "Matcha Europe",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "comprar te matcha",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "bio matcha tee",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "vehgroshop.es",
-    "info.mercadona.es",
-    "kiyamatea.com"
+    "matcha-karu.com",
+    "keiko.de",
+    "teekanne.de"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": 480
+   "volume": 390
   },
   {
    "cluster": "Matcha Europe",
@@ -1246,27 +1340,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "natuurproduct.com",
-    "dehippevegetarier.nl",
-    "ah.nl"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": 390
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "matcha donde comprar",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "teashop.com",
-    "granadateacompany.com",
-    "tienda.consum.es"
+    "cupsandleafs.nl",
+    "jcpromo.nl",
+    "toppromogifts.nl"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1282,32 +1358,14 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "aroma-zone.com",
-    "auparadisduthe.com",
-    "tpourthe.com"
+    "comptoirnourisson.com",
+    "futunatura.fr",
+    "sellercentral.amazon.fr"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 390
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "comprar matcha",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "harineraelmolino.com",
-    "aromasdete.com",
-    "tetereta.com"
-   ],
-   "ai_overview": true,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": 320
   },
   {
    "cluster": "Matcha Europe",
@@ -1318,14 +1376,32 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "kusmitea.com",
-    "amazon.fr",
-    "tpourthe.com"
+    "matchandco.fr",
+    "palaisdesthes.com",
+    "palaisdesthes.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 320
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "SE",
+   "location_code": "2752",
+   "language_code": "sv",
+   "keyword": "bästa matcha pulver",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "studscafe.dk",
+    "nioteas.se",
+    "tripii.dk"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 210
   },
   {
    "cluster": "Matcha Europe",
@@ -1336,14 +1412,32 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "thedesmuses.com",
-    "moyamatcha.fr",
-    "compagnie-anglaise-des-thes.fr"
+    "maisonkitsune.com",
+    "amazon.fr",
+    "matchaexpress.fr"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 140
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha großhandel",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "de.richingmatcha.com",
+    "de.richingmatcha.com",
+    "reddit.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 110
   },
   {
    "cluster": "Matcha Europe",
@@ -1354,9 +1448,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "theeje.nl",
-    "ah.nl",
-    "theevansander.nl"
+    "nl.richingmatcha.com",
+    "bol.com",
+    "amazon.nl"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1373,8 +1467,8 @@
    "pos_pmp": null,
    "top3": [
     "google.com",
-    "moyamatcha.it",
-    "google.com"
+    "erbasalus.it",
+    "it.richingmatcha.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1383,57 +1477,111 @@
   },
   {
    "cluster": "Matcha Europe",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "comprar matcha online",
+   "market": "SE",
+   "location_code": "2752",
+   "language_code": "sv",
+   "keyword": "köp matcha pulver",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchaandco.com",
-    "tetereta.com",
-    "aromasdete.com"
+    "ecosupplements.se",
+    "pricerunner.se",
+    "lifeoath.se"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": 70
+   "volume": 110
   },
   {
    "cluster": "Matcha Europe",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "comprar te matcha ceremonial",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha online kaufen",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "cafetearte.es",
-    "thematchahouse.com",
-    "bonsaimatcha.com"
+    "graefenhoftee.de",
+    "goasia.net",
+    "welt.de"
    ],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": 30
+   "volume": 90
   },
   {
    "cluster": "Matcha Europe",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "matcha al por mayor",
+   "market": "SE",
+   "location_code": "2752",
+   "language_code": "sv",
+   "keyword": "köp matcha te",
    "pos_sfp": null,
-   "pos_pmp": 26,
+   "pos_pmp": null,
    "top3": [
-    "matchaandco.com",
-    "spanish.alibaba.com",
-    "vehgroshop.es"
+    "amazon.se",
+    "amazon.se",
+    "pricerunner.se"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 90
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "japanischer matcha tee kaufen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "teegschwendner.de",
+    "teegschwendner.de",
+    "yoshien.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": 20
+   "volume": 50
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "matcha pulver bestellen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ebay.de",
+    "hsnstore.de",
+    "welt.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "bio matcha kaufen",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ebay.de",
+    "amazon.de",
+    "kaffee-tee-gewuerze-shop.de"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 40
   },
   {
    "cluster": "Matcha Europe",
@@ -1444,11 +1592,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "totamatcha.pl",
-    "hurtowniakawyherbaty.pl",
-    "emerkurysa.pl"
+    "herbata.com.pl",
+    "cafedujour.pl",
+    "jaglankadelikatesy.pl"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 20
@@ -1462,9 +1610,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "nl.pit-pit.com",
-    "joyofmatcha.com",
-    "google.com"
+    "nl.richingmatcha.com",
+    "zotezo.com",
+    "matchakin.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1480,9 +1628,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "mrmatcha.nl",
-    "moyamatcha.nl",
-    "mrmatcha.nl"
+    "roppongi.nl",
+    "koopjesdrogisterij.nl",
+    "bol.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1498,9 +1646,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "erboristeriacorradi.it",
-    "teashop.com",
-    "google.com"
+    "reddit.com",
+    "trovaprezzi.it",
+    "teaandmore-online.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1509,17 +1657,13 @@
   },
   {
    "cluster": "Matcha Europe",
-   "market": "ES",
-   "location_code": "2724",
-   "language_code": "es",
-   "keyword": "te matcha al por mayor",
+   "market": "DE",
+   "location_code": "2276",
+   "language_code": "de",
+   "keyword": "bio matcha großhandel",
    "pos_sfp": null,
-   "pos_pmp": 40,
-   "top3": [
-    "awartisan.es",
-    "puntodete.com",
-    "matchamatcha.es"
-   ],
+   "pos_pmp": null,
+   "top3": [],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
@@ -1530,51 +1674,15 @@
    "market": "DE",
    "location_code": "2276",
    "language_code": "de",
-   "keyword": "matcha großhandel",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "kteashop.com",
-    "funkymatcha.com",
-    "matchamatcha-shop.de"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
    "keyword": "matcha lieferant",
-   "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_sfp": 17,
+   "pos_pmp": 25,
    "top3": [
-    "matcha-dealer.com",
     "alveus.eu",
-    "matcha-wakaba.com"
+    "de.richingmatcha.com",
+    "de.richingmatcha.com"
    ],
    "ai_overview": true,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "bio matcha großhandel",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "eliradrops.de",
-    "de.richingmatcha.com",
-    "wlw.de"
-   ],
-   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": null
@@ -1586,11 +1694,11 @@
    "language_code": "nl",
    "keyword": "matcha groothandel",
    "pos_sfp": null,
-   "pos_pmp": 3,
+   "pos_pmp": 22,
    "top3": [
     "horeca-teabar.nl",
-    "shinrintea.nl",
-    "purematchapartners.com"
+    "horeca-teabar.nl",
+    "shinrintea.nl"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1606,9 +1714,27 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "mrmatcha.nl",
-    "nl.pit-pit.com",
-    "nl.richingmatcha.com"
+    "hanos.nl",
+    "matcha-wakaba.com",
+    "matcha-matcha.nl"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "matcha al por mayor",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "spanish.alibaba.com",
+    "es.ankorstore.com",
+    "es.ankorstore.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1622,13 +1748,13 @@
    "language_code": "es",
    "keyword": "proveedor de matcha",
    "pos_sfp": null,
-   "pos_pmp": 43,
+   "pos_pmp": 20,
    "top3": [
-    "kiyamatea.com",
-    "matchaandco.com",
-    "instagram.com"
+    "amazon.es",
+    "tuladeliaeco.es",
+    "ca.guiteamatcha.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": null
@@ -1643,8 +1769,8 @@
    "pos_pmp": null,
    "top3": [
     "grossiste-de-the.fr",
-    "alveus.eu",
-    "it.thesdirect.com"
+    "grossiste-boite.com",
+    "europages.fr"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -1658,11 +1784,11 @@
    "language_code": "sv",
    "keyword": "matcha grossist",
    "pos_sfp": null,
-   "pos_pmp": 11,
+   "pos_pmp": null,
    "top3": [
-    "grossist.se",
-    "matchawholesale.eu",
-    "faire.com"
+    "richingmatcha.com",
+    "da.richingmatcha.com",
+    "da.richingmatcha.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -1678,9 +1804,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchacha.dk",
-    "perchs.dk",
-    "health-bar.com"
+    "faire.com",
+    "dk.estickitchenware.com",
+    "faire.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -1696,9 +1822,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "everythingmatcha.ch",
-    "drinks.ch",
-    "matcharista.ch"
+    "matchafactory.ch",
+    "facebook.com",
+    "wlw.ch"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1707,16 +1833,52 @@
   },
   {
    "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "matcha kaufen",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "comprar matcha",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matcha-magic.de",
-    "taste-market.de",
-    "teespeicher.de"
+    "amazon.es",
+    "malayerbacanarias.es",
+    "tuladeliaeco.es"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "comprar te matcha",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "elgranodete.com",
+    "cafetoycamellia.es",
+    "ekieko.es"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha Europe",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "matcha donde comprar",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "amazon.es",
+    "tuladeliaeco.es",
+    "clientes.merloytorrente.es"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1725,16 +1887,16 @@
   },
   {
    "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "matcha pulver kaufen",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "te matcha al por mayor",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 40,
    "top3": [
-    "biokontor.de",
-    "hsnstore.de",
-    "rheinnatur.de"
+    "vehgroshop.es",
+    "spanish.alibaba.com",
+    "es.ankorstore.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1743,16 +1905,16 @@
   },
   {
    "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "matcha tee kaufen",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "comprar te matcha ceremonial",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matcha-magic.de",
-    "tee-handelskontor-bremen.de",
-    "rewe.de"
+    "amazon.es",
+    "matchaandco.com",
+    "fincalamesa.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1761,90 +1923,18 @@
   },
   {
    "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "bio matcha tee",
+   "market": "ES",
+   "location_code": "2724",
+   "language_code": "es",
+   "keyword": "comprar matcha online",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "puretea.de",
-    "matcha-magic.de",
-    "teaworld.de"
+    "graneleselmontanes.es",
+    "agranelshop.com",
+    "health-bar.com"
    ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "matcha online kaufen",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "yoshien.com",
-    "teaflower.de",
-    "rewe.de"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "matcha pulver bestellen",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "rheinnatur.de",
-    "rheinnatur.de",
-    "buxtrade.de"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "bio matcha kaufen",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "teaworld.de",
-    "gewuerze-buechel.de",
-    "idealo.de"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha Europe",
-   "market": "DE",
-   "location_code": "2276",
-   "language_code": "de",
-   "keyword": "japanischer matcha tee kaufen",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "maiko.ne.jp",
-    "tezen.eu",
-    "wanderweib.de"
-   ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": null
@@ -1858,9 +1948,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "alveus.eu",
-    "nishikidori.com",
-    "matchamatcha.fr"
+    "accio.com",
+    "reddit.com",
+    "bulk.matcha.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -1874,11 +1964,11 @@
    "language_code": "pl",
    "keyword": "matcha hurtownia",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 8,
    "top3": [
-    "krainaherbaty.pl",
-    "kawaherbatasklep.pl",
-    "ouritsumatcha.pl"
+    "zielonypuls.pl",
+    "pastry.com.pl",
+    "kupujezdrowo.pl"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1886,35 +1976,89 @@
    "volume": null
   },
   {
-   "cluster": "Matcha Europe",
-   "market": "SE",
-   "location_code": "2752",
-   "language_code": "sv",
-   "keyword": "matcha pulver",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "zh-TW",
+   "keyword": "焙茶粉",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "tehusetjava.se",
-    "teajunkie.se",
-    "ica.se"
+    "zhidao.baidu.com",
+    "world.taobao.com",
+    "world.taobao.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 590
+  },
+  {
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "en",
+   "keyword": "matcha powder hong kong",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "moretea.hk",
+    "voguehk.com",
+    "bemytea.com.hk"
    ],
    "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": null
+   "volume": 210
   },
   {
-   "cluster": "Matcha Europe",
-   "market": "SE",
-   "location_code": "2752",
-   "language_code": "sv",
-   "keyword": "köp matcha pulver",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "en",
+   "keyword": "hojicha powder hong kong",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "apotea.se",
-    "thehuset.se",
-    "ravarubutiken.se"
+    "world.taobao.com",
+    "world.taobao.com",
+    "world.taobao.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "zh-TW",
+   "keyword": "抹茶粉 批發",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "hktvmall.com",
+    "tfhco.com.hk",
+    "facebook.com"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "en",
+   "keyword": "matcha wholesale hong kong",
+   "pos_sfp": null,
+   "pos_pmp": 6,
+   "top3": [
+    "matchaeasy.com",
+    "matchali.com",
+    "bemytea.com.hk"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -1922,17 +2066,35 @@
    "volume": null
   },
   {
-   "cluster": "Matcha Europe",
-   "market": "SE",
-   "location_code": "2752",
-   "language_code": "sv",
-   "keyword": "bästa matcha pulver",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "en",
+   "keyword": "matcha supplier hong kong",
+   "pos_sfp": null,
+   "pos_pmp": 44,
+   "top3": [
+    "store.chefs-market.com.hk",
+    "reddit.com",
+    "kamcha.com.hk"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "en",
+   "keyword": "ceremonial matcha hong kong",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "sverigesfitness.se",
-    "kostnörd.se",
-    "reneevoltaire.se"
+    "yohohongkong.com",
+    "yohohongkong.com",
+    "bemytea.com.hk"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1940,19 +2102,55 @@
    "volume": null
   },
   {
-   "cluster": "Matcha Europe",
-   "market": "SE",
-   "location_code": "2752",
-   "language_code": "sv",
-   "keyword": "köp matcha te",
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "en",
+   "keyword": "matcha for cafes hong kong",
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "houseoftea.se",
-    "johanochnystrom.se",
-    "lifebutiken.se"
+    "classpass.fr",
+    "facebook.com",
+    "theloop.hk"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "zh-TW",
+   "keyword": "抹茶粉 供應商",
+   "pos_sfp": 22,
+   "pos_pmp": null,
+   "top3": [
+    "goodyoung.info",
+    "zenfood.com.hk",
+    "google.com"
    ],
    "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": null
+  },
+  {
+   "cluster": "Matcha Hong Kong",
+   "market": "HK",
+   "location_code": "2344",
+   "language_code": "zh-TW",
+   "keyword": "抹茶 批發 香港",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "google.com",
+    "world.taobao.com",
+    "tehmag.com.hk"
+   ],
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": null
@@ -1966,9 +2164,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "naokimatcha.com",
-    "encha.com",
-    "artoftea.com"
+    "herbalgoodnessco.com",
+    "smartlistz.com",
+    "akimatcha.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -1984,9 +2182,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "proportionalplate.com",
-    "sporked.com",
-    "rishi-tea.com"
+    "myteashack.com",
+    "chtnature.com",
+    "brandclub.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2002,9 +2200,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "aiya-america.com",
-    "republicoftea.com",
-    "naokimatcha.com"
+    "bulk.matcha.com",
+    "softbite.us",
+    "gourmail.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2020,9 +2218,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "minimalistbaker.com",
-    "tastingtable.com",
-    "shop.ikkyu-tea.com"
+    "naokimatcha.com",
+    "bonappetit.com",
+    "google.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2036,11 +2234,11 @@
    "language_code": "en",
    "keyword": "how matcha is made",
    "pos_sfp": null,
-   "pos_pmp": 22,
+   "pos_pmp": null,
    "top3": [
-    "breakawaymatcha.com",
-    "en.wikipedia.org",
-    "ujimatchatea.com"
+    "ceremonymatcha.com",
+    "chalait.com",
+    "google.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2056,13 +2254,13 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "jadeleafmatcha.com",
-    "artoftea.com",
-    "valleyoftea.com"
+    "ujimatchatea.com",
+    "allulo.co.za",
+    "facebook.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
-   "ao_pmp": false,
+   "ao_pmp": true,
    "volume": 1600
   },
   {
@@ -2074,9 +2272,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "republicoftea.com",
     "jadeleafmatcha.com",
-    "bulk.matcha.com"
+    "bulk.matcha.com",
+    "republicoftea.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2092,9 +2290,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matchakoi.com",
-    "amazon.com",
-    "oasisatthemill.com"
+    "accio.com",
+    "accio.com",
+    "aliasmatcha.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2108,10 +2306,10 @@
    "language_code": "en",
    "keyword": "mulberry matcha",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 14,
    "top3": [
-    "shimaneorganicfarm.com",
-    "google.com",
+    "walmart.com",
+    "shop.com",
     "google.com"
    ],
    "ai_overview": true,
@@ -2129,12 +2327,12 @@
    "pos_pmp": null,
    "top3": [
     "google.com",
-    "satoriteahouse.com.au",
-    "myjapanesegreentea.com"
+    "google.com",
+    "matchamasta.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
-   "ao_pmp": true,
+   "ao_pmp": false,
    "volume": 320
   },
   {
@@ -2144,15 +2342,15 @@
    "language_code": "en",
    "keyword": "different grades of matcha",
    "pos_sfp": null,
-   "pos_pmp": 16,
+   "pos_pmp": null,
    "top3": [
-    "ujido.com",
-    "getcrafti.sg",
-    "matchacafe-maiko.com"
+    "google.com",
+    "riverandstonetea.com",
+    "theamisraelchai.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
-   "ao_pmp": false,
+   "ao_pmp": true,
    "volume": 260
   },
   {
@@ -2162,11 +2360,11 @@
    "language_code": "en",
    "keyword": "ceremonial vs culinary matcha",
    "pos_sfp": null,
-   "pos_pmp": 8,
+   "pos_pmp": null,
    "top3": [
-    "teaologists.co.uk",
-    "ujido.com",
-    "riverandstonetea.com"
+    "pure-tea.co",
+    "google.com",
+    "open.spotify.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2182,13 +2380,13 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "jadeleafmatcha.com",
-    "foodandwine.com",
-    "matchazuki.com"
+    "richingmatcha.com",
+    "richingmatcha.com",
+    "rockfallscoffee.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
-   "ao_pmp": false,
+   "ao_pmp": true,
    "volume": 110
   },
   {
@@ -2198,11 +2396,11 @@
    "language_code": "en",
    "keyword": "bulk matcha",
    "pos_sfp": null,
-   "pos_pmp": 16,
+   "pos_pmp": null,
    "top3": [
-    "wholesale.jadeleafmatcha.com",
-    "matchasource.com",
-    "heavenlytealeaves.com"
+    "matcha.com",
+    "richingmatcha.com",
+    "akimatcha.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2218,9 +2416,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "wholesale.jadeleafmatcha.com",
-    "kagoshimatea.com",
-    "yokomatcha.com"
+    "bluecart.com",
+    "akimatcha.com",
+    "supplyleader.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2234,13 +2432,13 @@
    "language_code": "en",
    "keyword": "matcha tea bulk",
    "pos_sfp": null,
-   "pos_pmp": 7,
+   "pos_pmp": null,
    "top3": [
     "bulk.matcha.com",
-    "aprikamatcha.com",
-    "google.com"
+    "wholesale.sugimotousa.com",
+    "bulkfoods.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 1300
@@ -2252,11 +2450,11 @@
    "language_code": "en",
    "keyword": "matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": 14,
+   "pos_pmp": null,
    "top3": [
-    "shop.sugimotousa.com",
-    "yokomatcha.com",
-    "google.com"
+    "matchaoutlet.com",
+    "bygmatcha.com",
+    "onewithtea.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2270,13 +2468,13 @@
    "language_code": "en",
    "keyword": "wholesale matcha",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 20,
    "top3": [
+    "kettl.co",
     "bulk.matcha.com",
-    "wholesale.artoftea.com",
-    "wholesale.fullleafteacompany.com"
+    "google.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 1000
@@ -2290,9 +2488,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "wholesale.jadeleafmatcha.com",
-    "kettl.co"
+    "akimatcha.com",
+    "bluecart.com",
+    "accio.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2306,13 +2504,13 @@
    "language_code": "en",
    "keyword": "matcha green tea wholesale",
    "pos_sfp": null,
-   "pos_pmp": 6,
+   "pos_pmp": null,
    "top3": [
-    "wholesale.jadeleafmatcha.com",
-    "kagoshimatea.com",
-    "shop.sugimotousa.com"
+    "bulk.matcha.com",
+    "bulk.matcha.com",
+    "bulk.matcha.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 1000
@@ -2324,10 +2522,10 @@
    "language_code": "en",
    "keyword": "matcha powder bulk",
    "pos_sfp": null,
-   "pos_pmp": 8,
+   "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "matchasource.com",
+    "wholesale.sugimotousa.com",
+    "wholesale.theteaheaven.com",
     "bulk.matcha.com"
    ],
    "ai_overview": false,
@@ -2342,13 +2540,13 @@
    "language_code": "en",
    "keyword": "bulk matcha powder",
    "pos_sfp": null,
-   "pos_pmp": 4,
+   "pos_pmp": null,
    "top3": [
-    "soarorganics.com",
     "bulk.matcha.com",
-    "keichamatcha.com"
+    "google.com",
+    "riverandstonetea.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 720
@@ -2362,11 +2560,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "wpbulk.com",
-    "keichamatcha.com",
-    "matchaoutlet.com"
+    "bulk.matcha.com",
+    "matchasource.com",
+    "kettl.co"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 720
@@ -2380,11 +2578,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "wholesale.jadeleafmatcha.com",
-    "nipponcha.us"
+    "matchawholesalefactory.com",
+    "bluecart.com",
+    "akimatcha.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 590
@@ -2398,11 +2596,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "wholesale.theteaheaven.com",
-    "google.com",
-    "keichamatcha.com"
+    "bluecart.com",
+    "richingmatcha.com",
+    "wonnda.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 590
@@ -2414,11 +2612,11 @@
    "language_code": "en",
    "keyword": "matcha tea manufacturers",
    "pos_sfp": null,
-   "pos_pmp": 17,
+   "pos_pmp": null,
    "top3": [
-    "takezawa.jp.net",
-    "uptontea.com",
-    "nmteaco.com"
+    "matchakyoto.com",
+    "onewithtea.com",
+    "aiya-america.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2434,11 +2632,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
+    "und-ny.com",
     "bulk.matcha.com",
-    "nipponcha.us",
-    "bulk.matcha.com"
+    "herbs-teas.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 260
@@ -2452,11 +2650,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "nipponcha.us",
-    "wholesale.fullleafteacompany.com"
+    "accio.com",
+    "chunlitea.com",
+    "accio.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 140
@@ -2468,11 +2666,11 @@
    "language_code": "en",
    "keyword": "bulk ceremonial matcha",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 14,
    "top3": [
-    "wholesale.jadeleafmatcha.com",
     "bulk.matcha.com",
-    "aiya-america.com"
+    "wholesale.jadeleafmatcha.com",
+    "shop.sugimotousa.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2488,11 +2686,29 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "onewithtea.com",
-    "matchaoutlet.com"
+    "bluecart.com",
+    "akimatcha.com",
+    "akimatcha.com"
    ],
    "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 70
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "matcha wholesale uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "google.com",
+    "shopcoffee.co.uk",
+    "matchawholesale.co.uk"
+   ],
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 70
@@ -2504,11 +2720,11 @@
    "language_code": "en",
    "keyword": "japanese matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": 16,
+   "pos_pmp": null,
    "top3": [
-    "shop.sugimotousa.com",
-    "cultivatetea.com",
-    "google.com"
+    "herbuno.com",
+    "gourmetroastedcoffee.com",
+    "yutea.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2524,9 +2740,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "butteredsideupblog.com",
-    "minimalistbaker.com",
-    "google.com"
+    "richingmatcha.com",
+    "richingmatcha.com",
+    "keychain.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2542,9 +2758,9 @@
    "pos_sfp": null,
    "pos_pmp": 20,
    "top3": [
-    "shop.sugimotousa.com",
     "bulk.matcha.com",
-    "riverandstonetea.com"
+    "kettl.co",
+    "google.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2558,11 +2774,11 @@
    "language_code": "en",
    "keyword": "matcha powder supplier",
    "pos_sfp": null,
-   "pos_pmp": 36,
+   "pos_pmp": null,
    "top3": [
-    "ujimatchatea.com",
-    "google.com",
-    "matchakyoto.com"
+    "ceresherb.com",
+    "sumiye-co.com",
+    "ensun.io"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2576,11 +2792,29 @@
    "language_code": "en",
    "keyword": "organic matcha bulk",
    "pos_sfp": null,
-   "pos_pmp": 37,
+   "pos_pmp": null,
    "top3": [
     "bulk.matcha.com",
     "bulk.matcha.com",
-    "vehgroshop.com"
+    "supplybulkfoods.com"
+   ],
+   "ai_overview": false,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 30
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "matcha powder wholesale uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "ukmatchawholesale.co.uk",
+    "cateringcentre.co.uk",
+    "faire.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2594,11 +2828,29 @@
    "language_code": "en",
    "keyword": "organic matcha wholesale",
    "pos_sfp": null,
-   "pos_pmp": 9,
+   "pos_pmp": null,
    "top3": [
     "bulk.matcha.com",
     "wholesale.jadeleafmatcha.com",
-    "keichamatcha.com"
+    "kettl.co"
+   ],
+   "ai_overview": true,
+   "ao_sfp": false,
+   "ao_pmp": false,
+   "volume": 10
+  },
+  {
+   "cluster": "Matcha wholesale",
+   "market": "UK",
+   "location_code": "2826",
+   "language_code": "en",
+   "keyword": "matcha supplier uk",
+   "pos_sfp": null,
+   "pos_pmp": null,
+   "top3": [
+    "matchawholesale.co.uk",
+    "matchaandco.co.uk",
+    "perfectted.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2614,68 +2866,14 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "wholesale.artoftea.com",
-    "bulk.matcha.com",
-    "bulk.matcha.com"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": 10
-  },
-  {
-   "cluster": "Matcha wholesale",
-   "market": "UK",
-   "location_code": "2826",
-   "language_code": "en",
-   "keyword": "matcha wholesale uk",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "matchado.co.uk",
-    "moicha.com",
-    "google.com"
+    "gosupps.com",
+    "walmart.com",
+    "accio.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha wholesale",
-   "market": "UK",
-   "location_code": "2826",
-   "language_code": "en",
-   "keyword": "matcha supplier uk",
-   "pos_sfp": null,
-   "pos_pmp": null,
-   "top3": [
-    "matchado.co.uk",
-    "grind.co.uk",
-    "avantcha.co.uk"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
-  },
-  {
-   "cluster": "Matcha wholesale",
-   "market": "UK",
-   "location_code": "2826",
-   "language_code": "en",
-   "keyword": "matcha powder wholesale uk",
-   "pos_sfp": null,
-   "pos_pmp": 15,
-   "top3": [
-    "blendsmithswholesale.com",
-    "bobabox.co.uk",
-    "brake.co.uk"
-   ],
-   "ai_overview": false,
-   "ao_sfp": false,
-   "ao_pmp": false,
-   "volume": null
+   "volume": 10
   },
   {
    "cluster": "Mulberry",
@@ -2686,9 +2884,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "shop.sugimotousa.com",
-    "google.com",
-    "clearspring.co.uk"
+    "reddit.com",
+    "joywinnatural.com",
+    "facebook.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2702,11 +2900,11 @@
    "language_code": "en",
    "keyword": "mulberry matcha tea benefits",
    "pos_sfp": null,
-   "pos_pmp": null,
+   "pos_pmp": 2,
    "top3": [
-    "innermostglobal.com",
-    "aiya-america.com",
-    "google.com"
+    "healthline.com",
+    "purematchapartners.com",
+    "teaandwhisk.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2720,11 +2918,11 @@
    "language_code": "en",
    "keyword": "private label matcha",
    "pos_sfp": null,
-   "pos_pmp": 4,
+   "pos_pmp": 12,
    "top3": [
-    "jp-greentea.co.jp",
     "google.com",
-    "maruyamatea.jp"
+    "bulk.matcha.com",
+    "matcha-times.jp"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2738,11 +2936,11 @@
    "language_code": "en",
    "keyword": "private label matcha tea",
    "pos_sfp": null,
-   "pos_pmp": 1,
+   "pos_pmp": 17,
    "top3": [
-    "purematchapartners.com",
     "google.com",
-    "matsu1960.com"
+    "google.com",
+    "wholesale.sugimotousa.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2756,11 +2954,11 @@
    "language_code": "en",
    "keyword": "white label matcha",
    "pos_sfp": null,
-   "pos_pmp": 3,
+   "pos_pmp": null,
    "top3": [
-    "matsu1960.com",
+    "miaroo.com",
     "google.com",
-    "purematchapartners.com"
+    "matchasourcing.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2776,11 +2974,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "kettl.co",
-    "google.com",
-    "the-chasen.com"
+    "accio.com",
+    "akimatcha.com",
+    "guiteamatcha.com"
    ],
-   "ai_overview": true,
+   "ai_overview": false,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 40
@@ -2794,11 +2992,11 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "und-ny.com",
+    "mymatchalife.com",
     "google.com",
-    "originuji.com"
+    "wholesale.sugimotousa.com"
    ],
-   "ai_overview": false,
+   "ai_overview": true,
    "ao_sfp": false,
    "ao_pmp": false,
    "volume": 20
@@ -2812,9 +3010,9 @@
    "pos_sfp": null,
    "pos_pmp": null,
    "top3": [
-    "matcha-dealer.com",
-    "google.com",
-    "thesantecompany.com"
+    "richingmatcha.com",
+    "bluecart.com",
+    "google.com"
    ],
    "ai_overview": true,
    "ao_sfp": false,
@@ -2828,11 +3026,11 @@
    "language_code": "en",
    "keyword": "custom matcha blend",
    "pos_sfp": null,
-   "pos_pmp": 17,
+   "pos_pmp": null,
    "top3": [
-    "bulk.matcha.com",
-    "bulk.matcha.com",
-    "takezawa.jp.net"
+    "richingmatcha.com",
+    "accio.com",
+    "matchayoko.com"
    ],
    "ai_overview": false,
    "ao_sfp": false,
@@ -2844,9 +3042,9 @@
   "superfoodspartners.com": 1,
   "purematchapartners.com": 2,
   "jadeleafmatcha.com": 32,
-  "matchaful.com": 19,
+  "matchaful.com": 21,
   "keichamatcha.com": 1,
-  "matcha.com": 53
+  "matcha.com": 55
  },
  "prospects": [
   {
@@ -3410,87 +3608,87 @@
  ],
  "prospects_total": 169,
  "ai": {
-  "ao_serps": 69,
-  "ao_ours": 4,
+  "ao_serps": 80,
+  "ao_ours": 7,
   "ao_measured": true,
-  "date": "2026-11-12",
-  "mentioned": 0.325,
-  "cited": 0.237,
-  "retrieved": 0.25,
+  "date": "2026-11-19",
+  "mentioned": 0.341,
+  "cited": 0.25,
+  "retrieved": 0.307,
   "per_engine": {
    "chat_gpt": {
-    "mentioned": 0.05,
-    "cited": 0.05,
-    "retrieved": 0.1,
-    "answers": 20
+    "mentioned": 0.182,
+    "cited": 0.182,
+    "retrieved": 0.409,
+    "answers": 22
    },
    "perplexity": {
-    "mentioned": 0.35,
-    "cited": 0.35,
-    "retrieved": 0.35,
-    "answers": 20
+    "mentioned": 0.318,
+    "cited": 0.364,
+    "retrieved": 0.364,
+    "answers": 22
    },
    "gemini": {
-    "mentioned": 0.35,
-    "cited": 0.05,
+    "mentioned": 0.409,
+    "cited": 0.045,
     "retrieved": 0.0,
-    "answers": 20
+    "answers": 22
    },
    "claude": {
-    "mentioned": 0.55,
-    "cited": 0.5,
-    "retrieved": 0.55,
-    "answers": 20
+    "mentioned": 0.455,
+    "cited": 0.409,
+    "retrieved": 0.455,
+    "answers": 22
    }
   },
   "top_cited": [
    [
     "purematchapartners.com",
-    19
-   ],
-   [
-    "japanomars.com",
-    12
+    22
    ],
    [
     "bulk.matcha.com",
-    10
+    14
    ],
    [
     "matchadb.com",
-    7
+    13
+   ],
+   [
+    "japanomars.com",
+    13
    ],
    [
     "accio.com",
+    8
+   ],
+   [
+    "b2b.yumimatcha.com",
+    8
+   ],
+   [
+    "issamatcha.com",
+    8
+   ],
+   [
+    "aoimatcha.com",
+    7
+   ],
+   [
+    "jadeleafmatcha.com",
     7
    ],
    [
     "akimatcha.com",
-    7
+    6
    ],
    [
-    "bigmoca.nl",
-    7
+    "aiya-europe.com",
+    6
    ],
    [
     "matcha-wakaba.com",
     6
-   ],
-   [
-    "chtmatcha.com",
-    6
-   ],
-   [
-    "teasenz.com",
-    6
-   ],
-   [
-    "faire.com",
-    5
-   ],
-   [
-    "matchia.us",
-    5
    ]
   ],
   "prompts": [
@@ -3499,10 +3697,10 @@
     "market": "US",
     "cluster": "Matcha wholesale",
     "engines": {
-     "chat_gpt": "none",
-     "perplexity": "cited",
+     "chat_gpt": "retrieved",
+     "perplexity": "none",
      "gemini": "none",
-     "claude": "cited"
+     "claude": "none"
     }
    },
    {
@@ -3510,7 +3708,7 @@
     "market": "US",
     "cluster": "Matcha wholesale",
     "engines": {
-     "chat_gpt": "none",
+     "chat_gpt": "retrieved",
      "perplexity": "cited",
      "gemini": "mentioned",
      "claude": "cited"
@@ -3523,7 +3721,7 @@
     "engines": {
      "chat_gpt": "none",
      "perplexity": "none",
-     "gemini": "cited",
+     "gemini": "none",
      "claude": "none"
     }
    },
@@ -3544,9 +3742,9 @@
     "cluster": "Café & latte",
     "engines": {
      "chat_gpt": "none",
-     "perplexity": "none",
+     "perplexity": "cited",
      "gemini": "none",
-     "claude": "none"
+     "claude": "retrieved"
     }
    },
    {
@@ -3568,7 +3766,7 @@
      "chat_gpt": "none",
      "perplexity": "cited",
      "gemini": "mentioned",
-     "claude": "cited"
+     "claude": "mentioned"
     }
    },
    {
@@ -3576,7 +3774,7 @@
     "market": "EU",
     "cluster": "Private label",
     "engines": {
-     "chat_gpt": "cited",
+     "chat_gpt": "retrieved",
      "perplexity": "cited",
      "gemini": "mentioned",
      "claude": "none"
@@ -3589,7 +3787,7 @@
     "engines": {
      "chat_gpt": "none",
      "perplexity": "none",
-     "gemini": "none",
+     "gemini": "mentioned",
      "claude": "cited"
     }
    },
@@ -3598,10 +3796,10 @@
     "market": "US",
     "cluster": "Food & beverage",
     "engines": {
-     "chat_gpt": "none",
-     "perplexity": "cited",
-     "gemini": "mentioned",
-     "claude": "mentioned"
+     "chat_gpt": "retrieved",
+     "perplexity": "none",
+     "gemini": "none",
+     "claude": "cited"
     }
    },
    {
@@ -3611,8 +3809,8 @@
     "engines": {
      "chat_gpt": "none",
      "perplexity": "none",
-     "gemini": "none",
-     "claude": "none"
+     "gemini": "mentioned",
+     "claude": "cited"
     }
    },
    {
@@ -3620,7 +3818,7 @@
     "market": "US",
     "cluster": "Mulberry",
     "engines": {
-     "chat_gpt": "none",
+     "chat_gpt": "cited",
      "perplexity": "none",
      "gemini": "mentioned",
      "claude": "cited"
@@ -3634,7 +3832,7 @@
      "chat_gpt": "none",
      "perplexity": "cited",
      "gemini": "none",
-     "claude": "cited"
+     "claude": "none"
     }
    },
    {
@@ -3656,7 +3854,7 @@
      "chat_gpt": "none",
      "perplexity": "none",
      "gemini": "none",
-     "claude": "cited"
+     "claude": "none"
     }
    },
    {
@@ -3664,9 +3862,9 @@
     "market": "DE",
     "cluster": "Matcha Europe",
     "engines": {
-     "chat_gpt": "none",
-     "perplexity": "cited",
-     "gemini": "none",
+     "chat_gpt": "cited",
+     "perplexity": "none",
+     "gemini": "mentioned",
      "claude": "cited"
     }
    },
@@ -3676,7 +3874,7 @@
     "cluster": "Matcha Europe",
     "engines": {
      "chat_gpt": "retrieved",
-     "perplexity": "none",
+     "perplexity": "cited",
      "gemini": "none",
      "claude": "cited"
     }
@@ -3713,6 +3911,28 @@
      "gemini": "none",
      "claude": "none"
     }
+   },
+   {
+    "prompt": "Which matcha suppliers in Hong Kong can supply cafés and bubble tea shops with bulk matcha? Please name companies and websites.",
+    "market": "HK",
+    "cluster": "Matcha Hong Kong",
+    "engines": {
+     "chat_gpt": "cited",
+     "perplexity": "cited",
+     "gemini": "cited",
+     "claude": "cited"
+    }
+   },
+   {
+    "prompt": "香港有哪些抹茶粉批發供應商適合咖啡店？請列出公司名稱和網站。",
+    "market": "HK",
+    "cluster": "Matcha Hong Kong",
+    "engines": {
+     "chat_gpt": "cited",
+     "perplexity": "cited",
+     "gemini": "none",
+     "claude": "none"
+    }
    }
   ],
   "history": [
@@ -3720,6 +3940,11 @@
     "date": "2026-11-12",
     "mentioned": 0.325,
     "cited": 0.237
+   },
+   {
+    "date": "2026-11-19",
+    "mentioned": 0.341,
+    "cited": 0.25
    }
   ]
  }
