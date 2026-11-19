@@ -1120,15 +1120,16 @@ export const STATIC_POSTS: InsightPost[] = [
   {
     slug: "ube-vs-taro-vs-purple-sweet-potato",
     date: "2026-10-26",
+    updated: "2026-11-19",
     author: "Wanjin",
-    readingMins: 6,
+    readingMins: 7,
     hero: "/products/ube.jpg",
     heroAlt: E("Ube purple yam powder, milled to a naturally violet colour"),
     category: E("Ingredient guide"),
     authorRole: E("Supply chain & sourcing"),
     title: E("Ube vs taro vs purple sweet potato: how to tell them apart when you source"),
-    metaTitle: E("Ube vs Taro vs Purple Sweet Potato — A Buyer's Guide"),
-    metaDescription: E("Ube is a purple yam (Dioscorea alata), not taro and not purple sweet potato. How the three differ in botany, colour and flavour, and what to check on a spec before you buy."),
+    metaTitle: E("Ube vs Taro vs Yam vs Purple Sweet Potato: Differences"),
+    metaDescription: E("Ube is a purple yam (Dioscorea alata), not taro and not a sweet potato. How ube, taro, yam and purple sweet potato differ, and what to check on a spec."),
     dek: E("Three purple-to-lilac roots are sold under overlapping names. For a manufacturer the difference decides colour, flavour and what the label can say."),
     lede: E("Ube, taro and purple sweet potato are three different plants. Ube is a purple yam (Dioscorea alata), taro is a corm (Colocasia esculenta), and purple sweet potato is a sweet potato (Ipomoea batatas). Only ube combines a vivid natural violet with a soft, vanilla-like sweetness, so when you buy ube powder the botanical name on the specification is the first thing to check."),
     sections: [
@@ -1145,6 +1146,14 @@ export const STATIC_POSTS: InsightPost[] = [
           E("Ube is the one people picture when they think of a purple dessert: a clean, naturally violet colour and a soft sweetness often described as vanilla-like. It is the reason ube has moved from Filipino kitchens onto cafe and bakery menus worldwide."),
           E("Taro is milder. Its flesh is typically white to pale, sometimes with a greyish-lilac flecking, and its flavour is subtle and starchy. It is a good ingredient for texture, but it will not deliver a vivid purple on its own. Purple sweet potato can be deeply coloured, but it tastes like a sweet potato, more earthy than ube, and the shade varies by variety."),
           E("If your brief is a bright, natural violet with a soft, sweet profile, that is the case for ube. If the brief is a mild, creamy base, taro may be the better fit. Say which you want before you ask a supplier for a quote."),
+        ],
+      },
+      {
+        heading: E("Yam, sweet potato, taro: sorting out the names"),
+        body: [
+          E("Is ube a sweet potato? No. Is ube a yam? Yes: ube is a true yam, the species Dioscorea alata, which is why it is also sold as purple yam. A true yam belongs to the genus Dioscorea. A sweet potato (Ipomoea batatas) is a different plant altogether, from the morning glory family, and taro (Colocasia esculenta) is a third."),
+          E("The word \"yam\" adds to the confusion. In North America, orange-fleshed sweet potatoes are often sold as \"yams\", although they are sweet potatoes. A true yam is a different root. So when someone searches for ube vs yam vs sweet potato vs taro, the answer is that ube is the true yam of the group, and the other three names refer to other plants."),
+          E("Names differ between languages too. In Chinese-language markets ube is 紫山藥 (also called 大薯), while 紫薯 is purple sweet potato. In Indonesian and Malay, \"ubi\" is a general word for tuber, so a purple \"ubi\" there is not automatically ube. Whatever the language, the botanical name on the specification settles which plant you are buying."),
         ],
       },
       {
@@ -1168,6 +1177,7 @@ export const STATIC_POSTS: InsightPost[] = [
       { label: E("Ube"), value: E("Purple yam, Dioscorea alata") },
       { label: E("Taro"), value: E("Corm, Colocasia esculenta") },
       { label: E("Purple sweet potato"), value: E("Ipomoea batatas, purple-fleshed varieties") },
+      { label: E("Chinese names"), value: E("Ube: 紫山藥 (purple yam), 大薯; purple sweet potato: 紫薯") },
       { label: E("Ube colour"), value: E("Naturally violet, no artificial dye") },
       { label: E("Ube flavour"), value: E("Soft, vanilla-like sweetness") },
       { label: E("Our ube origins"), value: E("Philippines and China") },
@@ -1198,6 +1208,22 @@ export const STATIC_POSTS: InsightPost[] = [
       {
         q: E("Is ube the same as purple yam?"),
         a: E("Yes. Ube is the Filipino name for the purple yam Dioscorea alata, and \"purple yam powder\" and \"ube powder\" generally refer to the same ingredient. Confirm the botanical name on the spec."),
+      },
+      {
+        q: E("Is ube a sweet potato?"),
+        a: E("No. Ube is a yam (Dioscorea alata). A sweet potato is Ipomoea batatas, a different plant with a different flavour. Purple sweet potato and ube can look alike, but they are not the same ingredient."),
+      },
+      {
+        q: E("Is ube a type of yam?"),
+        a: E("Yes. Ube is a true yam, the species Dioscorea alata, which is why it is also called purple yam. In North America the word \"yam\" is often used for orange sweet potatoes, which are a different plant."),
+      },
+      {
+        q: E("What is ube called in Chinese?"),
+        a: E("Ube is usually written 紫山藥 (purple yam) or 大薯 in Chinese. The word 紫薯 means purple sweet potato, so a spec translated into Chinese should keep the botanical name Dioscorea alata."),
+      },
+      {
+        q: E("Does ube taste like taro?"),
+        a: E("Not quite. Ube is soft and sweet with a vanilla-like note, while taro is milder and more starchy. Ube also gives a much more vivid violet colour than taro does."),
       },
       {
         q: E("How do I know a supplier is selling real ube?"),
