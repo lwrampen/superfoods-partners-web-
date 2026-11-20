@@ -31,6 +31,7 @@ export const TEAM: TeamMember[] = [
   { name: "Fannie", role: "Sourcing", photo: "/team/fannie.webp", location: "Hong Kong" },
   { name: "Candy", role: "Partnerships", photo: "/team/candy.webp", location: "Hong Kong" },
   { name: "Lucinda", role: "Quality control", photo: "/team/lucinda.webp", location: "Hong Kong" },
+  { name: "Spencer", role: "Quality control", photo: "/team/spencer.webp", location: "Hong Kong" },
   { name: "Emily", role: "Sales", photo: "/team/emily.webp", location: "Hong Kong" },
   { name: "Brian", role: "Office manager, Hong Kong", photo: "/team/brian.webp", location: "Hong Kong" },
   { name: "Robbert-Jan", role: "Sales, consulting & strategy", photo: "/team/robbert-jan.webp", location: "Europe" },
