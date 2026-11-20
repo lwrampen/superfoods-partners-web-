@@ -141,7 +141,7 @@ export const PRODUCTS: Product[] = [
     ],
     gallery: [
       { src: "/photos/hero-shade-nets.jpg", alt: "Shade nets over a matcha tea garden before harvest", caption: "Shade-grown gardens — the weeks under nets that build matcha's umami and colour" },
-      { src: "/photos/grower-portrait.jpg", alt: "Tea grower at origin", caption: "Growers we buy from directly — one pair of hands from farm to freight" },
+      { src: "/photos/grower-portrait.jpg", alt: "Tea grower at origin", caption: "Growers we work with directly — one pair of hands from farm to freight" },
       { src: "/photos/grading.jpg", alt: "Grading and quality control of tea", caption: "Every batch graded and lab-tested before it ships" },
     ],
     originSlugs: ["uji-jp", "shizuoka-jp", "kagoshima-jp", "nara-jp", "gifu-jp", "ibaraki-jp", "east-china-cn", "south-china-cn"],
