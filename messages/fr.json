@@ -606,7 +606,26 @@
     "prefillBlend": "Mélange sur mesure",
     "prefillBlendNamed": "Mélange sur mesure : {blend}",
     "prefillPackaging": "Emballage sur mesure",
-    "volumePlaceholderService": "ex. 250 kg (à partir de 100 kg)"
+    "volumePlaceholderService": "ex. 250 kg (à partir de 100 kg)",
+    "stepNeed": "De quoi avez-vous besoin ?",
+    "need": "Je souhaite",
+    "needs": {
+      "samples": "Des échantillons",
+      "pricelist": "Une liste de prix",
+      "advice": "Des conseils",
+      "shop": "Accès à la boutique"
+    },
+    "stepYou": "À propos de vous",
+    "country": "Pays",
+    "choose": "Choisir…",
+    "stepMore": "Autre chose ?",
+    "optional": "facultatif",
+    "shopNote": "Pour l'accès à la boutique, nous avons besoin de l'adresse de votre entreprise et de votre numéro de TVA. Nous vérifions chaque demande et vous envoyons votre accès par e-mail.",
+    "street": "Rue et numéro",
+    "zip": "Code postal",
+    "city": "Ville",
+    "vat": "Numéro de TVA",
+    "successShop": "Merci. Nous vérifions chaque demande d'accès à la boutique et vous envoyons votre accès par e-mail."
   },
   "locationsMap": {
     "role": "Entité opérationnelle",

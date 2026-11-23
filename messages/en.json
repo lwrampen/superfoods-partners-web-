@@ -606,7 +606,26 @@
     "prefillBlend": "Custom blend",
     "prefillBlendNamed": "Custom blend: {blend}",
     "prefillPackaging": "Custom packaging",
-    "volumePlaceholderService": "e.g. 250 kg (from 100 kg)"
+    "volumePlaceholderService": "e.g. 250 kg (from 100 kg)",
+    "stepNeed": "What do you need?",
+    "need": "I'd like",
+    "needs": {
+      "samples": "Samples",
+      "pricelist": "A price list",
+      "advice": "Advice",
+      "shop": "Shop access"
+    },
+    "stepYou": "About you",
+    "country": "Country",
+    "choose": "Choose…",
+    "stepMore": "Anything else?",
+    "optional": "optional",
+    "shopNote": "For shop access we need your business address and VAT number. We check every request and send your login by email.",
+    "street": "Street and number",
+    "zip": "Postal code",
+    "city": "City",
+    "vat": "VAT number",
+    "successShop": "Thanks — we check every shop access request and send your login by email."
   },
   "locationsMap": {
     "role": "Operating entity",

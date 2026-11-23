@@ -606,7 +606,26 @@
     "prefillBlend": "客製調配",
     "prefillBlendNamed": "客製調配：{blend}",
     "prefillPackaging": "客製包裝",
-    "volumePlaceholderService": "例如 250 公斤（100 公斤起）"
+    "volumePlaceholderService": "例如 250 公斤（100 公斤起）",
+    "stepNeed": "您需要什麼？",
+    "need": "我想要",
+    "needs": {
+      "samples": "樣品",
+      "pricelist": "價目表",
+      "advice": "諮詢",
+      "shop": "商店帳號"
+    },
+    "stepYou": "關於您",
+    "country": "國家",
+    "choose": "請選擇…",
+    "stepMore": "還有其他嗎？",
+    "optional": "選填",
+    "shopNote": "開通商店帳號需要貴公司的地址與統一編號（VAT）。我們會審核每一份申請，並以電子郵件寄送登入資訊。",
+    "street": "街道與門牌",
+    "zip": "郵遞區號",
+    "city": "城市",
+    "vat": "統一編號 / VAT",
+    "successShop": "謝謝。我們會審核每一份商店帳號申請，並以電子郵件寄送登入資訊。"
   },
   "locationsMap": {
     "role": "營運公司",
