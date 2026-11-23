@@ -627,7 +627,9 @@
     "vat": "Numéro de TVA",
     "successShop": "Merci. Nous vérifions chaque demande d'accès à la boutique et vous envoyons votre accès par e-mail.",
     "noVat": "Je n'ai pas de numéro de TVA – la TVA sera facturée",
-    "phone": "Téléphone"
+    "phone": "Téléphone",
+    "products": "Produits qui vous intéressent",
+    "notSure": "Pas encore sûr"
   },
   "locationsMap": {
     "role": "Entité opérationnelle",

@@ -627,7 +627,9 @@
     "vat": "VAT number",
     "successShop": "Thanks — we check every shop access request and send your login by email.",
     "noVat": "I don't have a VAT number – VAT will be charged",
-    "phone": "Phone number"
+    "phone": "Phone number",
+    "products": "Products you're interested in",
+    "notSure": "Not sure yet"
   },
   "locationsMap": {
     "role": "Operating entity",

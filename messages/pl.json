@@ -627,7 +627,9 @@
     "vat": "Numer VAT",
     "successShop": "Dziękujemy. Sprawdzamy każde zgłoszenie dostępu do sklepu i wysyłamy dane logowania e-mailem.",
     "noVat": "Nie mam numeru VAT – VAT zostanie naliczony",
-    "phone": "Telefon"
+    "phone": "Telefon",
+    "products": "Produkty, które Cię interesują",
+    "notSure": "Jeszcze nie wiem"
   },
   "locationsMap": {
     "role": "Podmiot operacyjny",
