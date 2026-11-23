@@ -620,12 +620,14 @@
     "choose": "Choisir…",
     "stepMore": "Autre chose ?",
     "optional": "facultatif",
-    "shopNote": "Pour l'accès à la boutique, nous avons besoin de l'adresse de votre entreprise et de votre numéro de TVA. Nous vérifions chaque demande et vous envoyons votre accès par e-mail.",
+    "shopNote": "Pour l'accès à la boutique, nous avons besoin de l'adresse de votre entreprise (et de votre numéro de TVA dans l'UE). Nous vérifions chaque demande et vous envoyons votre accès par e-mail.",
     "street": "Rue et numéro",
     "zip": "Code postal",
     "city": "Ville",
     "vat": "Numéro de TVA",
-    "successShop": "Merci. Nous vérifions chaque demande d'accès à la boutique et vous envoyons votre accès par e-mail."
+    "successShop": "Merci. Nous vérifions chaque demande d'accès à la boutique et vous envoyons votre accès par e-mail.",
+    "noVat": "Je n'ai pas de numéro de TVA – la TVA sera facturée",
+    "phone": "Téléphone"
   },
   "locationsMap": {
     "role": "Entité opérationnelle",

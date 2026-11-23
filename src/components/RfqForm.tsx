@@ -16,6 +16,7 @@ const PILL = "inline-block cursor-pointer rounded-full border border-stone/25 bg
 const NEEDS = ["samples", "pricelist", "advice", "shop"] as const;
 const VOLUMES = ["0–10 kg", "10–50 kg", "50–100 kg", "100–1,000 kg", "1,000–10,000 kg", "10,000 kg +"];
 // ISO 3166-1 codes (+ Kosovo). Names come from the browser after mount: server and browser name lists can differ.
+const EU = new Set(["AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK"]);
 const COUNTRY_CODES = "AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS XK YE YT ZA ZM ZW".split(" ");
 
 const noop = () => () => {};
@@ -65,6 +66,9 @@ export function RfqForm() {
   const [need, setNeed] = useState<string>(pathname?.includes("/sample") ? "samples" : "");
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
   const shop = need === "shop";
+  const [country, setCountry] = useState("");
+  const [noVat, setNoVat] = useState(false);
+  const eu = EU.has(country);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -150,8 +154,8 @@ export function RfqForm() {
         <input id="email" name="email" type="email" required className={FIELD} />
       </div>
       <div>
-        <label className={LABEL} htmlFor="country">{t("country")}{shop && <span className="text-hibiscus"> *</span>}</label>
-        <select id="country" name="country" required={shop} defaultValue="" className={`${FIELD} cursor-pointer`}>
+        <label className={LABEL} htmlFor="country">{t("country")} <span className="text-hibiscus">*</span></label>
+        <select id="country" name="country" required value={country} onChange={(e) => setCountry(e.target.value)} className={`${FIELD} cursor-pointer`}>
           <option value="" disabled>{t("choose")}</option>
           {countries.map((c) => (
             <option key={c.code} value={c.code}>{c.name}</option>
@@ -173,10 +177,25 @@ export function RfqForm() {
             <label className={LABEL} htmlFor="city">{t("city")} <span className="text-hibiscus">*</span></label>
             <input id="city" name="city" required className={FIELD} />
           </div>
-          <div>
-            <label className={LABEL} htmlFor="vat">{t("vat")}</label>
-            <input id="vat" name="vat" className={FIELD} />
-          </div>
+          {/* same rules as an ERP contact: EU needs a VAT number or "no VAT, charge VAT"; outside the EU a phone number */}
+          {country && eu && (
+            <>
+              <div>
+                <label className={LABEL} htmlFor="vat">{t("vat")}{!noVat && <span className="text-hibiscus"> *</span>}</label>
+                <input id="vat" name="vat" required={!noVat} className={FIELD} />
+              </div>
+              <label className="flex items-start gap-3 text-sm text-stone sm:col-span-2">
+                <input type="checkbox" name="noVat" value="on" checked={noVat} onChange={(e) => setNoVat(e.target.checked)} className="mt-1 accent-green" />
+                <span>{t("noVat")}</span>
+              </label>
+            </>
+          )}
+          {country && !eu && (
+            <div>
+              <label className={LABEL} htmlFor="phone">{t("phone")} <span className="text-hibiscus">*</span></label>
+              <input id="phone" name="phone" type="tel" required className={FIELD} />
+            </div>
+          )}
         </>
       )}
 
