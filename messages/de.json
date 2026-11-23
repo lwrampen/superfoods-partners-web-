@@ -606,7 +606,26 @@
     "prefillBlend": "Individuelle Mischung",
     "prefillBlendNamed": "Individuelle Mischung: {blend}",
     "prefillPackaging": "Individuelle Verpackung",
-    "volumePlaceholderService": "z. B. 250 kg (ab 100 kg)"
+    "volumePlaceholderService": "z. B. 250 kg (ab 100 kg)",
+    "stepNeed": "Was brauchen Sie?",
+    "need": "Ich möchte",
+    "needs": {
+      "samples": "Muster",
+      "pricelist": "Eine Preisliste",
+      "advice": "Beratung",
+      "shop": "Shop-Zugang"
+    },
+    "stepYou": "Über Sie",
+    "country": "Land",
+    "choose": "Bitte wählen…",
+    "stepMore": "Noch etwas?",
+    "optional": "optional",
+    "shopNote": "Für den Shop-Zugang benötigen wir Ihre Geschäftsadresse und USt-IdNr. Wir prüfen jede Anfrage und senden Ihnen den Zugang per E-Mail.",
+    "street": "Straße und Hausnummer",
+    "zip": "Postleitzahl",
+    "city": "Ort",
+    "vat": "USt-IdNr.",
+    "successShop": "Vielen Dank. Wir prüfen jede Anfrage für den Shop-Zugang und senden Ihnen den Zugang per E-Mail."
   },
   "locationsMap": {
     "role": "Operative Gesellschaft",
