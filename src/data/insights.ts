@@ -1572,6 +1572,99 @@ export const STATIC_POSTS: InsightPost[] = [
     ],
     relatedProducts: ["ube"],
   },
+  {
+    slug: "ube-powder-natural-purple-colour-clean-label",
+    date: "2026-11-23",
+    author: "Fannie",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder, milled to a naturally violet colour"),
+    category: E("Formulation"),
+    authorRole: E("Sourcing"),
+    title: E("Ube powder as a natural purple colour: what to specify and test"),
+    metaTitle: E("Ube Powder as a Natural Purple Colour: Spec & Test Guide"),
+    metaDescription: E("Using ube powder as a natural purple colour? What to specify, how pH, heat and light change the shade, and how to test colour in your own product."),
+    dek: E("A natural purple is easy to ask for and harder to hold in a real product. This is what a formulator should specify, and test, before ube goes into production."),
+    lede: E("Ube powder gives food and drinks a natural violet colour because it is milled from purple yam (Dioscorea alata), not coloured with a dye. To use it as a purple colour, specify the botanical name and a colour you have approved on a sample, then test the shade in your own recipe, because pH, heat, light and the other ingredients all change how purple it looks."),
+    sections: [
+      {
+        heading: E("Where the colour comes from"),
+        body: [
+          E("The violet of ube is part of the tuber itself. It comes from natural pigments in the purple yam, which is why ube powder can colour a drink or a dessert without an artificial dye on the label. Good powder is milled from mature yam, dried and screened so that colour and particle size stay consistent from lot to lot."),
+          E("Interest in a natural purple is real but specific. In US search data, \"natural purple food coloring\" and \"natural purple food dye\" each draw roughly 320 searches a month, \"natural food coloring powder\" roughly 480 and \"ube color\" roughly 720 (Google Ads keyword data, United States). The people behind those searches are product developers who want a purple that fits a clean ingredient list."),
+        ],
+      },
+      {
+        heading: E("Ube powder is an ingredient, not an isolated colour"),
+        body: [
+          E("This is the first thing to settle. Ube powder is a milled food, so it brings more than colour: a soft, vanilla-like sweetness, some body and starch, and a particle that has to disperse in your base. That suits products where ube should be tasted and seen, such as lattes, ice cream, bakery and fillings."),
+          E("If a brief only needs a faint purple tint with no flavour, a concentrated colourant behaves differently from a powder. Decide which you need before you compare suppliers, and say so in the brief. Our guide to how ube powder is used in bakery, drinks and ice cream shows where the flavour is an advantage."),
+        ],
+      },
+      {
+        heading: E("What changes the shade in your product"),
+        body: [
+          E("Purple pigments of this kind react to their surroundings, so the same powder can look different in two products. The main factors are worth testing one by one:"),
+          E("pH. Acidity pushes the colour towards red or pink, and an alkaline base can push it towards blue or grey-green. Baking soda, some mineral-rich water and acidic fruit layers are common reasons a batch drifts."),
+          E("Heat and time. Long baking, hot filling and pasteurisation can fade or dull the colour. Compare the shade before and after your real process, not only at the mixing stage."),
+          E("Light and storage. Light and warm storage can change a finished product over its shelf life, so keep a retained sample and look at it again after the period you plan to sell."),
+          E("The rest of the recipe. Milk, plant-based drinks, fat, sugar and other powders all change the background colour. A cup of ube latte looks different from the same powder in a bakery batter."),
+        ],
+      },
+      {
+        heading: E("What to specify and ask for"),
+        body: [
+          E("Because colour is the point, write it down. State the botanical name, Dioscorea alata, so you know which plant you are buying, and read our guide to ube vs taro vs purple sweet potato if a spec says only \"purple yam\" or \"purple potato\". Then agree three things in writing: the form and fineness of the powder, the grade (organic or conventional), and a colour reference approved on a sample lot that later lots are compared against."),
+          E("Ask which documents come with each batch. For our ube powder every batch is screened and documented before it ships, with a certificate of analysis and a Verification Record. Our buyer's checklist for ube powder lists the rest of what to ask."),
+        ],
+      },
+      {
+        heading: E("How to test colour in your own product"),
+        body: [
+          E("Start with a sample, not a quote. Make your actual recipe, at your actual pH and process, with the sample powder, and judge it the way your customer will see it: in the cup, on the slice, in the pack."),
+          E("Then stress it. Run the full heat step, check the shade again after the shelf life you plan, and compare two or three lots side by side so you know how much lot-to-lot variation your recipe tolerates. Keep a physical retained sample for each approved lot. If the shade drifts, adjust the dose or the recipe pH first, and talk to us about the application: we can recommend the right material and tell you what we know about how it behaves."),
+        ],
+      },
+      {
+        heading: E("Labelling and market notes"),
+        body: [
+          E("How a purple ingredient is declared, and whether it is treated as a food ingredient or as a colour, depends on the market and on how you use it. Check this with your regulatory contact for each country you sell in. We can send the batch documentation that supports that conversation."),
+          E("We manage supply at origin in the Philippines and China. Organic ube comes from China, and conventional ube is available from both origins. The specification and application notes are on our ube product page, and the specialist label behind it is Pure Ube Partners."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Colour source"), value: E("Purple yam (Dioscorea alata), no artificial dye") },
+      { label: E("Form"), value: E("Fine violet powder") },
+      { label: E("Origin"), value: E("Philippines and China") },
+      { label: E("Grades"), value: E("Organic (China) and conventional (both origins)") },
+      { label: E("Packaging"), value: E("1 kg (2.2 lb) foil to 25 kg (55 lb) carton to full container") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("Can ube powder be used as a natural purple food colouring?"),
+        a: E("Yes, ube powder gives a natural violet colour because it is milled from purple yam. It is a food ingredient, so it also adds flavour and body. Test the shade in your own recipe, because pH, heat and light affect it."),
+      },
+      {
+        q: E("Why does an ube product turn blue or grey?"),
+        a: E("The pigments in ube respond to pH. An alkaline base, for example from baking soda, can shift the colour towards blue or grey-green, while acidity pushes it towards red or pink. Check the pH of your recipe."),
+      },
+      {
+        q: E("Is ube powder the same as a purple colourant?"),
+        a: E("No. Ube powder is a milled food, so it brings flavour, sweetness and some body along with colour. A concentrated colourant behaves differently. Choose based on whether you want ube character or only a tint."),
+      },
+      {
+        q: E("What should I specify for colour on an ube powder?"),
+        a: E("The botanical name (Dioscorea alata), form and fineness, grade, and a colour reference approved on a sample lot that later lots are compared against, plus the documents that ship with each batch."),
+      },
+      {
+        q: E("Can I test ube powder before ordering in bulk?"),
+        a: E("Yes. We send samples first so you can approve colour, flavour and mixing behaviour in your own recipe before you commit to volume."),
+      },
+    ],
+    relatedProducts: ["ube"],
+  },
 ];
 
 // Every post: the hand-written ones above + Blog Studio posts from content/insights/*.json (existing slugs win).
