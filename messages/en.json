@@ -620,12 +620,14 @@
     "choose": "Choose…",
     "stepMore": "Anything else?",
     "optional": "optional",
-    "shopNote": "For shop access we need your business address and VAT number. We check every request and send your login by email.",
+    "shopNote": "For shop access we need your business address (and VAT number in the EU). We check every request and send your login by email.",
     "street": "Street and number",
     "zip": "Postal code",
     "city": "City",
     "vat": "VAT number",
-    "successShop": "Thanks — we check every shop access request and send your login by email."
+    "successShop": "Thanks — we check every shop access request and send your login by email.",
+    "noVat": "I don't have a VAT number – VAT will be charged",
+    "phone": "Phone number"
   },
   "locationsMap": {
     "role": "Operating entity",

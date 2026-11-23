@@ -620,12 +620,14 @@
     "choose": "Elige…",
     "stepMore": "¿Algo más?",
     "optional": "opcional",
-    "shopNote": "Para el acceso a la tienda necesitamos la dirección y el número de IVA de tu empresa. Revisamos cada solicitud y te enviamos el acceso por correo.",
+    "shopNote": "Para el acceso a la tienda necesitamos la dirección de tu empresa (y el número de IVA en la UE). Revisamos cada solicitud y te enviamos el acceso por correo.",
     "street": "Calle y número",
     "zip": "Código postal",
     "city": "Ciudad",
     "vat": "Número de IVA",
-    "successShop": "Gracias. Revisamos cada solicitud de acceso a la tienda y te enviamos el acceso por correo."
+    "successShop": "Gracias. Revisamos cada solicitud de acceso a la tienda y te enviamos el acceso por correo.",
+    "noVat": "No tengo número de IVA: se cobrará el IVA",
+    "phone": "Teléfono"
   },
   "locationsMap": {
     "role": "Entidad operativa",

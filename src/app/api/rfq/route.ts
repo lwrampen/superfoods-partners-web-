@@ -44,7 +44,7 @@ export async function POST(req: Request) {
           page: data.page,
           data: {
             "Full-name": name, "Company-name": company, Email: email, Country: data.country, Street: data.street,
-            "Postal-code": data.zip, City: data.city, "VAT-number": data.vat, Product: data.product, Volume: data.volume, Message: data.message,
+            "Postal-code": data.zip, City: data.city, "VAT-number": data.vat, "No-VAT": data.noVat, Phone: data.phone, Product: data.product, Volume: data.volume, Message: data.message,
           },
         }),
         signal: AbortSignal.timeout(25_000),
@@ -93,7 +93,8 @@ export async function POST(req: Request) {
         ${row("Product", data.product)}
         ${row("Volume", data.volume)}
         ${row("Address", [data.street, [data.zip, data.city].filter(Boolean).join(" ")].filter(Boolean).join(", "))}
-        ${row("VAT", data.vat)}
+        ${row("VAT", data.vat || (data.noVat ? "No VAT number – charge VAT" : undefined))}
+        ${row("Phone", data.phone)}
       </table>
       ${data.message ? `<p style="margin-top:16px;color:#1E3D2A;font-size:14px;white-space:pre-wrap">${esc(data.message)}</p>` : ""}
       <p style="margin-top:20px;color:#5A5E53;font-size:11px">Sent from superfoodspartners.com — reply to this email to reach ${esc(name)}.</p>

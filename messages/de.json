@@ -620,12 +620,14 @@
     "choose": "Bitte wählen…",
     "stepMore": "Noch etwas?",
     "optional": "optional",
-    "shopNote": "Für den Shop-Zugang benötigen wir Ihre Geschäftsadresse und USt-IdNr. Wir prüfen jede Anfrage und senden Ihnen den Zugang per E-Mail.",
+    "shopNote": "Für den Shop-Zugang benötigen wir Ihre Geschäftsadresse (und in der EU Ihre USt-IdNr.). Wir prüfen jede Anfrage und senden Ihnen den Zugang per E-Mail.",
     "street": "Straße und Hausnummer",
     "zip": "Postleitzahl",
     "city": "Ort",
     "vat": "USt-IdNr.",
-    "successShop": "Vielen Dank. Wir prüfen jede Anfrage für den Shop-Zugang und senden Ihnen den Zugang per E-Mail."
+    "successShop": "Vielen Dank. Wir prüfen jede Anfrage für den Shop-Zugang und senden Ihnen den Zugang per E-Mail.",
+    "noVat": "Ich habe keine USt-IdNr. – die Umsatzsteuer wird berechnet",
+    "phone": "Telefonnummer"
   },
   "locationsMap": {
     "role": "Operative Gesellschaft",
