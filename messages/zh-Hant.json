@@ -627,7 +627,9 @@
     "vat": "統一編號 / VAT",
     "successShop": "謝謝。我們會審核每一份商店帳號申請，並以電子郵件寄送登入資訊。",
     "noVat": "我沒有 VAT 號碼——將加收增值稅",
-    "phone": "電話"
+    "phone": "電話",
+    "products": "感興趣的產品",
+    "notSure": "尚未確定"
   },
   "locationsMap": {
     "role": "營運公司",

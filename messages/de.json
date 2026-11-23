@@ -627,7 +627,9 @@
     "vat": "USt-IdNr.",
     "successShop": "Vielen Dank. Wir prüfen jede Anfrage für den Shop-Zugang und senden Ihnen den Zugang per E-Mail.",
     "noVat": "Ich habe keine USt-IdNr. – die Umsatzsteuer wird berechnet",
-    "phone": "Telefonnummer"
+    "phone": "Telefonnummer",
+    "products": "Gewünschte Produkte",
+    "notSure": "Noch unklar"
   },
   "locationsMap": {
     "role": "Operative Gesellschaft",

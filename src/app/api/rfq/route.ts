@@ -90,7 +90,8 @@ export async function POST(req: Request) {
         ${row("Need", NEED[data.need])}
         ${row("Country", countryName(data.country) ?? data.market)}
         ${row("Request", data.service === "blend" ? "Custom blend" : data.service === "packaging" ? "Custom packaging" : undefined)}
-        ${row("Product", data.product)}
+        ${row("Products", data.product)}
+        ${row("Blend", data.blend)}
         ${row("Volume", data.volume)}
         ${row("Address", [data.street, [data.zip, data.city].filter(Boolean).join(" ")].filter(Boolean).join(", "))}
         ${row("VAT", data.vat || (data.noVat ? "No VAT number – charge VAT" : undefined))}

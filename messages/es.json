@@ -627,7 +627,9 @@
     "vat": "Número de IVA",
     "successShop": "Gracias. Revisamos cada solicitud de acceso a la tienda y te enviamos el acceso por correo.",
     "noVat": "No tengo número de IVA: se cobrará el IVA",
-    "phone": "Teléfono"
+    "phone": "Teléfono",
+    "products": "Productos que te interesan",
+    "notSure": "Aún no lo sé"
   },
   "locationsMap": {
     "role": "Entidad operativa",

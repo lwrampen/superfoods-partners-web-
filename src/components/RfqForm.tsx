@@ -3,7 +3,7 @@
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
-import { getProduct } from "@/data/catalog";
+import { getProduct, PRODUCTS } from "@/data/catalog";
 import { localizeProduct } from "@/data/content.i18n";
 import { getBlend } from "@/data/blends";
 
@@ -63,6 +63,15 @@ export function RfqForm() {
         ? t("prefillPackaging")
         : "");
 
+  // products of interest as chips (several can be ticked), like the PMP grade chips; links preselect one
+  const nice = (n: string) => (/[a-z]/i.test(n) ? n.toLocaleLowerCase(locale).replace(/(^|[\s-])(\p{L})/gu, (m) => m.toLocaleUpperCase(locale)) : n);
+  const productOptions = [
+    ...PRODUCTS.map((p) => ({ value: p.slug, label: nice(localizeProduct(p, locale).name) })),
+    { value: "custom-blend", label: t("prefillBlend") },
+    { value: "custom-packaging", label: t("prefillPackaging") },
+    { value: "not-sure", label: t("notSure") },
+  ];
+  const preselected = rawProduct?.slug ?? (service === "blend" ? "custom-blend" : service === "packaging" ? "custom-packaging" : undefined);
   const [need, setNeed] = useState<string>(pathname?.includes("/sample") ? "samples" : "");
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
   const shop = need === "shop";
@@ -74,7 +83,9 @@ export function RfqForm() {
     e.preventDefault();
     setStatus("sending");
     const form = e.currentTarget;
-    const data = Object.fromEntries(new FormData(form).entries());
+    // several chips under one name are sent joined ("Matcha, Hojicha")
+    const data: Record<string, string> = {};
+    new FormData(form).forEach((v, k) => (data[k] = data[k] ? `${data[k]}, ${v}` : String(v)));
     try {
       const res = await fetch("/api/rfq", {
         method: "POST",
@@ -124,10 +135,18 @@ export function RfqForm() {
           ))}
         </div>
       </fieldset>
-      <div className="sm:col-span-2">
-        <label className={LABEL} htmlFor="product">{t("product")}</label>
-        <input id="product" name="product" defaultValue={prefill} placeholder={t("productPlaceholder")} className={FIELD} />
-      </div>
+      <fieldset className="sm:col-span-2">
+        <legend className={LABEL}>{t("products")}</legend>
+        <div className="flex flex-wrap gap-2">
+          {productOptions.map((o) => (
+            <label key={o.value}>
+              <input type="checkbox" name="product" value={o.label} defaultChecked={o.value === preselected} className="peer sr-only" />
+              <span className={PILL}>{o.label}</span>
+            </label>
+          ))}
+        </div>
+        {blend && <input type="hidden" name="blend" value={prefill} />}
+      </fieldset>
       <fieldset className="sm:col-span-2">
         <legend className={LABEL}>{t("volume")}</legend>
         <div className="flex flex-wrap gap-2">
