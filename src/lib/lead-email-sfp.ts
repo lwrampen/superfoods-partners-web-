@@ -4,7 +4,8 @@ import { renderLeadEmail, type Brand } from "@/lib/lead-email";
 const SITE = "https://www.superfoodspartners.com";
 const BRAND: Brand = {
   name: "Superfoods Partners", site: SITE, logo: `${SITE}/email/sfp-lockup-light.png`, logoWidth: 180, logoHeight: 60,
-  dark: "#16240F", accent: "#8CC541", ink: "#16240F", muted: "#565B4E", surface: "#F6F6F3", line: "#ECEAE2",
+  dark: "#16240F", accent: "#8CC541", ink: "#16240F", muted: "#565B4E", surface: "#F6F6F3", tint: "#ECEAE2", line: "#ECEAE2",
+  stripe: ["#8CC541", "#B24A18", "#AE1D49", "#5A338C"], // the colour bar from the SFP logo
 };
 const NEED: Record<string, string> = { samples: "Samples", pricelist: "Price list", advice: "Advice", shop: "Shop access" };
 const countryName = (code?: string) => {
@@ -28,6 +29,7 @@ export function buildLeadEmail(data: Record<string, string>, shop: boolean) {
     badge,
     title: data.company || data.name,
     subtitle: [data.name, country].filter(Boolean).join(" · "),
+    facts: [["Looking for", badge], ["Volume", data.volume], ["Country", country?.replace(/ \([A-Z]{2}\)$/, "")]],
     replyEmail: data.email,
     replyName: data.name,
     replySubject: "Your request to Superfoods Partners",
