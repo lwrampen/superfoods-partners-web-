@@ -32,6 +32,14 @@ export type LeadEmail = {
   sections: { title: string; rows: Row[] }[];
   message?: string;
   meta: Row[]; // page, language, received
+  /** highlighted list above the details (e.g. warnings) */
+  notices?: { title: string; items: string[] };
+  /** big buttons instead of the reply button (e.g. approve / reject); the reply link moves below them */
+  actions?: { label: string; href: string; bg: string; color: string }[];
+  /** small text under the buttons */
+  actionsNote?: string;
+  /** raw HTML placed after the buttons (used by web pages: forms, step lists) */
+  extraHtml?: string;
 };
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
@@ -91,6 +99,24 @@ export function renderLeadEmail(e: LeadEmail): { html: string; text: string } {
     ? `<a href="mailto:${esc(e.replyEmail)}?subject=${encodeURIComponent(e.replySubject ?? `Re: your request to ${b.name}`)}" style="display:inline-block;background:${b.accent};color:${b.dark};text-decoration:none;font:500 12px/1 ${MONO};letter-spacing:2px;text-transform:uppercase;padding:15px 22px;border-radius:4px">Reply to ${esc((e.replyName || e.replyEmail).split(" ")[0])} &nbsp;→</a>`
     : "";
 
+  const buttons = e.actions?.length
+    ? `${e.actions
+        .map(
+          (a) =>
+            `<a href="${esc(a.href)}" style="display:inline-block;margin:0 10px 10px 0;background:${a.bg};color:${a.color};text-decoration:none;font:500 13px/1 ${MONO};letter-spacing:2px;text-transform:uppercase;padding:17px 26px;border-radius:4px">${esc(a.label)}</a>`,
+        )
+        .join("")}${e.actionsNote ? `<p style="margin:6px 0 0;font:400 13px/1.55 ${SANS};color:${b.muted}">${esc(e.actionsNote)}</p>` : ""}${
+        e.replyEmail
+          ? `<p style="margin:12px 0 0;font:400 13px/1.5 ${SANS}"><a href="mailto:${esc(e.replyEmail)}?subject=${encodeURIComponent(e.replySubject ?? `Re: your request to ${b.name}`)}" style="color:${b.ink};text-decoration:underline;text-decoration-color:${b.accent}">Reply to ${esc(e.replyName || e.replyEmail)}</a></p>`
+          : ""
+      }`
+    : reply;
+  const notices = e.notices?.items.length
+    ? `<tr><td style="padding:0 36px 28px"><div style="background:#FFF6E0;border-left:4px solid #E0A23E;padding:14px 16px">
+    ${label(e.notices.title, "#8A5A00")}
+    ${e.notices.items.map((t) => `<div style="margin-top:6px;font:400 14px/1.5 ${SANS};color:${b.ink}">${esc(t)}</div>`).join("")}
+  </div></td></tr>`
+    : "";
   const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light">
 <link href="${FONTS}" rel="stylesheet"></head>
 <body style="margin:0;padding:0;background:${b.surface};-webkit-font-smoothing:antialiased">
@@ -108,8 +134,10 @@ export function renderLeadEmail(e: LeadEmail): { html: string; text: string } {
     <h1 style="margin:18px 0 8px;font:400 40px/1.02 ${DISPLAY};text-transform:uppercase;letter-spacing:0.2px;color:${b.ink}">${esc(e.title)}</h1>
     ${e.subtitle ? `<p style="margin:0;font:400 16px/1.5 ${SANS};color:${b.muted}">${esc(e.subtitle)}</p>` : ""}
   </td></tr>
-  ${reply ? `<tr><td style="padding:22px 36px 30px">${reply}</td></tr>` : `<tr><td style="padding:14px"></td></tr>`}
+  ${buttons ? `<tr><td style="padding:22px 36px 30px">${buttons}</td></tr>` : `<tr><td style="padding:14px"></td></tr>`}
+  ${e.extraHtml ? `<tr><td style="padding:0 36px 30px">${e.extraHtml}</td></tr>` : ""}
   ${factTiles}
+  ${notices}
   ${filled.map((s, i) => section(s, i + 1)).join("")}
   ${
     e.message?.trim()
@@ -129,7 +157,7 @@ export function renderLeadEmail(e: LeadEmail): { html: string; text: string } {
           }</div>`,
       )
       .join("")}
-    ${e.replyEmail ? `<div style="margin-top:10px;font:400 11px/1.7 ${MONO};color:rgba(255,255,255,0.5)">Reply to this email to reach ${esc(e.replyName || e.replyEmail)} directly.</div>` : ""}
+    ${e.replyEmail && !e.actions?.length ? `<div style="margin-top:10px;font:400 11px/1.7 ${MONO};color:rgba(255,255,255,0.5)">Reply to this email to reach ${esc(e.replyName || e.replyEmail)} directly.</div>` : ""}
   </td></tr>
 </table>
 </td></tr></table>
