@@ -66,10 +66,11 @@ export function RfqForm() {
   // products of interest as chips (several can be ticked), like the PMP grade chips; links preselect one
   const nice = (n: string) => (/[a-z]/i.test(n) ? n.toLocaleLowerCase(locale).replace(/(^|[\s-])(\p{L})/gu, (m) => m.toLocaleUpperCase(locale)) : n);
   const productOptions = [
-    ...PRODUCTS.map((p) => ({ value: p.slug, label: nice(localizeProduct(p, locale).name) })),
-    { value: "custom-blend", label: t("prefillBlend") },
-    { value: "custom-packaging", label: t("prefillPackaging") },
-    { value: "not-sure", label: t("notSure") },
+    // value = English name (what the team reads in the email and the ERP), label = the visitor's language
+    ...PRODUCTS.map((p) => ({ key: p.slug, value: nice(p.name), label: nice(localizeProduct(p, locale).name) })),
+    { key: "custom-blend", value: "Custom blend", label: t("prefillBlend") },
+    { key: "custom-packaging", value: "Custom packaging", label: t("prefillPackaging") },
+    { key: "not-sure", value: "Not sure yet", label: t("notSure") },
   ];
   const preselected = rawProduct?.slug ?? (service === "blend" ? "custom-blend" : service === "packaging" ? "custom-packaging" : undefined);
   const [need, setNeed] = useState<string>(pathname?.includes("/sample") ? "samples" : "");
@@ -139,8 +140,8 @@ export function RfqForm() {
         <legend className={LABEL}>{t("products")}</legend>
         <div className="flex flex-wrap gap-2">
           {productOptions.map((o) => (
-            <label key={o.value}>
-              <input type="checkbox" name="product" value={o.label} defaultChecked={o.value === preselected} className="peer sr-only" />
+            <label key={o.key}>
+              <input type="checkbox" name="product" value={o.value} defaultChecked={o.key === preselected} className="peer sr-only" />
               <span className={PILL}>{o.label}</span>
             </label>
           ))}

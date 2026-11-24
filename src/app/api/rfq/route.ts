@@ -1,17 +1,7 @@
 import { Resend } from "resend";
+import { buildLeadEmail } from "@/lib/lead-email-sfp";
 
 export const runtime = "nodejs";
-
-const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
-const countryName = (code?: string) => {
-  if (!code) return undefined;
-  try {
-    return new Intl.DisplayNames(["en"], { type: "region" }).of(code) ?? code;
-  } catch {
-    return code;
-  }
-};
-const NEED: Record<string, string> = { samples: "Samples", pricelist: "Price list", advice: "Advice", shop: "Shop access" };
 
 export async function POST(req: Request) {
   let data: Record<string, string>;
@@ -77,38 +67,8 @@ export async function POST(req: Request) {
   );
   const from = process.env.RFQ_FROM_EMAIL || "Superfoods Partners <sourcing@superfoodspartners.com>";
 
-  const row = (k: string, v?: string) =>
-    v ? `<tr><td style="padding:4px 12px 4px 0;color:#5A5E53;font-size:13px">${k}</td><td style="padding:4px 0;color:#1E3D2A;font-size:13px"><strong>${esc(String(v))}</strong></td></tr>` : "";
-
-  const html = `
-    <div style="font-family:Arial,sans-serif;max-width:560px">
-      <p style="color:#E0A23E;font-size:11px;letter-spacing:1px;text-transform:uppercase">${shop ? "Shop access request" : "New volume request"}</p>
-      <h2 style="color:#1E3D2A;margin:4px 0 16px">${esc(company)}</h2>
-      <table style="border-collapse:collapse">
-        ${row("Name", name)}
-        ${row("Email", email)}
-        ${row("Need", NEED[data.need])}
-        ${row("Country", countryName(data.country) ?? data.market)}
-        ${row("Request", data.service === "blend" ? "Custom blend" : data.service === "packaging" ? "Custom packaging" : undefined)}
-        ${row("Products", data.product)}
-        ${row("Blend", data.blend)}
-        ${row("Volume", data.volume)}
-        ${row("Address", [data.street, [data.zip, data.city].filter(Boolean).join(" ")].filter(Boolean).join(", "))}
-        ${row("VAT", data.vat || (data.noVat ? "No VAT number – charge VAT" : undefined))}
-        ${row("Phone", data.phone)}
-      </table>
-      ${data.message ? `<p style="margin-top:16px;color:#1E3D2A;font-size:14px;white-space:pre-wrap">${esc(data.message)}</p>` : ""}
-      <p style="margin-top:20px;color:#5A5E53;font-size:11px">Sent from superfoodspartners.com — reply to this email to reach ${esc(name)}.</p>
-    </div>`;
-
-  const resend = new Resend(apiKey);
-  const { error } = await resend.emails.send({
-    from,
-    to,
-    replyTo: email,
-    subject: `${shop ? "SHOP ACCESS request" : data.service === "blend" ? "Blend request" : data.service === "packaging" ? "Packaging request" : "RFQ"} — ${company}${data.product ? ` · ${data.product}` : ""}`,
-    html,
-  });
+  const { subject, html, text } = buildLeadEmail(data, shop);
+  const { error } = await new Resend(apiKey).emails.send({ from, to, replyTo: email, subject, html, text });
 
   if (error) {
     console.error("RFQ send error:", error);
