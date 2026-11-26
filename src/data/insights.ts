@@ -1665,6 +1665,92 @@ export const STATIC_POSTS: InsightPost[] = [
     ],
     relatedProducts: ["ube"],
   },
+  {
+    slug: "ube-halaya-to-scale-ube-powder-dessert-production",
+    date: "2026-11-26",
+    author: "Wanjin",
+    readingMins: 6,
+    hero: "/products/ube.jpg",
+    heroAlt: E("Ube purple yam powder, milled to a naturally violet colour"),
+    category: E("Formulation"),
+    authorRole: E("Supply chain & sourcing"),
+    title: E("From ube halaya to scale: using ube powder in commercial dessert production"),
+    metaTitle: E("Ube Halaya at Scale: Using Ube Powder in Production"),
+    metaDescription: E("How to move ube halaya from a kitchen recipe to commercial production with ube powder: pilot batches, texture, colour, fillings and what to ask a supplier."),
+    dek: E("Halaya is easy to make in a kitchen and harder to repeat in a factory. This is how producers move from fresh tuber to a consistent powder-based process."),
+    lede: E("To make ube halaya at commercial scale, many producers work from ube powder instead of fresh tuber, because powder gives a consistent colour, a stable raw material and predictable dosing. The method stays close to the traditional one (cook the ube with milk, sugar and fat), but you set the powder-to-liquid ratio in pilot batches, control water and cooking time, and approve colour and texture lot by lot."),
+    sections: [
+      {
+        heading: E("What halaya is, and why it is hard to scale from fresh"),
+        body: [
+          E("Ube halaya is a Filipino dessert jam, traditionally made by cooking mashed ube with milk, sugar and butter until it is thick and glossy. It is both a dessert in its own right and a base for ice cream, cakes, fillings and sweets. Interest is large: in US search data, \"ube halaya\" draws roughly 49,500 searches a month and \"ube halaya recipe\" roughly 18,100 (Google Ads keyword data, United States), though most of those searches come from home cooks rather than manufacturers."),
+          E("A home kitchen can absorb the variation of fresh tuber. A production line cannot. Fresh ube can differ from lot to lot in moisture, colour and sweetness, and it has to be peeled, boiled and mashed before it is even in the pot. Each of those steps adds labour, waste and variation, and each makes the finished halaya harder to repeat."),
+        ],
+      },
+      {
+        heading: E("What changes when you work from powder"),
+        body: [
+          E("Ube powder is milled from dried purple yam (Dioscorea alata), so the raw material arrives dry, fine and consistent. The work moves from preparing a tuber to hydrating a powder: you combine the powder with liquid, bring it to temperature and cook it out until the texture is right."),
+          E("Three points deserve attention. First, dispersion: sift the powder and add it to the liquid in a controlled way so it does not lump. Second, water: the ratio of powder to liquid sets the final texture and solids, so fix it in your pilot batches and weigh it on every run. Third, heat and time: the starch in the powder thickens as it cooks, so cooking time and stirring affect body and gloss. Ube powder is a food ingredient, not an isolated colour, so it also contributes flavour and body to the halaya."),
+        ],
+      },
+      {
+        heading: E("A pilot batch checklist"),
+        body: [
+          E("Before you scale, run small batches that answer the questions production will ask:"),
+          E("Ratio. Test two or three powder-to-liquid ratios and write down the texture each gives when hot, at fill temperature and after cooling."),
+          E("Colour. Agree a colour reference on an approved sample lot and compare later batches against it. pH, heat and light all change the shade, so check the colour after the full cooking and filling process, not only in the pot."),
+          E("Texture over time. Look at the halaya after storage in your actual pack, because starch-based textures can change as the product sets."),
+          E("Application fit. Test the halaya in the product it is going into, whether that is a filling, a swirl or a spread, and bake or freeze it if the product will be baked or frozen."),
+        ],
+      },
+      {
+        heading: E("Beyond halaya: where the same base goes"),
+        body: [
+          E("Once the halaya works, it opens several applications for dessert and bakery producers: fillings for pastries, buns and viennoiserie, layers for cheesecake and cakes, swirls for ice cream and gelato, and centres for confectionery. Each has its own demands on texture and bake or freeze stability, so run the application test for every use rather than assuming one recipe fits all."),
+          E("Our guides cover the wider range of uses, from bakery, ready-to-drink and ice cream to the flavour of ube and how to hold its colour."),
+        ],
+      },
+      {
+        heading: E("What to specify and ask your supplier"),
+        body: [
+          E("Write down the botanical name, Dioscorea alata, so you know which plant you are buying, then agree the fineness of the powder, the grade (organic or conventional) and a colour reference. Ask which documents come with each batch and approve a sample in your own process before ordering volume."),
+          E("We manage supply at origin in the Philippines and China. Organic ube comes from China, and conventional ube is available from both origins. Packaging runs from 1 kg (2.2 lb) foil bags to 25 kg (55 lb) cartons and full containers, and every batch is screened and documented before it ships, with a certificate of analysis and a Verification Record. The specification and application notes are on our ube product page."),
+        ],
+      },
+    ],
+    keyFacts: [
+      { label: E("Source"), value: E("Purple yam (Dioscorea alata)") },
+      { label: E("Form"), value: E("Fine violet powder") },
+      { label: E("Origin"), value: E("Philippines and China") },
+      { label: E("Grades"), value: E("Organic (China) and conventional (both origins)") },
+      { label: E("Packaging"), value: E("1 kg (2.2 lb) foil to 25 kg (55 lb) carton to full container") },
+      { label: E("Per batch"), value: E("Certificate of analysis + Verification Record") },
+    ],
+    faqs: [
+      {
+        q: E("What is ube halaya?"),
+        a: E("Ube halaya is a Filipino dessert jam, traditionally made by cooking mashed ube with milk, sugar and butter until thick and glossy. It is eaten on its own and used in cakes, ice cream, fillings and sweets."),
+      },
+      {
+        q: E("Can you make ube halaya from ube powder?"),
+        a: E("Yes. Producers can combine ube powder with liquid, sugar and fat and cook it out to the right texture. Set the powder-to-liquid ratio in pilot batches, because it decides the final texture."),
+      },
+      {
+        q: E("Why use ube powder instead of fresh ube at scale?"),
+        a: E("Powder arrives dry, fine and consistent, so you avoid peeling, boiling and mashing and the lot-to-lot variation of fresh tuber. It also makes dosing and colour easier to control."),
+      },
+      {
+        q: E("How do I keep the colour of ube halaya stable?"),
+        a: E("Agree a colour reference on an approved sample lot and check each batch against it. pH, heat and light change the shade, so test the colour after your full process and over the shelf life."),
+      },
+      {
+        q: E("Can I test ube powder before ordering in bulk?"),
+        a: E("Yes. We send samples first so you can approve colour, flavour and mixing behaviour in your own recipe before you commit to volume."),
+      },
+    ],
+    relatedProducts: ["ube"],
+  },
 ];
 
 // Every post: the hand-written ones above + Blog Studio posts from content/insights/*.json (existing slugs win).
