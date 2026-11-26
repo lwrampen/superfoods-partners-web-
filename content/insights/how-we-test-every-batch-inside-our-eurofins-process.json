@@ -1,0 +1,502 @@
+{
+  "slug": "how-we-test-every-batch-inside-our-eurofins-process",
+  "date": "2026-11-26",
+  "author": "Judith",
+  "category": "Company",
+  "image": "/blog/how-we-test-every-batch-inside-our-eurofins-process/header.jpg",
+  "imageAlt": "",
+  "imageWidth": 982,
+  "imageHeight": 996,
+  "relatedProducts": [
+    "ube"
+  ],
+  "keywords": {
+    "primary": {
+      "keyword": "test every batch inside eurofins",
+      "volume": null
+    },
+    "secondary": [
+      {
+        "keyword": "ube powder",
+        "volume": null
+      }
+    ]
+  },
+  "studio": {
+    "id": "mwxaapcq-410cec56"
+  },
+  "en": {
+    "title": "How we test every batch: inside our Eurofins process",
+    "metaTitle": "How we test every batch: inside our Eurofins process",
+    "metaDescription": "See how Superfoods Partners works with labs like Eurofins to test every batch before shipping and trace each lot to its certificate of analysis.",
+    "summary": "A sample can tell you a lot. Whisk it into your latte recipe and you can judge the colour, taste and texture for yourself. When the first pallet arrives, our quality team has a different question. Which test results belong to the powder on this pallet?",
+    "lede": "A sample can tell you a lot. Whisk it into your latte recipe and you can judge the colour, taste and texture for yourself. When the first pallet arrives, our quality team has a different question. Which test results belong to the powder on this pallet?",
+    "imageAlt": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**How we test every batch: inside our Eurofins process**"
+      },
+      {
+        "type": "paragraph",
+        "text": "A sample can tell you a lot. Whisk it into your latte recipe and you can judge the colour, taste and texture for yourself. When the first pallet arrives, our quality team has a different question. Which test results belong to the powder on this pallet?"
+      },
+      {
+        "type": "paragraph",
+        "text": "At Superfoods Partners, we test every lot before it ships. Eurofins is one of the independent laboratories we work with. Here’s how a batch goes from a named origin to a set of results your team can use."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Start with the lot"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take our organic ube powder from China. The batch reference tells you which lot you’re looking at. Two deliveries can share an origin and a grade, so that reference matters whether you’re approving your first order or receiving your fiftieth."
+      },
+      {
+        "type": "paragraph",
+        "text": "We keep the origin and its coordinates together with the batch reference in our Verification Record™. When you need to look up a delivery, that record points you to its certificate of analysis (COA)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What the lab checks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some things you can judge in the cup. Others take a laboratory. Our independent testing covers three questions for every batch."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Which pesticide residues does the screen pick up?** A multi-residue screen checks the sample for a range of pesticides in one panel. If your specification names a particular pesticide, look for it in the panel when you review the results.",
+          "**What levels of heavy metals are present?** We check for lead, arsenic, cadmium and mercury. Each has its own result, so your quality team can compare the relevant figure and unit with your purchasing specification.",
+          "**What does the microbiology show?** The panel includes a total plate count, counts for yeast and mould, and checks for pathogens. When reviewing the COA, read the counts and the pathogen results separately. They answer different questions."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How the powder performs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our batch checks include particle size, moisture and sensory characteristics, so your product developer can read those details alongside their own recipe trial. If the texture of a later delivery raises a question, the particle-size specification gives both teams somewhere specific to start."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What arrives with your shipment"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every batch comes with its full COA and Verification Record™. Start with the batch reference for the delivery you’ve received. Match it to the record, then use the COA reference to find the detailed results. The same record brings together the origin, test panel and applicable certifications."
+      },
+      {
+        "type": "paragraph",
+        "text": "Suppose a customer asks about cadmium in the ube powder you used for a particular production run. With the incoming lot reference in your production records, you can go straight to that lot’s COA and read the result. That’s what testing every batch makes possible, long after the pallet has been unpacked."
+      },
+      {
+        "type": "paragraph",
+        "text": "[Read more](https://www.superfoodspartners.com/verification) about our verification process."
+      }
+    ],
+    "faqs": []
+  },
+  "de": {
+    "title": "Jede Charge geprüft: Unser Eurofins-Prozess im Überblick",
+    "metaTitle": "Jede Charge im Eurofins-Labor testen: unser Prozess",
+    "metaDescription": "So arbeitet Superfoods Partners mit Laboren wie Eurofins: Jede Charge wird vor dem Versand getestet und über das Analysezertifikat (COA) rückverfolgbar.",
+    "summary": "Ein Muster verrät viel. Doch wenn die erste Palette eintrifft, stellt unser Qualitätsteam eine andere Frage: Welche Testergebnisse gehören zum Pulver auf dieser Palette?",
+    "lede": "Wir testen jede Charge, bevor sie versandt wird – unter anderem mit dem unabhängigen Labor Eurofins. Jede Charge erhält eine Chargenreferenz, über die Sie im Verification Record™ das zugehörige Analysezertifikat (COA) finden. So lässt sich jedes Ergebnis, etwa bei Ube-Pulver, der Palette zuordnen, die bei Ihnen eingetroffen ist.",
+    "imageAlt": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**Jede Charge geprüft: Unser Eurofins-Prozess im Überblick**"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ein Muster verrät viel. Rühren Sie es in Ihr Latte-Rezept ein, und Sie können Farbe, Geschmack und Textur selbst beurteilen. Wenn die erste Palette eintrifft, stellt unser Qualitätsteam eine andere Frage: Welche Testergebnisse gehören zum Pulver auf dieser Palette?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bei Superfoods Partners testen wir jede Charge, bevor sie versandt wird. Eurofins ist eines der unabhängigen Labore, mit denen wir zusammenarbeiten. So wird aus einer Charge mit benanntem Ursprung ein Satz Ergebnisse, den Ihr Team nutzen kann."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Am Anfang steht die Charge"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nehmen wir unser Bio-Ube-Pulver aus China. Die Chargenreferenz zeigt Ihnen, welche Charge vor Ihnen liegt. Zwei Lieferungen können denselben Ursprung und dieselbe Qualitätsstufe haben, daher ist diese Referenz wichtig – ob Sie Ihre erste Bestellung freigeben oder Ihre fünfzigste annehmen."
+      },
+      {
+        "type": "paragraph",
+        "text": "Wir führen den Ursprung samt Koordinaten zusammen mit der Chargenreferenz in unserem Verification Record™. Wenn Sie eine Lieferung nachschlagen möchten, verweist dieser Eintrag auf das zugehörige Analysezertifikat (COA)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Was das Labor prüft"
+      },
+      {
+        "type": "paragraph",
+        "text": "Manches lässt sich in der Tasse beurteilen. Anderes erfordert ein Labor. Unsere unabhängigen Tests beantworten für jede Charge drei Fragen."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Welche Pestizidrückstände erfasst das Screening?** Ein Multirückstandsscreening prüft die Probe in einem Panel auf eine Reihe von Pestiziden. Nennt Ihre Spezifikation ein bestimmtes Pestizid, suchen Sie bei der Durchsicht der Ergebnisse im Panel danach.",
+          "**Welche Schwermetallgehalte liegen vor?** Wir prüfen auf Blei, Arsen, Cadmium und Quecksilber. Jedes hat ein eigenes Ergebnis, sodass Ihr Qualitätsteam den relevanten Wert samt Einheit mit Ihrer Einkaufsspezifikation vergleichen kann.",
+          "**Was zeigt die Mikrobiologie?** Das Panel umfasst die Gesamtkeimzahl, Hefe- und Schimmelpilzzahlen sowie Prüfungen auf Krankheitserreger. Lesen Sie im COA die Keimzahlen und die Ergebnisse zu Krankheitserregern getrennt. Sie beantworten unterschiedliche Fragen."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Wie sich das Pulver verhält"
+      },
+      {
+        "type": "paragraph",
+        "text": "Unsere Chargenprüfungen umfassen Partikelgröße, Feuchtigkeit und sensorische Eigenschaften, damit Ihre Produktentwicklung diese Angaben neben dem eigenen Rezepttest lesen kann. Wirft die Textur einer späteren Lieferung Fragen auf, bietet die Spezifikation der Partikelgröße beiden Teams einen konkreten Ausgangspunkt."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Was mit Ihrer Lieferung eintrifft"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jede Charge wird mit ihrem vollständigen COA und Verification Record™ geliefert. Beginnen Sie mit der Chargenreferenz der erhaltenen Lieferung. Gleichen Sie sie mit dem Eintrag ab und finden Sie über die COA-Referenz die detaillierten Ergebnisse. Derselbe Eintrag führt Ursprung, Testpanel und geltende Zertifizierungen zusammen."
+      },
+      {
+        "type": "paragraph",
+        "text": "Angenommen, ein Kunde fragt nach Cadmium im Ube-Pulver, das Sie für einen bestimmten Produktionslauf verwendet haben. Mit der Referenz der eingegangenen Charge in Ihren Produktionsunterlagen gelangen Sie direkt zum COA dieser Charge und lesen das Ergebnis nach. Das ermöglicht die Prüfung jeder Charge – noch lange nachdem die Palette ausgepackt wurde."
+      },
+      {
+        "type": "paragraph",
+        "text": "[Mehr erfahren](https://www.superfoodspartners.com/verification) Sie über unseren Verifizierungsprozess."
+      }
+    ],
+    "faqs": []
+  },
+  "es": {
+    "title": "Cómo analizamos cada lote en Eurofins: así es nuestro proceso",
+    "metaTitle": "Análisis de cada lote en Eurofins: nuestro proceso",
+    "metaDescription": "Descubre cómo Superfoods Partners trabaja con laboratorios como Eurofins para analizar cada lote antes del envío y vincularlo a su certificado de análisis.",
+    "summary": "Una muestra dice mucho: la bates en tu receta de latte y juzgas color, sabor y textura. Cuando llega el primer palé, nuestro equipo de calidad se pregunta otra cosa: ¿qué resultados corresponden al polvo de este palé?",
+    "lede": "En Superfoods Partners analizamos cada lote antes de enviarlo, y Eurofins es uno de los laboratorios independientes con los que trabajamos. Cada lote de ube powder (polvo de ube) se vincula a su referencia de lote y a su certificado de análisis (COA), para que tu equipo sepa qué resultados corresponden al polvo de cada palé.",
+    "imageAlt": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**Cómo analizamos cada lote en Eurofins: así es nuestro proceso**"
+      },
+      {
+        "type": "paragraph",
+        "text": "Una muestra dice mucho. Bátela en tu receta de latte y podrás juzgar por ti mismo el color, el sabor y la textura. Cuando llega el primer palé, nuestro equipo de calidad se plantea otra pregunta: ¿qué resultados de análisis corresponden al polvo de este palé?"
+      },
+      {
+        "type": "paragraph",
+        "text": "En Superfoods Partners analizamos cada lote antes de enviarlo. Eurofins es uno de los laboratorios independientes con los que trabajamos. Así pasa un lote de un origen concreto a un conjunto de resultados que tu equipo puede utilizar."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Empieza por el lote"
+      },
+      {
+        "type": "paragraph",
+        "text": "Toma como ejemplo nuestro ube powder ecológico de China. La referencia de lote te indica qué lote tienes delante. Dos entregas pueden compartir origen y calidad, así que esa referencia importa tanto si apruebas tu primer pedido como si recibes el número cincuenta."
+      },
+      {
+        "type": "paragraph",
+        "text": "Guardamos el origen y sus coordenadas junto con la referencia de lote en nuestro Verification Record™. Cuando necesites consultar una entrega, ese registro te lleva a su certificado de análisis (COA)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qué comprueba el laboratorio"
+      },
+      {
+        "type": "paragraph",
+        "text": "Algunas cosas se juzgan en la taza. Otras requieren un laboratorio. Nuestros análisis independientes responden a tres preguntas en cada lote."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**¿Qué residuos de pesticidas detecta el cribado?** Un cribado multirresiduo analiza la muestra en busca de distintos pesticidas en un único panel. Si tu especificación nombra un pesticida concreto, búscalo en el panel al revisar los resultados.",
+          "**¿Qué niveles de metales pesados hay?** Analizamos plomo, arsénico, cadmio y mercurio. Cada uno tiene su propio resultado, de modo que tu equipo de calidad puede comparar la cifra y la unidad relevantes con tu especificación de compra.",
+          "**¿Qué muestra la microbiología?** El panel incluye el recuento total en placa, recuentos de levaduras y mohos, y análisis de patógenos. Al revisar el COA, lee por separado los recuentos y los resultados de patógenos: responden a preguntas distintas."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Cómo se comporta el polvo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nuestros controles de lote incluyen tamaño de partícula, humedad y características sensoriales, para que tu desarrollador de producto pueda leer esos datos junto con su propia prueba de receta. Si la textura de una entrega posterior plantea dudas, la especificación de tamaño de partícula ofrece a ambos equipos un punto de partida concreto."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Qué llega con tu envío"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cada lote incluye su COA completo y su Verification Record™. Empieza por la referencia de lote de la entrega recibida. Relaciónala con el registro y usa la referencia del COA para encontrar los resultados detallados. El mismo registro reúne el origen, el panel de análisis y las certificaciones aplicables."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagina que un cliente pregunta por el cadmio en el ube powder que usaste en una producción concreta. Con la referencia del lote entrante en tus registros de producción, puedes ir directamente al COA de ese lote y leer el resultado. Eso es lo que permite analizar cada lote, mucho después de desembalar el palé."
+      },
+      {
+        "type": "paragraph",
+        "text": "[Descubre más](/verification) sobre nuestro proceso de verificación."
+      }
+    ],
+    "faqs": []
+  },
+  "fr": {
+    "title": "Test de chaque lot chez Eurofins : notre processus de contrôle",
+    "metaTitle": "Test de chaque lot chez Eurofins : notre processus",
+    "metaDescription": "Découvrez comment Superfoods Partners fait tester chaque lot par des laboratoires comme Eurofins avant l'expédition et le relie à son certificat d'analyse.",
+    "summary": "Un échantillon en dit long : fouettez-le dans votre recette de latte et jugez vous-même la couleur, le goût et la texture. À l'arrivée de la première palette, notre équipe qualité se pose une autre question : quels résultats d'analyse correspondent à la poudre de cette palette ?",
+    "lede": "Chez Superfoods Partners, nous faisons tester chaque lot avant son expédition, notamment par Eurofins, l'un des laboratoires indépendants avec lesquels nous travaillons. Chaque lot de poudre d'ube est rattaché à une origine précise, à une référence de lot et à son certificat d'analyse (COA). Vous savez ainsi quels résultats correspondent à la poudre de votre palette.",
+    "imageAlt": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**Test de chaque lot chez Eurofins : notre processus de contrôle**"
+      },
+      {
+        "type": "paragraph",
+        "text": "Un échantillon en dit long. Fouettez-le dans votre recette de latte et vous pouvez juger vous-même la couleur, le goût et la texture. À l'arrivée de la première palette, notre équipe qualité se pose une autre question : quels résultats d'analyse correspondent à la poudre de cette palette ?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chez Superfoods Partners, nous faisons tester chaque lot avant son expédition. Eurofins est l'un des laboratoires indépendants avec lesquels nous travaillons. Voici comment un lot passe d'une origine identifiée à un ensemble de résultats que votre équipe peut exploiter."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tout commence par le lot"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prenons notre poudre d'ube bio de Chine. La référence du lot vous indique précisément de quel lot il s'agit. Deux livraisons peuvent avoir la même origine et la même qualité ; cette référence compte donc autant pour valider votre première commande que pour réceptionner votre cinquantième."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous conservons l'origine et ses coordonnées avec la référence du lot dans notre Verification Record™. Lorsque vous devez retrouver une livraison, ce dossier vous renvoie vers son certificat d'analyse (COA)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Ce que le laboratoire contrôle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Certaines choses se jugent en tasse. D'autres nécessitent un laboratoire. Nos analyses indépendantes répondent à trois questions pour chaque lot."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Quels résidus de pesticides le screening détecte-t-il ?** Un screening multirésidus recherche dans l'échantillon une série de pesticides en un seul panel. Si votre cahier des charges cite un pesticide précis, recherchez-le dans le panel lors de l'examen des résultats.",
+          "**Quels niveaux de métaux lourds sont présents ?** Nous contrôlons le plomb, l'arsenic, le cadmium et le mercure. Chacun a son propre résultat : votre équipe qualité peut ainsi comparer la valeur et l'unité concernées avec votre cahier des charges d'achat.",
+          "**Que montre la microbiologie ?** Le panel comprend un dénombrement total des germes aérobies, des dénombrements de levures et moisissures, et la recherche de pathogènes. En lisant le COA, examinez séparément les dénombrements et les résultats pathogènes : ils répondent à des questions différentes."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comment la poudre se comporte"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nos contrôles de lot incluent la granulométrie, l'humidité et les caractéristiques sensorielles, afin que votre développeur produit puisse lire ces informations en parallèle de ses propres essais de recette. Si la texture d'une livraison ultérieure soulève une question, la spécification de granulométrie offre aux deux équipes un point de départ concret."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Ce qui accompagne votre expédition"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chaque lot est accompagné de son COA complet et de son Verification Record™. Partez de la référence du lot de la livraison reçue. Rapprochez-la du dossier, puis utilisez la référence du COA pour retrouver les résultats détaillés. Ce même dossier réunit l'origine, le panel d'analyses et les certifications applicables."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imaginons qu'un client vous interroge sur le cadmium dans la poudre d'ube utilisée pour une production donnée. Avec la référence du lot entrant dans vos registres de production, vous accédez directement au COA de ce lot et vous lisez le résultat. C'est ce que permet le test de chaque lot, bien après le déballage de la palette."
+      },
+      {
+        "type": "paragraph",
+        "text": "[En savoir plus](https://www.superfoodspartners.com/verification) sur notre processus de vérification."
+      }
+    ],
+    "faqs": []
+  },
+  "pl": {
+    "title": "Jak testujemy każdą partię: proces współpracy z Eurofins",
+    "metaTitle": "Testowanie każdej partii w Eurofins: nasz proces",
+    "metaDescription": "Zobaczcie, jak Superfoods Partners współpracuje z laboratoriami takimi jak Eurofins, testuje każdą partię przed wysyłką i powiązuje ją ze świadectwem analizy.",
+    "summary": "Próbka wiele mówi, ale gdy dociera pierwsza paleta, nasz zespół jakości zadaje inne pytanie: które wyniki badań dotyczą proszku z tej palety?",
+    "lede": "Testujemy każdą partię przed wysyłką, we współpracy z niezależnymi laboratoriami, takimi jak Eurofins. Każda partia, np. proszku ube, ma swój numer referencyjny, który prowadzi do świadectwa analizy (COA) z wynikami dla pestycydów, metali ciężkich i mikrobiologii. Dzięki temu wiadomo, które wyniki badań dotyczą proszku na danej palecie.",
+    "imageAlt": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**Jak testujemy każdą partię: proces współpracy z Eurofins**"
+      },
+      {
+        "type": "paragraph",
+        "text": "Próbka może wiele powiedzieć. Po dodaniu jej do przepisu na latte można samodzielnie ocenić kolor, smak i konsystencję. Gdy dociera pierwsza paleta, nasz zespół jakości zadaje jednak inne pytanie: które wyniki badań należą do proszku z tej palety?"
+      },
+      {
+        "type": "paragraph",
+        "text": "W Superfoods Partners testujemy każdą partię przed wysyłką. Eurofins to jedno z niezależnych laboratoriów, z którymi współpracujemy. Oto, jak partia przechodzi drogę od określonego miejsca pochodzenia do zestawu wyników, z którego może korzystać Państwa zespół."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Punkt wyjścia: numer partii"
+      },
+      {
+        "type": "paragraph",
+        "text": "Weźmy nasz organiczny proszek ube (ube powder) z Chin. Numer referencyjny partii wskazuje, z którą partią Państwo mają do czynienia. Dwie dostawy mogą mieć to samo pochodzenie i ten sam gatunek, dlatego numer ma znaczenie, niezależnie od tego, czy zatwierdzają Państwo pierwsze zamówienie, czy odbierają pięćdziesiąte."
+      },
+      {
+        "type": "paragraph",
+        "text": "Miejsce pochodzenia wraz ze współrzędnymi przechowujemy razem z numerem referencyjnym partii w naszym Verification Record™. Gdy trzeba sprawdzić dostawę, ten rekord prowadzi do jej świadectwa analizy (COA)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Co sprawdza laboratorium"
+      },
+      {
+        "type": "paragraph",
+        "text": "Niektóre cechy można ocenić w filiżance. Inne wymagają laboratorium. Nasze niezależne badania obejmują dla każdej partii trzy pytania."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Jakie pozostałości pestycydów wykrywa badanie przesiewowe?** Wieloskładnikowy screening sprawdza próbkę pod kątem szeregu pestycydów w jednym panelu. Jeśli Państwa specyfikacja wymienia konkretny pestycyd, należy poszukać go w panelu podczas analizy wyników.",
+          "**Jakie są poziomy metali ciężkich?** Badamy obecność ołowiu, arsenu, kadmu i rtęci. Każdy z nich ma osobny wynik, więc Państwa zespół jakości może porównać odpowiednią wartość i jednostkę ze specyfikacją zakupową.",
+          "**Co pokazuje mikrobiologia?** Panel obejmuje ogólną liczbę drobnoustrojów (total plate count), liczbę drożdży i pleśni oraz badania w kierunku patogenów. Przeglądając COA, należy czytać liczby i wyniki dotyczące patogenów osobno. Odpowiadają na różne pytania."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Jak zachowuje się proszek"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nasze kontrole partii obejmują wielkość cząstek, wilgotność i cechy sensoryczne, dzięki czemu technolog produktu może zestawić te dane z własną próbą recepturową. Jeśli konsystencja kolejnej dostawy budzi pytania, specyfikacja wielkości cząstek daje obu zespołom konkretny punkt wyjścia."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Co otrzymują Państwo wraz z dostawą"
+      },
+      {
+        "type": "paragraph",
+        "text": "Każda partia jest dostarczana z pełnym COA i Verification Record™. Należy zacząć od numeru referencyjnego otrzymanej dostawy, dopasować go do rekordu, a następnie użyć numeru COA, aby znaleźć szczegółowe wyniki. Ten sam rekord łączy pochodzenie, panel badań i obowiązujące certyfikaty."
+      },
+      {
+        "type": "paragraph",
+        "text": "Załóżmy, że klient pyta o kadm w proszku ube użytym w konkretnej serii produkcyjnej. Dzięki numerowi referencyjnemu przyjętej partii w dokumentacji produkcyjnej można od razu przejść do COA tej partii i odczytać wynik. Tak właśnie działa testowanie każdej partii, także długo po rozpakowaniu palety."
+      },
+      {
+        "type": "paragraph",
+        "text": "[Dowiedz się więcej](https://www.superfoodspartners.com/verification) o naszym procesie weryfikacji."
+      }
+    ],
+    "faqs": []
+  },
+  "zh-Hant": {
+    "title": "逐批檢測:深入了解我們的 Eurofins 檢測流程",
+    "metaTitle": "逐批檢測 Eurofins 流程|紫山藥粉批次 COA 追溯",
+    "metaDescription": "了解 Superfoods Partners 如何與 Eurofins 等實驗室合作,出貨前逐批檢測紫山藥粉,並將每個批次追溯至對應的分析證書(COA)。",
+    "summary": "樣品能告訴你很多資訊。把它打進拿鐵配方裡,顏色、風味和口感一試便知。但第一批貨抵達時,我們的品質團隊關心的是另一個問題:這張棧板上的粉,對應的是哪一份檢測結果?",
+    "lede": "樣品能告訴你很多資訊。把它打進拿鐵配方裡,顏色、風味和口感一試便知。但第一批貨抵達時,我們的品質團隊關心的是另一個問題:這張棧板上的粉,對應的是哪一份檢測結果?在 Superfoods Partners,每個批次出貨前都會逐批檢測,Eurofins 就是我們合作的獨立實驗室之一。",
+    "imageAlt": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**逐批檢測:深入了解我們的 Eurofins 檢測流程**"
+      },
+      {
+        "type": "paragraph",
+        "text": "樣品能告訴你很多資訊。把它打進拿鐵配方裡,顏色、風味和口感一試便知。但第一批貨抵達時,我們的品質團隊關心的是另一個問題:這張棧板上的粉,對應的是哪一份檢測結果?"
+      },
+      {
+        "type": "paragraph",
+        "text": "在 Superfoods Partners,每個批次出貨前都會進行檢測。Eurofins 是我們合作的獨立實驗室之一。以下說明一個批次如何從明確的產地,變成貴團隊可以直接使用的一組檢測結果。"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "從批次開始"
+      },
+      {
+        "type": "paragraph",
+        "text": "以我們來自中國的有機紫山藥粉為例。批次編號會告訴你正在查看的是哪一個批次。兩次交貨可能產地和等級相同,所以無論你是在核准第一張訂單,還是收到第五十批貨,這個編號都很重要。"
+      },
+      {
+        "type": "paragraph",
+        "text": "我們把產地及其座標,連同批次編號一併記錄在 Verification Record™ 中。當你需要查詢某次交貨時,這份記錄會帶你找到對應的分析證書(COA)。"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "實驗室檢測哪些項目"
+      },
+      {
+        "type": "paragraph",
+        "text": "有些項目可以在杯中判斷,有些則需要實驗室。我們的獨立檢測針對每個批次涵蓋三個問題。"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**多重殘留篩檢會檢出哪些農藥殘留?** 多重殘留篩檢可在同一個檢測組合中,針對一系列農藥檢查樣品。如果你的規格指定了某種農藥,審閱結果時請在檢測組合中查找該項目。",
+          "**含有多少重金屬?** 我們檢測鉛、砷、鎘和汞。每項都有各自的結果,方便你的品質團隊將相關數值和單位與採購規格比對。",
+          "**微生物檢測顯示什麼?** 檢測組合包括菌落總數、酵母菌和黴菌計數,以及病原菌檢查。審閱 COA 時,請分開閱讀計數結果和病原菌結果,因為它們回答的是不同的問題。"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "粉末的實際表現"
+      },
+      {
+        "type": "paragraph",
+        "text": "我們的批次檢查包括粒徑、水分和感官特性,讓你的產品開發人員可以將這些資料與自己的配方試驗一併參考。如果後續交貨的口感出現疑問,粒徑規格能讓雙方團隊有一個明確的起點。"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "隨貨附上什麼"
+      },
+      {
+        "type": "paragraph",
+        "text": "每個批次都附有完整的 COA 和 Verification Record™。先從你收到的那批貨的批次編號開始,對照記錄,再用 COA 編號找到詳細結果。同一份記錄also整合了產地、檢測組合和適用的認證。"
+      },
+      {
+        "type": "paragraph",
+        "text": "假設客戶詢問你某次生產使用的紫山藥粉的鎘含量。只要你的生產記錄中有該批原料的進貨批次編號,就可以直接找到該批次的 COA 並查閱結果。這正是逐批檢測帶來的好處,即使棧板早已拆封,依然可以追溯。"
+      },
+      {
+        "type": "paragraph",
+        "text": "進一步了解我們的[驗證流程](/verification)。"
+      }
+    ],
+    "faqs": []
+  }
+}
