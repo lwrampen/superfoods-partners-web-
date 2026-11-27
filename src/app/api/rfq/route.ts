@@ -1,5 +1,5 @@
 import { Resend } from "resend";
-import { buildLeadEmail } from "@/lib/lead-email-sfp";
+import { buildRfqEmail } from "@/lib/rfqEmail";
 
 export const runtime = "nodejs";
 
@@ -72,7 +72,7 @@ export async function POST(req: Request) {
   );
   const from = process.env.RFQ_FROM_EMAIL || "Superfoods Partners <sourcing@superfoodspartners.com>";
 
-  const { subject, html, text } = buildLeadEmail(data, shop);
+  const { subject, html, text } = buildRfqEmail(data, "SFP", shop);
   const { error } = await new Resend(apiKey).emails.send({ from, to, replyTo: email, subject, html, text });
 
   if (error) {
