@@ -44,6 +44,7 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
 
   const logo = BRANDS[brand] ?? BRANDS.SFP;
   const waUrl = `https://wa.me/?text=${encodeURIComponent(whatsapp)}`;
+  const copyUrl = `${SITE}/rfq-copy.html#${Buffer.from(whatsapp, "utf8").toString("base64url")}`;
   const font = "Arial,Helvetica,sans-serif";
 
   const html = `
@@ -64,14 +65,11 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
             .join("")}
           ${message ? `<div style="margin-top:16px;padding-top:14px;border-top:1px solid #eceae2;white-space:pre-wrap">${esc(message)}</div>` : ""}
         </td></tr>
-        <tr><td style="padding:14px 20px 6px">
-          <a href="${waUrl}" style="display:inline-block;background:#16240f;color:#ffffff;font-weight:bold;font-size:14px;text-decoration:none;padding:11px 18px;border-radius:8px">Share on WhatsApp</a>
+        <tr><td style="padding:16px 20px 14px">
+          <a href="${copyUrl}" style="display:inline-block;background:#16240f;color:#ffffff;font-weight:bold;font-size:14px;text-decoration:none;padding:11px 18px;border-radius:8px;margin:0 8px 8px 0">Copy</a>
+          <a href="${waUrl}" style="display:inline-block;background:#ffffff;color:#16240f;font-weight:bold;font-size:14px;text-decoration:none;padding:10px 17px;border-radius:8px;border:1px solid #16240f;margin:0 8px 8px 0">Share on WhatsApp</a>
         </td></tr>
-        <tr><td style="padding:14px 20px 22px">
-          <div style="margin:0 0 6px;color:#565b4e;font-size:11px;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase">Copy text</div>
-          <div style="background:#f6f6f3;border:1px solid #eceae2;border-radius:8px;padding:12px 14px;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.5;color:#16240f;white-space:pre-wrap;word-break:break-word;-webkit-user-select:all;user-select:all">${esc(whatsapp)}</div>
-          <div style="margin-top:14px;color:#565b4e;font-size:11px">Reply to this email to reach ${esc(name)}.</div>
-        </td></tr>
+        <tr><td style="padding:2px 20px 22px;color:#565b4e;font-size:11px">Reply to this email to reach ${esc(name)}.</td></tr>
       </table>
     </div>`;
 
