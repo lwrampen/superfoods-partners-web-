@@ -9,24 +9,47 @@ const esc = (v: string) =>
 const SITE = "https://www.superfoodspartners.com";
 // Logo in white on the dark brand bar. Add a PMP entry here when PMP reuses this builder.
 const BRANDS: Record<string, { src: string; alt: string }> = {
-  SFP: { src: `${SITE}/logos/sfp-lockup-light.png`, alt: "Superfoods Partners" },
+  SFP: { src: `${SITE}/email/sfp-lockup-light.png`, alt: "Superfoods Partners" },
 };
 
-export function buildRfqEmail(data: RfqData, brand = "SFP") {
+const NEED: Record<string, string> = { samples: "Samples", pricelist: "Price list", advice: "Advice", shop: "Shop access" };
+
+const countryName = (code?: string) => {
+  if (!code) return undefined;
+  try {
+    return new Intl.DisplayNames(["en"], { type: "region" }).of(code) ?? code;
+  } catch {
+    return code;
+  }
+};
+
+export function buildRfqEmail(data: RfqData, brand = "SFP", shop = false) {
   const company = (data.company ?? "").trim();
   const name = (data.name ?? "").trim();
   const email = (data.email ?? "").trim();
-  const requestType =
+  const service =
     data.service === "blend" ? "Custom blend" : data.service === "packaging" ? "Custom packaging" : "";
+  const need = NEED[data.need ?? ""] ?? "";
+  const badge = shop ? "Shop access" : need || service || "Volume request";
+  const country = countryName(data.country) ?? data.market;
+  const address = [data.street, [data.zip, data.city].filter(Boolean).join(" ")]
+    .filter(Boolean)
+    .join(", ");
+  const vat = data.vat || (data.noVat ? "No VAT number – charge VAT" : "");
 
   const fields: [string, string | undefined][] = [
     ["Company", company],
     ["Name", name],
     ["Email", email],
+    ["Phone", data.phone],
+    ["Country", country],
+    ["Address", address],
+    ["VAT number", vat],
+    ["Looking for", need],
+    ["Type", service],
     ["Product", data.product],
+    ["Blend", data.blend],
     ["Volume", data.volume],
-    ["Market", data.market],
-    ["Type", requestType],
   ];
   const lines = fields
     .map(([k, v]) => [k, (v ?? "").trim()] as [string, string])
@@ -35,7 +58,7 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
 
   // WhatsApp-ready: *bold* labels, one field per line, no tables or HTML.
   const whatsapp = [
-    `*${brand} · New request*`,
+    `*${brand} · ${shop ? "Shop access request" : "New request"}*`,
     "",
     ...lines.map(([k, v]) => `*${k}:* ${v}`),
     ...(message ? ["", "*Message:*", message] : []),
@@ -54,7 +77,7 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
         <tr><td style="background:#16240f;padding:10px 20px">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
             <td><img src="${logo.src}" alt="${esc(logo.alt)}" height="30" style="display:block;height:30px;width:auto;border:0"></td>
-            <td align="right" style="font-family:${font};font-size:11px;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase;color:#8cc541">New request</td>
+            <td align="right" style="font-family:${font};font-size:11px;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase;color:#8cc541">${shop ? "Shop access" : "New request"}</td>
           </tr></table>
         </td></tr>
         <tr><td style="font-size:0;line-height:0;height:3px;background:#8cc541"></td></tr>
@@ -72,9 +95,7 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
       </table>
     </div>`;
 
-  const subject = `${
-    data.service === "blend" ? "Blend request" : data.service === "packaging" ? "Packaging request" : "RFQ"
-  } — ${company}${data.product ? ` · ${data.product}` : ""}`;
+  const subject = `${brand} ${shop ? "SHOP ACCESS request" : `· ${badge}`} — ${company || name}${data.product ? ` · ${data.product}` : ""}`;
 
   return { subject, html, text, whatsapp };
 }

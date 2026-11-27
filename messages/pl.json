@@ -606,7 +606,30 @@
     "prefillBlend": "Mieszanka na zamówienie",
     "prefillBlendNamed": "Mieszanka na zamówienie: {blend}",
     "prefillPackaging": "Opakowanie na zamówienie",
-    "volumePlaceholderService": "np. 250 kg (od 100 kg)"
+    "volumePlaceholderService": "np. 250 kg (od 100 kg)",
+    "stepNeed": "Czego potrzebujesz?",
+    "need": "Interesuje mnie",
+    "needs": {
+      "samples": "Próbki",
+      "pricelist": "Cennik",
+      "advice": "Doradztwo",
+      "shop": "Dostęp do sklepu"
+    },
+    "stepYou": "O Tobie",
+    "country": "Kraj",
+    "choose": "Wybierz…",
+    "stepMore": "Coś jeszcze?",
+    "optional": "opcjonalnie",
+    "shopNote": "Do dostępu do sklepu potrzebujemy adresu firmy (a w UE także numeru VAT). Sprawdzamy każde zgłoszenie i wysyłamy dane logowania e-mailem.",
+    "street": "Ulica i numer",
+    "zip": "Kod pocztowy",
+    "city": "Miasto",
+    "vat": "Numer VAT",
+    "successShop": "Dziękujemy. Sprawdzamy każde zgłoszenie dostępu do sklepu i wysyłamy dane logowania e-mailem.",
+    "noVat": "Nie mam numeru VAT – VAT zostanie naliczony",
+    "phone": "Telefon",
+    "products": "Produkty, które Cię interesują",
+    "notSure": "Jeszcze nie wiem"
   },
   "locationsMap": {
     "role": "Podmiot operacyjny",

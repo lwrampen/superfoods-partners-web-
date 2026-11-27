@@ -25,8 +25,8 @@ Volumes are DataforSEO, US, per month (see `docs/seo-sprints.md` for the full ta
 - [ ] `what-is-ube` — Extend toward "what is ube" (90.5k): clear lede for AI extraction, FAQPage. Update `what-is-ube-powder` or write a companion guide, whichever avoids cannibalisation.
 - [ ] `ube-flavor-guide` — What does ube taste like, and how to build the flavour in products (27.1k "ube flavor").
 - [ ] `buying-ube-powder-wholesale` — How to buy ube powder wholesale: spec, colour, COA, origin, packaging (ube powder bulk / wholesale / supplier: low volume, CPC $6–9).
-- [ ] `ube-powder-natural-colour-clean-label` — Ube as a natural violet: colour as an ingredient, what to specify and test. No health claims.
-- [ ] `ube-halaya-to-scale` — From ube halaya to scale: using ube powder in commercial dessert production.
+- [x] `ube-powder-natural-colour-clean-label` (published 2026-11-23 as `ube-powder-natural-purple-colour-clean-label`) — Ube as a natural violet: colour as an ingredient, what to specify and test. No health claims.
+- [x] `ube-halaya-to-scale` (published 2026-11-26 as `ube-halaya-to-scale-ube-powder-dessert-production`) — From ube halaya to scale: using ube powder in commercial dessert production.
 - [ ] `ube-milk-tea-and-rtd-drinks` — Ube milk tea, ube drink and RTD formulation (ube drink 3.6k, ube milk tea 1.3k, ube coffee 3.6k).
 - [ ] `ube-powder-vs-ube-extract-or-paste` — Which ube format for which job (powder vs fresh/paste), framed as "tell us the application". Only if the formats can be stated from `catalog.ts`.
 
