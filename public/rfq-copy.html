@@ -38,8 +38,14 @@
     t=new TextDecoder().decode(Uint8Array.from(s,function(c){return c.charCodeAt(0)}));
   }catch(e){}
   if(!t){document.getElementById("e").hidden=false;return}
-  // Show plain text (the *bold* markers are for WhatsApp only).
-  document.getElementById("t").textContent=t.replace(/\*/g,"");
+  // Labels (wrapped in *...*) are shown bold, values as normal text.
+  var pre=document.getElementById("t");
+  t.split("\n").forEach(function(line,i){
+    if(i)pre.appendChild(document.createTextNode("\n"));
+    var m=line.match(/^\*(.+?)\*(.*)$/);
+    if(m){var b=document.createElement("strong");b.textContent=m[1];pre.appendChild(b);pre.appendChild(document.createTextNode(m[2]))}
+    else pre.appendChild(document.createTextNode(line));
+  });
   document.getElementById("b").hidden=false;
   document.getElementById("w").href="https://wa.me/?text="+encodeURIComponent(t);
   var c=document.getElementById("c");

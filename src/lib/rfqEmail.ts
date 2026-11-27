@@ -33,7 +33,7 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
   // WhatsApp-ready: *bold* labels, one field per line, no tables or HTML.
   const whatsapp = [
     `*${brand} · New request*`,
-    `*${company}* · ${name}`,
+    `${company} · ${name}`,
     email,
     "",
     ...lines.map(([k, v]) => `*${k}:* ${v}`),
@@ -58,12 +58,12 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
         </td></tr>
         <tr><td style="font-size:0;line-height:0;height:3px;background:#8cc541"></td></tr>
         <tr><td style="padding:22px 20px 8px;color:#16240f;font-size:15px;line-height:1.55">
-          <div style="font-size:22px;font-weight:bold;line-height:1.25">${esc(company)}</div>
+          <div style="font-size:22px;line-height:1.25">${esc(company)}</div>
           <div style="margin:2px 0 16px;color:#565b4e">${esc(name)} · <a href="mailto:${esc(email)}" style="color:#16240f">${esc(email)}</a></div>
           ${lines
-            .map(([k, v]) => `<div style="margin:0 0 3px"><span style="color:#565b4e">${k}:</span> <strong>${esc(v)}</strong></div>`)
+            .map(([k, v]) => `<div style="margin:0 0 3px"><strong>${k}:</strong> ${esc(v)}</div>`)
             .join("")}
-          ${message ? `<div style="margin-top:16px;padding-top:14px;border-top:1px solid #eceae2;white-space:pre-wrap">${esc(message)}</div>` : ""}
+          ${message ? `<div style="margin-top:14px"><strong>Message:</strong></div><div style="white-space:pre-wrap">${esc(message)}</div>` : ""}
         </td></tr>
         <tr><td style="padding:16px 20px 14px">
           <a href="${copyUrl}" style="display:inline-block;background:#16240f;color:#ffffff;font-weight:bold;font-size:14px;text-decoration:none;padding:11px 18px;border-radius:8px;margin:0 8px 8px 0">Copy</a>
