@@ -19,6 +19,11 @@ export async function POST(req: Request) {
     return Response.json({ ok: false, error: "missing-fields" }, { status: 400 });
   }
 
+  // Sales needs the country of every request (Leonard, 27 Nov 2026): the form marks it required, and the API enforces it.
+  if (!data.country?.trim()) {
+    return Response.json({ ok: false, error: "missing-country" }, { status: 400 });
+  }
+
   // "Shop access" requests go to the ERP first: it checks the VAT number and emails Leonard only, with approve /
   // reject buttons (Leonard, 23 Nov 2026). Needs ERP_ACCESS_REQUEST_URL + ACCESS_REQUEST_SECRET; without them, or when
   // the ERP fails, the request is emailed like before but only to Leonard, marked as shop access.
