@@ -6,6 +6,12 @@ export type RfqData = Record<string, string | undefined>;
 const esc = (v: string) =>
   v.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+const SITE = "https://www.superfoodspartners.com";
+// Logo in white on the dark brand bar. Add a PMP entry here when PMP reuses this builder.
+const BRANDS: Record<string, { src: string; alt: string }> = {
+  SFP: { src: `${SITE}/logos/sfp-lockup-light.png`, alt: "Superfoods Partners" },
+};
+
 export function buildRfqEmail(data: RfqData, brand = "SFP") {
   const company = (data.company ?? "").trim();
   const name = (data.name ?? "").trim();
@@ -36,25 +42,37 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
 
   const text = `${whatsapp}\n\n—\nSent from the website. Reply to this email to reach ${name}.`;
 
+  const logo = BRANDS[brand] ?? BRANDS.SFP;
+  const waUrl = `https://wa.me/?text=${encodeURIComponent(whatsapp)}`;
+  const font = "Arial,Helvetica,sans-serif";
+
   const html = `
-    <div style="font-family:Arial,Helvetica,sans-serif;max-width:520px;color:#1E3D2A;font-size:15px;line-height:1.55">
-      <p style="margin:0;color:#B07A1E;font-size:11px;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase">${esc(brand)} · New request</p>
-      <h2 style="margin:4px 0 2px;font-size:22px">${esc(company)}</h2>
-      <p style="margin:0 0 18px;color:#5A5E53">${esc(name)} · <a href="mailto:${esc(email)}" style="color:#1E3D2A">${esc(email)}</a></p>
-      ${lines
-        .map(
-          ([k, v]) =>
-            `<p style="margin:0 0 4px"><span style="color:#5A5E53">${k}:</span> <strong>${esc(v)}</strong></p>`,
-        )
-        .join("")}
-      ${
-        message
-          ? `<p style="margin:18px 0 0;padding-top:14px;border-top:1px solid #E3EBD5;white-space:pre-wrap">${esc(message)}</p>`
-          : ""
-      }
-      <p style="margin:30px 0 6px;color:#5A5E53;font-size:11px;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase">Copy for WhatsApp</p>
-      <div style="background:#F4F6EF;border:1px solid #E3EBD5;border-radius:8px;padding:12px 14px;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word">${esc(whatsapp)}</div>
-      <p style="margin:18px 0 0;color:#5A5E53;font-size:11px">Reply to this email to reach ${esc(name)}.</p>
+    <div style="background:#f6f6f3;padding:20px 12px;font-family:${font}">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;margin:0 auto;background:#ffffff;border-radius:10px;overflow:hidden;border:1px solid #eceae2">
+        <tr><td style="background:#16240f;padding:10px 20px">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td><img src="${logo.src}" alt="${esc(logo.alt)}" height="30" style="display:block;height:30px;width:auto;border:0"></td>
+            <td align="right" style="font-family:${font};font-size:11px;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase;color:#8cc541">New request</td>
+          </tr></table>
+        </td></tr>
+        <tr><td style="font-size:0;line-height:0;height:3px;background:#8cc541"></td></tr>
+        <tr><td style="padding:22px 20px 8px;color:#16240f;font-size:15px;line-height:1.55">
+          <div style="font-size:22px;font-weight:bold;line-height:1.25">${esc(company)}</div>
+          <div style="margin:2px 0 16px;color:#565b4e">${esc(name)} · <a href="mailto:${esc(email)}" style="color:#16240f">${esc(email)}</a></div>
+          ${lines
+            .map(([k, v]) => `<div style="margin:0 0 3px"><span style="color:#565b4e">${k}:</span> <strong>${esc(v)}</strong></div>`)
+            .join("")}
+          ${message ? `<div style="margin-top:16px;padding-top:14px;border-top:1px solid #eceae2;white-space:pre-wrap">${esc(message)}</div>` : ""}
+        </td></tr>
+        <tr><td style="padding:14px 20px 6px">
+          <a href="${waUrl}" style="display:inline-block;background:#16240f;color:#ffffff;font-weight:bold;font-size:14px;text-decoration:none;padding:11px 18px;border-radius:8px">Share on WhatsApp</a>
+        </td></tr>
+        <tr><td style="padding:14px 20px 22px">
+          <div style="margin:0 0 6px;color:#565b4e;font-size:11px;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase">Copy text</div>
+          <div style="background:#f6f6f3;border:1px solid #eceae2;border-radius:8px;padding:12px 14px;font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.5;color:#16240f;white-space:pre-wrap;word-break:break-word;-webkit-user-select:all;user-select:all">${esc(whatsapp)}</div>
+          <div style="margin-top:14px;color:#565b4e;font-size:11px">Reply to this email to reach ${esc(name)}.</div>
+        </td></tr>
+      </table>
     </div>`;
 
   const subject = `${
