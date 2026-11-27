@@ -20,6 +20,9 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
     data.service === "blend" ? "Custom blend" : data.service === "packaging" ? "Custom packaging" : "";
 
   const fields: [string, string | undefined][] = [
+    ["Company", company],
+    ["Name", name],
+    ["Email", email],
     ["Product", data.product],
     ["Volume", data.volume],
     ["Market", data.market],
@@ -33,8 +36,6 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
   // WhatsApp-ready: *bold* labels, one field per line, no tables or HTML.
   const whatsapp = [
     `*${brand} · New request*`,
-    `${company} · ${name}`,
-    email,
     "",
     ...lines.map(([k, v]) => `*${k}:* ${v}`),
     ...(message ? ["", "*Message:*", message] : []),
@@ -58,10 +59,8 @@ export function buildRfqEmail(data: RfqData, brand = "SFP") {
         </td></tr>
         <tr><td style="font-size:0;line-height:0;height:3px;background:#8cc541"></td></tr>
         <tr><td style="padding:22px 20px 8px;color:#16240f;font-size:15px;line-height:1.55">
-          <div style="font-size:22px;line-height:1.25">${esc(company)}</div>
-          <div style="margin:2px 0 16px;color:#565b4e">${esc(name)} · <a href="mailto:${esc(email)}" style="color:#16240f">${esc(email)}</a></div>
           ${lines
-            .map(([k, v]) => `<div style="margin:0 0 3px"><strong>${k}:</strong> ${esc(v)}</div>`)
+            .map(([k, v]) => `<div style="margin:0 0 3px"><strong>${k}:</strong> ${k === "Email" ? `<a href="mailto:${esc(v)}" style="color:#16240f">${esc(v)}</a>` : esc(v)}</div>`)
             .join("")}
           ${message ? `<div style="margin-top:14px"><strong>Message:</strong></div><div style="white-space:pre-wrap">${esc(message)}</div>` : ""}
         </td></tr>
